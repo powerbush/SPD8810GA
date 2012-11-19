@@ -64,7 +64,7 @@
                     android:layout_height="0dip"
                     android:layout_weight="1.0"
                     style="?android:attr/buttonStyle"
-                    android:background="@drawable/contacts"
+                    android:background="@drawable/contacts_add"
                 />
             </LinearLayout>
 	</LinearLayout>
@@ -214,7 +214,7 @@
                         android:layout_width="0dip"
                         android:layout_height="0dip"
                         android:layout_weight="4" />
-
+                    <!--liaobz 1.button textSize 2.hide text_counter -->
                     <Button
                         android:id="@+id/send_button"
                         android:layout_marginLeft="5dip"
@@ -223,13 +223,14 @@
                         android:layout_weight="1.0"
                         style="?android:attr/buttonStyle"
                         android:nextFocusLeft="@+id/embedded_text_editor"
+                        android:textSize="30sp"
                         android:text="@string/send"
                     />
 
                     <TextView
                         android:id="@+id/text_counter"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
                         android:gravity="center_horizontal|bottom"
                         android:textColor="#ffffffff"
                         android:textSize="11sp"

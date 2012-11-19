@@ -20,7 +20,7 @@
 
 <com.android.mms.ui.ConversationListItem xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_height="80dip"
     android:background="@drawable/conversation_item_background_unread"
     android:paddingRight="10dip" >
 
@@ -59,7 +59,9 @@
     <TextView android:id="@+id/from"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:textAppearance="?android:attr/textAppearanceLargeInverse"
+        android:textSize="32sp"
+        android:textColor="#000"
         android:singleLine="true"
         android:layout_marginTop="6dip"
         android:layout_marginRight="5dip"
@@ -68,7 +70,7 @@
         android:layout_toRightOf="@id/avatar"
         android:layout_toLeftOf="@id/draft"
         android:layout_alignWithParentIfMissing="true"
-        android:ellipsize="end"  />
+        android:ellipsize="middle"  />
         
     <TextView android:id="@+id/date"
         android:layout_marginTop="2dip"
@@ -76,7 +78,7 @@
         android:layout_marginLeft="5dip"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmallInverse"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
         android:singleLine="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true" />
@@ -110,6 +112,7 @@
         android:layout_toRightOf="@id/avatar"
         android:layout_alignWithParentIfMissing="true"
         android:layout_toLeftOf="@id/date"
+        android:textColor="#666"
         android:ellipsize="end" />
 
 </com.android.mms.ui.ConversationListItem>

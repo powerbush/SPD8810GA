@@ -55,7 +55,7 @@
     <string name="menu_forward" msgid="9026858380050046756">"轉寄"</string>
     <string name="download" msgid="4488877642230207631">"下載"</string>
     <string name="downloading" msgid="1779557575565350637">"下載中"</string>
-    <string name="name_colon" msgid="7069560650889479120"><b>"<xliff:g id="NAME">%s</xliff:g>"</b>"： "</string>
+    <string name="name_colon" msgid="7069560650889479120"><b>"<xliff:g id="NAME">%s</xliff:g>"</b>""</string>
     <string name="inline_subject" msgid="4057621785274119260">"(主旨：<xliff:g id="SUBJECT">%s</xliff:g>)"</string>
     <string name="drm_protected_text" msgid="1396394157870730742">"* 受 DRM 保護的文字 *"</string>
     <string name="insufficient_drm_rights" msgid="6989074725969164383">"DRM 授權權限不足。"</string>

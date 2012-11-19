@@ -58,7 +58,7 @@
     <string name="menu_forward" msgid="9026858380050046756">"转发"</string>
     <string name="download" msgid="4488877642230207631">"下载"</string>
     <string name="downloading" msgid="1779557575565350637">"正在下载"</string>
-    <string name="name_colon" msgid="7069560650889479120"><b>"<xliff:g id="NAME">%s</xliff:g>"</b>"： "</string>
+    <string name="name_colon" msgid="7069560650889479120"><b>"<xliff:g id="NAME">%s</xliff:g>"</b>""</string>
     <string name="inline_subject" msgid="4057621785274119260">"&lt;主题：<xliff:g id="SUBJECT">%s</xliff:g>&gt;"</string>
     <string name="drm_protected_text" msgid="1396394157870730742">"* 受 DRM 保护的文本 *"</string>
     <string name="insufficient_drm_rights" msgid="6989074725969164383">"检测到 DRM 权限不足。"</string>
@@ -84,7 +84,7 @@
     <string name="add_video" msgid="7816866867806595144">"添加视频"</string>
     <string name="remove_video" msgid="5258603891528497799">"删除视频"</string>
     <string name="compose_title" msgid="558578836596816068">"撰写"</string>
-    <string name="to_hint" msgid="224029549150332986">"接收者"</string>
+    <string name="to_hint" msgid="224029549150332986">"收件人："</string>
     <string name="subject_hint" msgid="4296714962311604126">"主题"</string>
     <string name="add_attachment" msgid="7103751293360532684">"附件"</string>
     <string name="add_subject" msgid="7616134948428265870">"添加主题"</string>
@@ -95,7 +95,7 @@
     <string name="send" msgid="4589898724889248486">"发送"</string>
     <string name="mms" msgid="1587631213714914559">"彩信"</string>
     <string name="all_threads" msgid="2663426830306307194">"所有会话"</string>
-    <string name="type_to_compose_text_enter_to_send" msgid="7553404984078924360">"输入内容"</string>
+    <string name="type_to_compose_text_enter_to_send" msgid="7553404984078924360">"内容："</string>
     <string name="open_keyboard_to_compose_message" msgid="1668723196441776085">"打开键盘来写信息"</string>
     <string name="image_too_large" msgid="261880224164478061">"图片太大"</string>
     <string name="ask_for_automatically_resize" msgid="7657603662407738758">"发送前自动调整图片大小？"</string>

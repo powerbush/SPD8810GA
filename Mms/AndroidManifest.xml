@@ -99,6 +99,21 @@
             </intent-filter>
 
         </activity>
+
+        <activity android:name=".ui.AizhuSmsFrameActivity"
+        	  android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <receiver 
+		android:name=".ui.AizhuMmsReceiver">
+		<intent-filter >
+			<action android:name="android.provider.Telephony.SMS_RECEIVED"></action>
+                	<category android:name="android.intent.category.DEFAULT" />
+		</intent-filter>
+	</receiver>
         
         <activity android:name=".ui.ConversationList"
                   android:label="@string/app_label"

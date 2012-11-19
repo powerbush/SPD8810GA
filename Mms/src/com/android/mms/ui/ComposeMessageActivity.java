@@ -5689,7 +5689,7 @@ public class ComposeMessageActivity extends Activity
 						startActivity(createIntent(this, smsCursor.getLong(0)));
 						overridePendingTransition(R.anim.in_from_left, R.anim.out_to_right);
 						smsCursor.close();//关掉数据
-						finish();
+						//finish();
 					}
 				}
 				else if((mEndMotionX - mStartMotionX)< -100){//左移
@@ -5697,7 +5697,7 @@ public class ComposeMessageActivity extends Activity
 						startActivity(createIntent(this, smsCursor.getLong(0)));
 					 	overridePendingTransition(R.anim.in_from_right, R.anim.out_to_left);
 					 	smsCursor.close();//关掉数据
-				 		finish();
+				 		//finish();
 					}
 				}
 			}

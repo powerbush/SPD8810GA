@@ -148,9 +148,10 @@ public class MessageListItem extends LinearLayout implements
 	mSimIndicator = (ImageView) findViewById(R.id.sim_indicator);
         mWarningDownloadIndicator = (ImageView) findViewById(R.id.not_allow_download);
         mAvatar = (QuickContactBadge) findViewById(R.id.avatar);
-
+        mAvatar.setVisibility(View.GONE);
         ViewGroup.MarginLayoutParams badgeParams = (MarginLayoutParams)mAvatar.getLayoutParams();
-        final int badgeWidth = badgeParams.width + badgeParams.rightMargin + badgeParams.leftMargin;
+        //liaobz hide the avatar
+        final int badgeWidth = 0;//badgeParams.width + badgeParams.rightMargin + badgeParams.leftMargin;
 
         int lineHeight = mBodyTextView.getLineHeight();
         int effectiveBadgeHeight = badgeParams.height + badgeParams.topMargin - mBodyTextView.getPaddingTop();
@@ -168,7 +169,8 @@ public class MessageListItem extends LinearLayout implements
             }
 
             public int getLeadingMarginLineCount() {
-                return indentLineCount;
+                //via liaobz 图片挤压效果影响行数
+                return 1;
             }
         };
 
@@ -189,7 +191,8 @@ public class MessageListItem extends LinearLayout implements
         }
     }
     public void setTextSize(float textSize){
-        mBodyTextView.setTextSize(textSize);
+        //liaobz mms textSize
+        mBodyTextView.setTextSize(30);
     }
     public MessageItem getMessageItem() {
         return mMessageItem;
@@ -452,10 +455,11 @@ public class MessageListItem extends LinearLayout implements
                                        String subject, String timestamp, Pattern highlight,
                                        String contentType) {
         CharSequence template = mContext.getResources().getText(R.string.name_colon);
+        //liaobz hide name
         SpannableStringBuilder buf =
             new SpannableStringBuilder(TextUtils.replace(template,
                 new String[] { "%s" },
-                new CharSequence[] { contact }));
+                new CharSequence[] { "" }));
 
         boolean hasSubject = !TextUtils.isEmpty(subject);
         if (hasSubject) {
@@ -488,17 +492,17 @@ public class MessageListItem extends LinearLayout implements
         }
         // We always show two lines because the optional icon bottoms are aligned with the
         // bottom of the text field, assuming there are two lines for the message and the sent time.
-        buf.append("\n");
-        int startOffset = buf.length();
+        // liaobz appendAfter -> insertFront
+        buf.insert(0, "\n\n");
+        int endOffset = timestamp == null ? 0 : timestamp.length();
 
-        startOffset = buf.length();
-        buf.append(TextUtils.isEmpty(timestamp) ? " " : timestamp);
+        buf.insert(0, TextUtils.isEmpty(timestamp) ? " " : timestamp);
 
-        buf.setSpan(mTextSmallSpan, startOffset, buf.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-        buf.setSpan(mSpan, startOffset+1, buf.length(), 0);
+        buf.setSpan(mTextSmallSpan, 0, endOffset + 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        buf.setSpan(mSpan, 0+1, endOffset + 1, 0);
 
         // Make the timestamp text not as dark
-        buf.setSpan(mColorSpan, startOffset, buf.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        buf.setSpan(mColorSpan, 0, endOffset + 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         if (highlight != null) {
             Matcher m = highlight.matcher(buf.toString());
@@ -718,9 +722,10 @@ public class MessageListItem extends LinearLayout implements
     }
 
     private void drawLeftStatusIndicator(int msgBoxId, long status) {
+        // liaobz change mms background
         switch (msgBoxId) {
             case Mms.MESSAGE_BOX_INBOX:
-            	this.setBackgroundResource(R.drawable.listitem_background_lightblue);
+            	this.setBackgroundResource(R.drawable.bg_inbox_normal);
 //                mMsgListItem.setBackgroundResource(R.drawable.listitem_background_lightblue);
                 break;
 
@@ -728,15 +733,15 @@ public class MessageListItem extends LinearLayout implements
             case Sms.MESSAGE_TYPE_FAILED:
             case Sms.MESSAGE_TYPE_QUEUED:
             case Mms.MESSAGE_BOX_OUTBOX:
-                this.setBackgroundResource(R.drawable.listitem_background);
+                this.setBackgroundResource(R.drawable.bg_outbox_normal);
 //                mMsgListItem.setBackgroundResource(R.drawable.listitem_background);
                 break;
 
             default:
                 if(status == SmsManager.STATUS_ON_ICC_READ || status == SmsManager.STATUS_ON_ICC_UNREAD){
-                    this.setBackgroundResource(R.drawable.listitem_background_lightblue);
+                    this.setBackgroundResource(R.drawable.bg_inbox_normal);
                 }else{
-                    this.setBackgroundResource(R.drawable.listitem_background);
+                    this.setBackgroundResource(R.drawable.bg_outbox_normal);
 //                mMsgListItem.setBackgroundResource(R.drawable.listitem_background);
                 }
                 break;
