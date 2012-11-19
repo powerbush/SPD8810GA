@@ -60,7 +60,7 @@
                  android:layout_width="fill_parent" 
                  android:text="@string/Girl" 
                  android:textColor="@android:color/white"
-                 android:textSize="30dip"
+                 android:textSize="25dip"
                  > 
             </RadioButton> 
             <RadioButton 
@@ -68,7 +68,7 @@
                 android:layout_width="fill_parent" 
                 android:text="@string/Boy"
                 android:textColor="@android:color/white"
-                android:textSize="30dip">
+                android:textSize="25dip">
             </RadioButton> 
         </RadioGroup> 
      </LinearLayout>

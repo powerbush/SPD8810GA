@@ -10,6 +10,9 @@ import java.util.regex.Pattern;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 
+import com.az.Location.ACellInfo;
+import com.az.Location.AGps;
+import com.az.Location.AUtilTool;
 import com.az.Location.CellInfoManager;
 import com.az.Location.CellLocationManager;
 import com.az.Location.WifiInfoManager;
@@ -21,6 +24,8 @@ import com.az.Main.R;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.location.Location;
+import android.location.LocationManager;
 import android.os.IBinder;
 import android.telephony.TelephonyManager;
 import android.util.Log;
@@ -29,6 +34,18 @@ public class AlarmService extends Service{
 	
 	static boolean doLocationFlish = true;
 	//WifiPowerManager wifiPower = null;
+	//cathon xiong add
+	private Location location = null;
+	private LocationManager locationManager = null;
+	//private Context context = null;
+	ArrayList<ACellInfo> cellIds = null;
+	private AGps gps=null;
+	private final static String TAG= "cathon gpslog";
+	private Double longti;
+	private Double langti;
+	private boolean threadDisable=false; 
+	private String GpsAddress;
+	private String phoneAddress;
 	
 	@Override
 	public IBinder onBind(Intent intent) {
@@ -45,7 +62,9 @@ public class AlarmService extends Service{
 		
 		Log.i("life", "------------------AlarmService onStart ---------------");
 		
-		onLocation();
+		//onLocation();
+		GetgpsbymulcellIds();
+		
 		super.onStart(intent, startId);
 	}
 
@@ -81,7 +100,7 @@ public class AlarmService extends Service{
 					  
 					  new NetInterface().SendInfoToNet(LoginURIString,InfoParamss);
 					  
-					  stopSelf();
+					  //stopSelf();
 					  
 					  //doLocationFlish= true; 
 				}
@@ -89,5 +108,68 @@ public class AlarmService extends Service{
 			locationManager.start();
 		//}
 	}
+	
+	private void GetgpsbymulcellIds()
+	{
+		
+		//locationManager=(LocationManager)context.getSystemService(Context.LOCATION_SERVICE);
+		gps=new AGps(AlarmService.this);
+		cellIds=AUtilTool.init(AlarmService.this);
+		
+		Log.i(TAG, "GetgpsbymulcellIds begin");
+		
+		new Thread(new Runnable(){
+			@Override
+			public void run() {
+
+				Location location=gps.getLocation();
+				if(location==null){
+			//2.根据基站信息获取经纬度
+			try {
+				location = AUtilTool.callGear(AlarmService.this, cellIds);
+
+				if(location==null)
+				{
+					Log.i(TAG, "gpsalarm address null ");
+				}
+				else
+				{
+					longti = location.getLongitude();	//location.getLatitude().toString();
+					langti = location.getLatitude();
+					
+					String Longitude = longti.toString();
+					String Latitude =  langti.toString();
+					
+					GpsAddress =AUtilTool.getaddfromgoogle ;
+
+				  String LoginURIString = getString(R.string.PersonLocation);
+				  TelephonyManager telmgr = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+				  String imei = "IMEI:" + telmgr.getDeviceId();
+
+					  List <NameValuePair> InfoParamss = new ArrayList <NameValuePair>(); //Post运作传送变量必须用NameValuePair[]数组储存
+					  InfoParamss.add(new BasicNameValuePair("longitude", Longitude));
+					  InfoParamss.add(new BasicNameValuePair("latitude", Latitude));
+					  InfoParamss.add(new BasicNameValuePair("imei_key", imei));
+					  InfoParamss.add(new BasicNameValuePair("Address", GpsAddress));
+					  
+					  new NetInterface().SendInfoToNet(LoginURIString,InfoParamss);					  			
+				}
+	
+				//Log.i(TAG, "agps location "+ Longitude + " "+ Latitude + " " +GpsAddress);
+			} catch (Exception e) {
+				location=null;
+				e.printStackTrace();
+			}
+			if(location==null){
+				Log.i(TAG, "cell location null"); 
+			}
+		}		
+				
+	}
+	}).start();
+
+		
+	}
+	
 	
 }

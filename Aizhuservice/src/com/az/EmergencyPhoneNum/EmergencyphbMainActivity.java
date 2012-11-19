@@ -41,7 +41,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnCreateContextMenuListener;
 import android.view.Window;
-import android.view.WindowManager;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.Button;
 import android.widget.EditText;
@@ -141,16 +140,6 @@ public class EmergencyphbMainActivity extends Activity {
 								// finish();
 								setupListView();
 							}
-						})
-				.setNegativeButton(getString(R.string.azcancel),
-						new DialogInterface.OnClickListener() {
-
-							@Override
-							public void onClick(
-									DialogInterface dialoginterface, int i) {
-								dialoginterface.dismiss();
-								setupListView();
-							}
 						}).show();
 	}
 
@@ -201,8 +190,6 @@ public class EmergencyphbMainActivity extends Activity {
 			intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
 					| Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
 			startActivity(intent);
-			// Toast.makeText(this, this.getString(R.string.phbdelete),
-			// Toast.LENGTH_LONG).show();
 
 			break;
 
@@ -223,14 +210,10 @@ public class EmergencyphbMainActivity extends Activity {
 			listview.setAdapter(adapter);
 			//liaobz sync after delete 
 			syncEmergencyContact(adapter.getPhbAll());
-			Toast.makeText(this, this.getString(R.string.phbdelete) + "" + "",
-					Toast.LENGTH_LONG).show();
 
 			break;
 		case 3:
 			entry.delallphb();
-			Toast.makeText(this, this.getString(R.string.phbdelete),
-					Toast.LENGTH_LONG).show();
 			phblist.removeAll(phblist);
 			adapter = new EmergencyphbAdapter(this, phblist);
 			listview.setAdapter(adapter);
@@ -291,10 +274,10 @@ public class EmergencyphbMainActivity extends Activity {
 		// 上传数据到服务器
 		Thread thr = new Thread(new Runnable() {
 
-			@Override
-			public void run() {
-				// http://210.51.7.193/io/PersonEmergencyContact.aspx;
-				String UpURL = getString(R.string.PersonEmergencyContact);
+				@Override
+				public void run() {
+					// http://210.51.7.193/io/PersonEmergencyContact.aspx;
+					String UpURL = getString(R.string.PersonEmergencyContact);
 
 				HttpPost httpPost = new HttpPost(UpURL);
 				List<NameValuePair> params = new ArrayList<NameValuePair>();
@@ -302,53 +285,53 @@ public class EmergencyphbMainActivity extends Activity {
 				params.add(new BasicNameValuePair("contact_phone", emgercyphb));
 				Log("imei:" + imei + "/contact_phone:" + emgercyphb);
 
-				try {
-					httpPost.setEntity(new UrlEncodedFormEntity(params,
-							HTTP.UTF_8));
 					try {
-						HttpResponse httpResponse = new DefaultHttpClient()
-								.execute(httpPost);
-						Log("" + httpResponse.getStatusLine());
-						if (httpResponse.getStatusLine().getStatusCode() == 200) {
-							String httpResult = EntityUtils
-									.toString(httpResponse.getEntity());
-							if (httpResult.contains("true")) {
-								Message msg = Message.obtain();
-								msg.what = 1;
-								handler.sendMessage(msg);
+						httpPost.setEntity(new UrlEncodedFormEntity(params,
+								HTTP.UTF_8));
+						try {
+							HttpResponse httpResponse = new DefaultHttpClient()
+									.execute(httpPost);
+							Log("" + httpResponse.getStatusLine());
+							if (httpResponse.getStatusLine().getStatusCode() == 200) {
+								String httpResult = EntityUtils
+										.toString(httpResponse.getEntity());
+								if (httpResult.contains("true")) {
+									Message msg = Message.obtain();
+									msg.what = 1;
+									handler.sendMessage(msg);
+								} else {
+									Message msg = Message.obtain();
+									msg.what = 2;
+									handler.sendMessage(msg);
+								}
+
 							} else {
 								Message msg = Message.obtain();
 								msg.what = 2;
 								handler.sendMessage(msg);
 							}
 
-						} else {
+						} catch (ClientProtocolException e) {
+							e.printStackTrace();
+						} catch (HttpHostConnectException e) {
 							Message msg = Message.obtain();
 							msg.what = 2;
 							handler.sendMessage(msg);
+						} catch (IOException e) {
+							e.printStackTrace();
+						} catch (Exception e) {
+							e.printStackTrace();
 						}
-
-					} catch (ClientProtocolException e) {
-						e.printStackTrace();
-					} catch (HttpHostConnectException e) {
-						Message msg = Message.obtain();
-						msg.what = 2;
-						handler.sendMessage(msg);
-					} catch (IOException e) {
-						e.printStackTrace();
-					} catch (Exception e) {
+					} catch (UnsupportedEncodingException e) {
 						e.printStackTrace();
 					}
-				} catch (UnsupportedEncodingException e) {
-					e.printStackTrace();
-				}
 
-			}
-		});
-		thr.start();
-		dialogP = new ProgressDialog(EmergencyphbMainActivity.this);
-		dialogP.setTitle(getString(R.string.AzWaiting));
-		dialogP.setMessage(getString(R.string.AzUpdataIng));
+				}
+			});
+			thr.start();
+			dialogP = new ProgressDialog(EmergencyphbMainActivity.this);
+			dialogP.setTitle(getString(R.string.AzWaiting));
+			dialogP.setMessage(getString(R.string.AzUpdataIng));
 
 		dialogP.show();
 	}

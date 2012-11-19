@@ -1,5 +1,7 @@
 package com.az.PersonInfo;
 
+import java.util.Calendar;
+
 import android.util.Log;
 
 public class DateBuffer{
@@ -7,11 +9,20 @@ public class DateBuffer{
 	public int MonthValue=6;
 	public int DayOfMonthvalue=20;
 	public String mDate;
-	private static final String TAG = "Aizhuservice-Setting";
+	private static final String TAG = "Aizhuservice";
 	public DateBuffer (String strDate){
 		if(strDate.length() > 0){
 			SetDate(strDate);
+		}else{
+			Calendar c = Calendar.getInstance();
+			YearValue = c.get(Calendar.YEAR);
+			MonthValue = c.get(Calendar.MONTH);
+			DayOfMonthvalue = c.get(Calendar.DAY_OF_MONTH);
+			                   
 		}
+	}
+	public DateBuffer(int year, int month, int day){
+		SetDate (year, month, day);
 	}
 	public void SetDate (String strDate){
 		mDate = strDate;

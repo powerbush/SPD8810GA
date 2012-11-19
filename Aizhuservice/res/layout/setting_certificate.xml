@@ -79,7 +79,7 @@
 		   android:textColor="@android:color/black"		
 		   android:numeric="integer"
 		   android:maxLength="25"   	   
-		   android:textSize="30dip">
+		   android:textSize="25dip">
         </EditText>
     </RelativeLayout> 
     <RelativeLayout

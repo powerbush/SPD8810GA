@@ -2,7 +2,9 @@ package com.az.PersonInfo;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -43,6 +45,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
@@ -53,21 +56,30 @@ import com.az.Main.R;
 
 public class SettingActivity  extends Activity 
       implements View.OnClickListener {
-	private static final String TAG = "Aizhuservice-SettingActivity";
+	private static final String TAG = "Aizhuservice";
+	
+	public static final String FIRST_BOOT_ACTION_SETTING = "com.az.PersonInfo.boot";
+	
 	//各设置页面次序定义
-	private static final int setting_name_phone = 0;
-	private static final int setting_sex = 1;
-	private static final int setting_age_wei_hei = 2;
-	private static final int setting_constitution = 3;
-	private static final int setting_certificate = 4;
-	private static final int setting_address = 5;
-	private static final int setting_emergent = 6;
-	private static final int setting_insurance = 7;
-	private static final int setting_datatype_remark = 8;
-	private static final int setting_disease = 9;
-	private static final int setting_insurance_items = 10;
-
+	public static final int setting_name_phone = 0;
+	public static final int setting_sex = 1;
+	public static final int setting_age_wei_hei = 2;
+	public static final int setting_constitution = 3;
+	public static final int setting_certificate = 4;
+	public static final int setting_address = 5;
+	public static final int setting_emergent = 6;
+	public static final int setting_insurance = 7;
+	public static final int setting_datatype_remark = 8;
+	public static final int setting_disease = 9;
+	public static final int setting_insurance_items = 10;
+	
+	public static final String SETINFO_SUCC = "SUCC";
+	public static final String SETINFO_FAIL = "FAIL";
+	
 	private static final int INVALID = -1;
+	
+	private static String mAction = null;
+	
 	//定义ViewPage相关参数
 	private ViewPager mSettingViewPager;
 	private List<View> mSettingListViews;
@@ -125,34 +137,18 @@ public class SettingActivity  extends Activity
 	private DatePickerDialog.OnDateSetListener mDateSetListener;
 	
 	//layout9 setting_datatype_remark
-	private Spinner mSpinnerDataType;
+	//private Spinner mSpinnerDataType;
 	private EditText mETRemark;
 	
 	//layout10 setting_disease	
-	private CheckBox mCBoxDisease01;
-	private CheckBox mCBoxDisease02;
-	private CheckBox mCBoxDisease03;
-	private CheckBox mCBoxDisease04;
-	private CheckBox mCBoxDisease05;
-	private CheckBox mCBoxDisease06;
-	private CheckBox mCBoxDisease07;
-	private CheckBox mCBoxDisease08;
-	private CheckBox mCBoxDisease09;
-	private CheckBox mCBoxDisease10;
-	private CheckBox mCBoxDisease11;
-	private CheckBox mCBoxDisease12;
+	
+	private ListCheckAdapter mDiseaseAdapter;
+	private ListView mDiseaseListView;	
 	private String mStrDisease; 
 	
 	//layout11 setting_insurance_items
-	private CheckBox mCBoxInsurItems01;
-	private CheckBox mCBoxInsurItems02;
-	private CheckBox mCBoxInsurItems03;
-	private CheckBox mCBoxInsurItems04;
-	private CheckBox mCBoxInsurItems05;
-	private CheckBox mCBoxInsurItems06;
-	private CheckBox mCBoxInsurItems07;
-	private CheckBox mCBoxInsurItems08;
-	private CheckBox mCBoxInsurItems99;
+	private ListCheckAdapter mInsurItemsAdapter;
+	private ListView mInsurItemsListView;	
 	private String mStrInsurItems; 
 	
 	//信息录入提示对话框 按钮响应事件
@@ -160,6 +156,10 @@ public class SettingActivity  extends Activity
   		Log.i(TAG, "Enter onKeyDown");	
 	
 	    if (keyCode == KeyEvent.KEYCODE_BACK) {
+	    	if(mAction != null && mAction.equals(FIRST_BOOT_ACTION_SETTING)){
+	    		finish();
+	    		return true;
+	    	}
 			/*Exit();*/
 		    Intent intent=new Intent(this,MainActivity.class);
 		    startActivity(intent);
@@ -175,9 +175,12 @@ public class SettingActivity  extends Activity
 		super.onCreate(savedInstanceState);
 	    Log.i(TAG, "Enter SettingActivity::onCreate");
 	    
+	    try{
 		setContentView(R.layout.setting_main);
-		
-		//获得本地信息储存对象
+		mAction = this.getIntent().getStringExtra("setting_action");
+	    Log.i(TAG, "SettingActivity::onCreate mAction = " + mAction);
+	    
+	    //获得本地信息储存对象
 		mPerferences = getSharedPreferences("com.az.PersonInfo_preferences",Context.MODE_WORLD_READABLE);
 	    
 		mSettingPageAdapter = new SettingPagerAdapter();
@@ -324,8 +327,25 @@ public class SettingActivity  extends Activity
 		mBTInsurStar = (Button) layout8.findViewById(R.id.insuranceStart_key);
 		mBTInsurEnd = (Button) layout8.findViewById(R.id.insuranceEnd_key);
 		    
-		mDateBufInsurStar = new DateBuffer(mPerferences.getString("insuranceStart_key", ""));
-		mDateBufInsurEnd = new DateBuffer(mPerferences.getString("insuranceEnd_key", ""));
+	    String strStarDay = mPerferences.getString("insuranceStart_key", "");
+	    String strEndDay = mPerferences.getString("insuranceEnd_key", "");
+	    
+		Calendar c = Calendar.getInstance();
+		int yearValue = c.get(Calendar.YEAR);
+		int monthValue = c.get(Calendar.MONTH);
+		int dayOfMonthvalue = c.get(Calendar.DAY_OF_MONTH);
+		
+		if(strStarDay.equals("")){
+			mDateBufInsurStar = new DateBuffer(yearValue, monthValue, dayOfMonthvalue);
+		} else {
+			mDateBufInsurStar = new DateBuffer(strStarDay);
+		}
+		
+		if(strEndDay.equals("")){
+			mDateBufInsurEnd = new DateBuffer(yearValue + 1, monthValue, dayOfMonthvalue);
+		} else {
+			mDateBufInsurEnd = new DateBuffer(strEndDay);
+		}
 		
 		mDateSetListener = new DatePickerDialog.OnDateSetListener() { 
  	       public void onDateSet(DatePicker view, int year, int monthOfYear,  
@@ -367,6 +387,7 @@ public class SettingActivity  extends Activity
 		
 		//layout9 setting_datatype_remark
 		
+		/*
 		mSpinnerDataType = (Spinner) layout9.findViewById(R.id.
 				dataTyp_key);	
 		String strDataType = mPerferences.getString("dataType_entryname","");
@@ -377,6 +398,7 @@ public class SettingActivity  extends Activity
 				break;
 			}
 		}
+		*/
 		mETRemark = (EditText) layout9.findViewById(R.id.remark_key);		
 		
 		mETRemark.setText(mPerferences.getString("remark_key", ""));
@@ -386,152 +408,34 @@ public class SettingActivity  extends Activity
 		layout9.findViewById(R.id.button_datatype_next).setOnClickListener(this);
 		
 		//layout10 setting_disease		
-		mCBoxDisease01 = (CheckBox) layout10.findViewById(R.id.check_disease_01);
-		//mCBoxDisease01.setChecked(true);
-		mStrDisease = mPerferences.getString("diseaseTpye", "");
-		Log.i(TAG, " mStrDisease = " + mStrDisease);
-        
-		mCBoxDisease01.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {			   
-	   
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-		     Log.i(TAG, "Enter SettingDiseaseActivity::setDisease.onCheckedChanged isChecked = " + String.valueOf(isChecked));
-		     // TODO Auto-generated method stub
-		     if(mCBoxDisease01.isChecked())
-		     {
-		    	 
-		    	 mCBoxDisease11.setChecked(false);
-		     }		     
-		    }
-		   });
-		mCBoxDisease02 = (CheckBox) layout10.findViewById(R.id.check_disease_02);
-        
-		mCBoxDisease02.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {		     
-		        // TODO Auto-generated method stub
-		        if(mCBoxDisease02.isChecked()){		    	 
-		    	    mCBoxDisease11.setChecked(false);
-		        }
-		    }
-		});
 		
-		mCBoxDisease03 = (CheckBox) layout10.findViewById(R.id.check_disease_03);
-		mCBoxDisease03.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {		     
-	            // TODO Auto-generated method stub
-		        if(mCBoxDisease03.isChecked())
-		        {
-		    	    mCBoxDisease11.setChecked(false);
-		        }		     
-		    }
-		});
-		mCBoxDisease04 = (CheckBox) layout10.findViewById(R.id.check_disease_04);
-		mCBoxDisease04.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {		     
-	            // TODO Auto-generated method stub
-		        if(mCBoxDisease04.isChecked())
-		        {
-		    	    mCBoxDisease11.setChecked(false);
-		        }		     
-		    }
-		});
-		mCBoxDisease05 = (CheckBox) layout10.findViewById(R.id.check_disease_05);
-		mCBoxDisease05.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {		     
-	            // TODO Auto-generated method stub
-		        if(mCBoxDisease05.isChecked())
-		        {
-		    	    mCBoxDisease11.setChecked(false);
-		        }		     
-		    }
-		});
-		mCBoxDisease06 = (CheckBox) layout10.findViewById(R.id.check_disease_06);
-		
-		mCBoxDisease06.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {		     
-	            // TODO Auto-generated method stub
-		        if(mCBoxDisease06.isChecked())
-		        {
-		    	    mCBoxDisease11.setChecked(false);
-		        }		     
-		    }
-		});
-		mCBoxDisease07 = (CheckBox) layout10.findViewById(R.id.check_disease_07);
-		mCBoxDisease07.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {		     
-	            // TODO Auto-generated method stub
-		        if(mCBoxDisease07.isChecked())
-		        {
-		    	    mCBoxDisease11.setChecked(false);
-		        }		     
-		    }
-		});
-		mCBoxDisease08 = (CheckBox) layout10.findViewById(R.id.check_disease_08);
-		mCBoxDisease08.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {		     
-	            // TODO Auto-generated method stub
-		        if(mCBoxDisease08.isChecked())
-		        {
-		    	    mCBoxDisease11.setChecked(false);
-		        }		     
-		    }
-		});
-		mCBoxDisease09 = (CheckBox) layout10.findViewById(R.id.check_disease_09);
-		mCBoxDisease09.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {		     
-	            // TODO Auto-generated method stub
-		        if(mCBoxDisease09.isChecked())
-		        {
-		    	    mCBoxDisease11.setChecked(false);
-		        }		     
-		    }
-		});
-		mCBoxDisease10 = (CheckBox) layout10.findViewById(R.id.check_disease_10);
-		mCBoxDisease10.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {		     
-	            // TODO Auto-generated method stub
-		        if(mCBoxDisease10.isChecked())
-		        {
-		    	    mCBoxDisease11.setChecked(false);
-		        }		     
-		    }
-		});
-		mCBoxDisease11 = (CheckBox) layout10.findViewById(R.id.check_disease_11);
-		mCBoxDisease11.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {		     
-		        // TODO Auto-generated method stub
-		        if(mCBoxDisease11.isChecked())
-		        {
-		    	    mCBoxDisease12.setChecked(false);
-		    	    mCBoxDisease11.setChecked(true);
-				    mCBoxDisease10.setChecked(false);
-				    mCBoxDisease09.setChecked(false);
-				    mCBoxDisease08.setChecked(false);
-				    mCBoxDisease07.setChecked(false);
-				    mCBoxDisease06.setChecked(false);
-				    mCBoxDisease05.setChecked(false);
-				    mCBoxDisease04.setChecked(false);
-				    mCBoxDisease03.setChecked(false);
-				    mCBoxDisease02.setChecked(false);
-				    mCBoxDisease01.setChecked(false);
-		        }		     
-		    }
-		});
-		mCBoxDisease12 = (CheckBox) layout10.findViewById(R.id.check_disease_12);		
-		mCBoxDisease12.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {		     
-	            // TODO Auto-generated method stub
-		        if(mCBoxDisease12.isChecked())
-		        {
-		    	    mCBoxDisease11.setChecked(false);
-		        }		     
-		    }
-		});
-		initDiseaseView();
 		layout10.findViewById(R.id.button_disease_up).setOnClickListener(this);
 		layout10.findViewById(R.id.button_disease_next).setOnClickListener(this);
+		mStrDisease = mPerferences.getString("diseaseTpye", "");
 		
+		String [] diseaseList;
+        diseaseList = getResources().getStringArray(R.array.disease_entryvalues);
+        mDiseaseAdapter = new ListCheckAdapter(this); 
+        mDiseaseAdapter.init(diseaseList, setting_disease);
+        initDiseaseView();
+        mDiseaseListView =(ListView)SettingActivity.this.mSettingListViews.get(setting_disease).findViewById(R.id.list_disease);
+        mDiseaseListView.setAdapter(mDiseaseAdapter);
+ 		
 		//layout11 setting_insurance_items
+        layout11.findViewById(R.id.button_insu_item_up).setOnClickListener(this);
+		layout11.findViewById(R.id.button_insu_item_inputok).setOnClickListener(this);
 		
+		
+		mStrInsurItems = mPerferences.getString("insurance", "");
+		String [] insuranceItemsList;
+        insuranceItemsList = getResources().getStringArray(R.array.insurance_entryvalues);
+        mInsurItemsAdapter = new ListCheckAdapter(this); 
+        mInsurItemsAdapter.init(insuranceItemsList, setting_insurance_items);
+        initInsurItemsView();
+        mInsurItemsListView =(ListView)SettingActivity.this.mSettingListViews.get(setting_insurance_items).findViewById(R.id.list_insuranceitems);
+        mInsurItemsListView.setAdapter(mInsurItemsAdapter);
+        
+		/*
 		mCBoxInsurItems01 = (CheckBox) layout11.findViewById(R.id.check_insu_item_01);
 		mCBoxInsurItems02 = (CheckBox) layout11.findViewById(R.id.check_insu_item_02);
 		mCBoxInsurItems03 = (CheckBox) layout11.findViewById(R.id.check_insu_item_03);
@@ -541,13 +445,13 @@ public class SettingActivity  extends Activity
 		mCBoxInsurItems07 = (CheckBox) layout11.findViewById(R.id.check_insu_item_07);
 		mCBoxInsurItems08 = (CheckBox) layout11.findViewById(R.id.check_insu_item_08);
 		mCBoxInsurItems99 = (CheckBox) layout11.findViewById(R.id.check_insu_item_99);
-		mStrInsurItems = mPerferences.getString("insurance", ""); 
+		
+		*/ 
 		initInsurItemsView();
 		Log.i(TAG, "SharedPrefCommit mStrInsurItems = " + mStrInsurItems);
 
 		
-		layout11.findViewById(R.id.button_insu_item_up).setOnClickListener(this);
-		layout11.findViewById(R.id.button_insu_item_inputok).setOnClickListener(this);
+		
 		mSettingViewPager.setOnPageChangeListener(new OnPageChangeListener() {	
 			public void onPageSelected(int arg0) {
 				Log.d(TAG, "onPageSelected - " + arg0);
@@ -593,6 +497,9 @@ public class SettingActivity  extends Activity
 				
 			}
 		});
+	    }catch (Exception e){
+			e.printStackTrace();
+		}
 		
 		//初始化信息录入提示对话框
 		dialog = new ProgressDialog(this);
@@ -721,120 +628,123 @@ public class SettingActivity  extends Activity
     }
 	
 	public void initDiseaseView() {
-		if(mStrDisease.indexOf("11") != INVALID)
+		if(mStrDisease.indexOf("01") != INVALID)
 		{
-			mCBoxDisease11.setChecked(true);
+			mDiseaseAdapter.setSelectedMap(0, true);
 		} else {
-			if(mStrDisease.indexOf("01") != INVALID)
-			{
-				mCBoxDisease01.setChecked(true);
-			}
 			if(mStrDisease.indexOf("02") != INVALID)
 			{
-				mCBoxDisease02.setChecked(true);
+				mDiseaseAdapter.setSelectedMap(1, true);
 			}
 			if(mStrDisease.indexOf("03") != INVALID)
 			{
-				mCBoxDisease03.setChecked(true);
+				mDiseaseAdapter.setSelectedMap(2, true);
 			}
 			if(mStrDisease.indexOf("04") != INVALID)
 			{
-				mCBoxDisease04.setChecked(true);
+				mDiseaseAdapter.setSelectedMap(3, true);
 			}
 			if(mStrDisease.indexOf("05") != INVALID)
 			{
-				mCBoxDisease05.setChecked(true);
+				mDiseaseAdapter.setSelectedMap(4, true);
 			}
 			if(mStrDisease.indexOf("06") != INVALID)
 			{
-				mCBoxDisease06.setChecked(true);
+				mDiseaseAdapter.setSelectedMap(5, true);
 			}
 			if(mStrDisease.indexOf("07") != INVALID)
 			{
-				mCBoxDisease07.setChecked(true);
+				mDiseaseAdapter.setSelectedMap(6, true);
 			}
 			if(mStrDisease.indexOf("08") != INVALID)
 			{
-				mCBoxDisease08.setChecked(true);
+				mDiseaseAdapter.setSelectedMap(7, true);
 			}
 			if(mStrDisease.indexOf("09") != INVALID)
 			{
-				mCBoxDisease09.setChecked(true);
+				mDiseaseAdapter.setSelectedMap(8, true);
 			}
 			if(mStrDisease.indexOf("10") != INVALID)
 			{
-				mCBoxDisease10.setChecked(true);
+				mDiseaseAdapter.setSelectedMap(9, true);
+			}		
+			if(mStrDisease.indexOf("11") != INVALID)
+			{
+				mDiseaseAdapter.setSelectedMap(10, true);
 			}
-			
 			if(mStrDisease.indexOf("12") != INVALID)
 			{
-				mCBoxDisease12.setChecked(true);
+				mDiseaseAdapter.setSelectedMap(11, true);
 			}
 		}
 	}
 	public void initInsurItemsView() {
 	    if(mStrInsurItems.equals("01,02,03,04,05,06,07,08,")){
-	    	mCBoxInsurItems99.setChecked(true);
+	    	mInsurItemsAdapter.setSelectedMap(8,true);
 	    } else {
 	    	if(mStrInsurItems.indexOf("01") != INVALID){
-	    		mCBoxInsurItems01.setChecked(true);	    
+	    		mInsurItemsAdapter.setSelectedMap(0,true);	    
 	    	}
 	        if(mStrInsurItems.indexOf("02") != INVALID){
-	        	mCBoxInsurItems02.setChecked(true);
+	        	mInsurItemsAdapter.setSelectedMap(1,true);
 	        }
 	        if(mStrInsurItems.indexOf("03") != INVALID){
-	        	mCBoxInsurItems03.setChecked(true);	        	
+	        	mInsurItemsAdapter.setSelectedMap(2,true);     	
 	        }
 	        if(mStrInsurItems.indexOf("04") != INVALID){
-	        	mCBoxInsurItems04.setChecked(true);	        	
+	        	mInsurItemsAdapter.setSelectedMap(3,true);      	
 	        }
 	        if(mStrInsurItems.indexOf("05") != INVALID){
-	        	mCBoxInsurItems05.setChecked(true);	        	
+	        	mInsurItemsAdapter.setSelectedMap(4,true);     	
 	        }
 	        if(mStrInsurItems.indexOf("06") != INVALID){
-	        	mCBoxInsurItems06.setChecked(true);	        	
+	        	mInsurItemsAdapter.setSelectedMap(5,true);
 	        }
 	        if(mStrInsurItems.indexOf("07") != INVALID){
-	        	mCBoxInsurItems07.setChecked(true);	    
+	        	mInsurItemsAdapter.setSelectedMap(6,true);
 	        }
 	        if(mStrInsurItems.indexOf("08") != INVALID){
-	        	mCBoxInsurItems08.setChecked(true);	    
+	        	mInsurItemsAdapter.setSelectedMap(7,true);
 	        }
 	    } 
 	}
 	
 	public boolean setDiseaseInPut(){
-		if(mCBoxDisease11.isChecked()){
-			mStrDisease = "11,";
+		Map<Integer, Boolean> isSelected = mDiseaseAdapter.getSelectedMap();
+		if(isSelected.get(0)){
+			mStrDisease = "01,";
         }
         else{
-        	mStrDisease = (mCBoxDisease01.isChecked()? "01,":"")
-        			+ (mCBoxDisease02.isChecked()? "02,":"")
-        			+ (mCBoxDisease03.isChecked()? "03,":"")
-        			+ (mCBoxDisease04.isChecked()? "04,":"")
-        			+ (mCBoxDisease05.isChecked()? "05,":"")
-        			+ (mCBoxDisease06.isChecked()? "06,":"")
-        			+ (mCBoxDisease07.isChecked()? "07,":"")
-        			+ (mCBoxDisease08.isChecked()? "08,":"")
-        			+ (mCBoxDisease09.isChecked()? "09,":"")
-        			+ (mCBoxDisease10.isChecked()? "10,":"")
-        			+ (mCBoxDisease12.isChecked()? "12,":"");
+        	mStrDisease = (isSelected.get(1)? "02,":"")        			
+        			+ (isSelected.get(2)? "03,":"")
+        			+ (isSelected.get(3)? "04,":"")
+        			+ (isSelected.get(4)? "05,":"")
+        			+ (isSelected.get(5)? "06,":"")
+        			+ (isSelected.get(6)? "07,":"")
+        			+ (isSelected.get(7)? "08,":"")
+        			+ (isSelected.get(8)? "09,":"")
+        			+ (isSelected.get(9)? "10,":"")
+        			+ (isSelected.get(10)? "11,":"")
+        			+ (isSelected.get(11)? "12,":"");
+        			
         }
 		if(mStrDisease==""){
 			Toast.makeText(this, getString(R.string.AzDiseaseTpyeNotice), Toast.LENGTH_LONG).show();
 			return false;
 		}
+		
 		return true;
 	}
 	public boolean setInsurItemsInPut(){
-		if(mCBoxInsurItems99.isChecked()){
+		Map<Integer, Boolean> isSelected = mInsurItemsAdapter.getSelectedMap();
+		if(isSelected.get(isSelected.size() - 1)){
         	mStrInsurItems = "01,02,03,04,05,06,07,08,";
         }
         else{
-        	mStrInsurItems = (mCBoxInsurItems01.isChecked()? "01,":"")+(mCBoxInsurItems02.isChecked()? "02,":"")+
-        					(mCBoxInsurItems03.isChecked()? "03,":"")+(mCBoxInsurItems04.isChecked()? "04,":"")+
-        					(mCBoxInsurItems05.isChecked()? "05,":"")+(mCBoxInsurItems06.isChecked()? "06,":"")+
-        					(mCBoxInsurItems07.isChecked()? "07,":"")+(mCBoxInsurItems08.isChecked()? "08,":"");
+        	mStrInsurItems = (isSelected.get(0)? "01,":"")+(isSelected.get(1)? "02,":"")+
+        					(isSelected.get(2)? "03,":"")+(isSelected.get(3)? "04,":"")+
+        					(isSelected.get(4)? "05,":"")+(isSelected.get(5)? "06,":"")+
+        					(isSelected.get(6)? "07,":"")+(isSelected.get(7)? "08,":"");
         }
 		if(mStrInsurItems == ""){
 		    Toast.makeText(this, getString(R.string.AzInsuranceTpyeNotice), Toast.LENGTH_LONG).show();
@@ -864,7 +774,9 @@ public class SettingActivity  extends Activity
 	
 	public void UpOk(){
   		Log.i(TAG, "Enter UpOk");	
-	
+  		SharedPreferences.Editor mEditor = mPerferences.edit();
+		mEditor.putString("setinfo_flag_key",SETINFO_SUCC);
+		mEditor.commit();
 	    new AlertDialog.Builder(this).setTitle(getString(R.string.AzInformationNotice)).setMessage(getString(R.string.AzInfoUpOK)).setPositiveButton(getString(R.string.azconfirm), new DialogInterface.OnClickListener() {		
 		
 		    public void onClick(DialogInterface dialoginterface, int i) {
@@ -880,7 +792,14 @@ public class SettingActivity  extends Activity
 	
     }
 	private void UpFail(){
-  		Log.i(TAG, "Enter UpFail");			
+  		Log.i(TAG, "Enter UpFail");		
+  		String setFlag = mPerferences.getString("setinfo_flag_key", "");
+  		if(setFlag == null || setFlag.equals("")|| !setFlag.equals(SettingActivity.SETINFO_SUCC)){
+		    SharedPreferences.Editor mEditor = mPerferences.edit();
+			mEditor.putString("setinfo_flag_key",SETINFO_FAIL);
+			mEditor.commit();
+  		}
+		
 	    new AlertDialog.Builder(this).setTitle(getString(R.string.AzInformationNotice)).setMessage(getString(R.string.AzInfoUpErr)).setNegativeButton(getString(R.string.azcancel), new DialogInterface.OnClickListener() {
 			public void onClick(DialogInterface dialoginterface, int i) {
 			    // TODO Auto-generated method stub
@@ -933,9 +852,9 @@ public class SettingActivity  extends Activity
 			     
 			        mEditor.putString("insuranceStart_key",mBTInsurStar.getText().toString()); 			
 			        mEditor.putString("insuranceEnd_key",mBTInsurEnd.getText().toString());   
-		
-			        mEditor.putString("dataTyp_key",(mSpinnerDataType.getSelectedItem()==null)? "" 
-			        		: mSpinnerDataType.getSelectedItem().toString());
+			        
+			        //mEditor.putString("dataTyp_key",(mSpinnerDataType.getSelectedItem()==null)? "" 
+			        //		: mSpinnerDataType.getSelectedItem().toString());
 			        mEditor.putString("remark_key",mETRemark.getText().toString());			     
 			
 			        Log.i(TAG, "SharedPrefCommit mStrDisease = " + mStrDisease);
@@ -959,19 +878,23 @@ public class SettingActivity  extends Activity
 		
 		    protected void onPostExecute(String result) {			
 		    	dialog.dismiss();			
+		    	
 		    	if(result == getString(R.string.Succe)){				
-		    		if(do_sendInfoFlag){					
+		    		if(do_sendInfoFlag){
+		    			
 		    			UpOk();					
 		    			//Toast.makeText(SettingActivity.this, "上传数据成功", Toast.LENGTH_LONG).show();				
 		    		}				
-		    		else{					
+		    		else{			
 		    			UpFail();					
 		    			//Toast.makeText(SettingActivity.this, "上传数据失败", Toast.LENGTH_LONG).show();				
 		    		}			
 		    	}else {				
 		    		UpFail();				
 		    		//Toast.makeText(SettingActivity.this, "上传数据失败", Toast.LENGTH_LONG).show();			
-		    	}			
+		    	}		
+		    			
+		        
 		    	super.onPostExecute(result);		
 		    }		
 	    }.execute();
@@ -1069,7 +992,9 @@ public class SettingActivity  extends Activity
 				 
 		params.add(new BasicNameValuePair("insurance",mStrInsurItems));  
 		         
-		String datatype= mSpinnerDataType.getSelectedItem().toString();
+		/*
+		 String datatype= mSpinnerDataType.getSelectedItem().toString();
+		 
 		if(datatype == null){
 			datatype="";
 		}else{
@@ -1086,7 +1011,8 @@ public class SettingActivity  extends Activity
 			}
 		}
 		         
-		params.add(new BasicNameValuePair("dataTyp_key",datatype));  
+		params.add(new BasicNameValuePair("dataTyp_key",datatype));
+		*/  
 		params.add(new BasicNameValuePair("remark_key",mETRemark.getText().toString())); 
 		         
 		params.add(new BasicNameValuePair("diseaseTpye", mStrDisease));//身体状况

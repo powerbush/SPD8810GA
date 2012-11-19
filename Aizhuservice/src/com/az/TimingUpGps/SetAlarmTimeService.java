@@ -2,6 +2,10 @@ package com.az.TimingUpGps;
 
 
 import java.util.Calendar;
+
+import com.az.Main.MainActivity;
+import com.az.PersonInfo.SettingActivity;
+
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -9,13 +13,14 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.IBinder;
 import android.util.Log;
 
 
 public class SetAlarmTimeService extends Service{
-	
+	private static final String TAG = "Aizhuservice-SettingActivity";
 	public Context con;
 	public SQLiteDatabase db;
 	public AlarmManager an;
@@ -58,6 +63,29 @@ public class SetAlarmTimeService extends Service{
 	@Override
 	public void onStart(Intent intent, int startId) {
 		//Log.i("life", "Startservice∆Ù∂Ø¡À");
+
+		//first boot start SettingActivity
+		new Thread(){
+			public void run(){
+				try{
+					SharedPreferences perferences = getSharedPreferences("com.az.PersonInfo_preferences",Context.MODE_WORLD_READABLE);
+
+					String setFlag = perferences.getString("setinfo_flag_key", "");					
+					Log.i(TAG, "SettingService::onStart setFlag = " + setFlag);
+					if(setFlag == null || setFlag.equals("")|| !setFlag.equals(SettingActivity.SETINFO_SUCC)){
+						Intent activity=new Intent(SetAlarmTimeService.this,SettingActivity.class);
+						activity.putExtra("setting_action", SettingActivity.FIRST_BOOT_ACTION_SETTING);
+						activity.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+						startActivity(activity);
+					}		
+				}catch (Exception e){
+					e.printStackTrace();
+				}finally{
+					Log.d(TAG, " oncreate sendEmptyMessage finish");
+					}
+				}
+			}.start();
+		
 		setForeground(true);
 		/*receiver=new SMSBroadCastReceiver();
 		
@@ -102,7 +130,6 @@ public class SetAlarmTimeService extends Service{
 			PendingIntent pi=PendingIntent.getBroadcast(this, 0, alertIntent, 0);
 			
 			an=(AlarmManager) getSystemService(ALARM_SERVICE);
-			//liaobz 2min
 			an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 120000,pi);//600000
 			
 			Log.i("life", "------------------an new ---------------");
@@ -125,7 +152,6 @@ public class SetAlarmTimeService extends Service{
 				PendingIntent pi=PendingIntent.getBroadcast(SetAlarmTimeService.this, 0, alertIntent, 0);
 				
 					an=(AlarmManager) getSystemService(ALARM_SERVICE);
-					//liaobz 2min timezone change
 					an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 120000,pi);
 				
 			}
@@ -149,7 +175,6 @@ public class SetAlarmTimeService extends Service{
 				PendingIntent pi=PendingIntent.getBroadcast(SetAlarmTimeService.this, 0, alertIntent, 0);
 				
 					an=(AlarmManager) getSystemService(ALARM_SERVICE);
-					//liaobz 2min date change
 					an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 120000,pi);
 			}
 		}
@@ -168,7 +193,6 @@ public class SetAlarmTimeService extends Service{
 			PendingIntent pi=PendingIntent.getBroadcast(SetAlarmTimeService.this, 0, alertIntent, 0);
 			
 				an=(AlarmManager) getSystemService(ALARM_SERVICE);
-				//liaobz 2min time change
 				an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 120000,pi);
 			
 		}

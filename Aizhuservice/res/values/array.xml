@@ -116,4 +116,30 @@
 	<item>8气郁质（H型）</item>
 	<item>9特禀质（I型）</item>
 	</string-array>
+	
+	<string-array name="disease_entryvalues">
+		<item>1、健康</item>	
+	    <item>2、高血脂 </item>
+	    <item>3、高血脂压</item>
+	    <item>4、糖尿病 </item>
+	    <item>5、心脑血管</item>
+	    <item>6、心脏病 </item>
+	    <item>7、肝胆疾病 </item>
+	    <item>8、肾脏疾病 </item>
+	    <item>9、泌尿生殖系统 </item>
+	    <item>10、骨科疾病</item>
+	    <item>11、肠胃疾病 </item>
+	    <item>12、其他 </item>
+    </string-array>
+    <string-array name="insurance_entryvalues">
+		<item>咨询</item>
+	    <item>紧急救援</item>
+	    <item>陪检</item>
+	    <item>预约挂号</item>
+	    <item>转运</item>
+	    <item>重大疾病绿色通道</item>
+	    <item>出诊医生</item>
+	    <item>PET-CT</item>
+	    <item>所有服务项目</item>
+    </string-array>
 </resources>

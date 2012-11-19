@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string name="app_name">关爱行服务</string>
+    <string name="app_name"> 个人档案</string>
     <string name="emergencycontact">紧急联系人</string>
     <string name="emergencycontent">紧急信息</string>
     <string name="emergencycontactinput">添加</string>
@@ -87,7 +87,7 @@
     <string name="SettingUserName">用户姓名（必填）</string>
     <string name="SettingUserPhone">手机号码（必填）</string>
     <string name="SettingUserSex">性别：</string>
-    <string name="SettingUserAge">年龄（三位数）</string>
+    <string name="SettingUserAge">年龄</string>
     <string name="SettingUserHeight">身高（厘米）</string>
     <string name="SettingUserWeight">体重（公斤）</string>
     <string name="SettingUserEmergentName">紧急联系人</string>
@@ -108,7 +108,7 @@
     <string name="SettingUserDisease">身体状况（必填） </string>
     <string name="SettingUserDisease_01">1、肠胃疾病 </string>
     <string name="SettingUserDisease_02">2、高血脂 </string>
-    <string name="SettingUserDisease_03">2、高血脂压</string>
+    <string name="SettingUserDisease_03">3、高血脂压</string>
     <string name="SettingUserDisease_04">4、糖尿病 </string>
     <string name="SettingUserDisease_05">5、心脑血管</string>
     <string name="SettingUserDisease_06">6、心脏病 </string>
@@ -138,6 +138,7 @@
     <string name="PersonEmergencyContact">http://210.51.7.193/io/PersonEmergencyContact.aspx</string>
     <string name="PersonTongXunLu">http://210.51.7.193/io/PersonTongXunLu.aspx</string>
     <string name="PersonInfo">http://210.51.7.193/io/PersonInfo.aspx</string>
+    <string name="gpsmmserrorindc">由于信号不稳定,获取其地理位置信息时解析失败,请稍后再试!</string>
     <style name="CustomWindowTitleBackground"> 
     <item name="android:background">#565656</item>
 		</style>

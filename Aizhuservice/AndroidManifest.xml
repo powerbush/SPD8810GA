@@ -16,9 +16,7 @@
 		</receiver>
 		
 		<service android:persistent="true" android:name="com.az.TimingUpGps.SetAlarmTimeService" ></service>
-		
 		<receiver android:name="com.az.TimingUpGps.AlarmBroadCast"></receiver>
-		
 		<service android:name="com.az.TimingUpGps.AlarmService"></service>
 		
 		

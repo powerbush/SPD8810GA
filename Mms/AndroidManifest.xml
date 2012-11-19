@@ -69,7 +69,7 @@
                  android:exported="true" />
         <service android:name=".transaction.SmsCBReceiverService"
                  android:exported="true" />
-        <activity android:name=".ui.ConversationList"
+        <activity android:name=".ui.ConversationMainList"
                   android:label="@string/app_label"
                   android:configChanges="orientation|keyboardHidden"
                   android:launchMode="singleTop">
@@ -92,7 +92,28 @@
                 <action android:name="android.intent.action.missMms" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.intent.action.ConversationMainList" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
         </activity>
+        
+        <activity android:name=".ui.ConversationList"
+                  android:label="@string/app_label"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:launchMode="singleTop">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          
+        <activity android:name=".block.BlockSettingActivity"
+            android:theme="@style/userdefined">        
+        </activity>   
+
+        
         <activity android:name=".ui.CellBroadcastSmsActivity"
                   android:launchMode="singleTask"
                   android:label="@string/broadcast">
@@ -117,7 +138,7 @@
         <activity android:name=".ui.ComposeMessageActivity"
                   android:configChanges="orientation|keyboardHidden|locale"
                   android:windowSoftInputMode="stateHidden"
-                  android:launchMode="singleTop" >
+                  >
            <!-- fixed CR<NEWMS00107266> by luning at 11-09-09 begin -->           
              <intent-filter>
                 <action android:name="sprd.intent.action.VIEW" />

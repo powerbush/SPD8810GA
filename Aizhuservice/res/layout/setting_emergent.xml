@@ -53,7 +53,7 @@
 		   android:layout_below="@id/text_emergent_name"
 		   android:textColor="@android:color/black"
 		   android:maxLength="40"
-		   android:textSize="30dip">	        
+		   android:textSize="25dip">	        
         </EditText>
     </RelativeLayout>
     <RelativeLayout
@@ -81,7 +81,7 @@
 		   android:textColor="@android:color/black"
 		   android:numeric="integer"
 		   android:maxLength="20"
-		   android:textSize="30dip">	        
+		   android:textSize="25dip">	        
         </EditText>
     </RelativeLayout>    
     <RelativeLayout

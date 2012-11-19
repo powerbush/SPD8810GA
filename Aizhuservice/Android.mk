@@ -34,6 +34,8 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
 
+LOCAL_STATIC_JAVA_LIBRARIES := aizhuservicelib aizhuservicelibs aizhuservicelibt aizhuservicelibu aizhuservicelibv aizhuservicelibw
+
 LOCAL_SRC_FILES := $(call all-java-files-under,src)
 
 # TODO: Remove dependency of application on the test runner (android.test.runner)
@@ -47,6 +49,17 @@ LOCAL_PACKAGE_NAME := Aizhuservice
 LOCAL_CERTIFICATE := shared
 
 include $(BUILD_PACKAGE)
+##################################################
+include $(CLEAR_VARS)
+
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := aizhuservicelib:android-support-v4.jar \
+		aizhuservicelibs:log4j.jar \
+		aizhuservicelibt:mina-core-2.0.4.jar \
+		aizhuservicelibu:mina-filter-compression-2.0.0-M6.jar \
+		aizhuservicelibv:slf4j-api-1.4.2.jar \
+		aizhuservicelibw:slf4j-log4j12-1.4.2.jar
+
+include $(BUILD_MULTI_PREBUILT)
 
 # Use the following include to make our test apk.
 include $(call all-makefiles-under,$(LOCAL_PATH))

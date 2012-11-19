@@ -36,6 +36,10 @@ import com.android.mms.util.AddressUtils;
 import com.android.mms.util.DraftCache;
 import com.google.android.mms.pdu.PduHeaders;
 
+import android.content.SharedPreferences;//by lai
+import android.preference.PreferenceManager;//by lai
+
+
 /**
  * An interface for finding information about conversations and/or creating new ones.
  */
@@ -72,6 +76,8 @@ public class Conversation {
     private static final int READ           = 6;
     private static final int ERROR          = 7;
     private static final int HAS_ATTACHMENT = 8;
+
+    public static boolean MmsCheckPhoneNum=false; //by lai
 
 
     private final Context mContext;
@@ -242,6 +248,12 @@ public class Conversation {
      * were not in cache.
      */
     public static Conversation from(Context context, Cursor cursor) {
+
+	/*-------------------------by lai----------------------------*/
+	SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+	String MmsPhoneNum = preferences.getString("phone_num", "");
+	/*-------------------------by lai----------------------------*/
+		
         // First look in the cache for the Conversation and return that one. That way, all the
         // people that are looking at the cached copy will get updated when fillFromCursor() is
         // called with this cursor.
@@ -249,6 +261,18 @@ public class Conversation {
         if (threadId > 0) {
             Conversation conv = Cache.get(threadId);
             if (conv != null) {
+		/*-------------------------by lai----------------------------*/
+		String[] PhoneNums = conv.mRecipients.getNumbers();
+		String PhoneNum = PhoneNums[PhoneNums.length - 1];
+		if ("" == MmsPhoneNum || null == MmsPhoneNum) { 		
+			MmsCheckPhoneNum = false; 							
+		} else if (PhoneNum.equals(MmsPhoneNum) 				
+				|| PhoneNum.equals("+86" + MmsPhoneNum)) { 		
+			MmsCheckPhoneNum = true;
+		} else {
+			MmsCheckPhoneNum = false;
+		}
+		/*-------------------------by lai----------------------------*/
                 fillFromCursor(context, conv, cursor, false);   // update the existing conv in-place
                 return conv;
             }
