@@ -13,13 +13,23 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent" android:layout_height="fill_parent"
-	android:orientation="vertical">
-
+	android:orientation="vertical"
+	android:background="#505050">
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="1px" android:layout_weight="1"
+		android:fillViewport="true"
+		android:paddingLeft="6dip"
+		android:paddingRight="6dip">
+	<RelativeLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/rl01"
+        android:gravity="center_vertical"
     >
-
+	<!--  
         <ImageView android:id="@+id/account_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,13 +39,20 @@
             android:layout_centerVertical="true"
             android:src="@drawable/ic_launcher_contacts"
         />
+     -->
+        <ImageView android:layout_width="wrap_content"
+				android:layout_marginLeft="16dip" android:layout_height="wrap_content"
+				android:layout_margin="8dip" android:src="@drawable/sim_contact" 
+				android:id="@+id/account_img"
+				/>
 
         <TextView android:id="@+id/account_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/account_icon"
+            android:layout_toRightOf="@+id/account_img"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="29dip"
         />
 
     </RelativeLayout>
@@ -44,84 +61,75 @@
 	<View android:id="@+id/head_secondary_divider"
 		android:layout_below="@+id/number" android:layout_width="fill_parent"
 		android:layout_height="1px" android:background="?android:attr/listDivider" />
-	<ScrollView android:layout_width="fill_parent"
-		android:layout_height="1px" android:layout_weight="1"
-		android:fillViewport="true">
+	
 		<LinearLayout android:layout_width="fill_parent"
-			android:layout_height="wrap_content" android:orientation="vertical">
-			<ImageView android:layout_width="wrap_content"
-				android:layout_marginLeft="16dip" android:layout_height="wrap_content"
-				android:layout_margin="8dip" android:src="@drawable/sim_contact" 
-				android:id="@+id/account_img"
-				/>
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_below="@id/rl01"			
+			android:padding="5dip">
+			
 			<TextView android:layout_width="wrap_content"
 				android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
 				android:text="@string/conatcts_name">
 			</TextView>
 			<EditText android:id="@+id/name" android:layout_width="fill_parent"
-				android:layout_height="wrap_content" android:layout_marginLeft="8dip"
-				android:layout_marginBottom="6dip" android:layout_marginRight="20dip"
+				android:layout_height="wrap_content" 
+				android:layout_marginBottom="6dip" 
 				android:gravity="center_vertical" android:inputType="textPersonName|textCapWords"
 				android:hint="@string/ghostData_name" android:nextFocusDown="@id/number"
 				android:maxLength="14" />
 				<!-- modify by dory.zheng for NEWMS00123348 at 21-09 begin -->
-				<TextView android:layout_width="wrap_content"
+			<TextView android:layout_width="wrap_content"
 				android:id="@+id/phonenumber"
 				android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
-				android:text="@string/phone1">
+				android:text="@string/phone1"/>
 				<!-- 
 			<TextView android:layout_width="wrap_content"
 				android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
 				android:text="@string/phone1">
 				 -->
 				<!-- modify by dory.zheng for NEWMS00123348 at 21-09 end -->
-			</TextView>
 			<EditText android:id="@+id/number1" android:layout_width="fill_parent"
-				android:layout_height="wrap_content" android:layout_marginLeft="8dip"
-				android:layout_marginBottom="8dip" android:layout_marginRight="20dip"
+				android:layout_height="wrap_content" 
+				android:layout_marginBottom="8dip" 
 				android:gravity="center_vertical" android:inputType="phone"
 				android:hint="@string/ghostData_phone1" android:digits="@string/setting_digits"
 				android:nextFocusDown="@id/btn_done" />
 			<LinearLayout android:id="@+id/llnumber2" android:layout_width="fill_parent" android:orientation="vertical"
-				android:layout_height="wrap_content" android:visibility ="gone">
-			<TextView android:layout_width="wrap_content"
-				android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
-				android:text="@string/phone2">
-			</TextView>
-			<EditText android:id="@+id/number2" android:layout_width="fill_parent"
-				android:layout_height="wrap_content" android:layout_marginLeft="8dip"
-				android:layout_marginBottom="8dip" android:layout_marginRight="20dip"
-				android:gravity="center_vertical" android:inputType="phone"
-				android:hint="@string/ghostData_phone2" android:digits="@string/setting_digits"
-				android:nextFocusDown="@id/btn_done" 
-				/>
+				android:layout_height="wrap_content" android:visibility="gone">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+					android:text="@string/phone2"/>
+				<EditText android:id="@+id/number2" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:layout_marginBottom="8dip" 
+					android:gravity="center_vertical" android:inputType="phone"
+					android:hint="@string/ghostData_phone2" android:digits="@string/setting_digits"
+					android:nextFocusDown="@id/btn_done" />
 			</LinearLayout>
 			<LinearLayout android:id="@+id/llnumber3" android:layout_width="fill_parent" android:orientation="vertical"
-				android:layout_height="wrap_content" android:visibility ="gone">
-			<TextView android:layout_width="wrap_content"
-				android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
-				android:text="@string/phone3">
-			</TextView>
-			<EditText android:id="@+id/number3" android:layout_width="fill_parent"
-				android:layout_height="wrap_content" android:layout_marginLeft="8dip"
-				android:layout_marginBottom="8dip" android:layout_marginRight="20dip"
-				android:gravity="center_vertical" android:inputType="phone"
-				android:hint="@string/ghostData_phone3" android:digits="@string/setting_digits"
-				android:nextFocusDown="@id/btn_done" />
+				android:layout_height="wrap_content" android:visibility="gone">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+					android:text="@string/phone3" />
+				<EditText android:id="@+id/number3" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:layout_marginBottom="8dip" 
+					android:gravity="center_vertical" android:inputType="phone"
+					android:hint="@string/ghostData_phone3" android:digits="@string/setting_digits"
+					android:nextFocusDown="@id/btn_done" />
 			</LinearLayout>
 			<LinearLayout android:id="@+id/llnumber4" android:layout_width="fill_parent" android:orientation="vertical"
-				android:layout_height="wrap_content" android:visibility ="gone">
-			<TextView android:layout_width="wrap_content"
-				android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
-				android:text="@string/phone4">
-			</TextView>
-			<EditText android:id="@+id/number4" android:layout_width="fill_parent"
-				android:layout_height="wrap_content" android:layout_marginLeft="8dip"
-				android:layout_marginBottom="8dip" android:layout_marginRight="20dip"
-				android:gravity="center_vertical" android:inputType="phone"
-				android:hint="@string/ghostData_phone4" android:digits="@string/setting_digits"
-				android:nextFocusDown="@id/btn_done" />
-				</LinearLayout>
+				android:layout_height="wrap_content" android:visibility="gone">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+					android:text="@string/phone4" />
+				<EditText android:id="@+id/number4" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:layout_marginBottom="8dip" 
+					android:gravity="center_vertical" android:inputType="phone"
+					android:hint="@string/ghostData_phone4" android:digits="@string/setting_digits"
+					android:nextFocusDown="@id/btn_done" />
+			</LinearLayout>
 					<!--
 				<TextView android:layout_width="wrap_content"
 				android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
@@ -135,21 +143,22 @@
 				android:hint="@string/ghostData_nickname" android:digits="@string/setting_digits"
 				android:nextFocusDown="@id/btn_done" />
 				 -->
-				 <LinearLayout android:id="@+id/llemail" android:layout_width="fill_parent" android:orientation="vertical"
+			<LinearLayout android:id="@+id/llemail" android:layout_width="fill_parent" android:orientation="vertical"
 				android:layout_height="wrap_content" android:visibility ="gone">
 				<TextView android:layout_width="wrap_content"
-				android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
-				android:text="@string/concacts_email">
+					android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+					android:text="@string/concacts_email" />
 				
-			</TextView>
-			<EditText android:id="@+id/email" android:layout_width="fill_parent"
-				android:layout_height="wrap_content" android:layout_marginLeft="8dip"
-				android:layout_marginBottom="8dip" android:layout_marginRight="20dip"
-				android:gravity="center_vertical"
-				android:hint="@string/ghostData_concatct_email"
-				android:nextFocusDown="@id/btn_done" />
-				</LinearLayout>
-		</LinearLayout>
+				<EditText android:id="@+id/email" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:layout_marginBottom="8dip" 
+					android:gravity="center_vertical"
+					android:hint="@string/ghostData_concatct_email"
+					android:nextFocusDown="@id/btn_done" />
+			</LinearLayout>
+		</LinearLayout>		
+	
+	</RelativeLayout>
 	</ScrollView>
 	<View android:id="@+id/head_secondary_divider"
 		android:layout_below="@+id/number" android:layout_width="fill_parent"

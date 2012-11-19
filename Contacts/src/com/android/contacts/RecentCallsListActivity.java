@@ -800,7 +800,7 @@ public abstract class RecentCallsListActivity extends ListActivity
             // Set the text lines and call icon.
             // Assumes the call back feature is on most of the
             // time. For private and unknown numbers: hide it.
-            views.callView.setVisibility(View.VISIBLE);
+            views.callView.setVisibility(View.GONE);
 
             if (!TextUtils.isEmpty(name)) {
                 views.line1View.setText(name);
@@ -850,10 +850,10 @@ public abstract class RecentCallsListActivity extends ListActivity
             } else {
                 if (number.equals(CallerInfo.UNKNOWN_NUMBER)) {
                     number = getString(R.string.unknown);
-                    views.callView.setVisibility(View.INVISIBLE);
+                    views.callView.setVisibility(View.GONE);
                 } else if (number.equals(CallerInfo.PRIVATE_NUMBER)) {
                     number = getString(R.string.private_num);
-                    views.callView.setVisibility(View.INVISIBLE);
+                    views.callView.setVisibility(View.GONE);
                 } else if (number.equals(CallerInfo.PAYPHONE_NUMBER)) {
                     number = getString(R.string.payphone);
                 } else {

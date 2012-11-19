@@ -33,31 +33,61 @@
     android:layout_below="@id/phone_contact_name"
     android:text="@string/contact_phone_numbler"
     android:textColor="#FFFFFF"
+    android:singleLine="true"
     />
-  <com.android.contacts.ui.widget.DontPressWithParentButton 
-    android:id="@+id/phone_contact_edit_btn"
-    android:layout_height="wrap_content"
-    android:layout_width="fill_parent"
-    android:text="@string/editContact_title_edit"
-    android:textSize="28dip"
-    android:background="@drawable/btn_button_bg"
-    android:layout_marginLeft="15dip"
-    android:layout_marginRight="15dip"
-    android:layout_marginTop="10dip"
-    android:textColor="#FFFFFF"
-    android:layout_below="@id/phone_contact_numbler"
-    />
-  <com.android.contacts.ui.widget.DontPressWithParentButton 
-    android:id="@+id/phone_contact_call_btn"
-    android:layout_height="wrap_content"    
-    android:layout_width="fill_parent"
-    android:text="@string/title_call_via"
-    android:textSize="28dip"
-    android:background="@drawable/btn_confirm_bg"
-    android:layout_marginTop="10dip"
-    android:layout_marginLeft="15dip"
-    android:layout_marginRight="15dip"
-    android:textColor="#FFFFFF"
-    android:layout_below="@id/phone_contact_edit_btn"
-    />
+    <TableLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/phone_contact_numbler"
+      android:paddingLeft="15dip"
+      android:paddingRight="15dip"
+   	  android:layout_marginTop="10dip">
+    	<TableRow >
+    	  <com.android.contacts.ui.widget.DontPressWithParentButton 
+		    android:id="@+id/phone_contact_edit_btn"
+		    android:layout_height="wrap_content"
+		    android:layout_width="0dp"
+        android:layout_weight="1"
+		    android:text="@string/editContact_title_edit"
+		    android:textSize="28dip"
+		    android:background="@drawable/btn_button_bg"
+		    android:textColor="#FFFFFF"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="10dip"
+		    />
+		  <com.android.contacts.ui.widget.DontPressWithParentButton 
+		    android:id="@+id/phone_contact_add_btn"
+		    android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+		    android:text="@string/add_new_contact_label"
+		    android:textSize="28dip"
+		    android:background="@drawable/btn_button_bg"
+		    android:textColor="#FFFFFF"
+		    />
+  	  </TableRow>
+   	  <TableRow >
+		  <com.android.contacts.ui.widget.DontPressWithParentButton 
+		    android:id="@+id/phone_contact_call_btn"
+		    android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+		    android:text="@string/gallery_call"
+		    android:textSize="28dip"
+		    android:background="@drawable/btn_confirm_bg"
+		    android:textColor="#FFFFFF"
+        android:layout_marginRight="10dip"
+		    />
+		  <com.android.contacts.ui.widget.DontPressWithParentButton 
+		    android:id="@+id/phone_contact_sms_btn"
+		    android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+		    android:text="@string/send_message"
+		    android:textSize="28dip"
+		    android:background="@drawable/btn_confirm_bg"
+		    android:textColor="#FFFFFF"
+		    />
+       </TableRow>
+    </TableLayout>
 </RelativeLayout>

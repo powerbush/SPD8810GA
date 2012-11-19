@@ -1,46 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout 
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="horizontal" 
-	android:layout_width="match_parent"
-	android:layout_height="match_parent" 
-	android:background="@android:color/transparent">
-	<TableLayout 
-		android:layout_height="wrap_content"
-		android:layout_width="fill_parent">
-		<TableRow 
-			android:layout_height="wrap_content"
-			android:layout_width="fill_parent" 
-			android:gravity="bottom">
-			<ImageView 
-				android:layout_width="wrap_content" 
-				android:layout_height="wrap_content"
-				android:background="@drawable/msn" />
-			<TextView 
-				android:id="@+id/name_contact_db"
-				android:layout_height="wrap_content" 
-				android:layout_width="fill_parent"
-				android:textSize="20dp" 
-				android:textColor="@android:color/black"
-				android:text="@string/apnnamesec" />
-		</TableRow>
-		<TableRow 
-			android:layout_height="wrap_content"
-			android:layout_width="fill_parent">
-			<TextView 
-				android:layout_height="wrap_content"
-				android:layout_width="fill_parent" />
-			<TextView 
-				android:id="@+id/phone_content_db"
-				android:layout_height="wrap_content" 
-				android:layout_width="fill_parent"
-				android:textSize="20dp" 
-				android:textColor="@android:color/black"
-				android:phoneNumber="true" 
-				android:text="@string/apnnumber" />
-		</TableRow>
-	</TableLayout>
-
-
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingTop="15dp"
+  android:paddingBottom="10dp"
+  android:background="@drawable/list_view_bg"
+  android:descendantFocusability="blocksDescendants"
+  >
+    
+    <ImageView 
+    android:layout_width="72dp"
+    android:layout_height="72dp"
+    android:background="@drawable/avatar"
+    android:layout_marginTop="15dp"
+    />
+    <LinearLayout 
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    >
+	    <TextView 
+	    android:id="@+id/name_contact_db"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:textSize="20dp"
+	    android:textColor="@android:color/black"
+	    android:text="@string/apnnamesec"
+	    />
+	    <TextView 
+	    android:id="@+id/phone_content_db"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:textSize="20dp"
+	    android:textColor="#666"
+	    android:text="@string/apnnumber"
+	    />
+    </LinearLayout>
+    
+    
 </LinearLayout>
 

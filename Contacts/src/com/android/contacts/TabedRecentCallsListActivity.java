@@ -141,6 +141,7 @@ public class TabedRecentCallsListActivity extends TabActivity implements
                     android.R.id.title);
             tv.setTextColor(this.getResources().getColorStateList(
                     android.R.color.white));
+            tv.setTextSize(20);   //通话记录底部按钮的字体大小
             
             Log.d(TAG, "mTabWidget.getChildAt(i).getLayoutParams().height :  " +tv.getTextSize());
             tv.setPadding(0, 0, 0,(int) tv.getTextSize());

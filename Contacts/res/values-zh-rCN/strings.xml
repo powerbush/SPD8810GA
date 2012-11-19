@@ -96,7 +96,7 @@
     <string name="deleteConfirmation" msgid="811706994761610640">"将会删除此联系人。"</string>
     <string name="menu_done" msgid="796017761764190697">"完成"</string>
     <string name="menu_doNotSave" msgid="2174577548513895144">"取消"</string>
-    <string name="editContact_title_edit" msgid="7678695190666836093">"编辑联系人"</string>
+    <string name="editContact_title_edit" msgid="7678695190666836093">"编辑"</string>
     <string name="editContact_title_insert" msgid="9125600232291405757">"新建联系人"</string>
     <string name="label_phonetic_name" msgid="2288082649573927286">"拼音"</string>
     <string name="label_notes" msgid="8337354953278341042">"备注"</string>
@@ -734,10 +734,18 @@
     <string name="gallery_call">呼叫</string>
 
 
-    <!-- Add after merge start -->
+    <string name="cannot_edit_contact">不能编辑SIM卡联系人</string>
+    <string name="new_to_phone">新建到手机</string>
+    <string name="new_to_sim1">新建到SIM1</string>
+    <string name="new_to_sim2">新建到SIM2</string>
+    <string name="add_to_current_contact">添加到已有联系人</string>
+    <string name="jump_to_contact_list">列表</string>
+
+    
 
     <!-- add by gan -->
     <string name="contact_list_label">列表</string>
     <string name="contact_show_way">请选择查看方式</string>
+    <!-- Add after merge start -->
 
 </resources>

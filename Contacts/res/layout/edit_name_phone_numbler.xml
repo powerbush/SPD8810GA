@@ -55,6 +55,20 @@
       />
     
     <Button 
+      android:id="@+id/phone_contact_edit_btn_new"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:text="@string/contact_phone_contact_btn_ok"
+      android:textSize="28dip"
+      android:layout_weight="1"
+      android:background="@drawable/btn_confirm_bg"
+      android:layout_marginLeft="3dip"
+      android:layout_marginRight="3dip"
+      android:textColor="#FFFFFF"
+      android:visibility="gone"
+      />
+    
+    <Button 
       android:id="@+id/phone_contact_edit_btn_canel"
       android:layout_height="wrap_content"
       android:layout_width="fill_parent"

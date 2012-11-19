@@ -69,6 +69,18 @@
             />
     </LinearLayout>
 
+    <!-- 放在右上角 -->
+    <TextView android:id="@+id/upperTopSimTitle"
+              android:gravity="center_horizontal"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textSize="24sp"
+              android:singleLine="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentRight="true"
+              />
+
     <!-- The main block of info about the "primary" or "active" call -->
     <LinearLayout
         android:id="@+id/primaryCallInfo"
@@ -77,25 +89,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="18dip"
+        android:layout_marginTop="10dip"
         >
-
-        <TextView android:id="@+id/upperTopSimTitle"
-                  android:gravity="center_horizontal"
-                  android:textAppearance="?android:attr/textAppearanceLarge"
-                  android:textSize="24sp"
-                  android:singleLine="true"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  />
         <!-- "Upper title" at the very top of the CallCard. -->
         <TextView android:id="@+id/upperTitle"
                   android:textAppearance="?android:attr/textAppearanceLarge"
                   android:textSize="28sp"
-                  android:gravity="center_horizontal"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
-                  android:layout_marginBottom="10dip"
                   />
 
         <!-- "Person info": photo / name / number -->

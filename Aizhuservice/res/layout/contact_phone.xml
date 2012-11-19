@@ -4,7 +4,7 @@
   android:orientation="vertical"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:background="@drawable/bk">
+  android:background="@android:color/white">
   <Button 
   android:id="@+id/contact_phone_but_up"
   android:layout_width="fill_parent"

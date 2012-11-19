@@ -1212,6 +1212,8 @@ public class ContactsListActivity extends ListActivity implements View.OnCreateC
         // them when an A-Z headers is visible.
         list.setDividerHeight(0);
         list.setOnCreateContextMenuListener(this);
+        //去除拖动时的黑块
+        list.setCacheColorHint(Color.TRANSPARENT);
 
         mAdapter = new ContactItemListAdapter(this);
         setListAdapter(mAdapter);
@@ -1926,7 +1928,11 @@ public class ContactsListActivity extends ListActivity implements View.OnCreateC
                 return true;
             }
             case R.id.menu_add:
-                createSelectAccountDialog(mContext, null, false).show();
+                // by liaobz  jump to simple-add view
+                Intent newIntent = new Intent(this,GalleryPhoneEditActivity.class);
+                newIntent.putExtra("mode", true);
+                startActivity(newIntent);
+                //createSelectAccountDialog(mContext, null, false).show();
                 return true;
             case R.id.menu_delete:
                 displayContactsGroupDialog(item.getItemId());
@@ -4700,7 +4706,12 @@ public class ContactsListActivity extends ListActivity implements View.OnCreateC
                     //if()
                     // if called by email application and the people has email, we need to know if it is the usim
                     //waiting for dual sim interface  //dengjing
-                    createSelectAccountDialog(this, mNumber, true).show();
+                    //createSelectAccountDialog(this, mNumber, true).show();
+                    //modify by liaobz
+                    Intent newIntent = new Intent(this,GalleryPhoneEditActivity.class);
+                    newIntent.putExtra("mode", true);
+                    newIntent.putExtra("phone", mNumber);
+                    startActivity(newIntent);
                 }//add for dual sim end
                 else {
                     TelephonyManager t = (TelephonyManager) this.getSystemService(Context.TELEPHONY_SERVICE);
@@ -4802,9 +4813,13 @@ public class ContactsListActivity extends ListActivity implements View.OnCreateC
         } else if ((mMode & MODE_MASK_CREATE_NEW) == MODE_MASK_CREATE_NEW
                 && position == 0) {
             //jun for bugzilla 13723 & 13721
-            createSelectAccountDialog(mContext, null, false, SUBACTIVITY_NEW_CONTACT).show();
+            //createSelectAccountDialog(mContext, null, false, SUBACTIVITY_NEW_CONTACT).show();
             //Intent newContact = new Intent(Intents.Insert.ACTION, Contacts.CONTENT_URI);
             //startActivityForResult(newContact, SUBACTIVITY_NEW_CONTACT);
+            //modify by liaobz
+            Intent intent = new Intent(this,GalleryPhoneEditActivity.class);
+            intent.putExtra("mode", true);
+            startActivity(intent);
         } else if (mMode == MODE_JOIN_CONTACT && id == JOIN_MODE_SHOW_ALL_CONTACTS_ID) {
             mJoinModeShowAllContacts = false;
             startQuery();
@@ -6767,6 +6782,9 @@ public class ContactsListActivity extends ListActivity implements View.OnCreateC
             // Set the name
             cursor.copyStringToBuffer(nameColumnIndex, cache.nameBuffer);
             TextView nameView = view.getNameTextView();
+            //设置字体颜色、大???            nameView.setTextSize(32);
+            nameView.setTextColor(Color.BLACK);
+            
             int size = cache.nameBuffer.sizeCopied;
             if (size != 0) {
                 if (highlightingEnabled) {
@@ -6820,7 +6838,10 @@ public class ContactsListActivity extends ListActivity implements View.OnCreateC
                 } else {
                     viewToUse = view.getPhotoView();
                 }
-
+                //联系人头像下方的三点
+                viewToUse.setBackgroundDrawable(null);
+                viewToUse.setPadding(0, 0, 0, 0);
+                
                 final int position = cursor.getPosition();
                 mPhotoLoader.loadPhoto(viewToUse, photoId);
             }

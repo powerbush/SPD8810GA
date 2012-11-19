@@ -10,7 +10,7 @@
     <ImageView 
     android:layout_width="80dp"
     android:layout_height="80dp"
-    android:background="@drawable/msn"
+    android:background="@drawable/avatar"
     />
     <LinearLayout 
     android:layout_height="wrap_content"

@@ -215,6 +215,7 @@
         <activity android:name="ContactsListActivity"
             android:label="@string/contactsList"
 			android:clearTaskOnLaunch="true"
+			android:theme="@android:style/Theme.NoTitleBar"
 			android:screenOrientation="nosensor">
             <intent-filter>
                 <action android:name="com.android.contacts.action.LIST_DEFAULT" />
@@ -592,14 +593,17 @@
                 <!-- modify by dory.zheng for NEWMS00138007 end -->
 	     	</intent-filter>
 		</receiver>
-     <activity 
-          android:name=".GalleryContactPhoneActivity">
-     </activity>
-    	<activity android:name=".PhoneEditActivity"></activity>
-    	
-    	<activity android:name=".GalleryEmergencyPhoneActivity"></activity>
-    	
-    	<activity android:name=".ContactsGalleryActivity"></activity>
+
+        <activity android:name=".GalleryContactPhoneActivity"
+            android:theme="@style/activityTitlebar"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".GalleryPhoneEditActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".GalleryEmergencyPhoneActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ContactsGalleryActivity"
+            android:screenOrientation="portrait"></activity>
+        
     </application>
 
 

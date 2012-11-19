@@ -3,6 +3,9 @@ package com.android.contacts;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
+
+import com.android.contacts.CallDetailActivity.ViewEntry;
 
 import android.R.integer;
 import android.app.Activity;
@@ -16,6 +19,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 import android.graphics.Bitmap.CompressFormat;
+import android.graphics.BitmapFactory.Options;
+import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.os.Environment;
@@ -81,7 +86,7 @@ public class GalleryEmergencyAdapter extends BaseAdapter{
 				// TODO Auto-generated method stub
 				Intent intentnameIntent=new Intent(context,PhoneEditActivity.class);
 				
-				//��Ҫ���뵱ǰҳ�������ȥ��
+				//锟斤拷要锟斤拷锟诫当前页锟斤拷锟斤拷锟斤拷去锟斤拷
 				intentnameIntent.putExtra("name", gcEntry.getContactName());
 				intentnameIntent.putExtra("phone", gcEntry.getContactPhone());
 				
@@ -90,6 +95,7 @@ public class GalleryEmergencyAdapter extends BaseAdapter{
 
 		});
 		*/
+		((Button)v.findViewById(R.id.phone_contact_add_btn)).setVisibility(View.GONE);
 		((Button)v.findViewById(R.id.phone_contact_edit_btn)).setVisibility(View.GONE);
 		((Button)v.findViewById(R.id.phone_contact_call_btn)).setOnClickListener(new android.view.View.OnClickListener() {
 			
@@ -101,6 +107,22 @@ public class GalleryEmergencyAdapter extends BaseAdapter{
 				context.startActivity(intent);
 			}
 
+		});
+		((Button) v.findViewById(R.id.phone_contact_sms_btn))
+		.setOnClickListener(new OnClickListener() {
+			
+			List<ViewEntry> actions = new ArrayList<ViewEntry>();
+            
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+                Intent smsIntent = new Intent(Intent.ACTION_SENDTO,
+                        Uri.fromParts("sms", gcEntry.getContactPhone(), null));
+                actions.add(new ViewEntry(R.drawable.sym_action_sms,
+                        context.getString(R.string.menu_sendTextMessage), smsIntent));
+                context.startActivity(smsIntent);
+
+			}
 		});
 		phone_contact_imageView.setOnLongClickListener(new android.view.View.OnLongClickListener(){
 
@@ -115,7 +137,7 @@ public class GalleryEmergencyAdapter extends BaseAdapter{
 						// TODO Auto-generated method stub
 						if(i== 0 ){
 							Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-							//by liao ������Ƭ�����ַ getDataDirectory ()
+							//by liao 锟斤拷锟斤拷锟斤拷片锟斤拷锟斤拷锟街�getDataDirectory ()
 							intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(new File(Environment.getExternalStorageDirectory() + "/temp.jpg")));
 							((Activity) context).startActivityForResult(intent, gcEntry.getImageId());
 						}else if(i==1){
@@ -146,7 +168,9 @@ public class GalleryEmergencyAdapter extends BaseAdapter{
 
 		Cursor cursor=db.rawQuery("select * from emergencyinfo where contact_id="+gcEntry.getImageId(), null);
 		if(cursor!=null){
+			Log.i("gancuirong", "cursor_Emergency="+cursor);
 			while(cursor.moveToNext()){
+				Log.i("gancuirong", "cursor.moveToNext==");
 				//String pathString=cursor.getString(cursor.getColumnIndex("path_image"));
 				//phone_contact_imageView.setImageBitmap(BitmapFactory.decodeFile(pathString));
 				byte[] imageBytes=cursor.getBlob(cursor.getColumnIndex("image"));
@@ -170,7 +194,8 @@ public class GalleryEmergencyAdapter extends BaseAdapter{
 
 		
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
-		new BitmapFactory().decodeFile(path).compress(CompressFormat.JPEG, 100, out);
+		//new BitmapFactory().decodeFile(path).compress(CompressFormat.JPEG, 100, out);
+		getBitmap(path, 480, 640).compress(CompressFormat.JPEG, 100, out);
 		try {
 			out.flush();
 			out.close();
@@ -183,5 +208,19 @@ public class GalleryEmergencyAdapter extends BaseAdapter{
 		db.execSQL("delete from emergencyinfo where contact_id = " + String.valueOf(i));
 		db.insert("emergencyinfo", null, contentValues);
 		db.close();
+	}
+	
+	public Bitmap getBitmap(String path, int width, int height) {
+		Bitmap bm = null;
+		Options opts = new Options();
+		opts.inJustDecodeBounds = true;
+		bm = BitmapFactory.decodeFile(path, opts);
+		int xScale = opts.outWidth / width;// 计算横向的收缩比
+		int yScale = opts.outHeight / height;// 计算纵向的收缩比
+		int scale = xScale > yScale ? xScale : yScale;// 实际收缩比取二者中的大值
+		opts.inJustDecodeBounds = false;
+		opts.inSampleSize = scale;
+		bm = BitmapFactory.decodeFile(path, opts);
+		return bm;
 	}
 }

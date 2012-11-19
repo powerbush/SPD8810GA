@@ -22,11 +22,15 @@
 			android:gravity="center_vertical">
 			<TextView android:id="@android:id/text1"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:text="@string/ghostData_phone" android:textAppearance="?android:attr/textAppearanceLarge" />
+				android:text="@string/ghostData_phone" android:textAppearance="?android:attr/textAppearanceLarge" 
+				android:textColor="#000"
+				android:textSize="30dip"/>
 
 			<TextView android:id="@+id/numberdisplay"
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
-				android:layout_gravity="center_vertical" android:textAppearance="?android:attr/textAppearanceSmall" />
+				android:layout_gravity="center_vertical" android:textAppearance="?android:attr/textAppearanceSmall"
+				android:textColor="#333"
+				android:textSize="20dip"/>
 		</LinearLayout>
 		<ImageView android:id="@+id/call_icon" android:layout_width="30dip"
 			android:layout_height="30dip" android:layout_marginLeft="14dip"

@@ -30,7 +30,8 @@
     <application android:icon="@drawable/app_music"
         android:label="@string/musicbrowserlabel"
         android:taskAffinity="android.task.music"
-        android:allowTaskReparenting="true">
+        android:allowTaskReparenting="true"
+        android:theme="@style/sys_set_activity">
         <meta-data
             android:name="android.app.default_searchable"
             android:value="com.android.music.QueryBrowserActivity"
@@ -126,14 +127,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.android.music.ArtistAlbumBrowserActivity" android:configChanges="orientation|keyboardHidden" android:exported="false" >
+        <activity android:name="com.android.music.ArtistAlbumBrowserActivity" android:exported="false"  android:theme="@style/sys_set_activity" android:configChanges="orientation|keyboardHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.PICK" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="vnd.android.cursor.dir/artistalbum"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.android.music.AlbumBrowserActivity" android:configChanges="orientation|keyboardHidden" android:exported="false" >
+        <activity android:name="com.android.music.AlbumBrowserActivity" android:exported="false"  android:theme="@style/sys_set_activity" android:configChanges="orientation|keyboardHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.PICK" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -147,7 +148,7 @@
                 <data android:mimeType="vnd.android.cursor.dir/nowplaying"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.android.music.TrackBrowserActivity" android:configChanges="orientation|keyboardHidden" android:exported="true" >
+        <activity android:name="com.android.music.TrackBrowserActivity" android:exported="false"  android:theme="@style/sys_set_activity" android:configChanges="orientation|keyboardHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
                 <action android:name="android.intent.action.PICK" />
@@ -172,7 +173,7 @@
         <activity android:name="com.android.music.PlaylistBrowserActivity"
                 android:configChanges="orientation|keyboardHidden"
                 android:label="@string/musicbrowserlabel" 
-                android:exported="true" >
+                android:exported="true"  android:theme="@style/sys_set_activity">
             <intent-filter>
                 <action android:name="android.intent.action.PICK" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -188,7 +189,7 @@
             android:targetActivity="com.android.music.PlaylistBrowserActivity"
             android:label="@string/musicshortcutlabel"
             android:icon="@drawable/ic_launcher_shortcut_music_playlist"
-            android:exported="true" >
+            android:exported="true"  android:theme="@style/sys_set_activity">
 
             <intent-filter>
                 <action android:name="android.intent.action.CREATE_SHORTCUT" />
@@ -200,7 +201,7 @@
             android:taskAffinity="android.task.video"
             android:label="@string/videobrowserlabel"
             android:icon="@drawable/app_video"
-            android:exported="false" >
+            android:exported="false"  android:theme="@style/sys_set_activity">
             <intent-filter>
                 <action android:name="android.intent.action.PICK" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -215,7 +216,7 @@
 -->
         </activity>
         <activity android:name="com.android.music.MediaPickerActivity"
-                android:label="@string/mediapickerlabel" android:exported="false" >
+                android:label="@string/mediapickerlabel" android:exported="false"  android:theme="@style/sys_set_activity">
 <!--
             <intent-filter>
                 <action android:name="android.intent.action.PICK" />
@@ -239,7 +240,7 @@
 -->
         </activity>
         <activity android:name="com.android.music.MusicPicker"
-                android:label="@string/music_picker_title" android:exported="true" >
+                android:label="@string/music_picker_title" android:exported="true"  android:theme="@style/sys_set_activity">
             <!-- First way to invoke us: someone asks to get content of
                  any of the audio types we support. -->
             <intent-filter>

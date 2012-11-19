@@ -102,7 +102,8 @@ public class SetAlarmTimeService extends Service{
 			PendingIntent pi=PendingIntent.getBroadcast(this, 0, alertIntent, 0);
 			
 			an=(AlarmManager) getSystemService(ALARM_SERVICE);
-			an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 600000,pi);//600000
+			//liaobz 2min
+			an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 120000,pi);//600000
 			
 			Log.i("life", "------------------an new ---------------");
 		}	
@@ -124,7 +125,8 @@ public class SetAlarmTimeService extends Service{
 				PendingIntent pi=PendingIntent.getBroadcast(SetAlarmTimeService.this, 0, alertIntent, 0);
 				
 					an=(AlarmManager) getSystemService(ALARM_SERVICE);
-					an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 600000,pi);
+					//liaobz 2min timezone change
+					an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 120000,pi);
 				
 			}
 			
@@ -147,7 +149,8 @@ public class SetAlarmTimeService extends Service{
 				PendingIntent pi=PendingIntent.getBroadcast(SetAlarmTimeService.this, 0, alertIntent, 0);
 				
 					an=(AlarmManager) getSystemService(ALARM_SERVICE);
-					an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 600000,pi);
+					//liaobz 2min date change
+					an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 120000,pi);
 			}
 		}
 		
@@ -165,7 +168,8 @@ public class SetAlarmTimeService extends Service{
 			PendingIntent pi=PendingIntent.getBroadcast(SetAlarmTimeService.this, 0, alertIntent, 0);
 			
 				an=(AlarmManager) getSystemService(ALARM_SERVICE);
-				an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 600000,pi);
+				//liaobz 2min time change
+				an.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 120000,pi);
 			
 		}
 		

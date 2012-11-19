@@ -13,7 +13,8 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:id="@+id/card_root_view" android:orientation="vertical"
-	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#FEFEFC">
 	<LinearLayout android:id="@+id/banner"
 		android:layout_width="fill_parent" android:layout_height="wrap_content"
 		android:orientation="horizontal" android:background="@drawable/title_bar_medium"
@@ -35,7 +36,8 @@
     android:layout_height="match_parent"
     android:drawSelectorOnTop="false"
     android:scrollbarStyle="insideOverlay"
-    android:fadingEdgeLength="16dip" />
+    android:fadingEdgeLength="16dip"
+    android:cacheColorHint="#0000" />
 	<!--  
 	<LinearLayout android:id="@+id/mobile" android:visibility ="gone" 
 		android:layout_width="fill_parent"

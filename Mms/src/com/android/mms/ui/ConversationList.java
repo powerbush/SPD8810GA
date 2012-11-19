@@ -79,9 +79,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.telephony.TelephonyManager;
-
-import android.view.ViewGroup.LayoutParams;  //by lai
-
 /**
  * This activity provides a list view of existing conversations.
  */
@@ -142,19 +139,9 @@ public class ConversationList extends ListActivity
             LayoutInflater inflater = LayoutInflater.from(this);
             ConversationListItem headerView = (ConversationListItem)
                     inflater.inflate(R.layout.conversation_list_item, listView, false);
-			
-	    /*---------------------by lai----------------------------*/	
-	    headerView.setVisibility(View.GONE);
-            LayoutParams laParams=(LayoutParams)headerView.getLayoutParams();
-            laParams.height=1;//对该控件的布局参数做修改
-            headerView.setLayoutParams(laParams);//重新设定布局
-            /*---------------------by lai----------------------------*/	
-		   
             headerView.bind(getString(R.string.new_message),
                     getString(R.string.create_new_message));
             listView.addHeaderView(headerView, null, true);
-
-			
 
             listView.setOnCreateContextMenuListener(mConvListOnCreateContextMenuListener);
             listView.setOnKeyListener(mThreadListKeyListener);

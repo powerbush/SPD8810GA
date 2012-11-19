@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bk"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  		<ListView 
+  			android:id="@+id/listView" 
+  			android:layout_width="fill_parent" 
+  			android:layout_height="wrap_content" 
+  			android:drawSelectorOnTop="false"
+  			android:scrollbars="vertical"/>
+</LinearLayout>
+
+    <!-- android:colorBackgroundCacheHint="#00000000"  背景缓存色透明，避免拖动全鹿--> 
+    <!-- 
+  <LinearLayout
+  		android:id="@+id/listLinearLayout"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+  		android:layout_width="fill_parent">
+  </LinearLayout> -->
+  		<!-- 我们会自己定义listview的显示方式（在另外一个布局文件里边）不用默认的方式 如果自定义listview的显示方式这里这个 
+  		android:id="@id/android:list" 必须这样写 
+  		 -->
+  			<!-- android:drawSelectOnTop="false"此属性用来设置listview上的背景颜色会不会挡住（覆盖）内容
+  				如果这是为false就表示不会覆盖掉 ，这个大家拿例子测试一下效果就明白了
+  			 -->
+<!-- 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
@@ -17,21 +45,20 @@
 	    android:layout_height="wrap_content"
 	    android:orientation="vertical"
 	    android:layout_centerInParent="true"
-	    android:layout_weight="1.0"
-	    >
-	<ImageButton
-		android:id="@+id/imagebutton_my_information"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:background="@drawable/inputsms"
-		android:layout_centerInParent="true"/>
+	    android:layout_marginTop="5dip"
+	    android:layout_weight="1.0">
+	<ImageButton 
+		android:layout_height="80dip" 
+		android:background="@drawable/inputsms" 
+		android:layout_width="120dip" 
+		android:id="@+id/imagebutton_my_information">
+	</ImageButton>
 	<TextView
 		android:id="@+id/text_my_info"
 		android:layout_width="120dip"
 		android:layout_height="wrap_content"
 		android:text="@string/apnpersoniforinput"
 		android:textSize="20dip"
-		android:textColor="#03ff00"
 		android:gravity="center"
 		android:layout_below="@id/imagebutton_my_information"
 		android:layout_centerInParent="true">    
@@ -43,12 +70,12 @@
 	  	android:layout_height="wrap_content"
 	  	android:orientation="vertical"
 	  	android:layout_centerInParent="true"
-	  	android:layout_weight="1.0"
-	  	>
+	  	android:layout_marginTop="25dip"
+	  	android:layout_weight="1.0">
 	<ImageButton 
 		android:id="@+id/imagebutton_my_contact"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
+		android:layout_width="120dip"
+		android:layout_height="80dip"
 		android:background="@drawable/contact"
 		android:layout_below="@id/text_my_info"
 		android:layout_centerInParent="true"/>
@@ -59,7 +86,6 @@
 		android:layout_height="wrap_content"
 		android:text="@string/emergencycontact"
 		android:textSize="20dip"
-		android:textColor="#03ff00"
 		android:gravity="center"
 		android:layout_below="@id/imagebutton_my_contact"
 		android:layout_centerInParent="true">
@@ -67,8 +93,34 @@
 	 </LinearLayout>
     
     
-
+     <LinearLayout 
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:orientation="vertical"
+     	android:layout_centerInParent="true"
+     	android:layout_marginTop="25dip"
+     	android:layout_weight="1.0">
+	<ImageButton 
+		android:id="@+id/imagebutton_contact_phone"
+		android:layout_width="120dip"
+		android:layout_height="80dip"
+		android:background="@drawable/sms"
+		android:layout_below="@id/text_my_contact"
+		android:layout_centerInParent="true"
+	/>
+	<TextView
+  		android:id="@+id/text_my_contact_phone"
+  		android:layout_width="120dip"
+		android:layout_height="wrap_content"
+		android:text="@string/apnphmanage"
+		android:textSize="20dip"
+		android:gravity="center"
+		android:layout_below="@id/imagebutton_contact_phone"
+		android:layout_centerInParent="true">      
+  	</TextView>
+    </LinearLayout>
     
     
     </LinearLayout>
 </RelativeLayout>
+ -->

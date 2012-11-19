@@ -3,6 +3,7 @@ package com.az.Location;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Properties;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -13,6 +14,7 @@ import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import android.app.Service;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -23,11 +25,15 @@ import android.net.wifi.WifiManager;
 import android.os.Handler;
 import android.os.Message;
 import android.telephony.CellLocation;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.az.ContactsUpdata.ContactPhoneUp;
 import com.az.Location.UserTask;
 import com.az.Location.WifiInfoManager;
+import com.globalLock.location.Client;
+import com.globalLock.location.Device;
 
 public abstract class CellLocationManager {
 	public static int CHECK_INTERVAL = 15000;
@@ -59,10 +65,11 @@ public abstract class CellLocationManager {
 	private long timestamp;
 	private boolean waiting4WifiEnable;
 	private WifiInfoManager wifiManager;
-	
+
 	private WifiPowerManager wifiPower;
 
-	public CellLocationManager(Context context, CellInfoManager cellinfomanager, WifiInfoManager wifiinfomanager) {
+	public CellLocationManager(Context context,
+			CellInfoManager cellinfomanager, WifiInfoManager wifiinfomanager) {
 		receiver = new CellLocationManagerBroadcastReceiver();
 		this.context = context.getApplicationContext();
 		cellInfoManager = cellinfomanager;
@@ -88,11 +95,11 @@ public abstract class CellLocationManager {
 	public double longitude() {
 		return this.longitude;
 	}
-	
+
 	public String address() {
 		return this.address;
 	}
-	
+
 	public abstract void onLocationChanged();
 
 	public void pause() {
@@ -140,9 +147,11 @@ public abstract class CellLocationManager {
 		if (state <= STATE_IDLE) {
 			Log.i("CellLocationManager", "Starting...");
 			wifiPower = new WifiPowerManager(this.context);
-			wifiPower.acquire(); //打开wifi电源
-			context.registerReceiver(receiver, new IntentFilter(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
-			context.registerReceiver(receiver, new IntentFilter(WifiManager.WIFI_STATE_CHANGED_ACTION));
+			wifiPower.acquire(); // 打开wifi电源
+			context.registerReceiver(receiver, new IntentFilter(
+					WifiManager.SCAN_RESULTS_AVAILABLE_ACTION));
+			context.registerReceiver(receiver, new IntentFilter(
+					WifiManager.WIFI_STATE_CHANGED_ACTION));
 			looper = new MyLooper();
 			state = STATE_READY;
 			paused = false;
@@ -155,7 +164,7 @@ public abstract class CellLocationManager {
 
 	public void stop() {
 		if (state > STATE_IDLE) {
-			 wifiPower.release();//关掉wifi电源
+			wifiPower.release();// 关掉wifi电源
 			context.unregisterReceiver(receiver);
 			debug("CELL LOCATION STOP");
 			looper = null;
@@ -170,9 +179,10 @@ public abstract class CellLocationManager {
 	public long timestamp() {
 		return this.timestamp;
 	}
-	
+
 	protected boolean isConnectedWithInternet() {
-		ConnectivityManager conManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+		ConnectivityManager conManager = (ConnectivityManager) context
+				.getSystemService(Context.CONNECTIVITY_SERVICE);
 		NetworkInfo networkInfo = conManager.getActiveNetworkInfo();
 		if (networkInfo != null) {
 			return networkInfo.isAvailable();
@@ -186,7 +196,7 @@ public abstract class CellLocationManager {
 		private JSONArray objCellTowersJson;
 
 		public void handleMessage(Message paramMessage) {
-			if(CellLocationManager.this.looper != this) 
+			if (CellLocationManager.this.looper != this)
 				return;
 			boolean flag = true;
 			switch (paramMessage.what) {
@@ -198,8 +208,10 @@ public abstract class CellLocationManager {
 			case MESSAGE_COLLECTING_CELL:
 				if (CellLocationManager.this.state != CellLocationManager.STATE_COLLECTING)
 					break;
-				JSONArray objCellTowers = CellLocationManager.this.cellInfoManager.cellTowers();
-				float fCellScore = CellLocationManager.this.cellInfoManager.score();
+				JSONArray objCellTowers = CellLocationManager.this.cellInfoManager
+						.cellTowers();
+				float fCellScore = CellLocationManager.this.cellInfoManager
+						.score();
 				if (objCellTowers != null) {
 					float fCurrentCellScore = this.fCellScore;
 					if (fCellScore > fCurrentCellScore) {
@@ -214,35 +226,43 @@ public abstract class CellLocationManager {
 					break;
 				this.removeMessages(MESSAGE_COLLECTING_CELL);
 				this.removeMessages(MESSAGE_BEFORE_FINISH);
-//				if (CellLocationManager.this.disableWifiAfterScan && CellLocationManager.this.wifiManager.wifiManager().setWifiEnabled(true))
-//					CellLocationManager.this.disableWifiAfterScan = false;
+				// if (CellLocationManager.this.disableWifiAfterScan &&
+				// CellLocationManager.this.wifiManager.wifiManager().setWifiEnabled(true))
+				// CellLocationManager.this.disableWifiAfterScan = false;
 				CellLocationManager.this.state = CellLocationManager.STATE_SENDING;
 				if (CellLocationManager.this.task != null)
 					CellLocationManager.this.task.cancel(true);
 				int[] aryCell = null;
 				if (CellLocationManager.this.cellInfoManager.isGsm())
-					aryCell = CellLocationManager.this.cellInfoManager.dumpCells();
+					aryCell = CellLocationManager.this.cellInfoManager
+							.dumpCells();
 				int nBid = CellLocationManager.this.cellInfoManager.bid();
-				CellLocationManager.this.task = new CellLocationManager.Task(aryCell, nBid);
+				CellLocationManager.this.task = new CellLocationManager.Task(
+						aryCell, nBid);
 				JSONArray[] aryJsonArray = new JSONArray[2];
 				aryJsonArray[0] = this.objCellTowersJson;
-				aryJsonArray[1] = CellLocationManager.this.wifiManager.wifiTowers();
-				if(this.objCellTowersJson != null)
+				aryJsonArray[1] = CellLocationManager.this.wifiManager
+						.wifiTowers();
+				if (this.objCellTowersJson != null)
 					Log.i("CellTownerJSON", this.objCellTowersJson.toString());
-				if(aryJsonArray[1] != null)
+				if (aryJsonArray[1] != null)
 					Log.i("WIFITownerJSON", aryJsonArray[1].toString());
 				CellLocationManager.this.debug("Post json");
 				CellLocationManager.this.task.execute(aryJsonArray);
 				break;
 			case MESSAGE_BEFORE_FINISH:
-				if (CellLocationManager.this.state != CellLocationManager.STATE_READY || CellLocationManager.this.paused)
+				if (CellLocationManager.this.state != CellLocationManager.STATE_READY
+						|| CellLocationManager.this.paused)
 					break;
 				// L7
-				if (CellLocationManager.this.disableWifiAfterScan && CellLocationManager.this.wifiManager.wifiManager().setWifiEnabled(false))
+				if (CellLocationManager.this.disableWifiAfterScan
+						&& CellLocationManager.this.wifiManager.wifiManager()
+								.setWifiEnabled(false))
 					CellLocationManager.this.disableWifiAfterScan = false;
 				if (!CellLocationManager.this.cellInfoManager.isGsm()) {
 					// L9
-					if (CellLocationManager.this.bid == CellLocationManager.this.cellInfoManager.bid()) {
+					if (CellLocationManager.this.bid == CellLocationManager.this.cellInfoManager
+							.bid()) {
 						flag = true;
 					} else {
 						flag = false;
@@ -251,28 +271,34 @@ public abstract class CellLocationManager {
 					if (flag) {
 						requestUpdate();
 					} else {
-						this.sendEmptyMessageDelayed(10, CellLocationManager.CHECK_INTERVAL);
+						this.sendEmptyMessageDelayed(10,
+								CellLocationManager.CHECK_INTERVAL);
 					}
 				} else {
 					// L8
-					if (CellLocationManager.this.aryGsmCells == null || CellLocationManager.this.aryGsmCells.length == 0) {
+					if (CellLocationManager.this.aryGsmCells == null
+							|| CellLocationManager.this.aryGsmCells.length == 0) {
 						// L10
 						flag = true;
 					} else {
-						int[] aryCells = CellLocationManager.this.cellInfoManager.dumpCells();
+						int[] aryCells = CellLocationManager.this.cellInfoManager
+								.dumpCells();
 						if (aryCells != null && aryCells.length != 0) {
 							// L13
 							int nFirstCellId = CellLocationManager.this.aryGsmCells[0];
 							if (nFirstCellId == aryCells[0]) {
 								// L16
 								int cellLength = CellLocationManager.this.aryGsmCells.length / 2;
-								List<Integer> arraylist = new ArrayList<Integer>(cellLength);
-								List<Integer> arraylist1 = new ArrayList<Integer>(aryCells.length / 2);
+								List<Integer> arraylist = new ArrayList<Integer>(
+										cellLength);
+								List<Integer> arraylist1 = new ArrayList<Integer>(
+										aryCells.length / 2);
 								int nIndex = 0;
 								int nGSMCellLength = CellLocationManager.this.aryGsmCells.length;
 								while (nIndex < nGSMCellLength) {
 									// goto L18
-									arraylist.add(CellLocationManager.this.aryGsmCells[nIndex]);
+									arraylist
+											.add(CellLocationManager.this.aryGsmCells[nIndex]);
 									nIndex += 2;
 								}
 								// goto L17
@@ -284,7 +310,8 @@ public abstract class CellLocationManager {
 								}
 								// goto L19
 								int nCounter = 0;
-								for(Iterator<Integer> iterator = arraylist.iterator(); iterator.hasNext();) {
+								for (Iterator<Integer> iterator = arraylist
+										.iterator(); iterator.hasNext();) {
 									// goto L22
 									if (arraylist1.contains(iterator.next()))
 										nCounter++;
@@ -298,22 +325,27 @@ public abstract class CellLocationManager {
 								else
 									flag = false;
 								if (flag) {
-									StringBuilder stringbuilder = new StringBuilder(k4).append(" + ");
+									StringBuilder stringbuilder = new StringBuilder(
+											k4).append(" + ");
 									stringbuilder.append(l4).append(" > ");
 									stringbuilder.append(nCounter);
-									CellLocationManager.this.debug(stringbuilder.toString());
+									CellLocationManager.this
+											.debug(stringbuilder.toString());
 								}
 								break;
 
 							} else {
 								// L15
 								flag = true;
-								CellLocationManager.this.debug("PRIMARY CELL CHANGED");
+								CellLocationManager.this
+										.debug("PRIMARY CELL CHANGED");
 								// goto L14
 								if (flag) {
 									requestUpdate();
 								} else {
-									this.sendEmptyMessageDelayed(MESSAGE_BEFORE_FINISH, CellLocationManager.CHECK_INTERVAL);
+									this.sendEmptyMessageDelayed(
+											MESSAGE_BEFORE_FINISH,
+											CellLocationManager.CHECK_INTERVAL);
 								}
 							}
 						} else {
@@ -323,7 +355,9 @@ public abstract class CellLocationManager {
 							if (flag) {
 								requestUpdate();
 							} else {
-								this.sendEmptyMessageDelayed(MESSAGE_BEFORE_FINISH,CellLocationManager.CHECK_INTERVAL);
+								this.sendEmptyMessageDelayed(
+										MESSAGE_BEFORE_FINISH,
+										CellLocationManager.CHECK_INTERVAL);
 							}
 						}
 
@@ -364,11 +398,13 @@ public abstract class CellLocationManager {
 				JSONArray wifiJson = paramArrayOfJSONArray[1];
 				jsonObject.put("wifi_towers", wifiJson);
 				DefaultHttpClient localDefaultHttpClient = new DefaultHttpClient();
-				HttpPost localHttpPost = new HttpPost("http://www.google.com/loc/json");
+				HttpPost localHttpPost = new HttpPost(
+						"http://www.google.com/loc/json");
 				String strJson = jsonObject.toString();
 				StringEntity objJsonEntity = new StringEntity(strJson);
 				localHttpPost.setEntity(objJsonEntity);
-				HttpResponse objResponse = localDefaultHttpClient.execute(localHttpPost);
+				HttpResponse objResponse = localDefaultHttpClient
+						.execute(localHttpPost);
 				int nStateCode = objResponse.getStatusLine().getStatusCode();
 				HttpEntity httpEntity = objResponse.getEntity();
 				byte[] arrayOfByte = null;
@@ -377,21 +413,42 @@ public abstract class CellLocationManager {
 				httpEntity.consumeContent();
 				String strResponse = new String(arrayOfByte, "UTF-8");
 				jsonObject = new JSONObject(strResponse);
-				this.lat = jsonObject.getJSONObject("location").getDouble("latitude");
-				this.lng = jsonObject.getJSONObject("location").getDouble("longitude");
-				this.addr = jsonObject.getJSONObject("location").getJSONObject("address").getString("region")+
-							jsonObject.getJSONObject("location").getJSONObject("address").getString("city")+
-							jsonObject.getJSONObject("location").getJSONObject("address").getString("street")+
-							jsonObject.getJSONObject("location").getJSONObject("address").getString("street_number");
-				this.accuracy = jsonObject.getJSONObject("location").getInt("accuracy");
+				this.lat = jsonObject.getJSONObject("location").getDouble(
+						"latitude");
+				this.lng = jsonObject.getJSONObject("location").getDouble(
+						"longitude");
+				Properties prop = new Properties();
+				prop.setProperty("server", "119.145.9.123");
+				prop.setProperty("port", "2277");
+				Client.setProperty(prop);
+				TelephonyManager telmgr = (TelephonyManager) context
+						.getSystemService(Service.TELEPHONY_SERVICE);
+				Device device = new Device(telmgr.getDeviceId());
+				this.addr = device.QueryLocation(lng, lat);
+				// this.addr = jsonObject.getJSONObject("location")
+				// .getJSONObject("address").getString("region")
+				// + jsonObject.getJSONObject("location")
+				// .getJSONObject("address").getString("city")
+				// + jsonObject.getJSONObject("location")
+				// .getJSONObject("address").getString("street")
+				// + jsonObject.getJSONObject("location")
+				// .getJSONObject("address")
+				// .getString("street_number");
+				this.accuracy = jsonObject.getJSONObject("location").getInt(
+						"accuracy");
 			} catch (Exception localException) {
+				return null;
+			}
+			try {
+			} catch (Exception e) {
 				return null;
 			}
 			return null;
 		}
 
 		public void onPostExecute(Void paramVoid) {
-			if (CellLocationManager.this.state != CellLocationManager.STATE_SENDING || CellLocationManager.this.task != this)
+			if (CellLocationManager.this.state != CellLocationManager.STATE_SENDING
+					|| CellLocationManager.this.task != this)
 				return;
 			if ((this.lat != 0.0D) && (this.lng != 0.0D)) {
 				CellLocationManager.this.timestamp = this.time;
@@ -405,17 +462,21 @@ public abstract class CellLocationManager {
 				sb.append(this.lat).append(",").append(this.lng).append(")");
 				CellLocationManager.this.debug(sb.toString());
 				CellLocationManager.this.state = STATE_READY;
-				CellLocationManager.this.looper.sendEmptyMessageDelayed(MESSAGE_BEFORE_FINISH, CellLocationManager.CHECK_INTERVAL);
+				CellLocationManager.this.looper.sendEmptyMessageDelayed(
+						MESSAGE_BEFORE_FINISH,
+						CellLocationManager.CHECK_INTERVAL);
 				CellLocationManager.this.onLocationChanged();
 			} else {
 				CellLocationManager.this.task = null;
 				CellLocationManager.this.state = CellLocationManager.STATE_READY;
-				CellLocationManager.this.looper.sendEmptyMessageDelayed(MESSAGE_BEFORE_FINISH, 5000L);
+				CellLocationManager.this.looper.sendEmptyMessageDelayed(
+						MESSAGE_BEFORE_FINISH, 5000L);
 			}
 		}
 	}
 
-	private class CellLocationManagerBroadcastReceiver extends BroadcastReceiver {
+	private class CellLocationManagerBroadcastReceiver extends
+			BroadcastReceiver {
 
 		@Override
 		public void onReceive(Context arg0, Intent intent) {
@@ -428,32 +489,43 @@ public abstract class CellLocationManager {
 			if (CellLocationManager.this.state != CellLocationManager.STATE_COLLECTING)
 				return;
 			String s = intent.getAction();
-			if (WifiManager.SCAN_RESULTS_AVAILABLE_ACTION.equals(s)) { // goto _L4; else goto _L3
-			// _L3:
+			if (WifiManager.SCAN_RESULTS_AVAILABLE_ACTION.equals(s)) { // goto
+																		// _L4;
+																		// else
+																		// goto
+																		// _L3
+				// _L3:
 				CellLocationManager.this.debug("WIFI SCAN COMPLETE");
-				CellLocationManager.this.looper.removeMessages(MESSAGE_COLLECTING_WIFI);
-				long lInterval = System.currentTimeMillis() - CellLocationManager.this.startScanTimestamp;
+				CellLocationManager.this.looper
+						.removeMessages(MESSAGE_COLLECTING_WIFI);
+				long lInterval = System.currentTimeMillis()
+						- CellLocationManager.this.startScanTimestamp;
 				if (lInterval > 4000L)
-					CellLocationManager.this.looper.sendEmptyMessageDelayed(MESSAGE_COLLECTING_WIFI, 4000L);
+					CellLocationManager.this.looper.sendEmptyMessageDelayed(
+							MESSAGE_COLLECTING_WIFI, 4000L);
 				else
-					CellLocationManager.this.looper.sendEmptyMessage(MESSAGE_COLLECTING_WIFI);
+					CellLocationManager.this.looper
+							.sendEmptyMessage(MESSAGE_COLLECTING_WIFI);
 			} else {
 				// _L4:
 				if (!CellLocationManager.this.waiting4WifiEnable)
-					return; 
+					return;
 				String s1 = intent.getAction();
 				if (!WifiManager.WIFI_STATE_CHANGED_ACTION.equals(s1))
-					return; 
-				int wifiState = intent.getIntExtra(WifiManager.EXTRA_WIFI_STATE, 4);
+					return;
+				int wifiState = intent.getIntExtra(
+						WifiManager.EXTRA_WIFI_STATE, 4);
 				// _L5:
 				if (wifiState == WifiManager.WIFI_STATE_ENABLING) {
-					boolean flag2 = CellLocationManager.this.wifiManager.wifiManager().startScan();
+					boolean flag2 = CellLocationManager.this.wifiManager
+							.wifiManager().startScan();
 					// _L8:
 					CellLocationManager.this.disableWifiAfterScan = true;
 					CellLocationManager.this.paused = false;
-//					int i = flag2 ? 1 : 0;
-//					int nDelay = i != 0 ? 8000 : 0;
-//					CellLocationManager.this.looper.sendEmptyMessageDelayed(MESSAGE_COLLECTING_WIFI, nDelay);
+					// int i = flag2 ? 1 : 0;
+					// int nDelay = i != 0 ? 8000 : 0;
+					// CellLocationManager.this.looper.sendEmptyMessageDelayed(MESSAGE_COLLECTING_WIFI,
+					// nDelay);
 					CellLocationManager.this.debug("WIFI ENABLED");
 				}
 			}

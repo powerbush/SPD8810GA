@@ -24,6 +24,7 @@
         android:layout_toLeftOf="@id/call_icon"
         android:layout_marginLeft="11dip"
         android:background="@drawable/divider_vertical_dark"
+        android:visibility="gone"
     />
 
 	<!-- 添加checkbox shihaojie -->
@@ -50,12 +51,13 @@
     <TextView android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toLeftOf="@id/divider"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dip"
+        android:layout_marginBottom="2dip"
         android:layout_marginLeft="10dip"
-
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginRight="10dip"
+		android:textColor="#333"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:singleLine="true"
     />
 
@@ -69,8 +71,9 @@
         android:layout_alignBaseline="@id/date"
         android:singleLine="true"
         android:ellipsize="marquee"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="normal"
+        android:textColor="#333"
     />
 
     <TextView android:id="@+id/number"
@@ -84,7 +87,8 @@
 
         android:singleLine="true"
         android:ellipsize="marquee"
-        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#333"
     />
 
 	<!-- add sim icon -->
@@ -95,7 +99,9 @@
         android:layout_gravity="top|right"
         android:layout_marginTop="15dip"
         android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@id/divider"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"
+        android:visibility="gone"
     />
 
     <TextView android:id="@+id/line1"
@@ -112,5 +118,8 @@
         android:singleLine="true"
         android:ellipsize="marquee"
         android:gravity="center_vertical"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold"
     />
 </merge>

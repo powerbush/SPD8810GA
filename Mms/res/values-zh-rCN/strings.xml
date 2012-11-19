@@ -541,28 +541,4 @@
     <string name="ota_pin_exception">"OTA消息配置失败：程序出现异常。"</string>
     <string name="ota_mime_error">"OTA消息配置失败：消息数据错误。"</string>
     <string name="ota_imsi_error">"OTA消息配置失败：IMSI验证失败。"</string>
-		
-		
-		<string name="blocknumber">号码</string>
-		<string name="blockcontent">内容</string>
-		<string name="blockconfirm">确定</string>
-		<string name="blockcancel">取消</string>
-
-		<string name="blockinputphnum">请输入号码</string>
-
-		<string name="blocksetting">号码设置</string>
-				    
-    <string name="user_newmms">创建新短信</string>
-    <string name="user_mms1">短信收发箱</string>
-    <string name="user_mms2">1006短信息</string>
-    
-		<style name="CustomWindowTitleBackground"> 
-    <item name="android:background">#565656</item>
-		</style>
-		
-    <style name="userdefined" parent="android:Theme"> 
-    	<item name="android:windowTitleSize">45sp</item> 
-    	<item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
-		</style>
-		
 </resources>

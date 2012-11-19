@@ -318,13 +318,14 @@ public class CallDetailActivity extends ListActivity implements
 //                        }
                             
                         StickyTabs.setTab(viewIntent, getIntent());
-                        actions.add(new ViewEntry(R.drawable.sym_action_view_contact,
+                        actions.add(new ViewEntry(R.drawable.sym_action_view_contact,//查看联系人对应的图标
                                 getString(R.string.menu_viewContact), viewIntent));
                     } else {
-                        Intent createIntent = new Intent(Intent.ACTION_INSERT_OR_EDIT);
+                        Intent createIntent = new Intent(Intent.ACTION_INSERT_OR_EDIT); //调用系统编辑添加联系人
+                        //Intent createIntent=new Intent(CallDetailActivity.this, DialogActivity.class);
                         createIntent.setType(Contacts.CONTENT_ITEM_TYPE);
                         createIntent.putExtra(Insert.PHONE, mNumber);
-                        actions.add(new ViewEntry(R.drawable.sym_action_add,
+                        actions.add(new ViewEntry(R.drawable.sym_action_add,//保存到通讯录对应的图标
                                 getString(R.string.recentCalls_addToContact), createIntent));
                     }
 

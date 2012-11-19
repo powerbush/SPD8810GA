@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="bottom"
-        android:background="#000000">
+        android:background="#999">
     <!-- Text field above the keypad where the digits are displayed.
          It's type is set to NULL (to disable the IME keyboard) in the
          java code.

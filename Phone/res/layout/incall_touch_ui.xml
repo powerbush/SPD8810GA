@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="80dip"
+        android:layout_marginBottom="40dip"
         />
         <!-- yeezone:jinwei add Reject and reply a message which content is ready -->
         <ImageButton android:id="@+id/reject_reply_message"

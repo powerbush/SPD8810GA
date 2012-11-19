@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -17,7 +18,9 @@ import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.widget.Gallery;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,11 +30,15 @@ public class GalleryContactPhoneActivity extends Activity {
     private GalleryAdapter adapter;
     private Gallery list;
     private ArrayList<GalleryContactEntry> gaentry;
+    private Button btnJump;
 	
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.main_gallery);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE, R.layout.titlebar);
+
         setupView();
     }
     
@@ -42,7 +49,15 @@ public class GalleryContactPhoneActivity extends Activity {
     	list=(Gallery) findViewById(R.id.gallery_contact_phone);
     	list.setAdapter(adapter);
     	
+        btnJump = (Button)findViewById(R.id.jump_button);
+        btnJump.setOnClickListener(new OnClickListener() {
 
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(GalleryContactPhoneActivity.this, ContactsListActivity.class);
+                startActivity(intent);
+            }
+        });
     }
     @Override
     protected void onResume() {

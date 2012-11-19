@@ -5,7 +5,6 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
@@ -17,59 +16,41 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.HTTP;
 import org.apache.http.util.EntityUtils;
 
-import com.az.ContactsUpdata.ContactPhoneUp;
-import com.az.EmergencyPhoneNum.Emergencyphbentry.emergencyphb;
-
-import com.az.Main.MainActivity;
-import com.az.PersonInfo.SettingActivity;
-import com.az.TimingUpGps.SetAlarmTimeService;
-
-import android.R.plurals;
-import android.view.Gravity;
-import com.az.Main.R;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.app.Service;
-import android.app.TabActivity;
-import android.content.ContentResolver;
 import android.content.ContentValues;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.content.res.Resources;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.telephony.TelephonyManager;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.util.Log;
 import android.view.ContextMenu;
+import android.view.ContextMenu.ContextMenuInfo;
+import android.view.Gravity;
 import android.view.LayoutInflater;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ContextMenu.ContextMenuInfo;
 import android.view.View.OnClickListener;
 import android.view.View.OnCreateContextMenuListener;
 import android.view.Window;
 import android.view.WindowManager;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.AdapterView;
 import android.widget.AdapterView.AdapterContextMenuInfo;
-import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.az.EmergencyPhoneNum.Emergencyphbentry.emergencyphb;
+import com.az.Main.R;
 
 public class EmergencyphbMainActivity extends Activity {
 	/** Called when the activity is first created. */
@@ -85,6 +66,11 @@ public class EmergencyphbMainActivity extends Activity {
 	private AlertDialog dialogP = null;
 	private static String TAG = "emgencyphb cathon";
 	private AdapterContextMenuInfo info;
+	private AlertDialog Dialog = null;
+
+	public void Log(String msg) {
+		Log.i("liaobz", msg);
+	}
 
 	// onCreate方法第一次启动这个activity时调用的
 	@Override
@@ -97,7 +83,7 @@ public class EmergencyphbMainActivity extends Activity {
 		handler = new Handler() {
 			@Override
 			public void handleMessage(Message msg) {
-				// TODO Auto-generated method stub
+
 				switch (msg.what) {
 				case 1:
 					UploadphbOk();
@@ -129,8 +115,9 @@ public class EmergencyphbMainActivity extends Activity {
 							@Override
 							public void onClick(
 									DialogInterface dialoginterface, int i) {
-								// TODO Auto-generated method stub
+
 								dialoginterface.dismiss();
+								setupListView();
 							}
 						}).show();
 	}
@@ -148,8 +135,11 @@ public class EmergencyphbMainActivity extends Activity {
 							@Override
 							public void onClick(
 									DialogInterface dialoginterface, int i) {
-								
+								// Intent intent=new
+								// Intent(ContactMainActivity.this,MainActivity.class);
+								// startActivity(intent);
 								// finish();
+								setupListView();
 							}
 						})
 				.setNegativeButton(getString(R.string.azcancel),
@@ -159,7 +149,7 @@ public class EmergencyphbMainActivity extends Activity {
 							public void onClick(
 									DialogInterface dialoginterface, int i) {
 								dialoginterface.dismiss();
-
+								setupListView();
 							}
 						}).show();
 	}
@@ -172,6 +162,7 @@ public class EmergencyphbMainActivity extends Activity {
 		listview = (ListView) findViewById(R.id.list_contact_db);
 		adapter = new EmergencyphbAdapter(this, phblist);
 		listview.setAdapter(adapter);
+		listview.setCacheColorHint(0);
 
 		listview.setOnCreateContextMenuListener(new OnCreateContextMenuListener() {
 
@@ -181,7 +172,8 @@ public class EmergencyphbMainActivity extends Activity {
 				contextmenu.setHeaderTitle(getString(R.string.AzHeadContact));
 				contextmenu.add(1, 1, 1, getString(R.string.AzHeadContactdial));
 				contextmenu.add(1, 2, 2, getString(R.string.AzHeadContactDel));
-				contextmenu.add(1, 3, 3, getString(R.string.AzHeadContactDelAll));
+				contextmenu.add(1, 3, 3,
+						getString(R.string.AzHeadContactDelAll));
 			}
 		});
 
@@ -189,10 +181,8 @@ public class EmergencyphbMainActivity extends Activity {
 
 	@Override
 	protected void onDestroy() {
-		//android.os.Process.killProcess(android.os.Process.myPid());//kill掉自已，这方法不是很好
-		 //Intent intent=new Intent(EmergencyphbMainActivity.this,MainActivity.class);
-		 //startActivity(intent);
-		 super.onDestroy();
+		super.onDestroy();
+		// finish();
 	}
 
 	@Override
@@ -205,7 +195,7 @@ public class EmergencyphbMainActivity extends Activity {
 			String mobile = ((Emergencyphbentry.emergencyphb) adapter
 					.getItem(info.position)).getphonenum();
 			// via liaobz
-			Log.i("log_via_liao", "" + mobile);
+			// Log(mobile);
 			Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"
 					+ mobile));
 			intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
@@ -225,13 +215,14 @@ public class EmergencyphbMainActivity extends Activity {
 
 			entry = new Emergencyphbentry(this);
 			// phblist =
-			Log.i("log_via_liao", ""+ adapter.getItemId(i));
+			// Log(i + "/" + adapter.getItemId(i));
 			entry.delsinglephb((int) adapter.getItemId(i));
 			phblist.remove(i);
 			listview = (ListView) findViewById(R.id.list_contact_db);
 			adapter = new EmergencyphbAdapter(this, phblist);
 			listview.setAdapter(adapter);
-
+			//liaobz sync after delete 
+			syncEmergencyContact(adapter.getPhbAll());
 			Toast.makeText(this, this.getString(R.string.phbdelete) + "" + "",
 					Toast.LENGTH_LONG).show();
 
@@ -241,10 +232,125 @@ public class EmergencyphbMainActivity extends Activity {
 			Toast.makeText(this, this.getString(R.string.phbdelete),
 					Toast.LENGTH_LONG).show();
 			phblist.removeAll(phblist);
-			adapter=new EmergencyphbAdapter(this, phblist);
+			adapter = new EmergencyphbAdapter(this, phblist);
 			listview.setAdapter(adapter);
+			//liaobz sync after delete all
+			syncEmergencyContact(adapter.getPhbAll());
+			break;
 		}
 		return super.onContextItemSelected(item);
+	}
+
+	// liaobz onPositiveButtonClick
+	public void onPositiveButtonClick(String name, String phone) {
+
+		// 获取输入name phonenum，存arraylist
+		if (!"".equals(name.trim()) && !"".equals(phone.trim())) {
+
+			SQLiteDatabase db = EmergencyphbMainActivity.this
+					.openOrCreateDatabase("emergencyphb.db",
+							MODE_WORLD_WRITEABLE + MODE_WORLD_READABLE, null);
+
+			db.execSQL("create table if not exists emerphb("
+					+ "_id integer primary key autoincrement,"
+					+ "name text not null," + "phonenum text not null,"
+					+ "photo blob" + ")");
+
+			ContentValues values = new ContentValues();
+			Log.i(TAG, "cathon save sms to dbase " + name + "  " + phone);
+
+			values.put("name", "" + name);
+			values.put("phonenum", "" + phone);
+
+			db.insert("emerphb", null, values);
+
+			db.close();
+
+			entry = new Emergencyphbentry(EmergencyphbMainActivity.this);
+			listview = (ListView) findViewById(R.id.list_contact_db);
+			phblist = entry.getphb();
+			adapter = new EmergencyphbAdapter(EmergencyphbMainActivity.this,
+					phblist);
+			listview.setAdapter(adapter);
+
+			// 获取所有的phb数据
+
+			String emgercyphb = adapter.getPhbAll();
+			//liaobz extract syncEmergencyContact for sync after delete
+			syncEmergencyContact(emgercyphb);
+		}
+	}
+
+	public void syncEmergencyContact(final String emgercyphb) {
+		TelephonyManager telmgr = (TelephonyManager) EmergencyphbMainActivity.this
+				.getSystemService(Service.TELEPHONY_SERVICE);
+		final String imei = "IMEI:" + telmgr.getDeviceId();
+
+		// Log.i("life",
+		// ContactList.toString());
+		// 上传数据到服务器
+		Thread thr = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				// http://210.51.7.193/io/PersonEmergencyContact.aspx;
+				String UpURL = getString(R.string.PersonEmergencyContact);
+
+				HttpPost httpPost = new HttpPost(UpURL);
+				List<NameValuePair> params = new ArrayList<NameValuePair>();
+				params.add(new BasicNameValuePair("imei_key", imei));
+				params.add(new BasicNameValuePair("contact_phone", emgercyphb));
+				Log("imei:" + imei + "/contact_phone:" + emgercyphb);
+
+				try {
+					httpPost.setEntity(new UrlEncodedFormEntity(params,
+							HTTP.UTF_8));
+					try {
+						HttpResponse httpResponse = new DefaultHttpClient()
+								.execute(httpPost);
+						Log("" + httpResponse.getStatusLine());
+						if (httpResponse.getStatusLine().getStatusCode() == 200) {
+							String httpResult = EntityUtils
+									.toString(httpResponse.getEntity());
+							if (httpResult.contains("true")) {
+								Message msg = Message.obtain();
+								msg.what = 1;
+								handler.sendMessage(msg);
+							} else {
+								Message msg = Message.obtain();
+								msg.what = 2;
+								handler.sendMessage(msg);
+							}
+
+						} else {
+							Message msg = Message.obtain();
+							msg.what = 2;
+							handler.sendMessage(msg);
+						}
+
+					} catch (ClientProtocolException e) {
+						e.printStackTrace();
+					} catch (HttpHostConnectException e) {
+						Message msg = Message.obtain();
+						msg.what = 2;
+						handler.sendMessage(msg);
+					} catch (IOException e) {
+						e.printStackTrace();
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+				} catch (UnsupportedEncodingException e) {
+					e.printStackTrace();
+				}
+
+			}
+		});
+		thr.start();
+		dialogP = new ProgressDialog(EmergencyphbMainActivity.this);
+		dialogP.setTitle(getString(R.string.AzWaiting));
+		dialogP.setMessage(getString(R.string.AzUpdataIng));
+
+		dialogP.show();
 	}
 
 	public void setupView() {
@@ -257,6 +363,22 @@ public class EmergencyphbMainActivity extends Activity {
 
 				AlertDialog.Builder dialog = new AlertDialog.Builder(
 						EmergencyphbMainActivity.this);
+				if (adapter.getCount() >= 3) {
+					dialog.setTitle(R.string.AzInformationNotice)
+							.setMessage(R.string.AzInfoAddErr)
+							.setNegativeButton(getString(R.string.azconfirm),
+									new DialogInterface.OnClickListener() {
+
+										@Override
+										public void onClick(
+												DialogInterface dialoginterface,
+												int i) {
+											dialoginterface.dismiss();
+										}
+									}).show();
+					return;
+
+				}
 				LayoutInflater factory = LayoutInflater
 						.from(EmergencyphbMainActivity.this);
 				View v = factory.inflate(R.layout.dialog, null);
@@ -265,194 +387,68 @@ public class EmergencyphbMainActivity extends Activity {
 				final EditText contact_phone = (EditText) v
 						.findViewById(R.id.contact_phone_2);
 
-				dialog.setView(v)
-						.setPositiveButton(getString(R.string.azconfirm),
-								new DialogInterface.OnClickListener() {
+				((Button) v.findViewById(R.id.btn_positive))
+						.setOnClickListener(new OnClickListener() {
 
-									@Override
-									public void onClick(
-											DialogInterface dialoginterface,
-											int i) {
-										// TODO Auto-generated method stub
-										String name = contact_name.getText()
-												.toString();
-										String phone = contact_phone.getText()
-												.toString();
+							@Override
+							public void onClick(View v) {
+								// liaobz name or num cannot be null,be friendly
+								Toast toast = null;
+								TextView textView = null;
+								if ("" == contact_name.getText().toString()
+										+ "") {
+									toast = new Toast(
+											EmergencyphbMainActivity.this);
+									textView = new TextView(
+											EmergencyphbMainActivity.this);
+									textView.setText(R.string.AzNameNotice);
+									textView.setBackgroundResource(R.drawable.toast_warnning);
+									textView.setTextSize(25);
+									textView.setTextColor(Color.BLACK);
 
-										// 获取输入name phonenum，存arraylist
-										if (!"".equals(name.trim())
-												&& !"".equals(phone.trim())) {
+									toast.setView(textView);
+									toast.setDuration(Toast.LENGTH_LONG);
+									toast.setGravity(Gravity.TOP, 0, 65);
+									toast.show();
+									return;
+								} else if ("" == contact_phone.getText()
+										.toString() + "") {
+									toast = new Toast(
+											EmergencyphbMainActivity.this);
+									textView = new TextView(
+											EmergencyphbMainActivity.this);
+									textView.setText(R.string.AzPhoneNotice);
+									textView.setBackgroundResource(R.drawable.toast_warnning);
+									textView.setTextSize(25);
+									textView.setTextColor(Color.BLACK);
 
-											SQLiteDatabase db = EmergencyphbMainActivity.this
-													.openOrCreateDatabase(
-															"emergencyphb.db",
-															MODE_WORLD_WRITEABLE
-																	+ MODE_WORLD_READABLE,
-															null);
+									toast.setView(textView);
+									toast.setDuration(Toast.LENGTH_LONG);
+									toast.setGravity(Gravity.TOP, 0, 130);
+									toast.show();
+									return;
+								}
+								onPositiveButtonClick(contact_name.getText()
+										.toString(), contact_phone.getText()
+										.toString());
+								Dialog.dismiss();
+							}
+						});
+				((Button) v.findViewById(R.id.btn_negative))
+						.setOnClickListener(new OnClickListener() {
 
-											db.execSQL("create table if not exists emerphb("
-													+ "_id integer primary key autoincrement,"
-													+ "name text not null,"
-													+ "phonenum text not null,"
-													+ "photo blob" + ")");
+							@Override
+							public void onClick(View v) {
+								Dialog.dismiss();
+							}
+						});
 
-											ContentValues values = new ContentValues();
-											Log.i(TAG,
-													"cathon save sms to dbase "
-															+ name + "  "
-															+ phone);
+				dialog.setView(v);
 
-											values.put("name", "" + name);
-											values.put("phonenum", "" + phone);
-
-											db.insert("emerphb", null, values);
-
-											db.close();
-
-											entry = new Emergencyphbentry(
-													EmergencyphbMainActivity.this);
-											phblist = entry.delsinglephb(i);
-											listview = (ListView) findViewById(R.id.list_contact_db);
-											adapter = new EmergencyphbAdapter(
-													EmergencyphbMainActivity.this,
-													phblist);
-											listview.setAdapter(adapter);
-
-											TelephonyManager telmgr = (TelephonyManager) EmergencyphbMainActivity.this
-													.getSystemService(Service.TELEPHONY_SERVICE);
-											final String imei = "IMEI:"
-													+ telmgr.getDeviceId();
-
-											// 获取所有的phb数据
-
-											final String emgercyphb = adapter
-													.getPhbAll();
-											// Log.i("life",
-											// ContactList.toString());
-											// 上传数据到服务器
-											Thread thr = new Thread(
-													new Runnable() {
-
-														@Override
-														public void run() {
-															String UpURL = getString(R.string.PersonEmergencyContact);// http://210.51.7.193/io/PersonEmergencyContact.aspx;
-
-															HttpPost httpPost = new HttpPost(
-																	UpURL);
-															List<NameValuePair> params = new ArrayList<NameValuePair>();
-															params.add(new BasicNameValuePair(
-																	"imei_key",
-																	imei));
-															params.add(new BasicNameValuePair(
-																	"contact_phone",
-																	emgercyphb));
-															Log.i("log_via_liao",
-																	"imei"
-																			+ imei
-																			+ "/contact_phone"
-																			+ emgercyphb);
-
-															try {
-																httpPost.setEntity(new UrlEncodedFormEntity(
-																		params,
-																		HTTP.UTF_8));
-																try {
-																	HttpResponse httpResponse = new DefaultHttpClient()
-																			.execute(httpPost);
-																	Log.i("log_via_liao",
-																			""
-																					+ httpResponse
-																							.getStatusLine());
-																	if (httpResponse
-																			.getStatusLine()
-																			.getStatusCode() == 200) {
-																		String httpResult = EntityUtils
-																				.toString(httpResponse
-																						.getEntity());
-																		if (httpResult
-																				.contains("true")) {
-																			Message msg = Message
-																					.obtain();
-																			msg.what = 1;
-																			handler.sendMessage(msg);
-																		} else {
-																			Message msg = Message
-																					.obtain();
-																			msg.what = 2;
-																			handler.sendMessage(msg);
-																		}
-
-																	} else {
-																		Message msg = Message
-																				.obtain();
-																		msg.what = 2;
-																		handler.sendMessage(msg);
-																	}
-
-																} catch (ClientProtocolException e) {
-
-																	// TODO
-																	// Auto-generated
-																	// catch
-																	// block
-																	e.printStackTrace();
-																} catch (HttpHostConnectException e) {
-																	Message msg = Message
-																			.obtain();
-																	msg.what = 2;
-																	handler.sendMessage(msg);
-																} catch (IOException e) {
-																	// TODO
-																	// Auto-generated
-																	// catch
-																	// block
-																	e.printStackTrace();
-																} catch (Exception e) {
-																	// TODO
-																	// Auto-generated
-																	// catch
-																	// block
-																	e.printStackTrace();
-																}
-															} catch (UnsupportedEncodingException e) {
-																// TODO
-																// Auto-generated
-																// catch block
-																e.printStackTrace();
-															}
-
-														}
-													});
-											thr.start();
-											dialogP = new ProgressDialog(
-													EmergencyphbMainActivity.this);
-											dialogP.setTitle(getString(R.string.AzWaiting));
-											dialogP.setMessage(getString(R.string.AzUpdataIng));
-
-											dialogP.show();
-										}
-									}
-								})
-						.setNegativeButton(getString(R.string.azcancel),
-								new DialogInterface.OnClickListener() {
-									@Override
-									public void onClick(
-											DialogInterface dialoginterface,
-											int i) {
-										// TODO Auto-generated method stub
-										dialoginterface.dismiss();
-									}
-								});
-
-				AlertDialog Dialog = dialog.create();
+				Dialog = dialog.create();
 				Window window = Dialog.getWindow();
 				window.setGravity(Gravity.TOP);
-				// WindowManager.LayoutParams lp = window.getAttributes();
-				// lp.x = 0;
-				// lp.y = 0;
-				// window.setAttributes(lp);
 				Dialog.show();
-				// dialog.create().show();
 
 			}
 		});

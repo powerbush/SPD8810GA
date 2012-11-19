@@ -24,6 +24,7 @@
         android:paddingTop="5dip"
         android:paddingBottom="5dip"
         android:gravity="center_vertical"
+    	android:background="@drawable/infobar_dark"
         >
     <ImageView android:id="@+id/addicon"
             android:layout_width="wrap_content"
@@ -41,5 +42,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dip"
+            android:textColor="#333"
             />
 </LinearLayout>

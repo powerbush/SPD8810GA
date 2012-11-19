@@ -23,12 +23,13 @@
               android:gravity="center_horizontal"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
+              android:layout_marginTop="-6dip"
               >
 
     <!-- Photo, with elapsed time widget off to the side. -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="142dp"
+        android:layout_height="wrap_content"
         >
         <!-- Photo, jiangshimin android:layout_height="172dp" -->
         <!-- Photo, or else a generic placeholder image. -->
@@ -38,11 +39,11 @@
              adds a white border around the image (and a shadow around
              the white border.) -->
         <ImageView android:id="@+id/photo"
-                   android:layout_width="wrap_content"
-                   android:layout_height="136dp"
+                   android:layout_width="240dp"
+                   android:layout_height="180dp"
                    android:layout_centerHorizontal="true"
-                   android:background="@drawable/incall_photo_border_lg"
                    android:contentDescription="@string/contactPhoto"
+                   android:layout_below="@+id/elapsedTime"
                    />
 
         <!-- The big "Manage conference" button that we show in place of
@@ -57,7 +58,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="?android:attr/textColorPrimary"
                 android:background="@drawable/manage_conference_photo_button"
-                android:layout_marginTop="16dip"
+                android:layout_marginTop="6dip"
             />
 
         <!-- Elapsed time indication for a call in progress. -->
@@ -68,71 +69,76 @@
                   android:singleLine="true"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
-                  android:layout_toRightOf="@id/photo"
-                  android:layout_alignParentBottom="true"
-                  android:layout_marginBottom="19dip"
-                  android:layout_marginLeft="-14dip"
+                  android:layout_alignParentTop="true"
+                   android:layout_centerHorizontal="true"
                   />
     </RelativeLayout>
 
-    <!-- Name (or the phone number, if we don't have a name to display). -->
-    <TextView android:id="@+id/name"
-              android:gravity="center_horizontal"
-              android:textAppearance="?android:attr/textAppearanceLarge"
-              android:textSize="28sp"
-              android:singleLine="true"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_marginTop="-22dip"
-              android:paddingLeft="4dip"
-              android:paddingRight="4dip"
-              android:paddingBottom="4dip"
-              />
+    <!--Add a transparent panel-->
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="3dp"
+                      >
+      <!-- Name (or the phone number, if we don't have a name to display). -->
+      <TextView android:id="@+id/name"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="32sp"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dip"
+                android:paddingRight="4dip"
+                android:paddingBottom="4dip"
+                />
 
-    <!-- Label (like "Mobile" or "Work", if present) and phone number, side by side -->
-    <LinearLayout android:orientation="horizontal"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_gravity="center_horizontal"
-                  android:layout_marginTop="-6dip">
-        <TextView android:id="@+id/label"
-                  android:textAppearance="?android:attr/textAppearanceSmall"
-                  android:textSize="18sp"
-                  android:textColor="?android:attr/textColorSecondary"
-                  android:singleLine="true"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:paddingRight="6dip"
-                  />
-        <TextView android:id="@+id/phoneNumber"
-                  android:textAppearance="?android:attr/textAppearanceSmall"
-                  android:textSize="18sp"
-                  android:textColor="?android:attr/textColorSecondary"
-                  android:singleLine="true"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  />
+      <!-- Label (like "Mobile" or "Work", if present) and phone number, side by side -->
+      <LinearLayout android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-6dip">
+          <TextView android:id="@+id/label"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="22sp"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:singleLine="true"
+                    android:layout_width="0dip"
+                    android:layout_height="0dip"
+                    android:paddingRight="6dip"
+                    />
+          <TextView android:id="@+id/phoneNumber"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="22sp"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:singleLine="true"
+                    android:layout_width="0dip"
+                    android:layout_height="0dip"
+                    />
+      </LinearLayout>
     </LinearLayout>
 
+
 	<LinearLayout android:orientation="horizontal"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_gravity="center_horizontal">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 		<TextView android:id="@+id/recordflag"
-		    android:gravity="center_horizontal"
-			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:textSize="14sp"
-			android:singleLine="true"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content" />
+              android:gravity="center_horizontal"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textSize="14sp"
+              android:singleLine="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
 
 		<TextView android:id="@+id/recordedTime"
-			android:textAppearance="?android:attr/textAppearanceMedium"
-			android:textSize="14sp"
-			android:textStyle="bold"
-			android:singleLine="true"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content" />
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textSize="14sp"
+              android:textStyle="bold"
+              android:singleLine="true"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
 	</LinearLayout>
     <!-- Call type indication: a special label and/or branding
          for certain kinds of calls -->

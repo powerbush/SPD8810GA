@@ -15,7 +15,13 @@ public class ContactsGalleryActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+		//liaobz
+		Intent intent=new Intent(this,GalleryContactPhoneActivity.class);
+    	startActivity(intent);
+    	finish();
 		setContentView(R.layout.btn_gallery);
+
+
 		mListGalleryBtnButton=(Button) findViewById(R.id.contact_list_gallery_btn);
 		mListBtnButton=(Button) findViewById(R.id.contact_list_btn);
 		

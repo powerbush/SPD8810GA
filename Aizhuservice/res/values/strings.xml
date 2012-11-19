@@ -3,7 +3,7 @@
     <string name="app_name">关爱行服务</string>
     <string name="emergencycontact">紧急联系人</string>
     <string name="emergencycontent">紧急信息</string>
-    <string name="emergencycontactinput">联系人录入</string>
+    <string name="emergencycontactinput">添加</string>
     <string name="nodata">没有数据</string>
     <string name="apnname">姓名：</string>
     <string name="apnnamesec">名字</string>
@@ -41,6 +41,7 @@
     <string name="AzInformationNotice">提示信息</string>
     <string name="AzInfoUpOK">资料上传成功!</string>
     <string name="AzInfoUpErr">资料上传失败!</string>
+    <string name="AzInfoAddErr">推荐只添加三个紧急联系人，若要添加其他联系人，请删除一个重试！</string>
     <string name="AzInfoExitNotice">确定退出录入界面吗?</string>
     <string name="AzWaiting">请稍等...</string>
     <string name="AzUpdataIng">正在上传数据</string>

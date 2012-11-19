@@ -29,7 +29,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.CursorAdapter;
-import android.view.ViewGroup.LayoutParams;  //by lai
+
 /**
  * The back-end data adapter for ConversationList.
  */
@@ -55,15 +55,6 @@ public class ConversationListAdapter extends CursorAdapter implements AbsListVie
 
         ConversationListItem headerView = (ConversationListItem) view;
         Conversation conv = Conversation.from(context, cursor);
-	/*-------------------------by lai----------------------------*/	
-	if(Conversation.MmsCheckPhoneNum==true){
-		Conversation.MmsCheckPhoneNum=false;
-  		headerView.setVisibility(View.GONE);
-                LayoutParams laParams=(LayoutParams)headerView.getLayoutParams();
-                laParams.height=1;//对该控件的布局参数做修改
-                headerView.setLayoutParams(laParams);//重新设定布局
-  	}
-	/*-------------------------by lai----------------------------*/	
         ConversationListItemData ch = new ConversationListItemData(context, conv);
         headerView.bind(context, ch);
     }

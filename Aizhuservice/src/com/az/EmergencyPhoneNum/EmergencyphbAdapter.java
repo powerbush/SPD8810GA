@@ -12,17 +12,15 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.az.Main.R;
 
-
-
 public class EmergencyphbAdapter extends BaseAdapter {
 
-	//private Context context;
+	private Context context;
 	private ArrayList<Emergencyphbentry.emergencyphb> phblist;
 	private LayoutInflater inflater;
 
 	public EmergencyphbAdapter(Context context,
 			ArrayList<Emergencyphbentry.emergencyphb> phblist) {
-		//this.context = context;
+		this.context = context;
 		this.phblist = phblist;
 		inflater = LayoutInflater.from(context);
 	}
@@ -47,17 +45,15 @@ public class EmergencyphbAdapter extends BaseAdapter {
 	@Override
 	public View getView(int i, View view, ViewGroup viewgroup) {
 		// TODO Auto-generated method stub
-		if(view == null){
-			view = inflater.inflate(R.layout.listcontactitem, null);
-		}
+		view = inflater.inflate(R.layout.listcontactitem, null);
 		TextView phonetx = (TextView) view.findViewById(R.id.name_contact_db);
 		TextView bodytx = (TextView) view.findViewById(R.id.phone_content_db);
 		Emergencyphbentry.emergencyphb phblst = phblist.get(i);
 		// cathon xiong set smscontent size
 		phonetx.setText(phblst.getname());
-		phonetx.setTextSize(45);
+		phonetx.setTextSize(40);
 		bodytx.setText(phblst.getphonenum());
-		bodytx.setTextSize(45);
+		bodytx.setTextSize(40);
 		return view;
 	}
 

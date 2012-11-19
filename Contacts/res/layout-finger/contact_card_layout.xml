@@ -18,7 +18,8 @@
     android:id="@+id/card_root_view"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FEFEFC">
     
     <com.android.internal.widget.ContactHeaderWidget
         android:id="@+id/contact_header_widget"
@@ -29,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/title_bar_shadow"
+        android:cacheColorHint="#0000"
     />
     
     <ScrollView android:id="@android:id/empty"

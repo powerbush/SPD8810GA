@@ -41,6 +41,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000"
+			android:textSize="30dip"
         />
 
         <LinearLayout
@@ -54,6 +56,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#333"
+				android:textSize="20dip"
             />
     
             <ImageView android:id="@+id/primary_icon"

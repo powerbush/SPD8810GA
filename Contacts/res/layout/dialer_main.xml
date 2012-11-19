@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="#FEFEFC" >
     <ListView android:id="@+id/contact_list"
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"
-        android:layout_marginBottom="107dip"></ListView>
+        android:layout_marginBottom="107dip"
+        android:cacheColorHint="#0000"></ListView>
     <include layout="@layout/twelve_key_dialer"/>
 
 </FrameLayout>

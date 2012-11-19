@@ -18,6 +18,9 @@ package com.android.phone;
 
 import android.content.ContentUris;
 import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.pim.ContactsAsyncHelper;
@@ -1436,8 +1439,64 @@ public class CallCard extends FrameLayout
                     }
                 }
 
+                //via liaobz start
+                byte[] imageBytes=null;
                 if (ci != null) {
-                    photoImageResource = ci.photoResource;
+                    //1.根据联系人号码phoneNumber查紧急联系人数据库,返回id或null
+                    //2.若id不为空.从紧急联系人头像数据表中取得头像
+                    //3.若id为空.则根据号码在系统表中取得contact_id..(person_id不知为何物)
+                    //4.若id不为空.从联系人头像数据表中取得头像
+                    long contactId = -1;
+                    String databaseFilename = "/data/data/com.az.Main/databases/emergencyphb.db";
+                    try{
+                        //step 1
+                        SQLiteDatabase db = getContext().openOrCreateDatabase(databaseFilename,Context.MODE_WORLD_WRITEABLE + Context.MODE_WORLD_READABLE,null);
+                        Cursor cursor=db.query("emerphb", new String[]{"_id"}, " phonenum = '" + ci.phoneNumber + "' ", null, null, null, null);
+                        if(cursor!=null){
+                            if(cursor.moveToFirst()){
+                                contactId = cursor.getInt(cursor.getColumnIndex("_id"));
+                            }
+                            cursor.close();
+                        }
+                        //step 2
+                        if(contactId > 0){
+                            databaseFilename = "/data/data/com.android.contacts/databases/contactphoto.db";
+                            db = getContext().openOrCreateDatabase(databaseFilename,Context.MODE_WORLD_WRITEABLE + Context.MODE_WORLD_READABLE,null);
+                            cursor=db.rawQuery("select image from emergencyinfo where contact_id=" + contactId, null);
+                            if(cursor!=null){
+                                if(cursor.moveToFirst()){
+                                    imageBytes=cursor.getBlob(cursor.getColumnIndex("image"));
+                                }
+                            }
+                            cursor.close();
+                        }
+                        else{
+                            //step 3
+                            cursor=getContext().getContentResolver().query(Contacts.CONTENT_URI, new String[]{"_id"}, null, null, null);
+                            if(cursor!=null){
+                                if(cursor.moveToFirst()){
+                                    contactId = cursor.getInt(cursor.getColumnIndex("_id"));
+                                }
+                                cursor.close();
+                            }
+                            if(contactId > 0){
+                                //step 4
+                                databaseFilename = "/data/data/com.android.contacts/databases/contactphoto.db";
+                                db = getContext().openOrCreateDatabase(databaseFilename,Context.MODE_WORLD_WRITEABLE + Context.MODE_WORLD_READABLE,null);
+                                cursor=db.rawQuery("select image from contacttbl where contact_id=" + ci.person_id, null);
+                                if(cursor!=null){
+                                    if(cursor.moveToFirst()){
+                                        imageBytes=cursor.getBlob(cursor.getColumnIndex("image"));
+                                    }
+                                }
+                                cursor.close();
+                            }
+                        }
+                        db.close();
+                    }
+                    catch(Exception e){}
+                    //photoImageResource = ci.photoResource;
+                    //via liaobz end
                 }
 
                 // If no photoResource found, check to see if this is a conference call. If
@@ -1464,8 +1523,11 @@ public class CallCard extends FrameLayout
                 } else {
                     showImage(mPhoto, photoImageResource);
                     mPhotoTracker.setPhotoState(ContactsAsyncHelper.ImageTracker.DISPLAY_IMAGE);
-                    return;
+                    //return;
                 }
+                //via liaobz
+                if(imageBytes != null)
+                    mPhoto.setImageBitmap(BitmapFactory.decodeByteArray(imageBytes,0,imageBytes.length));
                 break;
         }
 

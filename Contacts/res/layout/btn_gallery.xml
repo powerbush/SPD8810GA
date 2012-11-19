@@ -16,23 +16,25 @@
   android:layout_marginTop="15dp"
   android:layout_gravity="center_horizontal"/>
   
-  <Button 
+  <com.android.contacts.ui.widget.DontPressWithParentButton 
   android:id="@+id/contact_list_gallery_btn"
   android:layout_width="280dp"
   android:layout_height="wrap_content"
-  android:background="@drawable/bg_button_01"
+  android:background="@drawable/btn_button_bg"
   android:text="@string/contact_list_gallery_label"
   android:textSize="35dp"
-  android:layout_marginTop="40dp"/>
+  android:layout_marginTop="40dp"
+  android:textColor="#FFFFFF"/>
   
-  <Button 
+  <com.android.contacts.ui.widget.DontPressWithParentButton 
   android:id="@+id/contact_list_btn"
   android:layout_width="280dp"
   android:layout_height="wrap_content"
-  android:background="@drawable/bg_button_01"
+  android:background="@drawable/btn_button_bg"
   android:text="@string/contact_list_label"
   android:textSize="35dp"
-  android:layout_marginTop="30dp"/>
+  android:layout_marginTop="30dp"
+  android:textColor="#FFFFFF"/>
   
     
 </LinearLayout>

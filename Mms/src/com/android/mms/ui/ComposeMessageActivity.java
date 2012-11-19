@@ -205,12 +205,6 @@ import com.android.mms.util.ZoomViewUtil;
 import android.text.InputFilter.LengthFilter;
 import com.android.internal.telephony.PhoneFactory;
 
-import com.android.mms.ui.ConversationList;// by lai
-import android.view.MotionEvent; //by lai
-import android.widget.ScrollView; //by lai
-import android.view.View.OnTouchListener; //by lai
-import android.preference.PreferenceManager;//by lai
-
 /**
  * This is the main UI for:
  * 1. Composing a new message;
@@ -245,8 +239,6 @@ public class ComposeMessageActivity extends Activity
     private static final boolean LOCAL_LOGV = DEBUG ? Config.LOGD : Config.LOGV;
 
 	private static final String EXTRA_IS_VIDEOCALL = "android.phone.extra.IS_VIDEOCALL";
-
-	private String mPhoneNumForMms; //by lai
 
     // Menu ID
     private static final int MENU_ADD_SUBJECT           = 0;
@@ -2780,18 +2772,8 @@ public class ComposeMessageActivity extends Activity
         // workaround.
         mMessageListItemHandler.postDelayed(new Runnable() {
             public void run() {
-                //ContactList recipients = isRecipientsEditorVisible() ?
-                        //mRecipientsEditor.constructContactsFromInput() : getRecipients();
-		  /*-------------------------by lai----------------------------*/	
-		ContactList recipients;
-	        if (isRecipientsEditorVisible()) {
-                    recipients = mRecipientsEditor.constructContactsFromInput();
-                } else {
-                    recipients = getRecipients();
-        	    String[] PhoneNums = recipients.getNumbers();
-        	    mPhoneNumForMms = PhoneNums[PhoneNums.length-1];
-                }
-	        /*-------------------------by lai----------------------------*/	
+                ContactList recipients = isRecipientsEditorVisible() ?
+                        mRecipientsEditor.constructContactsFromInput() : getRecipients();
                 updateTitle(recipients);
             }
         }, 100);
@@ -5621,105 +5603,4 @@ public class ComposeMessageActivity extends Activity
             Log.d(TAG, "RotatePictureTask onPostExecute Leave");
         }
     }
-	
-   ///////////////////////////////////below by lai////////////////////////////////////////////
-
-    /*
-    此函数功能:每次左右移动时，将当前的短信的Cursor找到
-    然后左移时就返回上一条，右移时就进入下一条
-    */
-    private Cursor smsCursor;
-    private void SearchPhoneCursor(){
-
-		//Uri uri = Uri.parse("content://sms");    //读取所有的短信
-		Uri uri = Uri.parse("content://mms-sms/conversations");   //只读取会话短信
-        /*liao*/
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplication());
-        String MmsPhoneNum = preferences.getString("phone_num", "");
-        String selection=" address <> '" + MmsPhoneNum + "' and  address <> '+86" + MmsPhoneNum + "' ";
-		smsCursor = this.managedQuery(uri,new String[]{"thread_id","address"}, selection, null, "date DESC");         
-		if(smsCursor != null){
-			if (smsCursor.moveToFirst()) {         
-				do{  
-					String phn=smsCursor.getString(1); 
-					if(phn.equals(mPhoneNumForMms)){
-						break;
-					}
-                    
-				}while(smsCursor.moveToNext());   
-			}
-		}
-		//smsCursor.close();
-    }
-	
-	/*
-	android系统中的每个View的子类都具有下面三个和TouchEvent处理密切相关的方法：
-	1）public boolean dispatchTouchEvent(MotionEvent ev)  这个方法用来分发TouchEvent
-	2）public boolean onInterceptTouchEvent(MotionEvent ev) 这个方法用来拦截TouchEvent当这个返回true时就会进到onTouchEvent。
-	3）public boolean onTouchEvent(MotionEvent ev) 这个方法用来处理TouchEvent，在这个ComposeMessageActivity.java里onTouchEvent不会触发的
-                                                       所以我就改成用dispatchTouchEvent去接收            
-
-	*/
-   public boolean dispatchTouchEvent(MotionEvent ev) {
-        /*liao*/
-        if(getIntent().getBooleanExtra("is_forbid_slide", false)){
-            return super.dispatchTouchEvent(ev);
-        }
-        /*liao*/
-       int action = ev.getAction();
-       float x = ev.getX();   
-       float y = ev.getY();  
-       switch (action) {
-       		case MotionEvent.ACTION_DOWN:
-           		TOUNCH_ACTION_DOWN = true;
-	   		mStartMotionX = x; 
-           		break;
-
-       		case MotionEvent.ACTION_MOVE:
-	    		TOUNCH_ACTION_MOVE = true;
-            		break;
-
-       		case MotionEvent.ACTION_UP:
-       			SearchPhoneCursor();
-			mEndMotionX = x; 
-			if(TOUNCH_ACTION_DOWN && TOUNCH_ACTION_MOVE){
-				
-				if((mEndMotionX - mStartMotionX)>100){//右移
-					if(smsCursor.moveToPrevious()){
-						startActivity(createIntent(this, smsCursor.getLong(0)));
-						overridePendingTransition(R.anim.in_from_left, R.anim.out_to_right);
-						smsCursor.close();//关掉数据
-						finish();
-					}
-				}
-				else if((mEndMotionX - mStartMotionX)< -100){//左移
-					if(smsCursor.moveToNext()){
-						startActivity(createIntent(this, smsCursor.getLong(0)));
-					 	overridePendingTransition(R.anim.in_from_right, R.anim.out_to_left);
-					 	smsCursor.close();//关掉数据
-				 		finish();
-					}
-				}
-			}
-			TOUNCH_ACTION_MOVE = false;
-			TOUNCH_ACTION_DOWN = false;
-           		break;
-       }
-       return super.dispatchTouchEvent(ev);
-   }
-	
-
-	/*   <activity android:name=".ui.ComposeMessageActivity"
-            android:theme="@/android:style/Theme.NoTitleBar"
-            android:configChanges="orientation|keyboardHidden"
-            android:windowSoftInputMode="stateHidden"
-            android:launchMode="singleTop" >  要将这里的android:launchMode="singleTop" 去掉*/
-
-     private boolean TOUNCH_ACTION_DOWN = false;
-     private boolean TOUNCH_ACTION_MOVE = false;
-     private float mStartMotionX;
-     private float mEndMotionX;
-
-     ///////////////////////////////////above by lai////////////////////////////////////////////
-	
 }
