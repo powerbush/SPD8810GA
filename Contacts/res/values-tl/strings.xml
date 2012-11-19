@@ -1,0 +1,670 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edit_group_info">I-edit ang Group</string>
+    <string name="rename_contact_group_name">"Palitan ang pangalan"</string>
+    <string name="no_contacts_group_name">Walang pangalan ng Grupo</string>
+    <string name="contacts_group_name_exist">Dati ng Pangalan ng Grupo</string>
+    <string name="sure">Sigurado</string>
+    <string name="contacts_group">Grupo</string>
+    <string name="divided_group_to">Hatiin</string>
+    <string name="add_group">idagdag ang pagpangkat</string>
+    <string name="please_add_group">idagdag ang pagpangkat</string>
+    <string name="delete">"Tanggalin"</string>
+    <string name="deleted">Nabura</string>
+    <string name="group_name_empty">Walang laman ang Grupo</string>
+    <string name="all_selected">Piliin lahat</string>
+    <string name="group_new">Bagong grupo</string>
+    <string name="save">"I-save"</string>
+    <string name="menu_contacts_group_add">Dagdagan</string>
+    <string name="menu_memory_query">Memory Query</string>
+    <string name="contactor_will_be"><xliff:g id="COUNT">%1$d</xliff:g> iyong mga kontak ay magiging <xliff:g id="OPTERATOR">%2$s</xliff:g></string>
+    <string name="imported">imported</string>
+    <string name="exported">na-export na </string>
+    <string name="selected">nakapili</string>
+    <string name="sharedUserLabel">"Android Core Apps"</string>
+    <string name="contactsList">"Mga Contact"</string>
+    <string name="launcherDialer">"Telepono"</string>
+    <string name="shortcutContact">"Contact"</string>
+    <string name="shortcutDialContact">"Direktang pag-dial"</string>
+    <string name="shortcutMessageContact">"Direktang mensahe"</string>
+    <string name="shortcutActivityTitle">"Pumili ng shortcut sa contact"</string>
+    <string name="callShortcutActivityTitle">"Pumili ng tatawagang numero"</string>
+    <string name="messageShortcutActivityTitle">"Pumili ng numero na padadalhan ng mensahe"</string>
+    <string name="starredList">"Naka-star"</string>
+    <string name="frequentList">"Madalas"</string>
+    <string name="strequentList">"Mga Paborito"</string>
+    <string name="viewContactTitle">"Mga detalye ng contact"</string>
+    <string name="viewContactDesription">"Tingnan ang contact"</string>
+    <string name="editContactDescription">"I-edit ang contact"</string>
+    <string name="insertContactDescription">"Lumikha ng contact"</string>
+    <string name="searchHint">"Maghanap ng mga contact"</string>
+    <string name="menu_search">"Paghahanap"</string>
+    <string name="menu_newContact">"Bagong contact"</string>
+    <string name="menu_viewContact">"Tingnan ang contact"</string>
+    <string name="menu_callNumber">"Tawagan si <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_addStar">"Idagdag sa mga paborito"</string>
+    <string name="menu_removeStar">"Alisin mula sa mga paborito"</string>
+    <string name="menu_showBarcode">Ipakita ang barcode</string>
+    <string name="menu_editContact">"I-edit ang contact"</string>
+    <string name="menu_deleteContact">"Tanggalin ang contact"</string>
+    <string name="menu_call">"Tawagan ang contact"</string>
+    <string name="menu_video_call">Video Call contact</string>
+    <string name="menu_sendSMS">"Mag-text sa contact"</string>
+    <string name="menu_sendEmail">"Magpadala ng email"</string>
+    <string name="menu_viewAddress">"Address ng mapa"</string>
+    <string name="menu_makeDefaultNumber">"Gawing default na numero"</string>
+    <string name="menu_makeDefaultEmail">"Gumawa ng default na email"</string>
+    <string name="menu_splitAggregate">"Hiwalay"</string>
+    <string name="contactsSplitMessage">"Hiniwalay ang mga contact"</string>
+    <string name="splitConfirmation_title">"Hiwalay na Contact"</string>
+    <string name="splitConfirmation">"Sigurado ka bang gusto mong ihiwalay ang isang contact na ito sa maraming contact: isa sa bawat lupon ng impormasyon sa pakikipag-ugnay na isinama dito?"</string>
+    <string name="menu_joinAggregate">"Sumali"</string>
+    <string name="menu_showSources">Ipakita ang mga sources</string>
+    <string name="menu_hideSources">Itago ang sources</string>
+    <string name="titleJoinAggregate">Sumali sa kontak</string>
+    <string name="titleJoinContactDataWith">"Sumali sa mga contact"</string>
+    <string name="blurbJoinContactDataWith">"Piliin ang contact na gusto mong salihan ni <xliff:g id="NAME">%s</xliff:g>."</string>
+    <string name="showAllContactsJoinItem">"Ipakita ang lahat ng mga contact"</string>
+    <string name="separatorJoinAggregateSuggestions">"Mga iminumungkahing contact"</string>
+    <string name="separatorJoinAggregateAll">"Lahat ng mga contact"</string>
+    <string name="contactsJoinedMessage">"Mga pinagsamang contact"</string>
+    <string name="menu_contactOptions">"Mga Pagpipilian"</string>
+    <string name="contactOptionsTitle">"Mga Pagpipilian"</string>
+    <string name="deleteConfirmation_title">"Tanggalin"</string>
+    <string name="readOnlyContactWarning">"Hindi ka makakapagtanggal ng mga contact mula sa mga account na read-only, ngunit maitatago mo ang mga ito sa mga listahan ng iyong mga contact."</string>
+    <string name="readOnlyContactDeleteConfirmation">"Naglalaman ang contact na ito ng impormasyon mula sa maramihang account. Itatago ang impormasyon mula sa mga account na read-only sa mga listahan ng iyong mga contact, hindi tatanggalin."</string>
+    <string name="multipleContactDeleteConfirmation">"Tatanggalin ng pagtanggal sa account na ito ang impormasyon mula sa maramihang account."</string>
+    <string name="deleteConfirmation">"Tatanggalin ang contact na ito."</string>
+    <string name="menu_done">Tapos</string>
+    <string name="menu_doNotSave">I-revert</string>
+    <string name="editContact_title_edit">"I-edit ang contact"</string>
+    <string name="editContact_title_insert">"Bagong contact"</string>
+    <string name="menu_addItem">"Higit pang impormasyon"</string>
+    <string name="label_phonetic_name">"Phonetic"</string>
+    <string name="label_notes">"Mga Tala"</string>
+    <string name="label_sip_address">"Tawag sa internet"</string>
+    <string name="label_ringtone">"Ringtone"</string>
+    <string name="label_groups">Mga grupo</string>
+    <string name="group_list">, <xliff:g id="groupName">%s</xliff:g></string>
+    <string name="menu_viewGroup">I-edit ang mga group</string>
+    <string name="ghostData_name">"Una at Huli"</string>
+    <string name="ghostData_phonetic_name">"Phonetic na pangalan"</string>
+    <string name="ghostData_company">"Kumpanya"</string>
+    <string name="ghostData_title">"Pamagat"</string>
+    <string name="ghostData_im">Pangalan ng IM</string>
+    <string name="ghostData_notes">Ang aking note</string>
+    <string name="ghostData_phone">Numero ng telepono</string>
+    <string name="ghostData_email">"Email address"</string>
+    <string name="ghostData_postal">"Postal address"</string>
+    <string name="ghostData_group">Ipakita ang group</string>
+    <string name="invalidContactMessage">"Hindi umiiral ang contact."</string>
+    <string name="pickerNewContactHeader">"Lumikha ng bagong contact"</string>
+    <string name="selectLabel">"Pumili ng label"</string>
+    <string name="phoneLabelsGroup">"Telepono"</string>
+    <string name="emailLabelsGroup">"Email"</string>
+    <string name="imLabelsGroup">"IM"</string>
+    <string name="postalLabelsGroup">"Postal address"</string>
+    <string name="otherLabelsGroup">"Iba pa"</string>
+    <string-array name="otherLabels">
+        <!-- An organization associated with a contact -->
+        <item>"Samahan"</item>
+        <!-- A note associated with a contact -->
+        <item>Paalala</item>
+    </string-array>
+    <string name="errorDialogTitle">Walang mga litrato</string>
+    <string name="photoPickerNotFoundText">"Walang mga larawan ang available sa telepono."</string>
+    <string name="attachToContact">"Icon ng contact"</string>
+    <string name="customLabelPickerTitle">"Custom na pangalan ng label"</string>
+    <string name="menu_displayGroup">"Mga pagpipilian sa pagpapakita"</string>
+    <string name="displayGroups">"Mga pagpipilian sa pagpapakita"</string>
+    <string name="syncGroupPreference">I-edit sync ng mga group</string>
+    <string name="importFromSim">I-import ang mga contact</string>
+    <string name="send_to_voicemail_checkbox">"Ipadala ang mga tawag nang direkta sa voicemail"</string>
+    <string name="send_to_voicemail_view">Ang mga tawag ay direktang pinapadala sa voicemail.</string>
+    <string name="default_ringtone">"Default"</string>
+    <string name="addPicture">Idagdag ang icon</string>
+    <string name="changePicture">"Icon na baguhin"</string>
+    <string name="removePicture">"Icon sa pag-alis"</string>
+    <string name="noContacts">"Walang mga contact."</string>
+    <string name="noMatchingContacts">"Walang nakitang magkakatugmang mga contact."</string>
+    <string name="noContactsWithPhoneNumbers">"Walang mga contact na may mga numero ng telepono."</string>
+    <string name="noFavorites">Walang favorites.</string>
+    <string name="select_group_title">Mga grupo</string>
+    <string name="groupEmpty">Ang Iyong \"<xliff:g id="groupName">%s</xliff:g>\" group ay walang laman.</string>
+    <string name="showAllGroups">"Lahat ng mga contact"</string>
+    <string name="showFilterPhones">"Mga contact lang na may mga telepono"</string>
+    <string name="showFilterPhonesDescrip">"Ipakita lang ang mga contact na may mga numero ng telepono"</string>
+    <string name="headerContactGroups">"Pumili ng mga contact upang ipakita"</string>
+    <plurals name="groupDescrip">
+        <item quantity="other">"<xliff:g id="COUNT">%0$d</xliff:g> (na) contact"</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">"<xliff:g id="COUNT_0">%1$d</xliff:g> (na) contact, <xliff:g id="COUNTWITHPHONES">%2$d</xliff:g> (na) may telepono"</item>
+    </plurals>
+    <string name="syncAllGroups">I-sync lahat ng mga kontak</string>
+    <string name="groupNameMyContacts">Mga kontak ko</string>
+    <string name="groupNameWithPhones">"Mga contact na may mga numero ng telepono"</string>
+    <string name="starredInAndroid">Starred in Android</string>
+    <string name="savingContact">"Nagse-save ng contact..."</string>
+    <string name="savingDisplayGroups">"Sine-save ang mga pagpipilian sa pagpapakita..."</string>
+    <string name="contactCreatedToast">Nakagawa na ng kontak.</string>
+    <string name="contactSavedToast">"Na-save ang contact."</string>
+    <string name="contactDeletedToast">Tinanggal ang contact.</string>
+    <string name="contactSavedErrorToast">"Error, hindi nagawang i-save ang mga pagbabago sa contact."</string>
+    <string name="listSeparatorCallNumber">I-dial ang numero</string>
+    <string name="listSeparatorCallNumber_edit">Mga numero sa telepono</string>
+    <string name="number_empty">"walang numero ng telepono，hindi mailagay\'"</string>
+    <string name="listSeparatorSendSmsMms">Ipadala ang text</string>
+    <string name="listSeparatorSendEmail">"Magpadala ng email"</string>
+    <string name="listSeparatorSendEmail_edit">Email addresses</string>
+    <string name="listSeparatorSendIm">Ipadala ang instant message</string>
+    <string name="listSeparatorSendIm_edit">Chat addresses</string>
+    <string name="listSeparatorMapAddress">"Address ng mapa"</string>
+    <string name="listSeparatorMapAddress_edit">Postal addresses</string>
+    <string name="listSeparatorOrganizations">Organizations</string>
+    <string name="listSeparatorGroups">Mga grupo</string>
+    <string name="listSeparatorOtherInformation">Iba pang impormasyon</string>
+    <string name="listSeparatorOtherInformation_edit">Iba pang mga opsyon</string>
+    <string name="listSeparatorMore_edit">"Higit pa"</string>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="one">"Pagpapakita ng 1 contact na may numero ng telepono"</item>
+        <item quantity="other">"Pagpapakita ng <xliff:g id="COUNT">%d</xliff:g> (na) contact na may mga numero ng telepono"</item>
+    </plurals>
+    <string name="listTotalPhoneContactsZero">"Walang mga nakikitang contact na may mga numero ng telepono"</string>
+    <plurals name="listTotalAllContacts">
+        <item quantity="one">"Ipinapakita ang 1 contact"</item>
+        <item quantity="other">"Pagpapakita ng <xliff:g id="COUNT">%d</xliff:g> (na) contact"</item>
+    </plurals>
+    <string name="listTotalAllContactsZero">"Walang nakikitang mga contact"</string>
+    <plurals name="listFoundAllContacts">
+        <item quantity="one">"Nakita ang 1 contact"</item>
+        <item quantity="other">"Nakita <xliff:g id="COUNT">%d</xliff:g> (na) contact"</item>
+    </plurals>
+    <string name="listFoundAllContactsZero">"Hindi nakita ang contact"</string>
+    <plurals name="searchFoundContacts">
+        <item quantity="one">"1 contact"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (na) contact"</item>
+    </plurals>
+    <string name="socialStreamIconLabel">Social</string>
+    <string name="contactsIconLabel">"Mga Contact"</string>
+    <string name="contactsFavoritesLabel">"Mga Paborito"</string>
+    <string name="dialerIconLabel">"Telepono"</string>
+    <string name="recentCallsIconLabel">"Log ng tawag"</string>
+    <string name="liveFolderAll">"Lahat ng mga contact"</string>
+    <string name="liveFolderFavorites">"Mga naka-star na contact"</string>
+    <string name="liveFolderPhone">"Mga contact na may mga numero ng telepono"</string>
+    <string name="menu_sendTextMessage">"Magpadala ng text message"</string>
+    <string name="recentCalls_callNumber">"Tawagan si <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="recentCalls_editNumberBeforeCall">"I-edit ang numero bago tumawag"</string>
+    <string name="recentCalls_addToContact">"Idagdag sa mga contact"</string>
+    <string name="recentCalls_removeFromRecentList">"Alisin mula sa log ng tawag"</string>
+    <string name="recentCalls_deleteAll">"I-clear ang log ng tawag"</string>
+    <string name="recentCalls_deleteSome">I-clear ang ilang log sa tawag </string>
+    <string name="intent_to_firewall">Firewall</string>
+    <string name="recentCalls_Confirm_delete">Kumpirmahin ang pagtanggal</string>
+    <string name="recentCalls_Cancel_delete">Ikansela ang delete</string>
+    <string name="recentCalls_button_Confirm_delete">Kumpirmahin ang pagtanggal</string>
+    <string name="recentCalls_button_Cancel">"Kanselahin"</string>
+    <string name="recent_Call_log_checkbox_selecte_all">Piliin lahat</string>
+    <string name="recentCalls_empty">"Walang laman ang log ng tawag."</string>
+    <string name="clearCallLogConfirmation_title">"I-clear ang log ng tawag"</string>
+    <string name="clearCallLogConfirmation">"Sigurado ka bang gusto mong i-clear ang log ng tawag?"</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="voicemail">"Voicemail"</string>
+    <string name="unknown">"Hindi Kilala"</string>
+    <string name="private_num">"Pribadong numero"</string>
+    <string name="payphone">"Pay phone"</string>
+    <string name="dialerKeyboardHintText">"Gamitin ang keyboard upang mag-dial"</string>
+    <string name="dialerDialpadHintText">"Mag-dial upang magdagdag ng tawag"</string>
+    <string name="simContacts_emptyLoading">"Naglo-load mula sa SIM card..."</string>
+    <string name="simContacts_title">"Mga contact sa SIM card"</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">"Wala kang ipapakitang anumang mga contact. (Kung nagdagdag ka lang ng account, maaaring tumagal ng ilang minuto upang ma-sync ang mga contact.)"</string>
+    <string name="noContactsHelpTextForCreateShortcut">"Wala kang maipapakitang anumang mga contact."</string>
+    <string name="contactsSyncPlug"><font fgcolor="#ffffffff">I-sync ang mga kontak ng iyong Google!</font>\nMatapos i-sync sa iyong telepono, ang iyong mga kontak ay magagamit mo kahit saan ka pumunta.</string>
+    <string name="noContactsHelpText">"Wala kang maipapakitang anumang mga contact."\n\n"Upang magdagdag ng mga contact, pindutin ang "<font fgcolor="#ffffffff"><b>"Menu"</b></font>" at galawin ang:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Mga Account"</b></font>" upang magdagdag o mag-config</li></string>
+    <string name="noContactsHelpTextWithSync">"Wala kang maipapakitang anumang mga contact. (Kung nagdagdag ka ng account, tatagal ito ng ilang minuto upang ma-sync ang mga contact.)"\n\n"Upang magdagdag ng mga contact, pindutin ang "<font fgcolor="#ffffffff"><b>"Menu"</b></font>" at galawin ang:"\n"</string>
+    <string name="noContactsNoSimHelpText">"Wala kang maipapakitang anumang mga contact."\n\n"Upang magdagdag ng mga contact, pindutin ang "<font fgcolor="#ffffffff"><b>"Menu"</b></font>" at galawin ang:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Mga Account"</b></font>" upang magdagdag o mag-config</li></string>
+    <string name="noContactsNoSimHelpTextWithSync">"Wala kang maipapakitang anumang mga contact. (Kung nagdagdag ka ng account, tatagal ito ng ilang minuto upang ma-sync ang mga contact.)"\n\n"Upang magdagdag ng mga contact, pindutin ang "<font fgcolor="#ffffffff"><b>"Menu"</b></font>" at galawin ang:"\n"</string>
+    <string name="noFavoritesHelpText">"Wala kang anumang mga paborito."\n\n"Upang magdagdag ng contact sa iyong listahan ng mga paborito:"\n\n"        "<li>"Galawin ang tab na "<b>"Mga Contact"</b>\n</li>" "\n<li>"Galawin ang contact na gusto mong idagdag sa iyong mga paborito"\n</li></string>
+    <string name="seclectSyncGroups_title">Pumili ng groups para mai-sync</string>
+    <string name="liveFolder_all_label">"Lahat ng mga contact"</string>
+    <string name="liveFolder_favorites_label">"Naka-star"</string>
+    <string name="liveFolder_phones_label">"Mga Telepono"</string>
+    <string name="dialer_useDtmfDialpad">"Gumamit ng touch tone na keypad"</string>
+    <string name="dialer_returnToInCallScreen">"Kasalukuyang nagaganap ang pabalik na tawag"</string>
+    <string name="dialer_addAnotherCall">"Magdagdag ng tawag"</string>
+    <string name="callDetailTitle">"Mga detalye ng tawag"</string>
+    <string name="toast_call_detail_error">"Hindi mabasa ang mga detalye para sa hiniling na tawag."</string>
+    <string name="call_type">"I-type"</string>
+    <string name="type_incoming">"Papasok na tawag"</string>
+    <string name="type_outgoing">"Papalabas na tawag"</string>
+    <string name="type_missed">"Hindi nasagot na tawag"</string>
+    <string name="call_time">Oras</string>
+    <string name="datetime_relative">"<xliff:g id="datetime" example="Dec 31, 2007, 11:00 am">%1$s</xliff:g> (<xliff:g id="relative" example="4 hours ago">%2$s</xliff:g>)"</string>
+    <string name="call_duration">"Tagal"</string>
+    <string name="header_actions">Mga Action</string>
+    <string name="ringtone_spinner">"Ringtone: <xliff:g id="ringtone" example="Caribbean Ice">%1$s</xliff:g>"</string>
+    <string name="add_more_items">Magdagdag ng marami pang mga bagay</string>
+    <string name="actionCall">"Tawagan <xliff:g id="type" example="mobile">%s</xliff:g>"</string>
+    <string name="actionEmail">"Email <xliff:g id="type" example="home">%s</xliff:g>"</string>
+    <string name="actionText">"Teksto <xliff:g id="type" example="mobile">%s</xliff:g>"</string>
+    <string name="actionChat">Chat gamit ang <xliff:g id="type" example="Google Talk">%s</xliff:g></string>
+    <string name="actionMap">"Tingnan ang <xliff:g id="type" example="home">%s</xliff:g>  na address"</string>
+    <string name="actionIncomingCall">"Mga paparating na tawag"</string>
+    <string name="detailIncomingCallsGoToVoicemail">Ipadadala ng diretso sa voicemail</string>
+    <string name="detailsRingtone">I-set sa <xliff:g id="ringtone_name" example="Flutey Phone">%s</xliff:g></string>
+    <string name="callBack">"Tumawag pabalik"</string>
+    <string name="callAgain">"Tawagan muli"</string>
+    <string name="returnCall">"Pabalik na tawag"</string>
+    <string name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%1$s</xliff:g> (na) min <xliff:g id="SECONDS">%2$s</xliff:g> (na) seg"</string>
+    <string name="favoritesFrquentSeparator">"Madalas na tinatawagan"</string>
+    <string name="add_contact_dlg_title">"Magdagdag ng contact"</string>
+    <string name="add_contact_dlg_message_fmt">"Idagdag ang \"<xliff:g id="EMAIL">%s</xliff:g>\" sa mga contact?"</string>
+    <string name="all_tab_label">"Lahat"</string>
+    <string name="description_image_button_one">"isa"</string>
+    <string name="description_image_button_two">"dalawa"</string>
+    <string name="description_image_button_three">"tatlo"</string>
+    <string name="description_image_button_four">"apat"</string>
+    <string name="description_image_button_five">"lima"</string>
+    <string name="description_image_button_six">"anim"</string>
+    <string name="description_image_button_seven">"pito"</string>
+    <string name="description_image_button_eight">"walo"</string>
+    <string name="description_image_button_nine">"siyam"</string>
+    <string name="description_image_button_star">"lagyan ng bituin"</string>
+    <string name="description_image_button_zero">"zero"</string>
+    <string name="description_image_button_pound">"pound"</string>
+    <string name="description_voicemail_button">"voicemail"</string>
+    <string name="description_dial_button">"mag-dial"</string>
+    <string name="description_delete_button">"backspace"</string>
+    <string name="description_digits_edittext">"numerong ida-dial"</string>
+    <string name="description_contact_photo">"larawan ng contact"</string>
+    <string name="description_minus_button">"minus"</string>
+    <string name="description_plus_button">"plus"</string>
+    <string name="no_sdcard_title" product="nosdcard">"Hindi available ang storage ng USB"</string>
+    <string name="no_sdcard_title" product="default">"Walang SD card"</string>
+    <string name="no_sdcard_message" product="nosdcard">"Walang nakitang imbakan na USB"</string>
+    <string name="no_sdcard_message" product="default">"Walang natukoy na SD card"</string>
+    <string name="searching_vcard_title">"Paghahanap ng vCard"</string>
+    <string name="select_import_type_title">Saan mo gustong iimport ang mga kontak?</string>
+    <string name="import_from_sim">"I-import mula sa SIM card"</string>
+    <string name="import_from_sim1">I-import mula sa SIM1</string>
+    <string name="import_from_sim2">I-import mula sa SIM2</string>
+    <string name="import_from_sdcard" product="nosdcard">"Import sa imbakan na USB"</string>
+    <string name="import_from_sdcard" product="default">"Mag-import mula sa SD card"</string>
+    <string name="export_to_sdcard" product="nosdcard">"Export sa imbakan na USB"</string>
+    <string name="export_to_sdcard" product="default">"Mag-export sa SD card"</string>
+    <string name="share_visible_contacts">"Magbahagi ng mga nakikitang contact"</string>
+    <string name="import_one_vcard_string">"Mag-import nang isang vCard file"</string>
+    <string name="import_multiple_vcard_string">"Mag-import ng maramihang vCard file"</string>
+    <string name="import_all_vcard_string">"I-import ang lahat ng mga vCard file"</string>
+    <string name="searching_vcard_message" product="nosdcard">"Naghahanap ng vCard data sa imbakan na USB"</string>
+    <string name="searching_vcard_message" product="default">"Naghahanap ng data ng vCard sa SD card"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard">"Nabigo ang pag-scan ng imbakan na USB"</string>
+    <string name="scanning_sdcard_failed_title" product="default">"Nabigo ang pag-scan sa SD card"</string>
+    <string name="scanning_sdcard_failed_message" product="nosdcard">"Nabigo ang pag-scan ng imbakan na USB (Dahilan: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\")"</string>
+    <string name="scanning_sdcard_failed_message" product="default">"Nabigo ang pag-scan sa SD card (Dahilan: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\")"</string>
+    <string name="fail_reason_io_error">"Error na I/O"</string>
+    <string name="fail_reason_vcard_parse_error">"Nabigong i-parse ang vCard para sa di-inaasahang dahilan"</string>
+    <string name="fail_reason_vcard_not_supported_error">"Nabigong i-parse ang vCard kahit na mukhang nasa wastong format na ito, dahil hindi ito sinusuportahan ng kasalukuyang pagpapatupad"</string>
+    <string name="fail_reason_no_vcard_file" product="nosdcard">"Walang nakitang vCard file sa imbakan na USB"</string>
+    <string name="fail_reason_no_vcard_file" product="default">"Walang nakitang vCard file sa SD card"</string>
+    <string name="fail_reason_no_vcard_entry">Walang nakitang balidong vCard na naitala sa iyong seleksyon</string>
+    <string name="fail_reason_failed_to_read_files">"Nabigo ang isa o higit pang file upang ma-import (%s)."</string>
+    <string name="fail_reason_unknown">"Hindi kilalang error"</string>
+    <string name="select_vcard_title">"Pumili ng vCard file"</string>
+    <string name="select_vcard_message">Pakipili ang  vCard file na i-import</string>
+    <string name="progress_shower_message">"<xliff:g id="ACTION">%1$s</xliff:g>"\n"<xliff:g id="FILENAME">%2$s</xliff:g>"</string>
+    <string name="reading_vcard_title">"Pagbabasa ng vCard"</string>
+    <string name="reading_vcard_message">"Pagbabasa ng (mga) file ng vCard"</string>
+    <string name="importing_vcard_message">Ini-import ang data ng vCard</string>
+    <string name="reading_vcard_failed_title">"Nabigo ang pagbabasa ng data ng vCard"</string>
+    <string name="reading_vcard_failed_message">Hindi mabasa ang vCard.\nDahilan ng pagkabigo: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    <string name="reading_vcard_contacts">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> ng <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> (na) contact"</string>
+    <string name="reading_vcard_files">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> ng <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> (na) file"</string>
+    <string name="export_all_contacts">"Lahat ng mga contact"</string>
+    <string name="export_phone_local_only">Mga nakatagong kontak na lokal</string>
+    <string name="export_contact_list">I-export mga kontak</string>
+    <string name="confirm_export_title">"Kumpirmahin ang pag-export"</string>
+    <string name="confirm_export_message">"Sigurado ka bang gusto mong i-export ang listahan ng iyong contact sa \"<xliff:g id="VCARD_FILENAME">%s</xliff:g>\"?"</string>
+    <string name="exporting_contact_failed_title">"Nabigong i-export ang data ng contact"</string>
+    <string name="exporting_contact_failed_message">"Nabigong i-export ang data ng contact."\n"Dahilan sa pagkabigo: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_no_exportable_contact">"Walang nae-export na contact"</string>
+    <string name="fail_reason_too_many_vcard" product="nosdcard">"Masyadong maraming vCard file sa imbakan na USB"</string>
+    <string name="fail_reason_too_many_vcard" product="default">"Masyadong maraming vCard file sa SD card"</string>
+    <string name="fail_reason_too_long_filename">"Ang kinakailangang filename ay masyadong mahaba (\"<xliff:g id="FILENAME">%s</xliff:g>\")"</string>
+    <string name="fail_reason_cannot_open_destination_dir">Hindi mabuksan o makagawa ng direktoryo ng patutunguhan\"<xliff:g id="dir_name">%s</xliff:g>\"</string>
+    <string name="exporting_contact_list_title">"Pag-e-export ng data ng contact"</string>
+    <string name="exporting_contact_list_message">"Pag-export ng data ng contact sa \"<xliff:g id="FILE_NAME">%s</xliff:g>\""</string>
+    <string name="fail_reason_could_not_initialize_exporter">"Hindi mapasimulan ang taga-export: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_error_occurred_during_export">"Naganap ang error sa panahon ng pag-export: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="composer_failed_to_get_database_infomation">"Nabigong kumuha ng impormasyon ng database"</string>
+    <string name="composer_has_no_exportable_contact">"Walang nae-export na contact. Kung mayroon kang mga contact sa iyong telepono, maaaring mapagbawalan ang lahat ng mga contact mula sa pag-export sa labas ng telepono ng ilang provider ng data."</string>
+    <string name="composer_not_initialized">"Hindi tamang nasimulan ang vCard composer"</string>
+    <string name="fail_reason_could_not_open_file">"Hindi mabuksan ang \"<xliff:g id="FILE_NAME">%1$s</xliff:g>\": <xliff:g id="EXACT_REASON">%2$s</xliff:g>"</string>
+    <string name="exporting_contact_list_progress">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> ng <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> (na) contact"</string>
+    <string name="search_settings_description">"Mga pangalan ng iyong mga contact"</string>
+    <string name="add_2sec_pause">"Magdagdag ng pag-pause na 2-seg"</string>
+    <string name="add_wait">"Magdagdag ng paghihintay"</string>
+    <string name="dial_button_label">"I-dial"</string>
+    <string name="call_disambig_title">"Pagtawag gamit ang"</string>
+    <string name="sms_disambig_title">"Paggamit ng teksto"</string>
+    <string name="make_primary">"Tandaan ang pagpipiliang ito"</string>
+    <string name="quickcontact_missing_app">"Walang nakitang application upang pangasiwaan ang pagkilos na ito"</string>
+    <string name="quickcontact_remember_choice">"Tandaan ang pagpipiliang ito"</string>
+    <string name="quickcontact_missing_name">"Hindi Kilala"</string>
+    <string name="menu_accounts">"Mga Account"</string>
+    <string name="menu_import_export">"Mag-import/Mag-export"</string>
+    <string name="dialog_import_export">"Mag-import/Mag-export ng mga contact"</string>
+    <string name="menu_share">"Ibahagi"</string>
+    <string name="share_via">"Ibahagi ang contact sa pamamagitan ng"</string>
+    <string name="share_error">"Hindi maibabahagi ang contact na ito."</string>
+    <string name="nameLabelsGroup">"Pangalan"</string>
+    <string name="nicknameLabelsGroup">"Palayaw"</string>
+    <string name="organizationLabelsGroup">"Samahan"</string>
+    <string name="websiteLabelsGroup">"Website"</string>
+    <string name="eventLabelsGroup">"Kaganapan"</string>
+    <string name="type_short_home">"H"</string>
+    <string name="type_short_mobile">"M"</string>
+    <string name="type_short_work">"W"</string>
+    <string name="type_short_pager">"P"</string>
+    <string name="type_short_other">"O"</string>
+    <string name="edit_read_only">"Read-only ang contact na ito"</string>
+    <string name="edit_secondary_collapse">"Higit pa"</string>
+    <string name="dialog_primary_name">"Pangunahing pangalan"</string>
+    <string name="dialog_new_contact_account">"Lumikha ng contact sa ilalim ng account"</string>
+    <string name="menu_sync_remove">"Alisin ang pangkat sa pag-sync"</string>
+    <string name="dialog_sync_add">"Magdagdag ng pangkat sa pag-sync"</string>
+    <string name="display_more_groups">"Higit pang mga pangkat..."</string>
+    <string name="display_ungrouped">"Lahat ng Iba Pang Mga Contact"</string>
+    <string name="display_all_contacts">"Lahat ng mga Contact"</string>
+    <string name="display_warn_remove_ungrouped">"Aalisin rin ng pag-alis ng \'<xliff:g id="GROUP">%s</xliff:g>\' mula sa sync ang anumang mga di-nakapangkat na contact mula sa sync."</string>
+    <string name="label_email_display_name">"Display name"</string>
+    <string name="account_phone">"Telepono lamang, hindi naka-sync"</string>
+    <string name="call_custom">"Tawagan si <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="call_home">"Tawagan ang tahanan"</string>
+    <string name="call_mobile">"Tawagan ang mobile"</string>
+    <string name="call_work">"Tawagan ang trabaho"</string>
+    <string name="call_fax_work">"Tawagan ang fax sa trabaho"</string>
+    <string name="call_fax_home">"Tawagan ang fax sa tahanan"</string>
+    <string name="call_pager">"Tawagan ang pager"</string>
+    <string name="call_other">"Tawag"</string>
+    <string name="call_callback">"Tawagan ang pabalik na tawag"</string>
+    <string name="call_car">"Tawagan sa kotse"</string>
+    <string name="call_company_main">"Tawagan ang pangunahing kumpanya"</string>
+    <string name="call_isdn">"Tawagan ang ISDN"</string>
+    <string name="call_main">"Tawagan ang pangunahin"</string>
+    <string name="call_other_fax">"Tawagan ang fax"</string>
+    <string name="call_radio">"Tumawag sa radio"</string>
+    <string name="call_telex">"Tawagan ang telex"</string>
+    <string name="call_tty_tdd">"Tawagan ang TTY/TDD"</string>
+    <string name="call_work_mobile">"Tawagan ang mobile sa trabaho"</string>
+    <string name="call_work_pager">"Tawagan ang pager sa trabaho"</string>
+    <string name="call_assistant">"Tawagan si <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="call_mms">"Tawagan ang MMS"</string>
+    <string name="sms_custom">"Teksto <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="sms_home">"Mag-text sa bahay"</string>
+    <string name="sms_mobile">"Mag-text sa mobile"</string>
+    <string name="sms_work">"Mag-text sa trabaho"</string>
+    <string name="sms_fax_work">"Mag-text sa fax sa trabaho"</string>
+    <string name="sms_fax_home">"I-text ang fax sa tahanan"</string>
+    <string name="sms_pager">"Mag-text sa pager"</string>
+    <string name="sms_other">"Teksto"</string>
+    <string name="sms_callback">"I-text ang callback"</string>
+    <string name="sms_car">"Mag-text sa kotse"</string>
+    <string name="sms_company_main">"Mag-text sa pangunahin ng kumpanya"</string>
+    <string name="sms_isdn">"Mag-text sa ISDN"</string>
+    <string name="sms_main">"I-text ang pangunahin"</string>
+    <string name="sms_other_fax">"I-text ang fax"</string>
+    <string name="sms_radio">"Mag-text sa radyo"</string>
+    <string name="sms_telex">"Mag-text sa telex"</string>
+    <string name="sms_tty_tdd">"I-text ang TTY/TDD"</string>
+    <string name="sms_work_mobile">"I-text ang mobile sa trabaho"</string>
+    <string name="sms_work_pager">"Mag-text sa pager sa trabaho"</string>
+    <string name="sms_assistant">"Teksto <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="sms_mms">"Mag-text ng MMS"</string>
+    <string name="email_home">"Mag-email sa bahay"</string>
+    <string name="email_mobile">"Mag-email sa mobile"</string>
+    <string name="email_work">"Mag-email sa trabaho"</string>
+    <string name="email_other">"Email"</string>
+    <string name="email_custom">"Email <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="email">"Email"</string>
+    <string name="map_home">"Tingnan ang home address"</string>
+    <string name="map_work">"Tingnan ang address ng trabaho"</string>
+    <string name="map_other">"Tingnan ang address"</string>
+    <string name="map_custom">"Tingnan ang <xliff:g id="CUSTOM">%s</xliff:g> na address"</string>
+    <string name="chat_aim">"Makipag-chat gamit ang AIM"</string>
+    <string name="chat_msn">"Makipag-chat gamit ang Windows Live"</string>
+    <string name="chat_yahoo">"Makipag-chat gamit ang Yahoo"</string>
+    <string name="chat_skype">"Makipag-chat gamit ang Skype"</string>
+    <string name="chat_qq">"Makipag-chat gamit ang QQ"</string>
+    <string name="chat_gtalk">"Makipag-chat gamit ang Google Talk"</string>
+    <string name="chat_icq">"Makipag-chat gamit ang ICQ"</string>
+    <string name="chat_jabber">"Makipag-chat gamit ang Jabber"</string>
+    <string name="chat_other">"nagcha-chat gamit ang ibang tools"</string>
+    <string name="chat">"Makipag-chat"</string>
+    <string name="postal_street">"Kalye"</string>
+    <string name="postal_pobox">"PO box"</string>
+    <string name="postal_neighborhood">"Kapitbahayan"</string>
+    <string name="postal_city">"Lungsod"</string>
+    <string name="postal_region">"Katayuan"</string>
+    <string name="postal_postcode">"ZIP code"</string>
+    <string name="postal_country">"Bansa"</string>
+    <string name="name_given">"Pangalan"</string>
+    <string name="name_family">"Apelyido"</string>
+    <string name="name_prefix">"Prefix ng pangalan"</string>
+    <string name="name_middle">"Gitnang pangalan"</string>
+    <string name="name_suffix">"Suffix ng pangalan"</string>
+    <string name="name_phonetic_given">"Phonetic na pangalan"</string>
+    <string name="name_phonetic_middle">"Phonetic na gitnang pangalan"</string>
+    <string name="name_phonetic_family">"Phonetic na apelyido"</string>
+    <string name="split_label">Split</string>
+    <string name="split_explanation">Gawin ang data na ito bilang sariling kontak.</string>
+    <string name="account_name_format">Mula <xliff:g id="source" example="Gmail">%1$s</xliff:g> account: <xliff:g id="account" example="user@gmail.com">%2$s</xliff:g></string>
+    <string name="account_type_format">"<xliff:g id="SOURCE">%1$s</xliff:g> contact"</string>
+    <string name="from_account_format">"mula sa <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="use_photo_as_primary">"Gamitin ang larawang ito"</string>
+    <string name="contact_read_only">"Ang impormasyon sa contact ng <xliff:g id="SOURCE">%1$s</xliff:g> ay hindi nae-edit sa device na ito."</string>
+    <string name="no_contact_details">"Walang karagdagang impormasyon para sa contact na ito"</string>
+    <string name="display_options_sort_list_by">"Pag-uri-uriin ang listahan ayon sa"</string>
+    <string name="display_options_sort_by_given_name">"Pangalan"</string>
+    <string name="display_options_sort_by_family_name">"Apelyido"</string>
+    <string name="display_options_view_names_as">"Tingnan ang mga pangalan ng contact bilang"</string>
+    <string name="display_options_view_given_name_first">"Pangalan muna"</string>
+    <string name="display_options_view_family_name_first">"Apelyido muna"</string>
+    <string name="search_bar_hint">"Maghanap ng mga contact"</string>
+    <string name="search_for_all_contacts">"Hanapan ang lahat ng mga contact"</string>
+    <string name="take_photo">"Kumuha ng larawan"</string>
+    <string name="pick_photo">"Pumili ng larawan mula sa Gallery"</string>
+    <string name="locale_change_in_progress">"Ina-update ang listahan ng contact upang ipakita ang pagbabago ng wika."\n\n"Pakihintay..."</string>
+    <string name="upgrade_in_progress">"Na-update ang listahan ng contact."\n\n"Pakihintay..."</string>
+    <string name="upgrade_out_of_memory">"Ang mga contact ay nasa proseso ng pag-upgrade. "\n\n"Nangangailangan ang proseso ng pag-upgrade ng tinatayang <xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>Mb ng panloob na imbakan ng telepono."\n\n"Piliin ang isa sa mga sumusunod na pagpipilian:"</string>
+    <string name="upgrade_out_of_memory_uninstall">"I-uninstall ang ilang application"</string>
+    <string name="upgrade_out_of_memory_retry">"Muling subukan ang i-upgrade"</string>
+    <string name="search_results_for">"Mga resulta ng paghahanap para sa: <xliff:g id="QUERY">%s</xliff:g>"</string>
+    <string name="search_results_searching">"Naghahanap..."</string>
+    <string name="dialer_call_switch">VoiceCall/VideoCall</string>
+    <string name="menu_voicecall">Tawag sa video</string>
+    <string name="menu_videocall">Tawag sa video</string>
+    <string name="select_all">"Piliin lahat"</string>
+    <string name="select_contacts">piliin ang mga contact</string>
+    <string name="delete_contacts">tanggalin ang mga kontak</string>
+    <string name="export_contacts">I-export mga kontak</string>
+    <string name="import_contacts">I-import ang mga contact</string>
+    <string name="add_contacts_to_group">"Magdagdag ng mga contact sa grupo"</string>
+    <string name="ok">OK</string>
+    <string name="cancel">"Kanselahin"</string>
+    <string name="contact_tag">"Pangalan"</string>
+    <string name="inputting__name_sim_contacts">Paalala: ang pinakamahaba para sa 14 na karakter (kung naglalaman ng mga karakter o string ng karakter ay pinapayagan ang pinakamahaba para sa anim na karakter), ang lampas na haba ay haharangin.</string>
+    <string name="inputting_number_sim_contacts">Paalala: ang pinakamahaba para sa 20 mga karakter  (pinapayagan lamang para sa 0-9 +, * karakter).</string>
+    <string name="menu_contacts_group">Grupo ng mga contact</string>
+    <string name="menu_delete">Tanggalin ang mga kontak</string>
+    <string name="on_progress">Nasa proseso...pakihintay.</string>
+    <string name="deleting_contacts">Tanggalin ang mga kontak, pakihintay...</string>
+    <string name="importing_contacts">Ini-import ang mga kontak, pakihintay.</string>
+    <string name="exporting_contacts">Ine-export ang mga kontak, pakihintay.</string>
+    <string name="adding_contacts_to_group">Idinadagdag ang mga kontak sa grupo, pakihintay.</string>
+    <string name="confirm">Ikumpirma?</string>
+    <string name="export_to_sim">I-export sa SIM card</string>
+    <string name="export_to_sim1">Ipadala sa SIM1</string>
+    <string name="export_to_sim2">Ipadala sa SIM2</string>
+    <string name="group_all">"Lahat ng mga contact"</string>
+    <string name="group_phone">Mga kontak ng telepono</string>
+    <string name="group_sim">"Mga contact sa SIM card"</string>
+    <string name="group_sim1">"Mga kontak ng SIM1 card"</string>
+    <string name="group_sim2">"Mga kontak ng SIM2 card"</string>
+    <string name="view_simContact">Tingnan ang mga Sim kontak</string>
+    <string name="edit_simContact">I-edit ang mga kontak ng Sim</string>
+    <string name="insert_simContact">Idagdag ang mga kontak ng Sim</string>
+    <string name="select_contacts_group">Piliin ang mga contact ng grupo</string>
+    <string name="select_contacts_group_to_add">Piliin ang group para maidagdag ang bagong kontak</string>
+    <string name="sim_card">Sim card</string>
+    <string name="sim_card1">"Sim1 card"</string>
+    <string name="sim_card2">"Sim2 card"</string>
+    <string name="phone">"Telepono"</string>
+    <string name="toast_simcontact_no_name">Walang pangalan</string>
+    <string name="toast_simcontact_no_phone_number">Walang numero ng telepono</string>
+    <string name="dial_number">"I-dial"</string>
+    <string name="send_message">Mensahe</string>
+    <string name="account_sim">SIM-lamang,hindi nagsi-sync ng mga kontak</string>
+    <string name="account_sim1">"SIM1-lamang,Hindi mai-sync ang mga kontak"</string>
+    <string name="account_sim2">"SIM2-lamang,Hindi mai-sync ang mga kontak"</string>
+    <string name="sim1_no_ready">"Hindi pa handa ang sim1 card"</string>
+    <string name="sim2_no_ready">"Hindi pa handa ang sim2 card"</string>
+    <string name="sim1_fdn_enable">"Naka-enable ang Sim1 FDN"</string>
+    <string name="sim2_fdn_enable">"Naka-enable ang Sim2 FDN"</string>
+    <string name="airplan_mode_enable">"Gumagana ang Airplane mode, hindi ma-access ang sim contacts"</string>
+    <string name="sim_no_ready">"Hindi pa handa ang sim card"</string>
+    <string name="sim_can_not_pick">"Hindi maidagdag ang mga kontak ng sim card bilang shortcut"</string>
+    <string name="noContactsWithSimNumbers">"Walang mga kontak sa SIM card"</string>
+    <string name="no_match_people">"Walang nakitang magkakatugmang mga contact."</string>
+    <string name="dialpad_colon">:</string>
+    <string name="progress_dialog_title">"Ini-import ang mga contact sa SIM"</string>
+    <string name="sim_is_initializing">Nagi-initialize ang Sim card.</string>
+    <string name="toast_sim_failed">Nabigo makagawa ng mga kontak ng sim</string>
+    <string name="toast_sim_overflow">Puno na ang Sim Card</string>
+    <string name="toast_simcontact_input_overflow">Overflow ang kontak impo input</string>
+    <string name="toast_no_map_apk">Walang map Application</string>
+    <string name="toast_name_number_both_empty">Hindi maaring parehong walang pangalan at numero</string>
+    <string name="import_to_phone">I-import sa telepono</string>
+    <string name="sim_is_initializing1">"nag-iinitialize ang sim1".</string>
+    <string name="sim_is_initializing2">"nag-iinitialize ang sim2".</string>
+    <string name="toast_sim1_overflow">"nag-over flow ang sim1"</string>
+    <string name="toast_sim2_overflow">"nag-over flow ang sim2"</string>
+    <string name="recentCalls_addToCallFireWall">Idagdag sa CallFireWall</string>
+    <string name="contactslist_menu_addto_firewall">Idagdag sa CallFireWall</string>
+    <string name="contactslist_menu_addto_firewall_null">Walang laman ang numero ng kontak,paki pili ulit para makapag dagdag ng iba pang mga kontak</string>
+    <string name="videocall_string">"Video"</string>
+    <string name="export_contacts_to_sdcard">"i-export ang mga kontak sa sdcard"</string>
+    <string name="recentCalls_delete_toest">"Pakipili ang natanggal na item" </string>
+    <string name="sendType_MMS">"Ipapadala ang impormasyong ito sa MMS"</string>
+    <string name="sendType_SMS">"Ipapadala ang impormasyong ito sa SMS"</string>
+    <string name="service_is_busy">"Busy ang Sync Service,naka dis-able ang ibang function"</string>
+    <string name="service_is_busy_sim1">"Busy ang pag-sync ng sim1 card"</string>
+    <string name="service_is_busy_sim2">"Busy ang pag-sync ng sim2 card"</string>
+    <string name="label_success">"Tagumpay"</string>
+    <string name="label_fail">Nabigo</string>
+    <string name="group_manager">"Kontak ng Grupo"</string>
+    <string name="group_manager_delete">"Tinanggal ang Contact Group"</string>
+    <string name="empty">"Walang laman ang naka-grupong impormasyon, pakidagdag ang menu item"</string>
+    <string name="noGroupInfo">"Walang Mapaandar na grupo"</string>
+    <string name="conatcts_name">"Pangalan"</string>
+    <string name="phone_number">"Telepono"</string>
+    <string name="phone1">"telepono1"</string>
+    <string name="phone2">"telepono1"</string>
+    <string name="phone3">"telepono1"</string>
+    <string name="phone4">"telepono1"</string>
+    <string name="nickname">"Palayaw"</string>
+    <string name="concacts_email">"Email"</string>
+    <string name="ghostData_phone1">"Numero ng telepono1"</string>
+    <string name="ghostData_phone2">"Numero ng telepono2"</string>
+    <string name="ghostData_phone3">"Numero ng telepono3"</string>
+    <string name="ghostData_phone4">"Numero ng telepono4"</string>
+    <string name="ghostData_nickname">"Palayaw"</string>
+    <string name="ghostData_concatct_email">"Email"</string>
+    <string name="contacts_is_null">"Ilagay ang impormasyon ng mga kontak"</string>
+    <string name="export_sim_success">"Tagumpay ang pag-export sa SIM"</string>
+    <string name="export_sim_fail">"Nabigo ang pag-export sa SIM"</string>
+    <string name="export_sim1_success">"Tagumpay ang pag-export sa SIM1"</string>
+    <string name="export_sim1_fail">"Nabigo ang pag-export sa SIM1"</string>
+    <string name="export_sim2_success">"Tagumpay ang pag-export sa SIM2"</string>
+    <string name="export_sim2_fail">"Nabigo ang pag-export sa SIM2"</string>
+    <string name="add_to_group_success">"Tagumpay ang Pagdagdag sa Grupo"</string>
+    <string name="add_to_group_fail">"Bigo ang Pagdagdag sa Grupo"</string>
+    <string name="import_to_phone_success">"Tagumpay ang pag-import ng Phone"</string>
+    <string name="import_to_phone_fail">"Nabigo ang pag-import ng Phone"</string>
+    <string name="delete_phone_success">"Tagumpay ang pag-delete"</string>
+    <string name="delete_phone_fail">"Nabigo ang pag-delete"</string>
+    <string name="delete_sim_success">"Tagumpay ang pag-delete"</string>
+    <string name="delete_sim_fail">"Nabigo ang pag-delete"</string>
+    <string name="recentCallsAllIconLabel">"Lahat"</string>
+    <string name="recentCallsMissedIconLabel">Missed</string>
+    <string name="recentCallsOutgoingIconLabel">Palabas</string>
+    <string name="recentCallsReceivedIconLabel">"Natanggap"</string>
+    <string name="select_one">Pumili kahit isang bagay!</string>
+    <string name="remove_contacts_from_group">Alisin ang contact na ito mula sa grupo</string>
+    <string name="sim_card_name_too_long">Napakahaba ng pangalan ng sim card</string>
+    <string name="group_name_cannot_empty">Hindi puwedeng walang pangalan ang grupo</string>
+    <string name="assistantLabelPickerTitle">Assistant label name</string>
+    <string name="share_by_sms">Ipadala ang kontak sa SMS</string>
+    <string name="share_by_mms">Ipadala ang kontak sa MMS</string>
+    <string name="share_by_bluetooth">Ipadala ang kontak sa BlueTooth</string>
+    <string name="share_by_email">Ipadala ang kontak sa Email</string>
+    <string name="chat_custom">"Ginagamit ang chat <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="deleting">"Nagde-delete,Subukang muli"</string>
+    <string name="import_aborted">"nabigo ang pag-import"</string>
+    <string name="exprot_fail">"Nabigo ang pag-export,Wala ng espasyo na natitira sa device"</string>
+    <string name="exprot_fail_only_email">"Contacts is only Email, can\'t export to SIM"</string>
+    <string name="contacts_information_is_replace">"Pinalitan ang mga impormasyon ng kontak"</string>
+    <string name="import_sim_too_many">"nag-import ang user ng higit sa natitirang kapasidad ng sim card"</string>
+    <string name="whether_import_from_SD">"Import from the SD card if this contact?"</string>
+    <string name="blacklist_add">Idagdag sa blacklist</string>
+    <string name="blacklist">Blacklist</string>
+    <string name="blacklist_no_number">Walang numero,hindi ka makakapagdagdag.</string>
+    <string name="no_fast_dial">hindi naka set ang numero ng telepono ng fast call</string>
+    <string name="fast_dial_choose">pakipili ang tipo fast call</string>
+    <string name="fast_call">Tawag sa video</string>
+    <string name="fast_vt_call">Tawag sa video</string>
+    <string name="save_contact_faliue">Bigo sa pag-save</string>
+    <string name="add_contact_success">matagumpay na naidagdag ang kontak</string>
+    <string name="group_name">pangalan ng grupo</string>
+    <string name="contactsSIMIconLabel">SIM</string>
+    <string name="contactsPhoneIconLabel">"Telepono"</string>
+    <string name="sim_notready_cant_not_save">Hindi pa handa ang SIM Card, hindi ma-save ang contact sa SIM card</string>
+    <string name="sim1_notready_cant_not_save">Hidi pa handa ang SIM1 ，hindi maise-save ang mga kontak sa  SIM1</string>
+    <string name="sim2_notready_cant_not_save">Hidi pa handa ang SIM2 ，hindi maise-save ang mga kontak sa  SIM2</string>
+    <string name="cant_not_save_email">"Hindi makakapag-save ng email ang sim card na ito."</string>
+    <string name="fdn_enable_nosetting">"Hindi magagamit ang piniling aksiyon kapag pinagana ang FDN."</string>
+    <string name="menu_removeFrequent">Alisin mula sa pagiging madalas</string>
+    <string name="group_name_student">"Estudyante"</string>
+    <string name="group_name_friend">"Kaibigan"</string>
+    <string name="group_name_family">Pamilya</string>
+    <string name="group_name_colleague">"Kasamahan"</string>
+    <string name="default_ban_operate">"Di pinayagan mag-operate ang default na grupo"</string>
+    <string name="delete_group">tanggalin ang paggu-grupo</string>
+    <string name="remove_frequent_contacts">"Tanggalin ang madalas na mga kontak"</string>
+    <string name="removing_frequent_contacts">"Tinatanggal ang mga madalas na kontak, pakihintay."</string>
+    <string name="remove_collection_contacts">"Tanggalin ang koleksyon ng mga kontak"</string>
+    <string name="removing_collection_contacts">"Tinatanggal ang mga kinoleksyon na kontak, pakihintay."</string>
+    <string name="get_sim_count_fail">sim card ay hindi pa handa o hindi pa nakasaksak</string>
+    <string name="emergency_call">"Emergency na tawag"</string>
+    <string name="dial_emergency_error">"Hindi naipadala ang tawag, hindi pang-emergency na numero ang <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g>!"</string>
+    <string name="dial_emergency_empty_error">Hindi naipadala ang tawag, paki dayal ang numerong pang-emergency!</string>
+    <string name="label_birthday">"Kaarawan"</string>
+    <string name="noContacts_in_group">Walang mga kontak sa group</string>
+    <string name="bulk_sms">"Bulk sms"</string>
+    <string name="bulk_email">"Bulk email"</string>
+    <string name="error_email_fromat">"Hindi tama ang napili mong format ng mail address, kinansela ang operasyon ng bulk mail"</string>
+    <string name="contact_invalid_email_error_toast">"Naglalaman ng mga imbalidong karakter ang numero ng telepono"</string>
+    <string name="contact_invalid_phone_number_error_toast">"Naglalaman ng mga imbalidong karakter ang numero ng telepono"</string>
+    <string name="contact_invalid_space_name_error_toast">"Ang mga pangalan ng komposisyon ay hindi pinapayagan ang espasyo lamang"</string>
+    <string name="initializing_sim_contacts">Sinisimulan ang mga contact ng SIM, mamaya na paganahin</string>
+    <string name="tip_limit_contacts_tomms">Masyadong maraming mensahe ang natanggap, ang limit lamang ay <xliff:g id="count">%d</xliff:g></string>
+    <string name="import_success">Tagumpay ang pag-import</string>
+    <string name="as_bluetooth">Ipadala bilang bluetooth</string>
+    <string name="as_vcard">Ipadala bilang SMS</string>
+    <string name="can_not_empty">Hindi dapat na walang numero</string>
+    <string name="no_activity_found">Hindi nakita ang nararapat na application</string>
+    <string name="menu_contacts_group_title">"I-edit ang kontak ng grupo"</string>
+</resources>

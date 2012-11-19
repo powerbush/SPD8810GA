@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="lrc_file_not_found">请添加歌词文件</string>
+    <string name="lrc_file_io_error">无法读取歌词文件</string>
+    <string name="lrc_file_invalid_encoding">不支持的歌词文件编码</string>
+    <string name="lrc_file_invalid_format">不能识别的歌词文件格式</string>
+    <string name="lrc_unknown_info_tag">未知</string>
+</resources>

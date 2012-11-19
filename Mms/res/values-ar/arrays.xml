@@ -1,0 +1,154 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_texts">
+      <item>":-)"</item>   <!-- 0: Happy -->
+      <item>":-("</item>   <!-- 1: Sad -->
+      <item>";-)"</item>   <!-- 2: Winking -->
+      <item>":-P"</item>   <!-- 3: Tongue sticking out -->
+      <item>"=-O"</item>   <!-- 4: Surprised -->
+      <item>":-*"</item>   <!-- 5: Kissing -->
+      <item>":O"</item>    <!-- 6: Yelling -->
+      <item>"B-)"</item>   <!-- 7: Cool -->
+      <item>":-$"</item>   <!-- 8: Money mouth -->
+      <item>":-!"</item>   <!-- 9: Foot in mouth -->
+      <item>":-["</item>   <!-- 10: Embarrassed -->
+      <item>"O:-)"</item>  <!-- 11: Angel -->
+      <item>":-\\"</item>  <!-- 12: Undecided -->
+      <item>":\'("</item>  <!-- 13: Crying -->
+      <item>":-X"</item>   <!-- 14: Lips are sealed -->
+      <item>":-D"</item>   <!-- 15: Laughing -->
+      <item>"o_O"</item>   <!-- 16: Confused -->
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>"سعيد"</item>                   <!-- 0: :-) -->
+        <item>"حزين"</item>                     <!-- 1: :-( -->
+        <item>"يغمز"</item>                 <!-- 2: ;-) -->
+        <item>"لسان متدلي"</item>     <!-- 3: :-P -->
+        <item>"مندهش"</item>               <!-- 4: =-O -->
+        <item>"تقبيل"</item>                 <!-- 5: :-* -->
+        <item>"يصرخ"</item>                 <!-- 6: :O -->
+        <item>"رائع"</item>                    <!-- 7: B-) -->
+        <item>"فم به نقود"</item>             <!-- 8: :-$ -->
+        <item>"يسكت الفم"</item>           <!-- 9: :-! -->
+        <item>"مُحرج"</item>             <!-- 10: :-[ -->
+        <item>"ملاك"</item>                   <!-- 11: O:-) -->
+        <item>"غير مقرر"</item>               <!-- 12: :-\\ -->
+        <item>"يبكي"</item>                  <!-- 13: :\'( -->
+        <item>"الشفاه مغلقة"</item>         <!-- 14: :-X -->
+        <item>"يضحك"</item>                <!-- 15: :-D -->
+        <item>"مرتبك"</item>                <!-- 16: o_O -->
+    </string-array>
+    <string-array name="entries_set_sms_text_size">
+        <item>حجم النص: 17</item>
+        <item>حجم النص: 18</item>
+        <item>حجم النص: 19</item>
+        <item>حجم النص: 20</item>
+        <item>حجم النص: 21</item>
+        <item>حجم النص: 22</item>
+        <item>حجم النص: 23</item>
+        <item>حجم النص: 24</item>
+        <item>حجم النص: 25</item>
+        <item>حجم النص: 26</item>
+        <item>حجم النص: 27</item>
+        <item>حجم النص: 28</item>
+        <item>حجم النص: 29</item>
+        <item>حجم النص: 30</item>
+        <item>حجم النص: 31</item>
+        <item>حجم النص: 32</item>
+        <item>حجم النص: 33</item>
+        <item>حجم النص: 34</item>
+        <item>حجم النص: 35</item>
+        <item>حجم النص: 36</item>
+        <item>حجم النص: 37</item>
+        <item>حجم النص: 38</item>
+        <item>حجم النص: 39</item>
+        <item>حجم النص: 40</item>
+        <item>حجم النص: 41</item>
+        <item>حجم النص: 42</item>
+        <item>حجم النص: 43</item>
+        <item>حجم النص: 44</item>
+        <item>حجم النص: 45</item>
+        <item>حجم النص: 46</item>
+        <item>حجم النص: 47</item>
+        <item>حجم النص: 48</item>
+        <item>حجم النص: 49</item>
+        <item>حجم النص: 50</item>
+        <item>حجم النص: 51</item>
+        <item>حجم النص: 52</item>
+        <item>حجم النص: 53</item>
+        <item>حجم النص: 54</item>
+        <item>حجم النص: 55</item>
+        <item>حجم النص: 56</item>
+        <item>حجم النص: 57</item>
+        <item>حجم النص: 58</item>
+        <item>حجم النص: 59</item>
+        <item>حجم النص: 60</item>
+        <item>حجم النص: 61</item>
+        <item>حجم النص: 62</item>
+        <item>حجم النص: 63</item>
+        <item>حجم النص: 64</item>
+        <item>حجم النص: 65</item>
+        <item>حجم النص: 66</item>
+        <item>حجم النص: 67</item>
+        <item>حجم النص: 68</item>
+        <item>حجم النص: 69</item>
+        <item>حجم النص: 70</item>
+    </string-array>
+    <string-array name="entryvalues_set_sms_text_size">
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+    </string-array>
+</resources>

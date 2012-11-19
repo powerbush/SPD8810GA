@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="videophone_setting_layout_entries">
+<item>@string/videophone_layout_my_small</item>
+<item>@string/videophone_layout_my_large</item>
+</string-array>
+<string-array name="videophone_setting_layout_entryvalues">
+<item>1</item>
+<item>2</item>
+</string-array>
+
+<string-array name="videophone_setting_static_image_set_entries">
+<item>@string/videophone_setting_title_take_photo</item>
+<item>@string/videophone_setting_title_pick_photo</item>
+<item>@string/videophone_setting_title_delete_photo</item>
+</string-array>
+<string-array name="videophone_setting_static_image_set_entryvalues">
+<item>1</item>
+<item>2</item>
+<item>3</item>
+</string-array>
+
+    <!-- Videophone screen layout settings.  Summary for each type of layout. -->
+    <string-array name="videophone_setting_layout_summaries">
+        <item>@string/videophone_layout_my_small</item>
+        <item>@string/videophone_layout_my_large</item>
+    </string-array>
+    
+<string-array name="videophone_setting_fallback_entries">
+<item>@string/videophone_fallback_always_ask</item>
+<item>@string/videophone_fallback_always_callback</item>
+<item>@string/videophone_fallback_never_callback</item>
+</string-array>
+<string-array name="videophone_setting_fallback_entryvalues">
+<item>1</item>
+<item>2</item>
+<item>3</item>
+</string-array>
+
+    <!-- Videophone fallback settings.  Summary for each type of fallback. -->
+    <string-array name="videophone_setting_fallback_summaries">
+        <item>@string/videophone_fallback_always_ask</item>
+		<item>@string/videophone_fallback_always_callback</item>
+		<item>@string/videophone_fallback_never_callback</item>
+    </string-array>
+    
+<string-array name="videophone_fallback_menu">
+<item>@string/videophone_fallback_menu_videocall</item>
+<item>@string/videophone_fallback_menu_voicecall</item>
+<item>@string/videophone_fallback_menu_cancel</item>
+</string-array>
+</resources>

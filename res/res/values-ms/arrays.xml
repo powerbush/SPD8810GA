@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="status_bar_icon_order">
+        <item><xliff:g id="id">jam</xliff:g></item>
+        <item><xliff:g id="id">selamat</xliff:g></item>
+        <item><xliff:g id="id">jam_loceng</xliff:g></item>
+        <item><xliff:g id="id">bateri</xliff:g></item>
+        <item><xliff:g id="id">isyarat_telefon</xliff:g></item>
+        <item><xliff:g id="id">sub_kedua_isyarat_telefon</xliff:g></item>
+        <item><xliff:g id="id">isyarat_evdo_telefon</xliff:g></item>
+        <item><xliff:g id="id">sambungan_data</xliff:g></item>
+        <item><xliff:g id="id">cdma_eri</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">kenyaringan</xliff:g></item>
+        <item><xliff:g id="id">bisu</xliff:g></item>
+        <item><xliff:g id="id">pembesar suara</xliff:g></item>
+	    <item><xliff:g id="id">set kepala</xliff:g></item>
+        <item><xliff:g id="id">wifi</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">bluetooth</xliff:g></item>
+        <item><xliff:g id="id">gps</xliff:g></item>
+        <item><xliff:g id="id">segerakan_aktif</xliff:g></item>
+        <item><xliff:g id="id">segerakan_gagal</xliff:g></item>
+        <item><xliff:g id="id">ime</xliff:g></item>
+    </string-array>
+</resources>

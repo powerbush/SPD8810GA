@@ -1,0 +1,184 @@
+package com.android.mms.dom;
+public class OmaOtaToken {
+
+    static public int WAP_PROVISIONINGDOC                       = 0x05;
+    static public int CHARACTERISTIC                            = 0x06;
+    static public int PARM                                      = 0x07;
+
+    static public int ATTR_VERSION                              = 0x45;
+    static public int ATTR_VERSION_1_0                          = 0x46;
+
+    static public int ATTR_TYPE                                 = 0x50;
+    static public int ATTR_TYPE_PXLOGICAL                       = 0x51;
+    static public int ATTR_TYPE_PXPHYSICAL                      = 0x52;
+    static public int ATTR_TYPE_PORT                            = 0x53;
+    static public int ATTR_TYPE_VALIDITY                        = 0x54;
+    static public int ATTR_TYPE_NAPDEF                          = 0x55;
+    static public int ATTR_TYPE_BOOTSTRAP                       = 0x56;
+    static public int ATTR_TYPE_VENDORCONFIG                    = 0x57;
+    static public int ATTR_TYPE_CLIENTIDENTITY                  = 0x58;
+    static public int ATTR_TYPE_PXAUTHINFO                      = 0x59;
+    static public int ATTR_TYPE_NAPAUTHINFO                     = 0x5A;
+    static public int ATTR_TYPE_ACCESS                          = 0x5B;
+
+    static public int ATTR_TYPE_APPLICATION                     = 0x55;
+    static public int ATTR_TYPE_APPADDR                         = 0x56;
+    static public int ATTR_TYPE_APPAUTH                         = 0x57;
+    static public int ATTR_TYPE_RESOURCE                        = 0x59;
+
+    static public int PARM_NAME                                 = 0x05;
+    static public int PARM_VALUE                                = 0x06;
+    static public int PARM_NAME_NAME                            = 0x07;
+    static public int PARM_NAME_NAP_ADDRESS                     = 0x08;
+    static public int PARM_NAME_NAP_ADDRTYPE                    = 0x09;
+    static public int PARM_NAME_CALLTYPE                        = 0x0A;
+    static public int PARM_NAME_VALIDUNTIL                      = 0x0B;
+    static public int PARM_NAME_AUTHTYPE                        = 0x0C;
+    static public int PARM_NAME_AUTHNAME                        = 0x0D;
+    static public int PARM_NAME_AUTHSECRET                      = 0x0E;
+    static public int PARM_NAME_LINGER                          = 0x0F;
+    static public int PARM_NAME_BEARER                          = 0x10;
+    static public int PARM_NAME_NAPID                           = 0x11;
+    static public int PARM_NAME_COUNTRY                         = 0x12;
+    static public int PARM_NAME_NETWORK                         = 0x13;
+    static public int PARM_NAME_INTERNET                        = 0x14;
+    static public int PARM_NAME_PROXY_ID                        = 0x15;
+    static public int PARM_NAME_PROXY_PROVIDER_ID               = 0x16;
+    static public int PARM_NAME_DOMAIN                          = 0x17;
+    static public int PARM_NAME_PROVURL                         = 0x18;
+    static public int PARM_NAME_PXAUTH_TYPE                     = 0x19;
+    static public int PARM_NAME_PXAUTH_ID                       = 0x1A;
+    static public int PARM_NAME_PXAUTH_PW                       = 0x1B;
+    static public int PARM_NAME_STARTPAGE                       = 0x1C;
+    static public int PARM_NAME_BASAUTH_ID                      = 0x1D;
+    static public int PARM_NAME_BASAUTH_PW                      = 0x1E;
+    static public int PARM_NAME_PUSHENABLED                     = 0x1F;
+    static public int PARM_NAME_PXADDR                          = 0x20;
+    static public int PARM_NAME_PXADDRTYPE                      = 0x21;
+    static public int PARM_NAME_TO_NAPID                        = 0x22;
+    static public int PARM_NAME_PORTNBR                         = 0x23;
+    static public int PARM_NAME_SERVICE                         = 0x24;
+    static public int PARM_NAME_LINKSPEED                       = 0x25;
+    static public int PARM_NAME_DNLINKSPEED                     = 0x26;
+    static public int PARM_NAME_LOCAL_ADDR                      = 0x27;
+    static public int PARM_NAME_LOCAL_ADDRTYPE                  = 0x28;
+    static public int PARM_NAME_CONTEXT_ALLOW                   = 0x29;
+    static public int PARM_NAME_TRUST                           = 0x2A;
+    static public int PARM_NAME_MASTER                          = 0x2B;
+    static public int PARM_NAME_SID                             = 0x2C;
+    static public int PARM_NAME_SOC                             = 0x2D;
+    static public int PARM_NAME_WSP_VERSION                     = 0x2E;
+    static public int PARM_NAME_PHYSICAL_PROXY_ID               = 0x2F;
+    static public int PARM_NAME_CLIENT_ID                       = 0x30;
+    static public int PARM_NAME_DELIVERY_ERR_SDU                = 0x31;
+    static public int PARM_NAME_DELIVERY_ORDER                  = 0x32;
+    static public int PARM_NAME_TRAFFIC_CLASS                   = 0x33;
+    static public int PARM_NAME_MAX_SDU_SIZE                    = 0x34;
+    static public int PARM_NAME_MAX_BITRATE_UPLINK              = 0x35;
+    static public int PARM_NAME_MAX_BITRATE_DNLINK              = 0x36;
+    static public int PARM_NAME_RESIDUAL_BER                    = 0x37;
+    static public int PARM_NAME_SDU_ERROR_RATIO                 = 0x38;
+    static public int PARM_NAME_TRAFFIC_HANDL_PRIO              = 0x39;
+    static public int PARM_NAME_TRANSFER_DELAY                  = 0x3A;
+    static public int PARM_NAME_GUARANTEED_BITRATE_UPLINK       = 0x3B;
+    static public int PARM_NAME_GUARANTEED_BITRATE_DNLINK       = 0x3C;
+    static public int PARM_NAME_PXADDR_FQDN                     = 0x3D;
+    static public int PARM_NAME_PROXY_PW                        = 0x3E;
+    static public int PARM_NAME_PPGAUTH_TYPE                    = 0x3F;
+    static public int PARM_NAME_PULLENABLED                     = 0x47;
+    static public int PARM_NAME_DNS_ADDR                        = 0x48;
+    static public int PARM_NAME_MAX_NUM_RETRY                   = 0x49;
+    static public int PARM_NAME_FIRST_RETRY_TIMEOUT             = 0x4A;
+    static public int PARM_NAME_REREG_THRESHOLD                 = 0x4B;
+    static public int PARM_NAME_T_BIT                           = 0x4C;
+    static public int PARM_NAME_AUTH_ENTITY                     = 0x4E;
+    static public int PARM_NAME_SPI                             = 0x4F;
+
+    static public int PARM_NAME_AACCEPT                         = 0x2E;
+    static public int PARM_NAME_AAUTHDATA                       = 0x2F;
+    static public int PARM_NAME_AAUTHLEVEL                      = 0x30;
+    static public int PARM_NAME_AAUTHNAME                       = 0x31;
+    static public int PARM_NAME_AAUTHSECRET                     = 0x32;
+    static public int PARM_NAME_AAUTHTYPE                       = 0x33;
+    static public int PARM_NAME_ADDR                            = 0x34;
+    static public int PARM_NAME_ADDRTYPE                        = 0x35;
+    static public int PARM_NAME_APPID                           = 0x36;
+    static public int PARM_NAME_APROTOCOL                       = 0x37;
+    static public int PARM_NAME_PROVIDER_ID                     = 0x38;
+    static public int PARM_NAME_TO_PROXY                        = 0x39;
+    static public int PARM_NAME_URI                             = 0x3A;
+    static public int PARM_NAME_RULE                            = 0x3B;
+
+    static public int PARM_VALUE_NAP_ADDRTYPE_IPV4              = 0x85;
+    static public int PARM_VALUE_NAP_ADDRTYPE_IPV6              = 0x86;
+    static public int PARM_VALUE_NAP_ADDRTYPE_E164              = 0x87;
+    static public int PARM_VALUE_NAP_ADDRTYPE_ALPHA             = 0x88;
+    static public int PARM_VALUE_NAP_ADDRTYPE_APN               = 0x89;
+    static public int PARM_VALUE_NAP_ADDRTYPE_SCODE             = 0x8A;
+    static public int PARM_VALUE_NAP_ADDRTYPE_TETRA_ITSI        = 0x8B;
+    static public int PARM_VALUE_NAP_ADDRTYPE_MAN               = 0x8C;
+    static public int PARM_VALUE_NAP_ADDRTYPE_APPSRV            = 0x8D;
+    static public int PARM_VALUE_NAP_ADDRTYPE_OBEX              = 0x8E;
+
+    static public int PARM_VALUE_CALLTYPE_ANALOG_MODEM          = 0x90;
+    static public int PARM_VALUE_CALLTYPE_V_120                 = 0x91;
+    static public int PARM_VALUE_CALLTYPE_V_110                 = 0x92;
+    static public int PARM_VALUE_CALLTYPE_X_31                  = 0x93;
+    static public int PARM_VALUE_CALLTYPE_BIT_TRANSPARENT       = 0x94;
+    static public int PARM_VALUE_CALLTYPE_DIRECT_ASYNCHRONOUS_DATA_SERVICE     = 0x95;
+
+    static public int PARM_VALUE_PX_AUTHTYPE_PAP                = 0x9A;
+    static public int PARM_VALUE_PX_AUTHTYPE_CHAP               = 0x9B;
+    static public int PARM_VALUE_PX_AUTHTYPE_HTTP_BASIC         = 0x9C;
+    static public int PARM_VALUE_PX_AUTHTYPE_HTTP_DIGEST        = 0x9D;
+    static public int PARM_VALUE_PX_AUTHTYPE_WTLS_SS            = 0x9E;
+    static public int PARM_VALUE_PX_AUTHTYPE_MD5                = 0x9F;
+
+    static public int PARM_VALUE_BEARER_GSM_USSD                = 0xA2;
+    static public int PARM_VALUE_BEARER_GSM_SMS                 = 0xA3;
+    static public int PARM_VALUE_BEARER_ANSI_136_GUTS           = 0xA4;
+    static public int PARM_VALUE_BEARER_IS_95_CDMA_SMS          = 0xA5;
+    static public int PARM_VALUE_BEARER_IS_95_CDMA_CSD          = 0xA6;
+    static public int PARM_VALUE_BEARER_IS_95_CDMA_PACKET       = 0xA7;
+    static public int PARM_VALUE_BEARER_ANSI_136_CSD            = 0xA8;
+    static public int PARM_VALUE_BEARER_ANSI_136_GPRS           = 0xA9;
+    static public int PARM_VALUE_BEARER_GSM_CSD                 = 0xAA;
+    static public int PARM_VALUE_BEARER_GSM_GPRS                = 0xAB;
+    static public int PARM_VALUE_BEARER_AMPS_CDPD               = 0xAC;
+    static public int PARM_VALUE_BEARER_PDC_CSD                 = 0xAD;
+    static public int PARM_VALUE_BEARER_PDC_PACKET              = 0xAE;
+    static public int PARM_VALUE_BEARER_IDEN_SMS                = 0xAF;
+    static public int PARM_VALUE_BEARER_IDEN_CSD                = 0xB0;
+    static public int PARM_VALUE_BEARER_IDEN_PACKET             = 0xB1;
+    static public int PARM_VALUE_BEARER_FLEX_REFLEX             = 0xB2;
+    static public int PARM_VALUE_BEARER_PHS_SMS                 = 0xB3;
+    static public int PARM_VALUE_BEARER_PHS_CSD                 = 0xB4;
+    static public int PARM_VALUE_BEARER_TETRA_SDS               = 0xB5;
+    static public int PARM_VALUE_BEARER_TETRA_PACKET            = 0xB6;
+    static public int PARM_VALUE_BEARER_ANSI_136_GHOST          = 0xB7;
+    static public int PARM_VALUE_BEARER_MOBITEX_MPAK            = 0xB8;
+    static public int PARM_VALUE_BEARER_CDMA2000_1X_SIMPLE_IP   = 0xB9;
+    static public int PARM_VALUE_BEARER_CDMA2000_1X_MOBILE_IP   = 0xBA;
+
+    static public int PARM_VALUE_LINKSPEED_AUTOBAUDING          = 0xC5;
+
+    static public int PARM_VALUE_SERVICE_CL_WSP                 = 0xCA;
+    static public int PARM_VALUE_SERVICE_CO_WSP                 = 0xCB;
+    static public int PARM_VALUE_SERVICE_CL_SEC_WSP             = 0xCC;
+    static public int PARM_VALUE_SERVICE_CO_SEC_WSP             = 0xCD;
+    static public int PARM_VALUE_SERVICE_CL_SEC_WTA             = 0xCE;
+    static public int PARM_VALUE_SERVICE_CO_SEC_WTA             = 0xCF;
+    static public int PARM_VALUE_SERVICE_OTA_HTTP_TO            = 0xD0;
+    static public int PARM_VALUE_SERVICE_OTA_HTTP_TLS_TO        = 0xD1;
+    static public int PARM_VALUE_SERVICE_OTA_HTTP_PO            = 0xD2;
+    static public int PARM_VALUE_SERVICE_OTA_HTTP_TLS_PO        = 0xD3;
+
+    static public int PARM_VALUE_AAUTHTYPE_COMMA                = 0x90;
+    static public int PARM_VALUE_AAUTHTYPE_HTTP                 = 0x91;
+    static public int PARM_VALUE_AAUTHTYPE_BASIC                = 0x92;
+    static public int PARM_VALUE_AAUTHTYPE_DIGEST               = 0x93;
+
+    static public int PARM_VALUE_AUTH_ENTITY_AAA                = 0xE0;
+    static public int PARM_VALUE_AUTH_ENTITY_HA                 = 0xE1;
+
+}

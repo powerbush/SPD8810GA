@@ -1,0 +1,982 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="contactsIconLabel">"جهات الاتصال"</string>
+    <string name="contactsFavoritesLabel">"المفضلة"</string>
+    <string name="dialerIconLabel">طالب</string>
+    <string name="emergencyDialerIconLabel">"طالب الطوارئ"</string>
+    <string name="phoneIconLabel">"الهاتف"</string>
+    <string name="recentCallsIconLabel">"سجل المكالمات"</string>
+    <string name="fdnListLabel">"قائمة FDN"</string>
+    <string name="unknown">"غير معروف"</string>
+    <string name="private_num">"رقم خاص"</string>
+    <string name="payphone">"هاتف الدفع"</string>
+    <string name="onHold">"معلقة"</string>
+    <string name="ongoing">"الاتصال الحالي"</string>
+    <string name="callFailed_userBusy">"الخط مشغول"</string>
+    <string name="callFailed_congestion">"الشبكة مشغولة"</string>
+    <string name="callFailed_timedOut">"ليس هناك استجابة، انقضت المهلة المحددة"</string>
+    <string name="callFailed_server_unreachable">"لا يمكن الوصول إلى الخادم"</string>
+    <string name="callFailed_number_unreachable">"الرقم لا يمكن الوصول إليه"</string>
+    <string name="callFailed_invalid_credentials">"اسم المستخدم غير صحيح أو كلمة المرور غير صحيحة"</string>
+    <string name="callFailed_out_of_network">"تم الاتصال من خارج الشبكة"</string>
+    <string name="callFailed_server_error">"خطأ بالخادم: إعادة المحاولة لاحقًا."</string>
+    <string name="callFailed_noSignal">"لا إشارة"</string>
+    <string name="callFailed_limitExceeded">"تم تعدي حد ACM"</string>
+    <string name="callFailed_powerOff">"تم إيقاف اللاسلكي"</string>
+    <string name="callFailed_simError">"لا توجد بطاقة SIM أو يوجد خطأ في بطاقة SIM"</string>
+    <string name="callFailed_outOfService">"خارج نطاق الخدمة"</string>
+    <string name="callFailed_fdn_only">"يتم تقييد المكالمات الصادرة بواسطة FDN."</string>
+    <string name="callFailed_cb_enabled">"لا يمكنك إجراء مكالمات صادرة أثناء تشغيل حظر المكالمات."</string>
+    <string name="callFailed_dsac_restricted">"تم تقييد كل المكالمات بواسطة التحكم في الدخول."</string>
+    <string name="callFailed_dsac_restricted_emergency">"تم تقييد مكالمات الطوارئ بواسطة التحكم في الدخول."</string>
+    <string name="callFailed_dsac_restricted_normal">"تم تقييد المكالمات العادية بواسطة التحكم في الدخول."</string>
+    <string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: تم تأمين الهاتف حتى دورة الطاقة."</string>
+    <string name="callFailed_cdma_drop">"CDMA: تم قطع الاتصال."</string>
+    <string name="callFailed_cdma_intercept">"CDMA: تم اعتراض الاتصال."</string>
+    <string name="callFailed_cdma_reorder">"CDMA: إعادة طلب."</string>
+    <string name="callFailed_cdma_SO_reject">"CDMA: رفض خيار الخدمة."</string>
+    <string name="callFailed_cdma_retryOrder">"CDMA: إعادة محاولة الطلب."</string>
+    <string name="callFailed_cdma_accessFailure">"CDMA: أخفق الدخول."</string>
+    <string name="callFailed_cdma_preempted">"CDMA: له الأولوية."</string>
+    <string name="callFailed_cdma_notEmergency">"لا يمكن إجراء سوى مكالمات الطوارئ فقط."</string>
+    <string name="callFailed_unobtainable_number">"رقم غير صالح"</string>
+    <string name="confCall">"مكالمة جماعية"</string>
+    <string name="call_lost">"تم فقد الاتصال."</string>
+    <string name="retry">"إعادة المحاولة"</string>
+    <string name="call_lost_title">"تم فقد الاتصال"</string>
+    <string name="mmiStarted">"بدأ رمز MMI"</string>
+    <string name="ussdRunning">"جارٍ تشغيل رمز USSD..."</string>
+    <string name="mmiCancelled">"تم إلغاء كود MMI"</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="menu_speaker">"مكبر الصوت"</string>
+    <string name="menu_bluetooth">"بلوتوث"</string>
+    <string name="menu_mute">"كتم الصوت"</string>
+    <string name="menu_hold">"تعليق"</string>
+    <string name="menu_endCall">"إنهاء الاتصال"</string>
+    <string name="menu_swapCalls">"تبديل الاتصالات"</string>
+    <string name="menu_mergeCalls">"دمج المكالمات"</string>
+    <string name="menu_phoneRecorder">Record</string>
+    <string name="menu_addCall">"إضافة مكالمة"</string>
+    <string name="menu_manageConference">"إدارة مكالمة جماعية"</string>
+    <string name="menu_showDialpad">"عرض لوحة الاتصال"</string>
+    <string name="menu_hideDialpad">"إخفاء لوحة الاتصال"</string>
+    <string name="menu_answerAndHold">"تعليق المكالمة الحالية"\n"والرد"</string>
+    <string name="menu_answerAndEnd">"إنهاء المكالمة الحالية"\n"والرد"</string>
+    <string name="ok">"موافق"</string>
+    <string name="menuButtonHint">"اضغط على القائمة للاطلاع على خيارات الاتصال."</string>
+    <string name="menuButtonKeyboardDialHint">"اضغط على القائمة للاطلاع على خيارات الاتصال  •  استخدم لوحة المفاتيح للطلب"</string>
+    <string name="menu_answer">"إجابة"</string>
+    <string name="menu_ignore">"تجاهل"</string>
+    <string name="wait_prompt_str">"هل تريد إرسال النغمات التالية؟"\n</string>
+    <string name="pause_prompt_str">"إرسال النغمات"\n</string>
+    <string name="send_button">"إرسال"</string>
+    <string name="pause_prompt_yes">"نعم"</string>
+    <string name="pause_prompt_no">"لا"</string>
+    <string name="wild_prompt_str">"استبدال حرف البدل بـ"</string>
+    <string name="no_vm_number">"رقم البريد الصوتي مفقود"</string>
+    <string name="no_vm_number_msg">"لم يتم تخزين رقم بريد صوتي على بطاقة SIM."</string>
+    <string name="add_vm_number_str">"إضافة رقم"</string>
+    <string name="dialer_emptyListWorking">"جارٍ التحميل…"</string>
+    <string name="enterPin">"اكتب رقم التعريف الشخصي لإلغاء تأمين بطاقة SIM."</string>
+    <string name="pinUnlocked">"تم إلغاء تأمين بطاقة SIM"</string>
+    <string name="enterNewPin">"كود رقم تعريف شخصي جديد لبطاقة SIM"</string>
+    <string name="verifyNewPin">"اكتب رقم التعريف الشخصي الجديد لبطاقة SIM مرة أخرى للتأكيد"</string>
+    <string name="verifyFailed">"أرقام التعريف الشخصي التي كتبتها غير مطابقة. الرجاء المحاولة مرة أخرى."</string>
+    <string name="enterPuk">"اكتب الرمز PUK لإلغاء تأمين بطاقة SIM"</string>
+    <string name="badPuk">"رمز PUK غير صحيح!"</string>
+    <string name="buttonTxtContinue">"متابعة"</string>
+    <string name="puk_unlocked">"تم إلغاء حظر بطاقة SIM. جارٍ إلغاء تأمين الهاتف..."</string>
+    <string name="label_ndp">"رقم التعريف الشخصي لإلغاء تأمين شبكة SIM"</string>
+    <string name="sim_ndp_unlock_text">"إلغاء تأمين"</string>
+    <string name="sim_ndp_dismiss_text">"استبعاد"</string>
+    <string name="requesting_unlock">"جارٍ طلب إلغاء تأمين الشبكة..."</string>
+    <string name="unlock_failed">"لم ينجح طلب إلغاء تأمين الشبكة."</string>
+    <string name="unlock_success">"نجح إلغاء تأمين الشبكة."</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="labelGSMMore">"إعدادات اتصال نظام GSM"</string>
+    <string name="labelCDMAMore">"إعدادات اتصال CDMA"</string>
+    <string name="apn_settings">"الدخول إلى أسماء النقاط"</string>
+    <string name="settings_label">"إعدادات الشبكة"</string>
+    <string name="voicemail">"البريد الصوتي"</string>
+    <string name="voicemail_abbreviated">"VM:"</string>
+    <string name="networks">"مشغلو الشبكة"</string>
+    <string name="call_settings">"إعدادات الاتصال"</string>
+    <string name="additional_gsm_call_settings">"إعدادات إضافية"</string>
+    <string name="sum_gsm_call_settings">"إعدادات اتصال GSM الإضافية فقط"</string>
+    <string name="additional_cdma_call_settings">"إعدادات اتصال CDMA الإضافية"</string>
+    <string name="sum_cdma_call_settings">"إعدادات اتصال CDMA الإضافية فقط"</string>
+    <string name="labelNwService">"إعدادات خدمة الشبكة"</string>
+    <string name="labelCallerId">"معرف المتصل"</string>
+    <string name="sum_hide_caller_id">"الرقم مخفي في المكالمات الصادرة"</string>
+    <string name="sum_show_caller_id">"الرقم المعروض في المكالمات الصادرة"</string>
+    <string name="sum_default_caller_id">"استخدام إعدادات المشغل الافتراضية لعرض رقمي في المكالمات الصادرة"</string>
+    <string name="labelCW">"انتظار المكالمة"</string>
+    <string name="sum_cw_enabled">"تنبيهي بالمكالمات الواردة أثناء المكالمة"</string>
+    <string name="sum_cw_disabled">"تنبيهي بالمكالمات الواردة أثناء المكالمة"</string>
+    <string name="call_forwarding_settings">"إعدادات إعادة توجيه الاتصال"</string>
+    <string name="call_barring_settings">اعدادات حظر المكالمة</string>
+    <string name="labelCF">"إعادة توجيه الاتصال"</string>
+    <string name="labelCB">"حظر الاتصال"</string>
+    <string name="labelCFU">"إعادة التوجيه دومًا"</string>
+    <string name="messageCFU">"استخدام هذا الرقم دائمًا"</string>
+    <string name="sum_cfu_enabled_indicator">"إعادة التوجيه كل المكالمات"</string>
+    <string name="sum_cfu_enabled">"إعادة توجيه كل المكالمات إلى <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfu_enabled_no_number">"الرقم غير متاح"</string>
+    <string name="sum_cfu_disabled">"معطّل"</string>
+    <string name="labelCFB">"إعادة التوجيه عندما يكون مشغول"</string>
+    <string name="messageCFB">"الرقم عندما يكون مشغولاً"</string>
+    <string name="sum_cfb_enabled">"إعادة التوجيه إلى <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfb_disabled">"معطّل"</string>
+    <string name="disable_cfb_forbidden">"لا يتيح مشغل شبكة الجوال تعطيل إعادة توجيه الاتصال عندما يكون هاتفك مشغولاً."</string>
+    <string name="labelCFNRy">"إعادة التوجيه عند عدم الرد"</string>
+    <string name="messageCFNRy">"الرقم عندما لا يتم الرد"</string>
+    <string name="sum_cfnry_enabled">"إعادة التوجيه إلى <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnry_disabled">"معطّل"</string>
+    <string name="disable_cfnry_forbidden">"لا يتيح مشغل شبكة الجوال تعطيل إعادة توجيه الاتصال عند عدم رد هاتفك."</string>
+    <string name="labelCFNRc">"إعادة التوجيه عندما لا يمكن الوصول"</string>
+    <string name="messageCFNRc">"الرقم عندما لا يمكن الوصول"</string>
+    <string name="sum_cfnrc_enabled">"إعادة التوجيه إلى <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnrc_disabled">"معطّل"</string>
+    <string name="disable_cfnrc_forbidden">"لا يتيح مشغل شبكة الجوال تعطيل إعادة توجيه الاتصال عند عدم التمكن من الوصول إلى هاتفك."</string>
+    <string name="network_wrong" msgid="">" رد غير متوقع من الشبكة "</string>
+    <string name="number_empty" msgid="">" الرقم خالي "</string>
+    <string name="cb_pw_error" msgid="">" كلمة المرور غير صحيحة "</string>
+    <string name="cb_pw_correct" msgid="">" تم تغيير كلمة المرور "</string>
+    <string name="cb_pw_no_match" msgid="">" كلمات المرور غير متطابقة "</string>
+    <string name="labelAO"> جميع الصادر</string>
+    <string name="messageAO">ادخل كلمة مرور حجب المكالمة</string>
+    <string name="sum_ao_enabled_indicator">"إعادة التوجيه كل المكالمات"</string>
+    <string name="sum_ao_enabled">مفعل</string>
+    <string name="sum_ao_disabled">تعطيل</string>
+    <string name="enable_ao_forbidden">الناقل الخاص بك لا يدعم تفعيل حجب كل المكالمات الصادرة.</string>
+    <string name="disable_ao_forbidden">الناقل الخاص بك لا يدعم تعطيل حجب كل المكالمات الصادرة.</string>
+    <string name="labelOI">مكالمة دولية</string>
+    <string name="messageOI">ادخل كلمة مرور حجب المكالمة</string>
+    <string name="sum_oi_enabled">مفعل</string>
+    <string name="sum_oi_disabled">تعطيل</string>
+    <string name="enable_oi_forbidden">الناقل الخاص بك لا يدعم تقعيل حجب كل المكالمات الصادرة الدولية.</string>
+    <string name="disable_oi_forbidden">الناقل الخاص بك لا يدعم تعطيل حجب كل المكالمات الصادرة الدولية.</string>
+    <string name="labelOX">مكالمة دولية اثناء التجوال</string>
+    <string name="messageOX">ادخل كلمة مرور حجب المكالمة</string>
+    <string name="sum_ox_enabled">مفعل</string>
+    <string name="sum_ox_disabled">تعطيل</string>
+    <string name="enable_ox_forbidden">الناقل الخاص بك لا يدعم تفعيل حجب كل المكالمات الصادرة الدولية عند التجوال.</string>
+    <string name="disable_ox_forbidden">الناقل الخاص بك لا يدعم تعطيل حجب كل المكالمات الصادرة الدولية عند التجوال.</string>
+    <string name="labelAI"> جميع الوارد</string>
+    <string name="messageAI">ادخل كلمة مرور حجب المكالمة</string>
+    <string name="sum_ai_enabled">مفعل</string>
+    <string name="sum_ai_disabled">تعطيل</string>
+    <string name="enable_ai_forbidden">الناقل الخاص بك لا يدعم تفعيل حجب كل المكالمات الواردة.</string>
+    <string name="disable_ai_forbidden">الناقل الخاص بك لا يدعم تعطيل حجب كل المكالمات الواردة.</string>
+    <string name="labelIR">المكالمات الواردة في التجوال</string>
+    <string name="messageIR">ادخل كلمة مرور حجب المكالمة</string>
+    <string name="sum_ir_enabled">مفعل</string>
+    <string name="sum_ir_disabled">تعطيل</string>
+    <string name="enable_ir_forbidden">الناقل الخاص بك لا يدعم تفعيل حجب كل المكالمات الواردة عند التجوال .</string>
+    <string name="disable_ir_forbidden">الناقل الخاص بك لا يدعم تعطيل حجب كل المكالمات الواردة عند التجوال .</string>
+    <string name="labelAB">إلغاء جميع</string>
+    <string name="messageAB">ادخل كلمة مرور حجب المكالمة</string>
+    <string name="sum_ab_enabled">مفعل</string>
+    <string name="sum_ab_disabled">تعطيل</string>
+    <string name="enable_ab_forbidden">الناقل الخاص بك لا يدعم عدم تفعيل الجميع.</string>
+    <string name="disable_ab_forbidden">الناقل الخاص بك لا يدعم تفعيل الجميع.</string>
+    <string name="labelChgPwd">تغيير كلمة المرور</string>
+    <string name="DlgChgPwd_oldpwd">ادخل كلمة مرور حجب المكالمة</string>
+    <string name="DlgChgPwd_newpwd_first">ادخل كلمة مرور جديدة</string>
+    <string name="DlgChgPwd_newpwd_last">تأكيد كلمة السر الجديدة</string>
+    <string name="updating_title">"إعدادات الاتصال"</string>
+    <string name="error_updating_title">"خطأ في إعدادات الاتصال"</string>
+    <string name="reading_settings">"جارٍ قراءة الإعدادات..."</string>
+    <string name="updating_settings">"جارٍ تحديث الإعدادات..."</string>
+    <string name="reverting_settings">"جارٍ إعادة الإعدادات..."</string>
+    <string name="response_error">"رد غير متوقع من الشبكة."</string>
+    <string name="exception_error">"خطأ في الشبكة أو في بطاقة SIM"</string>
+    <string name="fdn_only_error">"غير مسموح سوى بعمليات التشغيل على أرقام الاتصال الثابت فقط."</string>
+    <string name="radio_off_error">"الرجاء تشغيل اللاسلكي قبل عرض هذه الإعدادات."</string>
+    <string name="close_dialog">"موافق"</string>
+    <string name="enable">"تمكين"</string>
+    <string name="disable">"تعطيل"</string>
+    <string name="change_num">"تحديث"</string>
+    <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
+        <item>"الشبكة الافتراضية"</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
+        <item>"إخفاء الرقم"</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
+        <item>"إظهار الرقم"</item>
+    </string-array>
+    <string-array name="clir_values">
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g> افتراضي </xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g> اخفاء </xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g> عرض </xliff:g></item>
+    </string-array>
+    <string name="vm_save_number">"حفظ رقم البريد الصوتي"</string>
+    <string name="vm_changed">"تم تغيير رقم البريد الصوتي."</string>
+    <string name="vm_change_failed">"تم تغيير رقم البريد الصوتي بنجاح."\n"الرجاء الاتصال بمشغل شبكة الجوال إذا استمرت المشكلة."</string>
+    <string name="fw_change_failed">"لم ينجح تغيير رقم إعادة التوجيه."\n"الرجاء الاتصال بمشغل شبكة الجوال إذا استمرت المشكلة."</string>
+    <string name="fw_get_in_vm_failed">"أخفقت عملية استعادة إعدادات إعادة توجيه الأرقام الحالية وحفظها."\n"هل تريد الانتقال إلى الموزع الجديد على أي حال؟"</string>
+    <string name="no_change">"لم يتم إجراء أية تغييرات."</string>
+    <string name="sum_voicemail_choose_provider">"اختيار خدمة البريد الصوتي"</string>
+    <string name="voicemail_default">"مشغل شبكة الجوال"</string>
+    <string name="mobile_networks">"إعدادات شبكة الجوال"</string>
+    <string name="mobile_networks_sim1">SIM1</string>
+    <string name="mobile_networks_sim2">SIM2</string>
+    <string name="mobile_networks_other">"آخر"</string>
+    <string name="label_available">"الشبكات المتاحة"</string>
+    <string name="label_available_sim1">SIM1 الشبكات المتوفرة</string>
+    <string name="label_available_sim2">SIM2 الشبكات المتوفرة</string>
+    <string name="load_networks_progress">"جارِ البحث…"</string>
+    <string name="empty_networks_list">"لم يتم العثور على شبكات."</string>
+    <string name="search_networks">"بحث في الشبكات"</string>
+    <string name="network_query_error">"حدث خطأ أثناء البحث عن شبكات."</string>
+    <string name="register_on_network">"جارٍ التسجيل على <xliff:g id="NETWORK">%s</xliff:g>..."</string>
+    <string name="not_allowed">"لا تسمح بطاقة SIM بالاتصال بهذه الشبكة."</string>
+    <string name="connect_later">"يتعذر الاتصال بهذه الشبكة حاليًا. الرجاء المحاولة مرة أخرى لاحقًا."</string>
+    <string name="registration_done">"مسجل على الشبكة."</string>
+    <string name="sum_carrier_select">"تحديد مشغل شبكة"</string>
+    <string name="sum_search_networks">"البحث عن كل الشبكات المتاحة"</string>
+    <string name="select_automatically">"تحديد تلقائي"</string>
+    <string name="sum_select_automatically">"تحديد الشبكة المفضلة تلقائيًا"</string>
+    <string name="register_automatically">"التسجيل التلقائي..."</string>
+    <string name="preferred_network_mode_title">"وضع الشبكة"</string>
+    <string name="preferred_network_mode_summary">"تغيير وضع تشغيل الشبكة"</string>
+    <string name="preferred_network_mode_dialogtitle">"وضع الشبكة المفضل"</string>
+    <string-array name="preferred_network_mode_choices">
+        <!-- <item>Global</item> -->
+        <!-- <item>EvDo only</item> -->
+        <!-- <item>CDMA w/o EvDo</item> -->
+        <!-- <item>CDMA / EvDo auto</item> -->
+        <!-- <item>GSM / WCDMA auto</item> -->
+        <!-- <item>WCDMA only</item> -->
+        <!-- <item>GSM only</item> -->
+        <!-- <item>GSM / WCDMA preferred</item> -->
+        <item>"عالميًا"</item>
+        <item>"EvDo فقط"</item>
+        <item>"CDMA w/o EvDo"</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <!-- <item>"7"</item> -->
+        <!-- <item>"6"</item> -->
+        <!-- <item>"5"</item> -->
+        <!-- <item>"4"</item> -->
+        <!-- <item>"3"</item> -->
+        <item>"7"</item>
+        <item>"6"</item>
+        <item>"5"</item>
+    </string-array>
+    <string name="data_enabled">"تم تمكين البيانات"</string>
+    <string name="data_enable_summary">"تمكين الدخول إلى البيانات عبر شبكة الجوال"</string>
+    <string name="roaming">"تجوال البيانات"</string>
+    <string name="roaming_enable">"اتصال بخدمات البيانات عند التجوال"</string>
+    <string name="roaming_disable">"اتصال بخدمات البيانات عند التجوال"</string>
+    <string name="roaming_reenable_message">"لقد فقدت اتصال البيانات نظرًا لأنك أوقفت تشغيل تجوال البيانات بشبكتك الرئيسية."</string>
+    <string name="roaming_warning">"هل تريد السماح بتجوال البيانات؟ قد يكلفك ذلك رسوم تجوال مرتفعة!"</string>
+    <string name="gsm_umts_options">"خيارات نظام GSM/النظام العالمي لاتصالات الجوال عن بعد (UMTS)"</string>
+    <string name="cdma_options">"خيارات CDMA"</string>
+    <string name="throttle_data_usage">"استخدام البيانات"</string>
+    <string name="throttle_settings_title">"سياسة بيانات مشغل شبكة الجوال"</string>
+    <string name="throttle_current_usage">"البيانات المستخدمة في المدة الحالية"</string>
+    <string name="throttle_time_frame">"مدة استخدام البيانات"</string>
+    <string name="throttle_rate">"سياسية معدل البيانات"</string>
+    <string name="throttle_help">"مزيد من المعلومات"</string>
+    <string name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) من <xliff:g id="USED_2">%3$s</xliff:g> الحد الأقصى للمدة"\n"تبدأ المدة التالية خلال <xliff:g id="USED_3">%4$d</xliff:g> يوم (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) من <xliff:g id="USED_2">%3$s</xliff:g> الحد الأقصى للمدة"</string>
+    <string name="throttle_data_rate_reduced_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> تم تعدي الحد الأقصى"\n"تم تخفيض معدل البيانات إلى <xliff:g id="USED_1">%2$d</xliff:g> كيلوبايت/ثانية"</string>
+    <string name="throttle_time_frame_subtext">"انقضت نسبة <xliff:g id="USED_0">%1$d</xliff:g>٪ من الدورة"\n"تبدأ الفترة التالية خلال <xliff:g id="USED_1">%2$d</xliff:g> يوم (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string name="throttle_rate_subtext">"تخفيض معدل البيانات إلى <xliff:g id="USED">%1$d</xliff:g> كيلوبايت/ثانية إذا تم تعدي حد البيانات"</string>
+    <string name="throttle_help_subtext">"مزيد من المعلومات حول سياسة استخدام بيانات شبكة جوال مشغل شبكة الجوال"</string>
+    <string name="cdma_cell_broadcast_sms">"الرسائل القصيرة SMS لبث الخلية"</string>
+    <string name="cell_broadcast_sms">"الرسائل القصيرة SMS لبث الخلية"</string>
+    <string name="enable_disable_cell_bc_sms">"الرسائل القصيرة SMS لبث الخلية"</string>
+    <string name="cell_bc_sms_enable">"تم تمكين الرسائل القصيرة SMS لبث الخلية"</string>
+    <string name="cell_bc_sms_disable">"تم تعطيل الرسائل القصيرة SMS لبث الخلية"</string>
+    <string name="cb_sms_settings">"إعدادات الرسائل القصيرة SMS لبث الخلية"</string>
+    <string name="channel_list">قائمة القناة</string>
+    <string name="refreshing">تحديث ...</string>
+    <string name="channel_name">اسم القناة</string>
+    <string name="channel_number">رقم القناة</string>
+    <string name="info_input_channel_number">الرجاء إدخال رقم القناة</string>
+    <string name="info_input_channel_number_num">الرجاء إدخال أرقام فقط</string>
+    <string name="menu_add_channel"> اضافة قناة</string>
+    <string name="text_mode">وضع النص</string>
+    <string name="pdu_mode">وضع Pdu</string>
+    <string name="get_cb_config">الحصول على اعداد CB</string>
+    <string name="menu_add_address_to_contacts">"إضافة \"<xliff:g id="NAME">%s</xliff:g>\" إلى جهات الاتصال"</string>
+    <string name="edit">Edit</string>
+    <string name="menu_delete_channel">"حذف"</string>
+    <string name="no">"إلغاء"</string>
+    <string name="confirm_dialog_title">"حذف"</string>
+    <string name="confirm_delete_message">"سيتم حذف الرسالة."</string>
+    <string name="enable_disable_emergency_broadcast">"بث الطوارئ"</string>
+    <string name="emergency_broadcast_enable">"تم تمكين بث الطوارئ"</string>
+    <string name="emergency_broadcast_disable">"تم تعطيل بث الطوارئ"</string>
+    <string name="enable_disable_administrative">"إداري"</string>
+    <string name="administrative_enable">"تم تمكين الإداري"</string>
+    <string name="administrative_disable">"تم تعطيل الإداري"</string>
+    <string name="enable_disable_maintenance">"الصيانة"</string>
+    <string name="maintenance_enable">"تم تمكين الصيانة"</string>
+    <string name="maintenance_disable">"تم تعطيل الصيانة"</string>
+    <string name="general_news_settings">"أخبار عامة"</string>
+    <string name="bf_news_settings">"أخبار الأعمال والأخبار المالية"</string>
+    <string name="sports_news_settings">"أخبار رياضية"</string>
+    <string name="entertainment_news_settings">"أخبار ترفيهية"</string>
+    <string name="enable_disable_local">"محلي"</string>
+    <string name="local_enable">"تم تمكين الأخبار المحلية"</string>
+    <string name="local_disable">"تم تعطيل الأخبار المحلية"</string>
+    <string name="enable_disable_regional">"إقليمي"</string>
+    <string name="regional_enable">"تم تمكين الأخبار الإقليمية"</string>
+    <string name="regional_disable">"تم تعطيل الأخبار الإقليمية"</string>
+    <string name="enable_disable_national">"إقليمي"</string>
+    <string name="national_enable">"تم تمكين الأخبار الإقليمية"</string>
+    <string name="national_disable">"تم تعطيل الأخبار القومية"</string>
+    <string name="enable_disable_international">"دولي"</string>
+    <string name="international_enable">"تم تمكين الأخبار الدولية"</string>
+    <string name="international_disable">"تم تعطيل الأخبار الدولية"</string>
+    <string name="list_language_title">"اللغة"</string>
+    <string name="list_language_summary">"حدد لغة الأخبار"</string>
+    <string name="broadcast">"الرسائل القصيرة SMS لبث الخلية"</string>
+    <string name="menu_cellbroadcastsms">بث خليوي</string>
+    <string name="language_eng">الانجليزية</string>
+    <string name="language_fren">الفرنسية</string>
+    <string name="language_spanish">الأسبانية </string>
+    <string name="language_japanese">اليابانية</string>
+    <string name="language_korean">كوري</string>
+    <string name="language_chinese">الصينية</string>
+    <string name="language_hebrew">العبرية</string>
+    <string name="same_setting">الرجاء اعادة ضبط معرف القناة , هو نفسه مع اسم القناة</string>
+    <string-array name="list_language_entries">
+        <item>"الإنجليزية"</item>
+        <item>"الفرنسية"</item>
+        <item>"الإسبانية"</item>
+        <item>"اليابانية"</item>
+        <item>"الكورية"</item>
+        <item>"الصينية"</item>
+        <item>"العبرية"</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">"اللغات"</string>
+    <string name="enable_disable_local_weather">"الطقس المحلي"</string>
+    <string name="local_weather_enable">"تم تمكين الطقس المحلي"</string>
+    <string name="local_weather_disable">"تم تعطيل الطقس المحلي"</string>
+    <string name="enable_disable_atr">"تقارير حركة المرور بالمنطقة"</string>
+    <string name="atr_enable">"تم تمكين تقارير حركة المرور بالمنطقة"</string>
+    <string name="atr_disable">"تم تعطيل تقارير حركة المرور بالمنطقة"</string>
+    <string name="enable_disable_lafs">"جداول مواعيد رحلات الطائرات المحلية"</string>
+    <string name="lafs_enable">"تم تمكين جداول مواعيد رحلات الطائرات المحلية"</string>
+    <string name="lafs_disable">"تم تعطيل جداول مواعيد رحلات الطائرات المحلية"</string>
+    <string name="enable_disable_restaurants">"مطاعم"</string>
+    <string name="restaurants_enable">"تم تمكين المطاعم"</string>
+    <string name="restaurants_disable">"تم تعطيل المطاعم"</string>
+    <string name="enable_disable_lodgings">"السكن"</string>
+    <string name="lodgings_enable">"تم تمكين السكن"</string>
+    <string name="lodgings_disable">"تم تعطيل السكن"</string>
+    <string name="enable_disable_retail_directory">"دليل البيع بالتجزئة"</string>
+    <string name="retail_directory_enable">"تم تمكين دليل البيع بالتجزئة"</string>
+    <string name="retail_directory_disable">"تم تعطيل دليل البيع بالتجزئة"</string>
+    <string name="enable_disable_advertisements">"الإعلانات"</string>
+    <string name="advertisements_enable">"تم تمكين الإعلانات"</string>
+    <string name="advertisements_disable">"تم تعطيل الإعلانات"</string>
+    <string name="enable_disable_stock_quotes">"أسعار الأسهم"</string>
+    <string name="stock_quotes_enable">"تم تمكين أسعار الأسهم"</string>
+    <string name="stock_quotes_disable">"تم تعطيل أسعار الأسهم"</string>
+    <string name="enable_disable_eo">"فرص وظائف"</string>
+    <string name="eo_enable">"تم تمكين فرص الوظائف"</string>
+    <string name="eo_disable">"تم تعطيل فرص الوظائف"</string>
+    <string name="enable_disable_mhh">"طبي، الصحة والمستشفى"</string>
+    <string name="mhh_enable">"تم تمكين الطبي والصحة والمستشفى"</string>
+    <string name="mhh_disable">"تم تعطيل الطبي والصحة والمستشفى"</string>
+    <string name="enable_disable_technology_news">"أخبار التكنولوجيا"</string>
+    <string name="technology_news_enable">"تم تمكين أخبار التكنولوجيا"</string>
+    <string name="technology_news_disable">"تم تعطيل أخبار التكنولوجيا"</string>
+    <string name="enable_disable_multi_category">"متعددة الفئات"</string>
+    <string name="multi_category_enable">"تم تمكين المتعددة الفئات"</string>
+    <string name="multi_category_disable">"تم تعطيل متعددة الفئات"</string>
+    <string name="cell_broadcast_empty">لامعلومات عن القناة !</string>
+    <string name="gsm_umts_network_preferences_title">"تفضيلات شبكة نظام GSM/النظام العالمي لاتصالات الجوال عن بعد (UMTS)"</string>
+    <string name="gsm_umts_network_preferneces_summary">"لم ينفذ بعد!"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"تفضيلات شبكة نظام GSM/النظام العالمي لاتصالات الجوال عن بعد (UMTS)"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"GSM/WCDMA (وضع تلقائي)"</item>
+        <item>"WCDMA فقط"</item>
+        <item>"نظام GSM فقط"</item>
+        <item>"GSM/WCDA ‏(WCDMA المفضل)"</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+    <string name="prefer_2g">"استخدام شبكات الجيل الثاني فقط"</string>
+    <string name="prefer_2g_summary">"لحفظ البطارية"</string>
+    <string name="cdma_system_select_title">"تحديد النظام"</string>
+    <string name="cdma_system_select_summary">"تغيير وضع التجوال عبر CDMA"</string>
+    <string name="cdma_system_select_dialogtitle">"تحديد النظام"</string>
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>"الرئيسية فقط"</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
+        <item>"تلقائي"</item>
+    </string-array>
+    <string name="cdma_roaming_mode_title">"وضع التجوال عبر CDMA"</string>
+    <string name="cdma_roaming_mode_summary">"تغيير وضع التجوال عبر CDMA"</string>
+    <string name="cdma_roaming_mode_dialogtitle">"وضع التجوال CDMA"</string>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>"الشبكات المنزلية فقط"</item>
+        <item>"الشبكات التابعة"</item>
+        <item>"أي شبكة"</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_network_preferences_title">"تفضيلات شبكة CDMA"</string>
+    <string name="cdma_network_preferneces_summary">"لم ينفذ بعد!"</string>
+    <string name="cdma_network_preferences_dialogtitle">"تفضيلات شبكة CDMA"</string>
+    <string-array name="cdma_network_preferences_choices">
+        <item>"CDMA/EvDo"</item>
+        <item>"CDMA فقط"</item>
+        <item>"EvDo فقط"</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_subscription_title">"اشتراك CDMA"</string>
+    <string name="cdma_subscription_summary">"تغيير بين RUIM/SIM وNV"</string>
+    <string name="cdma_subscription_dialogtitle">"الاشتراك"</string>
+    <string-array name="cdma_subscription_choices">
+        <item>"بطاقة RUIM/SIM"</item>
+        <item>"NV"</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <string name="fdn">"أرقام الاتصال الثابتة"</string>
+    <string name="manage_fdn_list">"قائمة FDN"</string>
+    <string name="fdn_activation">"تنشيط FDN"</string>
+    <string name="fdn_enabled">"تم تمكين أرقام الاتصال الثابتة"</string>
+    <string name="fdn_disabled">"تم تعطيل أرقام الاتصال الثابتة"</string>
+    <string name="enable_fdn">"تمكين FDN"</string>
+    <string name="disable_fdn">"تعطيل FDN"</string>
+    <string name="change_pin2">"تغيير رقم التعريف الشخصي PIN2"</string>
+    <string name="enable_fdn_ok">"تعطيل FDN"</string>
+    <string name="disable_fdn_ok">"تمكين FDN"</string>
+    <string name="sum_fdn">"إدارة أرقام الاتصال الثابتة"</string>
+    <string name="sum_fdn_change_pin">"تغيير رقم التعريف الشخصي للدخول إلى FDN"</string>
+    <string name="sum_fdn_manage_list">"إدارة قائمة أرقام الهاتف"</string>
+    <string name="voice_privacy">"خصوصية الصوت"</string>
+    <string name="voice_privacy_summary">"تمكين وضع الخصوصية المحسن"</string>
+    <string name="tty_mode_title">"وضع TTY"</string>
+    <string name="tty_mode_summary">"تمكين وضع TTY"</string>
+    <string name="tty_mode_option_title">"وضع TTY"</string>
+    <string name="tty_mode_option_summary">"تعيين وضع TTY"</string>
+    <string name="auto_retry_mode_title">"إعادة المحاولة تلقائيًا"</string>
+    <string name="auto_retry_mode_summary">"تمكين وضع إعادة المحاولة التلقائي"</string>
+    <string name="menu_add">"إضافة جهة اتصال"</string>
+    <string name="menu_edit">"تعديل جهة الاتصال"</string>
+    <string name="menu_delete">"حذف جهة الاتصال"</string>
+    <string name="get_pin2">"أدخل رقم التعريف الشخصي PIN2"</string>
+    <string name="name">"الاسم"</string>
+    <string name="number">"الرقم"</string>
+    <string name="save">"حفظ"</string>
+    <string name="add_fdn_contact">"إضافة رقم اتصال ثابت"</string>
+    <string name="adding_fdn_contact">"جارٍ إضافة رقم الاتصال الثابت..."</string>
+    <string name="fdn_contact_added">"تمت إضافة رقم الاتصال الثابت."</string>
+    <string name="edit_fdn_contact">"تعديل رقم الاتصال الثابت"</string>
+    <string name="updating_fdn_contact">"جارٍ تحديث رقم الاتصال الثابت..."</string>
+    <string name="fdn_contact_updated">"تم تحديث رقم الاتصال الثابت."</string>
+    <string name="delete_fdn_contact">"حذف رقم الاتصال الثابت"</string>
+    <string name="deleting_fdn_contact">"جارٍ حذف رقم الاتصال الثابت..."</string>
+    <string name="fdn_contact_deleted">"تم حذف رقم الاتصال الثابت."</string>
+    <string name="pin2_invalid">"لم يتم تحديث FDN: لقد أدخلت رقم تعريف شخصي غير صحيح."</string>
+    <string name="fdn_invalid_number">"لم يتم تحديث FDN: لا يمكن للرقم أن يتعدى 20 رقمًا"</string>
+    <string name="simContacts_emptyLoading">"جارٍ القراءة من بطاقة SIM..."</string>
+    <string name="simContacts_empty">"ليس هناك جهات اتصال على بطاقة SIM."</string>
+    <string name="simContacts_title">"حدد جهات اتصال لاستيرادها"</string>
+    <string name="enable_pin">"تمكين/تعطيل رقم التعريف الشخصي لبطاقة SIM"</string>
+    <string name="change_pin">"تغيير رقم التعريف الشخصي لبطاقة SIM"</string>
+    <string name="enter_pin_text">"رقم التعريف الشخصي لبطاقة SIM:"</string>
+    <string name="oldPinLabel">"رقم التعريف الشخصي القديم"</string>
+    <string name="newPinLabel">"رقم التعريف الشخصي الجديد"</string>
+    <string name="confirmPinLabel">"تأكيد رقم التعريف الشخصي الجديد"</string>
+    <string name="badPin">"رقم التعريف الشخصي القديم الذي كتبته غير صحيح. الرجاء المحاولة مرة أخرى."</string>
+    <string name="mismatchPin">"أرقام التعريف الشخصي التي أدخلتها غير مطابقة. الرجاء المحاولة مرة أخرى لاحقًا."</string>
+    <string name="invalidPin">"اكتب رقم التعريف الشخصي المكون من 4 إلى 8 أرقام."</string>
+    <string name="disable_sim_pin">"تعطيل رقم التعريف الشخصي لبطاقة SIM"</string>
+    <string name="enable_sim_pin">"تمكين رقم التعريف الشخصي لبطاقة SIM"</string>
+    <string name="enable_in_progress">"يُرجى الانتظار…"</string>
+    <string name="enable_pin_ok">"تم تمكين رقم التعريف الشخصي لبطاقة SIM"</string>
+    <string name="disable_pin_ok">"تم تعطيل رقم التعريف الشخصي لبطاقة SIM"</string>
+    <string name="pin_failed">"رقم التعريف الشخصي الذي كتبته غير صحيح"</string>
+    <string name="pin_changed">"تم تغيير رقم التعريف الشخصي لبطاقة SIM بنجاح"</string>
+    <string name="puk_requested">"كلمة المرور غير صحيحة، تم تأمين بطاقة SIM! رقم PUK2 مطلوب."</string>
+    <string name="enter_pin2_text">"PIN2"</string>
+    <string name="oldPin2Label">"رقم التعريف الشخصي PIN2 القديم"</string>
+    <string name="newPin2Label">"رقم تعريف شخصي PIN2 جديد"</string>
+    <string name="confirmPin2Label">"تأكيد رقم التعريف الشخصي PIN2 الجديد"</string>
+    <string name="badPuk2">"رقم PUK2 الذي كتبته غير صحيح. الرجاء المحاولة مرة أخرى."</string>
+    <string name="badPin2">"رقم التعريف الشخصي PIN2 الذي كتبته غير صحيح. الرجاء المحاولة مرة أخرى."</string>
+    <string name="mismatchPin2">"أرقام التعريف الشخصي PIN2 التي أدخلتها غير مطابقة. الرجاء المحاولة مرة أخرى لاحقًا."</string>
+    <string name="invalidPin2">"اكتب رقم التعريف الشخصي PIN2 المكون من 4 إلى 8 أرقام."</string>
+    <string name="promptWordOne">تبقى</string>
+    <string name="promptWordTwo">مره/مرات</string>
+    <string name="invalidPuk2">"اكتب PUK2 يتكون من 8 أحرف."</string>
+    <string name="pin2_changed">"تم تغيير رقم التعريف الشخصي PIN2 بنجاح"</string>
+    <string name="label_puk2_code">"اكتب رمز PUK2"</string>
+    <string name="fdn_enable_puk2_requested">"كلمة المرور غير صحيحة، الرجاء تغيير رقم التعريف الشخصي PIN2 وإعادة المحاولة!"</string>
+    <string name="puk2_requested">"كلمة المرور غير صحيحة، تم تأمين بطاقة SIM! رقم PUK2 مطلوب."</string>
+    <string name="doneButton">"تم"</string>
+    <string name="caller_manage_header">"مكالمة جماعية <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="caller_manage_manage_done_text">"رجوع إلى المكالمة"</string>
+    <string name="fake_phone_activity_phoneNumber_text">(650) 555-1234</string>
+    <string name="fake_phone_activity_infoText_text">رقم الهاتف الوارد</string>
+    <string name="fake_phone_activity_placeCall_text">المكالمات الواردة وهمية</string>
+    <string name="sim_missing_continueView_text">"متابعة بدون بطاقة SIM"</string>
+    <string name="sim_missing_msg_text">"لم يتم العثور على بطاقة SIM. الرجاء إدراج بطاقة SIM في الهاتف."</string>
+    <string name="sim_unlock_dismiss_text">"استبعاد"</string>
+    <string name="sim_unlock_unlock_text">"إلغاء تأمين"</string>
+    <string name="sim_unlock_status_text">"جارٍ مصادقة رقم التعريف الشخصي…"</string>
+    <string name="voicemail_settings_number_label">"رقم البريد الصوتي"</string>
+    <string name="card_title_dialing">"طلب"</string>
+    <string name="card_title_dialing_video">مكالمة فيديو</string>
+    <string name="card_title_alerting_video">تنبيه المستخدم</string>
+    <string name="card_title_redialing">"جارٍ إعادة المحاولة"</string>
+    <string name="card_title_in_progress">"الاتصال الحالي"</string>
+    <string name="card_title_conf_call">"مكالمة جماعية"</string>
+    <string name="card_title_incoming_call">"مكالمة واردة"</string>
+    <string name="card_title_incoming_video_call">مكالمة فيديو واردة</string>
+    <string name="card_title_cdma_call_waiting">"انتظار مكالمات Cdma"</string>
+    <string name="card_title_call_ended">"تم إنهاء الاتصال"</string>
+    <string name="card_title_on_hold">"معلقة"</string>
+    <string name="card_title_hanging_up">"إنهاء المكالمة"</string>
+    <string name="card_title_in_call">"قيد الاتصال"</string>
+    <string name="card_title_my_phone_number">"رقمي هو <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_missedCallTitle">"مكالمة فائتة"</string>
+    <string name="notification_missedCallsTitle">"المكالمات الفائتة"</string>
+    <string name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> من المكالمات الفائتة"</string>
+    <string name="notification_missedCallTicker">"مكالمة فائتة من <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_ongoing_call_format">"المكالمة الحالية (<xliff:g id="DURATION">%s</xliff:g>)"</string>
+    <string name="notification_on_hold">"معلقة"</string>
+    <string name="notification_incoming_call">"مكالمة واردة"</string>
+    <string name="notification_voicemail_title">"بريد صوتي جديد"</string>
+    <string name="notification_voicemail_title_count">"بريد صوتي جديد (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string name="notification_voicemail_text_format">"طلب <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_voicemail_no_vm_number">"رقم البريد الصوتي غير معروف"</string>
+    <string name="notification_network_selection_title">"لا خدمة"</string>
+    <string name="notification_network_selection_text">"الشبكة المحددة (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) غير متاحة"</string>
+    <string name="incall_error_power_off">"لإجراء مكالمة، أوقف تشغيل وضع الطائرة أولاً."</string>
+    <string name="incall_error_emergency_only">"غير مسجل على الشبكة."</string>
+    <string name="incall_error_out_of_service">"شبكة الجوال غير متاحة."</string>
+    <string name="incall_error_no_phone_number_supplied">"لم يتم إرسال الاتصال، لم يتم إدخال رقم صالح."</string>
+    <string name="incall_error_call_failed">"لم يتم إرسال الاتصال."</string>
+    <string name="incall_status_dialed_mmi">"جارٍ بدء تسلسل MMI..."</string>
+    <string name="incall_status_dialed_fc">"جارٍ بدء تسلسل رمز الميزة..."</string>
+    <string name="incall_error_supp_service_unknown">"خدمة غير معتمدة."</string>
+    <string name="incall_error_supp_service_switch">"يتعذر تبديل المكالمات."</string>
+    <string name="incall_error_supp_service_separate">"يتعذر فصل المكالمة."</string>
+    <string name="incall_error_supp_service_transfer">"تعذر تحويل الاتصال."</string>
+    <string name="incall_error_supp_service_conference">"يتعذر إجراء مكالمات جماعية."</string>
+    <string name="incall_error_supp_service_reject">"يتعذر رفض المكالمة."</string>
+    <string name="incall_error_supp_service_hangup">"يتعذر إجراء مكالمات."</string>
+    <string name="incall_error_dialvt_in_2gcall">هنالك مكالمة فيديو جاريه الان ، لا يمكن اجراء اكثر من مكالمة!</string>
+    <string name="incall_error_dialvt_in_3gcall">هنالك مكالمة فيديو جاريه الان ، لا يمكن اجراء اكثر من مكالمة!</string>
+    <string name="incall_error_dial_in_3gcall">هنالك مكالمة فيديو جاريه الان ، لا يمكن اجراء اكثر من مكالمة!</string>
+    <string name="incall_error_aireplane_mode_on">لاجراء مكالمة ، قم باغلاق وضع الطيران</string>
+    <string name="emergency_enable_radio_dialog_title">"مكالمة الطوارئ"</string>
+    <string name="emergency_enable_radio_dialog_message">"جارٍ تشغيل اللاسلكي..."</string>
+    <string name="emergency_enable_radio_dialog_retry">"خارج نطاق الخدمة، جارٍ إعادة المحاولة..."</string>
+    <string name="dial_emergency_error">"لم يتم إرسال المكالمة، <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> ليس رقم طوارئ!"</string>
+    <string name="dial_emergency_empty_error">"لم يتم إرسال الاتصال، الرجاء طلب رقم طوارئ!"</string>
+    <string name="dialerKeyboardHintText">"استخدام لوحة المفاتيح للطلب"</string>
+    <string name="dtmfDialpadHintText">"المس لوحة مفاتيح النغمات"</string>
+    <string name="dtmfDialpadHandleLabel">"لوحة الاتصال"</string>
+    <string name="touchLockText">"انقر نقرًا مزدوجًا"\n"لإلغاء التأمين"</string>
+    <string name="onscreenAnswerText">"انقر نقرًا مزدوجًا"\n"للرد"</string>
+    <string name="onscreenRejectText">"انقر نقرًا مزدوجًا"\n"للرفض"</string>
+    <string name="onscreenHoldText">"تعليق"</string>
+    <string name="onscreenUnholdText">"إلغاء التعليق"</string>
+    <string name="onscreenEndCallText">"الانتهاء"</string>
+    <string name="onscreenShowDialpadText">"لوحة الاتصال"</string>
+    <string name="onscreenHideDialpadText">"إخفاء"</string>
+    <string name="onscreenSpeakerText">"مكبر الصوت"</string>
+    <string name="onscreenMuteText">"كتم الصوت"</string>
+    <string name="onscreenBluetoothText">"بلوتوث"</string>
+    <string name="onscreenAddCallText">"إضافة مكالمة"</string>
+    <string name="onscreenMergeCallsText">"دمج المكالمات"</string>
+    <string name="onscreenSwapCallsText">"تبديل"</string>
+    <string name="onscreenManageCallsText">"إدارة المكالمات"</string>
+    <string name="onscreenManageConferenceText">"إدارة"</string>
+    <string name="importSimEntry">"استيراد"</string>
+    <string name="importAllSimEntries">"استيراد الكل"</string>
+    <string name="importingSimContacts">"استيراد جهات اتصال بطاقة SIM"</string>
+    <string name="importToFDNfromContacts">"استيراد من جهات الاتصال"</string>
+    <string name="hac_mode_title">"أدوات السمع المساعدة"</string>
+    <string name="hac_mode_summary">"تشغيل التوافق مع أداة السمع"</string>
+    <string-array name="tty_mode_entries">
+        <item>"إيقاف تشغيل TTY"</item>
+        <item>"TTY مكتمل"</item>
+        <item>"TTY HCO"</item>
+        <item>"TTY VCO"</item>
+    </string-array>
+    <string name="eri_text_label">"نص مؤشر التجوال المحسن (ERI)"</string>
+    <string name="dtmf_tones_title">"نغمات DTMF"</string>
+    <string name="dtmf_tones_summary">"تعيين طول نغمات DTMF"</string>
+    <string-array name="dtmf_tone_entries">
+      <item>"عادي"</item>
+      <item>"طويلة"</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+       <item>"0"</item>
+       <item>"1"</item>
+    </string-array>
+    <string name="network_message">"رسالة الشبكة"</string>
+    <string name="ota_title_activate">"تنشيط الهاتف"</string>
+    <string name="ota_touch_activate">"يلزم إجراء اتصال خاص لتنشيط خدمة الهاتف. "\n\n"بعد الضغط على \"تنشيط\"، استمع إلى الإرشادات المقدمة لتنشيط هاتفك."</string>
+    <string name="ota_touch_activate_new">"المس \"تنشيط\" لإجراء مكالمة خاصة تؤدي إلى تنشيط هاتفك على شبكة الجوال لمشغل شبكة الجوال، كي تتمكن من إجراء الاتصالات والاتصال بشبكات بيانات الجوال."</string>
+    <string name="ota_skip_activation_dialog_title">"هل تريد تخطي التنشيط؟"</string>
+    <string name="ota_skip_activation_dialog_message">"إذا تخطيت التنشيط، فلن تتمكن من إجراء مكالمات أو الاتصال بشبكات بيانات الجوال (ومع ذلك، يمكنك الاتصال بشبكات Wi-Fi). إلى أن تنشط هاتفك، ستتم مطالبتك بتنشيطه في كل مرة تشغله فيها."</string>
+    <string name="ota_skip_activation_dialog_skip_label">"تخطٍ"</string>
+    <string name="ota_skip_activation_dialog_continue_label">"تنشيط"</string>
+    <string name="ota_activate">"تنشيط"</string>
+    <string name="ota_title_activate_success">"تم تنشيط الهاتف!"</string>
+    <string name="ota_title_problem_with_activation">"مشكلة في التنشيط"</string>
+    <string name="ota_listen">"اتبع الإرشادات المنطوقة حتى تسمع ما يفيد بانتهاء التنشيط."</string>
+    <string name="ota_dialpad">"لوحة المفاتيح"</string>
+    <string name="ota_speaker">"مكبر الصوت"</string>
+    <string name="ota_progress">"الرجاء الانتظار حتى تتم برمجة هاتفك."</string>
+    <string name="ota_failure">"لم تنجح البرمجة"</string>
+    <string name="ota_successful">"تم تنشيط هاتفك الآن. قد يستغرق بدء الخدمة ما يصل إلى 15 دقيقة."</string>
+    <string name="ota_unsuccessful">"لم يتم تنشيط الهاتف. "\n"ربما يلزمك البحث عن منطقة بها تغطية أفضل (بجانب نافذة أو بالخارج). "\n\n"حاول مرة أخرى أو اتصل بخدمة العملاء للحصول على مزيد من الخيارات."</string>
+    <string name="ota_spc_failure">"إخفاقات في المواصفات الزائدة"</string>
+    <string name="ota_call_end">"رجوع"</string>
+    <string name="ota_try_again">"حاول مرة أخرى"</string>
+    <string name="ota_next">"التالي"</string>
+    <string name="ota_back">"رجوع"</string>
+    <string name="ecm_exit_dialog">"EcmExitDialog"</string>
+    <string name="phone_entered_ecm_text">"تم الدخول إلى وضع هاتف معاودة الاتصال بالطوارئ"</string>
+    <string name="phone_in_ecm_notification_title">"وضع هاتف معاودة الاتصال بالطوارئ"</string>
+    <string name="phone_in_ecm_call_notification_text">"تم تعطيل اتصال البيانات"</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <!-- number of minutes is one -->
+        <item quantity="one">"لا اتصال بيانات لمدة <xliff:g id="COUNT">%s</xliff:g> دقيقة"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"لا اتصال بيانات لمدة <xliff:g id="COUNT">%s</xliff:g> دقيقة"</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"سيكون الهاتف في وضع معاودة الاتصال بالطوارئ لمدة <xliff:g id="COUNT">%s</xliff:g> دقيقة. لا يمكن استخدام التطبيقات التي تستخدم اتصال البيانات أثناء تشغيل هذا الوضع. هل تريد الخروج الآن؟"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"سيكون الهاتف في وضع معاودة الاتصال بالطوارئ لمدة <xliff:g id="COUNT">%s</xliff:g> دقيقة. لا يمكن استخدام التطبيقات التي تستخدم اتصال البيانات أثناء تشغيل هذا الوضع. هل تريد الخروج الآن؟"</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"لا يتوفر الإجراء المحدد أثناء تشغيل وضع هاتف معاودة الاتصال بالطوارئ. سيظل الهاتف في هذا الوضع لمدة <xliff:g id="COUNT">%s</xliff:g> دقيقة. هل تريد الخروج الآن؟"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"لا يتوفر الإجراء المحدد أثناء تشغيل وضع هاتف معاودة الاتصال بالطوارئ. سيظل الهاتف في هذا الوضع لمدة <xliff:g id="COUNT">%s</xliff:g> دقيقة. هل تريد الخروج الآن؟"</item>
+    </plurals>
+    <string name="alert_dialog_in_ecm_call">"الإجراء المحدد لا يتوفر أثناء إجراء مكالمة طوارئ."</string>
+    <string name="progress_dialog_exiting_ecm">"الخروج من وضع هاتف معاودة الاتصال بالطوارئ"</string>
+    <string name="alert_dialog_yes">"نعم"</string>
+    <string name="alert_dialog_no">"لا"</string>
+    <string name="alert_dialog_dismiss">"استبعاد"</string>
+    <string name="absent_num">رقم غائب</string>
+    <string name="voicemail_settings">"إعدادات البريد الصوتي"</string>
+    <string name="voicemail_number_not_set">"&lt;غير معين&gt;"</string>
+    <string name="voicemail_provider">"خدمة البريد الصوتي"</string>
+    <string name="voicemail_settings_for">"إعدادات \"<xliff:g id="PROVIDER_NAME">%s</xliff:g>\""</string>
+    <string name="other_settings">"إعدادات الاتصال الأخرى"</string>
+    <string name="dial_button_label">"طلب"</string>
+    <string name="calling_via_template">"الاتصال عبر ^1"\n<b>"^2"</b></string>
+    <string name="slide_to_answer">"اسحب لليسار للإجابة"</string>
+    <string name="slide_to_silence">"اسحب لليمين لجعل الرنين صامتًا"</string>
+    <string name="slide_to_decline">"اسحب لليمين للرفض"</string>
+    <string name="slide_to_answer_and_hold">"سحب لليسار للرد "\n"وتعليق المكالمة النشطة"</string>
+    <string name="slide_to_answer_and_end_active">"اسحب لليسار للرد "\n"وإنهاء المكالمة النشطة"</string>
+    <string name="slide_to_answer_and_end_onhold">"سحب لليسار للرد و"\n"وإنهاء المكالمة المعلقة"</string>
+    <string name="slide_to_answer_hint">"إجابة"</string>
+    <string name="slide_to_decline_hint">"رفض"</string>
+    <string name="sim_state_not_changes">حالة التفعيل /ايقاف التفعيل في SIM لم يطرأ عليها أي تغيير</string>
+    <string name="sim_state_set_timeout">انتهاء مهلة اعدادات حالة شريحة Sim</string>
+    <string name="data_enable_set">اعدادات تفعيل اتصال بيانات </string>
+    <string name="data_enable_set_timeout">انتهاء مهلة اعدادات تفعيل اتصال بيانات .</string>
+    <string name="cb_error">تم رفض حظر المكالمة</string>
+    <string name="video_camera_switch">تشغيل الكاميرا</string>
+    <string name="video_view_switch">تشغيل الرؤيا</string>
+    <string name="video_camera_close">اغلاق الكاميرا</string>
+    <string name="video_camera_open">فتح الكاميرا</string>
+    <string name="video_speaker_close">اغلاق السماعات</string>
+    <string name="video_speaker_open">فتح مكبر الصوت</string>
+    <string name="video_bluetooth_close">إغلاق بلوتوث</string>
+    <string name="video_bluetooth_open">فتح بلوتوث</string>
+    <string name="video_mute">صامت</string>
+    <string name="video_unmute">الغاء الكتم</string>
+    <string name="video_decline">تراجع</string>
+    <string name="video_falldown">سقوط</string>
+    <string name="video_record">تسجيل ...</string>
+    <string name="video_start_record_both">بداية التسجيل معا</string>
+    <string name="video_start_record_audio">بداية تسجيل الصوت</string>
+    <string name="video_stop_record">ايقاف التسجيل</string>
+    <string name="insert_sd_card">الرجاء ادخال بطاقة التخزين SD</string>
+    <string name="storage_is_full">ذاكرة التخزين ممتلئة</string>
+    <string name="video_btn_dialer">لوحة المفاتيح</string>
+    <string name="video_btn_hangup">أغلاق الخط</string>
+    <string name="video_btn_answer">رد</string>
+    <string name="video_btn_decline">تراجع</string>
+    <string name="video_label_name">الاسم:</string>
+    <string name="video_label_time">وقت المكالمة:</string>
+    <string name="video_label_status">الحالة:</string>
+    <string name="video_label_begintime">وقت بدأ المكالمة:</string>
+    <string name="video_dialog_incoming">مكالمة واردة , الرد او لا ؟</string>
+    <string name="video_dialog_incoming_accept">قبول</string>
+    <string name="video_dialog_incoming_tovoice">تشغيل الصوت</string>
+    <string name="video_dialog_incoming_hangup">أغلاق الخط</string>
+    <string name="videophonesetting_label">اعدادات تلفون الفيديو</string>
+    <string name="videophone_setting">تلفون فيديو</string>
+    <string name="videophone_setting_title">الاعدادات العامة هاتف الفيديو</string>
+    <string name="videophone_setting_summary">ضبط الاعدادات لعرض مكالمة الفيديو , النموذج و الخ</string>
+    <string name="videophone_callforward_setting_title">اعدادات تحويل هاتف الفيديو</string>
+    <string name="videophone_callbarring_setting_title">اعدادات حجب هاتف الفيديو</string>
+    <string name="videophone_setting_title_static_image">عرض صورة ثابتة</string>
+    <string name="videophone_setting_title_static_image_set">ضبط توازن الصورة</string>
+    <string name="videophone_setting_title_remote_static_image_set">ضبط التحكم بالصور الثابتة</string>
+    <string name="videophone_setting_title_local_static_image_set">ضبط صور ثابتة محلية</string>
+    <string name="videophone_setting_title_delete_photo">مسح توازن الصورة</string>
+    <string name="videophone_setting_title_take_photo">"التقاط صورة"</string>
+    <string name="videophone_setting_title_pick_photo">تحديد شريط الراديو</string>
+    <string name="videophone_setting_photoPickerNotFoundText">"لا تتوفر أية صور على الهاتف."</string>
+    <string name="videophone_setting_summary_static_image">عرض الصور الثابتة عند اغلاق الكاميرا</string>
+    <string name="videophone_setting_title_layout">اداء شاشة الفيديو</string>
+    <string name="videophone_layout_my_small">الفيدو صغير</string>
+    <string name="videophone_layout_my_large">الفيدو كبير</string>
+    <string name="videophone_setting_default_image">الصورة الافتراضية</string>
+    <string name="videophone_setting_picture_oversize">"ابعاد الصوره لا يمكن ان تتجاوز  640 * 480"  </string>
+    <string name="videophone_setting_picture_widthtoosmall">"عرض الصوره لا يمكن ان يتجاوز 64"</string>
+    <string name="videophone_setting_picture_heightoosmall">"طول الصوره لا يمكن ان يتجاوز 64"</string>
+    <string name="videophone_setting_picture_notjpg">"فقط الصور الناعمه من صيغ jpg"</string>
+    <string name="videophone_setting_title_fallback">طلب استعادة مكالمة صوتية</string>
+    <string name="videophone_fallback_always_ask">قم بالسوٌال كل مرة</string>
+    <string name="videophone_fallback_always_callback"> اعادة الاتصال دائما</string>
+    <string name="videophone_fallback_never_callback">لاتقم باعادة الاتصال ابدا</string>
+    <string name="videophone_setting_dialog_title_layout">اداء الفيديو</string>
+    <string name="videophone_setting_dialog_title_fallback">طلب استعادة مكالمة صوتية</string>
+    <string name="videophone_setting_layout_defaultvalue">"1"</string>
+    <string name="videophone_setting_fallback_defaultvalue">"1"</string>
+    <string name="videophone_fallback_title">رجوع هاتف الفيديو</string>
+    <string name="videophone_never_fallback">المستقبل يتطلب مكالمة صوتية . التخلي عن معاودة الاتصال تلقائيا .</string>
+    <string name="videophone_always_fallback">المستقبل يتطلب مكالمة صوتية . اعادة طلب المكالمة الصوتية تلقائيا .</string>
+    <string name="videophone_notin3g_never_fallback">"الشبكة الحالية لا تدعم مكالمة فيديو. سوف يتم الغاء المكالمة تلقائيا."</string>
+    <string name="videophone_notin3g_always_fallback">"الشبكة الحالية لا تدعم مكالمة فيديو. سوف يتم الغاء المكالمة تلقائيا."</string>
+    <string name="videophone_fallback_menu_videocall">مكالمة فيديو</string>
+    <string name="videophone_fallback_menu_voicecall">مكالمة فيديو </string>
+    <string name="videophone_fallback_menu_cancel">"إلغاء"</string>
+    <string name="videophone_fallback_question">نفسك بايه يا باشا؟</string>
+    <string name="videophone_failcause_1000">"مكالمة الفيديو السابقه لم تنتهي كما يجب ، حاول مرة اخرى بعد قليل"</string>
+    <string name="videophone_failcause_1">رقم غير معين</string>
+    <string name="videophone_failcause_3">لا يمكن الاتصال بالمستخدم</string>
+    <string name="videophone_failcause_8">حظر المكالمة</string>
+    <string name="videophone_failcause_17">المستخدم مشغول </string>
+    <string name="videophone_failcause_19">" الرقم الذي طلبته لايقوم بالاستجابة "</string>
+    <string name="videophone_failcause_27">هاتف المستخدم مغلق</string>
+    <string name="videophone_failcause_34">قطع الاتصال</string>
+    <string name="videophone_failcause_63">تم حظر مكالمة التجوال</string>
+    <string name="videophone_failcause_79">المستخدم لا يدعم مكالمة فيديو</string>
+    <string name="videophone_failcause_default">لا يمكن الاتصال بالمستخدم</string>
+    <string name="videophone_failcause_47">معذرة مكالمة الفيديو غير متاحة</string>
+    <string name="videophone_failcause_57">أنت لم بدء تشغيل خدمة VT"</string>
+    <string name="videophone_failcause_58">المستخدم لا يدعم مكالمة فيديو</string>
+    <string name="videophone_failcause_88">المستخدم يختار مكالمة صوتية</string>
+    <string name="videophone_failcause_minus_1">شبكات 3G غير متاحة</string>
+    <string name="videophone_incoming_prompt">مكالمة فيديو واردة</string>
+    <string name="brightness">درجة سطوع الشاشة</string>
+    <string name="camera_brightness">درجة سطوع الكاميرا</string>
+    <string name="camera_contrast">درجة تباين الكاميرا</string>
+    <string name="prompt_remotecamera_close">كاميرا التحكم مغلقة</string>
+    <string name="prompt_remotecamera_open">كاميرا التحكم مفتوحة</string>
+    <string name="sutstitute_not_exist">الصورة البديلة غير موجودة</string>
+    <string name="prompt_picture_format_error">"الصورة البديل ليس JPEG، قم بإعادها إلى الصورة الافتراضية"</string>
+    <string name="prompt_wait_voicecall">الرجاء انتظار مكالمة الصوت</string>
+    <string name="prompt_record_finish">الملف المسجل تم حفظه الى</string>
+    <string name="prompt_camera_fail">فشل فتح الكاميرا</string>
+    <string name="prompt_no_freespace">المساحة المتبقية لا تزيد عن 500 كيلوبايت، سوف يتم ايقاف التسجيل.</string>
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <string name="audio_db_artist_name">تسجيلاتك</string>
+    <string name="audio_db_album_name">تسجيلات الصوت</string>
+    <string name="audio_db_playlist_name">تسجيلاتي</string>
+    <string name="app_name">تطبيق الهاتف</string>
+    <string name="error_mediadb_new_record">غير قادر على حفظ الصوت المسجل</string>
+    <string name="hangup_reply_message_title">رفض الرسالة</string>
+    <string name="hangup_reply_message">اغلاق رسالة الرد</string>
+    <string name="hangup_reply_message_tip">عند الضغط UI وارد , سيتم ارسال رسالة تلقائيا للشخص الذي اتصل بك</string>
+    <string name="edit_message_content_for_hangup">تعديل محتوى الرسالة</string>
+    <string name="edit_message_content_introdution">تتحرير محتوى الرسالة واختيار شخص خاص </string>
+    <string name="label_message_reject">مضمون الرسالة لاغلاق الخط</string>
+    <string name="tip_input_content">لا يوجد لديك محتوى الرسالة</string>
+    <string name="label_button_edit">تحرير</string>
+    <string name="label_button_ok">"موافق"</string>
+    <string name="label_button_add_special_reply">اضافة رقم خاص للرد</string>
+    <string name="reply_message_default">انا مشغول , اتصل بك لاحقا !</string>
+    <string name="title_message_reply_for_hangup">تحرير محتوى الرسالة</string>
+    <string name="contactPhoto">"صورة جهة الاتصال"</string>
+    <string name="goPrivate">"انتقال إلى مكالمة خاصة"</string>
+    <string name="selectContact">"تحديد جهة اتصال"</string>
+    <string name="standby_select">اختيار زر وضعية الاستعداد</string>
+    <string name="sip_settings">"إعدادات الاتصال عبر الإنترنت"</string>
+    <string name="sip_accounts">"حسابات الاتصال عبر الإنترنت (SIP)"</string>
+    <string name="sip_accounts_title">"الحسابات"</string>
+    <string name="sip_accounts_summary">"إدارة حسابات وحالات الاتصال عبر الإنترنت (SIP)"</string>
+    <string name="sip_receive_calls">"تلقي المكالمات الواردة"</string>
+    <string name="sip_receive_calls_summary">"يقلل من عمر البطارية"</string>
+    <string name="sip_call_options">"تهيئة خيارات الاتصال"</string>
+    <string name="sip_call_options_title">"استخدام الاتصال عبر الإنترنت"</string>
+    <string name="sip_call_options_wifi_only_title">"استخدام الاتصال عبر الإنترنت (Wi-Fi فقط)"</string>
+    <string name="sip_call_options_entry_1">"لكل المكالمات عند توفر شبكة البيانات"</string>
+    <string name="sip_call_options_entry_2">"فقط للمكالمات عبر الإنترنت"</string>
+    <string name="sip_call_options_entry_3">"المطالبة لكل اتصال"</string>
+    <string name="sip_call_options_wifi_only_entry_1">"لكل المكالمات"</string>
+    <string name="auto_reg">"التسجيل التلقائي"</string>
+    <string name="call_priority">"مكالمة صادرة عبر SIP"</string>
+    <string name="pick_outgoing_call_phone_type">"إجراء اتصال"</string>
+    <string name="pick_outgoing_sip_phone">"استخدام حساب الاتصال عبر الإنترنت:"</string>
+    <string name="remember_my_choice">"الاستخدام دومًا لإجراء مكالمات عبر الإنترنت"</string>
+    <string name="reset_my_choice_hint">"يمكنك استخدام إعدادات الاتصال لتغيير حساب الاتصال عبر الإنترنت الذي يتم استخدامه افتراضيًا عند إجراء مكالمات، من خلال تحديد حساب مختلف ضمن إعدادات الاتصال عبر الإنترنت"</string>
+    <string name="pstn_phone">"اتصال عبر هاتف خلوي"</string>
+    <string name="internet_phone">"مكالمة عبر الإنترنت"</string>
+    <string name="no_sip_account_found_title">"ليس هناك حساب اتصال عبر الإنترنت"</string>
+    <string name="no_sip_account_found">"لا توجد حسابات اتصال عبر الإنترنت على هذا الهاتف. هل تريد إضافة حساب الآن؟"</string>
+    <string name="sip_menu_add">"إضافة"</string>
+    <string name="add_sip_account">"إضافة حساب"</string>
+    <string name="remove_sip_account">"إزالة الحساب"</string>
+    <string name="sip_account_list">"حسابات SIP"</string>
+    <string name="saving_account">"جارٍ حفظ الحساب..."</string>
+    <string name="removing_account">"جارٍ إزالة الحساب..."</string>
+    <string name="sip_menu_save">"حفظ"</string>
+    <string name="sip_menu_discard">"تجاهل"</string>
+    <string name="alert_dialog_close">"إغلاق الملف الشخصي"</string>
+    <string name="alert_dialog_ok">"موافق"</string>
+    <string name="close_profile">"إغلاق"</string>
+    <string name="primary_account">"أساسي"</string>
+    <string name="primary_account_title">"جعل هذا حسابي الأساسي"</string>
+    <string name="primary_account_summary">"مستخدمة للمكالمات الصادرة"</string>
+    <string name="advanced_settings_title">"الإعدادات المتقدمة"</string>
+    <string name="primary_account_summary_with">"حساب أساسي. <xliff:g id="REGISTRATION_STATUS">%s</xliff:g>"</string>
+    <string name="registration_status_checking_status">"جارٍ فحص الحالة..."</string>
+    <string name="registration_status_registering">"جارٍ التسجيل..."</string>
+    <string name="registration_status_still_trying">"ما زالة المحاولة مستمرة..."</string>
+    <string name="registration_status_not_receiving">"عدم استلام مكالمات"</string>
+    <string name="registration_status_no_data">"توقف تسجيل الحساب نظرًا لعدم توفر اتصال بالإنترنت"</string>
+    <string name="registration_status_no_wifi_data">"توقف تسجيل الحساب نظرًا لعدم توفر اتصال Wi-Fi"</string>
+    <string name="registration_status_not_running">"أخفق تسجيل الحساب"</string>
+    <string name="registration_status_done">"استلام مكالمات"</string>
+    <string name="registration_status_failed_try_later">"أخفق تسجيل الحساب: (<xliff:g id="REGISTRATION_ERROR_MESSAGE">%s</xliff:g>)؛ ستتم المحاولة لاحقًا"</string>
+    <string name="registration_status_invalid_credentials">"أخف تسجيل الحساب: اسم المستخدم غير صحيح أو كلمة المرور غير صحيحة"</string>
+    <string name="registration_status_server_unreachable">"أخفق تسجيل الحساب: الرجاء التحقق من اسم الخادم"</string>
+    <string name="third_party_account_summary">"هذا الحساب قيد الاستخدام حاليًا من خلال تطبيق <xliff:g id="ACCOUNT_OWNER">%s</xliff:g>"</string>
+    <string name="sip_edit_title">"تفاصيل حساب SIP"</string>
+    <string name="sip_edit_new_title">"تفاصيل حساب SIP"</string>
+    <string name="domain_address_title">"الخادم"</string>
+    <string name="username_title">"اسم المستخدم"</string>
+    <string name="password_title">"كلمة المرور"</string>
+    <string name="display_name_title">"اسم العرض"</string>
+    <string name="proxy_address_title">"عنوان وكيل صادر"</string>
+    <string name="port_title">"رقم المنفذ"</string>
+    <string name="transport_title">"نوع النقل"</string>
+    <string name="send_keepalive_title">"إرسال رسالة للتحقق من الاتصال"</string>
+    <string name="send_keepalive_summary">"إرسال رسائل عبر SIP للتحقق من الاتصال"</string>
+    <string name="auto_registration_title">"التسجيل التلقائي"</string>
+    <string name="auto_registration_summary">"تسجيل الملف الشخصي تلقائيًا"</string>
+    <string name="set_primary_title">"تعيين كحساب أساسي"</string>
+    <string name="set_primary_summary">"مستخدمة للمكالمات الصادرة"</string>
+    <string name="advanced_settings">"الإعدادات الاختيارية"</string>
+    <string name="auth_username_title">"اسم المستخدِم للمصادقة"</string>
+    <string name="auth_username_summary">"اسم المستخدِم المستخدَم للمصادقة"</string>
+    <string name="default_preference_summary">"&lt;لم يتم تعيينه&gt;"</string>
+    <string name="display_name_summary">"&lt;مثل اسم المستخدم&gt;"</string>
+    <string name="optional_summary">"&lt;اختياري&gt;"</string>
+    <string name="advanced_settings_show">"▷ المس لإظهار الكل"</string>
+    <string name="advanced_settings_hide">"▽ المس لإخفاء الكل"</string>
+    <string name="empty_alert">"حقل <xliff:g id="INPUT_FIELD_NAME">%s</xliff:g> مطلوب، لا يمكن تركه فارغًا"</string>
+    <string name="not_a_valid_port">"يجب أن يكون رقم المنفذ ما بين 1000 و65534"</string>
+    <string name="no_internet_available_title">"لا يوجد اتصال بالإنترنت"</string>
+    <string name="no_wifi_available_title">"ليس هناك اتصال Wi-Fi"</string>
+    <string name="no_internet_available">"لإجراء اتصالٍ عبر الإنترنت، تحقق من الاتصال بالإنترنت أولاً"</string>
+    <string name="no_wifi_available">"يجب الاتصال بشبكة Wi-Fi لإجراء مكالمات عبر الإنترنت (استخدم إعدادات اللاسلكي والشبكة)"</string>
+    <string name="no_voip">"الاتصال عبر الإنترنت غير معتمد"</string>
+    <string name="send_message">رفض مكالمة مع رسالة</string>
+    <string name="menu_endbgcall">انهاء مكالمة الخلفية</string>
+    <string name="menu_endallcalls">انهاء جميع المكالمات</string>
+    <string name="adn_full">ADN ممتلئ</string>
+    <string name="china_mobile_provider">CHINA MOBILE</string>
+    <string name="chn_cugsm_provider">CHN-CUGSM</string>
+    <string name="network_inhibit">ممنوع</string>
+    <string name="network_unknown">غير معروف</string>
+    <string name="disk_full">"القرص ممتلئ.لا يمكن اضافه سجل مكالمات"</string>
+    <string name="fast_dial">مكالمة سريعه</string>
+    <string name="fast_dial_settings">اعدادات المكالمات السريعه</string>
+    <string name="fast_dial_changed"># رقم هاتف المكالمة السريعه تم تغييره</string>
+    <string name="fast_dial_no_changed"> رقم هاتف المكالمة السريعه لم يتم تغييره.</string>
+    <string name="fast_dial_change_failed">فشل تعيين رقم المكالمة السريعه.</string>
+    <string name="fast_dial_2">#2 الاتصال السريع</string>
+    <string name="fast_dial_3">#3 الاتصال السريع</string>
+    <string name="fast_dial_4">#4 الاتصال السريع</string>
+    <string name="fast_dial_5">#5 الاتصال السريع</string>
+    <string name="fast_dial_6">#6 الاتصال السريع</string>
+    <string name="fast_dial_7">#7 الاتصال السريع</string>
+    <string name="fast_dial_8">#8 الاتصال السريع</string>
+    <string name="fast_dial_9">#9 الاتصال السريع</string>
+    <string name="no_fast_dial">رقم الاتصال السريع لم يتم تعيينه</string>
+    <string name="not_set">بدون تعيين</string>
+    <string name="call_number">الى:</string>
+    <string name="place_a_call1">الاشتراك 1</string>
+    <string name="place_a_call2">الاشتراك 2</string>
+    <string name="cancel_call">الغاء</string>
+    <string name="sub_1">اليو اس بي 1</string>
+    <string name="sub_2">اليو اس بي 2</string>
+    <string name="sim1">بطاقة الهاتف 1</string>
+    <string name="sim2">بطاقة الهاتف 2</string>
+    <string name="other_setting">اعدادات الاتصالات الاخرى</string>
+    <string name="sim1_call_settings">SIM1 اعدادات المكالمات</string>
+    <string name="sim2_call_settings">SIM2 اعدادات المكالمات</string>
+    <string name="updating_dualsim_title">اعدادات الشريحة المزدوجة</string>
+    <string name="toast_message_name_too_long">الاسم طويل جدا ، قم بتعديله.</string>
+    <string name="toast_message_name_number_null">الاسم والرقم لا يمكن ان يكونا فارغين ، قم بتعديلهما.</string>
+    <string name="toast_message_data_business_on">اتصال البيانات مفعل الان ، قم باغلاقه عند تحديد شبكة.</string>
+    <string name="set_ip_dailing_title">مكالمة اي بي</string>
+    <string name="ip_dailing">قائمة عنوانين الاي بي</string>
+    <string name="ip_dailing_setting_title">تعيين رقم لايي بي</string>
+    <string name="ip_dailing_one_title">اي بي رقم 1</string>
+    <string name="ip_dailing_two_title">اي بي رقم 2</string>
+    <string name="ip_dailing_three_title">اي بي رقم 3</string>
+    <string name="ip_dailing_four_title">اي بي رقم 4</string>
+    <string name="ip_dailing_five_title">اي بي رقم 5</string>
+    <string name="ip_dailing_save_button_text">حفظ</string>
+    <string name="dialing_selector">تحديد المكالمة</string>
+    <string name="directly_call">مكالمة مباشره</string>
+    <string name="ip_call">مكالمة اي بي:</string>
+    <string name="emergency_call">مكالمة طوارئ</string>
+    <string name="reply_message_cannot_be_empty">لا يمكن للمحتوى ان يكون فارغا</string>
+    <string name="auto_send_message">رسالة رد تلقائي</string>
+    <string name="auto_send_message_tip">اختيار للرد رسالة معدة تلقائيا.</string>
+    <string name="UPLMN_setting">"اعدادات UPLMN" </string>
+    <string name="open_cb">جاري فتح  الرسائل القصيرة للبث الخليوي</string>
+    <string name="close_cb">جاري اغلاق  الرسائل القصيرة للبث الخليوي</string>
+    <string name="init_setting">اعدادات التهيئة</string>
+</resources>

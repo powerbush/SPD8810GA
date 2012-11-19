@@ -1,0 +1,648 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edit_group_info">Редактировать группу</string>
+    <string name="rename_contact_group_name">Переименовать</string>
+    <string name="no_contacts_group_name">Нет имени группы</string>
+    <string name="contacts_group_name_exist">Существующее имя группы</string>
+    <string name="sure">Конечно</string>
+    <string name="contacts_group">Группа</string>
+    <string name="divided_group_to">Разделить</string>
+    <string name="add_group">Добавить группу</string>
+    <string name="please_add_group">Пожалуйста, добавьте группу</string>
+    <string name="delete">Удалить</string>
+    <string name="deleted">удалено</string>
+    <string name="group_name_empty">Пустая группа</string>
+    <string name="all_selected">Выбрать все</string>
+    <string name="group_new">Новая группа</string>
+    <string name="save">Сохранить</string>
+    <string name="menu_contacts_group_add">Добавить</string>
+    <string name="menu_memory_query">Запрос памяти</string>
+    <string name="contactor_will_be"><xliff:g id="COUNT">%1$d</xliff:g> контакт будет <xliff:g id="OPTERATOR">%2$s</xliff:g></string>
+    <string name="imported">импортирован</string>
+    <string name="exported">экспортирован</string>
+    <string name="selected">выбран</string>
+    <string name="sharedUserLabel">"Основные приложения Android"</string>
+    <string name="contactsList">"Контакты"</string>
+    <string name="launcherDialer">"Телефон"</string>
+    <string name="shortcutContact">"Контакт"</string>
+    <string name="shortcutDialContact">"Быстрый звонок"</string>
+    <string name="shortcutMessageContact">"Быстрое сообщение"</string>
+    <string name="shortcutActivityTitle">"Выбрать контакт для быстрого вызова"</string>
+    <string name="callShortcutActivityTitle">"Выберите номер для вызова"</string>
+    <string name="messageShortcutActivityTitle">"Выбрать номер для отправки сообщения"</string>
+    <string name="starredList">"Помеченные"</string>
+    <string name="frequentList">"Часто вызываемые"</string>
+    <string name="strequentList">"Избранное"</string>
+    <string name="viewContactTitle">"Сведения о контакте"</string>
+    <string name="viewContactDesription">"Просмотреть контакт"</string>
+    <string name="editContactDescription">"Изменить контакт"</string>
+    <string name="insertContactDescription">"Создать контакт"</string>
+    <string name="searchHint">"Поиск контактов"</string>
+    <string name="menu_search">"Поиск"</string>
+    <string name="menu_newContact">"Новый контакт"</string>
+    <string name="menu_viewContact">"Просмотреть контакт"</string>
+    <string name="menu_callNumber">"Вызов: <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_addStar">"Добавить в избранное"</string>
+    <string name="menu_removeStar">"Удалить из избранных"</string>
+    <string name="menu_showBarcode">Показать штрих-код</string>
+    <string name="menu_editContact">"Изменить контакт"</string>
+    <string name="menu_deleteContact">"Удалить контакт"</string>
+    <string name="menu_call">"Позвонить"</string>
+    <string name="menu_video_call">Видеовызов</string>
+    <string name="menu_sendSMS">"Отправить SMS/MMS"</string>
+    <string name="menu_sendEmail">"Отправить письмо"</string>
+    <string name="menu_viewAddress">"Адрес на карте"</string>
+    <string name="menu_makeDefaultNumber">"Сделать номером по умолчанию"</string>
+    <string name="menu_makeDefaultEmail">"Установить этот адрес по умолчанию"</string>
+    <string name="menu_splitAggregate">"Отделить"</string>
+    <string name="contactsSplitMessage">"Контакты разделены."</string>
+    <string name="splitConfirmation_title">"Разделить контакты"</string>
+    <string name="splitConfirmation">"Вы действительно хотите разделить этот контакт на несколько контактов: по одному для каждого набора контактной информации, содержащейся в этом контакте?"</string>
+    <string name="menu_joinAggregate">"Присоединить"</string>
+    <string name="menu_showSources">Показать источники</string>
+    <string name="menu_hideSources">Скрыть источники</string>
+    <string name="titleJoinAggregate">Соединить контакт</string>
+    <string name="titleJoinContactDataWith">"Объединить контакты"</string>
+    <string name="blurbJoinContactDataWith">"Выберите контакт, который нужно объединить с этим адресатом: <xliff:g id="NAME">%s</xliff:g>."</string>
+    <string name="showAllContactsJoinItem">"Показать все контакты"</string>
+    <string name="separatorJoinAggregateSuggestions">"Предлагаемые контакты"</string>
+    <string name="separatorJoinAggregateAll">"Все контакты"</string>
+    <string name="contactsJoinedMessage">"Контакты присоединились"</string>
+    <string name="menu_contactOptions">"Параметры"</string>
+    <string name="contactOptionsTitle">"Параметры"</string>
+    <string name="deleteConfirmation_title">"Удалить"</string>
+    <string name="readOnlyContactWarning">"Невозможно удалить контакты из аккаунта, доступного только для чтения, однако можно скрыть их в списках контактов."</string>
+    <string name="readOnlyContactDeleteConfirmation">"Этот контакт содержит информацию из различных аккаунтов. Информация из аккаунтов, доступных только для чтения, будет скрыта в ваших списках контактов, но не удалена."</string>
+    <string name="multipleContactDeleteConfirmation">"Удаление этого контакта приведет к потере данных из нескольких аккаунтов."</string>
+    <string name="deleteConfirmation">"Этот контакт будет удален."</string>
+    <string name="menu_done">"Готово"</string>
+    <string name="menu_doNotSave">"Отмена"</string>
+    <string name="editContact_title_edit">"Изменить контакт"</string>
+    <string name="editContact_title_insert">"Новый контакт"</string>
+    <string name="menu_addItem">Больше информации</string>
+    <string name="label_phonetic_name">"Произношение"</string>
+    <string name="label_notes">"Примечания"</string>
+    <string name="label_sip_address">"Интернет-вызов"</string>
+    <string name="label_ringtone">"Мелодия"</string>
+    <string name="label_groups">Группы</string>
+    <string name="group_list">, <xliff:g id="groupName">%s</xliff:g></string>
+    <string name="menu_viewGroup">Редактировать группы</string>
+    <string name="ghostData_name">"Имя и фамилия"</string>
+    <string name="ghostData_phonetic_name">"Транскрипция имени"</string>
+    <string name="ghostData_company">"Компания"</string>
+    <string name="ghostData_title">"Название"</string>
+    <string name="ghostData_im">IM имя</string>
+    <string name="ghostData_notes">Моя заметка</string>
+    <string name="ghostData_phone">Номер телефона</string>
+    <string name="ghostData_email">Адрес электронной почты</string>
+    <string name="ghostData_postal">Почтовый адрес</string>
+    <string name="ghostData_group">Показать группу</string>
+    <string name="invalidContactMessage">"Контакт не существует."</string>
+    <string name="pickerNewContactHeader">"Создать новый контакт"</string>
+    <string name="selectLabel">"Выбор ярлыка"</string>
+    <string name="phoneLabelsGroup">"Телефон"</string>
+    <string name="emailLabelsGroup">"Адрес электронной почты"</string>
+    <string name="imLabelsGroup">"Чат"</string>
+    <string name="postalLabelsGroup">"Почтовый адрес"</string>
+    <string name="otherLabelsGroup">Другие</string>
+    <string-array name="otherLabels">
+        <!-- An organization associated with a contact -->
+        <item>"Организация"</item>
+        <!-- A note associated with a contact -->
+        <item>"Примечание"</item>
+    </string-array>
+    <string name="errorDialogTitle">Нет изображений</string>
+    <string name="photoPickerNotFoundText">"В телефоне нет картинок."</string>
+    <string name="attachToContact">"Значок контакта"</string>
+    <string name="customLabelPickerTitle">"Название ярлыка"</string>
+    <string name="menu_displayGroup">"Варианты отображения"</string>
+    <string name="displayGroups">"Варианты отображения"</string>
+    <string name="syncGroupPreference">Редактировать синхронизированные группы</string>
+    <string name="importFromSim">Импортировать контакты</string>
+    <string name="send_to_voicemail_checkbox">"Направлять вызовы в голосовую почту"</string>
+    <string name="send_to_voicemail_view">Вызовы напрямую отправлены на голосовую почту.</string>
+    <string name="default_ringtone">"По умолчанию"</string>
+    <string name="addPicture">Добавить иконку</string>
+    <string name="changePicture">"Изменить значок"</string>
+    <string name="removePicture">"Удалить значок"</string>
+    <string name="noContacts">"Нет контактов."</string>
+    <string name="noMatchingContacts">"Подходящие контакты не найдены."</string>
+    <string name="noContactsWithPhoneNumbers">"Нет контактов с номерами телефонов."</string>
+    <string name="noFavorites">Нет любимых.</string>
+    <string name="select_group_title">Группы</string>
+    <string name="groupEmpty">Ваша \"<xliff:g id="groupName">%s</xliff:g>\" группа пустая.</string>
+    <string name="showAllGroups">Все контакты</string>
+    <string name="showFilterPhones">"Контакты с телефонами"</string>
+    <string name="showFilterPhonesDescrip">"Отображать только контакты, содержащие номера телефонов"</string>
+    <string name="headerContactGroups">"Выберите контакты для показа"</string>
+    <plurals name="groupDescrip">
+        <item quantity="other">"Контактов: <xliff:g id="COUNT">%0$d</xliff:g>"</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">"Контактов: <xliff:g id="COUNT_0">%1$d</xliff:g>; с тел. номерами: <xliff:g id="COUNTWITHPHONES">%2$d</xliff:g>"</item>
+    </plurals>
+    <string name="syncAllGroups">Синхронизация всех контактов</string>
+    <string name="groupNameMyContacts">Мои контакты</string>
+    <string name="groupNameWithPhones">Контакты с номерами телефонов</string>
+    <string name="starredInAndroid">Помечен звездой в Android</string>
+    <string name="savingContact">"Контакт сохраняется..."</string>
+    <string name="savingDisplayGroups">"Варианты отображения сохраняются..."</string>
+    <string name="contactCreatedToast">Контакт создан.</string>
+    <string name="contactSavedToast">"Контакт сохранен."</string>
+    <string name="contactDeletedToast">Контакт удален.</string>
+    <string name="contactSavedErrorToast">"Ошибка. Не удалось сохранить изменения контакта."</string>
+    <string name="listSeparatorCallNumber">Набрать номер</string>
+    <string name="listSeparatorCallNumber_edit">Номера телефонов</string>
+    <string name="number_empty">"номер телефона пуст, невозможно вставить"</string>
+    <string name="listSeparatorSendSmsMms">Отправить текст</string>
+    <string name="listSeparatorSendEmail">Отправить электронную почту</string>
+    <string name="listSeparatorSendEmail_edit">Адреса электронной почты</string>
+    <string name="listSeparatorSendIm">Отправить мгновенное сообщение</string>
+    <string name="listSeparatorSendIm_edit">Адреса чатов</string>
+    <string name="listSeparatorMapAddress">Адрес карты</string>
+    <string name="listSeparatorMapAddress_edit">Почтовые адреса</string>
+    <string name="listSeparatorOrganizations">Организации</string>
+    <string name="listSeparatorGroups">Группы</string>
+    <string name="listSeparatorOtherInformation">Другая информация</string>
+    <string name="listSeparatorOtherInformation_edit">Другие опции</string>
+    <string name="listSeparatorMore_edit">Больше</string>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="one">"Показан 1 контакт с номером телефона"</item>
+        <item quantity="other">"Показаны контакты с номерами телефонов: <xliff:g id="COUNT">%d</xliff:g>"</item>
+    </plurals>
+    <string name="listTotalPhoneContactsZero">"Нет видимых контактов с номерами телефонов."</string>
+    <plurals name="listTotalAllContacts">
+        <item quantity="one">"Показан 1 контакт"</item>
+        <item quantity="other">"Показано контактов: <xliff:g id="COUNT">%d</xliff:g>"</item>
+    </plurals>
+    <string name="listTotalAllContactsZero">"Видимые контакты отсутствуют."</string>
+    <plurals name="listFoundAllContacts">
+        <item quantity="one">"Найден 1 контакт"</item>
+        <item quantity="other">"Найдено контактов: <xliff:g id="COUNT">%d</xliff:g>"</item>
+    </plurals>
+    <string name="listFoundAllContactsZero">"Контакт не найден."</string>
+    <plurals name="searchFoundContacts">
+        <item quantity="one">"1 контакт"</item>
+        <item quantity="other">"Контактов: <xliff:g id="COUNT">%d</xliff:g>"</item>
+    </plurals>
+    <string name="socialStreamIconLabel">Социальный</string>
+    <string name="contactsIconLabel">"Контакты"</string>
+    <string name="contactsFavoritesLabel">"Избранное"</string>
+    <string name="dialerIconLabel">"Кнопки"</string>
+    <string name="recentCallsIconLabel">"Вызовы"</string>
+    <string name="liveFolderAll">"Все контакты"</string>
+    <string name="liveFolderFavorites">"Помеченные контакты"</string>
+    <string name="liveFolderPhone">"Контакты с номерами телефонов"</string>
+    <string name="menu_sendTextMessage">"Отправить SMS"</string>
+    <string name="recentCalls_callNumber">"Вызов: <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="recentCalls_editNumberBeforeCall">"Изменить номер и вызвать"</string>
+    <string name="recentCalls_addToContact">"Добавить в контакты"</string>
+    <string name="recentCalls_removeFromRecentList">"Удалить из списка вызовов"</string>
+    <string name="recentCalls_deleteAll">"Очистить список вызовов"</string>
+    <string name="recentCalls_deleteSome">Удалить некоторые записи о вызовах</string>
+    <string name="recentCalls_Answered">ВХОДЯЩИЙ_ТИП</string>
+    <string name="recentCalls_NOT_Answered">ПРОПУЩЕННЫЙ_ТИП</string>
+    <string name="recentCalls_Connected">ИСХОДЯЩИЙ_ТИП</string>
+    <string name="recentCalls_Alltypes">ВСЕ_ТИПЫ</string>
+    <string name="intent_to_firewall">Брандмауэр</string>
+    <string name="recentCalls_Confirm_delete">Подтвердить удаление</string>
+    <string name="recentCalls_Cancel_delete">Отменить удаление</string>
+    <string name="recentCalls_button_Confirm_delete">Подтвердить удаление</string>
+    <string name="recentCalls_button_Cancel">"Отмена"</string>
+    <string name="recent_Call_log_checkbox_selecte_all">Выделить все</string>
+    <string name="recentCalls_empty">"Список вызовов пуст."</string>
+    <string name="clearCallLogConfirmation_title">"Очистить список вызовов"</string>
+    <string name="clearCallLogConfirmation">"Действительно очистить список вызовов?"</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="voicemail">"Голосовая почта"</string>
+    <string name="unknown">"Неизвестно"</string>
+    <string name="private_num">"Скрытый номер"</string>
+    <string name="payphone">"Телефон-автомат"</string>
+    <string name="dialerKeyboardHintText">"Наберите номер с клавиатуры"</string>
+    <string name="dialerDialpadHintText">"Наберите номер, чтобы добавить вызов"</string>
+    <string name="simContacts_emptyLoading">"Загрузка с SIM-карты…"</string>
+    <string name="simContacts_title">"Контакты на SIM-карте"</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">"Отсутствуют контакты для отображения. (Если аккаунт был только что добавлен, потребуется несколько минут для синхронизации контактов.)"</string>
+    <string name="noContactsHelpTextForCreateShortcut">"Отсутствуют контакты для отображения."</string>
+    <string name="contactsSyncPlug"><font fgcolor="#ffffffff">Синхронизировать Ваши Google контакты!</font>
+    \nПосле синхронизации на Ваш телефон, Ваши контакты будут доступны Вам, куда бы Вы не отправились.</string>
+    <string name="noContactsHelpText">"У вас нет контактов."\n\n"Чтобы добавить контакты, нажмите "<font fgcolor="#ffffffff"><b>"Меню"</b></font>" и выберите:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Аккаунты"</b></font>", чтобы добавить или настроить аккаунт с контактами, которые можно будет синхронизировать с телефоном;"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Новый контакт"</b></font>", чтобы создать контакт \"с нуля\";"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Импорт/Экспорт."</b></font>\n</li></string>
+    <string name="noContactsHelpTextWithSync">"У вас нет контактов. (Если вы только что добавили аккаунт, синхронизация контактов может занять несколько минут.)"\n\n"Чтобы добавить контакты, нажмите "<font fgcolor="#ffffffff"><b>"Меню"</b></font>" и выберите:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Аккаунты"</b></font>", чтобы добавить или настроить аккаунт с контактами, которые можно будет синхронизировать с телефоном;"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Варианты отображения"</b></font>", чтобы выбрать, какие контакты будут видны; "\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Новый контакт"</b></font>", чтобы создать контакт \"с нуля\";"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Импорт/Экспорт."</b></font>\n</li></string>
+    <string name="noContactsNoSimHelpText">"У вас нет контактов."\n\n"Чтобы добавить контакты, нажмите "<font fgcolor="#ffffffff"><b>"Меню"</b></font>" и выберите:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Аккаунты"</b></font>", чтобы добавить или настроить аккаунт с контактами, которые можно будет синхронизировать с телефоном;"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Новый контакт"</b></font>", чтобы создать контакт \"с нуля\";"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Импорт/Экспорт."</b></font>\n</li></string>
+    <string name="noContactsNoSimHelpTextWithSync">"У вас нет контактов. (Если вы только что добавили аккаунт, синхронизация контактов может занять несколько минут.)"\n\n"Чтобы добавить контакты, нажмите "<font fgcolor="#ffffffff"><b>"Меню"</b></font>" и выберите:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Аккаунты"</b></font>", чтобы добавить или настроить аккаунт с контактами, которые можно будет синхронизировать с телефоном;"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Варианты отображения"</b></font>", чтобы выбрать, какие контакты будут видны; "\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Новый контакт"</b></font>", чтобы создать контакт \"с нуля\";"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Импорт/Экспорт."</b></font>\n</li></string>
+    <string name="noFavoritesHelpText">"У вас нет избранных контактов."\n\n"Чтобы сделать контакт избранным,"\n\n"        "<li>"нажмите вкладку "<b>"Контакты"</b>";"\n</li>" "\n<li>"нажмите контакт, который нужно сделать избранным;"\n</li>" "\n<li>"нажмите звездочку возле имени контакта."\n</li></string>
+    <string name="seclectSyncGroups_title">Выбрать группы для синхронизации</string>
+    <string name="liveFolder_all_label">"Все контакты"</string>
+    <string name="liveFolder_favorites_label">"Помеченные"</string>
+    <string name="liveFolder_phones_label">"Телефоны"</string>
+    <string name="dialer_useDtmfDialpad">"Использовать тональный набор"</string>
+    <string name="dialer_returnToInCallScreen">"Вернуться к ожидающему вызову"</string>
+    <string name="dialer_addAnotherCall">"+ вызов"</string>
+    <string name="callDetailTitle">"Сведения о вызове"</string>
+    <string name="toast_call_detail_error">"Не удается получить сведения о вызове."</string>
+    <string name="call_type">Тип</string>
+    <string name="type_incoming">"Входящий вызов"</string>
+    <string name="type_outgoing">"Исходящий вызов"</string>
+    <string name="type_missed">"Пропущенный вызов"</string>
+    <string name="call_time">Время</string>
+    <string name="datetime_relative">"<xliff:g id="datetime" example="Dec 31, 2007, 11:00 am">%1$s</xliff:g> (<xliff:g id="relative" example="4 hours ago">%2$s</xliff:g>)"</string>
+    <string name="call_duration">Длительность</string>
+    <string name="header_actions">Действия</string>
+    <string name="ringtone_spinner">"Рингтон: <xliff:g id="ringtone" example="Caribbean Ice">%1$s</xliff:g>"</string>
+    <string name="add_more_items">Добавить больше объектов</string>
+    <string name="actionCall">Звонок <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionEmail">Электронная почта <xliff:g id="type" example="home">%s</xliff:g></string>
+    <string name="actionText">Текст <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionChat">Использование чата <xliff:g id="type" example="Google Talk">%s</xliff:g></string>
+    <string name="actionMap">Просмотр <xliff:g id="type" example="home">%s</xliff:g> адреса</string>
+    <string name="actionIncomingCall">"Входящие вызовы"</string>
+    <string name="detailIncomingCallsGoToVoicemail">Будет отправлено напрямую на голосовую почту</string>
+    <string name="detailsRingtone">Установить в <xliff:g id="ringtone_name" example="Flutey Phone">%s</xliff:g></string>
+    <string name="callBack">"Перезвонить"</string>
+    <string name="callAgain">"Позвонить снова"</string>
+    <string name="returnCall">"Перезвонить"</string>
+    <string name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%1$s</xliff:g>:<xliff:g id="SECONDS">%2$s</xliff:g>"</string>
+    <string name="favoritesFrquentSeparator">"Часто набираемые"</string>
+    <string name="add_contact_dlg_title">"Добавить контакт"</string>
+    <string name="add_contact_dlg_message_fmt">"Добавить в контакты <xliff:g id="EMAIL">%s</xliff:g>?"</string>
+    <string name="all_tab_label">"Все"</string>
+    <string name="description_image_button_one">"один"</string>
+    <string name="description_image_button_two">"два"</string>
+    <string name="description_image_button_three">"три"</string>
+    <string name="description_image_button_four">"четыре"</string>
+    <string name="description_image_button_five">"пять"</string>
+    <string name="description_image_button_six">"шесть"</string>
+    <string name="description_image_button_seven">"семь"</string>
+    <string name="description_image_button_eight">"восемь"</string>
+    <string name="description_image_button_nine">"девять"</string>
+    <string name="description_image_button_star">"пометить"</string>
+    <string name="description_image_button_zero">"нуль"</string>
+    <string name="description_image_button_pound">"решетка"</string>
+    <string name="description_voicemail_button">"голосовая почта"</string>
+    <string name="description_dial_button">"набор номера"</string>
+    <string name="description_delete_button">"удаление последнего символа"</string>
+    <string name="description_digits_edittext">"набираемый номер"</string>
+    <string name="description_contact_photo">"фотография контакта"</string>
+    <string name="description_minus_button">"минус"</string>
+    <string name="description_plus_button">"плюс"</string>
+    <string name="no_sdcard_title" product="nosdcard">"USB-накопитель недоступен"</string>
+    <string name="no_sdcard_title" product="default">"Нет SD-карты"</string>
+    <string name="no_sdcard_message" product="nosdcard">"USB-накопитель не найден"</string>
+    <string name="no_sdcard_message" product="default">"SD-карта не обнаружена"</string>
+    <string name="searching_vcard_title">"Поиск vCard"</string>
+    <string name="select_import_type_title">Откуда Вы хотите импортировать Ваши контакты?</string>
+    <string name="import_from_sim">"Импортировать с SIM-карты"</string>
+    <string name="import_from_sim1">Импортировать с SIM1</string>
+    <string name="import_from_sim2">Импортировать с SIM2</string>
+    <string name="import_from_sdcard" product="nosdcard">"Импорт с USB-накопителя"</string>
+    <string name="import_from_sdcard" product="default">"Импортировать с SD-карты"</string>
+    <string name="export_to_sdcard" product="nosdcard">"Экспорт на USB-накопитель"</string>
+    <string name="export_to_sdcard" product="default">"Экспортировать на SD-карту"</string>
+    <string name="share_visible_contacts">"Передать видимые контакты"</string>
+    <string name="import_one_vcard_string">"Импорт одного файла VCard"</string>
+    <string name="import_multiple_vcard_string">"Импорт нескольких файлов vCard"</string>
+    <string name="import_all_vcard_string">"Импорт всех файлов VCard"</string>
+    <string name="searching_vcard_message" product="nosdcard">"Поиск данных vCard на USB-накопителе"</string>
+    <string name="searching_vcard_message" product="default">"Поиск данных vCard на SD-карте"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard">"Не удалось просканировать USB-накопитель"</string>
+    <string name="scanning_sdcard_failed_title" product="default">"Не удалось сканировать SD-карту."</string>
+    <string name="scanning_sdcard_failed_message" product="nosdcard">"Не удалось просканировать USB-накопитель (<xliff:g id="FAIL_REASON">%s</xliff:g>)"</string>
+    <string name="scanning_sdcard_failed_message" product="default">"Не удалось просканировать SD-карту (причина: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\")"</string>
+    <string name="fail_reason_io_error">"Ошибка ввода-вывода"</string>
+    <string name="fail_reason_vcard_parse_error">"Не удалось обработать vCard по неизвестной причине."</string>
+    <string name="fail_reason_vcard_not_supported_error">"Не удалось обработать vCard. Файл правильного формата, но не поддерживается в текущей реализации."</string>
+    <string name="fail_reason_no_vcard_file" product="nosdcard">"На USB-накопителе отсутствуют файлы vCard"</string>
+    <string name="fail_reason_no_vcard_file" product="default">"На SD-карте не найдены файлы VCard"</string>
+    <string name="fail_reason_no_vcard_entry">Не найдено ни одного доступного vCard входа для Вашего выбра</string>
+    <string name="fail_reason_failed_to_read_files">"Не удалось импортировать один или несколько файлов (%s)."</string>
+    <string name="fail_reason_unknown">"Неизвестная ошибка"</string>
+    <string name="select_vcard_title">"Выберите файл vCard"</string>
+    <string name="select_vcard_message">Пожалуйста, выберите vCard для импортировки</string>
+    <string name="progress_shower_message">"<xliff:g id="ACTION">%1$s</xliff:g>"\n"<xliff:g id="FILENAME">%2$s</xliff:g>"</string>
+    <string name="reading_vcard_title">"Чтение vCard"</string>
+    <string name="reading_vcard_message">"Чтение файлов VCard"</string>
+    <string name="importing_vcard_message">Импортировка vCard данных</string>
+    <string name="reading_vcard_failed_title">"Не удается считать данные vCard"</string>
+    <string name="reading_vcard_failed_message">Не может прочитать vCard.\nПричина ошибки: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    <string name="reading_vcard_contacts">"Контакт <xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> из <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g>"</string>
+    <string name="reading_vcard_files">"Файл <xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> из <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g>"</string>
+    <string name="export_all_contacts">Все контакты</string>
+    <string name="export_phone_local_only">Локально сохраненные контакты</string>
+    <string name="export_contact_list">Экспортировать контакты</string>
+    <string name="confirm_export_title">"Подтверждение·экспорта"</string>
+    <string name="confirm_export_message">"Вы действительно хотите экспортировать контакты в файл <xliff:g id="VCARD_FILENAME">%s</xliff:g>?"</string>
+    <string name="exporting_contact_failed_title">"Не удалось экспортировать данные контакта."</string>
+    <string name="exporting_contact_failed_message">"Не удалось экспортировать данные контакта."\n"Причина: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_no_exportable_contact">"Нет контактов, которые можно экспортировать."</string>
+    <string name="fail_reason_too_many_vcard" product="nosdcard">"Слишком много файлов vCard на USB-накопителе"</string>
+    <string name="fail_reason_too_many_vcard" product="default">"Слишком много файлов VCard на SD-карте."</string>
+    <string name="fail_reason_too_long_filename">"Название файла слишком длинное (<xliff:g id="FILENAME">%s</xliff:g>)."</string>
+    <string name="fail_reason_cannot_open_destination_dir">Невозможно открыть или создать каталог дестинации\"<xliff:g id="dir_name">%s</xliff:g>\"</string>
+    <string name="exporting_contact_list_title">"Экспорт данных контакта"</string>
+    <string name="exporting_contact_list_message">"Экспорт данных контакта в \"<xliff:g id="FILE_NAME">%s</xliff:g>\""</string>
+    <string name="fail_reason_could_not_initialize_exporter">"Не удается запустить функцию экспорта: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_error_occurred_during_export">"Ошибка при экспорте: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="composer_failed_to_get_database_infomation">"Не удалось получить информацию из базы данных."</string>
+    <string name="composer_has_no_exportable_contact">"Нет контактов для экспорта. Если в вашем телефоне имеются контакты, возможно они защищены от экспорта оператором услуг."</string>
+    <string name="composer_not_initialized">"Редактор vCard запущен некорректно"</string>
+    <string name="fail_reason_could_not_open_file">"Не удается открыть \"<xliff:g id="FILE_NAME">%1$s</xliff:g>\": <xliff:g id="EXACT_REASON">%2$s</xliff:g>"</string>
+    <string name="exporting_contact_list_progress">"Контакт <xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> из <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g>"</string>
+    <string name="search_settings_description">"Имена контактов"</string>
+    <string name="add_2sec_pause">"Добавить двухсекундную паузу"</string>
+    <string name="add_wait">"Добавить паузу"</string>
+    <string name="dial_button_label">Набрать</string>
+    <string name="call_disambig_title">"Вызов"</string>
+    <string name="sms_disambig_title">"Отправить SMS с помощью"</string>
+    <string name="make_primary">"Запомнить выбранное"</string>
+    <string name="quickcontact_missing_app">"Отсутствует приложение для обработки этого действия"</string>
+    <string name="quickcontact_remember_choice">"Запомнить выбранное"</string>
+    <string name="quickcontact_missing_name">"Неизвестно"</string>
+    <string name="menu_accounts">"Аккаунты"</string>
+    <string name="menu_import_export">"Импорт/Экспорт"</string>
+    <string name="dialog_import_export">"Импорт и экспорт контактов"</string>
+    <string name="menu_share">"Отправить"</string>
+    <string name="share_via">"Способ отправки"</string>
+    <string name="share_error">"Этот контакт нельзя отправить."</string>
+    <string name="nameLabelsGroup">"Имя"</string>
+    <string name="nicknameLabelsGroup">"Псевдоним"</string>
+    <string name="organizationLabelsGroup">"Организация"</string>
+    <string name="websiteLabelsGroup">"Веб-сайт"</string>
+    <string name="eventLabelsGroup">"Мероприятие"</string>
+    <string name="type_short_home">"Д"</string>
+    <string name="type_short_mobile">"М"</string>
+    <string name="type_short_work">"Р"</string>
+    <string name="type_short_pager">"П"</string>
+    <string name="type_short_other">"Др"</string>
+    <string name="edit_read_only">"Этот контакт только для чтения"</string>
+    <string name="edit_secondary_collapse">"Дополнительно"</string>
+    <string name="dialog_primary_name">"Основное имя"</string>
+    <string name="dialog_new_contact_account">"Создать контакт в аккаунте"</string>
+    <string name="menu_sync_remove">"Удалить группу синхронизации"</string>
+    <string name="dialog_sync_add">"Добавить группу синхронизации"</string>
+    <string name="display_more_groups">"Другие группы..."</string>
+    <string name="display_ungrouped">"Остальные контакты"</string>
+    <string name="display_all_contacts">"Все контакты"</string>
+    <string name="display_warn_remove_ungrouped">"Удаление группы \"<xliff:g id="GROUP">%s</xliff:g>\" из синхронизации приведет к удалению любых несгруппированных контактов из синхронизации."</string>
+    <string name="label_email_display_name">Показать имя</string>
+    <string name="account_phone">"Только телефон, без синхронизации"</string>
+    <string name="call_custom">"Позвонить (<xliff:g id="CUSTOM">%s</xliff:g>)"</string>
+    <string name="call_home">"Домашний тел."</string>
+    <string name="call_mobile">"Мобильный тел."</string>
+    <string name="call_work">"Рабочий тел."</string>
+    <string name="call_fax_work">"Рабочий факс"</string>
+    <string name="call_fax_home">"Домашний факс"</string>
+    <string name="call_pager">"Пейджер"</string>
+    <string name="call_other">"Позвонить"</string>
+    <string name="call_callback">"Обратный вызов"</string>
+    <string name="call_car">"Тел. в машине"</string>
+    <string name="call_company_main">"Офис"</string>
+    <string name="call_isdn">"Номер ISDN"</string>
+    <string name="call_main">"Основной телефон"</string>
+    <string name="call_other_fax">"Позвонить на номер факса"</string>
+    <string name="call_radio">"Радиотелефон"</string>
+    <string name="call_telex">"Телекс"</string>
+    <string name="call_tty_tdd">"Телетайп"</string>
+    <string name="call_work_mobile">"Рабочий мобильный"</string>
+    <string name="call_work_pager">"Рабочий пейджер"</string>
+    <string name="call_assistant">"Вызов: <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="call_mms">"MMS-центр"</string>
+    <string name="sms_custom">"SMS (<xliff:g id="CUSTOM">%s</xliff:g>)"</string>
+    <string name="sms_home">"SMS:домашний тел."</string>
+    <string name="sms_mobile">"SMS: мобильный"</string>
+    <string name="sms_work">"SMS:рабочий тел."</string>
+    <string name="sms_fax_work">"SMS:рабочий факс"</string>
+    <string name="sms_fax_home">"SMS: дом. факс"</string>
+    <string name="sms_pager">"SMS: пейджер"</string>
+    <string name="sms_other">"Отправить SMS"</string>
+    <string name="sms_callback">"SMS: номер обратного вызова"</string>
+    <string name="sms_car">"SMS:тел. в машине"</string>
+    <string name="sms_company_main">"SMS: тел. офиса"</string>
+    <string name="sms_isdn">"SMS: номер ISDN"</string>
+    <string name="sms_main">"SMS:основ. тел."</string>
+    <string name="sms_other_fax">"Отправить SMS·на номер факса"</string>
+    <string name="sms_radio">"SMS:радиотелефон"</string>
+    <string name="sms_telex">"SMS: телекс"</string>
+    <string name="sms_tty_tdd">"SMS: телетайп"</string>
+    <string name="sms_work_mobile">"SMS:рабочий моб."</string>
+    <string name="sms_work_pager">"SMS:рабоч. пейдж."</string>
+    <string name="sms_assistant">"Отправить текстовое сообщение на номер <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="sms_mms">"MMS"</string>
+    <string name="email_home">"Личная эл. почта"</string>
+    <string name="email_mobile">"Моб. эл. почта"</string>
+    <string name="email_work">"Рабочая эл.почта"</string>
+    <string name="email_other">"Написать письмо"</string>
+    <string name="email_custom">"Эл. почта (<xliff:g id="CUSTOM">%s</xliff:g>)"</string>
+    <string name="email">"Эл. почта"</string>
+    <string name="map_home">"Просмотреть домашний адрес"</string>
+    <string name="map_work">"Просмотреть рабочий адрес"</string>
+    <string name="map_other">"Просмотр адреса"</string>
+    <string name="map_custom">"Просмотр адреса: <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="chat_aim">"Чат через AIM"</string>
+    <string name="chat_msn">"Чат через Windows Live"</string>
+    <string name="chat_yahoo">"Чат через Yahoo"</string>
+    <string name="chat_skype">"Чат через Skype"</string>
+    <string name="chat_qq">"Чат через QQ"</string>
+    <string name="chat_gtalk">"Чат через Google Talk"</string>
+    <string name="chat_icq">"Чат через ICQ"</string>
+    <string name="chat_jabber">"Чат через Jabber"</string>
+    <string name="chat_other">"чат с использованием других инструментов"</string>
+    <string name="chat">"Чат"</string>
+    <string name="postal_street">"Улица"</string>
+    <string name="postal_pobox">"Почтовый ящик"</string>
+    <string name="postal_neighborhood">"Окружение"</string>
+    <string name="postal_city">"Город"</string>
+    <string name="postal_region">"Регион"</string>
+    <string name="postal_postcode">"Почтовый индекс"</string>
+    <string name="postal_country">"Страна"</string>
+    <string name="name_given">"Имя"</string>
+    <string name="name_family">"Фамилия"</string>
+    <string name="name_prefix">"Форма обращения"</string>
+    <string name="name_middle">"Отчество"</string>
+    <string name="name_suffix">"Звание/титул"</string>
+    <string name="name_phonetic_given">"Имя (транскрипция)"</string>
+    <string name="name_phonetic_middle">"Отчество (транскрипция)"</string>
+    <string name="name_phonetic_family">"Фамилия (транскрипция)"</string>
+    <string name="split_label">Разделить</string>
+    <string name="split_explanation">Создать для этих данных свой контакт.</string>
+    <string name="account_name_format">Из <xliff:g id="source" example="Gmail">%1$s</xliff:g> аккаунт: <xliff:g id="account" example="user@gmail.com">%2$s</xliff:g></string>
+    <string name="account_type_format">"Контакт <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="from_account_format">"из <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="use_photo_as_primary">"Использовать эту фотографию"</string>
+    <string name="contact_read_only">"Невозможно изменить контактную информацию <xliff:g id="SOURCE">%1$s</xliff:g> на этом устройстве."</string>
+    <string name="no_contact_details">"Отсутствует дополнительная информация об этом контакте."</string>
+    <string name="display_options_sort_list_by">"Упорядочить контакты"</string>
+    <string name="display_options_sort_by_given_name">"По имени"</string>
+    <string name="display_options_sort_by_family_name">"По фамилии"</string>
+    <string name="display_options_view_names_as">"Показывать в контактах"</string>
+    <string name="display_options_view_given_name_first">"Сначала имя"</string>
+    <string name="display_options_view_family_name_first">"Сначала фамилию"</string>
+    <string name="search_bar_hint">"Поиск контактов"</string>
+    <string name="search_for_all_contacts">"Поиск всех контактов"</string>
+    <string name="take_photo">"Сфотографировать"</string>
+    <string name="pick_photo">"Выбрать фото из галереи"</string>
+    <string name="locale_change_in_progress">"Выполняется обновление списка контактов, чтобы изменение языка вступило в силу."\n\n"Подождите..."</string>
+    <string name="upgrade_in_progress">"Обновляется список контактов."\n\n"Подождите..."</string>
+    <string name="upgrade_out_of_memory">"Контакты обновляются. "\n\n" Для обновления требуется около <xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> МБ внутренней памяти телефона."\n\n"Выберите один из следующих вариантов:"</string>
+    <string name="upgrade_out_of_memory_uninstall">"Удалить некоторые приложения"</string>
+    <string name="upgrade_out_of_memory_retry">"Повторить попытку обновления"</string>
+    <string name="search_results_for">"Результаты поиска для: <xliff:g id="QUERY">%s</xliff:g>"</string>
+    <string name="search_results_searching">"Поиск..."</string>
+    <string name="dialer_call_switch">Голосовой звонок/ видео звонок</string>
+    <string name="menu_voicecall">Голосовой звонок</string>
+    <string name="menu_videocall">Видео звонок</string>
+    <string name="select_all">выбрать все</string>
+    <string name="select_contacts">выбрать контакты</string>
+    <string name="delete_contacts">удалить контакты</string>
+    <string name="export_contacts">экспортировать контакты</string>
+    <string name="import_contacts">импортировать контакты</string>
+    <string name="add_contacts_to_group">добавить контакты в группу</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">"Отмена"</string>
+    <string name="contact_tag">Имя</string>
+    <string name="inputting__name_sim_contacts">Примечание: максимальная длина 14 символов (если содержит символы или строку символов, максимальная длина составляет шесть символов), превышаемая длина будет отрезана.</string>
+    <string name="inputting_number_sim_contacts">Примечание: максимальная длина 20 символов (разрешены только 0-9 +, * символы).</string>
+    <string name="setting_digits">1234567890+*#,;</string>
+    <string name="menu_contacts_group">Группа контактов</string>
+    <string name="menu_delete">Удаление контактов</string>
+    <string name="on_progress">В процессе ... пожалуйста, подождите.</string>
+    <string name="deleting_contacts">Удаление контактов, пожалуйста, подождите.</string>
+    <string name="importing_contacts">Импортировка контактов, пожалуйста, подождите.</string>
+    <string name="exporting_contacts">Экспортировка контактов, пожалуйста, подождите.</string>
+    <string name="adding_contacts_to_group">Добавление контактов в группу, пожалуйста, подождите.</string>
+    <string name="confirm">подтвердить?</string>
+    <string name="export_to_sim">Экспортированть в SIM-катру</string>
+    <string name="export_to_sim1">Экспортировать в SIM1</string>
+    <string name="export_to_sim2">Экспортировать в SIM2</string>
+    <string name="group_all">Все контакты</string>
+    <string name="group_phone">Телефонные контакты</string>
+    <string name="group_sim">Контакты Sim карты</string>
+    <string name="group_sim1">"контакты Sim1 карты"</string>
+    <string name="group_sim2">"контакты Sim2 карты"</string>
+    <string name="view_simContact">Просмотреть контакты Sim</string>
+    <string name="edit_simContact">Редактировать контакты Sim</string>
+    <string name="insert_simContact">Добавить контакты Sim</string>
+    <string name="select_contacts_group">Выбрать группу контактов</string>
+    <string name="select_contacts_group_to_add">Выбрать группу для добавления нового контакта</string>
+    <string name="sim_card">Sim карта</string>
+    <string name="sim_card1">"Sim1 карта"</string>
+    <string name="sim_card2">"Sim2 карта"</string>
+    <string name="phone">Телефон</string>
+    <string name="toast_simcontact_no_name">Нет имени</string>
+    <string name="toast_simcontact_no_phone_number">Нет номера телефона</string>
+    <string name="dial_number">Набрать</string>
+    <string name="send_message">Сообщение</string>
+    <string name="account_sim">Только SIM</string>
+    <string name="account_sim1">"только SIM1"</string>
+    <string name="account_sim2">"только SIM2"</string>
+    <string name="sim1_no_ready">"Sim1 карта не готова"</string>
+    <string name="sim2_no_ready">"Sim2 карта не готова"</string>
+    <string name="sim_no_ready">"Sim карта не готова"</string>
+    <string name="noContactsWithSimNumbers">"Нет контактов на SIM карте"</string>
+    <string name="no_match_people">Не найдено совпадающих контактов.</string>
+    <string name="dialpad_colon">:</string>
+    <string name="progress_dialog_title">Импортировка контактов Sim.</string>
+    <string name="sim_is_initializing">Инициализация Sim карты.</string>
+    <string name="toast_sim_overflow">Sim карта заполнена</string>
+    <string name="toast_simcontact_input_overflow">Переполнение контактной информации ввода</string>
+    <string name="toast_no_map_apk">Нет приложения карты</string>
+    <string name="toast_name_number_both_empty">Имя и номер телефона не могут быть оба пустыми</string>
+    <string name="import_to_phone">Импортировать в телефон</string>
+    <string name="recentCalls_addToCallFireWall">Добавить в CallFireWall</string>
+    <string name="contactslist_menu_addto_firewall">Добавить в CallFireWall</string>
+    <string name="contactslist_menu_addto_firewall_null">Номер контакта пуст, пожалуйста, выберите добавление других контактов</string>
+    <string name="videocall_string">Видео</string>
+    <string name="export_contacts_to_sdcard">"экспортировать контакты на sd карту"</string>
+    <string name="recentCalls_delete_toest">"Пожалуйста, выберите удаление объектов"</string>
+    <string name="sendType_MMS">"Эта информация будет отправлена MMS"</string>
+    <string name="sendType_SMS">"Эта информация будет отправлена SMS"</string>
+    <string name="service_is_busy">"Сервис синхронизации занят, некоторые функции недоступны"</string>
+    <string name="label_success">"Успешно"</string>
+    <string name="label_fail">"Ошибка"</string>
+    <string name="group_manager">"Группа контакта"</string>
+    <string name="group_manager_delete">"Группер контактов - удалить"</string>
+    <string name="empty">"Пустая группа, пожалуйста, войдите в меню, чтобы добавить"</string>
+    <string name="noGroupInfo">"нет группы для операции"</string>
+    <string name="conatcts_name">"имя"</string>
+    <string name="phone_number">"телефон"</string>
+    <string name="phone1">"телефон1"</string>
+    <string name="phone2">"телефон2"</string>
+    <string name="phone3">"телефон3"</string>
+    <string name="phone4">"телефон4"</string>
+    <string name="nickname">"псевдоним"</string>
+    <string name="concacts_email">"электронная почта"</string>
+    <string name="ghostData_phone1">"Номер телефона1"</string>
+    <string name="ghostData_phone2">"Номер телефона2"</string>
+    <string name="ghostData_phone3">"Номер телефона3"</string>
+    <string name="ghostData_phone4">"Номер телефона4"</string>
+    <string name="ghostData_nickname">"Псевдоним"</string>
+    <string name="ghostData_concatct_email">"электронная почта"</string>
+    <string name="contacts_is_null">"Войти в контактную информацию"</string>
+    <string name="export_sim_success">"Экспортировка SIM прошла успешно"</string>
+    <string name="export_sim_fail">"Ошибка экспортировки SIM"</string>
+    <string name="export_sim1_success">"Экспортировка SIM1 прошла успешно"</string>
+    <string name="export_sim1_fail">"Ошибка экспортировки SIM1"</string>
+    <string name="export_sim2_success">"Экспортировка SIM2 прошла успешно"</string>
+    <string name="export_sim2_fail">"Ошибка экспортировки SIM2"</string>
+    <string name="add_to_group_success">"Добавление группы прошло успешно"</string>
+    <string name="add_to_group_fail">"Ошибка добавления группы"</string>
+    <string name="import_to_phone_success">"Импортировка телефона прошла успешно"</string>
+    <string name="import_to_phone_fail">"Ошибка импортировки телефона"</string>
+    <string name="delete_phone_success">"Удаление прошло успешно"</string>
+    <string name="delete_phone_fail">"Ошибка удаления"</string>
+    <string name="delete_sim_success">"Удаление прошло успешно"</string>
+    <string name="delete_sim_fail">"Ошибка удаления"</string>
+    <string name="recentCallsAllIconLabel">Все</string>
+    <string name="recentCallsMissedIconLabel">Пропущенные</string>
+    <string name="recentCallsOutgoingIconLabel">Исходящие</string>
+    <string name="recentCallsReceivedIconLabel">Принятые</string>
+    <string name="select_one">Выберите как минимум один объект!</string>
+    <string name="remove_contacts_from_group">Удалить этот контакт из группы</string>
+    <string name="sim_card_name_too_long">Имя Sim карты слишком длинное</string>
+    <string name="group_name_cannot_empty">Имя группы не может быть пустым</string>
+    <string name="assistantLabelPickerTitle">Имя ярлыка ассистента</string>
+    <string name="share_by_sms">Отправить контакт SMS</string>
+    <string name="share_by_mms">Отправить контакт MMS</string>
+    <string name="share_by_bluetooth">Отправить контакт BlueTooth</string>
+    <string name="share_by_email">Отправить контакт электронной почтой</string>
+    <string name="chat_custom">"Использование чата <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="deleting">"Удаление, пожалуйста, попробуйте снова"</string>
+    <string name="import_aborted">"импортировка прервана"</string>
+    <string name="exprot_fail">"Ошибка экспортировки, на устройстве не осталось места"</string>
+    <string name="exprot_fail_only_email">"Контакты только электронной почтой, невозможно экспортировать на SIM"</string>
+    <string name="contacts_information_is_replace">"Контактная информация заменена"</string>
+    <string name="import_sim_too_many">"пользователь импортирует больше, чем может справиться sim карта"</string>
+    <string name="whether_import_from_SD">"Импортировать с SD карты, если это контакт?"</string>
+    <string name="blacklist_add">Добавить в черный список</string>
+    <string name="blacklist">Черный список</string>
+    <string name="blacklist_no_number">Нет номера, Вы не можете добавить.</string>
+    <string name="no_fast_dial">быстрый вызов номера не установлен</string>
+    <string name="fast_dial_choose">пожалуйста, выберите тип быстрого вызова</string>
+    <string name="fast_call">голосовой звонок</string>
+    <string name="fast_vt_call">видео_звонок</string>
+    <string name="save_contact_faliue">Ошибка сохранения</string>
+    <string name="add_contact_success">добавление контакта прошло успешно</string>
+    <string name="group_name">имя группы</string>
+    <string name="contactsSIMIconLabel">SIM</string>
+    <string name="contactsPhoneIconLabel">Телефон</string>
+    <string name="sim_notready_cant_not_save">SIM-карта не готова, нельзя сохранить контакт в SIM-карту</string>
+    <string name="cant_not_save_email">"E-mail не может быть сохранен на SIM-карте."</string>
+    <string name="fdn_enable_nosetting">"Выбранное действие недоступно при включенном FDN." </string>
+    <string name="menu_removeFrequent">Удалить из многократных</string>
+    <string name="group_name_student">"Студент"</string>
+    <string name="group_name_friend">"Друг"</string>
+    <string name="group_name_family">"Семья"</string>
+    <string name="group_name_colleague">"Коллега"</string>
+    <string name="default_ban_operate">"Запрещенная операция группы по умолчанию"</string>
+    <string name="delete_group">Удалить группу</string>
+    <string name="remove_frequent_contacts">"Удалить частые контакты"</string>
+    <string name="removing_frequent_contacts">"Удаление частых контактов, пожалуйста, подождите."</string>
+    <string name="remove_collection_contacts">"Удалить коллекционные контакты"</string>
+    <string name="removing_collection_contacts">"Удаление коллекционных контактов, пожалуйста, подождите."</string>
+    <string name="get_sim_count_fail">sim карта не готова или не вставлена</string>
+    <string name="emergency_call">Экстренный вызов</string>
+    <string name="dial_emergency_error">"Вызов не осуществляется, <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> не является номером экстренного вызова!"</string>
+    <string name="dial_emergency_empty_error">Вызов не осуществлен, наберите экстренный номер!</string>
+    <string name="label_birthday">день рождения</string>
+</resources>

@@ -1,0 +1,490 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Pesanan</string>
+    <string name="new_message">"Mesej baru"</string>
+    <string name="cdma_cell_broadcast_sms">SMS siaran sel</string>
+    <string name="cell_broadcast_sms">SMS siaran sel</string>
+    <string name="enable_disable_cell_bc_sms">SMS siaran sel</string>
+    <string name="cell_bc_sms_enable">SMS siaran sel didayakan</string>
+    <string name="cell_bc_sms_disable">SMS siaran sel dilumpuhkan</string>
+    <string name="cb_sms_settings">Tetapan SMS siaran sel</string>
+    <string name="channel_name">Nama saluran</string>
+    <string name="channel_number">Nombor saluran</string>
+    <string name="no_cell_broadcast">Tiada mesej siaran sel</string>
+    <string name="broadcast">SMS siaran sel</string>
+    <string name="menu_cellbroadcastsms">Siaran sel</string>
+    <string name="list_language_title">Tetapan Bahasa</string>
+    <string name="list_language_summary">Pilih bahasa berita</string>
+    <string name="broadcast_message">Mesej</string>
+    <string name="language_eng">Bahasa Inggeris</string>
+    <string name="language_fren">Bahasa Perancis</string>
+    <string name="language_spanish">Bahasa Sepanyol</string>
+    <string name="language_japanese">Bahasa Jepun</string>
+    <string name="language_korean">Bahasa Korea</string>
+    <string name="language_chinese">Bahasa Cina </string>
+    <string name="language_hebrew">Bahasa Ibrani</string>
+    <string name="language_type">Jenis bahasa:</string>
+    <string-array name="list_language_entries">
+        <item>Inggeris</item>
+        <item>Bhs Perancis</item>
+        <item>Bhs Sepanyol</item>
+        <item>Bahasa Jepun</item>
+        <item>Korea</item>
+        <item>Bahasa Cina </item>
+        <item>Bhs Ibrani</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">Bahasa</string>
+    <string name="create_new_message">Karang mesej baru</string>
+    <string name="menu_call_back">"Panggil <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_videocall_back">Panggilan video <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_send_email">"Hantar e-mel kepada <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_send_sms">Hantar mesek kepada <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_compose_new">"Karang"</string>
+    <string name="menu_preferences">Tetapan</string>
+    <string name="menu_add_address_to_contacts">"Tambahkan <xliff:g id="CONTACTEMAILORNUMBER">%s</xliff:g> pada Orang"</string>
+    <string name="menu_call">Panggil</string>
+    <string name="menu_videocall">Panggilan Video</string>
+    <string name="menu_delete_all">"Hapuskan semua urutan"</string>
+    <string name="menu_delete">"Padam urutan"</string>
+    <string name="menu_undelivered_messages">Mesej tidak dihantar</string>
+    <string name="menu_view">"Lihat urutan"</string>
+    <string name="refreshing">"Memuatkan semula..."</string>
+    <string name="has_draft">"Draf"</string>
+    <string name="broadcast_from_to"><xliff:g id="sender" example="me">%1$s</xliff:g> kepada <xliff:g id="recipient" example="Megan">%2$s</xliff:g></string>
+    <string name="anonymous_recipient">Tidak bernama</string>
+    <string name="no_subject_view">"(Tiada subjek)"</string>
+    <string name="messagelist_sender_self">"Saya"</string>
+    <string name="view_picture">"Lihat gambar"</string>
+    <string name="view_slideshow">"Tonton tayangan slaid"</string>
+    <string name="view_message_details">"Lihat butiran"</string>
+    <string name="view_delivery_report">"Lihat laporan"</string>
+    <string name="delete_message">"Hapuskan mesej"</string>
+    <string name="sent_on">"Dihantar: <xliff:g id="date">%s</xliff:g>"</string>
+    <string name="receive_on">"Diterima: <xliff:g id="date">%s</xliff:g>"</string>
+    <string name="expire_on">"Tamat tempoh: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="kilobyte">KB</string>
+    <string name="undelivered_msg_dialog_title">"Mesej tidak diserahkan"</string>
+    <string name="undelivered_msg_dialog_body">"Tidak dapat menghantar mesej ini "\n"Percubaan dibuat: <xliff:g id="MESSAGE">%s</xliff:g>."</string>
+    <string name="undelivered_sms_dialog_body">"Tidak dapat menghantar mesej ini."</string>
+    <string name="delete_thread">"Padam urutan"</string>
+    <string name="menu_forward">"Kirim semula"</string>
+    <string name="download">"Muat turun"</string>
+    <string name="downloading">Memuat turun</string>
+    <string name="name_colon"><b><xliff:g id="name" example="Me">%s</xliff:g></b>": "</string>
+    <string name="inline_subject">"&lt;Subjek: <xliff:g id="SUBJECT">%s</xliff:g>&gt;"</string>
+    <string name="drm_protected_text">"* Teks dilindungi DRM *"</string>
+    <string name="insufficient_drm_rights">"Hak DRM yang tidak mencukupi dikesan."</string>
+    <string name="copy_message_text">"Salin teks"</string>
+    <string name="message_options">"Pilihan mesej"</string>
+    <string name="move_message_to_sim_text">Salin ke SIM</string>
+    <string name="copy_message_result_success">Salin berjaya</string>
+    <string name="copy_message_result_faile">Salin gagal</string>
+    <string name="done">"Selesai"</string>
+    <string name="move_up">"Beralih ke atas"</string>
+    <string name="move_down">Bergerak ke bawah</string>
+    <string name="remove_slide">"Alih keluar slaid"</string>
+    <string name="add_slide_before" msgid="9140721399423564187">“Tambah slaid, sebelum”</string>
+    <string name="add_slide">"Tambah slaid"</string>
+    <string name="add_slide_hint">"Sentuh untuk mencipta slaid baru."</string>
+    <string name="discard_slideshow">"Buang tayangan slaid"</string>
+    <string name="slide_show_part">"Bahagian <xliff:g id="PART">%1$s</xliff:g>/<xliff:g id="TOTAL">%2$s</xliff:g>"</string>
+    <string name="remove_text">"Alih keluar teks"</string>
+    <string name="add_picture">"Tambah gambar"</string>
+    <string name="remove_picture">"Alih keluar gambar"</string>
+    <string name="add_music">Tmbh muzik</string>
+    <string name="remove_music">"Alih keluar muzik"</string>
+    <string name="add_video">Tmbh video</string>
+    <string name="remove_video">"Alih keluar video"</string>
+    <string name="compose_title">"Karang"</string>
+    <string name="to_hint">"Kepada"</string>
+    <string name="subject_hint">"Subjek"</string>
+    <string name="add_attachment">Attach</string>
+    <string name="add_subject">"Tambah subjek"</string>
+    <string name="discard">Buang</string>
+    <string name="view">Lihat</string>
+    <string name="replace">Ganti</string>
+    <string name="remove">Alih keluar</string>
+    <string name="send">Hantar</string>
+    <string name="mms">"MMS"</string>
+    <string name="all_threads">"Semua urutan"</string>
+    <string name="type_to_compose_text_enter_to_send">Taip untuk karang</string>
+    <string name="open_keyboard_to_compose_message">"Buka papan kekunci untuk menaip mesej"</string>
+    <string name="image_too_large">Gambar terlalu besar</string>
+    <string name="ask_for_automatically_resize">Saizkan semula gambar secara automatik sebelum menghantar?</string>
+    <string name="compressing">"Gambar terlalu besar. Memampatkan..."</string>
+    <string name="unsupported_media_format">"Format <xliff:g id="NAME">%1$s</xliff:g> tidak disokong."</string>
+    <string name="select_different_media">"Pilih <xliff:g id="NAME">%1$s</xliff:g> yang berbeza ."</string>
+    <string name="exceed_message_size_limitation">"Had saiz mesej dicapai."</string>
+    <string name="exceed_text_length_limitation">Had panjang teks dicapai.</string>
+    <string name="message_too_big_for_video">"Mesej terlalu besar untuk dilampirkan video."</string>
+    <string name="failed_to_add_media">"Anda tidak boleh menambahkan <xliff:g id="NAME">%1$s</xliff:g> ini pada mesej anda."</string>
+    <string name="failed_to_resize_image">"Gambar tidak berubah saiznya."</string>
+    <string name="resize_image_error_information">"Maaf, gambar ini terlalu besar untuk dihantar, walaupun setelah diubah saiz."</string>
+    <string name="forward_prefix">"K.s.: "</string>
+    <string name="discard_message">Buang</string>
+    <string name="discard_message_reason">"Mesej anda akan dibuang kerana ia tidak mengandungi penerima yang sah."</string>
+    <string name="has_invalid_recipient">"Penerima tidak sah: &lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+    <string name="invalid_destination">"Alamat destinasi tidak sah."</string>
+    <string name="invalid_recipient_message">"Sila betulkan penerima atau mereka tidak akan menerima mesej."</string>
+    <string name="cannot_send_message">"Tidak boleh menghantar mesej"</string>
+    <string name="cannot_send_message_reason">"Mesej anda tiada penerima yang sah."</string>
+    <string name="cannot_forward_drm_obj">"Objek DRM yang disertakan dalam mesej tidak boleh dikirim semula."</string>
+    <string name="converting_to_picture_message">"Menukarkan kepada mesej multimedia..."</string>
+    <string name="converting_to_text_message">"Menukarkan kepada mesej teks..."</string>
+    <string name="cannot_add_slide_anymore">"Tidak boleh menambah lagi slaid."</string>
+    <string name="cannot_add_picture_and_video">"Tidak boleh menambahkan video dan gambar pada satu slaid."</string>
+    <string name="cannot_save_message">"Tidak boleh menyimpan mesej."</string>
+    <string name="cannot_load_message">Tidak dapat memuatkan mesej.</string>
+    <string name="message_saved_as_draft">"Mesej disimpan sebagai draf."</string>
+    <string name="locked_message_cannot_be_deleted">Mesej dikunci tidak boleh dihapuskan.</string>
+    <string name="too_many_recipients">"Mesej ini mempunyai terlalu ramai penerima (<xliff:g id="CURRENTCOUNT">%1$s</xliff:g>). Terdapat had <xliff:g id="MAXLIMIT">%2$s</xliff:g> penerima."</string>
+    <string name="too_many_attachments">"Lampiran dihadkan kepada <xliff:g id="MAXLIMIT">%1$s</xliff:g>. Hanya <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> yang pertama sahaja akan ditambahkan."</string>
+    <string name="adding_attachments_title">"Menambah lampiran"</string>
+    <string name="adding_attachments">"Tunggu sementara item ditambahkan pada tayangan slaid."</string>
+    <string name="adding_attachments_vcard">Sila tunggu sementara item ditambah ke lampiran.</string>
+    <string name="multiple_recipients"><xliff:g id="recipientCount">%1$s</xliff:g> penerima</string>
+    <string name="cannot_play_audio">"Tidak boleh memainkan audio."</string>
+    <string name="preview">"Pratonton"</string>
+    <string name="preview_slideshow">"Pratonton"</string>
+    <string name="replace_image">Gantikan gambar</string>
+    <string name="duration_sec">"Tempoh (<xliff:g id="DURATION">%s</xliff:g> saat)"</string>
+    <string name="duration_selector_title">"Tempoh slaid "</string>
+    <string name="layout_selector_title">"Reka letak tayangan slaid "</string>
+    <string name="layout_top">"Reka letak (atas)"</string>
+    <string name="layout_bottom">"Reka letak (bahagian bawah)"</string>
+    <string name="type_to_compose_text_or_leave_blank">"Taip mesej, atau biarkan kosong"</string>
+    <string name="duration_not_a_number">"Tempoh mestilah dalam bentuk nombor."</string>
+    <string name="duration_zero">"Tempoh mestilah lebih besar daripada kosong saat."</string>
+    <string name="secs">"saat"</string>
+    <string-array name="select_dialog_items">
+         <item>"1 saat"</item>
+         <item>"2 saat"</item>
+         <item>3 saat</item>
+         <item>"4 saat"</item>
+         <item>5 saat</item>
+         <item>"6 saat"</item>
+         <item>"7 saat"</item>
+         <item>"8 saat"</item>
+         <item>"9 saat"</item>
+         <item>10 saat</item>
+         <item>"Lain-lain"</item>
+    </string-array>
+    <string name="menu_view_contact">"Papar kenalan"</string>
+    <string name="menu_add_to_contacts">"Tambahkan pada Orang"</string>
+    <string name="hidden_sender_address">"Alamat pengirim tersembunyi"</string>
+    <string name="yes">"OK"</string>
+    <string name="no">Batalkan</string>
+    <string name="set">Tetapkan</string>
+    <string name="play">"Main"</string>
+    <string name="edit">Edit</string>
+    <string name="resize">Saizkan semula</string>
+    <string name="try_to_send">"Cuba menghantar"</string>
+    <string name="preferences_title">"Tetapan"</string>
+    <string name="restore_default">"Pulihkan tetapan lalai"</string>
+    <string name="pref_notification_settings_title">"Tetapan pemberitahuan"</string>
+    <string name="pref_mms_settings_title">"Mesej multimedia (MMS)"</string>
+    <string name="pref_sms_settings_title">"Mesej teks (SMS)"</string>
+    <string name="pref_sms_storage_title">Tetapan penyimpanan</string>
+    <string name="pref_summary_manage_sim_messages">Uruskan mesej disimpan di dalam kad SIM anda</string>
+    <string name="pref_summary_mms_delivery_reports">"Minta laporan penghantaran untuk setiap mesej yang anda hantar"</string>
+    <string name="pref_summary_mms_read_reports">"Minta laporan baca untuk setiap mesej yang anda hantar"</string>
+    <string name="pref_summary_sms_delivery_reports">"Minta laporan penghantaran untuk setiap mesej yang anda hantar"</string>
+    <string name="pref_summary_auto_delete">"Hapuskan mesej lama apabila had dicapai"</string>
+    <string name="pref_summary_delete_limit_sms"><xliff:g id="count">%1$s</xliff:g> mesej setiap perbualan</string>
+    <string name="pref_summary_delete_limit_mms"><xliff:g id="count">%1$s</xliff:g> mesej setiap perbualan</string>
+    <string name="pref_title_manage_sim_messages">Uruskan mesej kad SIM</string>
+    <string name="pref_title_manage_sim_smsc">Pusat Khidmat SMS</string>
+    <string name="pref_title_mms_delivery_reports">"Laporan penghantaran"</string>
+    <string name="pref_title_mms_read_reports">"Laporan baca"</string>
+    <string name="pref_title_sms_delivery_reports">"Laporan penghantaran"</string>
+    <string name="pref_title_sms_save_to_simcard">“SMS disimpan ke kad SIM”</string>
+    <string name="pref_title_auto_delete">"Hapuskan mesej lama"</string>
+    <string name="pref_title_sms_delete">"Had mesej teks"</string>
+    <string name="pref_title_mms_delete">"Had mesej multimedia"</string>
+    <string name="pref_title_notification_enabled">"Pemberitahuan"</string>
+    <string name="pref_summary_notification_enabled">"Memaparkan mesej pemberitahuan dalam bar status"</string>
+    <string name="pref_title_notification_vibrateWhen">Bergetar</string>
+    <string name="pref_summary_notification_vibrateWhen">"Juga bergetar apabila diberitahu"</string>
+    <string name="pref_title_notification_ringtone">Pilih nada dering</string>
+    <string name="pref_forwarding_number_title">“Tetapan pemajuan”</string>
+    <string name="pref_title_forwarding_number">“Nombor pemajuan”</string>
+    <string name="pref_summary_forwarding_number">“Maklumat pemajuan, bersama pemajuan pengirim”</string>
+    <string name="pref_set_sms_text_size_title">“Tetapan fon”</string>
+    <string name="pref_title_set_sms_text_size">“Tetapan saiz fon”</string>
+    <string name="pref_summary_set_sms_text_size">“Tetapkan saiz fon di antara muka baca”</string>
+    <string name="pref_messages_to_save_mms">Tetapkan bilangan mesej untuk disimpan</string>
+    <string name="pref_messages_to_save_sms">Tetapkan bilangan mesej untuk disimpan</string>
+    <string name="sms_init">SMS diasalkan</string>
+    <string name="system_busy">“Sistem sibuk, sila tunggu”</string>
+    <string-array name="prefEntries_vibrateWhen">
+        <!-- Always -->
+        <item>Sentiasa</item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>"Apabila senyap sahaja"</item>
+        <!-- Never -->
+        <item>Tidak sama sekali</item>
+    </string-array>
+    <string name="prefDialogTitle_vibrateWhen">Bergetar</string>
+    <string name="pref_title_mms_auto_retrieval">"Auto dapat kembali"</string>
+    <string name="pref_summary_mms_auto_retrieval">"Dapatkan semula mesej secara automatik"</string>
+    <string name="pref_title_mms_retrieval_during_roaming">"Auto dapat kembali perayauan"</string>
+    <string name="pref_summary_mms_retrieval_during_roaming">"Dapatkan semula mesej secara automatik semasa perayauan"</string>
+    <string name="to_label">"Kepada"</string>
+    <string name="confirm_dialog_title">"Padam"</string>
+    <string name="confirm_dialog_locked_title">"Hapuskan mesej berkunci?"</string>
+    <string name="confirm_delete_conversation">"Keseluruhan urutan akan dipadamkan."</string>
+    <string name="confirm_delete_all_conversations">"Semua urutan akan dipadamkan."</string>
+    <string name="confirm_delete_message">"Mesej akan dipadamkan."</string>
+    <string name="confirm_delete_locked_message">"Padamkan mesej yang dikunci ini?"</string>
+    <string name="confirm_delete_all_messages">"Keseluruhan urutan akan dipadamkan."</string>
+    <string name="confirm_delete_all_SIM_messages">"Semua mesej pada kad SIM akan dipadamkan."</string>
+    <string name="confirm_delete_SIM_message">"Mesej ini pada kad SIM akan dipadamkan."</string>
+    <string name="delete_unlocked">"Hapuskan mesej berkunci"</string>
+    <string name="delete">"Padam"</string>
+    <string name="cannot_get_details">"Tidak boleh mendapatkan butiran."</string>
+    <string name="message_details_title">Butiran mesej</string>
+    <string name="message_type_label">"Jenis: "</string>
+    <string name="text_message">"Mesej teks"</string>
+    <string name="multimedia_message">"Mesej multimedia"</string>
+    <string name="multimedia_notification">"Pemberitahuan mesej multimedia"</string>
+    <string name="from_label">"Daripada: "</string>
+    <string name="to_address_label">"Kepada: "</string>
+    <string name="bcc_label">"Skt: "</string>
+    <string name="sent_label">"Dihantar: "</string>
+    <string name="received_label">"Diterima: "</string>
+    <string name="saved_label">"Disimpan: "</string>
+    <string name="subject_label">"Subjek: "</string>
+    <string name="message_size_label">"Saiz mesej: "</string>
+    <string name="priority_label">"Keutamaan: "</string>
+    <string name="priority_high">Tinggi</string>
+    <string name="priority_normal">Normal</string>
+    <string name="priority_low">Rendah</string>
+    <string name="message_class_label">"Kelas mesej: "</string>
+    <string name="error_code_label">"Kod ralat: "</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_retry_sending">Cuba semula menghantar</string>
+    <string name="menu_retry_sending_all">Cuba semula hantar semua</string>
+    <string name="menu_delete_messages">"Padam mesej"</string>
+    <string name="menu_sim_capacity">Lihat muatan</string>
+    <string name="menu_sim_capacity_used">Digunakan:</string>
+    <string name="menu_sim_capacity_total">Jumlah:</string>
+    <string name="retrying_dialog_body">Mesej ini <xliff:g id="message">%s</xliff:g> tidak dihantar kerana masalah sambungan.\r\nCuba hantar semula\u2026</string>
+    <string name="menu_lock">"Kunci"</string>
+    <string name="menu_unlock">"Buka"</string>
+    <string name="sim_copy_to_phone_memory">Salin ke memori telefon</string>
+    <string name="sim_delete">"Padam"</string>
+    <string name="sim_manage_messages_title">"Mesej teks pada kad SIM1"</string>
+    <string name="sim_manage_messages_title1">Pesanan teks pada SIM1</string>
+    <string name="sim_manage_messages_title2">Pesanan teks pada SIM2</string>
+    <string name="sim_view">Lihat</string>
+    <string name="sim_empty">"Tiada mesej pada kad SIM."</string>
+    <string name="delivery_header_title">"Laporkan"</string>
+    <string name="status_none">"(Tiada)"</string>
+    <string name="status_pending">"Belum selesai"</string>
+    <string name="status_read">Baca</string>
+    <string name="status_received">Diterima</string>
+    <string name="status_failed">Tidak berjaya</string>
+    <string name="status_unread">Belum baca</string>
+    <string name="status_rejected">"Ditolak"</string>
+    <string name="recipient_label">"Penerima: "</string>
+    <string name="status_label">"Status: "</string>
+    <string name="attach_image">Gambar</string>
+    <string name="attach_take_photo">"Tangkap gambar"</string>
+    <string name="attach_video">"Video"</string>
+    <string name="attach_record_video">"Rakam video"</string>
+    <string name="attach_sound">Audio</string>
+    <string name="attach_record_sound">"Rakam audio"</string>
+    <string name="attach_slideshow">"Tayangan slaid"</string>
+    <string name="select_bottom_text">"Teks pada bahagian bawah"</string>
+    <string name="select_top_text">"Teks di bahagian atas"</string>
+    <string name="delivery_toast_body">"Mesej diterima oleh %s."</string>
+    <string name="delivery_toast_body_fail">Mesej tidak diterima %s</string>
+    <string name="read_report_toast_body">Mesej dibaca %s</string>
+    <string name="read_report_toast_body_fail">Mesej tidak dibaca %s</string>
+    <string name="delivery_toast_body_fail_rejected">"Mesej ditolak %s"</string>
+    <string name="notification_multiple">"<xliff:g id="COUNT">%s</xliff:g> mesej belum dibaca."</string>
+    <string name="notification_multiple_title">"Mesej baru"</string>
+    <string name="notification_failed_multiple">"<xliff:g id="COUNT">%s</xliff:g> mesej tidak boleh dihantar"</string>
+    <string name="notification_failed_multiple_title">"Mesej tidak dihantar"</string>
+    <string name="sim_full_title">"Kad SIM penuh"</string>
+    <string name="sim_full_body">"Hapuskan beberapa mesej untuk membuat ruang untuk lebih banyak mesej."</string>
+    <string name="sms_full_title">"Memori mesej teks penuh"</string>
+    <string name="sms_full_body">"Suatu mesej yang masuk telah ditolak kerana memori penuh. Padamkan beberapa mesej lama."</string>
+    <string name="sms_rejected_title">"Mesej teks ditolak"</string>
+    <string name="sms_rejected_body">"Suatu mesej yang masuk telah ditolak kerana sebab yang tidak diketahui."</string>
+    <string name="type_audio">audio</string>
+    <string name="type_picture">"gambar"</string>
+    <string name="type_video">video</string>
+    <string name="type_text">teks</string>
+    <string name="type_vcard">vCard</string>
+    <string name="confirm">Sahkan</string>
+    <string name="message_send_read_report">"Laporan baca akan dihantar."</string>
+    <string name="message_queued">"Tidak boleh menghantar mesej anda pada masa ini. Ia akan dihantar apabila perkhidmatan tersedia."</string>
+    <string name="fdn_check_failure">"Anda hanya boleh menghantar mesej ke nombor dailan tetap anda."</string>
+    <string name="no_subject">"(Tiada subjek)"</string>
+    <string name="unknown_sender">"Pengirim tidak dikenali"</string>
+    <string name="dl_failure_notification">"Tidak dapat memuat turun <xliff:g id="SUBJECT">%1$s</xliff:g> daripada <xliff:g id="FROM">%2$s</xliff:g>."</string>
+    <string name="dl_expired_notification">Mesej ini telah luput dan akan dihapuskan.</string>
+    <string name="rate_limit_surpassed">Sahkan</string>
+    <string name="confirm_rate_limit">"Sejumlah besar mesej multimedia sedang dihantar. Adakah ini OK?"</string>
+    <string name="message_download_failed_title">"Mesej tidak dimuat turun"</string>
+    <string name="message_send_failed_title">"Mesej tidak dihantar"</string>
+    <string name="message_failed_body">"Sentuh untuk menyemak semula mesej dan cuba lagi."</string>
+    <string name="download_later">"Tidak boleh memuat turun sekarang. Cuba lagi kemudian."</string>
+    <string name="select_audio">"Pilih audio"</string>
+    <string name="copy_to_sdcard">"Menyimpan lampiran"</string>
+    <string name="copy_to_sdcard_success">"Lampiran disimpan."</string>
+    <string name="copy_to_sdcard_fail">"Tidak dapat menyimpan lampiran."</string>
+    <string name="save_ringtone">"Simpan sebagai nada dering"</string>
+    <string name="saved_ringtone">"Nada dering disimpan."</string>
+    <string name="saved_ringtone_fail">"Tidak dapat menyimpan nada dering."</string>
+    <string name="menu_insert_smiley">Masukkan smiley</string>
+    <string name="select_link_title">"Pilih tindakan"</string>
+    <string name="slide_number">"Slaid <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <plurals name="slide_duration">
+        <!-- Case of 1-second duration. -->
+        <item quantity="one">"<xliff:g id="NUMBER">%s</xliff:g> saat"</item>
+        <!-- Case of "few" (small number of) seconds of duration. -->
+        <item quantity="few">"<xliff:g id="NUMBER">%s</xliff:g> saat"</item>
+        <!-- Case of multiple-second duration. -->
+        <item quantity="other">"<xliff:g id="NUMBER">%s</xliff:g> saat"</item>
+    </plurals>
+    <string name="delivery_report_activity">"Laporan penghantaran"</string>
+    <string name="storage_limits_activity">"Had storan"</string>
+    <string name="add_attachment_activity">Tambah lampiran:</string>
+    <string name="select_layout_activity">Pilih reka letak</string>
+    <string name="change_duration_activity">"Tukar tempoh"</string>
+    <string name="edit_text_activity">"Tindakan teks"</string>
+    <string name="edit_slideshow_activity">"Edit tayangan slaid"</string>
+    <string name="edit_slide_activity">"Edit slaid"</string>
+    <string name="pick_numbers_activity">Pilih Nombor</string>
+    <string name="slideshow_activity">"Tayangan slaid"</string>
+    <string name="class_0_message_activity">"Mesej kelas 0"</string>
+    <string name="send_using_mms_activity">Hantar sebagai mesej multimedia\u2026</string>
+    <string name="select_contact_method_activity">Pilih kaedah hubungan</string>
+    <string name="search_label">Pesanan</string>
+    <string name="search_hint">"Pemesejan carian"</string>
+    <string name="search">Pesanan</string>
+    <string name="search_setting_description">"Teks dalam mesej anda"</string>
+    <string name="search_empty">Tiada padanan</string>
+    <plurals name="search_results_title">
+        <!-- Case of 1 result. -->
+        <item quantity="one">"<xliff:g id="NUMBER">%1$s</xliff:g> hasil untuk \"<xliff:g id="SEARCH">%2$s</xliff:g>\""</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> hasil untuk \"<xliff:g id="SEARCH">%2$s</xliff:g>\""</item>
+    </plurals>
+    <string name="search_history">"<xliff:g id="COUNT">%1$s</xliff:g> hasil untuk \"<xliff:g id="SEARCH">%2$s</xliff:g>\""</string>
+    <string name="confirm_clear_search_title">"Padam bersih"</string>
+    <string name="confirm_clear_search_text">"Sejarah carian akan dipadam bersih."</string>
+    <string name="pref_mms_clear_search_history_title">Kosongkan sejarah carian</string>
+    <string name="pref_mms_clear_search_history_summary">"Padam bersih carian Pemesejan sebelumnya agar tidak muncul dalam kotak Carian"</string>
+    <string name="save">Simpan</string>
+    <string name="storage_limits_title">"Hadkan mesej"</string>
+    <string name="storage_limits_message">"Hadkan bilangan mesej yang anda simpan untuk setiap perbualan?"</string>
+    <string name="storage_limits_setting">"Tetapkan had"</string>
+    <string name="storage_limits_setting_dismiss">"Tiada had"</string>
+    <string name="too_many_unsent_mms">"Tidak boleh menghantar mesej sekarang. Terlalu banyak mesej multimedia yang belum dihantar."</string>
+    <string name="me">"Saya"</string>
+    <string name="sending_message">"MENGHANTAR…"</string>
+    <string name="received_a_contact">Dapatkan vcf</string>
+    <string name="save_a_new_contact">Simpan</string>
+    <string name="cancle_a_new_contact">Batalkan</string>
+    <string name="prefix_send">Hantar</string>
+    <string name="suffix_vcf">.vcf</string>
+    <string name="ConversationList_menu_item_Delete_some">Hapuskan beberapa</string>
+    <string name="ConversationList_menu_item_Cancel">Batalkan penghapusan</string>
+    <string name="ConversationList_menu_item_CONFIRM_delete">Sahkan penghapusan</string>
+    <string name="Conversation_check_type_selected_all">Pilih semua</string>
+    <string name="Conversation_menu_type_selected_all">Pilih semua</string>
+    <string name="Conversation_menu_type_cancel_selected_all">Nyahpilih semua</string>
+    <string name="message_size">"Saiz MMS/Ruang tersedia"</string>
+    <string name="save_sdcard_busy_dlg_title">Kad SD tidak tersedia</string>
+    <string name="save_sdcard_busy_dlg_msg">Kad SD sibuk. Untuk membenarkan menyimpan, pilih \"Matikan storan USB\" di dalam pemberitahuan.</string>
+    <string name="save_no_sdcard_dlg_msg">Kad SD diperlukan untuk menyimpan <xliff:g id="filename">%s</xliff:g>.</string>
+    <string name="save_no_sdcard_dlg_title">Tiada kad SD</string>
+    <string name="save_file_error_dlg_title">Kehabisan ruang</string>
+    <string name="save_file_error_dlg_msg"><xliff:g id="filename">%s</xliff:g> tidak dapat disimpan.\nKosongkan sedikit ruang di dalam telefon anda dan cuba lagi.</string>
+    <string name="save_file_error_title">Menyimpan ke kad SD gagal</string>
+    <string name="save_file_error_msg">Simpan<xliff:g id="FILENAME">%s</xliff:g> ke kad SD gagal</string>
+    <string name="save_file_ok_title">Simpan ke kad SD</string>
+    <string name="save_file_ok_msg">Simpan<xliff:g id="FILENAME">%s</xliff:g> ke kad SD</string>
+    <string name="slide_max">Bilangan maksimum pertunjukan slaid</string>
+    <string name="wait_message">Sila tunggu</string>
+    <string name="pref_title_sms_validity">Kesahihan SMS</string>
+    <string-array name="validity_entries">
+        <item>1 jam</item>
+        <item>6 jam</item>
+        <item>24 jam</item>
+        <item>2 hari</item>
+        <item>1 minggu</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string name="group_all">Semua kenalan</string>
+    <string name="group_phone">Kenalan telefon</string>
+    <string name="group_sim">Kenalan kad SIM</string>
+    <string name="group_sim1">“Kenalan kad SIM1”</string>
+    <string name="group_sim2">“Kenalan kad SIM2”</string>
+    <string name="select_contacts_group">Pilih kumpulan kenalan</string>
+    <string name="sim_no_ready">“Kad SIM tidak bersedia”</string>
+    <string name="save_to_bookmarks">Tambah penanda buku</string>
+    <string name="save_as_draft">Simpan sebagai draf</string>
+    <string name="low_storage_toast">Kekurangan ruang! Hapuskan beberapa fail untuk kosongkan ruang.</string>
+    <string name="error_state">Keadaan tidak konsisten</string>
+    <string name="error_state_text">Keadaan jalur dan penerima tidak konsisten. Sila tangkap laporan pepijat dan hantarnya ke android-sms-bugs@google.com</string>
+    <string name="send_failed_fdn_only">Menghantar mesek kepada <xliff:g id="TO">%s</xliff:g> dihadkan oleh FDN.</string>
+    <string name="send_need_smsc">Sila tambah alamat SMSC kepada nombor dailan tetap.</string>
+    <string name="mms_send_success">MMS telah dihantar</string>
+    <string name="contacts_max_exceed">Kenalan dipilih melampaui julat maksimum. Ia telah dipangkas. Nama mungkin kelihatan tidak lengkap.</string>
+    <string name="activity_not_found">Tidak jumpa aplikasi yang sesuai</string>
+    <string name="download_beyond_limit">Melepasi had saiz MMS</string>
+    <string name="mms_memory_usage_progressDialog_title">"Memeriksa penggunaan memori MMS..."</string>
+    <string name="service_center">Pusat Perkhidmatan:</string>
+    <string name="size_limit_comments">Had (2G:200K; 3G:300K)</string>
+    <string name="menu_resend">Menghantar semula</string>
+    <string name="menu_msg_folder">Pandangan folder</string>
+    <string name="menu_msg_list">Pandangan mesej</string>
+    <string name="folder_inbox">Peti masuk</string>
+    <string name="folder_outbox">Peti keluar</string>
+    <string name="folder_sent">Dihantar</string>
+    <string name="folder_drafts">Draf</string>
+    <string name="folder_simcard">Kad SIM</string>
+    <string name="folder_simcard1">Kad SIM1</string>
+    <string name="folder_simcard2">Kad SIM2</string>
+    <string name="msg_empty">Tiada mesej di folder ini</string>
+    <string name="status_sent">Dihantar</string>
+    <string name="status_senting">Sedang dihantar</string>
+    <string name="status_recieved">Diterima</string>
+    <string name="menu_delete_box_msg">Hapuskan mesej</string>
+    <string name="clearConfirmation_title">Hapuskan</string>
+    <string name="clearConfirmation">Mesej yang anda pilih akan dihapuskan.</string>
+    <string name="menu_view_box_message">Lihat mesej</string>
+    <string name="load_count">memuat</string>
+    <string name="display_store_title">Ruang storan</string>
+    <string name="slide_fomat_error">"Ralat format slaid, gagal memuatkan sebahagian maklumat."</string>
+    <string name="filetype_not_support">Jenis fail tidak disokong</string>
+    <string name="comma_zh">"，"</string>
+    <string name="move_message_to_phone_memory">Mesej berjaya disalin ke memori telefon</string>
+    <string name="can_not_copy_the_message">Tidak dapat menyalin mesej</string>
+    <string name="share_not_support_contentType">"Tidak dilampirkan, fail tidak sokong!"</string>
+    <string name="dl_expired_wap_push">Ada <xliff:g id="COUNT">%1$s</xliff:g> mesej telah luput dan akan dihapuskan.</string>
+    <string name="WAPPush_Message_title">"Mesej tolak WAP"</string>
+    <string name="open_website">"buka laman sesawang"</string>
+    <string name="pref_title_sms_retry_times">Mekanisme Cuba Semula Buka</string>
+    <string name="attach_vcard">VCard</string>
+    <string name="group_name_student">“Pelajar”</string>
+    <string name="group_name_friend">“Kawan”</string>
+    <string name="group_name_family">“Keluarga”</string>
+    <string name="group_name_colleague">“Rakan Sekerja”</string>
+    <string name="handle_forward_error">“Pemajuan gagal, cuba majukan sekali lagi.”</string>
+    <string name="slide_show_vcard">“Mesej ini mengandungi fail lampiran yang tidak ditunjukkan”</string>
+</resources>

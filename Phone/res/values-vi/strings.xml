@@ -1,0 +1,982 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="contactsIconLabel">"Danh bạ"</string>
+    <string name="contactsFavoritesLabel">"Mục ưa thích"</string>
+    <string name="dialerIconLabel">"Trình quay số"</string>
+    <string name="emergencyDialerIconLabel">"Trình quay số Khẩn cấp"</string>
+    <string name="phoneIconLabel">"Điện thoại"</string>
+    <string name="recentCallsIconLabel">"Nhật ký cuộc gọi"</string>
+    <string name="fdnListLabel">"Danh sách FDN"</string>
+    <string name="unknown">"Không xác định"</string>
+    <string name="private_num">"Số cá nhân"</string>
+    <string name="payphone">"Điện thoại tự động"</string>
+    <string name="onHold">"Đang chờ"</string>
+    <string name="ongoing">"Cuộc gọi hiện tại"</string>
+    <string name="callFailed_userBusy">"Đường dây bận"</string>
+    <string name="callFailed_congestion">"Mạng bận"</string>
+    <string name="callFailed_timedOut">"Không có phản hồi, đã hết thời gian chờ"</string>
+    <string name="callFailed_server_unreachable">"Máy chủ không thể truy cập được"</string>
+    <string name="callFailed_number_unreachable">"Số không thể truy cập được"</string>
+    <string name="callFailed_invalid_credentials">"Tên người dùng hoặc mật khẩu không chính xác"</string>
+    <string name="callFailed_out_of_network">"Được gọi từ ngoài mạng"</string>
+    <string name="callFailed_server_error">"Lỗi máy chủ. Hãy thử lại sau."</string>
+    <string name="callFailed_noSignal">"Không có tín hiệu nào"</string>
+    <string name="callFailed_limitExceeded">"Đã vượt quá giới hạn ACM"</string>
+    <string name="callFailed_powerOff">"Tắt radio"</string>
+    <string name="callFailed_simError">"Không có SIM hoặc lỗi SIM"</string>
+    <string name="callFailed_outOfService">"Ngoài vùng dịch vụ"</string>
+    <string name="callFailed_fdn_only">"Cuộc gọi đi bị hạn chế bởi FDN."</string>
+    <string name="callFailed_cb_enabled">"Bạn không thể thực hiện cuộc gọi đi khi đang bật chế độ chặn cuộc gọi."</string>
+    <string name="callFailed_dsac_restricted">"Tất cả cuộc gọi bị hạn chế bởi kiểm soát truy cập."</string>
+    <string name="callFailed_dsac_restricted_emergency">"Cuộc gọi khẩn cấp bị hạn chế bằng kiểm soát truy cập."</string>
+    <string name="callFailed_dsac_restricted_normal">"Cuộc gọi thông thường bị hạn chế bởi kiểm soát truy cập."</string>
+    <string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: Điện thoại bị khoá cho tới khi bật nguồn."</string>
+    <string name="callFailed_cdma_drop">"CDMA: Cuộc gọi bị gián đoạn."</string>
+    <string name="callFailed_cdma_intercept">"CDMA: Cuộc gọi bị chặn."</string>
+    <string name="callFailed_cdma_reorder">"CDMA: sắp xếp lại."</string>
+    <string name="callFailed_cdma_SO_reject">"CDMA: Từ chối Tuỳ chọn Dịch vụ."</string>
+    <string name="callFailed_cdma_retryOrder">"CDMA: thử sắp xếp lại."</string>
+    <string name="callFailed_cdma_accessFailure">"CDMA: Lỗi truy cập."</string>
+    <string name="callFailed_cdma_preempted">"CDMA: Bị chặn trước."</string>
+    <string name="callFailed_cdma_notEmergency">"Chỉ có thể thực hiện cuộc gọi Khẩn cấp."</string>
+    <string name="callFailed_unobtainable_number">"Số không hợp lệ"</string>
+    <string name="confCall">"Cuộc gọi hội nghị"</string>
+    <string name="call_lost">"Cuộc gọi đã bị mất."</string>
+    <string name="retry">"Thử lại"</string>
+    <string name="call_lost_title">"Cuộc gọi bị Mất"</string>
+    <string name="mmiStarted">"Đã bắt đầu mã MMI"</string>
+    <string name="ussdRunning">"Mã USSD đang chạy…"</string>
+    <string name="mmiCancelled">"Mã MMI đã bị huỷ"</string>
+    <string name="cancel">"Huỷ"</string>
+    <string name="menu_speaker">"Loa"</string>
+    <string name="menu_bluetooth">"Bluetooth"</string>
+    <string name="menu_mute">"Tắt tiếng"</string>
+    <string name="menu_hold">"Giữ"</string>
+    <string name="menu_endCall">"Kết thúc cuộc gọi"</string>
+    <string name="menu_swapCalls">"Hoán đổi cuộc gọi"</string>
+    <string name="menu_mergeCalls">"Hợp nhất cuộc gọi"</string>
+    <string name="menu_phoneRecorder">"Ghi âm"</string>
+    <string name="menu_addCall">"Thêm cuộc gọi"</string>
+    <string name="menu_manageConference">"Quản lý cuộc gọi hội nghị"</string>
+    <string name="menu_showDialpad">"Hiển thị bàn phím số"</string>
+    <string name="menu_hideDialpad">"Ẩn bàn phím số"</string>
+    <string name="menu_answerAndHold">"Giữ cuộc gọi hiện tại"\n"&amp; trả lời"</string>
+    <string name="menu_answerAndEnd">"Kết thúc cuộc gọi hiện tại"\n"&amp; trả lời"</string>
+    <string name="ok">OK</string>
+    <string name="menuButtonHint">"Nhấn vào Trình đơn cho tuỳ chọn cuộc gọi."</string>
+    <string name="menuButtonKeyboardDialHint">"Nhấn vào Trình đơn cho tuỳ chọn cuộc gọi  •  Sử dụng bàn phím để quay số"</string>
+    <string name="menu_answer">"Trả lời"</string>
+    <string name="menu_ignore">"Bỏ qua"</string>
+    <string name="wait_prompt_str">"Gửi các âm sau?"\n</string>
+    <string name="pause_prompt_str">"Đang gửi Âm"\n</string>
+    <string name="send_button">"Gửi"</string>
+    <string name="pause_prompt_yes">"Có"</string>
+    <string name="pause_prompt_no">"Không"</string>
+    <string name="wild_prompt_str">"Thay thế ký tự tự do với"</string>
+    <string name="no_vm_number">"Thiếu số thư thoại"</string>
+    <string name="no_vm_number_msg">"Không có số thư thoại nào được lưu trữ trên thẻ SIM."</string>
+    <string name="add_vm_number_str">"Thêm số điện thoại"</string>
+    <string name="dialer_emptyListWorking">"Đang tải…"</string>
+    <string name="enterPin">"Nhập mã PIN để mở khoá thẻ SIM."</string>
+    <string name="pinUnlocked">"Đã mở khoá SIM"</string>
+    <string name="enterNewPin">"Mã PIN mới của SIM"</string>
+    <string name="verifyNewPin">"Nhập lại mã PIN mới của SIM để xác nhận"</string>
+    <string name="verifyFailed">"Mã PIN của SIM bạn đã nhập không khớp. Vui lòng thử lại."</string>
+    <string name="enterPuk">"Nhập mã PUK để mở khoá thẻ SIM."</string>
+    <string name="badPuk">"Mã PUK không chính xác!"</string>
+    <string name="buttonTxtContinue">"Tiếp tục"</string>
+    <string name="puk_unlocked">"Thẻ SIM của bạn đã được bỏ chặn. Điện thoại của bạn đang mở khoá…"</string>
+    <string name="label_ndp">"Mã PIM mở khoá mạng SIM"</string>
+    <string name="sim_ndp_unlock_text">"Mở khoá"</string>
+    <string name="sim_ndp_dismiss_text">"Loại bỏ"</string>
+    <string name="requesting_unlock">"Đang yêu cầu mở khoá mạng..."</string>
+    <string name="unlock_failed">"Yêu cầu mở khoá mạng không thành công."</string>
+    <string name="unlock_success">"Mở khoá mạng thành công."</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="labelGSMMore">"Cài đặt cuộc gọi GSM"</string>
+    <string name="labelCDMAMore">"Cài đặt cuộc gọi CDMA"</string>
+    <string name="apn_settings">"Tên Điểm Truy cập"</string>
+    <string name="settings_label">"Cài đặt mạng"</string>
+    <string name="voicemail">"Thư thoại"</string>
+    <string name="voicemail_abbreviated">"Thư thoại:"</string>
+    <string name="networks">"Nhà cung cấp dịch vụ mạng"</string>
+    <string name="call_settings">"Cài đặt cuộc gọi"</string>
+    <string name="additional_gsm_call_settings">"Cài đặt bổ sung"</string>
+    <string name="sum_gsm_call_settings">"Cài đặt cuộc gọi chỉ GSM bổ sung"</string>
+    <string name="additional_cdma_call_settings">"Cài đặt cuộc gọi CDMA bổ sung"</string>
+    <string name="sum_cdma_call_settings">"Cài đặt cuộc gọi chỉ CDMA bổ sung"</string>
+    <string name="labelNwService">"Cài đặt dịch vụ mạng"</string>
+    <string name="labelCallerId">"Số gọi đến"</string>
+    <string name="sum_hide_caller_id">"Số bị ẩn trong cuộc gọi đi"</string>
+    <string name="sum_show_caller_id">"Số được hiển thị trong cuộc gọi đi"</string>
+    <string name="sum_default_caller_id">"Sử dụng cài đặt mặc định của nhà cung cấp dịch vụ để hiển thị số của tôi trong cuộc gọi đi"</string>
+    <string name="labelCW">"Chờ cuộc gọi"</string>
+    <string name="sum_cw_enabled">"Trong suốt cuộc gọi, thông báo cho tôi về cuộc gọi đến"</string>
+    <string name="sum_cw_disabled">"Trong suốt cuộc gọi, thông báo cho tôi về cuộc gọi đến"</string>
+    <string name="call_forwarding_settings">"Cài đặt chuyển tiếp cuộc gọi"</string>
+    <string name="call_barring_settings">Các cài đặt chặn cuộc gọi</string>
+    <string name="labelCF">"Chuyển tiếp cuộc gọi"</string>
+    <string name="labelCB">"Chặn cuộc gọi"</string>
+    <string name="labelCFU">"Luôn chuyển tiếp"</string>
+    <string name="messageCFU">"Luôn sử dụng số này"</string>
+    <string name="sum_cfu_enabled_indicator">"Chuyển tiếp tất cả cuộc gọi"</string>
+    <string name="sum_cfu_enabled">"Chuyển tiếp tất cả cuộc gọi tới <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfu_enabled_no_number">"Số không có"</string>
+    <string name="sum_cfu_disabled">"Đã vô hiệu hoá"</string>
+    <string name="labelCFB">"Chuyển tiếp khi bận"</string>
+    <string name="messageCFB">"Số khi bận"</string>
+    <string name="sum_cfb_enabled">"Chuyển tiếp tới <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfb_disabled">"Đã vô hiệu hoá"</string>
+    <string name="disable_cfb_forbidden">"Nhà cung cấp dịch vụ của bạn không hỗ trợ vô hiệu hoá chuyển tiếp cuộc gọi khi điện thoại của bạn bận."</string>
+    <string name="labelCFNRy">"Chuyển tiếp khi không được trả lời"</string>
+    <string name="messageCFNRy">"Số khi không được trả lời"</string>
+    <string name="sum_cfnry_enabled">"Chuyển tiếp tới <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnry_disabled">"Đã vô hiệu hoá"</string>
+    <string name="disable_cfnry_forbidden">"Nhà cung cấp dịch vụ của bạn không hỗ trợ vô hiệu hoá chuyển tiếp cuộc gọi khi điện thoại của bạn không trả lời."</string>
+    <string name="labelCFNRc">"Chuyển tiếp khi không thể truy cập được"</string>
+    <string name="messageCFNRc">"Số khi không thể truy cập được"</string>
+    <string name="sum_cfnrc_enabled">"Chuyển tiếp tới <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnrc_disabled">"Đã vô hiệu hoá"</string>
+    <string name="disable_cfnrc_forbidden">"Nhà cung cấp dịch vụ của bạn không hỗ trợ vô hiệu hoá chuyển tiếp cuộc gọi khi điện thoại của bạn không thể truy cập được."</string>
+    <string name="network_wrong" msgid="">"Đáp ứng bất thường từ mạng"</string>
+    <string name="number_empty" msgid="">"Số bị trống"</string>
+    <string name="cb_pw_error" msgid="">"Mật khẩu không đúng"</string>
+    <string name="cb_pw_correct" msgid="">"Mật khẩu đã được thay đổi"</string>
+    <string name="cb_pw_no_match" msgid="">"Mật khẩu không khớp"</string>
+    <string name="labelAO">Tất cả cuộc gọi đi</string>
+    <string name="messageAO">Nhập mật khẩu chặn cuộc gọi.</string>
+    <string name="sum_ao_enabled_indicator">"Chuyển tiếp tất cả cuộc gọi"</string>
+    <string name="sum_ao_enabled">Đã kích hoạt</string>
+    <string name="sum_ao_disabled">Đã bị vô hiệu hóa</string>
+    <string name="enable_ao_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc cho phép chặn tất cả cuộc gọi đi.</string>
+    <string name="disable_ao_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc vô hiệu hóa chặn tất cả cuộc gọi đi.</string>
+    <string name="labelOI">Cuộc gọi đi quốc tế</string>
+    <string name="messageOI">Nhập mật khẩu chặn cuộc gọi.</string>
+    <string name="sum_oi_enabled">Đã kích hoạt</string>
+    <string name="sum_oi_disabled">Đã bị vô hiệu hóa</string>
+    <string name="enable_oi_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc cho phép chặn cuộc gọi đi quốc tế.</string>
+    <string name="disable_oi_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc vô hiệu hóa chặn cuộc gọi đi quốc tế.</string>
+    <string name="labelOX">Chuyển vùng cuộc gọi đi quốc tế</string>
+    <string name="messageOX">Nhập mật khẩu chặn cuộc gọi.</string>
+    <string name="sum_ox_enabled">Đã kích hoạt</string>
+    <string name="sum_ox_disabled">Đã bị vô hiệu hóa</string>
+    <string name="enable_ox_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc cho phép chặn cuộc gọi chuyển vùng đi quốc tế</string>
+    <string name="disable_ox_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc vô hiệu hóa chặn cuộc gọi chuyển vùng đi quốc tế.</string>
+    <string name="labelAI">Tất cả cuộc gọi đến</string>
+    <string name="messageAI">Nhập mật khẩu chặn cuộc gọi.</string>
+    <string name="sum_ai_enabled">Đã kích hoạt</string>
+    <string name="sum_ai_disabled">Đã bị vô hiệu hóa</string>
+    <string name="enable_ai_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc vô hiệu hóa chặn tất cả cuộc gọi đến.</string>
+    <string name="disable_ai_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc vô hiệu hóa chặn tất cả cuộc gọi đến.</string>
+    <string name="labelIR">"Cuộc gọi đến khi chuyển vùng"</string>
+    <string name="messageIR">Nhập mật khẩu chặn cuộc gọi.</string>
+    <string name="sum_ir_enabled">Đã kích hoạt</string>
+    <string name="sum_ir_disabled">Đã bị vô hiệu hóa</string>
+    <string name="enable_ir_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc cho phép chặn các cuộc gọi đến khi chuyển vùng.</string>
+    <string name="disable_ir_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc vô hiệu hóa chặn các cuộc gọi đến khi chuyển vùng.</string>
+    <string name="labelAB">Tắt kích hoạt tất cả</string>
+    <string name="messageAB">Nhập mật khẩu chặn cuộc gọi.</string>
+    <string name="sum_ab_enabled">Đã kích hoạt</string>
+    <string name="sum_ab_disabled">Đã bị vô hiệu hóa</string>
+    <string name="enable_ab_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc khử kích hoạt tất cả.</string>
+    <string name="disable_ab_forbidden">Nhà cung cấp dịch vụ của bạn không hỗ trợ việc kích hoạt tất cả.</string>
+    <string name="labelChgPwd">"Thay đổi mật khẩu"</string>
+    <string name="DlgChgPwd_oldpwd">Nhập mật khẩu chặn cuộc gọi.</string>
+    <string name="DlgChgPwd_newpwd_first">Nhập mật khẩu mới</string>
+    <string name="DlgChgPwd_newpwd_last">"Xác nhận mật khẩu mới"</string>
+    <string name="updating_title">"Cài đặt cuộc gọi"</string>
+    <string name="error_updating_title">"Lỗi cài đặt cuộc gọi"</string>
+    <string name="reading_settings">"Đang đọc cài đặt…"</string>
+    <string name="updating_settings">"Đang cập nhật cài đặt..."</string>
+    <string name="reverting_settings">"Đang hoàn nguyên cài đặt…"</string>
+    <string name="response_error">"Phản hồi không mong muốn từ mạng."</string>
+    <string name="exception_error">"Lỗi mạng hoặc thẻ SIM."</string>
+    <string name="fdn_only_error">"Thao tác chỉ được phép đối với các số quay số định sẵn."</string>
+    <string name="radio_off_error">"Vui lòng bật radio trước khi xem những cài đặt này."</string>
+    <string name="close_dialog">OK</string>
+    <string name="enable">"Bật"</string>
+    <string name="disable">"Vô hiệu hoá"</string>
+    <string name="change_num">"Cập nhật"</string>
+    <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
+        <item>"Mặc định mạng"</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
+        <item>"Ẩn số"</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
+        <item>"Hiển thị số"</item>
+    </string-array>
+    <string-array name="clir_values">
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>DEFAULT</xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>HIDE</xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>SHOW</xliff:g></item>
+    </string-array>
+    <string name="vm_save_number">"Lưu số thư thoại"</string>
+    <string name="vm_changed">"Số thư thoại đã thay đổi."</string>
+    <string name="vm_change_failed">"Thay đổi số thư thoại không thành công."\n"Hãy liên hệ với nhà cung cấp dịch vụ của bạn nếu sự cố vẫn tiếp diễn."</string>
+    <string name="fw_change_failed">"Thay đổi số chuyển tiếp không thành công."\n"Hãy liên hệ với nhà cung cấp dịch vụ của bạn nếu sự cố này vẫn tiếp diễn."</string>
+    <string name="fw_get_in_vm_failed">"Không thể truy xuất và lưu cài đặt số chuyển tiếp hiện tại."\n"Bạn vẫn muốn chuyển sang nhà cung cấp mới?"</string>
+    <string name="no_change">"Không thay đổi nào được thực hiện."</string>
+    <string name="sum_voicemail_choose_provider">"Chọn dịch vụ thư thoại"</string>
+    <string name="voicemail_default">"Nhà cung cấp dịch vụ của tôi"</string>
+    <string name="mobile_networks">"Cài đặt mạng di động"</string>
+    <string name="mobile_networks_sim1">"SIM1"</string>
+    <string name="mobile_networks_sim2">"SIM2"</string>
+    <string name="mobile_networks_other">"Khác"</string>
+    <string name="label_available">"Mạng khả dụng"</string>
+    <string name="label_available_sim1">"Các mạng Khả dụng của SIM1"</string>
+    <string name="label_available_sim2">"Các mạng Khả dụng của SIM2"</string>
+    <string name="load_networks_progress">"Đang tìm kiếm…"</string>
+    <string name="empty_networks_list">"Không tìm thấy mạng nào."</string>
+    <string name="search_networks">"Tìm kiếm trong mạng"</string>
+    <string name="network_query_error">"Lỗi khi tìm kiếm mạng."</string>
+    <string name="register_on_network">"Đang đăng ký trên <xliff:g id="NETWORK">%s</xliff:g>..."</string>
+    <string name="not_allowed">"Thẻ SIM của bạn không cho phép kết nối với mạng này."</string>
+    <string name="connect_later">"Không thể kết nối với mạng này vào lúc này. Vui lòng thử lại sau."</string>
+    <string name="registration_done">"Đã đăng ký trên mạng."</string>
+    <string name="sum_carrier_select">"Chọn nhà cung cấp dịch vụ mạng"</string>
+    <string name="sum_search_networks">"Tìm kiếm tất cả mạng khả dụng"</string>
+    <string name="select_automatically">"Chọn tự động"</string>
+    <string name="sum_select_automatically">"Tự động chọn mạng ưu thích"</string>
+    <string name="register_automatically">"Đăng ký tự động..."</string>
+    <string name="preferred_network_mode_title">"Chế độ Mạng"</string>
+    <string name="preferred_network_mode_summary">"Thay đổi chế độ hoạt động của mạng"</string>
+    <string name="preferred_network_mode_dialogtitle">"Chế độ mạng được ưu thích"</string>
+    <string-array name="preferred_network_mode_choices">
+        <!-- <item>Global</item> -->
+        <!-- <item>EvDo only</item> -->
+        <!-- <item>CDMA w/o EvDo</item> -->
+        <!-- <item>CDMA / EvDo auto</item> -->
+        <!-- <item>GSM / WCDMA auto</item> -->
+        <!-- <item>WCDMA only</item> -->
+        <!-- <item>GSM only</item> -->
+        <!-- <item>GSM / WCDMA preferred</item> -->
+        <item>"Toàn cầu"</item>
+        <item>"Chỉ EvDo"</item>
+        <item>"CDMA không có EvDo"</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <!-- <item>"7"</item> -->
+        <!-- <item>"6"</item> -->
+        <!-- <item>"5"</item> -->
+        <!-- <item>"4"</item> -->
+        <!-- <item>"3"</item> -->
+        <item>"7"</item>
+        <item>"6"</item>
+        <item>"5"</item>
+    </string-array>
+    <string name="data_enabled">"Đã bật dữ liệu"</string>
+    <string name="data_enable_summary">"Bật truy cập dữ liệu qua mạng Di động"</string>
+    <string name="roaming">"Chuyển vùng dữ liệu"</string>
+    <string name="roaming_enable">"Kết nối với dịch vụ dữ liệu khi chuyển vùng"</string>
+    <string name="roaming_disable">"Kết nối với dịch vụ dữ liệu khi chuyển vùng"</string>
+    <string name="roaming_reenable_message">"Bạn đã mất kết nối dữ liệu vì bạn đã tắt chuyển vùng dữ liệu của mạng gia đình của mình."</string>
+    <string name="roaming_warning">"Cho phép chuyển vùng dữ liệu? Bạn có thể phải chịu phí chuyển vùng đáng kể!"</string>
+    <string name="gsm_umts_options">"Tuỳ chọn GSM/UMTS"</string>
+    <string name="cdma_options">"Tuỳ chọn CDMA"</string>
+    <string name="throttle_data_usage">"Sử dụng dữ liệu"</string>
+    <string name="throttle_settings_title">"Chính sách dữ liệu của nhà cung cấp dịch vụ"</string>
+    <string name="throttle_current_usage">"Dữ liệu được sử dụng trong thời gian hiện tại"</string>
+    <string name="throttle_time_frame">"Thời gian sử dụng dữ liệu"</string>
+    <string name="throttle_rate">"Chính sách tốc độ dữ liệu"</string>
+    <string name="throttle_help">"Tìm hiểu thêm"</string>
+    <string name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) trong tổng số <xliff:g id="USED_2">%3$s</xliff:g> thời gian tối đa"\n"Thời gian tiếp theo bắt đầu sau <xliff:g id="USED_3">%4$d</xliff:g> ngày nữa (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) trong tổng số <xliff:g id="USED_2">%3$s</xliff:g> thời gian tối đa"</string>
+    <string name="throttle_data_rate_reduced_subtext">"Đã vượt quá tối đa <xliff:g id="USED_0">%1$s</xliff:g>"\n"Tốc độ dữ liệu bị giảm xuống <xliff:g id="USED_1">%2$d</xliff:g> Kb/giây"</string>
+    <string name="throttle_time_frame_subtext">"<xliff:g id="USED_0">%1$d</xliff:g>٪ của chu kỳ đã qua"\n"Thời gian tiếp theo sẽ bắt đầu trong <xliff:g id="USED_1">%2$d</xliff:g> ngày (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string name="throttle_rate_subtext">"Tốc độ dữ liệu bị giảm xuống <xliff:g id="USED">%1$d</xliff:g> Kb/s nếu vượt quá giới hạn sử dụng dữ liệu"</string>
+    <string name="throttle_help_subtext">"Thêm thông tin về chính sách sử dụng dữ liệu mạng dành cho điện thoại di động của nhà cung cấp dịch vụ của bạn"</string>
+    <string name="cdma_cell_broadcast_sms">"SMS Phát trên Di động"</string>
+    <string name="cell_broadcast_sms">"SMS Phát trên Di động"</string>
+    <string name="enable_disable_cell_bc_sms">"SMS Phát trên Di động"</string>
+    <string name="cell_bc_sms_enable">"Đã bật SMS Phát trên Di động"</string>
+    <string name="cell_bc_sms_disable">"Đã vô hiệu hoá SMS Phát trên Di động"</string>
+    <string name="cb_sms_settings">"Cài đặt SMS Phát trên Di động"</string>
+    <string name="channel_list">Danh sách Kênh</string>
+    <string name="refreshing">Đang làm mới…</string>
+    <string name="channel_name">Tên kênh</string>
+    <string name="channel_number">Số hiệu kênh</string>
+    <string name="info_input_channel_number">Hãy nhập số kênh</string>
+    <string name="info_input_channel_number_num">Hãy chỉ nhập số</string>
+    <string name="menu_add_channel">Thêm kênh</string>
+    <string name="text_mode">Chế độ văn bản</string>
+    <string name="pdu_mode">Chế độ Pdu</string>
+    <string name="get_cb_config">Nhận cấu hình CB</string>
+    <string name="menu_add_address_to_contacts">"Thêm \"<xliff:g id="NAME">%s</xliff:g>\" vào Danh bạ"</string>
+    <string name="edit">"Chỉnh sửa"</string>
+    <string name="menu_delete_channel">"Xoá"</string>
+    <string name="no">"Hủy bỏ"</string>
+    <string name="confirm_dialog_title">"Xoá"</string>
+    <string name="confirm_delete_message">"Tin nhắn sẽ bị xoá."</string>
+    <string name="enable_disable_emergency_broadcast">"Phát thanh Khẩn cấp"</string>
+    <string name="emergency_broadcast_enable">"Đã bật Phát thanh Khẩn cấp"</string>
+    <string name="emergency_broadcast_disable">"Đã vô hiệu hoá Phát thanh Khẩn cấp"</string>
+    <string name="enable_disable_administrative">"Quản trị"</string>
+    <string name="administrative_enable">"Đã bật quản trị"</string>
+    <string name="administrative_disable">"Đã vô hiệu hoá quản trị"</string>
+    <string name="enable_disable_maintenance">"Bảo trì"</string>
+    <string name="maintenance_enable">"Đã bật bảo trì"</string>
+    <string name="maintenance_disable">"Đã vô hiệu hoá bảo trì"</string>
+    <string name="general_news_settings">"Tin tức Chung"</string>
+    <string name="bf_news_settings">"Tin tức Kinh doanh và Tài chính"</string>
+    <string name="sports_news_settings">"Tin tức Thể thao"</string>
+    <string name="entertainment_news_settings">"Tin tức Giải trí"</string>
+    <string name="enable_disable_local">"Địa phương"</string>
+    <string name="local_enable">"Đã bật tin tức địa phương"</string>
+    <string name="local_disable">"Đã vô hiệu hoá tin tức địa phương"</string>
+    <string name="enable_disable_regional">"Khu vực"</string>
+    <string name="regional_enable">"Bật tin tức khu vực"</string>
+    <string name="regional_disable">"Đã vô hiệu hoá tin tức khu vực"</string>
+    <string name="enable_disable_national">"Quốc gia"</string>
+    <string name="national_enable">"Đã bật tin tức quốc gia"</string>
+    <string name="national_disable">"Đã vô hiệu hoá tin tức quốc gia"</string>
+    <string name="enable_disable_international">"Quốc tế"</string>
+    <string name="international_enable">"Đã bật tin tức quốc tế"</string>
+    <string name="international_disable">"Đã vô hiệu hoá tin tức quốc tế"</string>
+    <string name="list_language_title">"Ngôn ngữ"</string>
+    <string name="list_language_summary">"Chọn ngôn ngữ tin tức"</string>
+    <string name="broadcast">"SMS Phát trên Di động"</string>
+    <string name="menu_cellbroadcastsms">Nhắn tin quảng bá</string>
+    <string name="language_eng">Tiếng anh</string>
+    <string name="language_fren">Tiếng Pháp</string>
+    <string name="language_spanish">"Tiếng Tây Ban Nha"</string>
+    <string name="language_japanese">"Tiếng Nhật"</string>
+    <string name="language_korean">Tiếng Hàn Quốc</string>
+    <string name="language_chinese">"Tiếng Trung" </string>
+    <string name="language_hebrew">"Tiếng Hê-brơ"</string>
+    <string name="same_setting">Vui lòng đặt lại số ID của kênh, giống với tên kênh</string>
+    <string-array name="list_language_entries">
+        <item>"Tiếng Anh"</item>
+        <item>"Tiếng Pháp"</item>
+        <item>"Tiếng Tây Ban Nha"</item>
+        <item>"Tiếng Nhật"</item>
+        <item>"Tiếng Hàn"</item>
+        <item>"Tiếng Trung"</item>
+        <item>"Tiếng Do Thái"</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">"Ngôn ngữ"</string>
+    <string name="enable_disable_local_weather">"Thời tiết Địa phương"</string>
+    <string name="local_weather_enable">"Đã bật Thời tiết Địa phương"</string>
+    <string name="local_weather_disable">"Đã tắt Thời tiết Địa phương"</string>
+    <string name="enable_disable_atr">"Báo cáo Lưu lượng truy cập của Khu vực"</string>
+    <string name="atr_enable">"Đã bật Báo cáo Lưu lượng truy cập của Khu vực"</string>
+    <string name="atr_disable">"Đã vô hiệu hoá Báo cáo Lưu lượng truy cập của Khu vực"</string>
+    <string name="enable_disable_lafs">"Lịch Bay tại Sân bay Địa phương"</string>
+    <string name="lafs_enable">"Đã bật Lịch bay tại Sân bay Địa phương"</string>
+    <string name="lafs_disable">"Đã vô hiệu hoá Lịch Bay tại Sân bay Địa phương"</string>
+    <string name="enable_disable_restaurants">"Nhà hàng"</string>
+    <string name="restaurants_enable">"Đã bật nhà hàng"</string>
+    <string name="restaurants_disable">"Đã vô hiệu hoá nhà hàng"</string>
+    <string name="enable_disable_lodgings">"Phòng cho thuê"</string>
+    <string name="lodgings_enable">"Đã bật phòng cho thuê"</string>
+    <string name="lodgings_disable">"Tắt phòng cho thuê"</string>
+    <string name="enable_disable_retail_directory">"Thư mục Bán lẻ"</string>
+    <string name="retail_directory_enable">"Đã bật Thư mục Bán lẻ"</string>
+    <string name="retail_directory_disable">"Đã vô hiệu hoá Thư mục Bán lẻ"</string>
+    <string name="enable_disable_advertisements">"Quảng cáo"</string>
+    <string name="advertisements_enable">"Đã bật quảng cáo"</string>
+    <string name="advertisements_disable">"Đã vô hiệu hoá quảng cáo"</string>
+    <string name="enable_disable_stock_quotes">"Tin tức Chứng khoán"</string>
+    <string name="stock_quotes_enable">"Đã bật Tin tức Chứng khoán"</string>
+    <string name="stock_quotes_disable">"Đã vô hiệu hoá Tin tức Chứng khoán"</string>
+    <string name="enable_disable_eo">"Cơ hội Nghề nghiệp"</string>
+    <string name="eo_enable">"Đã bật Cơ hội Nghề nghiệp"</string>
+    <string name="eo_disable">"Đã vô hiệu hoá Cơ hội Nghề nghiệp"</string>
+    <string name="enable_disable_mhh">"Y tế, Sức khoẻ và Bệnh viện"</string>
+    <string name="mhh_enable">"Đã bật Y tế, Sức khoẻ và Bệnh viện"</string>
+    <string name="mhh_disable">"Đã vô hiệu hoá Y tế, Sức khoẻ và Bệnh viện"</string>
+    <string name="enable_disable_technology_news">"Tin tức Công nghệ"</string>
+    <string name="technology_news_enable">"Đã bật Tin tức Công nghệ"</string>
+    <string name="technology_news_disable">"Đã vô hiệu hoá Tin tức Công nghệ"</string>
+    <string name="enable_disable_multi_category">"Nhiều danh mục"</string>
+    <string name="multi_category_enable">"Đã bật nhiều danh mục"</string>
+    <string name="multi_category_disable">"Đã vô hiệu hoá nhiều danh mục"</string>
+    <string name="cell_broadcast_empty">Không có thông tin kênh nào !</string>
+    <string name="gsm_umts_network_preferences_title">"Tuỳ chọn Mạng GSM/UMTS"</string>
+    <string name="gsm_umts_network_preferneces_summary">"Chưa triển khai!"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Tuỳ chọn mạng GSM/UMTS"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"GSM/WCDMA (chế độ tự động)"</item>
+        <item>"Chỉ WCDMA"</item>
+        <item>"Chỉ GSM"</item>
+        <item>"GSM/WCDA (WCDMA được ưu thích)"</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+    <string name="prefer_2g">"Chỉ sử dụng mạng 2G"</string>
+    <string name="prefer_2g_summary">"Tiết kiệm pin"</string>
+    <string name="cdma_system_select_title">"Chọn hệ thống"</string>
+    <string name="cdma_system_select_summary">"Thay đổi chế độ chuyển vùng cdma"</string>
+    <string name="cdma_system_select_dialogtitle">"Chọn hệ thống"</string>
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>"Chỉ nhà riêng"</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
+        <item>"Tự động"</item>
+    </string-array>
+    <string name="cdma_roaming_mode_title">"Chế độ Chuyển vùng CDMA"</string>
+    <string name="cdma_roaming_mode_summary">"Thay đổi chế độ chuyển vùng cdma"</string>
+    <string name="cdma_roaming_mode_dialogtitle">"Chế độ chuyển vùng CDMA"</string>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>"Chỉ Mạng gia đình"</item>
+        <item>"Mạng Liên kết"</item>
+        <item>"Bất kỳ Mạng nào"</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_network_preferences_title">"Tuỳ chọn Mạng CDMA"</string>
+    <string name="cdma_network_preferneces_summary">"Chưa triển khai!"</string>
+    <string name="cdma_network_preferences_dialogtitle">"Tuỳ chọn mạng CDMA"</string>
+    <string-array name="cdma_network_preferences_choices">
+        <item>"CDMA/EvDo"</item>
+        <item>"Chỉ CDMA"</item>
+        <item>"Chỉ EvDo"</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_subscription_title">"Đăng ký CDMA"</string>
+    <string name="cdma_subscription_summary">"Thay đổi giữa RUIM/SIM và NV"</string>
+    <string name="cdma_subscription_dialogtitle">"đăng ký"</string>
+    <string-array name="cdma_subscription_choices">
+        <item>"RUIM/SIM"</item>
+        <item>"NV"</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <string name="fdn">"Số Quay Định sẵn"</string>
+    <string name="manage_fdn_list">"Danh sách FDN"</string>
+    <string name="fdn_activation">"Kích hoạt FDN"</string>
+    <string name="fdn_enabled">"Số Quay số Định sẵn đã được bật"</string>
+    <string name="fdn_disabled">"Số Quay Định sẵn bị vô hiệu hoá"</string>
+    <string name="enable_fdn">"Bật FDN"</string>
+    <string name="disable_fdn">"Vô hiệu hoá FDN"</string>
+    <string name="change_pin2">"Thay đổi mã PIN2"</string>
+    <string name="enable_fdn_ok">"Vô hiệu hoá FDN"</string>
+    <string name="disable_fdn_ok">"Bật FDN"</string>
+    <string name="sum_fdn">"Quản lý Số Quay định sẵn"</string>
+    <string name="sum_fdn_change_pin">"Thay đổi mã PIN để truy cập FDN"</string>
+    <string name="sum_fdn_manage_list">"Quản lý danh sách số điện thoại"</string>
+    <string name="voice_privacy">"Bảo mật của Voice"</string>
+    <string name="voice_privacy_summary">"Bật chế độ bảo mật tăng cường"</string>
+    <string name="tty_mode_title">"Chế độ TTY"</string>
+    <string name="tty_mode_summary">"Bật chế độ TTY"</string>
+    <string name="tty_mode_option_title">"Chế độ TTY"</string>
+    <string name="tty_mode_option_summary">"Đặt chế độ TTY"</string>
+    <string name="auto_retry_mode_title">"Tự động Thử lại"</string>
+    <string name="auto_retry_mode_summary">"Bật chế độ Tự động Thử lại"</string>
+    <string name="menu_add">"Thêm liên hệ"</string>
+    <string name="menu_edit">"Chỉnh sửa liên hệ"</string>
+    <string name="menu_delete">"Xoá liên hệ"</string>
+    <string name="get_pin2">"Nhập mã PIN2"</string>
+    <string name="name">"Tên"</string>
+    <string name="number">"Số"</string>
+    <string name="save">"Lưu"</string>
+    <string name="add_fdn_contact">"Thêm số quay định sẵn"</string>
+    <string name="adding_fdn_contact">"Đang thêm số quay định sẵn…"</string>
+    <string name="fdn_contact_added">"Đã thêm số quay định sẵn."</string>
+    <string name="edit_fdn_contact">"Chỉnh sửa số quay định sẵn"</string>
+    <string name="updating_fdn_contact">"Đang cập nhật số quay định sẵn..."</string>
+    <string name="fdn_contact_updated">"Đã cập nhật số quay định sẵn."</string>
+    <string name="delete_fdn_contact">"Xoá số quay định sẵn"</string>
+    <string name="deleting_fdn_contact">"Đang xoá số quay định sẵn…"</string>
+    <string name="fdn_contact_deleted">"Đã thêm số quay định sẵn."</string>
+    <string name="pin2_invalid">"FDN chưa được cập nhật: bạn đã nhập mã PIN không chính xác."</string>
+    <string name="fdn_invalid_number">"FDN chưa được cập nhật: số không được vượt quá 20 chữ số."</string>
+    <string name="simContacts_emptyLoading">"Đang đọc từ thẻ SIM…"</string>
+    <string name="simContacts_empty">"Không có danh bạ trên thẻ SIM của bạn."</string>
+    <string name="simContacts_title">"Chọn danh bạ để nhập"</string>
+    <string name="enable_pin">"Bật/vô hiệu hoá mã PIN của SIM"</string>
+    <string name="change_pin">"Thay đổi mã PIN của SIM"</string>
+    <string name="enter_pin_text">"Mã PIN của SIM:"</string>
+    <string name="oldPinLabel">"Mã PIN cũ"</string>
+    <string name="newPinLabel">"Mã PIN Mới"</string>
+    <string name="confirmPinLabel">"Xác nhận mã PIN mới"</string>
+    <string name="badPin">"Mã PIN cũ bạn đã nhập không chính xác. Vui lòng thử lại."</string>
+    <string name="mismatchPin">"Mã PIN bạn đã nhập không khớp. Vui lòng thử lại."</string>
+    <string name="invalidPin">"Nhập mã PIN có từ 4 đến 8 số."</string>
+    <string name="disable_sim_pin">"Vô hiệu hoá mã PIN của SIM"</string>
+    <string name="enable_sim_pin">"Bật mã PIM của SIM"</string>
+    <string name="enable_in_progress">"Vui lòng đợi..."</string>
+    <string name="enable_pin_ok">"Đã bật mã PIN của SIM"</string>
+    <string name="disable_pin_ok">"Đã vô hiệu hoá mã PIN của SIM"</string>
+    <string name="pin_failed">"Mã PIN bạn đã nhập không chính xác"</string>
+    <string name="pin_changed">"Mã PIN của SIM đã được thay đổi thành công"</string>
+    <string name="puk_requested">"Mật khẩu không chính xác, SIM bị khoá! PUK2 được yêu cầu."</string>
+    <string name="enter_pin2_text">"Mã PIN2"</string>
+    <string name="oldPin2Label">"Mã PIN2 cũ"</string>
+    <string name="newPin2Label">"Mã PIN2 Mới"</string>
+    <string name="confirmPin2Label">"Xác nhận mã PIN2 mới"</string>
+    <string name="badPuk2">"Mã PUK2 bạn đã nhập không chính xác. Vui lòng thử lại."</string>
+    <string name="badPin2">"Mã PIN2 cũ bạn đã nhập không chính xác. Vui lòng thử lại."</string>
+    <string name="mismatchPin2">"Mã PIN2 bạn đã nhập không khớp. Vui lòng thử lại."</string>
+    <string name="invalidPin2">"Nhập mã PIN2 có từ 4 đến 8 số."</string>
+    <string name="promptWordOne">Còn lại </string>
+    <string name="promptWordTwo"> thời gian</string>
+    <string name="invalidPuk2">"Nhập mã PUK2 có 8 số."</string>
+    <string name="pin2_changed">"Mã PIN2 đã được thay đổi thành công"</string>
+    <string name="label_puk2_code">"Nhập mã PUK2"</string>
+    <string name="fdn_enable_puk2_requested">"Mật khẩu không chính xác, vui lòng thay đổi mã PIN2 và thử lại!"</string>
+    <string name="puk2_requested">"Mật khẩu không chính xác, SIM bị khoá! PUK2 được yêu cầu."</string>
+    <string name="doneButton">"Xong"</string>
+    <string name="caller_manage_header">"Cuộc gọi hội nghị <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="caller_manage_manage_done_text">"Quay lại cuộc gọi"</string>
+    <string name="fake_phone_activity_phoneNumber_text">"(650) 555-1234"</string>
+    <string name="fake_phone_activity_infoText_text">"Số điện thoại gọi đến"</string>
+    <string name="fake_phone_activity_placeCall_text">"Cuộc gọi đến Giả mạo"</string>
+    <string name="sim_missing_continueView_text">"Tiếp tục mà không có thẻ SIM"</string>
+    <string name="sim_missing_msg_text">"Không tìm thấy thẻ SIM nào. Hãy lắp thẻ SIM vào điện thoại."</string>
+    <string name="sim_unlock_dismiss_text">"Loại bỏ"</string>
+    <string name="sim_unlock_unlock_text">"Mở khoá"</string>
+    <string name="sim_unlock_status_text">"Đang xác thực mã PIN…"</string>
+    <string name="voicemail_settings_number_label">"Số thư thoại"</string>
+    <string name="card_title_dialing">"Đang quay số"</string>
+    <string name="card_title_dialing_video">Gọi video</string>
+    <string name="card_title_alerting_video">Thông báo người dùng</string>
+    <string name="card_title_redialing">"Đang thử lại"</string>
+    <string name="card_title_in_progress">"Cuộc gọi hiện tại"</string>
+    <string name="card_title_conf_call">"Cuộc gọi hội nghị"</string>
+    <string name="card_title_incoming_call">"Cuộc gọi đến"</string>
+    <string name="card_title_incoming_video_call">Cuộc gọi video đến</string>
+    <string name="card_title_cdma_call_waiting">"Chờ cuộc gọi cdma"</string>
+    <string name="card_title_call_ended">"Cuộc gọi đã kết thúc"</string>
+    <string name="card_title_on_hold">"Đang chờ"</string>
+    <string name="card_title_hanging_up">"Kết thúc cuộc gọi"</string>
+    <string name="card_title_in_call">"Đang trong cuộc gọi"</string>
+    <string name="card_title_my_phone_number">"Số điện thoại của tôi là <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_missedCallTitle">"Cuộc gọi nhỡ"</string>
+    <string name="notification_missedCallsTitle">"Cuộc gọi nhỡ"</string>
+    <string name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> cuộc gọi nhỡ"</string>
+    <string name="notification_missedCallTicker">"Cuộc gọi nhỡ từ <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_ongoing_call_format">"Cuộc gọi hiện tại (<xliff:g id="DURATION">%s</xliff:g>)"</string>
+    <string name="notification_on_hold">"Đang chờ"</string>
+    <string name="notification_incoming_call">"Cuộc gọi đến"</string>
+    <string name="notification_voicemail_title">"Thư thoại mới"</string>
+    <string name="notification_voicemail_title_count">"Thư thoại mới (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string name="notification_voicemail_text_format">"Quay số <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_voicemail_no_vm_number">"Số thư thoại không xác định"</string>
+    <string name="notification_network_selection_title">"Không có dịch vụ nào"</string>
+    <string name="notification_network_selection_text">"Mạng được chọn (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) không khả dụng"</string>
+    <string name="incall_error_power_off">"Để thực hiện cuộc gọi, trước tiên, hãy tắt chế độ trên Máy bay."</string>
+    <string name="incall_error_emergency_only">"Chưa được đăng ký trên mạng."</string>
+    <string name="incall_error_out_of_service">"Mạng di động không khả dụng."</string>
+    <string name="incall_error_no_phone_number_supplied">"Cuộc gọi không được gửi đi, bạn đã nhập số không hợp lệ."</string>
+    <string name="incall_error_call_failed">"Cuộc gọi không được gửi đi."</string>
+    <string name="incall_status_dialed_mmi">"Khởi động chuỗi MMI…"</string>
+    <string name="incall_status_dialed_fc">"Đang khởi động chuỗi mã tính năng…"</string>
+    <string name="incall_error_supp_service_unknown">"Dịch vụ không được hỗ trợ."</string>
+    <string name="incall_error_supp_service_switch">"Không thể chuyển đổi cuộc gọi."</string>
+    <string name="incall_error_supp_service_separate">"Không thể tách cuộc gọi."</string>
+    <string name="incall_error_supp_service_transfer">"Không thể chuyển cuộc gọi."</string>
+    <string name="incall_error_supp_service_conference">"Không thể thực hiện cuộc gọi hội nghị."</string>
+    <string name="incall_error_supp_service_reject">"Không thể từ chối cuộc gọi."</string>
+    <string name="incall_error_supp_service_hangup">"Không thể thực hiện cuộc gọi."</string>
+    <string name="incall_error_dialvt_in_2gcall">Hiện đang có cuộc gọi thoại, chúng tôi không thể thực hiện cuộc gọi video!</string>
+    <string name="incall_error_dialvt_in_3gcall">Hiện đang có cuộc gọi video, chúng tôi không thể thực hiện cuộc gọi video!</string>
+    <string name="incall_error_dial_in_3gcall">Hiện đang có cuộc gọi video, chúng tôi không thể thực hiện cuộc gọi thoại!</string>
+    <string name="incall_error_aireplane_mode_on">Để thực hiện cuộc gọi, trước tiên hãy tắt chế độ Máy bay</string>
+    <string name="emergency_enable_radio_dialog_title">"Cuộc gọi khẩn cấp"</string>
+    <string name="emergency_enable_radio_dialog_message">"Đang bật radio..."</string>
+    <string name="emergency_enable_radio_dialog_retry">"Ngoài vùng dịch vụ, đang thử lại..."</string>
+    <string name="dial_emergency_error">"Cuộc gọi không được gửi đi, <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> không phải là số khẩn cấp!"</string>
+    <string name="dial_emergency_empty_error">"Cuộc gọi không được gửi đi, hãy quay số số khẩn cấp!"</string>
+    <string name="dialerKeyboardHintText">"Sử dụng bàn phím để quay số"</string>
+    <string name="dtmfDialpadHintText">"Bộ tạo xung từ bàn phím"</string>
+    <string name="dtmfDialpadHandleLabel">"Bàn phím số"</string>
+    <string name="touchLockText">"Nhấn đúp"\n"để mở khoá"</string>
+    <string name="onscreenAnswerText">"Nhấn đúp"\n"để trả lời"</string>
+    <string name="onscreenRejectText">"Nhấn đúp"\n"để từ chối"</string>
+    <string name="onscreenHoldText">"Giữ"</string>
+    <string name="onscreenUnholdText">"Bỏ giữ"</string>
+    <string name="onscreenEndCallText">"Kết thúc"</string>
+    <string name="onscreenShowDialpadText">"Bàn phím số"</string>
+    <string name="onscreenHideDialpadText">"Ẩn"</string>
+    <string name="onscreenSpeakerText">"Loa"</string>
+    <string name="onscreenMuteText">"Tắt tiếng"</string>
+    <string name="onscreenBluetoothText">"Bluetooth"</string>
+    <string name="onscreenAddCallText">"Thêm cuộc gọi"</string>
+    <string name="onscreenMergeCallsText">"Hợp nhất cuộc gọi"</string>
+    <string name="onscreenSwapCallsText">"Hoán đổi"</string>
+    <string name="onscreenManageCallsText">"Quản lý cuộc gọi"</string>
+    <string name="onscreenManageConferenceText">"Quản lý"</string>
+    <string name="importSimEntry">"Nhập"</string>
+    <string name="importAllSimEntries">"Nhập tất cả"</string>
+    <string name="importingSimContacts">"Đang nhập danh bạ trên SIM"</string>
+    <string name="importToFDNfromContacts">"Nhập từ danh bạ"</string>
+    <string name="hac_mode_title">"Trợ thính"</string>
+    <string name="hac_mode_summary">"Bật khả năng tương thích trợ thính"</string>
+    <string-array name="tty_mode_entries">
+        <item>"Tắt TTY"</item>
+        <item>"TTY Đầy"</item>
+        <item>"TTY HCO"</item>
+        <item>"TTY VCO"</item>
+    </string-array>
+    <string name="eri_text_label">"Văn bản ERI"</string>
+    <string name="dtmf_tones_title">"Âm DTMF"</string>
+    <string name="dtmf_tones_summary">"Đặt độ dài âm DTMF"</string>
+    <string-array name="dtmf_tone_entries">
+      <item>"Thường"</item>
+      <item>"Dài"</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+       <item>"0"</item>
+       <item>"1"</item>
+    </string-array>
+    <string name="network_message">"Thông báo của Mạng"</string>
+    <string name="ota_title_activate">"Kích hoạt điện thoại của bạn"</string>
+    <string name="ota_touch_activate">"Bạn cần phải thực hiện cuộc gọi đặc biệt để kích hoạt dịch vụ điện thoại của mình. "\n\n"Sau khi nhấn “Kích hoạt”, nghe hướng dẫn được cung cấp để kích hoạt điện thoại của bạn."</string>
+    <string name="ota_touch_activate_new">"Chạm vào “Kích hoạt” để thực hiện cuộc gọi đặc biệt sẽ kích hoạt điện thoại của bạn trên mạng di động của nhà cung cấp dịch vụ. Vì vậy, bạn có thể thực hiện cuộc gọi và kết nối với mạng dữ liệu dành cho điện thoại di động."</string>
+    <string name="ota_skip_activation_dialog_title">"Bỏ qua kích hoạt?"</string>
+    <string name="ota_skip_activation_dialog_message">"Nếu bạn bỏ qua kích hoạt, bạn không thể thực hiện cuộc gọi hoặc kết nối với mạng dữ liệu dành cho điện thoại di động (mặc dù bạn có thể kết nối với mạng Wi-Fi). Cho tới khi bạn kích hoạt điện thoại của mình, bạn được yêu cầu kích hoạt điện thoại mỗi lần bạn bật điện thoại."</string>
+    <string name="ota_skip_activation_dialog_skip_label">"Bỏ qua"</string>
+    <string name="ota_skip_activation_dialog_continue_label">"Kích hoạt"</string>
+    <string name="ota_activate">"Kích hoạt"</string>
+    <string name="ota_title_activate_success">"Điện thoại đã được kích hoạt!"</string>
+    <string name="ota_title_problem_with_activation">"Sự cố với kích hoạt"</string>
+    <string name="ota_listen">"Làm theo hướng dẫn bằng lời cho tới khi bạn nghe thấy kích hoạt đã hoàn tất."</string>
+    <string name="ota_dialpad">"Bàn phím"</string>
+    <string name="ota_speaker">"Loa"</string>
+    <string name="ota_progress">"Vui lòng đợi trong khi điện thoại của bạn được lập trình."</string>
+    <string name="ota_failure">"Lập trình Không thành công"</string>
+    <string name="ota_successful">"Điện thoại của bạn giờ đây đã được kích hoạt. Có thể mất tối đa 15 phút để dịch vụ bắt đầu."</string>
+    <string name="ota_unsuccessful">"Điện thoại của bạn chưa được kích hoạt. "\n"Bạn có thể phải tìm khu vực có phạm vi phủ sóng tốt hơn (gần cửa sổ hoặc bên ngoài). "\n\n"Hãy thử lại hoặc gọi cho dịch vụ khách hàng để có tuỳ chọn khác."</string>
+    <string name="ota_spc_failure">"LỖI SPC QUÁ MỨC"</string>
+    <string name="ota_call_end">"Quay lại"</string>
+    <string name="ota_try_again">"Thử lại"</string>
+    <string name="ota_next">"Tiếp theo"</string>
+    <string name="ota_back">"Quay lại"</string>
+    <string name="ecm_exit_dialog">"EcmExitDialog"</string>
+    <string name="phone_entered_ecm_text">"Đã vào Chế độ Gọi lại Khẩn cấp"</string>
+    <string name="phone_in_ecm_notification_title">"Chế độ Gọi lại Khẩn cấp"</string>
+    <string name="phone_in_ecm_call_notification_text">"Đã vô hiệu hoá kết nối mạng"</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Không có kết nối dữ liệu trong <xliff:g id="COUNT">%s</xliff:g> phút"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Không có kết nối dữ liệu trong <xliff:g id="COUNT">%s</xliff:g> phút"</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Điện thoại sẽ ở chế độ gọi lại khẩn cấp trong <xliff:g id="COUNT">%s</xliff:g> phút. Khi ở chế độ này, bạn không thể sử dụng các ứng dụng sử dụng kết nối dữ liệu. Bạn có muốn thoát ngay bây giờ không?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Điện thoại sẽ ở chế độ gọi lại khẩn cấp trong <xliff:g id="COUNT">%s</xliff:g> phút. Khi ở chế độ này, bạn không thể sử dụng các ứng dụng sử dụng kết nối dữ liệu. Bạn có muốn thoát ngay bây giờ không?"</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Tác vụ đã chọn không khả dụng khi ở chế độ gọi lại khẩn cấp. Điện thoại sẽ ở chế độ này trong <xliff:g id="COUNT">%s</xliff:g> phút. Bạn có muốn thoát ngay bây giờ không?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Tác vụ đã chọn không khả dụng khi ở chế độ gọi lại khẩn cấp. Điện thoại sẽ ở chế độ này trong <xliff:g id="COUNT">%s</xliff:g> phút. Bạn có muốn thoát ngay bây giờ không?"</item>
+    </plurals>
+    <string name="alert_dialog_in_ecm_call">"Tác vụ đã chọn không khả dụng trong khi thực hiện cuộc gọi khẩn cấp"</string>
+    <string name="progress_dialog_exiting_ecm">"Thoát Chế độ Gọi lại Khẩn cấp"</string>
+    <string name="alert_dialog_yes">"Có"</string>
+    <string name="alert_dialog_no">"Không"</string>
+    <string name="alert_dialog_dismiss">"Loại bỏ"</string>
+    <string name="absent_num">"SỐ ẨN"</string>
+    <string name="voicemail_settings">"Cài đặt thư thoại"</string>
+    <string name="voicemail_number_not_set">"&lt;chưa được đặt&gt;"</string>
+    <string name="voicemail_provider">"Dịch vụ thư thoại"</string>
+    <string name="voicemail_settings_for">"Cài đặt cho <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string name="other_settings">"Cài đặt cuộc gọi khác"</string>
+    <string name="dial_button_label">"Quay số"</string>
+    <string name="calling_via_template">"Gọi điện qua ^1"\n<b>"^2"</b></string>
+    <string name="slide_to_answer">"Kéo sang phải để trả lời"</string>
+    <string name="slide_to_silence">"Kéo sang trái để tắt chuông"</string>
+    <string name="slide_to_decline">"Kéo sang trái để từ chối"</string>
+    <string name="slide_to_answer_and_hold">"Kéo sang phải để trả lời và"\n"giữ cuộc gọi hiện hoạt"</string>
+    <string name="slide_to_answer_and_end_active">"Kéo sang phải để trả lời và"\n"kết thúc cuộc gọi hiện hoạt"</string>
+    <string name="slide_to_answer_and_end_onhold">"Kéo sang phải để trả lời và"\n"kết thúc cuộc gọi đang chờ"</string>
+    <string name="slide_to_answer_hint">"Trả lời"</string>
+    <string name="slide_to_decline_hint">"Từ chối"</string>
+    <string name="sim_state_not_changes">Trạng thái kích hoạt/vô hiệu hóa thẻ Sim không có thay đổi.</string>
+    <string name="sim_state_set_timeout">Thời gian chờ Cài đặt Trạng thái thẻ Sim.</string>
+    <string name="data_enable_set">Cài đặt kích hoạt kết nối dữ liệu</string>
+    <string name="data_enable_set_timeout">Hết thời gian Cài đặt kích hoạt kết nối dữ liệu.</string>
+    <string name="cb_error">Chặn cuộc gọi bị từ chối</string>
+    <string name="video_camera_switch">Chuyển sang Máy ảnh</string>
+    <string name="video_view_switch">Chuyển Chế độ xem</string>
+    <string name="video_camera_close">Đóng Máy ảnh</string>
+    <string name="video_camera_open">Mở Máy ảnh</string>
+    <string name="video_speaker_close">Đóng Kênh loa</string>
+    <string name="video_speaker_open">Mở Loa</string>
+    <string name="video_bluetooth_close">Đóng Bluetooth</string>
+    <string name="video_bluetooth_open">Mở Bluetooth</string>
+    <string name="video_mute">"Im lặng"</string>
+    <string name="video_unmute">Bật tiếng</string>
+    <string name="video_decline">Từ chối</string>
+    <string name="video_falldown">Giảm xuống</string>
+    <string name="video_record">Ghi âm…</string>
+    <string name="video_start_record_both">Bắt đầu Ghi Cả hai</string>
+    <string name="video_start_record_audio">Bắt đầu Ghi âm</string>
+    <string name="video_stop_record">Dừng ghi</string>
+    <string name="insert_sd_card">Vui lòng lắp thẻ SD</string>
+    <string name="storage_is_full">Bộ nhớ đầy</string>
+    <string name="video_btn_dialer">"Bàn phím"</string>
+    <string name="video_btn_hangup">Gác máy</string>
+    <string name="video_btn_answer">Nhận</string>
+    <string name="video_btn_decline">Từ chối</string>
+    <string name="video_label_name">Tên:</string>
+    <string name="video_label_time">Thời gian gọi:</string>
+    <string name="video_label_status">Trạng thái:</string>
+    <string name="video_label_begintime">Thời gian bắt đầu:</string>
+    <string name="video_dialog_incoming">Có cuộc gọi đến, có chấp nhận không?</string>
+    <string name="video_dialog_incoming_accept">Chấp nhận</string>
+    <string name="video_dialog_incoming_tovoice">Chuyển sang thoại</string>
+    <string name="video_dialog_incoming_hangup">Gác máy</string>
+    <string name="videophonesetting_label">Cài đặt Điện thoại Truyền hình</string>
+    <string name="videophone_setting">Điện thoại Truyền hình</string>
+    <string name="videophone_setting_title">Cài đặt Chung Điện thoại Truyền hình</string>
+    <string name="videophone_setting_summary">Đặt các tùy chọn cho màn hình, layout của điện thoại truyền hình, vv…</string>
+    <string name="videophone_callforward_setting_title">Cài đặt chuyển tiếp Điện thoại Truyền hình</string>
+    <string name="videophone_callbarring_setting_title">Cài đặt chặn cuộc gọi Điện thoại Truyền hình</string>
+    <string name="videophone_setting_title_static_image">Hiển thị Hình ảnh Tĩnh</string>
+    <string name="videophone_setting_title_static_image_set">Đặt Ảnh tĩnh</string>
+    <string name="videophone_setting_title_remote_static_image_set">Cài đặt Ảnh tĩnh_Từ xa</string>
+    <string name="videophone_setting_title_local_static_image_set">Đặt Ảnh tĩnh Cục bộ</string>
+    <string name="videophone_setting_title_delete_photo">Xóa Ảnh tĩnh</string>
+    <string name="videophone_setting_title_take_photo">"Chụp ảnh"</string>
+    <string name="videophone_setting_title_pick_photo">"Chọn ảnh từ Thư viện"</string>
+    <string name="videophone_setting_photoPickerNotFoundText">"Không có ảnh nào trong điện thoại."</string>
+    <string name="videophone_setting_summary_static_image">Hiển thị hình ảnh tĩnh khi máy ảnh đóng</string>
+    <string name="videophone_setting_title_layout">Các cài đặt ưu tiên của màn hình video</string>
+    <string name="videophone_layout_my_small">Video nhỏ của tôi</string>
+    <string name="videophone_layout_my_large">Video lớn của tôi</string>
+    <string name="videophone_setting_default_image">Ảnh mặc định</string>
+    <string name="videophone_setting_picture_oversize">"Kích thước ảnh không được vượt quá 640 * 480"</string>
+    <string name="videophone_setting_picture_widthtoosmall">"Chiều rộng ảnh không được nhỏ hơn 64"</string>
+    <string name="videophone_setting_picture_heightoosmall">"Chiều cao ảnh không được nhỏ hơn 64"</string>
+    <string name="videophone_setting_picture_notjpg">"Chỉ hỗ trợ ảnh có định dạng jpg"</string>
+    <string name="videophone_setting_title_fallback">Yêu cầu gọi lại cuộc gọi thoại</string>
+    <string name="videophone_fallback_always_ask">Luôn luôn hỏi tôi</string>
+    <string name="videophone_fallback_always_callback">Luôn gọi lại</string>
+    <string name="videophone_fallback_never_callback">Không bao giờ gọi lại</string>
+    <string name="videophone_setting_dialog_title_layout">Các ưu tiên của video</string>
+    <string name="videophone_setting_dialog_title_fallback">Yêu cầu gọi lại cuộc gọi thoại</string>
+    <string name="videophone_setting_layout_defaultvalue">"1"</string>
+    <string name="videophone_setting_fallback_defaultvalue">"1"</string>
+    <string name="videophone_fallback_title">Tính năng Dự phòng Điện thoại Truyền hình</string>
+    <string name="videophone_never_fallback">Bộ thu yêu cầu cuộc gọi thoại. Từ bỏ tự động quay số lại.</string>
+    <string name="videophone_always_fallback">Bộ thu yêu cầu cuộc gọi thoại. Tự động quay số lại cuộc gọi thoại.</string>
+    <string name="videophone_notin3g_never_fallback">"Mạng hiện tại không hỗ trợ cuộc gọi video. Ngừng gọi lại tự động".</string>
+    <string name="videophone_notin3g_always_fallback">"Mạng hiện tại không hỗ trợ cuộc gọi video. Gọi lại thoại tự động".</string>
+    <string name="videophone_fallback_menu_videocall">Cuộc gọi video</string>
+    <string name="videophone_fallback_menu_voicecall">Cuộc gọi Thoại</string>
+    <string name="videophone_fallback_menu_cancel">"Hủy bỏ"</string>
+    <string name="videophone_fallback_question">Bạn muốn thực hiện những thao tác nào?</string>
+    <string name="videophone_failcause_1000">"Cuộc gọi video trước đã kết thúc đột ngột, vui lòng thử lại sau giây lát"</string>
+    <string name="videophone_failcause_1">Sai số điện thoại</string>
+    <string name="videophone_failcause_3">"Ko thể kết nối với người nhận"</string>
+    <string name="videophone_failcause_8">Cuộc gọi bị chặn</string>
+    <string name="videophone_failcause_17">"Người dùng bận"</string>
+    <string name="videophone_failcause_19">"Người dùng mà bạn đã quay số không trả lời"</string>
+    <string name="videophone_failcause_27">"Người nhận đã tắt"</string>
+    <string name="videophone_failcause_34">Kết nối bị ngắt</string>
+    <string name="videophone_failcause_63">Chặn cuộc gọi roaming</string>
+    <string name="videophone_failcause_79">"Người nhận ko hỗ trợ gọi video"</string>
+    <string name="videophone_failcause_default">"Ko thể kết nối với người nhận"</string>
+    <string name="videophone_failcause_47">"Xin lỗi, không có gọi video"</string>
+    <string name="videophone_failcause_57">"Bạn chưa khởi động dịch vụ VT"</string>
+    <string name="videophone_failcause_58">"Người nhận ko hỗ trợ gọi video"</string>
+    <string name="videophone_failcause_88">"Người nhận chọn cuộc gọi thoại"</string>
+    <string name="videophone_failcause_minus_1">Không hỗ trợ dịch vụ 3G</string>
+    <string name="videophone_incoming_prompt">Cuộc gọi video đến</string>
+    <string name="brightness">Độ sáng Màn hình</string>
+    <string name="camera_brightness">Độ sáng của Máy ảnh</string>
+    <string name="camera_contrast">Độ tương phản của Máy ảnh</string>
+    <string name="prompt_remotecamera_close">Máy ảnh từ xa đóng</string>
+    <string name="prompt_remotecamera_open">Máy ảnh từ xa mở</string>
+    <string name="sutstitute_not_exist">Hình thay thế không tồn tại</string>
+    <string name="prompt_picture_format_error">"Ảnh thay thế không phải là jpeg, phục hồi về ảnh mặc định"</string>
+    <string name="prompt_wait_voicecall">Vui lòng đợi cuộc gọi thoại</string>
+    <string name="prompt_record_finish">Tập tin ghi âm đã được lưu vào </string>
+    <string name="prompt_camera_fail">Mở máy ảnh không thành công</string>
+    <string name="prompt_no_freespace">Dung lượng trống hiện không quá 500kb, quá trình ghi âm sẽ bị ngừng.</string>
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <string name="audio_db_artist_name">Các bản ghi của bạn</string>
+    <string name="audio_db_album_name">Ghi âm</string>
+    <string name="audio_db_playlist_name">Các bản ghi của tôi</string>
+    <string name="app_name">Ứng dụng Điện thoại</string>
+    <string name="error_mediadb_new_record">Không thể lưu âm thanh ghi được</string>
+    <string name="hangup_reply_message_title">Từ chối tin nhắn</string>
+    <string name="hangup_reply_message">Tin nhắn trả lời bị gián đoạn</string>
+    <string name="hangup_reply_message_tip">khi bạn nhấp vào UI đến, sẽ tự động gửi một tin nhắn tới người gọi cho bạn.</string>
+    <string name="edit_message_content_for_hangup">Chỉnh sửa nội dung tin nhắn</string>
+    <string name="edit_message_content_introdution">Chỉnh sửa nội dung tin nhắn và chỉ ra người đặc biệt</string>
+    <string name="label_message_reject">Nội dung của thông báo cắt đường truyền</string>
+    <string name="tip_input_content">Bạn không có nội dung tin nhắn được cài đặt nào</string>
+    <string name="label_button_edit">"Chỉnh sửa"</string>
+    <string name="label_button_ok">Ok</string>
+    <string name="label_button_add_special_reply">Thêm số đặc biệt để trả lời</string>
+    <string name="reply_message_default">Tôi đang bận, tôi sẽ gọi lại cho bạn sau!</string>
+    <string name="title_message_reply_for_hangup">Chỉnh sửa nội dung thông báo</string>
+    <string name="contactPhoto">"ảnh liên hệ"</string>
+    <string name="goPrivate">"chuyển thành riêng tư"</string>
+    <string name="selectContact">"chọn địa chỉ liên hệ"</string>
+    <string name="standby_select">Chọn nguồn dự phòng</string>
+    <string name="sip_settings">"Cài đặt cuộc gọi qua Internet"</string>
+    <string name="sip_accounts">"Tài khoản gọi qua Internet (SIP)"</string>
+    <string name="sip_accounts_title">"Tài khoản"</string>
+    <string name="sip_accounts_summary">"Quản lý tài khoản và trạng thái gọi qua Internet (SIP)"</string>
+    <string name="sip_receive_calls">"Nhận cuộc gọi đến"</string>
+    <string name="sip_receive_calls_summary">"Giảm tuổi thọ pin"</string>
+    <string name="sip_call_options">"Định cấu hình tùy chọn cuộc gọi"</string>
+    <string name="sip_call_options_title">"Sử dụng tính năng gọi qua Internet"</string>
+    <string name="sip_call_options_wifi_only_title">"Sử dụng tính năng gọi qua Internet (chỉ Wi-Fi)"</string>
+    <string name="sip_call_options_entry_1">"Dành cho tất cả các cuộc gọi khi mạng dữ liệu sẵn có"</string>
+    <string name="sip_call_options_entry_2">"Chỉ dành cho các cuộc gọi qua Internet"</string>
+    <string name="sip_call_options_entry_3">"Yêu cầu cho mỗi cuộc gọi"</string>
+    <string name="sip_call_options_wifi_only_entry_1">"Dành cho tất cả các cuộc gọi"</string>
+    <string name="auto_reg">"Tự động đăng ký"</string>
+    <string name="call_priority">"Cuộc gọi đi qua SIP"</string>
+    <string name="pick_outgoing_call_phone_type">"Thực hiện cuộc gọi"</string>
+    <string name="pick_outgoing_sip_phone">"Sử dụng tài khoản gọi qua Internet:"</string>
+    <string name="remember_my_choice">"Luôn sử dụng để thực hiện cuộc gọi qua Internet"</string>
+    <string name="reset_my_choice_hint">"Bạn có thể sử dụng Cài đặt cuộc gọi để thay đổi tài khoản gọi qua Internet nào sử dụng theo mặc định khi thực hiện cuộc gọi, bằng cách chọn tài khoản khác trong cài đặt cuộc gọi qua Internet"</string>
+    <string name="pstn_phone">"Cuộc gọi qua điện thoại di động"</string>
+    <string name="internet_phone">"Cuộc gọi qua internet"</string>
+    <string name="no_sip_account_found_title">"Không có tài khoản gọi qua Internet nào"</string>
+    <string name="no_sip_account_found">"Không có tài khoản gọi qua Internet nào trên điện thoại này. Thêm tài khoản ngay bây giờ?"</string>
+    <string name="sip_menu_add">"Thêm"</string>
+    <string name="add_sip_account">"Thêm tài khoản"</string>
+    <string name="remove_sip_account">"Xóa tài khoản"</string>
+    <string name="sip_account_list">"Tài khoản SIP"</string>
+    <string name="saving_account">"Đang lưu tài khoản..."</string>
+    <string name="removing_account">"Đang xóa tài khoản..."</string>
+    <string name="sip_menu_save">"Lưu"</string>
+    <string name="sip_menu_discard">"Hủy"</string>
+    <string name="alert_dialog_close">"Đóng tiểu sử"</string>
+    <string name="alert_dialog_ok">"OK"</string>
+    <string name="close_profile">"Đóng"</string>
+    <string name="primary_account">"Chính"</string>
+    <string name="primary_account_title">"Đặt tài khoản này làm tài khoản chính của tôi"</string>
+    <string name="primary_account_summary">"Được sử dụng cho các cuộc gọi đi"</string>
+    <string name="advanced_settings_title">"Cài đặt nâng cao"</string>
+    <string name="primary_account_summary_with">"Tài khoản chính. <xliff:g id="REGISTRATION_STATUS">%s</xliff:g>"</string>
+    <string name="registration_status_checking_status">"Đang kiểm tra trạng thái..."</string>
+    <string name="registration_status_registering">"Đang đăng ký..."</string>
+    <string name="registration_status_still_trying">"Vẫn đang thử..."</string>
+    <string name="registration_status_not_receiving">"Đang không nhận cuộc gọi"</string>
+    <string name="registration_status_no_data">"Đăng ký tài khoản đã dừng do không có kết nối Internet"</string>
+    <string name="registration_status_no_wifi_data">"Đăng ký tài khoản đã dừng do không có kết nối Wi-Fi"</string>
+    <string name="registration_status_not_running">"Đăng ký tài khoản không thành công"</string>
+    <string name="registration_status_done">"Đang nhận cuộc gọi"</string>
+    <string name="registration_status_failed_try_later">"Đăng ký tài khoản không thành công: (<xliff:g id="REGISTRATION_ERROR_MESSAGE">%s</xliff:g>); sẽ thử sau"</string>
+    <string name="registration_status_invalid_credentials">"Đăng ký tài khoản không thành công: tên người dùng hoặc mật khẩu không chính xác"</string>
+    <string name="registration_status_server_unreachable">"Đăng ký tài khoản không thành công: vui lòng kiểm tra tên máy chủ"</string>
+    <string name="third_party_account_summary">"Tài khoản này hiện đang được ứng dụng <xliff:g id="ACCOUNT_OWNER">%s</xliff:g> sử dụng"</string>
+    <string name="sip_edit_title">"Chi tiết tài khoản SIP"</string>
+    <string name="sip_edit_new_title">"Chi tiết tài khoản SIP"</string>
+    <string name="domain_address_title">"Máy chủ"</string>
+    <string name="username_title">"Tên người dùng"</string>
+    <string name="password_title">"Mật khẩu"</string>
+    <string name="display_name_title">"Tên hiển thị"</string>
+    <string name="proxy_address_title">"Địa chỉ proxy đi"</string>
+    <string name="port_title">"Số cổng"</string>
+    <string name="transport_title">"Loại truyền tải"</string>
+    <string name="send_keepalive_title">"Gửi giữ kết nối"</string>
+    <string name="send_keepalive_summary">"Gửi thông báo giữ kết nối SIP"</string>
+    <string name="auto_registration_title">"Tự động đăng ký"</string>
+    <string name="auto_registration_summary">"Tự động đăng ký tiểu sử"</string>
+    <string name="set_primary_title">"Đặt làm tài khoản chính"</string>
+    <string name="set_primary_summary">"Được sử dụng cho các cuộc gọi đi"</string>
+    <string name="advanced_settings">"Cài đặt tùy chọn"</string>
+    <string name="auth_username_title">"Tên người dùng xác thực"</string>
+    <string name="auth_username_summary">"Tên người dùng được sử dụng để xác thực"</string>
+    <string name="default_preference_summary">"&lt;Chưa được đặt&gt;"</string>
+    <string name="display_name_summary">"&lt;Giống như tên người dùng&gt;"</string>
+    <string name="optional_summary">"&lt;Tùy chọn&gt;"</string>
+    <string name="advanced_settings_show">"▷ Chạm để hiển thị tất cả"</string>
+    <string name="advanced_settings_hide">"▽ Chạm để ẩn tất cả"</string>
+    <string name="empty_alert">"<xliff:g id="INPUT_FIELD_NAME">%s</xliff:g> là bắt buộc, không thể để trống"</string>
+    <string name="not_a_valid_port">"Số cổng phải trong khoảng từ 1000 đến 65534"</string>
+    <string name="no_internet_available_title">"Không có kết nối Internet"</string>
+    <string name="no_wifi_available_title">"Không có kết nối Wi-Fi"</string>
+    <string name="no_internet_available">"Để thực hiện cuộc gọi qua Internet, hãy kiểm tra kết nối của bạn trước tiên"</string>
+    <string name="no_wifi_available">"Bạn phải kết nối với mạng Wi-Fi để thực hiện các cuộc gọi qua Internet (sử dụng cài đặt Mạng &amp; Không dây)"</string>
+    <string name="no_voip">"Không hỗ trợ gọi qua Internet"</string>
+    <string name="send_message">Từ chối cuộc gọi có thông báo</string>
+    <string name="menu_endbgcall">kết thúc cuộc gọi nền tảng</string>
+    <string name="menu_endallcalls">kết thúc tất cả cuộc gọi</string>
+    <string name="adn_full">ADN đã đầy</string>
+    <string name="china_mobile_provider">Mạng di động Trung Quốc</string>
+    <string name="chn_cugsm_provider">CHN-CUGSM</string>
+    <string name="network_inhibit">BỊ CẤM</string>
+    <string name="network_unknown">KHÔNG XÁC ĐỊNH</string>
+    <string name="disk_full">"Đĩa đã đầy.Không thể thêm nhật ký cuộc gọi"</string>
+    <string name="fast_dial">cuộc gọi nhanh</string>
+    <string name="fast_dial_settings">cài đặt cuộc gọi nhanh</string>
+    <string name="fast_dial_changed">#số điện thoại gọi nhanh đã thay đổi</string>
+    <string name="fast_dial_no_changed">số điện thoại gọi nhanh chưa thay đổi.</string>
+    <string name="fast_dial_change_failed">đặt số điện thoại gọi nhanh không thành công.</string>
+    <string name="fast_dial_2">2#gọi nhanh</string>
+    <string name="fast_dial_3">3#gọi nhanh</string>
+    <string name="fast_dial_4">4#gọi nhanh</string>
+    <string name="fast_dial_5">5#gọi nhanh</string>
+    <string name="fast_dial_6">6#gọi nhanh</string>
+    <string name="fast_dial_7">7#gọi nhanh</string>
+    <string name="fast_dial_8">8#gọi nhanh</string>
+    <string name="fast_dial_9">9#gọi nhanh</string>
+    <string name="no_fast_dial">chưa đặt số điện thoại gọi nhanh </string>
+    <string name="not_set">Chưa đặt</string>
+    <string name="call_number">Đến: </string>
+    <string name="place_a_call1">Đăng ký 1</string>
+    <string name="place_a_call2">Đăng ký 2</string>
+    <string name="cancel_call">Hủy</string>
+    <string name="sub_1">"CHỦ ĐỀ 2"</string>
+    <string name="sub_2">SUB 2</string>
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="other_setting">Cài đặt cuộc gọi khác</string>
+    <string name="sim1_call_settings">"Cài đặt cuộc gọi SIM1"</string>
+    <string name="sim2_call_settings">"Cài đặt cuộc gọi SIM2"</string>
+    <string name="updating_dualsim_title">Cài đặt 2 sim</string>
+    <string name="toast_message_name_too_long">Tên quá dài, hãy sửa đổi.</string>
+    <string name="toast_message_name_number_null">Tên và số không được trống, hãy sửa đổi.</string>
+    <string name="toast_message_data_business_on">Kết nối dữ liệu đang bật, hãy tắt khi bạn chọn mạng.</string>
+    <string name="set_ip_dailing_title">Quay số IP</string>
+    <string name="ip_dailing">Danh sách số IP</string>
+    <string name="ip_dailing_setting_title">Đặt quay số IP </string>
+    <string name="ip_dailing_one_title">Số IP 1 </string>
+    <string name="ip_dailing_two_title">Số IP 2</string>
+    <string name="ip_dailing_three_title">Số IP 3</string>
+    <string name="ip_dailing_four_title">Số IP 4</string>
+    <string name="ip_dailing_five_title">Số IP 5</string>
+    <string name="ip_dailing_save_button_text">Lưu</string>
+    <string name="dialing_selector">Trình chọn quay số</string>
+    <string name="directly_call">Quay số trực tiếp</string>
+    <string name="ip_call">Quay số IP:</string>
+    <string name="emergency_call">Cuộc gọi khẩn cấp</string>
+    <string name="reply_message_cannot_be_empty">Nội dung không được trống</string>
+    <string name="auto_send_message">Tin nhắn Trả lời Tự động</string>
+    <string name="auto_send_message_tip">chọn trả lời một tin nhắn đã chuẩn bị một cách tự động.</string>
+    <string name="UPLMN_setting">"Cài đặt UPLMN"</string>
+    <string name="open_cb">Mở SMS nhắn tin quảng bá</string>
+    <string name="close_cb">Đóng SMS nhắn tin quảng bá</string>
+    <string name="init_setting">Cài đặt khởi chạy</string>
+</resources>

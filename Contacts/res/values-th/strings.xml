@@ -1,0 +1,648 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edit_group_info">แก้ไขกลุ่ม</string>
+    <string name="rename_contact_group_name">เปลี่ยนชื่อ</string>
+    <string name="no_contacts_group_name">ไม่ใช่ชื่อกลุ่มฃ</string>
+    <string name="contacts_group_name_exist">ชื่อกลุ่มที่มีอยู่</string>
+    <string name="sure">แน่นอน</string>
+    <string name="contacts_group">กลุ่ม</string>
+    <string name="divided_group_to">หาร</string>
+    <string name="add_group">เพิ่มกลุ่ม</string>
+    <string name="please_add_group">โปรดเพิ่มกลุ่ม </string>
+    <string name="delete">ลบ</string>
+    <string name="deleted">ลบแล้ว</string>
+    <string name="group_name_empty">กลุ่มที่ว่าง</string>
+    <string name="all_selected">ทั้งหมดที่เลือก</string>
+    <string name="group_new">กลุ่มใหม่</string>
+    <string name="save">บันทึก</string>
+    <string name="menu_contacts_group_add">เพิ่ม</string>
+    <string name="menu_memory_query">การสืบค้นความจำ</string>
+    <string name="contactor_will_be"><xliff:g id="COUNT">%1$d</xliff:g> รายชื่อติดต่อจะ <xliff:g id="OPTERATOR">%2$s</xliff:g></string>
+    <string name="imported">ถูกส่งออก</string>
+    <string name="exported">ถูกส่งออก</string>
+    <string name="selected">เลือกแล้ว</string>
+    <string name="sharedUserLabel">"แอปพลิเคชันหลักของ Android"</string>
+    <string name="contactsList">"รายชื่อในสมุดโทรศัพท์"</string>
+    <string name="launcherDialer">"โทรศัพท์"</string>
+    <string name="shortcutContact">"สมุดโทรศัพท์"</string>
+    <string name="shortcutDialContact">"โทรโดยตรง"</string>
+    <string name="shortcutMessageContact">"ข้อความส่วนตัว"</string>
+    <string name="shortcutActivityTitle">"เลือกทางลัดของสมุดโทรศัพท์"</string>
+    <string name="callShortcutActivityTitle">"เลือกหมายเลขที่จะโทร"</string>
+    <string name="messageShortcutActivityTitle">"เลือกหมายเลขที่จะส่งข้อความ"</string>
+    <string name="starredList">"ที่ติดดาว"</string>
+    <string name="frequentList">"บ่อยครั้ง"</string>
+    <string name="strequentList">"รายการโปรด"</string>
+    <string name="viewContactTitle">"รายละเอียดของรายชื่อ"</string>
+    <string name="viewContactDesription">"ดูรายชื่อในสมุดโทรศัพท์"</string>
+    <string name="editContactDescription">"แก้ไขรายชื่อในสมุดโทรศัพท์"</string>
+    <string name="insertContactDescription">"สร้างรายชื่อ"</string>
+    <string name="searchHint">"ค้นหาที่อยู่ติดต่อ"</string>
+    <string name="menu_search">"ค้นหา"</string>
+    <string name="menu_newContact">"สร้างรายชื่อใหม่"</string>
+    <string name="menu_viewContact">"ดูสมุดโทรศัพท์"</string>
+    <string name="menu_callNumber">"โทรหา <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_addStar">"เพิ่มในรายการโปรด"</string>
+    <string name="menu_removeStar">"ลบจากรายการโปรด"</string>
+    <string name="menu_showBarcode">แสดงบาร์โค้ด</string>
+    <string name="menu_editContact">"แก้ไขรายชื่อ"</string>
+    <string name="menu_deleteContact">"ลบรายชื่อ"</string>
+    <string name="menu_call">"โทรหารายชื่อในสมุดโทรศัพท์"</string>
+    <string name="menu_video_call">รายชื่อติดต่อวิดีโอคอล</string>
+    <string name="menu_sendSMS">"ส่งข้อความถึงรายชื่อในสมุดโทรศัพท์"</string>
+    <string name="menu_sendEmail">"ส่งอีเมล"</string>
+    <string name="menu_viewAddress">"ที่อยู่ในแผนที่"</string>
+    <string name="menu_makeDefaultNumber">"ตั้งเป็นหมายเลขเริ่มต้น"</string>
+    <string name="menu_makeDefaultEmail">"กำหนดเป็นอีเมลค่าเริ่มต้น"</string>
+    <string name="menu_splitAggregate">"แยก"</string>
+    <string name="contactsSplitMessage">"แยกรายชื่อแล้ว"</string>
+    <string name="splitConfirmation_title">"แยกรายชื่อแล้ว"</string>
+    <string name="splitConfirmation">"คุณแน่ใจหรือไม่ว่าต้องการแยกรายชื่อในสมุดโทรศัพท์ติดต่อนี้เป็นแบบหลายรายการ นั่นคือ หนึ่งรายการสำหรับชุดข้อมูลแต่ละชุดที่นำมารวมในรายการนี้"</string>
+    <string name="menu_joinAggregate">"เข้าร่วม"</string>
+    <string name="menu_showSources">แสดงแหล่งที่มา</string>
+    <string name="menu_hideSources">แหล่งที่ซ่อนไว้</string>
+    <string name="titleJoinAggregate">ร่วมการติดต่อ</string>
+    <string name="titleJoinContactDataWith">"รวมรายชื่อ"</string>
+    <string name="blurbJoinContactDataWith">"เลือกรายชื่อที่ต้องการรวมกับ <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="showAllContactsJoinItem">"แสดงรายชื่อในสมุดโทรศัพท์ทั้งหมด"</string>
+    <string name="separatorJoinAggregateSuggestions">"รายชื่อที่แนะนำ"</string>
+    <string name="separatorJoinAggregateAll">"รายชื่อในสมุดโทรศัพท์ทั้งหมด"</string>
+    <string name="contactsJoinedMessage">"รายชื่อที่รวมกัน"</string>
+    <string name="menu_contactOptions">"ตัวเลือก"</string>
+    <string name="contactOptionsTitle">"ตัวเลือก"</string>
+    <string name="deleteConfirmation_title">"ลบ"</string>
+    <string name="readOnlyContactWarning">"คุณไม่สามารถลบรายชื่อในสมุดโทรศัพท์จากบัญชีแบบอ่านอย่างเดียวได้ แต่ซ่อนไว้ในรายการรายชื่อได้"</string>
+    <string name="readOnlyContactDeleteConfirmation">"สมุดโทรศัพท์นี้มีข้อมูลจากหลายบัญชี ข้อมูลจากบัญชีแบบอ่านอย่างเดียวจะถูกซ่อนในรายการรายชื่อของคุณโดยไม่ถูกลบออก"</string>
+    <string name="multipleContactDeleteConfirmation">"การลบสมุดโทรศัพท์นี้จะลบข้อมูลจากบัญชีแบบหลายรายการ"</string>
+    <string name="deleteConfirmation">"รายชื่อนี้จะถูกลบ"</string>
+    <string name="menu_done">"เสร็จสิ้น"</string>
+    <string name="menu_doNotSave">"ย้อนกลับ"</string>
+    <string name="editContact_title_edit">"แก้ไขสมุดโทรศัพท์"</string>
+    <string name="editContact_title_insert">"สร้างรายชื่อใหม่"</string>
+    <string name="menu_addItem">ข้อมุลที่มากกว่า</string>
+    <string name="label_phonetic_name">"การออกเสียง"</string>
+    <string name="label_notes">"หมายเหตุ"</string>
+    <string name="label_sip_address">"การโทรทางอินเทอร์เน็ต"</string>
+    <string name="label_ringtone">"เสียงเรียกเข้า"</string>
+    <string name="label_groups">กลุ่ม</string>
+    <string name="group_list">, <xliff:g id="groupName">%s</xliff:g></string>
+    <string name="menu_viewGroup">แก้ไขกลุ่ม</string>
+    <string name="ghostData_name">"รายการแรกและสุดท้าย"</string>
+    <string name="ghostData_phonetic_name">"ชื่อแบบออกเสียง"</string>
+    <string name="ghostData_company">"บริษัท"</string>
+    <string name="ghostData_title">"ชื่อ"</string>
+    <string name="ghostData_im">ชื่อ IM </string>
+    <string name="ghostData_notes">บันทึกของฉัน</string>
+    <string name="ghostData_phone">หมายเลขโทรศัพท์ </string>
+    <string name="ghostData_email">ที่อยู่อีเมล์</string>
+    <string name="ghostData_postal">ที่อยู่</string>
+    <string name="ghostData_group">แสดงกลุ่ม</string>
+    <string name="invalidContactMessage">"ไม่มีรายชื่อนี้"</string>
+    <string name="pickerNewContactHeader">"สร้างรายชื่อในสมุดโทรศัพท์ใหม่"</string>
+    <string name="selectLabel">"เลือกป้าย"</string>
+    <string name="phoneLabelsGroup">"โทรศัพท์"</string>
+    <string name="emailLabelsGroup">"อีเมล"</string>
+    <string name="imLabelsGroup">"IM"</string>
+    <string name="postalLabelsGroup">"ที่อยู่ไปรษณีย์"</string>
+    <string name="otherLabelsGroup">อื่นๆ</string>
+    <string-array name="otherLabels">
+        <!-- An organization associated with a contact -->
+        <item>"องค์กร"</item>
+        <!-- A note associated with a contact -->
+        <item>"หมายเหตุ"</item>
+    </string-array>
+    <string name="errorDialogTitle">ไม่มีรูปภาพ</string>
+    <string name="photoPickerNotFoundText">"ไม่มีรูปให้ใช้งานบนโทรศัพท์"</string>
+    <string name="attachToContact">"ไอคอนรายชื่อในสมุดโทรศัพท์"</string>
+    <string name="customLabelPickerTitle">"ชื่อป้ายที่กำหนดเอง"</string>
+    <string name="menu_displayGroup">"ตัวเลือกการแสดงผล"</string>
+    <string name="displayGroups">"ตัวเลือกการแสดงผล"</string>
+    <string name="syncGroupPreference">แก้ไขการซิงค์กลุ่ม</string>
+    <string name="importFromSim">ทีอยู่การส่งออก</string>
+    <string name="send_to_voicemail_checkbox">"ส่งการโทรไปยังข้อความเสียงโดยตรง"</string>
+    <string name="send_to_voicemail_view">การเรียกถูกส่งไปยังวอยซ์เมล์โดยตรง</string>
+    <string name="default_ringtone">"เริ่มต้น"</string>
+    <string name="addPicture">เพิ่มไอคอน</string>
+    <string name="changePicture">"เปลี่ยนไอคอน"</string>
+    <string name="removePicture">"นำไอคอนออก"</string>
+    <string name="noContacts">"ไม่มีรายชื่อ"</string>
+    <string name="noMatchingContacts">"ไม่พบรายชื่อที่ตรงกัน"</string>
+    <string name="noContactsWithPhoneNumbers">"ไม่รายชื่อที่มีหมายเลขโทรศัพท์"</string>
+    <string name="noFavorites">ไม่ใช่รายการโปรด</string>
+    <string name="select_group_title">กลุ่ม</string>
+    <string name="groupEmpty">กลุ่ม \"<xliff:g id="groupName">%s</xliff:g>\" ของคุณว่างอยู่</string>
+    <string name="showAllGroups">รายชื่อติดต่อทั้งหมด</string>
+    <string name="showFilterPhones">"เฉพาะรายชื่อที่มีหมายเลขโทรศัพท์"</string>
+    <string name="showFilterPhonesDescrip">"แสดงเฉพาะสมุดโทรศัพท์ที่มีหมายเลขโทรศัพท์"</string>
+    <string name="headerContactGroups">"เลือกรายชื่อที่จะแสดง"</string>
+    <plurals name="groupDescrip">
+        <item quantity="other">"รายชื่อ <xliff:g id="COUNT">%0$d</xliff:g> รายการ"</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">"รายชื่อ <xliff:g id="COUNT_0">%1$d</xliff:g> รายการ โดยมี <xliff:g id="COUNTWITHPHONES">%2$d</xliff:g> รายที่มีโทรศัพท์"</item>
+    </plurals>
+    <string name="syncAllGroups">โอนถ่ายรายชื่อติดต่อทั้งหมด</string>
+    <string name="groupNameMyContacts">การติดต่อของฉัน</string>
+    <string name="groupNameWithPhones">ติดต่อกับหมายเลขโทรศัพท์</string>
+    <string name="starredInAndroid">ให้ดาวใน Android</string>
+    <string name="savingContact">"กำลังบันทึกรายชื่อ…"</string>
+    <string name="savingDisplayGroups">"บันทึกตัวเลือกการแสดงผล..."</string>
+    <string name="contactCreatedToast">การติดต่อถูกสร้าง</string>
+    <string name="contactSavedToast">"บันทึกรายชื่อ"</string>
+    <string name="contactDeletedToast">รายชื่อถูกลบแล้ว</string>
+    <string name="contactSavedErrorToast">"ข้อผิดพลาด บันทึกการเปลี่ยนแปลงรายชื่อในสมุดโทรศัพท์ไม่ได้"</string>
+    <string name="listSeparatorCallNumber">หมายเลขโทรออก</string>
+    <string name="listSeparatorCallNumber_edit">หมายเลขโทรศัพท์</string>
+    <string name="number_empty">"ไม่มีหมายเลขโทรศัพท์ ไม่สามารถแทรกได้'"</string>
+    <string name="listSeparatorSendSmsMms">ส่งข้อความ</string>
+    <string name="listSeparatorSendEmail">ส่งอีเมล์</string>
+    <string name="listSeparatorSendEmail_edit">ที่อยู่อีเมล์</string>
+    <string name="listSeparatorSendIm">ส่งข้อความสำเร็จ</string>
+    <string name="listSeparatorSendIm_edit">ที่อยู่การพูดคุย</string>
+    <string name="listSeparatorMapAddress">ที่อยู่แผนที่</string>
+    <string name="listSeparatorMapAddress_edit">ที่อยู่</string>
+    <string name="listSeparatorOrganizations">องค์กร</string>
+    <string name="listSeparatorGroups">กลุ่ม</string>
+    <string name="listSeparatorOtherInformation">ข้อมูลอื่นๆ</string>
+    <string name="listSeparatorOtherInformation_edit">ตัวเลือกอื่นๆ</string>
+    <string name="listSeparatorMore_edit">มากกว่า</string>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="one">"แสดงรายชื่อ 1 รายการที่มีหมายเลขโทรศัพท์"</item>
+        <item quantity="other">"กำลังแสดงรายชื่อ <xliff:g id="COUNT">%d</xliff:g> รายการที่มีหมายเลขโทรศัพท์"</item>
+    </plurals>
+    <string name="listTotalPhoneContactsZero">"ไม่มีรายชื่อที่แสดงซึ่งมีหมายเลขโทรศัพท์"</string>
+    <plurals name="listTotalAllContacts">
+        <item quantity="one">"แสดงรายชื่อ 1 รายการ"</item>
+        <item quantity="other">"กำลังแสดงรายชื่อ <xliff:g id="COUNT">%d</xliff:g> รายการ"</item>
+    </plurals>
+    <string name="listTotalAllContactsZero">"ไม่มีรายชื่อที่แสดงไว้"</string>
+    <plurals name="listFoundAllContacts">
+        <item quantity="one">"พบที่รายชื่อ 1 รายการ"</item>
+        <item quantity="other">"พบรายชื่อในสมุดโทรศัพท์ <xliff:g id="COUNT">%d</xliff:g> รายการ"</item>
+    </plurals>
+    <string name="listFoundAllContactsZero">"ไม่พบรายชื่อ"</string>
+    <plurals name="searchFoundContacts">
+        <item quantity="one">"1 รายการ"</item>
+        <item quantity="other">"รายชื่อ <xliff:g id="COUNT">%d</xliff:g> รายการ"</item>
+    </plurals>
+    <string name="socialStreamIconLabel">โซเชียล</string>
+    <string name="contactsIconLabel">"รายชื่อ"</string>
+    <string name="contactsFavoritesLabel">"รายการโปรด"</string>
+    <string name="dialerIconLabel">"โทรศัพท์"</string>
+    <string name="recentCallsIconLabel">"บันทึกการโทร"</string>
+    <string name="liveFolderAll">"รายชื่อทั้งหมด"</string>
+    <string name="liveFolderFavorites">"รายชื่อที่ติดดาว"</string>
+    <string name="liveFolderPhone">"ที่อยู่ติดต่อที่มีหมายเลขโทรศัพท์"</string>
+    <string name="menu_sendTextMessage">"ส่งข้อความตัวอักษร"</string>
+    <string name="recentCalls_callNumber">"โทรหา <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="recentCalls_editNumberBeforeCall">"แก้ไขหมายเลขก่อนโทร"</string>
+    <string name="recentCalls_addToContact">"เพิ่มในสมุดโทรศัพท์"</string>
+    <string name="recentCalls_removeFromRecentList">"ลบจากบันทึกการโทร"</string>
+    <string name="recentCalls_deleteAll">"ล้างบันทึกการโทร"</string>
+    <string name="recentCalls_deleteSome">ลบรายการการโทรบางส่วน</string>
+    <string name="recentCalls_Answered">INCOMING_TYPE</string>
+    <string name="recentCalls_NOT_Answered">MISSED_TYPE</string>
+    <string name="recentCalls_Connected">OUTGOING_TYPE</string>
+    <string name="recentCalls_Alltypes">ทุกรูปแบบ</string>
+    <string name="intent_to_firewall">ไฟร์วอลล์</string>
+    <string name="recentCalls_Confirm_delete">ยืนยันการลบ</string>
+    <string name="recentCalls_Cancel_delete">ยกเลิกการลบ</string>
+    <string name="recentCalls_button_Confirm_delete">ยืนยันการลบ</string>
+    <string name="recentCalls_button_Cancel">"ยกเลิก"</string>
+    <string name="recent_Call_log_checkbox_selecte_all">เลือกทั้งหมด</string>
+    <string name="recentCalls_empty">"บันทึกการโทรว่างเปล่า"</string>
+    <string name="clearCallLogConfirmation_title">"ล้างบันทึกการโทร"</string>
+    <string name="clearCallLogConfirmation">"คุณแน่ใจหรือไม่ว่าต้องการล้างบันทึกการโทรทั้งหมด"</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="voicemail">"ข้อความเสียง"</string>
+    <string name="unknown">"ไม่ทราบ"</string>
+    <string name="private_num">"หมายเลขส่วนตัว"</string>
+    <string name="payphone">"โทรศัพท์สาธารณะ"</string>
+    <string name="dialerKeyboardHintText">"ใช้แป้นพิมพ์กดหมายเลขโทรศัพท์"</string>
+    <string name="dialerDialpadHintText">"หมุนหมายเลขเพื่อเพิ่มการโทร"</string>
+    <string name="simContacts_emptyLoading">"กำลังโหลดจากซิมการ์ด…"</string>
+    <string name="simContacts_title">"รายชื่อบนซิมการ์ด"</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">"คุณไม่มีรายชื่อที่จะแสดง (หากคุณเพิ่งเพิ่มบัญชีลงไป อาจต้องใช้เวลาในการซิงค์รายชื่อสักครู่)"</string>
+    <string name="noContactsHelpTextForCreateShortcut">"คุณไม่มีรายชื่อให้แสดง"</string>
+    <string name="contactsSyncPlug"><font fgcolor="#ffffffff">ซิงค์รายชื่อติดต่อใน Google ของคุณ!</font>
+    \nหลังการซิงค์ไปยังโทรศัพท์ของคุณ รายชื่อติดต่อของคุณจะสามารถใช้ได้ทุกที่ที่คุณไป</string>
+    <string name="noContactsHelpText">"คุณไม่มีรายชื่อที่จะแสดง"\n\n"หากต้องการเพิ่มรายชื่อ กด "<font fgcolor="#ffffffff"><b>"เมนู"</b></font>" แล้วแตะ:"\n" "\n<li><font fgcolor="#ffffffff"><b>"บัญชี"</b></font>"เพื่อเพิ่มหรือกำหนดค่าบัญชีด้วยรายชื่อที่คุณสามารถซิงค์ลงโทรศัพท์ได้"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"สร้างรายชื่อใหม่"</b></font>" เพื่อสร้างรายชื่อขึ้นใหม่หมด"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"นำเข้า/ส่งออก"</b></font>\n</li></string>
+    <string name="noContactsHelpTextWithSync">"คุณไม่มีรายชื่อที่จะแสดง (หากคุณเพิ่งเพิ่มบัญชีลงไป อาจต้องใช้เวลาในการซิงค์รายชื่อสักครู่)"\n\n"หากต้องการเพิ่มรายชื่อ กด "<font fgcolor="#ffffffff"><b>"เมนู"</b></font>" แล้วแตะ:"\n" "\n<li><font fgcolor="#ffffffff"><b>"บัญชี"</b></font>" เพื่อเพิ่มหรือกำหนดค่าบัญชีด้วยรายชื่อที่คุณสามารถซิงค์ลงโทรศัพท์ได้"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"ตัวเลือกการแสดงผล"</b></font>" เพื่อเปลี่ยนว่าจะให้แสดงรายชื่อใดบ้าง"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"สร้างรายชื่อใหม่"</b></font>" เพื่อสร้างรายชื่อขึ้นใหม่หมด"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"นำเข้า/ส่งออก"</b></font>\n</li></string>
+    <string name="noContactsNoSimHelpText">"คุณไม่มีรายชื่อที่จะแสดง"\n\n"หากต้องการเพิ่มรายชื่อ กด "<font fgcolor="#ffffffff"><b>"เมนู"</b></font>" แล้วแตะ:"\n" "\n<li><font fgcolor="#ffffffff"><b>"บัญชี"</b></font>"เพื่อเพิ่มหรือกำหนดค่าบัญชีด้วยรายชื่อที่คุณสามารถซิงค์ลงโทรศัพท์ได้"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"สร้างรายชื่อใหม่"</b></font>" เพื่อสร้างรายชื่อขึ้นใหม่หมด"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"นำเข้า/ส่งออก"</b></font>\n</li></string>
+    <string name="noContactsNoSimHelpTextWithSync">"คุณไม่มีสมุดโทรศัพท์ที่จะแสดง (หากคุณเพิ่งเพิ่มบัญชีลงไป อาจต้องใช้เวลาในการซิงค์รายชื่อสักครู่)"\n\n"หากต้องการเพิ่มรายชื่อ กด "<font fgcolor="#ffffffff"><b>"เมนู"</b></font>" แล้วแตะ:"\n" "\n<li><font fgcolor="#ffffffff"><b>"บัญชี"</b></font>" เพื่อเพิ่มหรือกำหนดค่าบัญชีด้วยรายชื่อที่คุณสามารถซิงค์ลงโทรศัพท์ได้"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"ตัวเลือกการแสดงผล "</b></font>" เพื่อเปลี่ยนว่าจะให้แสดงรายชื่อใดบ้าง"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"สร้างรายชื่อใหม่"</b></font>" เพื่อสร้างรายชื่อขึ้นใหม่หมด"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"นำเข้า/ส่งออก"</b></font>\n</li></string>
+    <string name="noFavoritesHelpText">"คุณไม่มีรายการโปรดใดๆ "\n\n"หากต้องการเพิ่มรายชื่อในรายการโปรด:"\n\n"        "<li>"แตะที่แท็บ "<b>"สมุดโทรศัพท์"</b>" "\n</li>" "\n<li>"แตะรายชื่อที่คุณต้องการเพิ่มลงในรายการโปรด"\n</li>" "\n<li>"แตะรูปดาวที่อยู่ติดกับชื่อ"\n</li></string>
+    <string name="seclectSyncGroups_title">เลือกกลุ่มเพื่อโอนถ่ายข้อมูล</string>
+    <string name="liveFolder_all_label">"รายชื่อในสมุดโทรศัพท์ทั้งหมด"</string>
+    <string name="liveFolder_favorites_label">"ที่ติดดาว"</string>
+    <string name="liveFolder_phones_label">"โทรศัพท์"</string>
+    <string name="dialer_useDtmfDialpad">"ใช้ปุ่มกดสัญญาณเสียง"</string>
+    <string name="dialer_returnToInCallScreen">"กลับสู่การโทรที่กำลังดำเนินอยู่"</string>
+    <string name="dialer_addAnotherCall">"เพิ่มการโทร"</string>
+    <string name="callDetailTitle">"รายละเอียดการโทร"</string>
+    <string name="toast_call_detail_error">"ไม่สามารถอ่านรายละเอียดสำหรับการโทรที่ขอ"</string>
+    <string name="call_type">ประเภท</string>
+    <string name="type_incoming">"สายเรียกเข้า"</string>
+    <string name="type_outgoing">"สายโทรออก"</string>
+    <string name="type_missed">"สายที่ไม่ได้รับ"</string>
+    <string name="call_time">เวลา</string>
+    <string name="datetime_relative">"<xliff:g id="datetime" example="Dec 31, 2007, 11:00 am">%1$s</xliff:g> (<xliff:g id="relative" example="4 hours ago">%2$s</xliff:g>)"</string>
+    <string name="call_duration">ระยะเวลา</string>
+    <string name="header_actions">การดำเนินการ</string>
+    <string name="ringtone_spinner">"เสียงเรียก: <xliff:g id="ringtone" example="Caribbean Ice">%1$s</xliff:g>"</string>
+    <string name="add_more_items">เพิ่มรายกรเพิ่มเติม</string>
+    <string name="actionCall">เรียก <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionEmail">อีเมล์ <xliff:g id="ประเภท" ตัวอย่าง="หน้าหลัก">%s</xliff:g></string>
+    <string name="actionText">ข้อความ <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionChat">กำลังใช้การพูดคุย <xliff:g id="type" example="Google Talk">%s</xliff:g></string>
+    <string name="actionMap">ดูแอดเดรสของ <xliff:g id="type" example="home">%s</xliff:g> </string>
+    <string name="actionIncomingCall">"สายโทรเข้า"</string>
+    <string name="detailIncomingCallsGoToVoicemail">จะถูกส่งตรงไปยังเมล์เสียง</string>
+    <string name="detailsRingtone">กำหนดไปยัง<xliff:g id="ringtone_name" example="Flutey Phone">%s</xliff:g></string>
+    <string name="callBack">"ติดต่อกลับ"</string>
+    <string name="callAgain">"โทรอีกครั้ง"</string>
+    <string name="returnCall">"โทรกลับ"</string>
+    <string name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%1$s</xliff:g> นาที <xliff:g id="SECONDS">%2$s</xliff:g> วินาที"</string>
+    <string name="favoritesFrquentSeparator">"ที่ติดต่อบ่อยครั้ง"</string>
+    <string name="add_contact_dlg_title">"เพิ่มรายชื่อในสมุดโทรศัพท์"</string>
+    <string name="add_contact_dlg_message_fmt">"เพิ่ม \"<xliff:g id="EMAIL">%s</xliff:g>\" ในสมุดโทรศัพท์หรือไม่"</string>
+    <string name="all_tab_label">"ทั้งหมด"</string>
+    <string name="description_image_button_one">"หนึ่ง"</string>
+    <string name="description_image_button_two">"สอง"</string>
+    <string name="description_image_button_three">"สาม"</string>
+    <string name="description_image_button_four">"สี่"</string>
+    <string name="description_image_button_five">"ห้า"</string>
+    <string name="description_image_button_six">"หก"</string>
+    <string name="description_image_button_seven">"เจ็ด"</string>
+    <string name="description_image_button_eight">"แปด"</string>
+    <string name="description_image_button_nine">"เก้า"</string>
+    <string name="description_image_button_star">"ติดดาว"</string>
+    <string name="description_image_button_zero">"ศูนย์"</string>
+    <string name="description_image_button_pound">"ปอนด์"</string>
+    <string name="description_voicemail_button">"ข้อความเสียง"</string>
+    <string name="description_dial_button">"หมุนหมายเลข"</string>
+    <string name="description_delete_button">"ย้อนกลับ"</string>
+    <string name="description_digits_edittext">"หมายเลขที่จะโทร"</string>
+    <string name="description_contact_photo">"ภาพของรายชื่อ"</string>
+    <string name="description_minus_button">"minus"</string>
+    <string name="description_plus_button">"plus"</string>
+    <string name="no_sdcard_title" product="nosdcard">"ที่เก็บข้อมูล USB ใช้งานไม่ได้"</string>
+    <string name="no_sdcard_title" product="default">"ไม่มีการ์ด SD"</string>
+    <string name="no_sdcard_message" product="nosdcard">"ไม่พบที่เก็บข้อมูล USB"</string>
+    <string name="no_sdcard_message" product="default">"ไม่พบการ์ด SD"</string>
+    <string name="searching_vcard_title">"กำลังค้นหา vCard"</string>
+    <string name="select_import_type_title">คุณต้องการนำเข้ารายชื่อติดต่อจากที่ใด?</string>
+    <string name="import_from_sim">"นำเข้าจากซิมการ์ด"</string>
+    <string name="import_from_sim1">นำเข้าจาก Sim1</string>
+    <string name="import_from_sim2">นำเข้าจาก Sim2</string>
+    <string name="import_from_sdcard" product="nosdcard">"นำเข้าจากที่เก็บข้อมูล USB"</string>
+    <string name="import_from_sdcard" product="default">"นำเข้าจากการ์ด SD"</string>
+    <string name="export_to_sdcard" product="nosdcard">"ส่งออกไปยังที่เก็บข้อมูล USB"</string>
+    <string name="export_to_sdcard" product="default">"ส่งออกไปยังการ์ด SD"</string>
+    <string name="share_visible_contacts">"แบ่งปันสมุดโทรศัพท์ที่มองเห็น"</string>
+    <string name="import_one_vcard_string">"นำเข้าไฟล์ vCard หนึ่งไฟล์"</string>
+    <string name="import_multiple_vcard_string">"นำเข้าไฟล์ vCard หลายไฟล์"</string>
+    <string name="import_all_vcard_string">"นำเข้าไฟล์ vCard ทั้งหมด"</string>
+    <string name="searching_vcard_message" product="nosdcard">"กำลังค้นหาข้อมูล vCard ในที่เก็บข้อมูล USB"</string>
+    <string name="searching_vcard_message" product="default">"กำลังค้นหาข้อมูล vCard บนการ์ด SD"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard">"การสแกนที่เก็บข้อมูล USB ล้มเหลว"</string>
+    <string name="scanning_sdcard_failed_title" product="default">"การสแกนการ์ด SD ล้มเหลว"</string>
+    <string name="scanning_sdcard_failed_message" product="nosdcard">"การสแกนที่เก็บข้อมูล USB ล้มเหลว (เหตุผล: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\")"</string>
+    <string name="scanning_sdcard_failed_message" product="default">"การสแกนการ์ด SD ล้มเหลว (เหตุผล: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\")"</string>
+    <string name="fail_reason_io_error">"ข้อผิดพลาด I/O"</string>
+    <string name="fail_reason_vcard_parse_error">"แยกวิเคราะห์ vCard ไม่สำเร็จด้วยเหตุผลที่ไม่คาดคิด"</string>
+    <string name="fail_reason_vcard_not_supported_error">"แยกวิเคราะห์ vCard ไม่สำเร็จแม้รูปแบบจะไม่ถูกต้อง เนื่องจากการปฏิบัติงานปัจจุบันไม่สนับสนุน"</string>
+    <string name="fail_reason_no_vcard_file" product="nosdcard">"ไม่พบไฟล์ vCard ในที่เก็บข้อมูล USB"</string>
+    <string name="fail_reason_no_vcard_file" product="default">"ไม่พบไฟล์ vCard บนการ์ด SD"</string>
+    <string name="fail_reason_no_vcard_entry">ไม่มีการพบการเข้าถึง vCard ที่ใช้งานได้สำหรับการเลือกของคุณ</string>
+    <string name="fail_reason_failed_to_read_files">"นำเข้าไฟล์ตั้งแต่หนึ่งไฟล์ขึ้นไปไม่สำเร็จ (%s)"</string>
+    <string name="fail_reason_unknown">"เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ"</string>
+    <string name="select_vcard_title">"เลือกไฟล์ vCard"</string>
+    <string name="select_vcard_message">โปรดเลือกไฟล์ vCard ในการนำรายชื่อติดต่อเข้า </string>
+    <string name="progress_shower_message">"<xliff:g id="ACTION">%1$s</xliff:g>"\n"<xliff:g id="FILENAME">%2$s</xliff:g>"</string>
+    <string name="reading_vcard_title">"กำลังอ่าน vCard"</string>
+    <string name="reading_vcard_message">"กำลังอ่านไฟล์ vCard"</string>
+    <string name="importing_vcard_message">กำลังส่งออกข้อมูล vCard</string>
+    <string name="reading_vcard_failed_title">"การอ่านข้อมูล vCard ล้มเหลว"</string>
+    <string name="reading_vcard_failed_message">ไม่สามารถอ่านวีการ์ด.\nเหตุผลของการล้มเหลว: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    <string name="reading_vcard_contacts">"รายชื่อในสมุดโทรศัพท์ <xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> จาก <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> รายการ"</string>
+    <string name="reading_vcard_files">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> จาก <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> ไฟล์"</string>
+    <string name="export_all_contacts">รายชื่อติดต่อทั้งหมด</string>
+    <string name="export_phone_local_only">การติดต่อถูกจัดเก็บเฉพาะที่</string>
+    <string name="export_contact_list">การส่งออกการติดต่อ</string>
+    <string name="confirm_export_title">"ยืนยันการส่งออก"</string>
+    <string name="confirm_export_message">"คุณแน่ใจหรือไม่ว่าต้องการส่งรายการชื่อให้ \"<xliff:g id="VCARD_FILENAME">%s</xliff:g>\""</string>
+    <string name="exporting_contact_failed_title">"ส่งออกข้อมูลรายชื่อในสมุดโทรศัพท์ไม่สำเร็จ"</string>
+    <string name="exporting_contact_failed_message">"ส่งออกข้อมูลรายชื่อไม่สำเร็จ"\n"เหตุผลที่ล้มเหลว: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_no_exportable_contact">"ไม่มีรายชื่อในสมุดโทรศัพท์ที่สามารถส่งออกได้"</string>
+    <string name="fail_reason_too_many_vcard" product="nosdcard">"มีไฟล์ vCard มากเกินไปในที่เก็บข้อมูล USB"</string>
+    <string name="fail_reason_too_many_vcard" product="default">"มีไฟล์ vCard บนการ์ด SD มากเกินไป"</string>
+    <string name="fail_reason_too_long_filename">"ชื่อไฟล์ที่ต้องใช้ยาวเกินไป (\"<xliff:g id="FILENAME">%s</xliff:g>\")"</string>
+    <string name="fail_reason_cannot_open_destination_dir">ไม่สามารถเปิดหรือสร้างไดเร็คทอรี่เป้าหมาย  \"<xliff:g id="dir_name">%s</xliff:g>\"</string>
+    <string name="exporting_contact_list_title">"กำลังส่งออกข้อมูลสมุดโทรศัพท์"</string>
+    <string name="exporting_contact_list_message">"กำลังส่งออกข้อมูลรายชื่อในสมุดโทรศัพท์ไปยัง \"<xliff:g id="FILE_NAME">%s</xliff:g>\""</string>
+    <string name="fail_reason_could_not_initialize_exporter">"เริ่มใช้งานโปรแกรมส่งออกไม่ได้: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_error_occurred_during_export">"เกิดข้อผิดพลาดระหว่างส่งออก: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="composer_failed_to_get_database_infomation">"เรียกข้อมูลจากฐานข้อมูลไม่สำเร็จ"</string>
+    <string name="composer_has_no_exportable_contact">"ไม่มีรายชื่อที่ส่งออกได้ หากคุณมีรายชื่อในโทรศัพท์ รายชื่อทั้งหมดอาจถูกห้ามส่งออกไปยังโทรศัพท์ภายนอกโดยผู้ให้บริการข้อมูลบางราย"</string>
+    <string name="composer_not_initialized">"โปรแกรมเขียนข้อความ vCard เริ่มการทำงานไม่ถูกต้อง"</string>
+    <string name="fail_reason_could_not_open_file">"ไม่สามารถเปิด \"<xliff:g id="FILE_NAME">%1$s</xliff:g>\": <xliff:g id="EXACT_REASON">%2$s</xliff:g>"</string>
+    <string name="exporting_contact_list_progress">"รายชื่อในสมุดโทรศัพท์ <xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> จาก <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> รายการ"</string>
+    <string name="search_settings_description">"ชื่อของรายชื่อในสมุดโทรศัพท์ของคุณ"</string>
+    <string name="add_2sec_pause">"เพิ่มช่วงคั่น 2 วินาที"</string>
+    <string name="add_wait">"เพิ่มการรอ"</string>
+    <string name="dial_button_label">โทรออก</string>
+    <string name="call_disambig_title">"โทรออกโดยใช้"</string>
+    <string name="sms_disambig_title">"ส่งข้อความโดยใช้"</string>
+    <string name="make_primary">"จำตัวเลือกนี้"</string>
+    <string name="quickcontact_missing_app">"ไม่พบแอปพลิเคชันสำหรับการทำงานนี้"</string>
+    <string name="quickcontact_remember_choice">"จำตัวเลือกนี้"</string>
+    <string name="quickcontact_missing_name">"ไม่ทราบ"</string>
+    <string name="menu_accounts">"บัญชี"</string>
+    <string name="menu_import_export">"นำเข้า/ส่งออก"</string>
+    <string name="dialog_import_export">"นำเข้า/ส่งออกรายชื่อในสมุดโทรศัพท์"</string>
+    <string name="menu_share">"ใช้ร่วมกัน"</string>
+    <string name="share_via">"ใช้สมุดโทรศัพท์ร่วมกันทาง"</string>
+    <string name="share_error">"รายชื่อนี้ไม่สามารถแบ่งปันได้"</string>
+    <string name="nameLabelsGroup">"ชื่อ"</string>
+    <string name="nicknameLabelsGroup">"ชื่อเล่น"</string>
+    <string name="organizationLabelsGroup">"องค์กร"</string>
+    <string name="websiteLabelsGroup">"เว็บไซต์"</string>
+    <string name="eventLabelsGroup">"กิจกรรม"</string>
+    <string name="type_short_home">"H"</string>
+    <string name="type_short_mobile">"M"</string>
+    <string name="type_short_work">"W"</string>
+    <string name="type_short_pager">"P"</string>
+    <string name="type_short_other">"O"</string>
+    <string name="edit_read_only">"รายชื่อนี้เป็นแบบอ่านอย่างเดียว"</string>
+    <string name="edit_secondary_collapse">"เพิ่มเติม"</string>
+    <string name="dialog_primary_name">"ชื่อหลัก"</string>
+    <string name="dialog_new_contact_account">"สร้างรายชื่อภายในบัญชี"</string>
+    <string name="menu_sync_remove">"นำกลุ่มที่ซิงค์ออก"</string>
+    <string name="dialog_sync_add">"เพิ่มกลุ่มที่ซิงค์"</string>
+    <string name="display_more_groups">"กลุ่มเพิ่มเติม…"</string>
+    <string name="display_ungrouped">"รายชื่ออื่นๆ ทั้งหมด"</string>
+    <string name="display_all_contacts">"รายชื่อในสมุดโทรศัพท์ทั้งหมด"</string>
+    <string name="display_warn_remove_ungrouped">"การนำ \"<xliff:g id="GROUP">%s</xliff:g>\" ออกจากการซิงค์จะนำรายชื่อในสมุดโทรศัพท์ที่ไม่ได้จัดกลุ่มออกจากการซิงค์ด้วย"</string>
+    <string name="label_email_display_name">แสดงชื่อ</string>
+    <string name="account_phone">"โทรศัพท์เท่านั้น ไม่ซิงค์"</string>
+    <string name="call_custom">"โทรหา <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="call_home">"โทรเข้าบ้าน"</string>
+    <string name="call_mobile">"โทรเข้ามือถือ"</string>
+    <string name="call_work">"โทรหาที่ทำงาน"</string>
+    <string name="call_fax_work">"โทรหาแฟกซ์ที่ทำงาน"</string>
+    <string name="call_fax_home">"โทรเข้าหมายเลขแฟกซ์ที่บ้าน"</string>
+    <string name="call_pager">"โทรหาเพจเจอร์"</string>
+    <string name="call_other">"โทร"</string>
+    <string name="call_callback">"โทรหาหมายเลขติดต่อกลับ"</string>
+    <string name="call_car">"โทรเข้าโทรศัพท์ในรถ"</string>
+    <string name="call_company_main">"โทรหาโทรศัพท์หลักของบริษัท"</string>
+    <string name="call_isdn">"โทรหา ISDN"</string>
+    <string name="call_main">"โทรเข้าโทรศัพท์หลัก"</string>
+    <string name="call_other_fax">"โทรเข้าหมายเลขแฟกซ์"</string>
+    <string name="call_radio">"โทรเข้าวิทยุ"</string>
+    <string name="call_telex">"โทรเข้าหมายเลขเทเล็กซ์"</string>
+    <string name="call_tty_tdd">"โทรหา TTY/TDD"</string>
+    <string name="call_work_mobile">"โทรเข้ามือถือที่ทำงาน"</string>
+    <string name="call_work_pager">"โทรเข้าเพจเจอร์ที่ทำงาน"</string>
+    <string name="call_assistant">"โทรหา <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="call_mms">"โทรหา MMS"</string>
+    <string name="sms_custom">"ส่งข้อความถึง <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="sms_home">"ส่งข้อความเข้าโทรศัพท์บ้าน"</string>
+    <string name="sms_mobile">"ส่งข้อความเข้ามือถือ"</string>
+    <string name="sms_work">"ส่งข้อความถึงโทรศัพท์ที่ทำงาน"</string>
+    <string name="sms_fax_work">"ส่งข้อความถึงแฟกซ์ที่ทำงาน"</string>
+    <string name="sms_fax_home">"ส่งข้อความเข้าหมายเลขแฟกซ์บ้าน"</string>
+    <string name="sms_pager">"ส่งข้อความถึงเพจเจอร์"</string>
+    <string name="sms_other">"ข้อความ"</string>
+    <string name="sms_callback">"ส่งข้อความถึงหมายเลขติดต่อกลับ"</string>
+    <string name="sms_car">"ส่งข้อความถึงรถยนต์"</string>
+    <string name="sms_company_main">"ส่งข้อความเข้าโทรศัพท์หลักของบริษัท"</string>
+    <string name="sms_isdn">"ส่งข้อความถึง ISDN"</string>
+    <string name="sms_main">"ส่งข้อความถึงโทรศัพท์หลัก"</string>
+    <string name="sms_other_fax">"ส่งข้อความถึงหมายเลขแฟกซ์"</string>
+    <string name="sms_radio">"ส่งข้อความถึงวิทยุ"</string>
+    <string name="sms_telex">"ส่งข้อความถึงเทเล็กซ์"</string>
+    <string name="sms_tty_tdd">"ส่งข้อความถึง TTY/TDD"</string>
+    <string name="sms_work_mobile">"ส่งข้อความถึงโทรศัพท์มือถือที่ทำงาน"</string>
+    <string name="sms_work_pager">"ส่งข้อความเข้าเพจเจอร์ที่ทำงาน"</string>
+    <string name="sms_assistant">"ส่งข้อความถึง <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="sms_mms">"ส่งข้อความถึง MMS"</string>
+    <string name="email_home">"ส่งไปที่อีเมลส่วนตัว"</string>
+    <string name="email_mobile">"ส่งอีเมลเข้ามือถือ"</string>
+    <string name="email_work">"ส่งอีเมลถึงที่ทำงาน"</string>
+    <string name="email_other">"อีเมล"</string>
+    <string name="email_custom">"อีเมล <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="email">"อีเมล"</string>
+    <string name="map_home">"ดูที่อยู่บ้าน"</string>
+    <string name="map_work">"ดูที่อยู่ที่ทำงาน"</string>
+    <string name="map_other">"ดูที่อยู่"</string>
+    <string name="map_custom">"ดูที่อยู่ <xliff:g id="CUSTOM">%s</xliff:g> รายการ"</string>
+    <string name="chat_aim">"แชทโดยใช้ AIM"</string>
+    <string name="chat_msn">"แชทโดยใช้ Windows Live"</string>
+    <string name="chat_yahoo">"แชทโดยใช้ Yahoo"</string>
+    <string name="chat_skype">"แชทโดยใช้ Skype"</string>
+    <string name="chat_qq">"แชทโดยใช้ QQ"</string>
+    <string name="chat_gtalk">"แชทโดยใช้ Google Talk"</string>
+    <string name="chat_icq">"แชทโดยใช้ ICQ"</string>
+    <string name="chat_jabber">"แชทโดยใช้ Jabber"</string>
+    <string name="chat_other">"พูดคุยโดยใช้เครื่องมืออื่น"</string>
+    <string name="chat">"แชท"</string>
+    <string name="postal_street">"ถนน"</string>
+    <string name="postal_pobox">"ตู้ ปณ."</string>
+    <string name="postal_neighborhood">"ย่านใกล้เคียง"</string>
+    <string name="postal_city">"เมือง"</string>
+    <string name="postal_region">"รัฐ"</string>
+    <string name="postal_postcode">"รหัสไปรษณีย์"</string>
+    <string name="postal_country">"ประเทศ"</string>
+    <string name="name_given">"ชื่อ"</string>
+    <string name="name_family">"นามสกุล"</string>
+    <string name="name_prefix">"คำนำหน้าชื่อ"</string>
+    <string name="name_middle">"ชื่อกลาง"</string>
+    <string name="name_suffix">"คำต่อท้ายชื่อ"</string>
+    <string name="name_phonetic_given">"ชื่อแบบออกเสียง"</string>
+    <string name="name_phonetic_middle">"ชื่อกลางแบบออกเสียง"</string>
+    <string name="name_phonetic_family">"นามสกุลแบบออกเสียง"</string>
+    <string name="split_label">แยก</string>
+    <string name="split_explanation">สร้างข้อมูลนี้เป็นการติดต่อของตนเอง</string>
+    <string name="account_name_format">จาก  <xliff:g id="source" example="Gmail">%1$s</xliff:g> บัญชี: <xliff:g id="account" example="user@gmail.com">%2$s</xliff:g></string>
+    <string name="account_type_format">"รายชื่อในสมุดโทรศัพท์จาก <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="from_account_format">"จาก <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="use_photo_as_primary">"ใช้ภาพนี้"</string>
+    <string name="contact_read_only">"ข้อมูลรายชื่อของ <xliff:g id="SOURCE">%1$s</xliff:g> แก้ไขบนอุปกรณ์นี้ไม่ได้"</string>
+    <string name="no_contact_details">"ไม่มีข้อมูลเพิ่มเติมสำหรับรายชื่อนี้"</string>
+    <string name="display_options_sort_list_by">"เรียงรายการตาม"</string>
+    <string name="display_options_sort_by_given_name">"ชื่อ"</string>
+    <string name="display_options_sort_by_family_name">"นามสกุล"</string>
+    <string name="display_options_view_names_as">"ดูชื่อของรายชื่อเป็น"</string>
+    <string name="display_options_view_given_name_first">"ขึ้นต้นด้วยชื่อ"</string>
+    <string name="display_options_view_family_name_first">"ขึ้นต้นด้วยนามสกุล"</string>
+    <string name="search_bar_hint">"ค้นหารายชื่อในสมุดโทรศัพท์"</string>
+    <string name="search_for_all_contacts">"ค้นหารายชื่อทั้งหมด"</string>
+    <string name="take_photo">"ถ่ายภาพ"</string>
+    <string name="pick_photo">"เลือกภาพจากแกลเลอรี"</string>
+    <string name="locale_change_in_progress">"กำลังอัปเดตรายการสมุดโทรศัพท์เพื่อแสดงการเปลี่ยนภาษา"\n\n"โปรดรอสักครู่..."</string>
+    <string name="upgrade_in_progress">"กำลังอัปเดตรายชื่อในสมุดโทรศัพท์"\n\n"โปรดรอสักครู่..."</string>
+    <string name="upgrade_out_of_memory">"กำลังอัปเกรดรายชื่อ"\n\n"การอัปเกรดต้องใช้พื้นที่จัดเก็บภายในโทรศัพท์ประมาณ <xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MB"\n\n"เลือกตัวเลือกใดต่อไปนี้:"</string>
+    <string name="upgrade_out_of_memory_uninstall">"ถอนการติดตั้งแอปพลิเคชันบางอย่าง"</string>
+    <string name="upgrade_out_of_memory_retry">"ลองอัปเกรดซ้ำ"</string>
+    <string name="search_results_for">"ผลการค้นหาสำหรับ: <xliff:g id="QUERY">%s</xliff:g>"</string>
+    <string name="search_results_searching">"กำลังค้นหา..."</string>
+    <string name="dialer_call_switch">โทรออกด้วยเสียง/วิดีโอคอล</string>
+    <string name="menu_voicecall">โทรออกด้วยเสียง</string>
+    <string name="menu_videocall">วิดีโอคอล</string>
+    <string name="select_all">เลือกทั้งหมด</string>
+    <string name="select_contacts">เลือกเบอร์ติดต่อ</string>
+    <string name="delete_contacts">ลบรายชื่อติดต่อ</string>
+    <string name="export_contacts">การส่งออกการติดต่อ</string>
+    <string name="import_contacts">ทีอยู่การส่งออก</string>
+    <string name="add_contacts_to_group">เพิ่มรายชื่อติดต่อในกลุ่ม</string>
+    <string name="ok">"ตกลง"</string>
+    <string name="cancel">"ยกเลิก"</string>
+    <string name="contact_tag">ชื่อ</string>
+    <string name="inputting__name_sim_contacts">บันทึก:ความยาวสูงสุด 14 ตัวอักษร (หากตัวอักษรหรือแถวตัวอักษรยอมให้ได้สูงสุด 6 ตัวอักษร) นอกเหนือจากความยาวที่อาจจะถูกตัดออก)</string>
+    <string name="inputting_number_sim_contacts">บันทึก: ความยาวสูงสุด 20 ตัวอักษร (เฉพาะ 0-9 +, * ตัวอักษร).</string>
+    <string name="setting_digits">1234567890+*#,;</string>
+    <string name="menu_contacts_group">กลุ่มการติดต่อ</string>
+    <string name="menu_delete">ลบการติดต่อ</string>
+    <string name="on_progress">ระหว่างดำเนินการ...โปรดรอ</string>
+    <string name="deleting_contacts">กำลังลบรายชื่อติดต่อ กรุณารอ</string>
+    <string name="importing_contacts">กำลังส่งออก, โปรดรอ</string>
+    <string name="exporting_contacts">การส่งออกการติดต่อ, โปรดรอ</string>
+    <string name="adding_contacts_to_group">กำลังเพิ่มรายชื่อติดต่อในกลุ่ม กรุณารอ</string>
+    <string name="confirm">ยืนยัน?</string>
+    <string name="export_to_sim">ส่งไปยังซิมการ์ด</string>
+    <string name="export_to_sim1">ส่งไปยัง sim1</string>
+    <string name="export_to_sim2">ส่งไปยัง sim2</string>
+    <string name="group_all">รายชื่อติดต่อทั้งหมด</string>
+    <string name="group_phone">รายชื่อติดต่อในโทรศัพท์</string>
+    <string name="group_sim">รายชื่อติดต่อใน Sim การ์ด</string>
+    <string name="group_sim1">"รายชื่อติดต่อของ Sim1"</string>
+    <string name="group_sim2">"รายชื่อติดต่อของ Sim2"</string>
+    <string name="view_simContact">ดูรายชื่อติดต่อในซิม</string>
+    <string name="edit_simContact">แก้ไขการติดต่อซิม</string>
+    <string name="insert_simContact">เพิ่มรายชื่อติดต่อของ Sim</string>
+    <string name="select_contacts_group">เลือกกลุ่มติดต่อ</string>
+    <string name="select_contacts_group_to_add">เลือกกลุ่มเพื่อเพิ่มรายการติดต่อใหม่ลงไป</string>
+    <string name="sim_card">Sim การ์ด</string>
+    <string name="sim_card1">"Sim การ์ด 1"</string>
+    <string name="sim_card2">"Sim การ์ด 2"</string>
+    <string name="phone">โทรศัพท์</string>
+    <string name="toast_simcontact_no_name">ไม่มีชื่อ</string>
+    <string name="toast_simcontact_no_phone_number">ไม่มีเบอร์โทรศัพท์</string>
+    <string name="dial_number">โทรออก</string>
+    <string name="send_message">ข้อความ</string>
+    <string name="account_sim">ซิมอย่างเดียว</string>
+    <string name="account_sim1">"SIM1 เท่านั้น"</string>
+    <string name="account_sim2">"SIM2 เท่านั้น"</string>
+    <string name="sim1_no_ready">"Sim การ์ด 1 ยังไม่พร้อม"</string>
+    <string name="sim2_no_ready">"Simการ์ด 2 ยังไม่พร้อม"</string>
+    <string name="sim_no_ready">"Sim การ์ดยังไม่พร้อม"</string>
+    <string name="noContactsWithSimNumbers">"ไม่มีรายชื่อใน SIM การ์ด"</string>
+    <string name="no_match_people">ไม่สัมพันธ์กับการติดต่อที่พบ</string>
+    <string name="dialpad_colon">:</string>
+    <string name="progress_dialog_title">กำลังส่งออกการติดต่อซิม</string>
+    <string name="sim_is_initializing">เริ่มต้นค่าซิมการ์ด</string>
+    <string name="toast_sim_overflow">Sim การ์ดเต็ม</string>
+    <string name="toast_simcontact_input_overflow">การติดต่อข้อมูลอินพุทไหลล้นออกมา</string>
+    <string name="toast_no_map_apk">ไม่มีแอพพลิเคชั่น Map</string>
+    <string name="toast_name_number_both_empty">ชื่อและหมายเลขโทรศัพท์ไม่สามารถว่างไว้ได้ทั้งสองอย่าง</string>
+    <string name="import_to_phone">ส่งออกไปยังโทรศัพท์</string>
+    <string name="recentCalls_addToCallFireWall">เพิ่มใน CallFireWall</string>
+    <string name="contactslist_menu_addto_firewall">เพิ่มใน CallFireWall</string>
+    <string name="contactslist_menu_addto_firewall_null">หมายเลขติดต่อว่าง โปรดเลือกรายชื่อติดต่ออื่นๆ ใหม่อีกครั้ง</string>
+    <string name="videocall_string">วิดีโอ</string>
+    <string name="export_contacts_to_sdcard">"ส่งรายชื่อติดต่อไปยัง sd การ์ด"</string>
+    <string name="recentCalls_delete_toest">"กรุณาเลือกรายการที่ลบ"</string>
+    <string name="sendType_MMS">"ข้อมูลนี้จะถูกส่งเป็น MMS"</string>
+    <string name="sendType_SMS">"ข้อมูลนี้จะถูกส่งเป็น SMS"</string>
+    <string name="service_is_busy">"บริการ Sync ไม่ว่าง บางฟังก์ชั่นไม่สามารถใช้งานได้"</string>
+    <string name="label_success">"สำเร็จ"</string>
+    <string name="label_fail">"ไม่สำเร็จ"</string>
+    <string name="group_manager">"ติดต่อกลุ่ม"</string>
+    <string name="group_manager_delete">"การจัดกลุ่มรายชื่อติดต่อ - ลบ"</string>
+    <string name="empty">"กลุ่มว่าง กรุณาใส่รายการที่จะเพิ่ม"</string>
+    <string name="noGroupInfo">"ไม่มีกลุ่มให้ดำเนินการ"</string>
+    <string name="conatcts_name">"ชื่อ"</string>
+    <string name="phone_number">"โทรศัพท์"</string>
+    <string name="phone1">"โทรศัพท์ 1"</string>
+    <string name="phone2">"โทรศัพท์ 2"</string>
+    <string name="phone3">"โทรศัพท์ 3"</string>
+    <string name="phone4">"โทรศัพท์ 4"</string>
+    <string name="nickname">"ชื่อเล่น"</string>
+    <string name="concacts_email">"อีเมล"</string>
+    <string name="ghostData_phone1">"หมายเลขโทรศัพท์ที่ 1"</string>
+    <string name="ghostData_phone2">"หมายเลขโทรศัพท์ที่ 2"</string>
+    <string name="ghostData_phone3">"หมายเลขโทรศัพท์ที่ 3"</string>
+    <string name="ghostData_phone4">"หมายเลขโทรศัพท์ที่ 4"</string>
+    <string name="ghostData_nickname">"ชื่อเล่น"</string>
+    <string name="ghostData_concatct_email">"อีเมล"</string>
+    <string name="contacts_is_null">"ใส่ข้อมูลรายชื่อติดต่อ"</string>
+    <string name="export_sim_success">"ส่งออก SIM สำเร็จ"</string>
+    <string name="export_sim_fail">"ส่งออก SIM ไม่สำเร็จ"</string>
+    <string name="export_sim1_success">"ส่งออก SIM1 สำเร็จ"</string>
+    <string name="export_sim1_fail">"ส่งออก SIM1 ไม่สำเร็จ"</string>
+    <string name="export_sim2_success">"ส่งออก SIM2 สำเร็จ"</string>
+    <string name="export_sim2_fail">"ส่งออก SIM2 ไม่สำเร็จ"</string>
+    <string name="add_to_group_success">"เพิ่มกลุ่มสำเร็จ"</string>
+    <string name="add_to_group_fail">"เพิ่มกลุ่มไม่สำเร็จ"</string>
+    <string name="import_to_phone_success">"นำเข้าโทรศัพท์สำเร็จ"</string>
+    <string name="import_to_phone_fail">"นำเข้าโทรศัพท์ไม่สำเร็จ"</string>
+    <string name="delete_phone_success">"การลบสำเร็จ"</string>
+    <string name="delete_phone_fail">"การลบล้มเหลว"</string>
+    <string name="delete_sim_success">"การลบสำเร็จ"</string>
+    <string name="delete_sim_fail">"การลบล้มเหลว"</string>
+    <string name="recentCallsAllIconLabel">ทั้งหมด</string>
+    <string name="recentCallsMissedIconLabel">ไม่ได้รับ</string>
+    <string name="recentCallsOutgoingIconLabel">กำลังส่งออกไป</string>
+    <string name="recentCallsReceivedIconLabel">ได้รับ</string>
+    <string name="select_one">เลือกอย่างน้อยหนึ่งไอเท็ม!</string>
+    <string name="remove_contacts_from_group">ลบชื่อติดต่อนี้ออกจากกลุ่ม </string>
+    <string name="sim_card_name_too_long">ชื่อซิมการ์ดยาวเกินไป</string>
+    <string name="group_name_cannot_empty">ชื่อกลุ่มไม่สามารถว่างเปล่าได้</string>
+    <string name="assistantLabelPickerTitle">ผู้ช่วยชื่อป้าย</string>
+    <string name="share_by_sms">ส่งรายชื่อติดต่อผ่าน SMS</string>
+    <string name="share_by_mms">ส่งรายชื่อติดต่อผ่าน MMS</string>
+    <string name="share_by_bluetooth">ส่งรายชื่อติดต่อผ่านบลูทูธ</string>
+    <string name="share_by_email">ส่งรายชื่อติดต่อผ่านอีเมล์</string>
+    <string name="chat_custom">"พูดคุยโดยใช้ <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="deleting">"กำลังลบ ลองใหม่อีกครั้ง"</string>
+    <string name="import_aborted">"ยกเลิกการนำเข้า"</string>
+    <string name="exprot_fail">"ส่งออกไม่สำเร็จ อุปกรณ์ไม่มีพื้นที่ว่าง"</string>
+    <string name="exprot_fail_only_email">"รายชื่อติดต่อเฉพาะอีเมล ไม่สามารถส่งไปยัง SIM ได้"</string>
+    <string name="contacts_information_is_replace">"แทนที่ข้อมูลรายชื่อติดต่อ"</string>
+    <string name="import_sim_too_many">"ผู้ใช้นำเข้ามากกว่าที่ sim การ์ดสามารถรับได้"</string>
+    <string name="whether_import_from_SD">"นำเข้าจาก SD การ์ดหากสัมผัสหรือไม่?"</string>
+    <string name="blacklist_add">เพิ่มในบัญชีดำ</string>
+    <string name="blacklist">บัญชีดำ</string>
+    <string name="blacklist_no_number">ไม่มีหมายเลข คุณไม่สามารถเพิ่มได้</string>
+    <string name="no_fast_dial">หมายเลขโทรด่วนไม่ได้กำหนด</string>
+    <string name="fast_dial_choose">โปรดเลือกประเภทการโทรด่วน </string>
+    <string name="fast_call">โทรออกด้วยเสียง</string>
+    <string name="fast_vt_call">video_call</string>
+    <string name="save_contact_faliue">บันทึกไม่สำเร็จ</string>
+    <string name="add_contact_success">เพิ่มรายชื่อติดต่ออัตโนมัติ</string>
+    <string name="group_name">ชื่อกลุ่ม</string>
+    <string name="contactsSIMIconLabel">SIM</string>
+    <string name="contactsPhoneIconLabel">"โทรศัพท์"</string>
+    <string name="sim_notready_cant_not_save">ซิมการ์ดไม่พร้อมไม่สามารถบันทึกรายชื่อผู้ติดต่อลงในซิมการ์ด</string>
+    <string name="cant_not_save_email">ไม่สามารถบันทึกอีเมลล์บนซิมคาร์ดได้</string>
+    <string name="fdn_enable_nosetting">การดำเนินการที่เลือกไม่สามารถทำได้ขณะเปิดใช้ FDN</string>
+    <string name="menu_removeFrequent">ลบออกจาก frequentation</string>
+    <string name="group_name_student">"นักเรียน"</string>
+    <string name="group_name_friend">"เพื่อน"</string>
+    <string name="group_name_family">"ครอบครัว"</string>
+    <string name="group_name_colleague">"ผู้ร่วมงาน"</string>
+    <string name="default_ban_operate">"กลุ่มเดิมห้ามมิให้มีการดำเนินการ "</string>
+    <string name="delete_group">ลบกลุ่ม</string>
+    <string name="remove_frequent_contacts">"เอารายชื่อติดต่อที่บ่อยออก"</string>
+    <string name="removing_frequent_contacts">"กำลังเอารายชื่อติดต่อที่บ่อยออก กรุณรอ"</string>
+    <string name="remove_collection_contacts">"เอารายชื่อติดต่อของการรวบรวมออก"</string>
+    <string name="removing_collection_contacts">"กำลังเอารายชื่อติดต่อของการรวบรวมออก กรุณารอ"</string>
+    <string name="get_sim_count_fail">ซิมการ์ดไม่พร้อมใช้งานหรือไม่มีในเครื่อง</string>
+    <string name="emergency_call">"หมายเลขฉุกเฉิน"</string>
+    <string name="dial_emergency_error">"ไม่ได้โทรออก <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> ไม่ใช่หมายเลขฉุกเฉิน!"</string>
+    <string name="dial_emergency_empty_error">โทรไม่ได้ กรุณาติดต่อเบอร์ฉุกเฉิน</string>
+    <string name="label_birthday">วันเกิด</string>
+</resources>

@@ -1,0 +1,895 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gigabyteShort">GB</string>
+    <string name="terabyteShort">TB</string>
+    <string name="petabyteShort">PB</string>
+    <string name="emptyPhoneNumber">(Ba lambar waya)</string>
+    <string name="unknownName">(Bako)</string>
+    <string name="defaultVoiceMailAlphaTag">Voicemail</string>
+    <string name="mmiError">Damuwar hadawa ko tsarin MMI ba karfi.</string>
+    <string name="serviceEnabled">An bude sabis.</string>
+    <string name="serviceEnabledFor">An bude sabis don:</string>
+    <string name="serviceDisabled">An rufe sabis.</string>
+    <string name="serviceRegistered">An yi nasarar yin rijista.</string>
+    <string name="serviceErased">Sahrewa yayi nasara.</string>
+    <string name="passwordIncorrect">Password marar kyau.</string>
+    <string name="passwordChange" msgid="">"Kalmar shiga ta canza"</string>
+    <string name="mmiComplete">MMI code ya kammala.</string>
+    <string name="badPin">Tsohon PIN da ka rubuta ba daidai ba ne.</string>
+    <string name="badPin2">Tsohon PIN2 da ka rubuta ba daidai ba ne.</string>
+    <string name="badPuk">PUK din da ka rubuta ba daidai ba be.</string>
+    <string name="badPuk2">PUK2 din da ka rubuta ba daidai ba be.</string>
+    <string name="mismatchPin">PIN din da ka shigar bai yi daidai ba.</string>
+    <string name="mismatchPin2">PIN2 da ka shigar bai yi daidai ba.</string>
+    <string name="mismatchPuk">PUK din da ka shigar bai dace ba.</string>
+    <string name="mismatchPuk2">PUK2 din da ka shigar bai dace ba.</string>
+    <string name="invalidPin">Rubuta PIN wanda yake lambobi 4 ko 8 ne.</string>
+    <string name="invalidPuk">Rubuta PUK wanda yake lambobi 8 ne.</string>
+    <string name="needPuk">An kulle SIM card din ka da PUK. Rubuta lambar sirri ta PUK don ka bude.</string>
+    <string name="needPuk2">Rubuta PUK2 don bude SIM card.</string>
+    <string name="needPinLock">Canza PIN bukatar saita kulleliyar PIN.</string>
+    <string name="ClipMmi">Adireshin mai kiran da ke shigowa</string>
+    <string name="ClirMmi">Adireshin mai kira</string>
+    <string name="ColpMmi">Mika layi na ganewa da an hada</string>
+    <string name="ColrMmi">Hana layi na ganewa da an hada</string>
+    <string name="CfMmi">Tura kira gaba</string>
+    <string name="UnConditionCfMmi" msgid="">"Ba sharadi tura kira gaba"</string>
+    <string name="BusyCfMmi" msgid="">"Sa\'ad da ake aiki tura kira gaba"</string>
+    <string name="NoReplyCfMmi" msgid="">"Sa\'ad da babu amsa tura kira gaba"</string>
+    <string name="NotReachCfMmi" msgid="">"Sa\'ad da ya kasa isa tura kira gaba"</string>
+    <string name="AllCfMmi" msgid="">"Duk kira tura gaba"</string>
+    <string name="ConditionCfMmi" msgid="">"Sharuddance tura kira gaba"</string>
+    <string name="CwMmi">Kira na jira</string>
+    <string name="BaMmi">Haramcewa kira</string>
+    <string name="BaocMmi" msgid="">"Haramtawa ga duk kiraye-kiraye masu fita"</string>
+    <string name="BaoicMmi" msgid="">"Haramtawa ga duk kiraye-kiraye masu fita kasashen waje"</string>
+    <string name="BaoicxhMmi" msgid="">"Haramtawa ga duk kiraye-kiraye masu fita kasashen waje ban da kasar gida"</string>
+    <string name="BaicMmi" msgid="">"Haramtawa ga duk kiraye-kiraye masu zuwa"</string>
+    <string name="BaicrMmi" msgid="">"Haramtawa ga duk kiraye-kiraye masu zuwa a yayin tafiya"</string>
+    <string name="BaallMmi" msgid="">"Duk haramci ga dukkan sarbis sarbis ne"</string>
+    <string name="BamoMmi" msgid="">"Duk mai fitawa ga dukkan sarbis sarbis ne"</string>
+    <string name="BamtMmi" msgid="">"Duk mai zuwa ga dukkan sarbis sarbis ne"</string>
+    <string name="ActiveUnconCf">Tura kira gaba ba sharadi</string>
+    <string name="ActiveConCf">Tura kira da sharad</string>
+    <string name="CallForwarded">Tura kira gaba</string>
+    <string name="CallWaiting">Kira na jira</string>
+    <string name="CugCall" msgid="">"Kiran CUG"</string>
+    <string name="OutCallBarred" msgid="">"Hana kira mai fita"</string>
+    <string name="InCallBarred" msgid="">"Haramta kira mai zuwa"</string>
+    <string name="ClirRejected" msgid="">"Wurga danniyar CLIR"</string>
+    <string name="ForwardedCall">Kira da aka tura gaba</string>
+    <string name="CallRetrieved" msgid="">"An dauko kira"</string>
+    <string name="MultiCall" msgid="">"Kira mai jam\'iyya barkatai"</string>
+    <string name="HoldCallReleased" msgid="">"An sakar da kiran da ke jira""</string>
+    <string name="ConnectingEct" msgid="">"An hade ECT"</string>
+    <string name="ConnectedEct" msgid="">"An hade ECT"</string>
+    <string name="IncomingCallForwarded" msgid="">"Karin kira mai zuwa an tura gaba"</string>
+    <string name="PwdMmi">Canjin password</string>
+    <string name="PinMmi">Canjin PIN</string>
+    <string name="Pin2Mmi">"Canza PIN2"</string>
+    <string name="PukMmi">"Bude PIN"</string>
+    <string name="Puk2Mmi">"Bude PIN2"</string>
+    <string name="CnipMmi">Lamba mai kira na nan</string>
+    <string name="CnirMmi">Lamba mai kira an hana</string>
+    <string name="ThreeWCMmi">Kiran bai-uku</string>
+    <string name="RuacMmi">Kin amsa kiran waya masu ban haushi da ba a so</string>
+    <string name="CndMmi">Lamba mai kira ta kai</string>
+    <string name="DndMmi">Kar a tada hankali</string>
+    <string name="CLIRDefaultOnNextCallOn">Tsohon saitin ID na mai kira zuwa an hana. Kira na gaba: An hana</string>
+    <string name="CLIRDefaultOnNextCallOff">Tsohon saitin ID na mai kira zuwa an hana. Kira na gaba: Babu hani</string>
+    <string name="CLIRDefaultOffNextCallOn">Tsohon saitin ID na mai kira zuwa babu hani. Kira na gaba: An hana</string>
+    <string name="CLIRDefaultOffNextCallOff">Tsohon saitin ID na mai kira zuwa babu hani. Kira na gaba: Babu hani</string>
+    <string name="serviceNotProvisioned">Ba a samar da sabis ba.</string>
+    <string name="CLIRPermanent">Ba za a iya canja tsarin adireshin mai kira ba.</string>
+    <string name="RestrictedChangedTitle">Kebantacciyar dama</string>
+    <string name="RestrictedOnData">Sarbis na bayani an toshe.</string>
+    <string name="RestrictedOnEmergency">Hidimar gaggawa an toshe.</string>
+    <string name="RestrictedOnNormal">An toshe aikin murya.</string>
+    <string name="RestrictedOnAllVoice">Duk hidimomin murya an toshe.</string>
+    <string name="RestrictedOnSms">An toshe service din SMS.</string>
+    <string name="RestrictedOnVoiceData">An toshe aikin murya/bayanai.</string>
+    <string name="RestrictedOnVoiceSms">An toshe aikin murya/sakon SMS.</string>
+    <string name="RestrictedOnAll">Duk hidimomin murya/Bayani/SMS an toshe.</string>
+    <string name="serviceClassVoice">Murya</string>
+    <string name="serviceClassData">Bayani</string>
+    <string name="serviceClassFAX">FAX</string>
+    <string name="serviceClassSMS">SMS</string>
+    <string name="serviceClassDataAsync">Async</string>
+    <string name="serviceClassDataSync">Jona</string>
+    <string name="serviceClassPacket">Yankin curin bayanai</string>
+    <string name="roamingText0">An kunna manunin kiran yawo</string>
+    <string name="roamingText1">An kashe manunin kiran yawo</string>
+    <string name="roamingText2">Fitilar manunin kiran yawo</string>
+    <string name="roamingText3">A wajen yankin</string>
+    <string name="roamingText4">A wajen Ginin</string>
+    <string name="roamingText5">Kiran yawo - Na\'urar da aka fi bukata</string>
+    <string name="roamingText6">Kiran yawo - Na\'urar da ake iya samu</string>
+    <string name="roamingText7">Kiran yawo - Abokin hadin guiwa</string>
+    <string name="roamingText8">Kiran yawo - Babban abokin hulda</string>
+    <string name="roamingText9">Kiran yawo - Akwai sabis cikakke</string>
+    <string name="roamingText10">Kiran yawo - Akwai karancin sabis</string>
+    <string name="roamingText11">Makunnin alamar kiran yawa</string>
+    <string name="roamingText12">Makashin alamar kiran yawo</string>
+    <string name="roamingTextSearching">Binciken sabis</string>
+    <string name="fcComplete">Tsarin fuskoki cikakke.</string>
+    <string name="fcError">Damuwar hadawa ko fuskar tsari ba karfi.</string>
+    <string name="httpErrorOk">OK</string>
+    <string name="httpError">Akwai matsala a shafin intanet.</string>
+    <string name="httpErrorLookup">URL ba za ta samu ba.</string>
+    <string name="httpErrorUnsupportedAuthScheme">Shirin tabbatar da nagartar shafin intanet ba zai yiwu ba.</string>
+    <string name="httpErrorAuth">Tantacewa tayi nasara.</string>
+    <string name="httpErrorProxyAuth">Tantacewa ta mai hidima kurkusa tayi nasara.</string>
+    <string name="httpErrorConnect">Hada sadarwa da server bai yi nasara ba.</string>
+    <string name="httpErrorIO">Server ta kasa sadarwa. Sake gwadawa.</string>
+    <string name="httpErrorTimeout">Lokacin hada sadarwa da sever ya kare.</string>
+    <string name="httpErrorRedirectLoop">Shafin ya kunshi nunin rariya na sever da yawa.</string>
+    <string name="httpErrorUnsupportedScheme">Tsarin bai dace ba.</string>
+    <string name="httpErrorFailedSslHandshake">Ba\'a iya kafa ingantaccen hadin tsaro ba.</string>
+    <string name="httpErrorBadUrl">Shafin ba zai bude ba saboda URL ba daidai ba ne.</string>
+    <string name="httpErrorFile">Ba za a iya bude fayil ba.</string>
+    <string name="httpErrorFileNotFound">Fayil din da a ke nema bai samu ba.</string>
+    <string name="httpErrorTooManyRequests">A na gudanar da bukatu masu dimbin yawa. Sake gwadawa.</string>
+    <string name="contentServiceSync">Jona</string>
+    <string name="contentServiceSyncNotificationTitle">Jona</string>
+    <string name="low_memory">Ma\'danar waya ta cika! Share wasu fayil don samun sarari.</string>
+    <string name="me">Ni</string>
+    <string name="power_dialog">Zabukan sarrafa waya</string>
+    <string name="silent_mode">Yanayin shiru</string>
+    <string name="turn_on_radio">Kunna wayales</string>
+    <string name="turn_off_radio">Kashe wayales</string>
+    <string name="screen_lock">Makullin screen</string>
+    <string name="power_off">Kashe wuta</string>
+    <string name="shutdown_progress">Ana kashewa\u2026</string>
+    <string name="shutdown_confirm">Wayarka za ta mutu.</string>
+    <string name="recent_tasks_title">Na kwanan nan</string>
+    <string name="no_recent_tasks">Babu sababbin shirye shirye.</string>
+    <string name="global_actions">Zabukan sarrafa waya</string>
+    <string name="global_action_lock">Makullin screen</string>
+    <string name="global_action_power_off">Kashe wuta</string>
+    <string name="global_action_toggle_silent_mode">Yanayin shiru</string>
+    <string name="global_action_silent_mode_on_status">An KASHE sauti</string>
+    <string name="global_action_silent_mode_off_status">An KUNNA sauti</string>
+    <string name="global_actions_toggle_airplane_mode">Irin na jirgin sama</string>
+    <string name="global_actions_airplane_mode_on_status">Irin na jirgin sama a KUNNE</string>
+    <string name="global_actions_airplane_mode_off_status">Irin na jirgin sama a KASHE</string>
+    <string name="safeMode">Yanayin kare lafiya</string>
+    <string name="android_system_label">Na\'urar Android</string>
+    <string name="permgrouplab_costMoney">Sabis mai tsada</string>
+    <string name="permgroupdesc_costMoney">Bari shirye-shirye su yi abubuwa da zai iya sa ka kashe kudin ka.</string>
+    <string name="permgrouplab_messages">Sakonnin ka</string>
+    <string name="permgroupdesc_messages">Karanta kuma ka rubuta sakonninka na SMS, imel, da sauran sakonni.</string>
+    <string name="permgrouplab_personalInfo">Bayanan da suka shafe ka</string>
+    <string name="permgroupdesc_personalInfo">Kwatanta shiga zuwa matuntuba da ajiyayyen kalanda kan wayar ka.</string>
+    <string name="permgrouplab_location">Wurin da ka ke</string>
+    <string name="permgroupdesc_location">Lura da wurin da ka ke a zarihi</string>
+    <string name="permgrouplab_network">Sadarwa ta intanet</string>
+    <string name="permgroupdesc_network">Bari shirye-shirye su shiga fuskoki daban-daban na mahadin yana.</string>
+    <string name="permgrouplab_accounts">Akwatunanka</string>
+    <string name="permgroupdesc_accounts">Ganin asusai da ke samamme.</string>
+    <string name="permgrouplab_hardwareControls">Madannan sarrafa injin na\'ura</string>
+    <string name="permgroupdesc_hardwareControls">Kwatanta shiga zuwa kayan ciki mai kargo (Hardware) kan salular ka.</string>
+    <string name="permgrouplab_phoneCalls">Kiraye kirayen waya</string>
+    <string name="permgroupdesc_phoneCalls">Lura, dauki sannan ka sarrafa kiraye kirayen waya.</string>
+    <string name="permgrouplab_systemTools">Kayan aikin na\'ura</string>
+    <string name="permgroupdesc_systemTools">Dama da sarrafa na\'ura.</string>
+    <string name="permgrouplab_developmentTools">Kayan Rayarwa</string>
+    <string name="permgroupdesc_developmentTools">Fuskokin da ake bukata kadai don masu rayas da shiri.</string>
+    <string name="permgrouplab_storage">Ajiyewa</string>
+    <string name="permgroupdesc_storage" product="nosdcard">Access the USB storage.</string>
+    <string name="permlab_statusBar">nakasa ko gyaggyara matsayin sanda</string>
+    <string name="permdesc_statusBar">Kan bada izini shiri ta nakasa matsayin sanda ko kara ko cire gumakan na\'urar.</string>
+    <string name="permlab_expandStatusBar">fadada/gabta matsayin sanda</string>
+    <string name="permdesc_expandStatusBar">Kan bada izini shiri ta fadada ko gabta matsayin sanda.</string>
+    <string name="permlab_processOutgoingCalls">datse kira masu fita waje</string>
+    <string name="permdesc_processOutgoingCalls">Kan bada izini shiri ta tura kiraye-kiraye masu fita kuma canza lambar da za\'a buga. Shirye -shirye maketata mai yiwuwa tsare, sake gwada, ko hana kiraye-kiraye masu fita.</string>
+    <string name="permlab_receiveSms">karbi SMS</string>
+    <string name="permdesc_receiveSms">Kan bada izini shiri ta amsa ko kai gaba sakonnin SMS. Shirye-shirye maketata mai yiwuwa suna iya tsari sakonnin ka ko soke su ban da nuna maka su.</string>
+    <string name="permlab_receiveSmsCB">karbi SMSCB</string>
+    <string name="permdesc_receiveSmsCB">Kan bada izini shiri ta amsa ko kai gaba sakonnin SMSCB. Shirye-shirye maketata mai yiwuwa suna iya tsari sakonnin ka ko soke su ban da nuna maka su.</string>
+    <string name="permlab_receiveMms">karbi MMS</string>
+    <string name="permdesc_receiveMms">Kan bada izini shiri ta amsa ko kai gaba sakonnin MMS. Shirye-shirye maketata mai yiwuwa suna iya tsari sakonnin ka ko soke su ban da nuna maka su.</string>
+    <string name="permlab_sendSms">aika sakonnin SMS</string>
+    <string name="permdesc_sendSms">Kan bada izini shiri ta aika sakonnin SMS. Shirye-shirye maketata mai yiwuwa su sa ka kashe kudi ta aikawa sakonni ban da tabbatarwar ka.</string>
+    <string name="permlab_readSms">karanta sakonnin SMS ko MMS</string>
+    <string name="permdesc_readSms">Kan bada izini shiri ta karanta ajiyayyun sakonnin SMS kan wayar ka ko katin SIM. Shirye-shirye maketata mai yiwuwa  su karanta sakonnin ka na sirri.</string>
+    <string name="permlab_writeSms">gyara SMS ko MMS</string>
+    <string name="permdesc_writeSms">Kan bada izini shiri ta rubuta zuwa ga ajiyayyu sakonnin SMS kan wayar ka ko katin SIM. Shirye-shirye maketata mai yiwuwa su soke sakonnin ka.</string>
+    <string name="permlab_receiveWapPush">karbi WAP</string>
+    <string name="permdesc_receiveWapPush">Kan bada izini shiri ta amsa ko kai gaba sakonnin WAP. Shirye-shirye maketata mai yiwuwa suna iya tsari sakonnin ka ko soke su ban da nuna maka su.</string>
+    <string name="permlab_getTasks">dawo da shirin da ke aiki</string>
+    <string name="permdesc_getTasks">Kan bada izini shiri ta dauko labari game da ayyukan yanzu da na kwana nan. Mai yiwuwa shirye-shirye maketata su gano labarin sirri game da wassu shirye-shirye.</string>
+    <string name="permlab_reorderTasks">sake tsarin shirye shiryen da ke aiki</string>
+    <string name="permdesc_reorderTasks">Kan bada izini shiri ta gusar da ayyuka zuwa fuskar gaba ko ta baya. Shirye-shirye maketata suna iya kutsa kansu zuwa gaba ban da ikon ka. </string>
+    <string name="permlab_setDebugApp">rayar da cire sirrin shiri</string>
+    <string name="permdesc_setDebugApp">Kan bada izini shiri ta kunna cire sirri ma wata shiri. Shirye-shirye maketata kan iya wannan su kashe wassu shirye-shirye.</string>
+    <string name="permlab_changeConfiguration">canza saitocin ka na UI</string>
+    <string name="permdesc_changeConfiguration">Kan bada izini shiri ta canza tsari na yanzu, kamar su wuri ko girman harufa bai daya.</string>
+    <string name="permlab_enableCarMode">rayar da halin mota</string>
+    <string name="permdesc_enableCarMode">Kan bada izini shiri ta rayar da salon mota.</string>
+    <string name="permlab_killBackgroundProcesses">kashe hanyar sarrafawa</string>
+    <string name="permdesc_killBackgroundProcesses">Kan bada izini shiri ta kashe ci gaban bayan hoto na wassu shirye-shirye, ko da haddacewa baya da karfi.</string>
+    <string name="permlab_forceStopPackages">tilasta tsai da wassu shirye-shirye</string>
+    <string name="permdesc_forceStopPackages">Kan bada izini shiri ta tsai da wassu shirye-shirye dole.</string>
+    <string name="permlab_forceBack">tilasta shiri ta rufe</string>
+    <string name="permdesc_forceBack">Kan bada izini shiri ta tilasta wani aiki da ke goshin kasa rufe da koma baya. Kar a taba bukace ta don shirye-shiryen kullum ba.</string>
+    <string name="permlab_dump">dawo da tsarin cikin na\'ura</string>
+    <string name="permdesc_dump">Kan bada izini shiri ta dauko halin na\'ura na ciki. Shiye-shirye maketata mai yiwuwa su dauko sirri mai fadi dabam dabam da labari mai kariya da dadai ba ba\'a bukata kulum. </string>
+    <string name="permlab_shutdown">kullewar wucin gadi</string>
+    <string name="permdesc_shutdown">Yana haddasa na\'ura mai kula da hada hada ta daina aiki. Ba ya iya rufewa ta gaba daya.</string>
+    <string name="permlab_stopAppSwitches">hana tsallaken shiri</string>
+    <string name="permdesc_stopAppSwitches">Hana mai amfani tsallakawa zuwa wani shirin.</string>
+    <string name="permlab_runSetActivityWatcher">sa ido kuma ka lura da yadda ake kaddamar da shirye shirye</string>
+    <string name="permdesc_runSetActivityWatcher">Kan bada izini shiri tsare da mulki yadda hanyar ke fara aikace-aikace. Shirye-shirye maketata mai yiwuwa gaba daya su daidaita da hanyar. Ana bukatar wannan izini kadai ne don rayar wa, fau fau ba don amfanin kullum a waya ba.</string>
+    <string name="permlab_broadcastPackageRemoved">aika sakon magana da ka cire daga makunshi</string>
+    <string name="permdesc_broadcastPackageRemoved">Kan bada izini shiri ta yada sanarwa cewa an riga cire kunshin shiri. Shirye-shirye maketata mai yiwuwa suna iya amfani da wannan su kashe wani shiri dabam aiki.</string>
+    <string name="permlab_broadcastSmsReceived">aika sakon magana na SMS da ka karba</string>
+    <string name="permdesc_broadcastSmsReceived">Kan bada izini shiri ta yada sanarwa cewa an karba sakon SMS. Shirye-shirye maketata mai yiwuwa na iya amfani da wannan su kera sakonni SMS masu shigowa.</string>
+    <string name="permlab_broadcastSmsCBReceived">aika sakon magana na SMSCB da ka karba</string>
+    <string name="permdesc_broadcastSmsCBReceived">Kan bada izini shiri ta yada sanarwa cewa sakon SMSCB an karba. Shirye-shirye maketata mai yiwuwa na iya amfani da wannan kera sakonnin SMSCB masu zuwa. </string>
+    <string name="permlab_broadcastWapPush">aika sakon magana na WAPI-PUSH da ka karba</string>
+    <string name="permdesc_broadcastWapPush">Kan bada dama ga shiri ya watsa sanarwar jan hankali cewa an karbi sakon WAPI PUSH. Miyagun shirye shirye kan iya amfani da wannan dama su bada sanarwar karbar sakon MMS ko kuma a boye su canja bayanan kowane irin shafin intanet da gurbataccen bayani.</string>
+    <string name="permlab_setProcessLimit">takaita adadin sarrafawa</string>
+    <string name="permdesc_setProcessLimit">Kan bada izini shiri ta mulki iyakacin lambar ci gaba da zai yi aiki. Fau fau ba\'a bukata don shirye-shiryen kullayaumin. </string>
+    <string name="permlab_setAlwaysFinish">rufe duk wani shiri da ke kewayen</string>
+    <string name="permdesc_setAlwaysFinish">Kan bada izini shiri tayi mulki ko ana gama ayyuka  kullum da zarar sun je bayan hoto. Fau fau ba\'a bukata don shirye-shiryen kullayaumin. </string>
+    <string name="permlab_batteryStats">inganta kididdigar batiri</string>
+    <string name="permdesc_batteryStats">Kan yarda da gyaggyara kididdige da aka taro na batir. Ba don amfani ta shirye-shiryen kullum ba.</string>
+    <string name="permlab_backup">yi iko da dabarar goyon baya da maida wa</string>
+    <string name="permdesc_backup">Kan bada dama ga shiri ya sarrafa tallafin ma\'ajiya na kwamfuta ya kuma ya maido aikin na\'ura. Ba a yi shi ba don amfanin shirye shiryen yau da kullum.</string>
+    <string name="permlab_internalSystemWindow">nuna tagogi da babu izini</string>
+    <string name="permdesc_internalSystemWindow">Kan yarda da halittar tagogi da an yi niyya a mora ta mai amfani tsakani fuskar na\'urar ciki. Ba don amafani ta shirye-shiryen kullum ba.</string>
+    <string name="permlab_systemAlertWindow">nuna matakin kararrawar na\'ura</string>
+    <string name="permdesc_systemAlertWindow">Kan bada izini shiri ta nuna shiryayyen tagogi hanyar. Shirye-shirye maketata suna iya mamaye duk abin kariya na wayar ka.</string>
+    <string name="permlab_setAnimationScale">inganta gudun global animation</string>
+    <string name="permdesc_setAnimationScale">Kan yarda shiri ta canza gudun zanen duniya (zane-zane mai dan sauri ko dan sannu-sannu) a kowane lokaci.</string>
+    <string name="permlab_manageAppTokens">sarrafa da asiran shiri</string>
+    <string name="permdesc_manageAppTokens">Kan bada izini shiri ta halicci kuma sarrafa bococin su, a bi gefen umarni-Z nasu kullum. Fau fau ba\'a bukata don shirye-shirye na kullum ba.</string>
+    <string name="permlab_injectEvents">danna madannan haruffa dana sarrafawa</string>
+    <string name="permdesc_injectEvents">Kan bada izini shiri ta ba da taimakon abubuwa nata ( danna maballai, da sauran su) ga wassu shirye-shirye. Shirye-shirye maketata na iya amfani da wannan su mallaki waya.</string>
+    <string name="permlab_readInputState">ajiye abin da ka rubuta</string>
+    <string name="permdesc_readInputState">Kan bada izini shiri ta tsare maballai da ka danna ko sa\'ad da suke aiki tsakanin su da wani shiri ( kamar shiga kalmar izini). Fau fau ba\'a bukata don shirye-shirye na kullum ba.</string>
+    <string name="permlab_bindInputMethod">daura ga hanya mai shigar wa</string>
+    <string name="permdesc_bindInputMethod">Kyale mariki ya hade da manyan hanyoyin cudanya na tsarin shigar da bayanai. Ba za a bukaci wannan a cikin shirye shiryen da a ka saba.</string>
+    <string name="permlab_bindWallpaper">daura ga zane fuskar waya</string>
+    <string name="permdesc_bindWallpaper">Kan yarda da mariki ya daure zuwa matakin sama tsakanin juna na zanen fuska. Ba don amafani ta shirye-shiryen kullum ba.</string>
+    <string name="permlab_bindDeviceAdmin">yi mu\'amala da bangaren gudanarwar na\'ura</string>
+    <string name="permdesc_bindDeviceAdmin">Kan yarda mariki ya aika nufe-nufen sa ga mai mulkin na\'ura. Ba don amafani ta shirye-shiryen kullum ba.</string>
+    <string name="permlab_setOrientation">canza fasalin abin kariya</string>
+    <string name="permdesc_setOrientation">Kan yarda shiri ta canza gewayar abin kariya a kowane lokaci. Ba za\'a taba bukatace daidaitaccen shirye-shirye ba.</string>
+    <string name="permlab_signalPersistentProcesses">aika bayanai daga Linux zuwa cikin shirye shirye</string>
+    <string name="permdesc_signalPersistentProcesses">Kan bada izini shiri ta roki cewa a aika alamar da aka bayar zuwa dukkan hanyoyi masu dagewa.</string>
+    <string name="permlab_persistentActivity">bar shirin ya rika aiki kodayaushe</string>
+    <string name="permdesc_persistentActivity">Kan bada izini shiri tasa bangarorin kanta dagewa, ta haka hanyar ba ta iya amfani da ita don wassu shirye-shirye.</string>
+    <string name="permlab_deletePackages">soke shirye-shirye</string>
+    <string name="permdesc_deletePackages">Kan yarda shiri ta soke kunshi-kunshin Android. Maketatan shirye-shirye kan iya amfani da wannan garin soke muhimman shirye-shirye.</string>
+    <string name="permlab_clearAppUserData">soke bayanin wassu shirye-shirye</string>
+    <string name="permdesc_clearAppUserData">Kan bada izini shiri ta sassabe bayanin mai amfani.</string>
+    <string name="permlab_deleteCacheFiles">soke sirrin wassu shirye-shirye</string>
+    <string name="permdesc_deleteCacheFiles">Kan bada izini shiri ta soke fayil fayil na boye.</string>
+    <string name="permlab_getPackageSize">auna fadin ma\'adanar shiri</string>
+    <string name="permdesc_getPackageSize">Kan bada izini shiri ta dauko tsarin ta, bayani da girman sirri-sirri</string>
+    <string name="permlab_installPackages">kai tsaye girka shirye-shirye</string>
+    <string name="permdesc_installPackages">Kan bada izini shiri ta gindaya sabuwa ko darajanta kunshi-kunshi Android. Shirye-shirye maketata kan iya amfani da wannan wajen kara sababbin shiri da kakkarfan yarda babu shawara.</string>
+    <string name="permlab_clearAppCache">soke dukkan bayanin shiri na sirri </string>
+    <string name="permdesc_clearAppCache">Kan bai wa shiri damar tsaftace ma\'adanar waya ta hanyar share fayil fayil a cikin jadawalin shirye shirye. An yi matukar takaita damar shiga mafi yawa hanyoyin aikin na\'ura.</string>
+    <string name="permlab_movePackage">Matsar da tarkacen shiri</string>
+    <string name="permdesc_movePackage">Kan bada dama ga wani shiri ya matsar da kadarorin shiri daga taskar nishadi ta ciki zuwa ta waje da kuma ta waje zuwa ta ciki. </string>
+    <string name="permlab_readLogs">karanta fayil da aka adana na\'ura</string>
+    <string name="permdesc_readLogs">Kan bada izini shiri ta karanta tarihin fayil fayil dabam-dabam na hanyoyin. Wannan kan yarda mata gano labari na kowa game da abin da  kake yi da waya, amma kada su kunshi wani labarin mutum ko na sirri.</string>
+    <string name="permlab_diagnostic">karanta/rubuta zuwa bayanai mallakar diag</string>
+    <string name="permdesc_diagnostic">Kan bada dama ga shiri don karantawa da rubutawa ga kowace irin kadara mallakar rukunin diag; misali, fayil a cikin/kaucewa. Wannan zai iya shafar lafiya da shirin kariyar na\'ura. Wannan za a iya amfani da shi ne KADAI a aiyukan binciken lafiyar na\'ura da suka shafi manhajar kwamfuta da kamfanin da ya kera ko mai sarrafawa ya fayyace.</string>
+    <string name="permlab_changeComponentState">rayar ko nakasar da bangororin shiri</string>
+    <string name="permdesc_changeComponentState">Kan bada dama ga shiri ya canja ko mahadin wani shrin yana bude ko a\'a. Miyagun shirye shirye suna iya yin amfani da wannan dana don rufe wasu muhimman aiyuka na waya. Dole a yi taka-tsantsam wajen aiki da izini, domin ana jefa mahadin shiri cikin halin rashin amfani, rashin tabbas da kuma rashin daidaito.</string>
+    <string name="permlab_setPreferredApplications">saita muhimman shirye shirye</string>
+    <string name="permdesc_setPreferredApplications">Kan bada dama ga shiri ya inganta shirye shiryen da ka fi so. Wannan zai iya baiwa miyagun shirye shirye damar canja shirye shiryenka da ke bude a boye, yana fakewa da shirye shiryenka da ke ciki don daukar bayanan sirrinka.</string>
+    <string name="permlab_writeSettings">inganta tsarin sarrafawa na global system</string>
+    <string name="permdesc_writeSettings">Kan bada izini shiri ta gyaggyara saituna bayanin tsaro hanyar aiki. Ba don amfani na shirye-shiryen yau da kullum ba.</string>
+    <string name="permlab_writeSecureSettings">inganta zubin tsarin kariya</string>
+    <string name="permdesc_writeSecureSettings">Kan bada izini shiri ta gyaggyara saituna bayanin tsaro hanyar aiki. Ba don amfani na shirye-shiryen yau da kullum ba.</string>
+    <string name="permlab_writeGservices">inganta taswirar gudanarwa ta Google</string>
+    <string name="permdesc_writeGservices">Kan bada izini shiri ta gyaggyara taswirar hidimomin Google. Ba don amfani wa shirye-shiryen yau da kullum ba.</string>
+    <string name="permlab_receiveBootCompleted">kan soma a kashin kanta a budewa</string>
+    <string name="permdesc_receiveBootCompleted">Kan bada izini shiri ta soma da kanta da zara hanyar ta gama budewa. Wannan zai iya sa waya fara aiki da dan dadewa da yarda shiri rage gudun waya bai daya ta aiki koyaushe.</string>
+    <string name="permlab_broadcastSticky">aika sakonmagana mai jan hankali</string>
+    <string name="permdesc_broadcastSticky">Kan bada izini shiri ta aika da watsa labarai masu danko, wadanda ke raguwa bayan karewar watsawa. Shirye-shirye maketata na iya sa waya ragwanci ko rashin karko ta wurin sa shi amfani da haddacewa mai yawa.</string>
+    <string name="permlab_readContacts">karanta curin bayanai kan abokan sadarwa</string>
+    <string name="permdesc_readContacts">Kan yarda shiri ta karanta dukkan ajiyayyun bayanin masu hulda (adireshai) kan wayar ka. Shirye-shirye masu keta suna iya amfani da su aika bayanin ka ga wassu mutane.</string>
+    <string name="permlab_writeContacts">rubuta bayanan matuntuba</string>
+    <string name="permdesc_writeContacts">Kan bada izini shiri ta gyaggyara ajiyayyun (adireshin) bayani masu hulda kan wayar ka. Shirye- shirye maketata su kan iya amfani da wannan su share ko gyaggyara bayanin masu huldar ka.</string>
+    <string name="permlab_readCalendar">karanta al\'amura masu zuwa a kalanda</string>
+    <string name="permdesc_readCalendar">Kan bada izini shiri ta karanta dukkan ajiyayyu aukuwar kalanda kan wayar ka. Shirye-shirye maketata suna iya amfani da wannan su aika maka aukuwar kalanda ga wassu mutane.</string>
+    <string name="permlab_writeCalendar">kara ko dan sake kalandar aikace-aikace da aika emel ga baki</string>
+    <string name="permdesc_writeCalendar">Kan yarda da shiri tayi kari ko canza abubuwa a kalandar ka, wanda mai yiwuwa kan aika emel ga baki. Shirye-shirye maketata kan iya amfani da wannan garin share ko canza ababben kalandar ka ko aika emel ga baki.</string>
+    <string name="permlab_accessMockLocation">hanyoyin wurin gwaji don jarrabawa</string>
+    <string name="permdesc_accessMockLocation">Halicci wuri na ba\'a don jarrabwa. Shirye-shirye masu keta suna iya amfani da wannan su shiga gaban wurin kuma/ko dawo da matsayi da ainihin wuri kamar su GPS ko masu tanadin mahadin yana.</string>
+    <string name="permlab_accessLocationExtraCommands">damar ganin karin wurin da mai tanadi ya umarta</string>
+    <string name="permdesc_accessLocationExtraCommands">Damar ganin karin wurin da mai tanadi ya umarta. Manhajoji maketata sukan iya morar wannan su yi shishigi da aikin GPS ko wani mafarin wuri. </string>
+    <string name="permlab_installLocationProvider">izinin dasa shiri mai gano wurin da a ke</string>
+    <string name="permdesc_installLocationProvider">Kirkiri majiyan wuri na gangan da yin gwaji. Miyagun shirye shirye kan iya yin amfani da wannan dama su mamaye wurin kuma/ko matsayi da majiyan wuri na gaske su dawo da su kamar GPS ko kamfanonin layin sadarwa ko ka sa ido ka aika rahoton wuri da ka ke zuwa ga majiya ta waje.</string>
+    <string name="permlab_accessFineLocation">wurin (GPS) mai kyau</string>
+    <string name="permdesc_accessFineLocation">Ganin kyakyawan mafarin wuri kamar Hanyar Gano Wuri ta Duniya (GPS) a kan waya, inda akwai. Maketata manhajoji kan iya amfani da wannan garin tsamo inda kake, da yiwuwa shan karin wutar batir.</string>
+    <string name="permlab_accessCoarseLocation">wuri mara kyau (asalin mahadi)</string>
+    <string name="permdesc_accessCoarseLocation">Shiga wurare masu kaushi kamar da tushen haden bayanai na salula don a kimanta wurin waya mafi kusa, inda akwai. Manhajoji maketata kan iya amfani da ita don a san kimanin inda kake.</string>
+    <string name="permlab_accessSurfaceFlinger">ganin  jefa-fuska</string>
+    <string name="permdesc_accessSurfaceFlinger">Kan bada izini shiri ta yi amfani da Jefa-Fuska mai fuskoki na mataki kasa-kasa.</string>
+    <string name="permlab_readFrameBuffer">karanta kariyar bangon na\'ura</string>
+    <string name="permdesc_readFrameBuffer">Kan bada izini shiri ta karanta abin da ke ciki kariyar firam.</string>
+    <string name="permlab_modifyAudioSettings">canza saitocin ka na jiyuwa</string>
+    <string name="permdesc_modifyAudioSettings">Kan bada izini shiri ta gyggyara saitunan jiyuwa na duniya kamar karfin murya da hanya.</string>
+    <string name="permlab_recordAudio">Nadi sauti</string>
+    <string name="permdesc_recordAudio">Kan bada izini shiri ta shiga hanyar nadi mai jiyuwa.</string>
+    <string name="permlab_camera">dauki hotuna</string>
+    <string name="permdesc_camera">Kan bada izini shiri ta dauki hotuna da kyamera. Wannan kan yarje wa shiri kwashi siffofi da kyamera ke gani a kowanne lokaci.</string>
+    <string name="permlab_brick">kashe aikin waya har abada</string>
+    <string name="permdesc_brick">Kan yarda da shiri ta nakasa waya gaba daya din din din. Wannan tana da hatsari sosai.</string>
+    <string name="permlab_reboot">tilasta waya sake budewa</string>
+    <string name="permdesc_reboot">Kan yarda da shiri ta tilasta waya sake kunnawa.</string>
+    <string name="permlab_mount_unmount_filesystems">kafa kuma ka rusa tsarin fayil fayil</string>
+    <string name="permdesc_mount_unmount_filesystems">Kan yarda da shiri ta haurar kuma saukar da hanyoyin fayil don ma\'adana da ake cire wa.</string>
+    <string name="permlab_mount_format_filesystems">saita ma\'adanar waje</string>
+    <string name="permdesc_mount_format_filesystems">Kan yarda da shiri ta tsara ma\'adana da ake cire wa.</string>
+    <string name="permlab_asec_access">samo labari kan ma\'adan mai tasro</string>
+    <string name="permdesc_asec_access">Kan yarda da shiri ta samo labari kan ma\'adana mai tsaro.</string>
+    <string name="permlab_asec_create">halicci ma\'ajiya mai tsaro</string>
+    <string name="permdesc_asec_create">Kan yarda da shiri ta halicci ma\'adana mai tsaro.</string>
+    <string name="permlab_asec_destroy">hallaka ma\'adana mai tsaro</string>
+    <string name="permdesc_asec_destroy">Kan yarda da shiri ta hallakar da ma\'adana mai tsaro.</string>
+    <string name="permlab_asec_mount_unmount">kafa/rusa ma\'adanar kariya</string>
+    <string name="permdesc_asec_mount_unmount">Kan yarda da shiri ta haurar/saukar da ma\'adana mai tsaro.</string>
+    <string name="permlab_asec_rename">canja sunan ma\'adanin kariya</string>
+    <string name="permdesc_asec_rename">Kan yarda da shiri ta sake sunan ma\'adana mai tsaro. </string>
+    <string name="permlab_vibrate">ci gaba ban da katin SIM</string>
+    <string name="permdesc_vibrate">Kan yarda da shiri yi iko da mai jijjigawa.</string>
+    <string name="permlab_flashlight">yi iko da tocilan</string>
+    <string name="permdesc_flashlight">Kan yarda da shiri yi iko da tocilan.</string>
+    <string name="permlab_hardware_test">jarraba na\'ura</string>
+    <string name="permdesc_hardware_test">Kan yarda da shiri tayi iko da iyakoki dabam-dabam don manufa na gwada kayan na\'ura mai karko.</string>
+    <string name="permlab_callPhone">kai tsaye kira lambobin waya</string>
+    <string name="permdesc_callPhone">Kan yarda da shiri ta kira lambar waya ba tare da shishigin ka ba. Shirye-shirye maketata mai yiwuwa na jawo kiraye-kiraye ba zata a bil na kan wayar ka. Lura cewa wannan ba zai yarda shiri ta kira lambobin gaggawa ba.</string>
+    <string name="permlab_callPrivileged">kai tsaye kira kowadanne lambobin wayar ka</string>
+    <string name="permdesc_callPrivileged">Kan yarda shiri ta kira lambar kowane waya, har da lambobin gaggawa, ba tare da shishigin ka ba. Shirye-shrye maketata  mai yiwuwa kan aza kiraye-kirayen da ba\'a bukata da na marar bin doka zuwa hidimomin gaggawa.</string>
+    <string name="permlab_performCdmaProvisioning">kai tsaye soma saitan wayar CDMA</string>
+    <string name="permdesc_performCdmaProvisioning">Kan yarda da shiri ta fara tanajin CDMA. Shirye-shirye maketata mai yiwuwa su fara tanajin CDMA da ba\'a bukata</string>
+    <string name="permlab_locationUpdates">yi iko da wurin sabunta sanarwai</string>
+    <string name="permdesc_locationUpdates">Kan kuzarta/nakasa wuri sabun ta sanarwai daga rediyo. Ba don amfani wa shirye-shiryen kullum ba.</string>
+    <string name="permlab_checkinProperties">damar duban mallakoki</string>
+    <string name="permdesc_checkinProperties">Kan bada izinin karanta/rubuta ga  haurarrun kayayyaki da hidimar shigar wa tayi. Ba don amfani wa shirye-shiryen kullum ba.</string>
+    <string name="permlab_bindGadget">zaba widgets</string>
+    <string name="permdesc_bindGadget">Kan yarda da shiri ta fada wa na\'ura wace widgets za\'a iya mora ta wace shiri. Da wannan yarda, shirye-shirye suna iya shiga bayanin mutum zuwa wassu shirye-shirye. Ba don amfani ta shirye-shirye na al\'ada ba. </string>
+    <string name="permlab_modifyPhoneState">inganta halin da waya ke ciki</string>
+    <string name="permdesc_modifyPhoneState">Kan yarda da shiri tayi iko da fuskokin dabarar waya. Shiri mai irin wannan tana yarda da canza mahadai,  kunna rediyon waya da kashewa da sauran su ba tare da taba sanar maka ba.</string>
+    <string name="permlab_readPhoneState">karanta yadda waya da kuma  fasalin bayananta</string>
+    <string name="permdesc_readPhoneState">Kan bada dama ga shiri ta bude bayanan waya na na\'urar. Shirin da ke da irin wannan izini zai iya tantance lambar waya da kuma lambar kira ta wayar, koda kuwa a cikin halin yin waya ake, an sami hadawa da lambar da ta kira da sauran irin haka.</string>
+    <string name="permlab_wakeLock">hana waya ta dauke</string>
+    <string name="permdesc_wakeLock">Kan bada izini shiri ta hana waya daga yin barci.</string>
+    <string name="permlab_devicePower">Kunna ko ka kashe waya</string>
+    <string name="permdesc_devicePower">Kan yarda da shiri ta juya waya a kunne ko a kashe.</string>
+    <string name="permlab_factoryTest">sarrafa a yanayin gwajin kamfani</string>
+    <string name="permdesc_factoryTest">Sarrafa a matakin gwaji na kasa na kamfanin da ya kera, da ke bada damar amfani da abubuwan cikin waya. A kan samu ne kadai lokacin da waya aikin a matakin gwaji na kamfanin kira.</string>
+    <string name="permlab_setWallpaper">Saita hoton fuskar waya</string>
+    <string name="permdesc_setWallpaper">Kan yarda da shiri ta saita zuwa na\'ura zanen fuska.</string>
+    <string name="permlab_setWallpaperHints">saita zabin girman hoton fuskar waya</string>
+    <string name="permdesc_setWallpaperHints">Kan yarda da shiri ta saita zuwa na\'ura kishin kishin girman zane fuska.</string>
+    <string name="permlab_masterClear">sake saita na\'ura zuwa tsarin farko</string>
+    <string name="permdesc_masterClear">Kan bada izini gaba daya shiri ta sake saiti hanya zuwa saitunan masana\'anta, da goge bayani dukka, tsari, da shirye-shirye da aka girka.</string>
+    <string name="permlab_setTime">Saita lokaci</string>
+    <string name="permdesc_setTime">Kan yarda shiri ta canza lokaci na agogon waya.</string>
+    <string name="permlab_setTimeZone">saita yanayin lokaci</string>
+    <string name="permdesc_setTimeZone">Kan yarda shiri ta canza lokacin sashen duniya na agogon waya.</string>
+    <string name="permlab_accountManagerService">yi kamar manajan hidimar asusu</string>
+    <string name="permdesc_accountManagerService">Kan bada izini shiri ta yi kiraye-kiraye zuwa Masu Sarrafa Asusu</string>
+    <string name="permlab_getAccounts">gano sanannun asusai</string>
+    <string name="permdesc_getAccounts">Kan bada izini shiri ta sami jerin asusai da waya ke sane.</string>
+    <string name="permlab_authenticateAccounts">yi kamar mai jarraba asusu</string>
+    <string name="permdesc_authenticateAccounts">Kan bada izini shiri ta mora karfin mai tantacce asusu na Mai Sarrafa Asusu, hade da halitta asusai da samo kuma da saitan kalmomin shigar su.</string>
+    <string name="permlab_manageAccounts">sarrafa jerin asusan masu amfani</string>
+    <string name="permdesc_manageAccounts">Kan bada izini shiri ta aikata hidimomi kamar su yi kari, da cire asusai da soke kalmomin shigar su.</string>
+    <string name="permlab_useCredentials">yi amfani da takardun amincewa na adireshin akwati</string>
+    <string name="permdesc_useCredentials">Kan bada izini shiri ta roki bococin tantaccewa.</string>
+    <string name="permlab_accessNetworkState">duba matsayin hanyar sadarwa</string>
+    <string name="permdesc_accessNetworkState">Kan bada izini shiri ta duba halin dukkan mahadan yana.</string>
+    <string name="permlab_createNetworkSockets">shigar yanan gizo cikakke</string>
+    <string name="permdesc_createNetworkSockets">Kan bada izini shiri ta halicci ramummukan harhade.</string>
+    <string name="permlab_writeApnSettings">rubuta saitukan sunan ksamun damar shigaafar </string>
+    <string name="permdesc_writeApnSettings">Kan bada izini shiri ta gyaggyara saitunan APN, kamar Proxy da Port na kowane APN.</string>
+    <string name="permlab_changeNetworkState">canza hade-haden mahadi</string>
+    <string name="permdesc_changeNetworkState">Kan bada izini shiri tayi canji halin harhaden mahadin yana.</string>
+    <string name="permlab_changeTetherState">Canza haden talala</string>
+    <string name="permdesc_changeTetherState">Kan bada izini shiri ta canza halin harhaden talalar mahadin yana.</string>
+    <string name="permlab_changeBackgroundDataSetting">canza saitin bayanin fuskar bayan hoto</string>
+    <string name="permdesc_changeBackgroundDataSetting">Kan yarda shiri ta canza saituna amfani bayani na bayan kasa.</string>
+    <string name="permlab_accessWifiState">Duba yanayin Wi-Fi</string>
+    <string name="permdesc_accessWifiState">Kan bada izini shiri ta duba labari game da halin Wi-Fi.</string>
+    <string name="permlab_changeWifiState">canza halin Wi-Fi</string>
+    <string name="permdesc_changeWifiState">Kan bada izini shiri ta hade da kuma katse daga digogin shiga Wi-Fi, da yin  canje-canje ga tsararriyar mahadan yana.</string>
+    <string name="permlab_changeWifiMulticastState">yarda da kama tashar Wi-Fi mai yadawa dabam-dabam</string>
+    <string name="permdesc_changeWifiMulticastState">Kan bada izini shiri ta amshi pakitoci da ba\'a aika takanas ga na\'urar ka ba. Wannan zai iya amfana sa\'ada an tono hidimomin kurkusa da ake bayar wa. Tana amfani da dan wuta fiye da halin marar watsa da yawa.</string>
+    <string name="permlab_bluetoothAdmin">mai mulkin Bluetooth</string>
+    <string name="permdesc_bluetoothAdmin">Kan bada izini shiri ta tsara wayar Bluetooth na wurin, da gano kuma tagwaita dabarbarun nesa.</string>
+    <string name="permlab_bluetooth">halicci hade-haden Bluetooth</string>
+    <string name="permdesc_bluetooth">Kan bada izini shiri ta duba tsarin wayar Bluetooth na wuri, da yi kuma amsa hade-hade da tagwayen dabarbarru.</string>
+    <string name="permlab_disableKeyguard">nakasa kullen mabudi</string>
+    <string name="permdesc_disableKeyguard">Kan bada dama ga shiri ya kashe aikin makulli da kuma kowane madangancin kariyar password. Kyakkyawan misalin wannan shine yadda waya ke kashe aikin makulli yayin da ake amsa kiran waya da ya shigo, sannan ta sake baiwa makullin damar rufewa bayan an gama amsa kiran.</string>
+    <string name="permlab_readSyncSettings">karanta tsarin game na\'urori</string>
+    <string name="permdesc_readSyncSettings">Kan bada izini ga shiri ta karanta harhaden saituna, kamar ko an raya harhade don masu Hulda.</string>
+    <string name="permlab_writeSyncSettings">rubuta saitukan makalawa</string>
+    <string name="permdesc_writeSyncSettings">Kan bada izini shiri ta gyaggyara saitunan sync, ko kamar an kuzarta sync don masu hulda.</string>
+    <string name="permlab_readSyncStats">karanta kididdigar jgame na\'urori</string>
+    <string name="permdesc_readSyncStats">Kan bada izini shiri ta karanta harhaden stats; misali., tarihin harhade da suka faru.</string>
+    <string name="permlab_subscribedFeedsRead">karanta bayanai/labaran da ake turowa</string>
+    <string name="permdesc_subscribedFeedsRead">Kan bada izini shiri ta sami bayani dalla-dalla game da cusassun kayayyakin ciki na yanzu.</string>
+    <string name="permlab_subscribedFeedsWrite">rubuta labarin da a ka yi rijistar karbar su</string>
+    <string name="permdesc_subscribedFeedsWrite">Kan bada izini shiri ta gyaggyara maka harhaden cimaka na yanzu. Wannan zai iya barin shiri maketata ta canza maka harhaden cima.</string>
+    <string name="permlab_readDictionary">karanta kamus da ka kirkira</string>
+    <string name="permdesc_readDictionary">Kan bada izini shiri ta karanta kowace kalmar sirri, sunaye da  jimla da mai amafani ya ajiye cikin kamus na mai amfani.</string>
+    <string name="permlab_writeDictionary">rubuta cikin kamus din mai amfani</string>
+    <string name="permdesc_writeDictionary">Kan bada izini shiri ta rubuta sababbin kalmomi zuwa kamus na mai amfani.</string>
+    <string name="permlab_sdcardWrite" product="nosdcard">modify/delete USB storage contents</string>
+    <string name="permdesc_sdcardWrite" product="nosdcard">Allows an application to write to the USB storage.</string>
+    <string name="permlab_cache_filesystem">ganin hanyar fayil na sirri</string>
+    <string name="permdesc_cache_filesystem">Kan bada izini shiri ta karanta da rubuta hanyar fayil fayil na sirri.</string>
+    <string name="policylab_limitPassword">Takaita kalmar sirri</string>
+    <string name="policydesc_limitPassword">Takaice nau\'in password da aka baka izinin amfani.</string>
+    <string name="policylab_watchLogin">Lura da yunkurin shiga</string>
+    <string name="policydesc_watchLogin">Lura da yunkurin bude na\'ura ta amfani da makullin sirri da ya faskara, don yin wani aiki.</string>
+    <string name="policylab_resetPassword">Sake saiti kalmomin shiga</string>
+    <string name="policydesc_resetPassword">Tilasta kalmar shigar ka ga sabuwa amfani, bukace mai iko ya baka ita kafin ka sami shiga.</string>
+    <string name="policylab_forceLock">Tilasta kulle</string>
+    <string name="policydesc_forceLock">Yi iko sa\'ad da na\'ura ta kulle, na bukatar ka sake shigar da kalmar izini.</string>
+    <string name="policylab_wipeData">Share dukkan bayani</string>
+    <string name="policydesc_wipeData">Sake assasa tsarin, ana share dukkan curin bayananka ba tare da izininka ba.</string>
+    <string-array name="phoneTypes">
+        <item>Shafin farko</item>
+        <item>Wayar tafi-da-gidanka</item>
+        <item>Aiki</item>
+        <item>Fax na aiki</item>
+        <item>Fax din gida</item>
+        <item>Pager</item>
+        <item>Wani na daban</item>
+        <item>Kwastan</item>
+    </string-array>
+    <string-array name="emailAddressTypes">
+        <item>Shafin farko</item>
+        <item>Aiki</item>
+        <item>Wani na daban</item>
+        <item>Kwastan</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Shafin farko</item>
+        <item>Aiki</item>
+        <item>Wani na daban</item>
+        <item>Kwastan</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Shafin farko</item>
+        <item>Aiki</item>
+        <item>Wani na daban</item>
+        <item>Kwastan</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Aiki</item>
+        <item>Wani na daban</item>
+        <item>Kwastan</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item></item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item></item>
+        <item>Maganar Google</item>
+        <item></item>
+        <item>Jabra</item>
+    </string-array>
+    <string name="phoneTypeCustom">Kwastan</string>
+    <string name="phoneTypeHome">Shafin farko</string>
+    <string name="phoneTypeMobile">Wayar tafi-da-gidanka</string>
+    <string name="phoneTypeWork">Aiki</string>
+    <string name="phoneTypeFaxWork">Fax na aiki</string>
+    <string name="phoneTypeFaxHome">Fax din gida</string>
+    <string name="phoneTypePager">Pager</string>
+    <string name="phoneTypeOther">Wani na daban</string>
+    <string name="phoneTypeCallback">Sake kira</string>
+    <string name="phoneTypeCar">Mota</string>
+    <string name="phoneTypeCompanyMain">Babban Kampani</string>
+    <string name="phoneTypeMain">Babba</string>
+    <string name="phoneTypeOtherFax">Wani sakon fax</string>
+    <string name="phoneTypeRadio">Rediyo</string>
+    <string name="phoneTypeTelex">Telex</string>
+    <string name="phoneTypeWorkMobile">Tafi-da-gidanka na aiki</string>
+    <string name="phoneTypeWorkPager">Pager ta aiki</string>
+    <string name="phoneTypeAssistant">Mataimaki</string>
+    <string name="phoneTypeMms">MMS</string>
+    <string name="eventTypeBirthday">Ranan haifuwa</string>
+    <string name="eventTypeAnniversary">Bukin shekara</string>
+    <string name="eventTypeOther">Taro</string>
+    <string name="emailTypeCustom">Kwastan</string>
+    <string name="emailTypeHome">Shafin farko</string>
+    <string name="emailTypeWork">Aiki</string>
+    <string name="emailTypeOther">Wani na daban</string>
+    <string name="emailTypeMobile">Wayar tafi-da-gidanka</string>
+    <string name="postalTypeCustom">Kwastan</string>
+    <string name="postalTypeHome">Shafin farko</string>
+    <string name="postalTypeWork">Aiki</string>
+    <string name="postalTypeOther">Wani na daban</string>
+    <string name="imTypeCustom">Kwastan</string>
+    <string name="imTypeHome">Shafin farko</string>
+    <string name="imTypeWork">Aiki</string>
+    <string name="imTypeOther">Wani na daban</string>
+    <string name="imProtocolCustom">Kwastan</string>
+    <string name="imProtocolMsn">Windows Live</string>
+    <string name="imProtocolYahoo">Yahoo</string>
+    <string name="imProtocolSkype">Skype</string>
+    <string name="imProtocolGoogleTalk">Maganar Google</string>
+    <string name="imProtocolJabber">Jabra</string>
+    <string name="imProtocolNetMeeting">Netmeeting</string>
+    <string name="orgTypeWork">Aiki</string>
+    <string name="orgTypeOther">Wani na daban</string>
+    <string name="orgTypeCustom">Kwastan</string>
+    <string name="keyguard_password_enter_pin_code">Shiga da tsarin PIN</string>
+    <string name="keyguard_password_enter_password_code">Shiga da kalmar shiga don budewa</string>
+    <string name="keyguard_password_wrong_pin_code">Lambar PIN marar kyau!</string>
+    <string name="pinpuk_attempts">\nRaguwar Kokartawa:</string>
+    <string name="keyguard_label_text">In za ka bude, danna jadawalin shirye shirye sannan 0.</string>
+    <string name="emergency_call_dialog_number_for_display">Lambar gaggawa</string>
+    <string name="lockscreen_sim_network_subset_locked_message">An kulle waya da karamin SIM Network</string>
+    <string name="lockscreen_sim_corporate_locked_message">An kulle waya da SIM corporate</string>
+    <string name="lockscreen_sim_service_provider_locked_message">An kulle waya da SIM na kamfanin sadarwa</string>
+    <string name="lockscreen_sim_sim_locked_message">An kulle waya daga SIM</string>
+    <string name="lockscreen_ruim_network1_locked_message">An kulle waya da RUIM Network1</string>
+    <string name="lockscreen_ruim_network2_locked_message">An kulle waya da RUIM Network2</string>
+    <string name="lockscreen_ruim_hrpd_locked_message">An kulle waya da RUIM hrpd</string>
+    <string name="lockscreen_ruim_corporate_locked_message">An kulle waya da RUIM corporate</string>
+    <string name="lockscreen_ruim_service_provider_locked_message">An kulle waya da RUIM na kamfanin sadarwa</string>
+    <string name="lockscreen_ruim_ruim_locked_message">An kulle waya da RUIM</string>
+    <string name="lockscreen_sim_error_message">Haramtaccen SIM card.</string>
+    <string name="lockscreen_pin_locked_message">An rufe SIM/RUIM card.</string>
+    <string name="lockscreen_sim_error_message_short">Kati marar kyau.</string>
+    <string name="lockscreen_sim_network_locked_message">An kulle waya da SIM Network</string>
+    <string name="lockscreen_ruim_puk_locked_message">An kulle RUIM card da PUK.</string>
+    <string name="lockscreen_ruim_puk_locked_instructions">An toshe PIN1.Shigar da PUK1 don bude PIN1.\nko\nDuba Jagorar Mai-amfani\tuntubi Sashen kula da abokan ciniki.</string>
+    <string name="lockscreen_missing_ruim_message">Babu RUM card a cikin wayar.</string>
+    <string name="lockscreen_missing_ruim_instructions">Sanya RUIM card.</string>
+    <string name="lockscreen_ruim_error_message">Haramtaccen RUIM card.</string>
+    <string name="lockscreen_missing_ruim_message_short">Babu RUM card.</string>
+    <string name="lockscreen_blocked_ruim_message_short">An toshe RUIM card.</string>
+    <string name="lockscreen_ruim_error_message_short">Kati marar kyau.</string>
+    <string name="lockscreen_ruim_network_locked_message">An kulle hanyar sadarwa</string>
+    <string name="sim1_puk_requried">An toshe PIN din SIM1, Sa PUK ka bude</string>
+    <string name="sim2_puk_requried">An toshe PIN din SIM2, Sa PUK ka bude</string>
+    <string name="sim_puk_requried">An toshe PIN din SIM, Shigar da PUK ka bude</string>
+    <string name="keyguard_password_enter_sim1_pin_code">Shiga da tsarin Sim1 PIN</string>
+    <string name="keyguard_password_enter_sim2_pin_code">Shiga da tsarin Sim2 PIN</string>
+    <string name="keyguard_password_enter_sim_pin_code">Shiga da tsarin Sim PIN</string>
+    <string name="keyguard_sim1_pin_accepted">An yi nasarar bude PIN din SIM1</string>
+    <string name="keyguard_sim2_pin_accepted">An yi nasarar bude PIN din SIM2</string>
+    <string name="keyguard_sim_pin_accepted">An yi nasarar bude PIN din SIM</string>
+    <string name="puk_accept">An amince da PUK</string>
+    <string name="unblocking_fail">An kasa budewa, sake shigar da PUK</string>
+    <string name="keyguard_password_wrong_puk_code">Lambar PUK marar kyau!</string>
+    <string name="new_pin">Shigar da sabon PIN</string>
+    <string name="reenter">Sake shigar da PIN</string>
+    <string name="lockscreen_carrier_default">(Ba sarbis)</string>
+    <string name="lockscreen_screen_locked">An kulle screen.</string>
+    <string name="lockscreen_instructions_when_pattern_enabled">Danna jadawalin shirye shirye don budewa ko yin kiran gaggawa.</string>
+    <string name="lockscreen_instructions_when_pattern_disabled">Danna jadawalin shirye shirye don budewa.</string>
+    <string name="lockscreen_pattern_instructions">Zana samfur ga budewa</string>
+    <string name="lockscreen_emergency_call">Kiran gaggawa</string>
+    <string name="lockscreen_return_to_call">Komo kan kira</string>
+    <string name="lockscreen_pattern_correct">Dai dai!</string>
+    <string name="lockscreen_pattern_wrong">Yi hakuri, sake gwada wa</string>
+    <string name="lockscreen_charged">Tayi caji</string>
+    <string name="lockscreen_low_battery">Hada da abin caji naka.</string>
+    <string name="lockscreen_missing_sim_message_short">Babu SIM card. </string>
+    <string name="lockscreen_missing_sim_message">Babu SIM card a cikin waya.</string>
+    <string name="lockscreen_missing_sim_instructions">Sanya SIM card.</string>
+    <string name="lockscreen_blocked_sim_message_short">An toshe SIM card.</string>
+    <string name="emergency_calls_only" msgid="2485604591272668370">Kiraye-kirayen gaggawa kadai</string>
+    <string name="lockscreen_network_locked_message">An kulle hanyar sadarwa</string>
+    <string name="lockscreen_sim_puk_locked_message">An kulle SIM da PUK.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">Duba Jagorar Mai amfani ko ka tuntubi sashen kula da abokan ciniki.</string>
+    <string name="lockscreen_sim_locked_message">An kulle SIM card.</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">A na bude SIM card \u2026</string>
+    <string name="lockscreen_failed_attempts_almost_glogin"> Ba daidai ba ka tsara nau\'in mabudinka  <xliff:g id="number">%d</xliff:g> lokuta.
+       Bayan <xliff:g id="number">%d</xliff:g> karin yunkuri marar nasara, za a nemi ka bude wayarka ta yin amfani da kalmar shigarka ta Google.\n\n
+       Sake gwadawa a cikin <xliff:g id="number">%d</xliff:g> dakika.</string>
+    <string name="lockscreen_forgot_pattern_button_text">An manta tsarin?</string>
+    <string name="lockscreen_glogin_forgot_pattern">Jerin asusu</string>
+    <string name="lockscreen_glogin_too_many_attempts">Nau\'in yunkuri da yawa!</string>
+    <string name="lockscreen_glogin_instructions">In za ka bude, shiga da adireshin akwatinka na google</string>
+    <string name="lockscreen_glogin_username_hint">Adireshin mai-amfani (imel)</string>
+    <string name="lockscreen_glogin_password_hint">Kalmar shiga</string>
+    <string name="lockscreen_glogin_submit_button">Shiga</string>
+    <string name="lockscreen_glogin_invalid_input">Username ko passwoed marar kyau.</string>
+    <string name="lockscreen_glogin_checking_password">Dubawa...</string>
+    <string name="lockscreen_unlock_label">Bude</string>
+    <string name="lockscreen_sound_on_label">An kunne sauti</string>
+    <string name="lockscreen_sound_off_label">An kashe sauti</string>
+    <string name="factorytest_failed">Gwajin masana\'anta ya kasa</string>
+    <string name="factorytest_not_system">Aikin GWAJIN KAMFANI yana aiki ne kawai ga kayan aikin da aka dasa cikin /na\'ura/shiri.</string>
+    <string name="factorytest_no_action">Babu wani amkunshi da ya bada damar aikin FACTORY_TEST.</string>
+    <string name="factorytest_reboot">Kashe ka kunna</string>
+    <string name="js_dialog_title_default">JavaScript</string>
+    <string name="save_password_label">Tabbatar</string>
+    <string name="double_tap_toast">Bayani mai amfani: taba sau biyu don ka jawo kusa ko tura wa nesa.</string>
+    <string name="permlab_readHistoryBookmarks">karanta ajiyayyun bayanai da kundin tarihi na Mashigar-intanet</string>
+    <string name="permdesc_readHistoryBookmarks">Kan yarda da shiri ta karanta dukkan URLs da mashigin yana ta ziyarta, da duk ma\'adanai na mashigin yana.</string>
+    <string name="permlab_writeHistoryBookmarks">rubuta tarihin da ma\'ajiyar hada hada na mashigar-intanet</string>
+    <string name="permdesc_writeHistoryBookmarks">Kan bada izini shiri ta gyaggyara tarihin mashigin yana ko ajiyayyun ma\'adanai kan wayar ka. Shirye-shirye maketata sukan iya amfani da wannan su share ko gyaggyara bayanin ka na mashigin yana.</string>
+    <string name="permlab_writeGeolocationPermissions">Inganta bada izinin nazunin Browser</string>
+    <string name="permdesc_writeGeolocationPermissions">Kan bada yarda shiri ta gyaggyara su izini wuri na mashigin yanan gizo. Shirye-shirye maketata su kan iya amfani da wannan su yarda da aika bayanin wuri ga shafuna yana babu shawara.</string>
+    <string name="save_password_message">Kana son mashigin yana ta tuna da wannan kalmar shiga?</string>
+    <string name="save_password_notnow">Ba yanzu ba</string>
+    <string name="save_password_remember">Tuna</string>
+    <string name="save_password_never">Har abada</string>
+    <string name="open_permission_deny">Ba a baka izinin bude wannan shafi ba.</string>
+    <string name="text_copied">An kwafe rubutu zuwa ragayar bayanai.</string>
+    <string name="more_item_label">Kari</string>
+    <string name="prepend_shortcut_label">Gurbin bayanai+</string>
+    <string name="menu_space_shortcut_label">sarari</string>
+    <string name="menu_enter_shortcut_label">shiga</string>
+    <string name="menu_delete_shortcut_label">Goge</string>
+    <string name="search_go">Bincika</string>
+    <string name="oneMonthDurationPast">wata 1 da ya wuce</string>
+    <string name="beforeOneMonthDurationPast">Kafin wata 1 da ya wuce</string>
+    <plurals name="num_seconds_ago">
+        <item quantity="one">dakika 1 da ya wuce</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">minti 1 da ya wuce</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">awa 1 da ya wuce</item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="last_month">Watan da ya gaba ta</string>
+    <string name="older">Na da/older</string>
+    <plurals name="num_days_ago">
+        <item quantity="one">jiya</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="one">a cikin dakika 1</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">a cikin minti 1</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="one">a cikin awa 1</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="one">gobe</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="one">dakika 1 da ya wuce</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">minti 1 da ya wuce</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="one">awa 1 da ya wuce</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="one">jiya</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="one">a cikin dakika 1</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">a cikin minti 1</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="one">a cikin awa 1</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="one">gobe</item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="day">yini</string>
+    <string name="days">kwanaki</string>
+    <string name="hour">awa</string>
+    <string name="hours">awoyi</string>
+    <string name="minute">Minti</string>
+    <string name="minutes">Minti</string>
+    <string name="seconds">Sakan </string>
+    <string name="week">Mako</string>
+    <string name="weeks">makwanni</string>
+    <string name="year">shekara</string>
+    <string name="years">shekaru</string>
+    <string name="VideoView_error_title">Bata iya kunna bidiyo</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Yi hakuri, bidiyon ba ta dace da kunnuwa ta cikin wannan na\'ura ba.</string>
+    <string name="VideoView_error_text_unknown">Yi hakuri, wannan bidiyon ba za ta kunnu ba.</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="noon">da rana</string>
+    <string name="Noon">da rana</string>
+    <string name="midnight">"Tsakar dare"</string>
+    <string name="Midnight">"Tsakar dare"</string>
+    <string name="selectAll">Zabi duk</string>
+    <string name="selectText">Zabi rubutu</string>
+    <string name="cut">Yanke</string>
+    <string name="copy">Kwafi</string>
+    <string name="paste">Lika</string>
+    <string name="copyUrl">Kwafi URL</string>
+    <string name="inputMethod">Hanyar shigar da bayanai</string>
+    <string name="editTextMenuTitle">Gyara matani</string>
+    <string name="low_internal_storage_view_title">Kasa a falaki</string>
+    <string name="low_internal_storage_view_text">Sararin ma\'adanar waya yana kara matsewa.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Soke</string>
+    <string name="yes">OK</string>
+    <string name="no">Soke</string>
+    <string name="dialog_alert_title">Saurara</string>
+    <string name="capital_on">Kunna</string>
+    <string name="capital_off">Kashewa</string>
+    <string name="whichApplication">Aiki cikakke na amfani</string>
+    <string name="alwaysUse">Yi amfani da shi a matsayin na asali a wannan aikin.</string>
+    <string name="clearDefaultHintMsg">Share tsofoffi Saitocin &gt; cikin Gida; Shirye-shirye &gt; Sarrafa shirye-shirye.</string>
+    <string name="chooseActivity">Zabi wani aiki</string>
+    <string name="noApplications">Babu shirin da zai iya gudanar da wannan aikin.</string>
+    <string name="aerr_title">Yi hakuri!</string>
+    <string name="anr_title">Yi hakuri!</string>
+    <string name="force_close">Tilasta rufewa</string>
+    <string name="report">Aika ka sanar</string>
+    <string name="wait">Jira</string>
+    <string name="sendText">Zabi wani aiki don rubutu</string>
+    <string name="volume_ringtone">Maragar sautin kira</string>
+    <string name="volume_music">Adadin taskar nishadi</string>
+    <string name="volume_fm">Karin sautin FM</string>
+    <string name="volume_music_hint_playing_through_bluetooth">Kunnawa ta cikin Bluetooth</string>
+    <string name="volume_music_hint_silent_ringtone_selected">An zabi saukin kira na shiru</string>
+    <string name="volume_call">Karar sautin kira mai shigowa</string>
+    <string name="volume_bluetooth_call">Kara murya kiran shigowa na Bluetooth</string>
+    <string name="volume_alarm">Karfin muryar kararawa</string>
+    <string name="volume_notification">Karfin sautin ankararwa</string>
+    <string name="volume_unknown">Masarrafin sauti</string>
+    <string name="ringtone_default">Sautin murya na asali</string>
+    <string name="ringtone_silent">Shiru</string>
+    <string name="ringtone_picker_title">Sautukan kira</string>
+    <string name="ringtone_unknown">Bakon sautin kira</string>
+    <plurals name="wifi_available">
+        <item quantity="one">Hanyar sadarwar Wi-Fi a bude</item>
+        <item quantity="other">Hanyoyin sadarwar Wi-Fi a bude</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">Bude layin Wi-Fi da ya aiki yanzu</item>
+        <item quantity="other">Bude layukan Wi-Fi da suke aiki yanzu</item>
+    </plurals>
+    <string name="select_character">Shigar da harafi</string>
+    <string name="sms_control_default_app_name">Bakon shiri</string>
+    <string name="sms_control_title">A na aika sakonnin SMS</string>
+    <string name="sms_control_message">Ana aikawa da babban lambar sakonnin SMS. Zabi \"OK\"a ci gaba, ko \"CANCEL\"a tsai da aikawa.</string>
+    <string name="sms_control_yes">OK</string>
+    <string name="sms_control_no">Soke</string>
+    <string name="date_time_set">Saita</string>
+    <string name="default_permission_group">Na asali</string>
+    <string name="no_permissions">Bbabu bukatar neman izini</string>
+    <string name="usb_storage_activity_title">Babbar ma\'adanar USB</string>
+    <string name="usb_storage_title">An jona USB</string>
+    <string name="usb_storage_message" product="nosdcard">You have connected your phone to your computer via USB. Select the button below if you want to copy files between your computer and your Android\u2018s USB storage.</string>
+    <string name="usb_storage_button_mount">Bude ma\'adanar USB</string>
+    <string name="usb_storage_error_message" product="nosdcard">There is a problem using your USB storage for USB mass storage.</string>
+    <string name="usb_storage_notification_title">An jona USB</string>
+    <string name="usb_storage_notification_message">Zabi ka kwafi fayil zuwa/ daga kwamfutar ka.</string>
+    <string name="usb_storage_stop_notification_title">Rufe ma\'adanar USB</string>
+    <string name="usb_storage_stop_notification_message">Zabi ka kulle ma\'adanar USB.</string>
+    <string name="usb_storage_stop_title">A na amfani da ma\'adanar USB</string>
+    <string name="usb_storage_stop_message" product="nosdcard">Before turning off USB storage, make sure you have unmounted (\u201cejected\u201d) your Android\u2018s USB storage from your computer.</string>
+    <string name="usb_storage_stop_button_mount">Rufe ma\'adanar USB</string>
+    <string name="usb_storage_stop_error_message">An sami matsala wajen kulle ma\'adanar USB. Duba ka tabbatar ka cire makarbin USB, sannan ka sake gwadawa.</string>
+    <string name="dlg_confirm_kill_storage_users_title">Bude ma\'adanar USB</string>
+    <string name="dlg_confirm_kill_storage_users_text">In ka kunna ma\'adanar USB, wasu shirye shiryen da ka ke amfani da su za su tsaya kuma ba za ka iya aiki da su ba har sai ka rufe ma\'adanar USB.</string>
+    <string name="dlg_error_title">Aikin USB bai yi nasara ba</string>
+    <string name="dlg_ok">OK</string>
+    <string name="extmedia_format_title" product="nosdcard">Format USB storage</string>
+    <string name="extmedia_format_message" product="nosdcard">Format USB storage, erasing all files stored there?  Action cannot be reversed!</string>
+    <string name="extmedia_format_button_format">Format</string>
+    <string name="adb_active_notification_title">An jona \'tsaftace USB\'</string>
+    <string name="adb_active_notification_message">Zabi ka kulle aikin tace USB.</string>
+    <string name="select_input_method">Zabi hanyar shigar da bayanai</string>
+    <string name="ext_media_checking_notification_title" product="nosdcard">Preparing USB storage</string>
+    <string name="ext_media_checking_notification_message">Dubawa don kurori.</string>
+    <string name="ext_media_nofs_notification_title" product="nosdcard">Blank USB storage</string>
+    <string name="ext_media_nofs_notification_message" product="nosdcard">USB storage blank or has unsupported filesystem.</string>
+    <string name="ext_media_unmountable_notification_title" product="nosdcard">Damaged USB storage</string>
+    <string name="ext_media_unmountable_notification_message" product="nosdcard">USB storage damaged. You may have to reformat it.</string>
+    <string name="ext_media_badremoval_notification_title" product="nosdcard">USB storage unexpectedly removed</string>
+    <string name="ext_media_badremoval_notification_message" product="nosdcard">Unmount USB storage before removing to avoid data loss.</string>
+    <string name="ext_media_safe_unmount_notification_title" product="nosdcard">USB storage safe to remove</string>
+    <string name="ext_media_safe_unmount_notification_message" product="nosdcard">You can safely remove USB storage.</string>
+    <string name="ext_media_nomedia_notification_title" product="nosdcard">Removed USB storage</string>
+    <string name="ext_media_nomedia_notification_message" product="nosdcard">USB storage removed. Insert new media.</string>
+    <string name="activity_list_empty">Babu yanayin kwatanci</string>
+    <string name="permlab_pkgUsageStats">kididdigar amfanin kayan sabuntawa</string>
+    <string name="permdesc_pkgUsageStats">Kan yarda da gyaggyara bangare da aka taro kididdigen amfani. Ba don amfani ta shirye-shiryen kullum ba.</string>
+    <string name="permlab_copyProtectedData">Kan yarda a kira hidimar kasasshen kwali a kwafi abin da ke ciki. Ba don amfani ta shirye-shiryen kullum ba.</string>
+    <string name="permdesc_copyProtectedData">Kan yarda a kira hidimar kasasshen kwali a kwafi abin da ke ciki. Ba don amfani ta shirye-shiryen kullum ba.</string>
+    <string name="tutorial_double_tap_to_zoom_message_short">Taba sau biyu don sarrafa</string>
+    <string name="gadget_host_error_inflating">Kure busawar widget</string>
+    <string name="ime_action_go">Tafi</string>
+    <string name="ime_action_search">Bincika</string>
+    <string name="ime_action_send">Aika</string>
+    <string name="ime_action_next">Na gaba</string>
+    <string name="ime_action_done">An gama</string>
+    <string name="ime_action_default">Aiwatar</string>
+    <string name="accessibility_compound_button_selected">An duba</string>
+    <string name="accessibility_compound_button_unselected">ba a taba/zaba ba</string>
+    <string name="grant_credentials_permission_message_header">Ga wani shiri daya ko biyu da ke neman izinin bude akwatinka, yanzu da kuma a gaba.</string>
+    <string name="grant_credentials_permission_message_footer">Kana son ka yarda da wannan roko?</string>
+    <string name="grant_permissions_header_text">Damar roko</string>
+    <string name="allow">A kyale</string>
+    <string name="deny">Hana</string>
+    <string name="permission_request_notification_title">An nemi a bada dama</string>
+    <string name="input_method_binding_label">Hanyar shigar da bayanai</string>
+    <string name="sync_binding_label">Jona</string>
+    <string name="accessibility_binding_label">Hanyar zuwa</string>
+    <string name="wallpaper_binding_label">Hoton fuskar waya</string>
+    <string name="chooser_wallpaper">Sauya hoton baya</string>
+    <string name="pptp_vpn_description">Point-to-Point Tunneling Protocol</string>
+    <string name="l2tp_vpn_description">Ka\'idar tura bayanai ta Shimfida ta 2</string>
+    <string name="l2tp_ipsec_psk_vpn_description">L2TP/IPSec VPN na jikin madanni da ake raba wa kyauta</string>
+    <string name="l2tp_ipsec_crt_vpn_description">Na satifiket L2TP/IPSec VPN </string>
+    <string name="upload_file">Zaba fayil da za\'a haurar</string>
+    <string name="reset">Sake saita</string>
+    <string name="submit">Mika</string>
+    <string name="description_star">Fi so</string>
+    <string name="car_mode_disable_notification_title">A raya halin mota</string>
+    <string name="car_mode_disable_notification_message">Zabi ka rufe \'kiran mota\'.</string>
+    <string name="tethered_notification_title">Durewa ko hotspot yana aiki </string>
+    <string name="tethered_notification_message">Taba don ka tsara</string>
+    <string name="throttle_warning_notification_title">Yawan amfani da bayanan wayar sadarwa</string>
+    <string name="throttle_warning_notification_message">Taba don ka kara sanin yadda a ke amfani da bayanan tafi-da-gidanka</string>
+    <string name="throttled_notification_title">An wuce iyakar bayanan da wayar tafi-da-gidanka ke iya dauka</string>
+    <string name="throttled_notification_message">Taba don ka kara sanin yadda a ke amfani da bayanan tafi-da-gidanka</string>
+    <string name="Low_Memory_Alert">Sararin ma\'adanar waya yana yin kasa.Cire wasu curin bayanai don samun ingancin waya.</string>
+    <string name="Low_Memory_Free">Kyauta</string>
+    <string name="Low_Memory_Application">Shirye-shirye</string>
+    <string name="Low_Memory_Mail">Akwati</string>
+    <string name="Low_Memory_Sms_Mms">SMS/MMS</string>
+    <string name="Low_Memory_System">Na\'ura</string>
+    <string name="Btn_Select_Clear">Zabi/Share</string>
+    <string name="myAppTip">Zabi shirye shirye don gudanarwa</string>
+    <string name="myApp_Start_Btn">Fara</string>
+    <string name="myApp_Move2Sd_ChkBox">Matsar Zuwa SD</string>
+    <string name="myApp_ClearData_ChkBox">Sahre bayani</string>
+    <string name="myApp_Uninstall_ChkBox">Cire sanyawa</string>
+    <string name="myAppLoading">Ana daura wa\u2026</string>
+    <string name="myAppProcessing">ana aikatawa\u2026</string>
+    <string name="keyguard_password_enter_puk_code">Shiga da tsarin PUK</string>
+    <string name="keyguard_password_enter_new_pin_first_code">Shiga da sabon tsarin PIN</string>
+    <string name="keyguard_password_enter_new_pin_second_code">Shiga da Sabon Tsarin PIN Kuma</string>
+    <string name="ums_active_notification_message">an bude babbar ma\'adanar usb</string>
+    <string name="modem_active_notification_title">yi amfani da tsarin tsaftace modem</string>
+    <string name="modem_active_notification_message">an bada damar tsaftace modem</string>
+    <string name="china_mobile_numeric_values">Salular China</string>
+    <string name="china_unicom_numeric_values">Unicom na China</string>
+    <string name="china_telecom_numeric_values">Kamfanin sadarwa na China</string>
+    <string name="stk_refresh_sim_init_message">SIM yana sabunta</string>
+    <string name="stk_refresh_sim_reset_message">Waya za ta sake kunna kanta</string>
+    <string name="charge_active_notification_message">Raya halin caji kadai</string>
+    <string name="charge_active_notification_title">Yi amfani da \'caji kadai\' yayin da a ka jona USB</string>
+    <string name="progress_unmounting" product="nosdcard">Unmounting USB storage...</string>
+    <string name="progress_erasing" product="nosdcard">Erasing USB storage...</string>
+    <string name="format_error" product="nosdcard">Failed to erase USB storage.</string>
+    <string name="media_bad_removal">"An cire katin SD kafin a sauko da ita."</string>
+    <string name="media_checking" product="nosdcard">USB storage is currently being checked.</string>
+    <string name="media_removed">"Katin SD an cire."</string>
+    <string name="media_shared" product="nosdcard">USB storage is currently in use by a computer.</string>
+    <string name="media_unknown_state">"Tashar waje a inda ba\'a sani ba."</string>
+    <string name="dialog_warning">Gargardi</string>
+    <string name="internal_memory_low">Ma\'adanar SD card ta kusa cika! Share wasu fayil don samun sarari.</string>
+    <string name="button_close">Rufe</string>
+</resources>

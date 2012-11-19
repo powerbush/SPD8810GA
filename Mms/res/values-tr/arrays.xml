@@ -1,0 +1,42 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_texts">
+      <item>":-)"</item>   <!-- 0: Happy -->
+      <item>":-("</item>   <!-- 1: Sad -->
+      <item>";-)"</item>   <!-- 2: Winking -->
+      <item>":-Ç"</item>   <!-- 3: Tongue sticking out -->
+      <item>"=-D"</item>   <!-- 4: Surprised -->
+      <item>":-*"</item>   <!-- 5: Kissing -->
+      <item>":D"</item>    <!-- 6: Yelling -->
+      <item>"B-)"</item>   <!-- 7: Cool -->
+      <item>":-$"</item>   <!-- 8: Money mouth -->
+      <item>":-!"</item>   <!-- 9: Foot in mouth -->
+      <item>":-["</item>   <!-- 10: Embarrassed -->
+      <item>"D:-)"</item>  <!-- 11: Angel -->
+      <item>":-\\"</item>  <!-- 12: Undecided -->
+      <item>":\'("</item>  <!-- 13: Crying -->
+      <item>":-X"</item>   <!-- 14: Lips are sealed -->
+      <item>":-D"</item>   <!-- 15: Laughing -->
+      <item>"o_O"</item>   <!-- 16: Confused -->
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>"Mutlu"</item>                   <!-- 0: :-) -->
+        <item>"Üzgün"</item>                     <!-- 1: :-( -->
+        <item>"Göz Kırpma"</item>                 <!-- 2: ;-) -->
+        <item>"Dil çıkarmış"</item>     <!-- 3: :-P -->
+        <item>"Şaşırmış"</item>               <!-- 4: =-O -->
+        <item>"Öpücük"</item>                 <!-- 5: :-* -->
+        <item>"Bağırma"</item>                 <!-- 6: :O -->
+        <item>"Sakin"</item>                    <!-- 7: B-) -->
+        <item>"Para ağızlı"</item>             <!-- 8: :-$ -->
+        <item>"Ayak ağızda"</item>           <!-- 9: :-! -->
+        <item>"Mahçup"</item>             <!-- 10: :-[ -->
+        <item>"Melek"</item>                   <!-- 11: O:-) -->
+        <item>"Kararsız"</item>               <!-- 12: :-\\ -->
+        <item>"Ağlama"</item>                  <!-- 13: :\'( -->
+        <item>"Dudakları mühürlü"</item>         <!-- 14: :-X -->
+        <item>"Gülme"</item>                <!-- 15: :-D -->
+        <item>"Sersemlemiş"</item>                <!-- 16: o_O -->
+    </string-array>
+</resources>

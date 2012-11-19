@@ -1,0 +1,77 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">سائەت</string>
+    <string name="alarm_list_title">گۈدۈك</string>
+    <string name="add_alarm">ئاگاھلاندۇرۇش سىگنالى قۇشۇش</string>
+    <string name="menu_desk_clock">پارتا سائىتى</string>
+    <string name="menu_edit_alarm">قوڭغۇراقنى تەھرىرلەش</string>
+    <string name="delete_alarm">قوڭغۇراقنى ئۆچۈرۈش</string>
+    <string name="enable_alarm">قوڭغۇراقلىق سائەت ئوچۇق</string>
+    <string name="disable_alarm">قوڭغۇراقلىق سائەت ئۆچۈك</string>
+    <string name="delete_alarm_confirm">بۇ سائەت قوڭغۇرىقى ئۆچۈرىلىدۇ.</string>
+    <string name="show_clock">سائەتنى كۆرسىتىش</string>
+    <string name="hide_clock">يوشۇرۇن سائەت</string>
+    <string name="label">بەلگە</string>
+    <string name="default_label">قوڭغۇراق سائىتى</string>
+    <string name="set_alarm">ئاھاگلاندۇرۇش بىكىتىش</string>
+    <string name="alarm_vibrate">تىترەش</string>
+    <string name="alarm_repeat">قايتا قويۇش</string>
+    <string name="alert">قوڭغۇراق</string>
+    <string name="time">ۋاقىت</string>
+    <string name="alarm_alert_dismiss_text">تارقىلىش</string>
+    <string name="alarm_alert_snooze_text">كېچىكىش قوڭغۇرىقى</string>
+    <string name="alarm_alert_power_off">تېلېفوننى ئىتىش</string>
+    <string-array name="alarm_set">
+        <item>سائەتە قوڭغۇرىقى نۆۋەتتە1 مىنۇتتىن قىسقا تەڭشەلدى.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string name="day">1كۈن</string>
+    <string name="hour">1سائەت</string>
+    <string name="minute">1مىنۇت</string>
+    <string name="every_day">ھەركۈنى</string>
+    <string name="never">ھەرگىز</string>
+    <string name="clock_instructions">كۆرسەتكۈچ سائەتنى تاللاش.</string>
+    <string name="analog_gadget">تەقلىدى سائەت</string>
+    <string name="settings">تەڭشەك</string>
+    <string name="alarm_in_silent_mode_title">قوڭغۇراقلىق سائەت ئىتىكلىك</string>
+    <string name="alarm_in_silent_mode_summary">تېنىچ ھالەتتىمۇ قۇڭغۇراقلىق سائەتنى قويۇش</string>
+    <string name="snooze_duration_title">ئارام ئېلىش ۋاقتى</string>
+    <string-array name="snooze_duration_entries">
+      <item>5مىنۇت</item>
+      <item>10مىنۇت</item>
+      <item>15مىنۇت</item>
+      <item>20مىنۇت</item>
+      <item>25مىنۇت</item>
+      <item>30مىنۇت</item>
+    </string-array>
+    <string name="done">تامام</string>
+    <string name="revert">قايتۇرۇش</string>
+    <string name="delete">ئۈچۈرۈش</string>
+    <string name="alarm_volume_title">قوڭغۇراقلىق سائەت ئاۋازى</string>
+    <string name="alarm_volume_summary">ئاگاھلاندۇرۇش ئاۋازىنىڭ چوڭلىقىنى بىكىتىش</string>
+    <string name="silent_alarm_summary">تىنچ</string>
+    <string name="alarm_notify_text">قۇڭغۇراقلىق سائەتنى ئۇخلىتىش ياكى ئېتىۋېتىش.</string>
+    <string name="volume_button_setting_title">اۋاز يۇقىرىتۆۋەنلىكى ۋە كامىرا</string>
+    <string name="volume_button_dialog_title">كۇنۇپكا ئۈنۈمى</string>
+    <string name="volume_button_setting_summary">ئاگاھلاندۇرش سىگنالىنى باسقاندا باسقان كونۇپكىنى تەڭشەش</string>
+    <string-array name="volume_button_setting_entries">
+      <item>يوق</item>
+      <item>كېچىكىش قوڭغۇرىقى</item>
+      <item>تارقىلىش</item>
+    </string-array>
+    <string name="alarm_button_description">گۈدۈك</string>
+    <string name="gallery_button_description">رەسىم باشقۇرۇشىنى كۈرۈش</string>
+    <string name="music_button_description">مۇزىكا</string>
+    <string name="nightmode_button_description">قاراڭغۇ</string>
+    <string name="home_button_description">قۇيۇپ بەرگۈچى</string>
+    <string name="desk_clock_button_description">سائەتنى كۆرسىتىش</string>
+    <string name="weather_fetch_failure">يېنقىندا ھاۋارايى ئۇچۇرلىرى يوق.</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">پىرىستان تەڭشىكى</string>
+</resources>

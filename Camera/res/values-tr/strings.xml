@@ -1,0 +1,102 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">"Kamera hatası"</string>
+    <string name="cannot_connect_camera">"Kamera bağlantısı yapılamıyor."</string>
+    <string name="camera_label">"Kamera"</string>
+    <string name="video_camera_label">"Video Kamera"</string>
+    <string name="gallery_camera_bucket_name">"Kamera resimleri"</string>
+    <string name="gallery_camera_videos_bucket_name">"Kamera videoları"</string>
+    <string name="wait">"Lütfen bekleyin..."</string>
+    <string name="no_storage" product="nosdcard">"Lütfen kamerayı kullanmadan önce USB depolama birimini ekleyin."</string>
+    <string name="no_storage" product="default">"Kamerayı kullanmadan önce lütfen bir SD kart takın."</string>
+    <string name="not_enough_space" product="nosdcard">"USB depolama biriminiz dolu."</string>
+    <string name="not_enough_space" product="default">"SD kartınız dolu."</string>
+    <string name="preparing_sd" product="nosdcard">"USB deplm birimi hazırlanıyor…"</string>
+    <string name="preparing_sd" product="default">"SD kart hazırlanıyor..."</string>
+    <string name="access_sd_fail" product="nosdcard">"USB depolama birimine erişilemedi."</string>
+    <string name="access_sd_fail" product="default">"SD karta erişilemiyor."</string>
+    <string name="confirm_restore_title">"Varsayılanları geri yükle"</string>
+    <string name="confirm_restore_message">"Kamera ayarlarının varsayılan değerleri geri yüklenecek."</string>
+    <string name="review_play">"YÜRÜT"</string>
+    <string name="review_cancel">"İPTAL"</string>
+    <string name="review_ok">"Tamam"</string>
+    <string name="review_retake">"YENİDEN ÇEK"</string>
+    <string name="camera_gallery_photos_text">"Galeri"</string>
+    <string name="switch_camera_id">"Kamerayı Değiştir"</string>
+    <string name="pref_camera_id_title">"Kamera seçin"</string>
+    <string name="pref_camera_id_entry_back">"Arka"</string>
+    <string name="pref_camera_id_entry_front">"Ön"</string>
+    <string name="pref_camera_recordlocation_title">"Depo konumu"</string>
+    <string name="pref_camera_recordlocation_entry_off">"Kapalı"</string>
+    <string name="pref_camera_recordlocation_entry_on">"Açık"</string>
+    <string name="pref_video_quality_title">"Video kalitesi"</string>
+    <string name="pref_video_quality_entry_high">"Yüksek (30m)"</string>
+    <string name="pref_video_quality_entry_low">"Düşük (30m)"</string>
+    <string name="pref_video_quality_entry_mms">"MMS (Düşük, 30s)"</string>
+    <string name="pref_video_quality_entry_youtube">"YouTube (Yüksek, 10m)"</string>
+    <string name="pref_camera_settings_category">"Kamera ayarları"</string>
+    <string name="pref_camcorder_settings_category">"Kamera ayarları"</string>
+    <string name="pref_camera_picturesize_title">"Resim boyutu"</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">"5M Piksel"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"3M Piksel"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"2M Piksel"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">1.2M Piksel</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"1M Piksel"</string>
+    <string name="pref_camera_jpegquality_title">"Resim kalitesi"</string>
+    <string name="pref_camera_jpegquality_entry_superfine">"Çok iyi"</string>
+    <string name="pref_camera_jpegquality_entry_fine">"İyi"</string>
+    <string name="pref_camera_jpegquality_entry_normal">"Normal"</string>
+    <string name="pref_camera_focusmode_title">"Odak modu"</string>
+    <string name="pref_camera_focusmode_entry_auto">"Otomatik"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"Sonsuz"</string>
+    <string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+    <string name="pref_camera_flashmode_title">"Flaş modu"</string>
+    <string name="pref_camera_flashmode_entry_auto">"Otomatik"</string>
+    <string name="pref_camera_flashmode_entry_on">"Açık"</string>
+    <string name="pref_camera_flashmode_entry_off">"Kapalı"</string>
+    <string name="pref_camera_whitebalance_title">"Beyaz dengesi"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"Otomatik"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"Ampul"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">"Gün Işığı"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">"Floresan"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">"Bulutlu"</string>
+    <string name="pref_camera_coloreffect_title">"Renk efekti"</string>
+    <string name="pref_camera_coloreffect_entry_none">"Yok"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"Mono"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sepya"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"Negatif"</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Güneş ışığı etkisi"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"Poster efekti ver"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"Su"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"Pastel"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"Mozaik"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"Kırmızı ton"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"Mavi ton"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"Yeşil ton"</string>
+    <string name="pref_camera_scenemode_title">"Sahne modu"</string>
+    <string name="pref_camera_scenemode_entry_auto">"Otomatik"</string>
+    <string name="pref_camera_scenemode_entry_action">"İşlem"</string>
+    <string name="pref_camera_scenemode_entry_portrait">"Portre"</string>
+    <string name="pref_camera_scenemode_entry_landscape">"Yatay"</string>
+    <string name="pref_camera_scenemode_entry_night">"Gece"</string>
+    <string name="pref_camera_scenemode_entry_night_portrait">"Gece portresi"</string>
+    <string name="pref_camera_scenemode_entry_theatre">"Tiyatro"</string>
+    <string name="pref_camera_scenemode_entry_beach">"Kumsal"</string>
+    <string name="pref_camera_scenemode_entry_snow">"Kar"</string>
+    <string name="pref_camera_scenemode_entry_sunset">"Gün batımı"</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">"Sabit fotoğraf"</string>
+    <string name="pref_camera_scenemode_entry_fireworks">"Havai fişekler"</string>
+    <string name="pref_camera_scenemode_entry_party">"Parti"</string>
+    <string name="pref_camera_scenemode_entry_candlelight">"Mum ışığı"</string>
+    <string name="pref_restore_title">"Kamera ayarları"</string>
+    <string name="pref_restore_detail">"Varsayılanları geri yükle"</string>
+    <string name="pref_exposure_title">"Pozlama"</string>
+    <string name="details_ok">"Tamam"</string>
+    <string name="spaceIsLow_content" product="nosdcard">"USB depolama biriminizde boş alan azaldı. Kalite ayarını değiştirin veya bazı resimleri ya da diğer dosyaları silin."</string>
+    <string name="spaceIsLow_content" product="default">"SD kartınızda boş alan azaldı. Kalite ayarını değiştirin veya bazı resimleri ya da diğer dosyaları silin."</string>
+    <string name="video_reach_size_limit">"Boyut sınırına ulaşıldı."</string>
+    <string name="zoom_control_title">"Zum:"</string>
+    <string name="switch_to_camera_lable">"Kameraya geç"</string>
+    <string name="switch_to_video_lable">"Videoya geç"</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">"Lỗi máy ảnh"</string>
+    <string name="cannot_connect_camera">"Không thể kết nối với máy ảnh."</string>
+    <string name="camera_label">"Máy ảnh"</string>
+    <string name="video_camera_label">"Máy quay video"</string>
+    <string name="gallery_camera_bucket_name">"Ảnh từ máy ảnh"</string>
+    <string name="gallery_camera_videos_bucket_name">"Video của máy ảnh"</string>
+    <string name="wait">"Vui lòng đợi..."</string>
+    <string name="no_storage" product="nosdcard">"Vui lòng kết nối bộ nhớ USB trước khi sử dụng máy ảnh."</string>
+    <string name="no_storage" product="default">"Vui lòng lắp thẻ SD trước khi sử dụng máy ảnh."</string>
+    <string name="not_enough_space" product="nosdcard">"Bộ nhớ USB đầy."</string>
+    <string name="not_enough_space" product="default">"Thẻ SD của bạn đã đầy."</string>
+    <string name="preparing_sd" product="nosdcard">"Đang chuẩn bị bộ nhớ USB…"</string>
+    <string name="preparing_sd" product="default">"Đang chuẩn bị thẻ SD…"</string>
+    <string name="access_sd_fail" product="nosdcard">"Không thể truy cập bộ nhớ USB."</string>
+    <string name="access_sd_fail" product="default">"Không thể truy cập thẻ SD."</string>
+    <string name="confirm_restore_title">"Khôi phục mặc định"</string>
+    <string name="confirm_restore_message">"Cài đặt máy ảnh sẽ được khôi phục về mặc định."</string>
+    <string name="review_play">"PHÁT"</string>
+    <string name="review_cancel">"HUỶ"</string>
+    <string name="review_ok">OK</string>
+    <string name="review_retake">"CHỤP LẠI"</string>
+    <string name="camera_gallery_photos_text">"Thư viện"</string>
+    <string name="switch_camera_id">"Chuyển Máy ảnh"</string>
+    <string name="pref_camera_id_title">"Chọn camera"</string>
+    <string name="pref_camera_id_entry_back">"Quay lại"</string>
+    <string name="pref_camera_id_entry_front">"Trước"</string>
+    <string name="pref_camera_brightness_title">Độ sáng</string>
+    <string name="pref_camera_brightness_entry_0">0</string>
+    <string name="pref_camera_brightness_entry_1">1</string>
+    <string name="pref_camera_brightness_entry_2">2</string>
+    <string name="pref_camera_brightness_entry_3">3</string>
+    <string name="pref_camera_brightness_entry_4">4</string>
+    <string name="pref_camera_brightness_entry_5">5</string>
+    <string name="pref_camera_brightness_entry_6">6</string>
+    <string name="pref_camera_contrast_title">Độ tương phản</string>
+    <string name="pref_camera_contrast_entry_0">0</string>
+    <string name="pref_camera_contrast_entry_1">1</string>
+    <string name="pref_camera_contrast_entry_2">2</string>
+    <string name="pref_camera_contrast_entry_3">3</string>
+    <string name="pref_camera_contrast_entry_4">4</string>
+    <string name="pref_camera_contrast_entry_5">5</string>
+    <string name="pref_camera_contrast_entry_6">6</string>
+    <string name="pref_camera_recordlocation_title">"Vị trí lưu trữ"</string>
+    <string name="pref_camera_recordlocation_entry_off">"Tắt"</string>
+    <string name="pref_camera_recordlocation_entry_on">"Bật"</string>
+    <string name="pref_video_quality_title">"Chất lượng video"</string>
+    <string name="pref_video_quality_entry_d1">SD(D1)</string>
+    <string name="pref_video_quality_entry_high">"Chất lượng Cao (Thời lượng 30 phút)"</string>
+    <string name="pref_video_quality_entry_low">"Chất lượng Thấp (Thời lượng 30 phút)"</string>
+    <string name="pref_video_quality_entry_mms">"MMS (Thấp, 30 giây)"</string>
+    <string name="pref_video_quality_entry_youtube">"YouTube (Chất lượng Cao, Thời lượng 10 phút)"</string>
+    <string name="pref_camera_settings_category">"Cài đặt máy ảnh"</string>
+    <string name="pref_camcorder_settings_category">"Cài đặt máy quay video"</string>
+    <string name="pref_camera_picturesize_title">"Kích thước ảnh"</string>
+    <string name="pref_camera_previewsize_title">Chế độ xem trước</string>
+    <string name="pref_camera_previewsize_default">bình thường</string>
+    <string name="pref_camera_previewsize_normal">bình thường</string>
+    <string name="pref_camera_previewsize_fullscreen">toàn màn hình</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">"5M Pixel"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"3M Pixel"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"2M Pixel"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">1.2M Pixel</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"1M Pixel"</string>
+    <string name="pref_camera_jpegquality_title">"Chất lượng ảnh"</string>
+    <string name="pref_camera_jpegquality_entry_superfine">"Rất đẹp"</string>
+    <string name="pref_camera_jpegquality_entry_fine">"Đẹp"</string>
+    <string name="pref_camera_jpegquality_entry_normal">"Thường"</string>
+    <string name="pref_camera_focusmode_title">"Chế độ tiêu điểm"</string>
+    <string name="pref_camera_focusmode_entry_auto">"Tự động"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"Vô cùng"</string>
+    <string name="pref_camera_focusmode_entry_macro">"Macro"</string>
+    <string name="pref_camera_focusmode_entry_multi">Nhiều</string>
+    <string name="pref_camera_flashmode_title">"Chế độ flash"</string>
+    <string name="pref_camera_flashmode_entry_auto">"Tự động"</string>
+    <string name="pref_camera_flashmode_entry_on">"Bật"</string>
+    <string name="pref_camera_flashmode_entry_off">"Tắt"</string>
+    <string name="pref_camera_whitebalance_title">"Cân bằng trắng"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"Tự động"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"Ánh sáng nóng"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">"Ánh sáng ban ngày"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">"Huỳnh quang"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">"Nhiều mây"</string>
+    <string name="pref_camera_coloreffect_title">"Hiệu ứng màu"</string>
+    <string name="pref_camera_coloreffect_entry_none">"Không"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"Đơn sắc"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Nâu đỏ"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"Âm bản"</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Phơi sáng"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"Ảnh áp phích"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"Màu nước"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"Màu tùng lam"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"Mosaic"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"Nhuộm màu đỏ"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"Nhuộm màu lam"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"Nhuộm màu lục"</string>
+    <string name="pref_camera_scenemode_title">"Chế độ chụp cảnh"</string>
+    <string name="pref_camera_scenemode_entry_auto">"Tự động"</string>
+    <string name="pref_camera_scenemode_entry_action">"Tác vụ"</string>
+    <string name="pref_camera_scenemode_entry_portrait">"Chân dung"</string>
+    <string name="pref_camera_scenemode_entry_landscape">"Khổ ngang"</string>
+    <string name="pref_camera_scenemode_entry_night">"Ban đêm"</string>
+    <string name="pref_camera_scenemode_entry_night_portrait">"Chân dung ban đêm"</string>
+    <string name="pref_camera_scenemode_entry_theatre">"Nhà hát"</string>
+    <string name="pref_camera_scenemode_entry_beach">"Bờ biển"</string>
+    <string name="pref_camera_scenemode_entry_snow">"Tuyết"</string>
+    <string name="pref_camera_scenemode_entry_sunset">"Hoàng hôn"</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">"Ảnh sắc nét"</string>
+    <string name="pref_camera_scenemode_entry_fireworks">"Pháo hoa"</string>
+    <string name="pref_camera_scenemode_entry_party">"Đảng"</string>
+    <string name="pref_camera_scenemode_entry_candlelight">"Ánh nến"</string>
+    <string name="pref_restore_title">"Cài đặt máy ảnh"</string>
+    <string name="pref_restore_detail">"Khôi phục mặc định"</string>
+    <string name="pref_exposure_title">"Phơi sáng"</string>
+    <string name="details_ok">OK</string>
+    <string name="spaceIsLow_content" product="nosdcard">"Bộ nhớ USB của bạn sắp hết dung lượng. Thay đổi cài đặt chất lượng hoặc xóa một số ảnh hoặc tệp khác."</string>
+    <string name="spaceIsLow_content" product="default">"Thẻ SD của bạn sắp hết dung lượng. Thay đổi cài đặt chất lượng hoặc xóa một số ảnh hoặc tệp khác."</string>
+    <string name="video_reach_size_limit">"Đã đạt tới giới hạn kích thước."</string>
+    <string name="zoom_control_title">"Thu phóng"</string>
+    <string name="switch_to_camera_lable">"Chuyển sang máy ảnh"</string>
+    <string name="switch_to_video_lable">"Chuyển sang video"</string>
+    <string name="hisense_tv_is_running">Mobile tv hiện đang chạy!</string>
+    <string name="in_video_call_is_running">Cuộc gọi video hiện đang chạy!</string>
+    <string name="canot_takepicture">Không thể chụp ảnh</string>
+    <string name="camera_memory_low">Bộ nhớ máy ảnh sắp hết, hãy thay đổi kích thước ảnh</string>
+    <string name="memory_full">Dung lượng lưu trữ đã đầy</string>
+    <string name="pref_camera_antibanding_title">dải ăng-ten</string>
+    <string name="pref_camera_antibanding_default">50hz</string>
+    <string name="pref_camera_antibanding_entry_50hz">50hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60hz</string>
+</resources>

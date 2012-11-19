@@ -1,0 +1,154 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_texts">
+      <item>":-)"</item>   <!-- 0: Happy -->
+      <item>":-("</item>   <!-- 1: Sad -->
+      <item>";-)"</item>   <!-- 2: Winking -->
+      <item>":-P"</item>   <!-- 3: Tongue sticking out -->
+      <item>"=-O"</item>   <!-- 4: Surprised -->
+      <item>":-*"</item>   <!-- 5: Kissing -->
+      <item>":O"</item>    <!-- 6: Yelling -->
+      <item>"B-)"</item>   <!-- 7: Cool -->
+      <item>":-$"</item>   <!-- 8: Money mouth -->
+      <item>":-!"</item>   <!-- 9: Foot in mouth -->
+      <item>":-["</item>   <!-- 10: Embarrassed -->
+      <item>"O:-)"</item>  <!-- 11: Angel -->
+      <item>":-\\"</item>  <!-- 12: Undecided -->
+      <item>":\'("</item>  <!-- 13: Crying -->
+      <item>":-X"</item>   <!-- 14: Lips are sealed -->
+      <item>":-D"</item>   <!-- 15: Laughing -->
+      <item>"o_O"</item>   <!-- 16: Confused -->
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>"Vui vẻ"</item>                   <!-- 0: :-) -->
+        <item>"Buồn"</item>                     <!-- 1: :-( -->
+        <item>"Nháy mắt"</item>                 <!-- 2: ;-) -->
+        <item>"Thè lưỡi"</item>     <!-- 3: :-P -->
+        <item>"Ngạc nhiên"</item>               <!-- 4: =-O -->
+        <item>"Hôn"</item>                 <!-- 5: :-* -->
+        <item>"La hét"</item>                 <!-- 6: :O -->
+        <item>"Hấp dẫn"</item>                    <!-- 7: B-) -->
+        <item>"Mặt hám tiền"</item>             <!-- 8: :-$ -->
+        <item>"Há miệng mắc quai"</item>           <!-- 9: :-! -->
+        <item>"Bối rối"</item>             <!-- 10: :-[ -->
+        <item>"Thiên thần"</item>                   <!-- 11: O:-) -->
+        <item>"Chưa quyết định"</item>               <!-- 12: :-\\ -->
+        <item>"Khóc"</item>                  <!-- 13: :\'( -->
+        <item>"Môi bị bịt kín"</item>         <!-- 14: :-X -->
+        <item>"Cười lớn"</item>                <!-- 15: :-D -->
+        <item>"Bối rối"</item>                <!-- 16: o_O -->
+    </string-array>
+    <string-array name="entries_set_sms_text_size">
+        <item>Cỡ chữ: 17</item>
+        <item>Cỡ chữ: 18</item>
+        <item>Cỡ chữ: 19</item>
+        <item>Cỡ chữ: 20</item>
+        <item>Cỡ chữ: 21</item>
+        <item>Cỡ chữ: 22</item>
+        <item>Cỡ chữ: 23</item>
+        <item>Cỡ chữ: 24</item>
+        <item>Cỡ chữ: 25</item>
+        <item>Cỡ chữ: 26</item>
+        <item>Cỡ chữ: 27</item>
+        <item>Cỡ chữ: 28</item>
+        <item>Cỡ chữ: 29</item>
+        <item>Cỡ chữ: 30</item>
+        <item>Cỡ chữ: 31</item>
+        <item>Cỡ chữ: 32</item>
+        <item>Cỡ chữ: 33</item>
+        <item>Cỡ chữ: 34</item>
+        <item>Cỡ chữ: 35</item>
+        <item>Cỡ chữ: 36</item>
+        <item>Cỡ chữ: 37</item>
+        <item>Cỡ chữ: 38</item>
+        <item>Cỡ chữ: 39</item>
+        <item>Cỡ chữ: 40</item>
+        <item>Cỡ chữ: 41</item>
+        <item>Cỡ chữ: 42</item>
+        <item>Cỡ chữ: 43</item>
+        <item>Cỡ chữ: 44</item>
+        <item>Cỡ chữ: 45</item>
+        <item>Cỡ chữ: 46</item>
+        <item>Cỡ chữ: 47</item>
+        <item>Cỡ chữ: 48</item>
+        <item>Cỡ chữ: 49</item>
+        <item>Cỡ chữ: 50</item>
+        <item>Cỡ chữ: 51</item>
+        <item>Cỡ chữ: 52</item>
+        <item>Cỡ chữ: 53</item>
+        <item>Cỡ chữ: 54</item>
+        <item>Cỡ chữ: 55</item>
+        <item>Cỡ chữ: 56</item>
+        <item>Cỡ chữ: 57</item>
+        <item>Cỡ chữ: 58</item>
+        <item>Cỡ chữ: 59</item>
+        <item>Cỡ chữ: 60</item>
+        <item>Cỡ chữ: 61</item>
+        <item>Cỡ chữ: 62</item>
+        <item>Cỡ chữ: 63</item>
+        <item>Cỡ chữ: 64</item>
+        <item>Cỡ chữ: 65</item>
+        <item>Cỡ chữ: 66</item>
+        <item>Cỡ chữ: 67</item>
+        <item>Cỡ chữ: 68</item>
+        <item>Cỡ chữ: 69</item>
+        <item>Cỡ chữ: 70</item>
+    </string-array>
+    <string-array name="entryvalues_set_sms_text_size">
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+    </string-array>
+</resources>

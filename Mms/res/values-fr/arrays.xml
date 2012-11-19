@@ -1,0 +1,42 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_texts">
+      <item>":-)"</item>   <!-- 0: Happy -->
+      <item>":-("</item>   <!-- 1: Sad -->
+      <item>";-)"</item>   <!-- 2: Winking -->
+      <item>":-T"</item>   <!-- 3: Tongue sticking out -->
+      <item>"=-A"</item>   <!-- 4: Surprised -->
+      <item>":-*"</item>   <!-- 5: Kissing -->
+      <item>":A"</item>    <!-- 6: Yelling -->
+      <item>"O-)"</item>   <!-- 7: Cool -->
+      <item>":-$"</item>   <!-- 8: Money mouth -->
+      <item>":-!"</item>   <!-- 9: Foot in mouth -->
+      <item>":-["</item>   <!-- 10: Embarrassed -->
+      <item>"A:-)"</item>  <!-- 11: Angel -->
+      <item>":-\\"</item>  <!-- 12: Undecided -->
+      <item>":\'("</item>  <!-- 13: Crying -->
+      <item>":-X"</item>   <!-- 14: Lips are sealed -->
+      <item>":-D"</item>   <!-- 15: Laughing -->
+      <item>"o_O"</item>   <!-- 16: Confused -->
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>"Content"</item>                   <!-- 0: :-) -->
+        <item>"Triste"</item>                     <!-- 1: :-( -->
+        <item>"Clin d\'œil"</item>                 <!-- 2: ;-) -->
+        <item>"Tire la langue"</item>     <!-- 3: :-P -->
+        <item>"Surpris"</item>               <!-- 4: =-O -->
+        <item>"Bisou"</item>                 <!-- 5: :-* -->
+        <item>"Hurle"</item>                 <!-- 6: :O -->
+        <item>"Cool"</item>                    <!-- 7: B-) -->
+        <item>"Argent"</item>             <!-- 8: :-$ -->
+        <item>"Embarrassé"</item>           <!-- 9: :-! -->
+        <item>"Gêné"</item>             <!-- 10: :-[ -->
+        <item>"Ange"</item>                   <!-- 11: O:-) -->
+        <item>"Indécis"</item>               <!-- 12: :-\\ -->
+        <item>"Pleure"</item>                  <!-- 13: :\'( -->
+        <item>"Motus"</item>         <!-- 14: :-X -->
+        <item>"Rigole"</item>                <!-- 15: :-D -->
+        <item>"Confus"</item>                <!-- 16: o_O -->
+    </string-array>
+</resources>

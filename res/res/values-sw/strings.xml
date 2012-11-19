@@ -1,0 +1,1074 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="address_length">Anuani imefikia urefu wa juu kabisa</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">GB</string>
+    <string name="terabyteShort">TB</string>
+    <string name="petabyteShort">PB</string>
+    <string name="fileSizeSuffix"><xliff:g id="number" example="123">%1$s</xliff:g><xliff:g id="unit" example="KB">%2$s</xliff:g></string>
+    <string name="untitled">&lt;Bila ya kichwa cha habari&gt;</string>
+    <string name="emptyPhoneNumber">(Hapana nambari ya simu)</string>
+    <string name="unknownName">(Haijulikani)</string>
+    <string name="defaultVoiceMailAlphaTag">Ujumbe wa sauti</string>
+    <string name="mmiError">Tatizo la muunganisho au  codi za MMI ni batili.</string>
+    <string name="mmiFdnError">Operesheni imedhibitiwa ili kurekebisha nambari za kupigia Tu.</string>
+    <string name="serviceEnabled">Huduma imewezeshwa.</string>
+    <string name="serviceEnabledFor">Huduma imewezeshwa kwa:</string>
+    <string name="serviceDisabled">Huduma haijawa yenye kuwezeshwa.</string>
+    <string name="serviceRegistered">Usajili umefanikiwa.</string>
+    <string name="serviceErased">Kufuta kumefanikiwa.</string>
+    <string name="passwordIncorrect">Paswadi sio sahihi</string>
+    <string name="passwordChange" msgid="">"Paswadi imebadilika"</string>
+    <string name="mmiComplete">IMM Imekamilika.</string>
+    <string name="badPin">PIN kongwe ulichapa sio sahihi.</string>
+    <string name="badPin2">PIN2 kongwe ulichapa sio sahihi.</string>
+    <string name="badPuk">PUK ulochapa sio sahihi.</string>
+    <string name="badPuk2">PUK2 ulochapa sio sahihi.</string>
+    <string name="mismatchPin">PIN uloingiza hailingani.</string>
+    <string name="mismatchPin2">PIN2 uloingiza hailingani.</string>
+    <string name="mismatchPuk">PUK uloingiza hailingani.</string>
+    <string name="mismatchPuk2">PUK2 uloingiza hailingani.</string>
+    <string name="invalidPin">Chapa PIN ambayo ni nambari 4 mpaka 8.</string>
+    <string name="invalidPuk">Chapa PUK ambayo ni nambari 8.</string>
+    <string name="needPuk">Simu kadi yako ni PUK-ilotiwa loki.Chapa codi ya PUK ili kuweza kuitoa loki.</string>
+    <string name="needPuk2">Chapa PUK2 ili kutoka loki SIM kadi.</string>
+    <string name="needPinLock">Kubadili PIN kunahitaji kuweka loki PIN.</string>
+    <string name="ClipMmi">Kalla ID ya wito wa simu unaoingia</string>
+    <string name="ClirMmi">Kalla ID ya simu zinazotoka</string>
+    <string name="ColpMmi">Mstari uliuunganishwa kutambua kinacho tambulishwa</string>
+    <string name="ColrMmi">Mstari uliuunganishwa kutambua umezuiliwa</string>
+    <string name="CfMmi">Wito wa simu unasambazwa</string>
+    <string name="UnConditionCfMmi" msgid="">"Bila masharti ya kusambaza wito wa simu"</string>
+    <string name="BusyCfMmi" msgid="">"Wakati ina kazi wito  kusambaza"</string>
+    <string name="NoReplyCfMmi" msgid="">"Wakati hakuna majibu ya wito wa kusambaza"</string>
+    <string name="NotReachCfMmi" msgid="">"Wakati haifikiwi wito wa kusambaza"</string>
+    <string name="AllCfMmi" msgid="">"Simu zote zinazotumwa"</string>
+    <string name="ConditionCfMmi" msgid="">"Masharti ya usambazaji wa simu"</string>
+    <string name="CwMmi">Subiri call</string>
+    <string name="BaMmi">Wito wa simu umezuiwa</string>
+    <string name="BaocMmi" msgid="">"Zuia simu zote zinazotoka"</string>
+    <string name="BaoicMmi" msgid="">"Zuia simu zote za kimataifa zinazotoka"</string>
+    <string name="BaoicxhMmi" msgid="">"Zuia simu zote za kimataifa zinazotoka isipokua simu ya nchi yangu "</string>
+    <string name="BaicMmi" msgid="">"Zuia simu zote zinazoingia"</string>
+    <string name="BaicrMmi" msgid="">"Zuia simu zote zinazoingia wakati wa roaming"</string>
+    <string name="BaallMmi" msgid="">"Kuzuia zote kwa ajili ya huduma zote za msingi"</string>
+    <string name="BamoMmi" msgid="">"Zote zinazotoka kwa ajili ya huduma zote za msingi"</string>
+    <string name="BamtMmi" msgid="">"Zote zinaoingia kwa ajili ya huduma zote za msingi"</string>
+    <string name="ActiveUnconCf">Wito wa simu umesambazwa wa bila masharti</string>
+    <string name="ActiveConCf">Wito wa simu  umesambazwa wa masharti</string>
+    <string name="CallForwarded">Wito wa simu umesambazwa</string>
+    <string name="CallWaiting">Subiri call</string>
+    <string name="CugCall" msgid="">"Wito wa CUG"</string>
+    <string name="OutCallBarred" msgid="">"Simu zinazotoka zimezuiwa"</string>
+    <string name="InCallBarred" msgid="">"Simu zinazoingia zimezuiwa"</string>
+    <string name="ClirRejected" msgid="">"Kukandamiza CLIR kulikataliwa"</string>
+    <string name="ForwardedCall">Wito wa simu uliosambazwa</string>
+    <string name="CallRetrieved" msgid="">"Simu imerudishwa"</string>
+    <string name="MultiCall" msgid="">"Wito wa vyama vingi"</string>
+    <string name="HoldCallReleased" msgid="">"Simu iliyozuiliwa imeachilwa"</string>
+    <string name="ConnectingEct" msgid="">"Kuunganisha na ECT\'</string>
+    <string name="ConnectedEct" msgid="">"Iliunganishwa na ECT"</string>
+    <string name="IncomingCallForwarded" msgid="">"Simu za ziada zinazoingia zimetumwa"</string>
+    <string name="PwdMmi">Paswadi imebadilika</string>
+    <string name="PinMmi">PIN imebadilika</string>
+    <string name="Pin2Mmi">"PIN2 imebadilika"</string>
+    <string name="PukMmi">"PIN imetolewa loki"</string>
+    <string name="Puk2Mmi">"PIN2 imetolewa loki"</string>
+    <string name="CnipMmi">Nambari ya kupiga ipo</string>
+    <string name="CnirMmi">Nambari ya kupiga imezuiliwa</string>
+    <string name="ThreeWCMmi">Njia tatu za kupiga simu</string>
+    <string name="RuacMmi">Kukataa kwa simu zinazokera</string>
+    <string name="CndMmi">Nambari ya kupiga imetumwa</string>
+    <string name="DndMmi">Usinisumbue</string>
+    <string name="CLIRDefaultOnNextCallOn">Kalla ID ya defaulti kwa zilizozuiwa.Simu inayofata:Imezuiwa.</string>
+    <string name="CLIRDefaultOnNextCallOff">Kalla ID ya defaulti kwa zilizozuiwa.Simu inayofata:Haijazuiwa.</string>
+    <string name="CLIRDefaultOffNextCallOn">Kalla ID ya defaulti kwa zisizozuiwa.Simu inayofata:Imezuiwa.</string>
+    <string name="CLIRDefaultOffNextCallOff">Kalla ID ya defaulti kwa zisizozuiwa.Simu inayofata:Haijazuiwa.</string>
+    <string name="serviceNotProvisioned">Huduma haijatengewa maeneo.</string>
+    <string name="CLIRPermanent">Vipimo vya Galla ID hafiwezi kubadilishwa.</string>
+    <string name="RestrictedChangedTitle">Vikwazo vya upatikanaji vimebadilika</string>
+    <string name="RestrictedOnData">Huduma ya data imezuiliwa.</string>
+    <string name="RestrictedOnEmergency">Hudama ya Dharura imezuiliwa.</string>
+    <string name="RestrictedOnNormal">Huduma ya Sauti imefungwa.</string>
+    <string name="RestrictedOnAllVoice">Huduma zote za sauti zitazuiwa.</string>
+    <string name="RestrictedOnSms">SMS huduma imezuliwa.</string>
+    <string name="RestrictedOnVoiceData">Sauti/Huduma za Data zimezuiliwa.</string>
+    <string name="RestrictedOnVoiceSms">Sauti/Huduma za SMS zimefungwa.</string>
+    <string name="RestrictedOnAll">Sauti zote/Data/Huduma ya SMS zitazuiwa.</string>
+    <string name="serviceClassVoice">Sauti</string>
+    <string name="serviceClassData">Data</string>
+    <string name="serviceClassFAX">FAX</string>
+    <string name="serviceClassSMS">SMS</string>
+    <string name="serviceClassDataAsync">Wezesha</string>
+    <string name="serviceClassDataSync">Wezesha</string>
+    <string name="serviceClassPacket">Kifurushi</string>
+    <string name="roamingText0">Kiashiria utembezi kipo wazi </string>
+    <string name="roamingText1">Kiashiria utembezi kimezimwa</string>
+    <string name="roamingText2">Kiashiria utembezi Kinamwesa</string>
+    <string name="roamingText3">Nje ya Jirani</string>
+    <string name="roamingText4">Nje ya jengo</string>
+    <string name="roamingText5">Utembezi-Mfumo unaopendelewa</string>
+    <string name="roamingText6">Utembezi-Mfumo unaopatikana</string>
+    <string name="roamingText7">Utembezi-Mwenza wa Muungano</string>
+    <string name="roamingText8">Utembezi-Mwenza Wa Hali ya Juu</string>
+    <string name="roamingText9">Utembezi-Huduma zote zinafanya kazi</string>
+    <string name="roamingText10">Utembezi-Huduma za kiwango cha sehemu Inafanya kazi</string>
+    <string name="roamingText11">Utembezi wa Banna umewashwa</string>
+    <string name="roamingText12">Utembezi wa Banna umezimwa</string>
+    <string name="roamingTextSearching">Kutafuta kwa Huduma</string>
+    <string name="cfTemplateNotForwarded"><xliff:g id="bearer_service_code">{0}</xliff:g>: Haiwezi kusambazwa</string>
+    <string name="cfTemplateForwarded"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g></string>
+    <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> baada <xliff:g id="time_delay">{2}</xliff:g> sekunde</string>
+    <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: Haiwezi kusambazwa</string>
+    <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: Haiwezi kusambazwa</string>
+    <string name="fcComplete">Sifa za codi zimekamilika.</string>
+    <string name="fcError">Tatizo la muunganisho au sifa za codi ni batili.</string>
+    <string name="httpErrorOk">Ndio</string>
+    <string name="httpError">Ukurasa wa tovuti umekusanya hitilafu.</string>
+    <string name="httpErrorLookup">URL kuwa haiwezi kuonekana.</string>
+    <string name="httpErrorUnsupportedAuthScheme">Skimu ya ulinzi wa tovuti haiungwi mkono.</string>
+    <string name="httpErrorAuth">Kusalamisha hakujafanikiwa.</string>
+    <string name="httpErrorProxyAuth">Kusalamisha kwa kupitia seva ya proxy hakujafanikiwa.</string>
+    <string name="httpErrorConnect">Muunganisho na Seva haukufanikiwa.</string>
+    <string name="httpErrorIO">Seva imefeli kuwasiliana.Jaribu tena.</string>
+    <string name="httpErrorTimeout">Muda wa muunganisho na Seva umeisha.</string>
+    <string name="httpErrorRedirectLoop">Ukasa umekusanya njia nyingi sana za seva.</string>
+    <string name="httpErrorUnsupportedScheme">Protocoli haiungwi mkono.</string>
+    <string name="httpErrorFailedSslHandshake">Uhusiano salama unakuwa hauwezwi kuanzishwa.</string>
+    <string name="httpErrorBadUrl">Ukurasa unaweza kuwa usikufunguke kwa sababu URL sio halali.</string>
+    <string name="httpErrorFile">Faili inakuwa haliwezi kupatikana.</string>
+    <string name="httpErrorFileNotFound">Faili lililoombwa halionekani.</string>
+    <string name="httpErrorTooManyRequests">Maombi mengi sana yanachakatuliwa.Jaribu tena baadae.</string>
+    <string name="notification_title">Hitilafu ya kuingia ndani kwa <xliff:g id="account" example="foo@gmail.com">%1$s</xliff:g></string>
+    <string name="contentServiceSync">Wezesha</string>
+    <string name="contentServiceSyncNotificationTitle">Wezesha</string>
+    <string name="contentServiceTooManyDeletesNotificationDesc">Kuna <xliff:g id="content_type">%s</xliff:g> kufuta kwingi </string>
+    <string name="low_memory">Hifadhi ya simu imejaa!Futa baadhi ya mafaili ili kupata nafasi.</string>
+    <string name="me">Mimi</string>
+    <string name="power_dialog">Chaguzi za simu</string>
+    <string name="silent_mode">Modi ya kimya</string>
+    <string name="turn_on_radio">Washa wayales</string>
+    <string name="turn_off_radio">Zima wayales</string>
+    <string name="screen_lock">Skrini imetiwa loki</string>
+    <string name="power_off">Zima simu</string>
+    <string name="shutdown_progress">Kuzimika\u2026</string>
+    <string name="shutdown_confirm">Simu yako itazima.</string>
+    <string name="recent_tasks_title">Karibuni</string>
+    <string name="no_recent_tasks">Hakuna maombi ya karibuni.</string>
+    <string name="global_actions">Chaguzi za simu</string>
+    <string name="global_action_lock">Skrini imetiwa loki</string>
+    <string name="global_action_power_off">Zima simu</string>
+    <string name="global_action_toggle_silent_mode">Modi ya kimya</string>
+    <string name="global_action_silent_mode_on_status">Sauti imezimwa</string>
+    <string name="global_action_silent_mode_off_status">Sauti imewashwa</string>
+    <string name="global_actions_toggle_airplane_mode">Modi ya ndege</string>
+    <string name="global_actions_airplane_mode_on_status">Modi ya ndege imewashwa</string>
+    <string name="global_actions_airplane_mode_off_status">Modi ya ndege imezimwa</string>
+    <string name="safeMode">Modi ya kuokoa</string>
+    <string name="android_system_label">Mfumo wa Android</string>
+    <string name="permgrouplab_costMoney">Huduma inayokugharimu pesa</string>
+    <string name="permgroupdesc_costMoney">Ruhusu mambo ili kufanya vitu ambavyo vitakugharimu pesa.</string>
+    <string name="permgrouplab_messages">Ujumbe wako</string>
+    <string name="permgroupdesc_messages">Soma na andika SMS,barua pepe,na ujumbe mwengine.</string>
+    <string name="permgrouplab_personalInfo">Maelezo yako binafsi</string>
+    <string name="permgroupdesc_personalInfo">Moja kwa moja kwenda kwenye wasiliano na kalenda liliohifadhiwa katika simu.</string>
+    <string name="permgrouplab_location">Eneo lako</string>
+    <string name="permgroupdesc_location">Simamia eneo lako la kimwili</string>
+    <string name="permgrouplab_network">Mawasiliano ya Mtandao</string>
+    <string name="permgroupdesc_network">Ruhusu maombi ili kupata makala mbali mbali za mtandao.</string>
+    <string name="permgrouplab_accounts">Akaunti yako</string>
+    <string name="permgroupdesc_accounts">Kupata akaunti zinazopatikana.</string>
+    <string name="permgrouplab_hardwareControls">Udhibiti wa kifaa</string>
+    <string name="permgroupdesc_hardwareControls">Moja kwa moja kupata kifaa katika seti ya mkononi.</string>
+    <string name="permgrouplab_phoneCalls">Wito wa simu</string>
+    <string name="permgroupdesc_phoneCalls">Simamia,rekodi na chakatua wito wa simu.</string>
+    <string name="permgrouplab_systemTools">Mfumo wa vifaa</string>
+    <string name="permgroupdesc_systemTools">Kupata katika kiwango kidogo na kudhibiti mfumo.</string>
+    <string name="permgrouplab_developmentTools">Nyezo za maendeleo</string>
+    <string name="permgroupdesc_developmentTools">Sifa zinahitajika tu kwa matumizi ya muendelezaji.</string>
+    <string name="permgrouplab_storage">Pahali pa kuhifadhi</string>
+    <string name="permgroupdesc_storage" product="nosdcard">Kupata hifadhi ya USB.</string>
+    <string name="permgroupdesc_storage" product="default">Kupata kadi ya SD.</string>
+    <string name="permlab_statusBar">Kutokuwezesha au kurekebisha hali ya nguzo</string>
+    <string name="permdesc_statusBar">Inaruhusu matumizi ili kutokuwezesha Hali ya nguzo au kuongeza na kuondoa mfumo wa ikoni.</string>
+    <string name="permlab_statusBarService">Nguzo ya Hadhi</string>
+    <string name="permdesc_statusBarService">Ruhusu matumizi ya kuwa hali ya nguzo.</string>
+    <string name="permlab_expandStatusBar">tunisha/funja hali ya nguzo</string>
+    <string name="permdesc_expandStatusBar">Inaruhusu matumizi ili kupanua au kuvunja hali ya nguzo.</string>
+    <string name="permlab_processOutgoingCalls">kukatiza wito wa simu unaotoka</string>
+    <string name="permdesc_processOutgoingCalls">Inaruhusu matumizi ili kuchakatua wito wa simu zinazotoka na kubadili nambari ya kupigwa.Maombi ya makusudi yanaweza kuangalia,kuongoza,au kuzuia wito wa simu zinazotoka.</string>
+    <string name="permlab_receiveSms">pokea SMS</string>
+    <string name="permdesc_receiveSms">Inaruhusu matumizi ili kupokea na kuchakatua ujumbe wa SMS.Maombi ya makusudi yanaweza ungalia ujumbe wako au kufuta bila ya hata kukuonyesha wewe.</string>
+    <string name="permlab_receiveSmsCB">pokea SMSCB</string>
+    <string name="permdesc_receiveSmsCB">Inaruhusu matumizi ili kupokea na kuchakatua ujumbe wa SMSCB.Maombi ya makusudi yanaweza ungalia ujumbe wako au kufuta bila ya hata kukuonyesha wewe.</string>
+    <string name="permlab_receiveMms">pokea MMS</string>
+    <string name="permdesc_receiveMms">Inaruhusu matumizi ili kupokea na kuchakatua ujumbe wa MMS.Maombi ya makusudi yanaweza ungalia ujumbe wako au kufuta bila ya hata kukuonyesha wewe.</string>
+    <string name="permlab_receiveEmergencyBroadcast">kupokea matangazo ya dharura</string>
+    <string name="permdesc_receiveEmergencyBroadcast">Ruhusu matumizi ili kupokea na kuchanganua ujumbe wa dharura wa matangazo.Ruhusa hii inapatikana tu katika mfumo wa matumizi.</string>
+    <string name="permlab_sendSms">tuma  ujumbe wa SMS</string>
+    <string name="permdesc_sendSms">Inaruhusu matumizi ili kutuma ujumbe wa SMS.Maombi ya makusudi yanaweza kukugharimu pesa kwa kutuma ujumbe bila ya kuamua.</string>
+    <string name="permlab_readSms">soma SMS au MMS</string>
+    <string name="permdesc_readSms">Inaruhusu matumizi ili kusoma ujumbe wa SMS uliohifadhiwa katika simu yako au kadi ya laini ya simu.Maombi ya makusudi yanaweza kusoma ujumbe wako wa siri.</string>
+    <string name="permlab_writeSms">hariri SMS au MMS</string>
+    <string name="permdesc_writeSms">Inaruhusu matumizi ili kuandika kwa ujumbe wa SMS uliohifadhiwa katika simu yako au laini ya kadi ya simu.Maombi ya makusudi yanaweza kufuta ujumbe wako.</string>
+    <string name="permlab_receiveWapPush">pokea WAP</string>
+    <string name="permdesc_receiveWapPush">Inaruhusu matumizi ili kupokea na kuchakatua ujumbe wa WAP.Maombi ya makusudi yanaweza ungalia ujumbe wako au kufuta bila ya hata kukuonyesha wewe.</string>
+    <string name="permlab_getTasks">kupata  kunatembeza matumizi</string>
+    <string name="permdesc_getTasks">Inaruhusu matumizi ili kupata maelezo kuhusu kazi zilokua mbioni za sasa na za karibuni.Inaweza kuruhusu maombi ya makusudi ili kuvumbua maelezo binafsi kuhusu matumizi mengine.</string>
+    <string name="permlab_reorderTasks">panga tena matumizi yaliyoko mbioni</string>
+    <string name="permdesc_reorderTasks">Inaruhusu maombi ili kuondoa kazi kwenda kwa uwanja wa mbele na uwanja wa nyuma.Kusukuma maombi kunaweza kwa nguvu zake kujisukuma wenyewe kwenda mbele bila ya udhibiti wako.</string>
+    <string name="permlab_setDebugApp">Wezesha matumizi ya ondoa hitilafu</string>
+    <string name="permdesc_setDebugApp">"Inaruhusu matumizi ili kuwasha  
+         hitilafu kwa matumizi mengine. Kusukuma Maombi kunaweza kutumia
+         huku ili kuua matumizi mengine. "</string>
+    <string name="permlab_changeConfiguration">badili vipimo vyako vya UI</string>
+    <string name="permdesc_changeConfiguration">Inaruhusu matumizi ili kubadili mpangilio wa sasa,kama vile ya kawaida au ukubwa wa jumla wa font</string>
+    <string name="permlab_enableCarMode">wezesha modi ya gari</string>
+    <string name="permdesc_enableCarMode">Inaruhusu matumizi ili kuwezesha Modi ya gari.</string>
+    <string name="permlab_killBackgroundProcesses">uawa michakato ya uwanja wa nyuma</string>
+    <string name="permdesc_killBackgroundProcesses">Inaruhusu matumizi ili kuua mchakato wa uwanja wa nyuma wa matumizi mengine,japo kuwa hifadhi sio ndogo.</string>
+    <string name="permlab_forceStopPackages">nguvusha simamisha matumizi mengine</string>
+    <string name="permdesc_forceStopPackages">Inaruhusu matumizi ya kutumia nguvu ili kusimamisha matumizi mengine.</string>
+    <string name="permlab_forceBack">nguvusha matumizi ili kufunga</string>
+    <string name="permdesc_forceBack">
+Inaruhusu maombi ili kuweka  nguvu kwa 
+         shughuli yoyote ambayo ipo katika uwanja wa mbele ili kufunga na kurudi nyuma.foreground kwa karibu na kurudi nyuma.
+         Kamwe kuwa hazihitajiki kwa matumizi ya kawaida . "</string>
+    <string name="permlab_dump">kupata mfumo wa hali ya ndani</string>
+    <string name="permdesc_dump">Inaruhusu matumizi ili kupata hali ya ndani ya mfumo.Maombi ya makusudi yanaweza kupata upana mkubwa wa maelezo mbali mbali binafsi na salama ambayo kamwe kwa kawaida hayahitajiki.</string>
+    <string name="permlab_shutdown">Kukatika sehemu</string>
+    <string name="permdesc_shutdown">Ingiza meneja ya shuguli katika hali ya kuzima.Haiwezi kufanya mzimiko wa mzima.</string>
+    <string name="permlab_stopAppSwitches">zuia mabadilizo ya app</string>
+    <string name="permdesc_stopAppSwitches">Zuia mtumiaji ili asibadili kwenda kwenye matumizi mengine.</string>
+    <string name="permlab_runSetActivityWatcher">simamia na dhibiti matumizi yote yanayozinduliwa</string>
+    <string name="permdesc_runSetActivityWatcher">Inaruhusu matumizi ili 
+         kurekebisha matumizi yanayopendelewa. Hii inaweza kuruhusu maombi ya makusudi ili 
+         kimya kimya kubadili matumizi ambayo yako mbioni, spoofing yako yapo 
+         zmaombi ya kukusanya data binafsi kutoka kwako. 
+</string>
+    <string name="permlab_broadcastPackageRemoved">kutuma kifurushi kinachoondoa matangazo</string>
+    <string name="permdesc_broadcastPackageRemoved">
+"Inaruhusu matumizi ili 
+         kutangaza taarifa kwamba kifurushi cha matumizi kimeondolewa.
+         Maombi kwa makusudi yanaweza kutumia kuua matumizi yoyote yalioko mbioni. "</string>
+    <string name="permlab_broadcastSmsReceived">tuma SMS-matangazo yaliyopokelewa</string>
+    <string name="permdesc_broadcastSmsReceived">Inaruhusu matumizi ili kutangaza taarifa kwamba ujumbe wa SMS kuwa umepokelewa.Maombi ya makusudi yanaweza kutumia hii ili kughushi ujumbe wa SMS unaoingia.</string>
+    <string name="permlab_broadcastSmsCBReceived">tuma SMSCB-matangazo yaliyopokelewa</string>
+    <string name="permdesc_broadcastSmsCBReceived">"Inaruhusu matumizi ili
+         kutangaza taarifa kwamba ujumbe wa SMSCB kuwa umepokelewa.
+         Maombi kwa makusudi yanaweza kutumia ili kuzua ujumbe wa SMSCB zinazoingia."</string>
+    <string name="permlab_broadcastWapPush">tuma WAP-SUKUMA-matangazo yaliyopokewa</string>
+    <string name="permdesc_broadcastWapPush">Inaruhusu matumizi ili kutangaza taarifa kwamba ujumbe Kusukuma wa WAP  kuwa umepokelewa. Maombi kwa makusudi yanaweza kutumia hii ili kufoji risiti ya ujumbe wa MMS au kimya kimya kuweka maudhui ya ukurasa wa tovuti yoyote kwa lahaja ya makusudi.</string>
+    <string name="permlab_setProcessLimit">Kikomo cha idadi ya michakato inayokimbizwa</string>
+    <string name="permdesc_setProcessLimit">Inaruhusu matumizi ili kudhibiti nambari ya juu kabisa ya mchakato ambao utakimbia.Kwamwe haihitajiki kwa matumizi ya kawaida.</string>
+    <string name="permlab_setAlwaysFinish">fanya kufungwa matumizi yote ya uwanja wa nyuma</string>
+    <string name="permdesc_setAlwaysFinish">Inaruhusu matumizi ili kudhibiti kama shughuli daima zinamaliza mara tu zinapokwenda katika uwanja wa nyuma.Kamwe haihitajiki kwa matumizi ya kawaida.</string>
+    <string name="permlab_batteryStats">rekebisha takwimu za betri</string>
+    <string name="permdesc_batteryStats">Inaruhusu muundo wa kukusanya takwimu za betri. Sio kwa ajili ya matumizi ya kawaida.</string>
+    <string name="permlab_backup">dhibiti mfumo rejesha nyuma na rejea</string>
+    <string name="permdesc_backup">Inaruhusu matumizi ili kudhibiti mfumo wa kurudi nyuma na kurejesha utaratibu. Sio kwa ajili ya matumizi ya kawaida.</string>
+    <string name="permlab_internalSystemWindow">kuonyesha madirisha yasiyoruhusiwa</string>
+    <string name="permdesc_internalSystemWindow">Inaruhusu upunifu wa madirisha ambayo yanataka kutumika kwa mfumo wa ndani wa intafezi ya mtumiaji.Sio kwa ajili ya matumizi ya kawaida.</string>
+    <string name="permlab_systemAlertWindow">kuonyesha mfumo wa daraja za tahadhari</string>
+    <string name="permdesc_systemAlertWindow">Inaruhusu matumizi ili kuonyesha madirisha ya mfumo wa tahadhari.Maombi ya makusudi yanaweza kuchukua skrini yote ya simu.</string>
+    <string name="permlab_setAnimationScale">rekebisha kasi ya uhuishaji ya dunia</string>
+    <string name="permdesc_setAnimationScale">"Inaruhusu maombi kubadilisha
+        kasi ya  kimataifa ya uhuishaji (uhuishaji wa kasi au polepole ) wakati wowote."</string>
+    <string name="permlab_manageAppTokens">Simamia matumizi ya tokeni</string>
+    <string name="permdesc_manageAppTokens">Inaruhusu matumizi ili kupuni na kuongoza tokeni zake mwenyewe,kwa kupitisha utaratibu wa Z wa kawaida.Kamwe haihitajiki kwa matumizi ya kawaida.</string>
+    <string name="permlab_injectEvents">bonyeza funguo na batan za kudhibiti</string>
+    <string name="permdesc_injectEvents">Inaruhusu maombi kutuma matukio yanayotoa mwenyewe(bonyeza ufunguo,n.k) kwa maombi mengine.Kusukuma maombi kunaweza kutumia huku ili kuchukua simu.</string>
+    <string name="permlab_readInputState">rekodi unachokiandika na kitendo unachofanya</string>
+    <string name="permdesc_readInputState">Inaruhusu matumizi ili kuangalia funguo unayobonyeza japo kuwa inaingiliana na matumizi mengine(kama vile kuingiza paswadi).Kamwe haihitajiki kwa matumizi ya kawaida.</string>
+    <string name="permlab_bindInputMethod">kandamiza kwa njia za kuingizia</string>
+    <string name="permdesc_bindInputMethod">Inaruhusu mmiliki kuminya kwa ngazi ya juu intafezi ya njia za kuingizwa.Kamwe haihitajiki kwa matumizi ya kawaida.</string>
+    <string name="permlab_bindWallpaper">kandamiza kwa pazia</string>
+    <string name="permdesc_bindWallpaper">Inaruhusu mmiliki kuminya kwa ngazi ya juu intafezi ya pazia.Kamwe haihitajiki kwa matumizi ya kawaida.</string>
+    <string name="permlab_bindDeviceAdmin">kuingilia na kifaa cha utawala</string>
+    <string name="permdesc_bindDeviceAdmin">Inaruhusu mmiliki kutuma kwa dhamira kwenda kwa mtawala wa kifaa.Kamwe haihitajiki kwa matumizi ya kawaida.</string>
+    <string name="permlab_setOrientation">badili matayarisho ya skrini</string>
+    <string name="permdesc_setOrientation">Inaruhusu maombi kubadili mzunguko wa skrini wakati wowote.Katu haihitajiki kwa maombi ya kawaida.</string>
+    <string name="permlab_signalPersistentProcesses">Tuma mawimbi ya Linux kwa matumizi</string>
+    <string name="permdesc_signalPersistentProcesses">Inaruhusu matumizi ili kuomba kuwa mawimbi yanayotolewa yatumwe kwa taratibu zote za kuendelea.</string>
+    <string name="permlab_persistentActivity">fanya matumizi kua mbioni daima</string>
+    <string name="permdesc_persistentActivity">Inaruhusu maombi kufanya sehemu ya ugumu wake mwenyewe,ili mfumo usiweze kutumia hiyo kwa matumizi mengine.</string>
+    <string name="permlab_deletePackages">futa matumizi</string>
+    <string name="permdesc_deletePackages">Inaruhusu maombi kufuta Vifurushi vya Android.Kusukuma maombi kunaweza kutumia huku ili kufuta maombi muhimu.</string>
+    <string name="permlab_clearAppUserData">futa matumizi ya data nyengine</string>
+    <string name="permdesc_clearAppUserData">Inaruhusu maombi kufuta data za mtumiaji.</string>
+    <string name="permlab_deleteCacheFiles">futa matumizi mengineya kache</string>
+    <string name="permdesc_deleteCacheFiles">Inaruhusu maombi kufuta mafaili ya kechi.</string>
+    <string name="permlab_getPackageSize">inapima matumizi ya hifadhi ya nafasi</string>
+    <string name="permdesc_getPackageSize">"Inaruhusu maombi ili kuzipata
+         kodi yake, data, na ukubwa kechi"</string>
+    <string name="permlab_installPackages">moja kwa moja funga matumizi</string>
+    <string name="permdesc_installPackages">Inaruhusu maombi kuweka mpya au kuwakatisha vifurushi vya Android.Kusukuma maombi kunaweza kutumia huku ili kuongeza matumizi mapya pamoja na nguvu za ruhusa za kiholela.</string>
+    <string name="permlab_clearAppCache">futa matumizi yote ya kachi za data</string>
+    <string name="permdesc_clearAppCache">Inaruhusu maombi kuweka nafasi katika hifadhi ya simu kwa kufuta mafaili katika muongozo wa maombi ya kechi.Upatikanaji umedhibitiwa sana ni kawaida kwa mchakato wa mfumo.</string>
+    <string name="permlab_movePackage">Sogeza nyezo za matumizi</string>
+    <string name="permdesc_movePackage">Inaruhusu maombi kuondoa nyezo za matumizi kutoka ndani kwenda media ya nje na kinyume chake.</string>
+    <string name="permlab_readLogs">soma mfumo wa kulogi mafaili</string>
+    <string name="permdesc_readLogs">Inaruhusu matumizi ili kusoma kutoka mifumo mbali mbali ya mafaili ya logi.Hii inaruhusu kugundua maelezo ya jumla yanayohusu nini unafanya na simu ,lakini yatakuwa hayakusanyi maelezo yeyote binafsi au maelezo ya siri.</string>
+    <string name="permlab_diagnostic">soma/andika kwa vyanzo vinavyomilikiwa na diag</string>
+    <string name="permdesc_diagnostic">Inaruhusu maombi kusoma na kuandika kwa rasilimali yoyote inayomilikiwa na kundi cha diag, kwa mfano, faili katika/ dev . Hii inaweza kuwa na uwezekano wa kuathiri mfumo wa utulivu na usalama. Hii lazima Tu kutumika kwa ajili ya uchunguzi wa vifaa maalum </string>
+    <string name="permlab_changeComponentState">wezesha au kutowezesha vipengele vya matumizi</string>
+    <string name="permdesc_changeComponentState">
+\'Inaruhusu maombi kubadilisha kama kipengele cha ombi jengine ikiwa imewezeshwa au la. Kusukuma Maombi kunaweza kutumia hii ili kutokuwezesha uwezo muhimu wa simu. Tahadhari lazima kutumika pamoja na  ruhusa, kama vile inawezekana kupata vipengele vya m</string>
+    <string name="permlab_setPreferredApplications">Seti matumizi yanayopendelewa</string>
+    <string name="permdesc_setPreferredApplications">
+"Inaruhusu matumizi ili 
+         kurekebisha matumizi yanayopendelewa. Hii inaweza kuruhusu maombi ya makusudi ili 
+         kimya kimya kubadili matumizi ambayo yako mbioni, spoofing yako yapo 
+         zmaombi ya kukusanya data binafsi kutoka kwako. 
+</string>
+    <string name="permlab_writeSettings">rekebisha vipimo vya mfumo wa dunia</string>
+    <string name="permdesc_writeSettings">Inaruhusu maombi ili kurekebisha mfumo wa vipimo vya data.Kusukuma maombi kunaweza kuharibu mpangilio wa mfumo wako. </string>
+    <string name="permlab_writeSecureSettings">rekebisha vipimo vya mfumo salama</string>
+    <string name="permdesc_writeSecureSettings">Inaruhusu maombi kurekebisha vipimo vya data vya mfumo salama.Sio kutumika kwa matumizi ya kawaida.</string>
+    <string name="permlab_writeGservices">rekebisha huduma ya mepu ya Google</string>
+    <string name="permdesc_writeGservices">Inaruhusu maombi ili kurekebisha huduma ya mapu ya Google.Sio kutumika kwa matumizi ya kawaida.</string>
+    <string name="permlab_receiveBootCompleted">Kwa aotomatiki anzisha kwa boot</string>
+    <string name="permdesc_receiveBootCompleted">"Inaruhusu matumizi ili kuweza kuanzisha yenyewe mara  mfumo utakapomaliza booting.
+         Hii inaweza kufanya kuchukua muda mrefu kuanzisha simu na kuruhusu
+         matumizi ili kupunguza kasi ya simu ya jumla kwa daima kua mbioni. "
+</string>
+    <string name="permlab_broadcastSticky">tuma matangazo nata</string>
+    <string name="permdesc_broadcastSticky">"Inaruhusu matumizi ya kutuma 
+         fimbo ya matangazo, ambayo hubakia baada ya matangazo kumalizika.
+         Kusukuma Maombi kunaweza kufanya simu kupungua kasi au kutokua imara kunakosababisha
+         kutumia hifadhi kubwa zaidi. "
+</string>
+    <string name="permlab_readContacts">soma data za wasiliano</string>
+    <string name="permdesc_readContacts">Inaruhusu matumizi ili kusoma wasiliano(anuani) wote waliohifadhiwa katika simu yako.Kusukuma maombi kunaweza kutumia huku ili kutuma data zako kwa watu wengine.</string>
+    <string name="permlab_writeContacts">andika data za wasiliano</string>
+    <string name="permdesc_writeContacts">Inaruhusu maombi ili kurekebisha data wasiliano(anuani) zilizohifadhiwa katika simu yako.Kusukuma maombi kunaweza kutumia huku ili kufuta au kurekebisha data zako za wasiliano.</string>
+    <string name="permlab_readCalendar">soma matukio ya kalenda</string>
+    <string name="permdesc_readCalendar">Inaruhusu matumizi ili kusoma matukio yote ya kalenda yaliyohifadhiwa katika simu yako.Kusukuma matumizi kunaweza kutumia huku ili kutuma matukio ya kalenda yako kwa watu wengine.</string>
+    <string name="permlab_writeCalendar">ongeza au rekebisha matukio ya kalenda na kutuma barua pepe kwa wageni</string>
+    <string name="permdesc_writeCalendar">"Inaruhusu maombi kuongeza au kubadilisha
+         matukio katika kalenda yako, ambayo inaweza kutuma barua pepe kwa wageni. Kusukuma Maombi  kunaweza kutumia huku ili 
+         kufuta au kurekebisha kalenda ya matukio yako au kutuma barua pepe kwa wageni</string>
+    <string name="permlab_accessMockLocation">mock vyanzo vya eneo kwa majaribio</string>
+    <string name="permdesc_accessMockLocation">
+\'Kujenga vyanzo vya eneo maskhara kwa ajili ya jaribio. Maombi ya makusudi yanaweza kutumia hili kuendesha vipaya mahali na/au hali kurudi kwa vyanzo halisi vya eneo kama vile GPS au Watoa Mtandao.</string>
+    <string name="permlab_accessLocationExtraCommands">upatikanaji wa amri za ziada za mtoa eneo</string>
+    <string name="permdesc_accessLocationExtraCommands">"Upatikanaji wa amri ya ziada za mtoa eneo.
+         Maombi ya makusudi anaweza kutumia mbinu hii ya kuingilia utendaji kazi wa GPS
+         au vyanzo vyengine vya eneo."</string>
+    <string name="permlab_installLocationProvider">ruhusa kusasisha eneo la mtoaji</string>
+    <string name="permdesc_installLocationProvider">Kujenga vyanzo vya eneo maskhara kwa ajili ya jaribio. Maombi ya makusudi yanaweza kutumia hili kuendesha vipaya mahali na/au hali kurudi kwa vyanzo halisi vya eneo kama vile GPS au Watoa Mtandao au kufuatilia na kuripoti eneo lako kwa chanzo cha nje.</string>
+    <string name="permlab_accessFineLocation">eneo(GPS)zuri</string>
+    <string name="permdesc_accessFineLocation">
+"Upatikanaji wa vyanzo vya eneo zuri kama vile
+         Mfumo wa Maeneo ya Dunia kwenye simu, ambapo inapatikana.
+         Maombi ya makusudi  unaweza kutumia ili kuamua wapi upo, na huenda
+         ukatumia nguvu ya betri ya ziada."
+</string>
+    <string name="permlab_accessCoarseLocation">somo(lihusulo mtandao)eneo</string>
+    <string name="permdesc_accessCoarseLocation">"Koaze ya upatikanaji wa eneo la vyanzo kama vile databezi ya mtandao wa simu za mkononi ili kuamua takriban eno la simu, ambapo inapatikana. Maombi ya makusudi
+         unaweza kutumia hili kuamua takriban wapi upo. "
+</string>
+    <string name="permlab_accessSurfaceFlinger">Kupata tabaka la flinja</string>
+    <string name="permdesc_accessSurfaceFlinger">Inaruhusu matumizi ili kutumia Eneo la Flinja la sifa za ngazi ya chini.</string>
+    <string name="permlab_readFrameBuffer">soma fremu baffa</string>
+    <string name="permdesc_readFrameBuffer">Inaruhusu matumizi ili kusoma maudhui ya fremu baffa.</string>
+    <string name="permlab_modifyAudioSettings">badili vipimo vyako vya sauti</string>
+    <string name="permdesc_modifyAudioSettings">Inaruhusu matumizi ili kurekebisha vipimo vya sauti vya dunia kama vile sauti na njia.</string>
+    <string name="permlab_recordAudio">Rekodi sauti</string>
+    <string name="permdesc_recordAudio">Inaruhusu matumizi ili kupata njia sauti iliyorekodiwa.</string>
+    <string name="permlab_camera">chukua picha</string>
+    <string name="permdesc_camera">Inaruhusu matumizi ili kuchukua picha kwa kamera.Hii inaruhusu matumizi ya muda wowote kukushanya picha ambazo kamera inaziona.</string>
+    <string name="permlab_brick">kutokuwezesha simu Kwa kudumu</string>
+    <string name="permdesc_brick">"Inaruhusu matumizi ili kutokuwezesha simu nzima kwa kudumu.Hii ni hatari sana.</string>
+    <string name="permlab_reboot">nguvusha kurebooti simu</string>
+    <string name="permdesc_reboot">"Inaruhusu matumizi kwa nguvu kufanya simu ijianzishe tena.</string>
+    <string name="permlab_mount_unmount_filesystems">pandisha na Kutokupandisha  mfumo wa mafaili</string>
+    <string name="permdesc_mount_unmount_filesystems">Inaruhusu matumizi ili kupandisha na kushusha mfumo wa mafaili kwa hifadhi inayoondosheka.</string>
+    <string name="permlab_mount_format_filesystems">fomati hifadhi ya nje</string>
+    <string name="permdesc_mount_format_filesystems">Inaruhusu matumizi ili kufomati hifadhi inayoondosheka.</string>
+    <string name="permlab_asec_access">pata maelezo katika hifadhi salama</string>
+    <string name="permdesc_asec_access">Inaruhusu matumizi ili kupata maelezo ya hifadhi ya usalama. </string>
+    <string name="permlab_asec_create">jenga hifadhi salama</string>
+    <string name="permdesc_asec_create">Inaruhusu matumizi ili kubuni hifadhi ya usalama. </string>
+    <string name="permlab_asec_destroy">haribu hifadhi ya usalama</string>
+    <string name="permdesc_asec_destroy">Inaruhusu matumizi ili kuharibu hifadhi ya usalama. </string>
+    <string name="permlab_asec_mount_unmount">pandisha/Kutokupandisha hifadhi salama</string>
+    <string name="permdesc_asec_mount_unmount">Inaruhusu matumizi ili kupandisha / kushusha hifadhi ya usalama. </string>
+    <string name="permlab_asec_rename">ipe jina tena hifadhi salama</string>
+    <string name="permdesc_asec_rename">Inaruhusu matumizi ili kuipa jina tena hifadhi ya usalama.</string>
+    <string name="permlab_vibrate">dhibiti kitetemesha</string>
+    <string name="permdesc_vibrate">Inaruhusu matumizi ili kudhibiti kitetemeka.</string>
+    <string name="permlab_flashlight">dhibiti mwangaza wa flashi</string>
+    <string name="permdesc_flashlight">Inaruhusu matumizi ili kudhibiti mwangaza wa flashi.</string>
+    <string name="permlab_manageUsb">meneji zinazopendwa na ruhusa kwa kifaa cha USB</string>
+    <string name="permdesc_manageUsb">Ruhusu matumizi ili kudhibiti zinazopendelewa na ruhusa kwa vifaa vya USB.</string>
+    <string name="permlab_hardware_test">jaribu kifaa</string>
+    <string name="permdesc_hardware_test">Inaruhusu matumizi ili kudhibiti periferali mbali mbali kwa lengo la kupima vifaa. "</string>
+    <string name="permlab_callPhone">moja kwa moja piga nambari ya simu</string>
+    <string name="permdesc_callPhone">Inaruhusu matumizi ya kupiga nambari za simu juhudi zako.Maombi ya makusudi yanaweza kusababisha wito wa simu usiotegemewa katika bili yako ya simu.Jua kuwa hii hairuhusu matumizi ya kupiga nambari za dharura.</string>
+    <string name="permlab_callPrivileged">moja kwa moja piga nambari yeyote ya simu</string>
+    <string name="permdesc_callPrivileged">Inaruhusu matumizi ya kupiga nambari yeyote,ikiwemo nambari za dharura bila ya juhudi zako.Maombi ya makusudi yanaweza kuweka visivyohitajika na wito wa simu usio wa kisheria katika Huduma ya dharura.</string>
+    <string name="permlab_performCdmaProvisioning">moja kwa moja anzisha marekebisho ya Simu ya CDMA</string>
+    <string name="permdesc_performCdmaProvisioning">Inaruhusu matumizi ili kuanzisha Eneo la CDMA.Maombi ya makusudi yanaweza bila kuhitajika yakaanzisha Eneo la CDMA</string>
+    <string name="permlab_locationUpdates">dhibiti eneo wakatisha taarifa</string>
+    <string name="permdesc_locationUpdates">Inaruhusu kuwezesha/kutokuwezesha taarifa za kuwakatisha za eneo kutoka katika redio. Haitumiki kwa matumizi ya kawaida.</string>
+    <string name="permlab_checkinProperties">upatikanaji kuangalia tabia</string>
+    <string name="permdesc_checkinProperties">Inaruhusu kusoma/kuandika kupata kwa mali zilizopandishwa kwa huduma ya kucheki ndani.Haitumiki kwa matumizi ya kawaida.</string>
+    <string name="permlab_bindGadget">chagua widgeti</string>
+    <string name="permdesc_bindGadget">"Inaruhusu matumizi ili kuwaambia mfumo
+         ambayo vilivyoandikwa inaweza kutumiwa na matumizi yapi. Kwa ruhusa hii,
+         matumizi  yanaweza kutoa kupata data binafsi kwa matumizi mengine.
+         Sio kwa ajili ya matumizi ya kawaida."</string>
+    <string name="permlab_modifyPhoneState">rekebisha hali ya simu</string>
+    <string name="permdesc_modifyPhoneState">Inaruhusu matumizi ili kudhibiti sifa za simu za kifaa.Matumizi ya ruhusa hii yanaweza kubadili mitandao,kuweka wazi na kuzima redio ya simu na kama hiyo bila ya hata kukuarifu wewe.</string>
+    <string name="permlab_readPhoneState">soma hali ya simu na utambulisho</string>
+    <string name="permdesc_readPhoneState">Inaruhusu matumizi ili kupata makala ya simu ya kifaa. Matumizi kwa ruhusa hii inaweza kuamua namba ya simu na Siriali namba simu hii, kama wito wa simu unafanya kazi,nambari ambayo inapingwa imeunganisha na kama ya hayo.</string>
+    <string name="permlab_wakeLock">zuia simu ili isilale</string>
+    <string name="permdesc_wakeLock">Inaruhusu matumizi ili kuzuia simu kwenda kulala.</string>
+    <string name="permlab_devicePower">Zima simu au washa</string>
+    <string name="permdesc_devicePower">"Inaruhusu matumizi ya kuzima au kuwasha simu.</string>
+    <string name="permlab_factoryTest">inakimbiza katika modi ya jaribio la kiwanda</string>
+    <string name="permdesc_factoryTest">Kimbiza kama daraja ndogo ya jaribio la mtengenezaji,kuruhusu upatikanaji mzima wa kifaa cha simu.Inapatikana tu wakati simu yako inakimbia katika modi ya jaribio la mtengenezaji.</string>
+    <string name="permlab_setWallpaper">Seti pazia</string>
+    <string name="permdesc_setWallpaper">Inaruhusu matumizi ili kurekebisha mfumo wa pazia. </string>
+    <string name="permlab_setWallpaperHints">Seti muongozo wa ukubwa wa pazia</string>
+    <string name="permdesc_setWallpaperHints">Inaruhusu matumizi ili kurekebisha mfumo wa pazia wa ukubwa wa muongozo.</string>
+    <string name="permlab_masterClear">rekebisha mfumo kwa kiwanda cha defaulti</string>
+    <string name="permdesc_masterClear">"Inaruhusu maombi kukamilisha kupanga
+         upya mfumo katika mazingira yake ya kiwanda, kufuta data zote, Mpangilio, na maombi yaliyofungwa. 
+</string>
+    <string name="permlab_setTime">Seti muda</string>
+    <string name="permdesc_setTime">Inaruhusu maombi kubadilisha simu\'s muda wa saa.</string>
+    <string name="permlab_setTimeZone">Seti muda wa zoni</string>
+    <string name="permdesc_setTimeZone">Inaruhusu maombi kubadilisha simu\'s muda wa zoni.</string>
+    <string name="permlab_accountManagerService">fanya kama ni meneja wa huduma ya akaunti</string>
+    <string name="permdesc_accountManagerService">Inaruhusu matumizi ili kupiga simu kwenda kwa Kilinzi cha Akaunti</string>
+    <string name="permlab_getAccounts">fumbua akaunti zinazojuilikana</string>
+    <string name="permdesc_getAccounts">Inaruhusu maombi kupata orodha ya akaunti zinazojuilikana na simu.</string>
+    <string name="permlab_authenticateAccounts">fanya kama ni kilinda akaunti</string>
+    <string name="permdesc_authenticateAccounts">Inaruhusu matumizi ili kutumia uwezo wa ulinzi wa akaunti wa Meneja ya akaunti,ikiwemo kupuni akaunti na kupata vipimo vya paswadi zake.</string>
+    <string name="permlab_manageAccounts">simamia orodha za akaunti</string>
+    <string name="permdesc_manageAccounts">Inaruhusu matumizi ili kufanya operesheni kama kuongeza,kuondoa akaunti na kufuta paswadi zake.</string>
+    <string name="permlab_useCredentials">tumia ulinzi wa sifa wa akaunti</string>
+    <string name="permdesc_useCredentials">Inaruhusu matumizi ili kuomba ulinzi wa tokeni.</string>
+    <string name="permlab_accessNetworkState">angalia hali ya mtandao</string>
+    <string name="permdesc_accessNetworkState">Inaruhusu matumizi ili kuangalia hali ya mitandao yote.</string>
+    <string name="permlab_createNetworkSockets">upatikanaji mzima wa intaneti</string>
+    <string name="permdesc_createNetworkSockets">Inaruhusu matumizi ili kupuni soketi ya mtandao.</string>
+    <string name="permlab_writeApnSettings">andika Jina la vipimo la nukta ya upatikanaji</string>
+    <string name="permdesc_writeApnSettings">Inaruhusu maombi kurekebisha vipimo vya APN,kama Proxy na Tundu ya yeyote ya APN.</string>
+    <string name="permlab_changeNetworkState">badili muunganisho wa mtandao</string>
+    <string name="permdesc_changeNetworkState">Inaruhusu maombi kubadilisha hali ya kuunganishwa kwa mtandao.</string>
+    <string name="permlab_changeTetherState">Badili muunganisho wa tetha</string>
+    <string name="permdesc_changeTetherState">"Inaruhusu maombi ya kubadilisha
+       hali ya kuunganishwa mtandao wa tethared. "</string>
+    <string name="permlab_changeBackgroundDataSetting">badili vipimo vya matumizi ya data za uwanja wa nyuma</string>
+    <string name="permdesc_changeBackgroundDataSetting">Inaruhusu maombi kubadilisha vipimo vya matumizi ya data vya nyuma ulikotoka.</string>
+    <string name="permlab_accessWifiState">anglia hali ya WLAN</string>
+    <string name="permdesc_accessWifiState">Inaruhusu matumizi ili kuangalia maelezo yanayohusu hali ya Wi-Fi.</string>
+    <string name="permlab_changeWifiState">badili hali ya Wi-Fi</string>
+    <string name="permdesc_changeWifiState">Inaruhusu maombi kuunganisha na kuunganua kutoka nukta za kufikiwa Wi-Fi na kufanya mabadiliko ili kurekebisha mitandao ya Wi-Fi.</string>
+    <string name="permlab_changeWifiMulticastState">"Ruhusu mapokezi ya Wi-Fi ya Multicest
+       mapokezi"</string>
+    <string name="permdesc_changeWifiMulticastState">Inaruhusu matumizi ili kupokea vifurushi visivyotoka moja kwa moja kutoka katika kifaa chako.Hii inaweza kuwa na umuhimu wakati wa kugundua huduma ya karibu inayotolewa.Inatumia nguvu zaidi kuliko isiyo multicast modi.</string>
+    <string name="permlab_accessWimaxState">angalia hadhi ya WiMAX</string>
+    <string name="permdesc_accessWimaxState">Ruhusu matumizi ili kuangalia maelezo kuhusu hali ya WiMAX.</string>
+    <string name="permlab_changeWimaxState">badili hali ya WiMAX</string>
+    <string name="permlab_bluetoothAdmin">utawala wa bluututhi</string>
+    <string name="permdesc_bluetoothAdmin">Inaruhusu maombi kurekebisha bluututhi ya kawaida ya simu,na kugundua na kuweka jozi na kifaa cha kuongoza.</string>
+    <string name="permlab_bluetooth">jenga muunganisho wa Bluututhi</string>
+    <string name="permdesc_bluetooth">"Inaruhusu matumizi ili kuangalia mpangilio wa bluututhi ya simu wa kawaida,na kufanya na kukubali
+      muunganisho na njozi ya  vifaa. "</string>
+    <string name="permlab_nfc">dhibiti Eneo la Karibu la Mawasiliano</string>
+    <string name="permdesc_nfc">Ruhusu matumizi ili kuwasiliana na Eneo la Karibu la Mawasiliano(NFC) tags,kadi,na vya kusomea.</string>
+    <string name="permlab_disableKeyguard">Kutokuwezesha keyloki</string>
+    <string name="permdesc_disableKeyguard">
+\'Inaruhusu maombi kutokuwezesha funguo iliyofungwa na chochote kinachohusishwa na usalama wa paswadi. Mfano halali wa hii ni kutokuwezesha funguo iliyofungwa wakati wa kupokea wito simu zinazoingia,baadae kuwezesha tena funguo iliyofungwa wakati wito wa</string>
+    <string name="permlab_readSyncSettings">soma vipimo vya kuwezesha</string>
+    <string name="permdesc_readSyncSettings">Inaruhusu matumizi ili kusoma vipimovilivyowezeshwa,kama vile kuwezesha utabiri kwa wasiliano.</string>
+    <string name="permlab_writeSyncSettings">andika kuwezesha vipimo</string>
+    <string name="permdesc_writeSyncSettings">Inaruhusu maombi kurekebisha vipimo vya kuwezesha,kama kuwezesha utabiri kwa wasiliano.</string>
+    <string name="permlab_readSyncStats">soma takwimu za kuwezesha</string>
+    <string name="permdesc_readSyncStats">Inaruhusu matumizi ili kusoma hali ya kuwezeshwa;m.f historia ya kuwezeshwa ambayo imetokea.</string>
+    <string name="permlab_subscribedFeedsRead">soma malisho yaliyopatikana</string>
+    <string name="permdesc_subscribedFeedsRead">Inaruhusu maombi kupata maelezo kuhusu malisho ya sasa yaliyowezeshwa.</string>
+    <string name="permlab_subscribedFeedsWrite">andika malisho ya mtumiaji</string>
+    <string name="permdesc_subscribedFeedsWrite">Inaruhusu maombi ili kurekebisha malisho ya sasa yaliyowezeshwa.Hii inakuwa inaruhusu kusukuma maombi ili kubadili malisho yako yaliyowezeshwa.</string>
+    <string name="permlab_readDictionary">soma mtumiaji weka wazi kamusi</string>
+    <string name="permdesc_readDictionary">Inaruhusu matumizi ili kusoma neno,jina na kikundi cha maneno yeyote ya binafsi ambayo mtumiaji pengine ameyahifadhi katika kamusi la mtumiaji.</string>
+    <string name="permlab_writeDictionary">andika kwa kamusi la mtumiaji lililofafanuliwa</string>
+    <string name="permdesc_writeDictionary">Inaruhusu matumizi ili kuandika maneno mapya katika kamusi la mtumiaji.</string>
+    <string name="permlab_sdcardWrite" product="nosdcard">rekebisha/futa maudhui ya hifadhi ya USB</string>
+    <string name="permlab_sdcardWrite" product="default">rekebisha/futa kadi ya maudhui ya SD</string>
+    <string name="permdesc_sdcardWrite" product="nosdcard">Ruhusu matumizi ili kuandika katika hifadhi ya USB.</string>
+    <string name="permdesc_sdcardWrite" product="default">Inaruhusu matumizi ili kuandika kwenye kadi ya SD.</string>
+    <string name="permlab_cache_filesystem">Kupata mfumo wa faili wa kechi</string>
+    <string name="permdesc_cache_filesystem">Inaruhusu matumizi ili kusoma na kuandika mfumo wa mafaili ya kechi.</string>
+    <string name="permlab_use_sip">fanya/pokea Wito wa intaneti</string>
+    <string name="policylab_limitPassword">Kikomo cha paswadi</string>
+    <string name="policydesc_limitPassword">Dhibiti aina ya paswadi unayoiruhusu kutumia.</string>
+    <string name="policylab_watchLogin">Angalia majaribio ya login</string>
+    <string name="policydesc_watchLogin">Kusimamia kumefeli kuingia katika kifaa,ili kufanya baadhi ya vitendo.</string>
+    <string name="policylab_resetPassword">Rekebisha paswadi</string>
+    <string name="policydesc_resetPassword">Rekebisha paswadi</string>
+    <string name="policylab_forceLock">Nguvusha loki</string>
+    <string name="policydesc_forceLock">Dhibiti wakati kifaa kimetiwa loki,inakuhitaji wewe kuingiza tena paswadi yako.</string>
+    <string name="policylab_wipeData">Futa data zote</string>
+    <string name="policydesc_wipeData">Fanya kuseti kiwanda,kufuta data zako zote bila ya hata kuthibitisha.</string>
+    <string-array name="phoneTypes">
+        <item>Nyumbani</item>
+        <item>Simu</item>
+        <item>Kazi</item>
+        <item>Faksi ya Kazi</item>
+        <item>Fax ya nyumbani</item>
+        <item>Peja</item>
+        <item>Nyingine</item>
+        <item>Desturi</item>
+    </string-array>
+    <string-array name="emailAddressTypes">
+        <item>Nyumbani</item>
+        <item>Kazi</item>
+        <item>Nyingine</item>
+        <item>Desturi</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Nyumbani</item>
+        <item>Kazi</item>
+        <item>Nyingine</item>
+        <item>Desturi</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Nyumbani</item>
+        <item>Kazi</item>
+        <item>Nyingine</item>
+        <item>Desturi</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Kazi</item>
+        <item>Nyingine</item>
+        <item>Desturi</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item></item>
+        <item>Madirisha ya Laivu</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google kuzungumza</item>
+        <item></item>
+        <item>Jabba</item>
+    </string-array>
+    <string name="phoneTypeCustom">Desturi</string>
+    <string name="phoneTypeHome">Nyumbani</string>
+    <string name="phoneTypeMobile">Simu</string>
+    <string name="phoneTypeWork">Kazi</string>
+    <string name="phoneTypeFaxWork">Faksi ya Kazi</string>
+    <string name="phoneTypeFaxHome">Fax ya nyumbani</string>
+    <string name="phoneTypePager">Peja</string>
+    <string name="phoneTypeOther">Nyingine</string>
+    <string name="phoneTypeCallback">Rejesha wito wa simu</string>
+    <string name="phoneTypeCar">Gari</string>
+    <string name="phoneTypeCompanyMain">Kampuni kuu</string>
+    <string name="phoneTypeMain">Kuu</string>
+    <string name="phoneTypeOtherFax">Fax nyengine</string>
+    <string name="phoneTypeRadio">Redio</string>
+    <string name="phoneTypeTelex">Telex</string>
+    <string name="phoneTypeTtyTdd">TTY TDD</string>
+    <string name="phoneTypeWorkMobile">Simu ya Kazi</string>
+    <string name="phoneTypeWorkPager">Peja ya Kazi</string>
+    <string name="phoneTypeAssistant">Msaidizi</string>
+    <string name="phoneTypeMms">MMS</string>
+    <string name="eventTypeBirthday">Siku ya kuzaliwa</string>
+    <string name="eventTypeAnniversary">Maadhimisho</string>
+    <string name="eventTypeOther">Tukio</string>
+    <string name="emailTypeCustom">Desturi</string>
+    <string name="emailTypeHome">Nyumbani</string>
+    <string name="emailTypeWork">Kazi</string>
+    <string name="emailTypeOther">Nyingine</string>
+    <string name="emailTypeMobile">Simu</string>
+    <string name="postalTypeCustom">Desturi</string>
+    <string name="postalTypeHome">Nyumbani</string>
+    <string name="postalTypeWork">Kazi</string>
+    <string name="postalTypeOther">Nyingine</string>
+    <string name="imTypeCustom">Desturi</string>
+    <string name="imTypeHome">Nyumbani</string>
+    <string name="imTypeWork">Kazi</string>
+    <string name="imTypeOther">Nyingine</string>
+    <string name="imProtocolCustom">Desturi</string>
+    <string name="imProtocolMsn">Madirisha ya Laivu</string>
+    <string name="imProtocolYahoo">Yahoo</string>
+    <string name="imProtocolSkype">Skype</string>
+    <string name="imProtocolQq">QQ</string>
+    <string name="imProtocolGoogleTalk">Google kuzungumza</string>
+    <string name="imProtocolJabber">Jabba</string>
+    <string name="imProtocolNetMeeting">NetMkutano</string>
+    <string name="orgTypeWork">Kazi</string>
+    <string name="orgTypeOther">Nyingine</string>
+    <string name="orgTypeCustom">Desturi</string>
+    <string name="sipAddressTypeCustom">Desturi</string>
+    <string name="sipAddressTypeHome">Nyumbani</string>
+    <string name="sipAddressTypeWork">Kazi</string>
+    <string name="sipAddressTypeOther">Nyingine</string>
+    <string name="contact_status_update_attribution">kupitia <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
+    <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> kupitia<xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
+    <string name="keyguard_password_enter_pin_code">Ingiza PIN Codi</string>
+    <string name="keyguard_password_enter_password_code">Ingiza paswadi ili kutoa loki</string>
+    <string name="keyguard_password_wrong_pin_code">PIN codi sio sahihi!</string>
+    <string name="pinpuk_attempts">\nMajaribu yaliyobakia:</string>
+    <string name="keyguard_label_text">Kutoa loki,Bonyeza Menyu halafu 0.</string>
+    <string name="emergency_call_dialog_number_for_display">Nambari ya Dharura</string>
+    <string name="lockscreen_sim_network_subset_locked_message">Simu ni kulokiwa na Mtandao wa sehemu ya SIM</string>
+    <string name="lockscreen_sim_corporate_locked_message">Simu ni  Uhusiano wa SIM ulolokiwa</string>
+    <string name="lockscreen_sim_service_provider_locked_message">Simu ni kulokiwa na Mtoaji Huduma wa SIM</string>
+    <string name="lockscreen_sim_sim_locked_message">Simu ni kulokiwa SIM</string>
+    <string name="lockscreen_ruim_network1_locked_message">Simu ni RUIM Mtandao1 umelokiwa</string>
+    <string name="lockscreen_ruim_network2_locked_message">Simu ni RUIM Mtandao2 umelokiwa</string>
+    <string name="lockscreen_ruim_hrpd_locked_message">Simu ni RUIM hrpd kutiwa loki</string>
+    <string name="lockscreen_ruim_corporate_locked_message">Simu ni  RUIM loki ya uhusiano</string>
+    <string name="lockscreen_ruim_service_provider_locked_message">Simu ni RUIM Mtoaji wa Huduma amelokiwa</string>
+    <string name="lockscreen_ruim_ruim_locked_message">Simu ni RUIM imetiwa loki</string>
+    <string name="lockscreen_sim_error_message">SIM kadi sio halali.</string>
+    <string name="lockscreen_pin_locked_message">SIM/RUIM kadi imetiwa loki.</string>
+    <string name="lockscreen_sim_error_message_short">Kadi batili.</string>
+    <string name="lockscreen_sim_network_locked_message">Simu ni kulokiwa Mtandao wa SIM</string>
+    <string name="lockscreen_ruim_puk_locked_message">Kadi ya RUIM ni Kutiwa loki katika PUK.</string>
+    <string name="lockscreen_ruim_puk_locked_instructions">PIN1 imezuiliwa.Ingiza PUK1ili kuachia PIN1.\nAu\nTafadhali Ona muongozo wa mtumiaji\Wasiliana na Huduma kwa wateja.</string>
+    <string name="lockscreen_missing_ruim_message">Hakuna RUIM kadi katika simu.</string>
+    <string name="lockscreen_missing_ruim_instructions">Tafadhali ingiza kadi ya RUIM.</string>
+    <string name="lockscreen_ruim_error_message">Kadi ya RUIM si halali.</string>
+    <string name="lockscreen_missing_ruim_message_short">Hakuna RUIM kadi.</string>
+    <string name="lockscreen_blocked_ruim_message_short">Kadi ya RUIM imezuiliwa.</string>
+    <string name="lockscreen_ruim_error_message_short">Kadi batili.</string>
+    <string name="lockscreen_ruim_network_locked_message">Mtandao Umetiwa loki</string>
+    <string name="sim1_puk_requried">PIN ya SIM1 imezuliwa,Ingiza PUK Kuachilia</string>
+    <string name="sim2_puk_requried">PIN ya SIM2 imezuliwa,Ingiza PUK Kuachilia</string>
+    <string name="sim_puk_requried">PIN ya SIM imezuliwa,Ingiza PUK ili kuichilia</string>
+    <string name="keyguard_password_enter_sim1_pin_code">Ingiza Sim1 PIN codi</string>
+    <string name="keyguard_password_enter_sim2_pin_code">Ingiza Sim2 PIN codi</string>
+    <string name="keyguard_password_enter_sim_pin_code">Ingiza Sim PIN codi</string>
+    <string name="keyguard_sim1_pin_accepted">Pin ya Sim1 isotiwa loki imefanikiwa</string>
+    <string name="keyguard_sim2_pin_accepted">Pin ya Sim2 isotiwa loki imefanikiwa</string>
+    <string name="keyguard_sim_pin_accepted">Pin ya Sim isotiwa loki imefanikiwa</string>
+    <string name="puk_accept">PUK imekubwaliwa</string>
+    <string name="unblocking_fail">Kutokuzuia kumefeli,ingiza tena PUK</string>
+    <string name="keyguard_password_wrong_puk_code">PUKcodi sisahihi!</string>
+    <string name="new_pin">Ingiza PIN mpya</string>
+    <string name="reenter">Ingiza tena PIN</string>
+    <string name="lockscreen_carrier_default">(Hapana huduma)</string>
+    <string name="lockscreen_screen_locked">Skrini imelokiwa.</string>
+    <string name="lockscreen_instructions_when_pattern_enabled">Bonyeza Menyu ili kutoa loki au kuweka Simu ya Dharura.</string>
+    <string name="lockscreen_instructions_when_pattern_disabled">Bonyeza Menyu ili kutoa loki.</string>
+    <string name="lockscreen_pattern_instructions">Chora nakshi tena ili kutoa loki</string>
+    <string name="lockscreen_emergency_call">Simu ya dharura</string>
+    <string name="lockscreen_return_to_call">Rejea kupiga simu</string>
+    <string name="lockscreen_pattern_correct">Sahihi!</string>
+    <string name="lockscreen_pattern_wrong">Samahani,jaribu tena</string>
+    <string name="lockscreen_plugged_in">Kuchaji (<xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>)</string>
+    <string name="lockscreen_charged">Imechajiwa</string>
+    <string name="lockscreen_battery_short"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="lockscreen_low_battery">Unganisha chaja yako.</string>
+    <string name="lockscreen_missing_sim_message_short">Hakuna kadi ya SIM.</string>
+    <string name="lockscreen_missing_sim_message">Hakuna kadi ya SIM katika simu yako.</string>
+    <string name="lockscreen_missing_sim_instructions">Tafadhali ingiza kadi ya SIM.</string>
+    <string name="lockscreen_blocked_sim_message_short">SIM kadi imezuiliwa.</string>
+    <string name="emergency_calls_only" msgid="2485604591272668370">Simu za Dharura tu</string>
+    <string name="lockscreen_network_locked_message">Mtandao Umetiwa loki</string>
+    <string name="lockscreen_sim_puk_locked_message">SIM kadi ni Kutoa loki kwa PUK.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">Tafadhali angalia Muongozo wa mtumiaji wau wasiliano Huduma kwa wateja.</string>
+    <string name="lockscreen_sim_locked_message">SIM kadi imetiwa loki.</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">Toa loki kadi ya SIM\u2026</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">Wewe umeitoa kimakosa  nakshi yako iliyofungwa<xliff:g id="number">%d</xliff:g> mara.\n\nTafadhali jaribu tena katika <xliff:g id="number">%d</xliff:g> sekunde.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">Wewe umeitoa kimakosa  nakshi yako iliyofungwa<xliff:g id="number">%d</xliff:g> mara. Baada <xliff:g id="number">%d</xliff:g> majaribio zaidi yasiyofanikiwa,utaulizwa kutoa loki simu yako kwa kutumia kujiandikisha kwa Google.\n\n                                                                                                                                                                                                                                                                                                                                                               </string>
+    <string name="lockscreen_too_many_failed_attempts_countdown">Jaribu tena katika <xliff:g id="number">%d</xliff:g> sekunde</string>
+    <string name="lockscreen_forgot_pattern_button_text">Sahau nakshi?</string>
+    <string name="lockscreen_glogin_forgot_pattern">Akaunti haitiwa loki</string>
+    <string name="lockscreen_glogin_too_many_attempts">Nakshi za majaribio ni nyingi sana!</string>
+    <string name="lockscreen_glogin_instructions">Kutoa loki,ingia ndani kwa kutumia Akaunti yako ya Google</string>
+    <string name="lockscreen_glogin_username_hint">Jina la mtumiaji(barua pepe)</string>
+    <string name="lockscreen_glogin_password_hint">Nywila</string>
+    <string name="lockscreen_glogin_submit_button">Ingia ndani</string>
+    <string name="lockscreen_glogin_invalid_input">Jina la mtumiaji batili au paswadi.</string>
+    <string name="lockscreen_glogin_checking_password">Kuchunguza...</string>
+    <string name="lockscreen_unlock_label">Fungua</string>
+    <string name="lockscreen_sound_on_label">Sauti imewashwa</string>
+    <string name="lockscreen_sound_off_label">Sauti imeziwma</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="hour_ampm">"<xliff:g id="hour" example="3">%-l</xliff:g><xliff:g id="ampm" example="pm">%P</xliff:g>"</string>
+    <string name="hour_cap_ampm">"<xliff:g id="hour" example="3">%-l</xliff:g><xliff:g id="ampm" example="PM">%p</xliff:g>"</string>
+    <string name="factorytest_failed">Jaribio la kiwanda limefeli</string>
+    <string name="factorytest_not_system">KIWANDA_JARIBIO kitendo kinaungwa mkono tu kwa uwekaji wa vifurushi katika /mfumo/app.</string>
+    <string name="factorytest_no_action">Hakuna kifurushi kilichonekana ambacho kinatoa kitendo cha JARIBIO_KIWANDA.</string>
+    <string name="factorytest_reboot">Kureboot</string>
+    <string name="js_dialog_title">Ukurasa kwenye \'<xliff:g id="title">%s</xliff:g>\'sema</string>
+    <string name="js_dialog_title_default">JavaScript</string>
+    <string name="js_dialog_before_unload">Undoa kutoka katika ukurasa huu?\n\n<xliff:g id="message">%s</xliff:g>\n\nChagua Ndio ili kuendelea,au Ghairi ili kubaki katika ukurasa wa sasa.</string>
+    <string name="save_password_label">Conferma</string>
+    <string name="double_tap_toast">Tipu:tap mara mbili ili kututunza ndani na nje.</string>
+    <string name="permlab_readHistoryBookmarks">soma historia za kivinjari na kitabu cha alama</string>
+    <string name="permdesc_readHistoryBookmarks">Inaruhusu matumizi ili kusoma URL zote ambazo Brauza imezitembelea,na Brauza za alama za kitabu. </string>
+    <string name="permlab_writeHistoryBookmarks">andika historia ya Brauza  na alama za kitabu</string>
+    <string name="permdesc_writeHistoryBookmarks">"Inaruhusu maombi ili kurekebisha
+         historia ya Brauza au alama za kitabu zilizohifadhiwa kwenye simu yako.Kusukuma  maombi
+         kunaweza kutumia hili ili kufuta au kurekebisha data za Brauza."
+</string>
+    <string name="permlab_setAlarm">seti alamu katika saa ya alamu</string>
+    <string name="permdesc_setAlarm">Ruhusu matumizi ya kuseti alamu katika matumizi ya ufungaji wa alamu ya saa.Baadhi ya matumizi ya alamu ya saa yanaweza kuwa yasiweze kutekeleza kipengele hiki.</string>
+    <string name="permlab_writeGeolocationPermissions">Rekebisha kivinjari geo eneo la ruhusa</string>
+    <string name="permdesc_writeGeolocationPermissions">Inaruhusu maombi ili kurekebisha Brauza ya ruhusa ya geolocation.Kusukuma maombi kunaweza kutumia huku ili kuruhusu kutuma maelezo ya eneo kwenda kwa mitandao hulela.</string>
+    <string name="save_password_message">Je unataka kivinjari kukumbuka paswadi hii?</string>
+    <string name="save_password_notnow">Sio sasa</string>
+    <string name="save_password_remember">Kumbuka</string>
+    <string name="save_password_never">Kamwe</string>
+    <string name="open_permission_deny">Huna ruhusa ya kufungua ukurasa huu.</string>
+    <string name="text_copied">Nakala nakili kwenda katika clipbodi.</string>
+    <string name="more_item_label">Zaidi</string>
+    <string name="prepend_shortcut_label">Menu+</string>
+    <string name="menu_space_shortcut_label">nafasi</string>
+    <string name="menu_enter_shortcut_label">ingiza</string>
+    <string name="menu_delete_shortcut_label">Futa</string>
+    <string name="search_go">Tafuta</string>
+    <string name="oneMonthDurationPast">Mwezi 1 uliopita</string>
+    <string name="beforeOneMonthDurationPast">Kabla ya mwezi 1 uliopita</string>
+    <plurals name="num_seconds_ago">
+        <item quantity="one">Dakika 1 iliyopita</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> sekunde zilizopita</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">Dakika 1 iliyopita</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> dakika zilizopita</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">Saa 1 lilopita</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> masaa yaliyopita</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Mwisho <xliff:g id="count">%d</xliff:g> siku</item>
+    </plurals>
+    <string name="last_month">Mwezi wa mwisho</string>
+    <string name="older">Kongwe</string>
+    <plurals name="num_days_ago">
+        <item quantity="one">jana</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> siku zilizopita</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="one">katika sekunde 1</item>
+        <item quantity="other">katika <xliff:g id="count">%d</xliff:g> sekunde</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">katika dakika 1</item>
+        <item quantity="other">katika <xliff:g id="count">%d</xliff:g> dakika</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="one">katika saa 1</item>
+        <item quantity="other">katika <xliff:g id="count">%d</xliff:g> masaa</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="one">kesho</item>
+        <item quantity="other">katika <xliff:g id="count">%d</xliff:g> siku</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="one">Dakika 1 iliyopita</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> sekunde zilizopita</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">Dakika 1 iliyopita</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> dakika zilizopita</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="one">Saa 1 lilopita</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> masaa yaliyopita</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="one">jana</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> siku zilizopita</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="one">katika sekunde 1</item>
+        <item quantity="other">katika <xliff:g id="count">%d</xliff:g> sekunde</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">katika dakika 1</item>
+        <item quantity="other">katika <xliff:g id="count">%d</xliff:g> dakika</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="one">katika saa 1</item>
+        <item quantity="other">katika <xliff:g id="count">%d</xliff:g> masaa</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="one">kesho</item>
+        <item quantity="other">katika <xliff:g id="count">%d</xliff:g> siku</item>
+    </plurals>
+    <string name="preposition_for_date">katika <xliff:g id="date" example="May 29">%s</xliff:g></string>
+    <string name="preposition_for_time">kwa <xliff:g id="time" example="2:33 am">%s</xliff:g></string>
+    <string name="preposition_for_year">katika <xliff:g id="year" example="2003">%s</xliff:g></string>
+    <string name="day">siku</string>
+    <string name="days">siku</string>
+    <string name="hour">saa</string>
+    <string name="hours">masaa</string>
+    <string name="minute">Dakika</string>
+    <string name="minutes">dakika</string>
+    <string name="second">sekunde</string>
+    <string name="seconds">sekunde</string>
+    <string name="week">Wiki</string>
+    <string name="weeks">wiki</string>
+    <string name="year">mwaka</string>
+    <string name="years">miaka</string>
+    <string name="VideoView_error_title">Haiwezi kucheza video</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Samahani,video hii sio halali kwa mkondo wa kifaa hiki.</string>
+    <string name="VideoView_error_text_unknown">Samahani,video hii haiwezi kuchezeshwa.</string>
+    <string name="VideoView_error_button">Ndio</string>
+    <string name="relative_time">"<xliff:g id="date" example="4 hours ago">%1$s</xliff:g>, <xliff:g id="time" example="11:00 am">%2$s</xliff:g>"</string>
+    <string name="noon">Mchana</string>
+    <string name="Noon">Mchana</string>
+    <string name="midnight">"Katikati ya Usiku"</string>
+    <string name="Midnight">"Katikati ya Usiku"</string>
+    <string name="elapsed_time_short_format_mm_ss"><xliff:g id="minutes" example="1">%1$02d</xliff:g>:<xliff:g id="seconds" example="23">%2$02d</xliff:g></string>
+    <string name="elapsed_time_short_format_h_mm_ss"><xliff:g id="hours" example="1">%1$d</xliff:g>:<xliff:g id="minutes" example="43">%2$02d</xliff:g>:<xliff:g id="seconds" example="33">%3$02d</xliff:g></string>
+    <string name="selectAll">Teua zote</string>
+    <string name="selectText">Chagua makala</string>
+    <string name="cut">Kata</string>
+    <string name="copy">Tengeneza nakala ya pili</string>
+    <string name="paste">Bandika</string>
+    <string name="copyUrl">Nakili URL</string>
+    <string name="inputMethod">Njia ya Ingizo</string>
+    <string name="addToDictionary">"Ongeza\"<xliff:g id="word" example="rickroll">%s</xliff:g>\" katika kamusi </string>
+    <string name="editTextMenuTitle">Hariri matini</string>
+    <string name="low_internal_storage_view_title">Ndogo katika nafasi</string>
+    <string name="low_internal_storage_view_text">Nafasi ya Hifadhi ya simu inaelekea kuwa ndogo.</string>
+    <string name="ok">Ndio</string>
+    <string name="cancel">Kata simu</string>
+    <string name="yes">Ndio</string>
+    <string name="no">Kata simu</string>
+    <string name="dialog_alert_title">Umakini</string>
+    <string name="capital_on">Washa</string>
+    <string name="capital_off">Zima</string>
+    <string name="whichApplication">Kamilisha kitendo kwa kutumia</string>
+    <string name="alwaysUse">Inatumika kwa defaulti kwa kitendo hiki.</string>
+    <string name="clearDefaultHintMsg">Weka wazi Defaulti katika Mipangilio ya Nyumbani &gt; Maombi &gt; Kusimamia maombi.</string>
+    <string name="chooseActivity">Teua kitendo</string>
+    <string name="chooseUsbActivity">Chagua matumizi kwa ajili ya kifaa cha USB</string>
+    <string name="noApplications">Hakuna matumizi yanayoweza kufanya kitendo hiki.</string>
+    <string name="aerr_title">Samahani!</string>
+    <string name="aerr_application">Matumizi <xliff:g id="application">%1$s</xliff:g>
+        (mchakato <xliff:g id="process">%2$s</xliff:g>) yamesimama bila ya kutarajia.Tafadhali jaribu tena.</string>
+    <string name="aerr_process">Mchakato <xliff:g id="process">%1$s</xliff:g> umesimama bila ya kutarajia.Tafadhali jaribu tena.</string>
+    <string name="anr_title">Samahani!</string>
+    <string name="anr_activity_application">Shughuli <xliff:g id="activity">%1$s</xliff:g> (katika matumizi <xliff:g id="application">%2$s</xliff:g>) haina jibu.</string>
+    <string name="anr_activity_process">Shughuli <xliff:g id="activity">%1$s</xliff:g> (katika matumizi<xliff:g id="process">%2$s</xliff:g>) haijibu.</string>
+    <string name="anr_application_process">Matumizi <xliff:g id="application">%1$s</xliff:g> (katika mchakato <xliff:g id="process">%2$s</xliff:g>) haijibu.</string>
+    <string name="anr_process">Mchakato <xliff:g id="process">%1$s</xliff:g> haujibu.</string>
+    <string name="force_close">Nguvusha funga</string>
+    <string name="report">Ripoti</string>
+    <string name="wait">Simu iliopiga ina ngoja jibu</string>
+    <string name="launch_warning_title">Matumizi yamelekezwa tena</string>
+    <string name="launch_warning_replace"><xliff:g id="app_name">%1$s</xliff:g> sasa inatembea.</string>
+    <string name="launch_warning_original"><xliff:g id="app_name">%1$s</xliff:g> kwa uasilia imezinduliwa.</string>
+    <string name="smv_application">Matumizi <xliff:g id="application">%1$s</xliff:g>
+        (mchakato <xliff:g id="process">%2$s</xliff:g>) yamesimama bila ya kutarajia.Tafadhali jaribu tena.</string>
+    <string name="smv_process">Mchakato <xliff:g id="process">%1$s</xliff:g> umekiuka Sera ya kutumia nguvu binafsi ya StriModi.</string>
+    <string name="heavy_weight_notification"><xliff:g id="app">%1$s</xliff:g> inatembea</string>
+    <string name="heavy_weight_notification_detail">Chagua kubadili kwa matumizi</string>
+    <string name="heavy_weight_switcher_title">Badili matumizi?</string>
+    <string name="heavy_weight_switcher_text">Maombi mengine tayari yanatembea ambayo lazima yasimamishwe kabla ya kuanza mapya.</string>
+    <string name="old_app_action">Rejea kwa <xliff:g id="old_app">%1$s</xliff:g></string>
+    <string name="old_app_description">Usianzishe matumizi mapya</string>
+    <string name="new_app_action">Anza <xliff:g id="old_app">%1$s</xliff:g></string>
+    <string name="new_app_description">Simamisha matumizi ya zamani bila ya kuhifadhi.</string>
+    <string name="sendText">Teua kitendo kwa makala</string>
+    <string name="volume_ringtone">Kiwango cha Sauti ya kuita simu</string>
+    <string name="volume_music">Sauti ya Media</string>
+    <string name="volume_fm">Sauti ya FM</string>
+    <string name="volume_music_hint_playing_through_bluetooth">Chezesha kupitia bluututhi</string>
+    <string name="volume_music_hint_silent_ringtone_selected">Ringitoni za kimya imechaguliwa</string>
+    <string name="volume_call">Katika sauti ya wito wa simu</string>
+    <string name="volume_bluetooth_call">Bluututhi katika sauti  ya kuingia wito wa simu</string>
+    <string name="volume_alarm">Sauti ya alamu</string>
+    <string name="volume_notification">Taarifa za sauti</string>
+    <string name="volume_unknown">Sauti </string>
+    <string name="ringtone_default">Ringitoni ya Defaulti</string>
+    <string name="ringtone_default_with_actual">Ringitoni ya defaulti (<xliff:g id="actual_ringtone">%1$s</xliff:g>)</string>
+    <string name="ringtone_silent">Kimya</string>
+    <string name="ringtone_picker_title">Ringitoni</string>
+    <string name="ringtone_unknown">Ringitoni isiyojuilikana</string>
+    <plurals name="wifi_available">
+        <item quantity="one">Mtandao wa Wi-Fi unapatikana</item>
+        <item quantity="other">Mitandao ya Wi-Fi inapatikana</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">Fungua Wi-Fi mtandao unapatikana</item>
+        <item quantity="other">Fungua Wi-Fi mtandao unapatikana</item>
+    </plurals>
+    <string name="select_character">Ingiza herufi</string>
+    <string name="sms_control_default_app_name">Matumizi yasiyojuilikana</string>
+    <string name="sms_control_title">Kutuma ujumbe wa SMS</string>
+    <string name="sms_control_message">Idadi kubwa ya ujumbe wa SMS ni kuwa utatumwa. Chagua \"OK\" kuendelea, au \"Batilisha\" kuacha kutuma.</string>
+    <string name="sms_control_yes">Ndio</string>
+    <string name="sms_control_no">Kata simu</string>
+    <string name="date_time_set">Seti</string>
+    <string name="default_permission_group">Chaguo msingi</string>
+    <string name="permissions_format"><xliff:g id="perm_line1">%1$s</xliff:g>, <xliff:g id="perm_line2">%2$s</xliff:g></string>
+    <string name="no_permissions">Hakuna ruhusa inayohitajika</string>
+    <string name="perms_hide"><b>Ficha</b></string>
+    <string name="perms_show_all"><b>Onyesha zote</b></string>
+    <string name="usb_storage_activity_title">USB hifadhi ya Mass</string>
+    <string name="usb_storage_title">USB imeunganishwa</string>
+    <string name="usb_storage_message" product="nosdcard">Umeunganisha simu yako na kompyuta yako kupitia USB.Chagua batan ya chini ikiwa unataka kuchukua nakala ya mafaili kati ya kompyuta yako na Android yako \u2018s hifadhi ya USB.</string>
+    <string name="usb_storage_message" product="default">Umeunganisha simu yako na kompyuta yako kupitia USB.Chagua batan ya chini ikiwa unataka kuchukua nakala ya mafaili kati ya kompyuta yako na Android yako \u2018s kadi ya SD.</string>
+    <string name="usb_storage_button_mount">Washa Hifadhi ya USB</string>
+    <string name="usb_storage_error_message" product="nosdcard">Kuna tatizo katika kutumia hifadhi ya USB kwa hifadhi ya mass ya USB.</string>
+    <string name="usb_storage_error_message" product="default">Kuna tatizo katika kutumia SD kadi kwa hifadhi ya mass ya USB.</string>
+    <string name="usb_storage_notification_title">USB imeunganishwa</string>
+    <string name="usb_storage_notification_message">Chagua ili kunakili mafaili kwenda/kutoka kwenye compyuta yako.</string>
+    <string name="usb_storage_stop_notification_title">Zima Hifadhi ya USB</string>
+    <string name="usb_storage_stop_notification_message">Chagua ili kuzima Hifadhi ya USB.</string>
+    <string name="usb_storage_stop_title">Hifadhi ya USB inatumika</string>
+    <string name="usb_storage_stop_message" product="nosdcard">Kabla ya kuzima hifadhi ya USB,hakikisha hujapandishwa(\u201ckukataliwa\u201d) Android yako \u2018s hifadhi ya USB kutoka katika kompyuta yako.</string>
+    <string name="usb_storage_stop_message" product="default">Kabla ya kuzima hifadhi ya USB,hakikisha hujapandishwa(\u201ckukataliwa\u201d) Android yako \u2018s kadi ya SD kutoka katika compyuta yako</string>
+    <string name="usb_storage_stop_button_mount">Zima Hifadhi ya USB</string>
+    <string name="usb_storage_stop_error_message">Kuna tatizo katika kuzima hifadhi ya USB.Chunguza kuhakikisha hakuna USB ya mwenyeji iliyopandishwa,baadae jaribu tena.</string>
+    <string name="dlg_confirm_kill_storage_users_title">Washa Hifadhi ya USB</string>
+    <string name="dlg_confirm_kill_storage_users_text">Ikiwa utawashwa Hifadhi ya USB,baadhi ya matumizi unayotumia yatasimama au pengine kutopatikana  mpaka uzime hifadhi ya USB.</string>
+    <string name="dlg_error_title">Operesheni ya USB imefeli</string>
+    <string name="dlg_ok">Ndio</string>
+    <string name="extmedia_format_title" product="nosdcard">Kufomati hifadhi ya USB</string>
+    <string name="extmedia_format_title" product="default">Fomati kadi ya SD</string>
+    <string name="extmedia_format_message" product="nosdcard">Kufomati hifadhi ya USB,kutafuta mafaili yote yaliyohifadhiwa kule? Kitendo hakirejelewi!</string>
+    <string name="extmedia_format_message" product="default">Una uhakika unataka kufomati kadi ya SD? Data zote katika kadi yako zitapotea.</string>
+    <string name="extmedia_format_button_format">Formati</string>
+    <string name="adb_active_notification_title">USB ondoa hitilafu imeunganishwa</string>
+    <string name="adb_active_notification_message">Chagua ili kutowezesha USB ondoa hitilafu.</string>
+    <string name="locale_replacement">""</string>
+    <string name="select_input_method">Teua nji za uingizaji</string>
+    <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="fast_scroll_numeric_alphabet">\u00200123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="candidates_style"><u>watahiniwa</u></string>
+    <string name="ext_media_checking_notification_title" product="nosdcard">Kutayarisha hifadhi ya USB</string>
+    <string name="ext_media_checking_notification_title" product="default">Tayarisha kadi ya SD</string>
+    <string name="ext_media_checking_notification_message">Kuchunguza kwa ajili ya hitilafu.</string>
+    <string name="ext_media_nofs_notification_title" product="nosdcard">Tupu hifadhi ya USB</string>
+    <string name="ext_media_nofs_notification_title" product="default">Tupu kadi ya SD</string>
+    <string name="ext_media_nofs_notification_message" product="nosdcard">Hifadhi ya USB iko tupu au haiungi mkono mfumo wa faili.</string>
+    <string name="ext_media_nofs_notification_message" product="default">Kadi ya SD ni tupu au haiungi mkono mfumo wa faili.</string>
+    <string name="ext_media_unmountable_notification_title" product="nosdcard">Imeharibiwa hifadhi ya USB</string>
+    <string name="ext_media_unmountable_notification_title" product="default">Itaharibu kadi ya SD</string>
+    <string name="ext_media_unmountable_notification_message" product="nosdcard">Hifadhi ya USB imeharibika. Pengine Unatakiwa kuifomati.</string>
+    <string name="ext_media_unmountable_notification_message" product="default">Kadi ya SD imeharibika.Pengine utahitajika kuifomati.</string>
+    <string name="ext_media_badremoval_notification_title" product="nosdcard">Hifadhi ya USB bila ya kutarajia imeondolewa</string>
+    <string name="ext_media_badremoval_notification_title" product="default">SD kadi bila ya kutarajiwa imeondolewa</string>
+    <string name="ext_media_badremoval_notification_message" product="nosdcard">Kutokupandisha hifadhi ya USB kabla ya kuondoa ili kuepuka upotevu wa data.</string>
+    <string name="ext_media_badremoval_notification_message" product="default">Usipandeshe kadi ya SD kabla ya kutoa kuepuka upotezaji wa data.</string>
+    <string name="ext_media_safe_unmount_notification_title" product="nosdcard">Hifadhi ya USB ni salama kuondoa</string>
+    <string name="ext_media_safe_unmount_notification_title" product="default">Ni salama kuondoa SD kadi</string>
+    <string name="ext_media_safe_unmount_notification_message" product="nosdcard">Unaweza kwa usalama kutoa hifadhi ya USB.</string>
+    <string name="ext_media_safe_unmount_notification_message" product="default">Unaweza kwa usalama kutoka kadi ya SD.</string>
+    <string name="ext_media_nomedia_notification_title" product="nosdcard">Imeondolewa hifadhi ya USB</string>
+    <string name="ext_media_nomedia_notification_title" product="default">Kadi ya SD imeondolewa</string>
+    <string name="ext_media_nomedia_notification_message" product="nosdcard">Hifadhi ya USB imeondolewa.Ingiza media mpya.</string>
+    <string name="ext_media_nomedia_notification_message" product="default">SD kadi imetolewa.Ingiza mpya.</string>
+    <string name="activity_list_empty">Hakuna wasiliano wanaolingana walioonekana.</string>
+    <string name="permlab_pkgUsageStats">Sasisha vipengele vya takwimu ya utumiaji</string>
+    <string name="permdesc_pkgUsageStats">Inaruhusu muundo wa kukusanya takwimu za matumizi ya sehemu. Sio kwa ajili ya matumizi  ya kawaida.</string>
+    <string name="permlab_copyProtectedData">Inaruhusu ili kuomba kuwaabudu default chombo huduma kunakili maudhui. Si kwa ajili ya matumizi kwa maombi ya kawaida.</string>
+    <string name="permdesc_copyProtectedData">Inaruhusu ili kuomba kuwaabudu default chombo huduma kunakili maudhui. Si kwa ajili ya matumizi kwa maombi ya kawaida.</string>
+    <string name="tutorial_double_tap_to_zoom_message_short">Tap mara mbili kwa kututunza kidhibiti</string>
+    <string name="gadget_host_error_inflating">Hitilafu katika kuweka tambarare widgeti</string>
+    <string name="ime_action_go">Nenda</string>
+    <string name="ime_action_search">Tafuta</string>
+    <string name="ime_action_send">Tuma</string>
+    <string name="ime_action_next">Hatua ya pili</string>
+    <string name="ime_action_done">Maliza</string>
+    <string name="ime_action_default">Kufanya</string>
+    <string name="dial_number_using">Nambari ya kupiga\nukwa kutumia <xliff:g id="number" example="555">%s</xliff:g></string>
+    <string name="create_contact_using">Buni wasiliano\nkwa kutumia <xliff:g id="number" example="555">%s</xliff:g></string>
+    <string name="accessibility_compound_button_selected">Iliyochunguzwa</string>
+    <string name="accessibility_compound_button_unselected">Hakujachunguzwa</string>
+    <string name="grant_credentials_permission_message_header">Moja Inayofuata au matumizi zaidi yameomba ruhusa ya kupata akaunti yako,kwa sasa na kwa baadae.</string>
+    <string name="grant_credentials_permission_message_footer">Je unataka kuruhusu ombi hili?</string>
+    <string name="grant_permissions_header_text">Kupata  maombi</string>
+    <string name="allow">Ruhusu</string>
+    <string name="deny">Kukana</string>
+    <string name="permission_request_notification_title">Ruhusa imeombwa</string>
+    <string name="permission_request_notification_with_subtitle">Ruhusa imeombwa \nkwa akaunti <xliff:g id="account" example="foo@gmail.com">%s</xliff:g></string>
+    <string name="input_method_binding_label">Njia ya Ingizo</string>
+    <string name="sync_binding_label">Wezesha</string>
+    <string name="accessibility_binding_label">Upatikanaji</string>
+    <string name="wallpaper_binding_label">Pazia</string>
+    <string name="chooser_wallpaper">Badili pazia</string>
+    <string name="alternate_eri_file">/data/eri.xml</string>
+    <string name="pptp_vpn_description">Nukta kwa Nukta Tanneling Protocoli</string>
+    <string name="l2tp_vpn_description">Tabaka la 2 Tanneling Protocoli</string>
+    <string name="l2tp_ipsec_psk_vpn_description">Changia funguo inayohusu L2TP/IPSec VPN</string>
+    <string name="l2tp_ipsec_crt_vpn_description">Cheti kinachohusu L2TP/IPSec VPN</string>
+    <string name="upload_file">Chagua faili</string>
+    <string name="reset">Seti upya </string>
+    <string name="submit">Kuwasilisha</string>
+    <string name="description_star">Kibwendo</string>
+    <string name="car_mode_disable_notification_title">Modi ya gari imewezeshwa</string>
+    <string name="car_mode_disable_notification_message">Chagua kwa ajili ya kuondoa modi ya gari.</string>
+    <string name="tethered_notification_title">Kutetharing au Hotspoti iliyo hai</string>
+    <string name="cta_tethered_notification_title">Kutetharing</string>
+    <string name="tethered_notification_message">Gusa ili kuunda</string>
+    <string name="throttle_warning_notification_title">Utumiaji wa juu wa data za simu</string>
+    <string name="throttle_warning_notification_message">Gusa ili kusoma zaidi kuhusu matumizi ya data za simu</string>
+    <string name="throttled_notification_title">Kikomo cha data za simu kimezidi</string>
+    <string name="throttled_notification_message">Gusa ili kusoma zaidi kuhusu matumizi ya data za simu</string>
+    <string name="Low_Memory_Alert">Nafasi ya Hifadhi ya simu inaelekea kuwa ndogo.Tafadhali ondoa baadhi ya data ili kuihakikishia  simu uimara</string>
+    <string name="Low_Memory_Free">Kumbukumbu tupu</string>
+    <string name="Low_Memory_Application">Maombi</string>
+    <string name="Low_Memory_Mail">Barua</string>
+    <string name="Low_Memory_Sms_Mms">SMS/MMS</string>
+    <string name="Low_Memory_System">Mfumo</string>
+    <string name="Btn_Select_Clear">Chagua/Tandua</string>
+    <string name="myAppTip">Teua matumizi ili kudhibiti</string>
+    <string name="myApp_Start_Btn">Kuanza</string>
+    <string name="myApp_Move2Sd_ChkBox">Sogeza kwenda ka SD</string>
+    <string name="myApp_ClearData_ChkBox">TanduaData</string>
+    <string name="myApp_Uninstall_ChkBox">Haijafungwa</string>
+    <string name="myAppLoading">Pakia\u2026</string>
+    <string name="myAppProcessing">Chakatua\u2026</string>
+    <string name="keyguard_password_enter_puk_code">Ingiza Codi ya PUK</string>
+    <string name="keyguard_password_enter_new_pin_first_code">Ingiza PIN Codi mpya </string>
+    <string name="keyguard_password_enter_new_pin_second_code">Ingiza PIN Codi mpya tena</string>
+    <string name="ums_active_notification_message">usb hifadhi ya mass imewezeshwa</string>
+    <string name="modem_active_notification_title">tumia modi ya modemu ya kuondoa hitilafu</string>
+    <string name="modem_active_notification_message">modi ya Modemu Ondoa hitilafu imewezeshwa</string>
+    <string name="china_mobile_numeric_values">China Mobile</string>
+    <string name="china_unicom_numeric_values">China Unicom</string>
+    <string name="china_telecom_numeric_values">China Telecom</string>
+    <string name="stk_refresh_sim_init_message">SIM kadi inawakatishwa</string>
+    <string name="stk_refresh_sim_reset_message">Simu itareboot</string>
+    <string name="custom_china_mobile">China Mobile</string>
+    <string name="custom_china_unicom">China Unicom</string>
+    <string name="charge_active_notification_message">Modi ya chaji tu imewezeshwa</string>
+    <string name="charge_active_notification_title">Tumia chaji tu wakati usb imeunganishwa</string>
+    <string name="shutdown_after_seconds">Simu itazima baada  <xliff:g id="NUMBER">%d</xliff:g> sekunde</string>
+    <string name="lockscreen_password_error">Paswadi ina hitilafu,jaribu tena!</string>
+    <string name="lockscreen_too_many_password_failed_attempts_dialog_message">Umeingiza paswadi ya kutolea loki isiyo sahihi <xliff:g id="number">%d</xliff:g> mara.      \n\nTafadhali jaribu tena katika <xliff:g id="number">%d</xliff:g>sekunde.</string>
+    <string name="progress_unmounting" product="nosdcard">Kutokupandisha hifadhi ya USB...</string>
+    <string name="progress_unmounting" product="default">Kutokupandisha SD kadi...</string>
+    <string name="progress_erasing" product="nosdcard">Futa hifadhi ya USB...</string>
+    <string name="progress_erasing" product="default">Futa SD kadi...</string>
+    <string name="format_error" product="nosdcard">Imefeli kufuta hifadhi ya USB.</string>
+    <string name="format_error" product="default">Imefeili kufuta SD kadi.</string>
+    <string name="media_bad_removal">"Kadi ya SD iliondolewa kabla ya kupandishwa."</string>
+    <string name="media_checking" product="nosdcard">Hifadhi ya USB kwa sasa inachunguzwa.</string>
+    <string name="media_checking" product="default">SD kadi kwa sasa inachunguzwa.</string>
+    <string name="media_removed">"Kadi ya SD imeondolewa."</string>
+    <string name="media_shared" product="nosdcard">Hifadhi ya USB kwa sasa inatumika na kompyuta.</string>
+    <string name="media_shared" product="default">SD kadi kwa sasa inatumika na kompyuta.</string>
+    <string name="media_unknown_state">"Nje ya media katika hali isiyojilikana."</string>
+    <string name="audio_play_failed">Samahani,sauti hii haiwezi kuchezwa,kwa kutumia defaulti ya ringitoni</string>
+    <string name="sms_full_title">Futa baadhi ya ujumbe ili kuweka chumba kwa ajili ya zaidi.</string>
+    <string name="sms_full_body">Wito wa simu unaoingia umekataliwa kutokana  na kujaa kwa hifadhi.Tafadhali futa ujumbe za zamani.</string>
+    <string name="dialog_warning">Onyo</string>
+    <string name="internal_memory_low">Hifadhi ya SD kadi inakaribia kujaa!Tafadhali futa baadhi ya mafaili ili kupata nafasi.</string>
+    <string name="button_close">Funga</string>
+    <string name="unlock_screen_pin_error">Pin ina hitilafu!</string>
+    <string name="ap_disconnected">Tenganishwa</string>
+    <string name="sim_chooser_title">Chagua SIM</string>
+    <string name="lockscreen_miss_phone">simu ilokosekana</string>
+    <string name="lockscreen_miss_mms">mms zilokosekana</string>
+    <string name="lockscreen_sim_card_locked_message">SIM kadi imetiwa loki.</string>
+</resources>

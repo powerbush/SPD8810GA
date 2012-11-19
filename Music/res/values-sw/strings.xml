@@ -1,0 +1,175 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">Nyimbo 1</string>
+    <plurals name="Nsongs">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> nyimbo</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other"><xliff:g id="count_for_artist">%2$d</xliff:g> of <xliff:g id="total_count">%1$d</xliff:g> nyimbo</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <!-- number of albums is one -->
+        <item quantity="one">Albamu 1</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> albamu</item>
+    </plurals>
+    <string name="goto_start">Maktaba</string>
+    <string name="goto_playback">Cheza nyuma</string>
+    <string name="party_shuffle">Sehemu kushafle</string>
+    <string name="party_shuffle_off">Sehemu kushafle kuzima</string>
+    <string name="delete_item">Futa</string>
+    <string name="shuffle_all">Shaffle wote</string>
+    <string name="play_all">Cheza zote</string>
+    <string name="delete_artist_desc">Nyimbo zote kwa <xliff:g id="artist">%s</xliff:g> zitakuwa zenye kufutwa kwa kudumu kutoka SD kadi.</string>
+    <string name="delete_artist_desc_nosdcard" msgid="1843750591006508005">Nyimbo zote kwa <xliff:g id="artist">%s</xliff:g> zitakuwa zenye kufutwa kwa kudumu kutoka hifadhi ya USB.</string>
+    <string name="delete_album_desc">Albamu zima \"<xliff:g id="album">%s</xliff:g>\" litakuwa lenye kufutwa kwa kudumu kutoka SD kadi.</string>
+    <string name="delete_album_desc_nosdcard" msgid="535515999268177079">Albamu zima \"<xliff:g id="album">%s</xliff:g>\" litakuwa lenye kufutwa kwa kudumu kutoka hifadhi ya USB.</string>
+    <string name="delete_song_desc">\"<xliff:g id="song">%s</xliff:g>\" zitakuwa zenye kufutwa kwa kudumu kutoka katika SD kadi.</string>
+    <string name="delete_song_desc_nosdcard" msgid="1856800468541831408">\"<xliff:g id="song">%s</xliff:g>\" zitakuwa zenye kufutwa kwa kudumu kutoka katika hifadhi ya USB.</string>
+    <string name="delete_confirm_button_text">Ndio</string>
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">Nyimbo 1 imefutwa.</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> nyimbo zimekuwa zimefutwa.</item>
+    </plurals>
+    <string name="scanning">Kuskani SD kadi \u2026</string>
+    <string name="scanning_nosdcard" msgid="3529383847223198502">Kuskani hifadhi ya USB\u2026</string>
+    <string name="nowplaying_title">Sasa chezesha</string>
+    <string name="partyshuffle_title">Sehemu kushafle</string>
+    <string name="artists_title">Wasanii</string>
+    <string name="albums_menu">Albamu</string>
+    <string name="albums_title">Albamu</string>
+    <string name="tracks_menu">Nyimbo</string>
+    <string name="tracks_title">Nyimbo</string>
+    <string name="playlists_menu">Orodha ya kucheza</string>
+    <string name="playlists_title">Orodha ya kucheza</string>
+    <string name="videos_title">Video</string>
+    <string name="all_title">Media zote</string>
+    <string name="browse_menu">Wasanii</string>
+    <string name="search_title">Tafuta</string>
+    <string name="no_tracks_title">Hakuna nyimbo</string>
+    <string name="no_videos_title">Hakuna video</string>
+    <string name="no_playlists_title">Hakuna orodha ya kuchezesha</string>
+    <string name="delete_playlist_menu">Futa</string>
+    <string name="edit_playlist_menu">Hariri</string>
+    <string name="rename_playlist_menu">Badili jina</string>
+    <string name="playlist_deleted_message">Orodha ya kucheza imefutwa.</string>
+    <string name="playlist_renamed_message">Kuipa jina tena orodha ya kucheza.</string>
+    <string name="recentlyadded">Karibuni imeongezwa</string>
+    <string name="recentlyadded_title">Karibuni imeongezwa</string>
+    <string name="podcasts_listitem">Podcesti</string>
+    <string name="podcasts_title">Podcesti</string>
+    <string name="sdcard_missing_title">Hakuna kadi ya SD</string>
+    <string name="sdcard_missing_title_nosdcard" msgid="9008284946643270850">Hakuna hifadhi ya USB</string>
+    <string name="sdcard_missing_message">Simu yako haijaingizwa kadi ya SD.</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="1169260755336159747">Simu yako haina hifadhi ya USB.</string>
+    <string name="sdcard_busy_title">SD kadi haipatikani</string>
+    <string name="sdcard_busy_title_nosdcard" msgid="1162763571147174655">Hifadhi ya USB haipo</string>
+    <string name="sdcard_busy_message">Tafadhali ingiza SD kadi.</string>
+    <string name="sdcard_busy_message_nosdcard" msgid="8071868348072728830">Samahani,hifadhi yako ya USB ina kazi.</string>
+    <string name="sdcard_error_title">Hitilafu ya SD kadi</string>
+    <string name="sdcard_error_title_nosdcard" msgid="165682155008600643">Kosa la hifadhi ya USB</string>
+    <string name="sdcard_error_message">Hitilafu imegundulikana katika kadi yako ya SD.</string>
+    <string name="sdcard_error_message_nosdcard" msgid="4574563894036627855">Kosa limekundulikana katika hifadhi yako ya USB.</string>
+    <string name="unknown_artist_name">Msanii asiyejuilikana</string>
+    <string name="unknown_album_name">Albamu isiyojuilikana</string>
+    <string name="shuffle_on_notif">Shaffle imewashwa.</string>
+    <string name="shuffle_off_notif">Shaffle imezimwa.</string>
+    <string name="repeat_off_notif">Rudia imezimwa.</string>
+    <string name="repeat_current_notif">Kurejea nyimbo ya sasa.</string>
+    <string name="repeat_all_notif">Kurejea nyimbo zote.</string>
+    <string name="ringtone_menu">Tumia kama ni ringitoni ya simu</string>
+    <string name="ringtone_menu_short">Tumia kama ni ringitoni</string>
+    <string name="ringtone_set">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" seti kama ni ringitoni ya simu.</string>
+    <string name="play_selection">Seti</string>
+    <string name="add_to_playlist">Ongeza kwa orodha ya kucheza</string>
+    <string name="queue">Orodha ya kucheza ya sasa</string>
+    <string name="new_playlist">Mpya</string>
+    <string name="new_playlist_name_template">Orodha mpya ya kucheza <xliff:g id="number">%d</xliff:g></string>
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">Nyimbo 1 imeongezwa katika orodha ya kucheza.</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> nyimbo zimeongezwa katika orodha ya kucheza.</item>
+    </plurals>
+    <string name="emptyplaylist">Orodha ya kucheza iliyochaguliwa ni tupu.</string>
+    <string name="create_playlist_create_text">Weka data au faili</string>
+    <string name="create_playlist_overwrite_text">Kuandika kupindukia</string>
+    <string name="service_start_error_title">Tatizo la cheza nyuma</string>
+    <string name="service_start_error_msg">Samahani,nyimbo haiwezi kuchezeshwa.</string>
+    <string name="service_start_error_button">Ndio</string>
+    <string-array name="weeklist">
+        <item>1 Wiki</item>
+        <item>2 Wiki</item>
+        <item>3 Wiki</item>
+        <item>4 Wiki</item>
+        <item>5 Wiki</item>
+        <item>6 Wiki</item>
+        <item>7 Wiki</item>
+        <item>8 Wiki</item>
+        <item>9 Wiki</item>
+        <item>10 Wiki</item>
+        <item>11 Wiki</item>
+        <item>12 Wiki</item>
+    </string-array>
+    <string name="weekpicker_set">Maliza</string>
+    <string name="weekpicker_title">Seti muda</string>
+    <string name="save_as_playlist">Hifadhi kama orodha ya kucheza</string>
+    <string name="clear_playlist">Tandua orodha ya kucheza</string>
+    <string name="musicbrowserlabel">Muziki</string>
+    <string name="musicshortcutlabel">Orodha ya kucheza muziki</string>
+    <string name="mediaplaybacklabel">Muziki</string>
+    <string name="videobrowserlabel">Video</string>
+    <string name="mediapickerlabel">Muziki</string>
+    <string name="playback_failed">Samahani,kichezesha hakiungi mkono aina hii ya faili la sauti.</string>
+    <string name="cancel">Kata simu</string>
+    <string name="remove_from_playlist">Ondoa kutoka katika orodha ya kucheza</string>
+    <string name="streamloadingtext">Kuunganisha na <xliff:g id="host">%s</xliff:g></string>
+    <string name="mediasearch">Tafuta kwa <xliff:g id="term" example="Beethoven">%s</xliff:g> kutumia</string>
+    <string name="working_artists">Wasanii\u2026</string>
+    <string name="working_albums">Albamu\u2062</string>
+    <string name="working_songs">Nyimbo</string>
+    <string name="working_playlists">Orodha ya kucheza\u2026</string>
+    <string name="loading">Pakia albamu mpya na picha</string>
+    <string name="sort_by_track">Fatilia</string>
+    <string name="sort_by_album">Albamu</string>
+    <string name="sort_by_artist">Wasanii</string>
+    <string name="music_picker_title">Chagua njia ya muziki</string>
+    <string name="gadget_track">Fatilia <xliff:g id="track_number">%d</xliff:g></string>
+    <string name="fail_to_start_stream">Imefeli kucheza mkondo uliombwa.</string>
+    <string name="search_settings_description">Wasanii,albamu,na kufatilia</string>
+    <string name="search_hint">Tafuta Muziki</string>
+    <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="widget_initial_text">Gusa ili kuchagua muziki.</string>
+    <string name="effectspanel">Athari ya Sauti</string>
+    <string name="delete_from_playlist">"kufutwa kutoka katika orodha ya kucheza."</string>
+    <string name="delete_playlist">"Kubali kufuta orodha ya kucheza?"</string>
+    <string name="no_play">Cheza nyuma imepigwa marufuku wakati wa kupiga simu</string>
+    <string name="add_music">Ondoa picha</string>
+    <string name="music_selected_all">Zote</string>
+    <string name="confirm_add">Ongeza</string>
+    <string name="cancel_add">Kata simu</string>
+    <string name="activity_title">Ondoa picha</string>
+    <string name="no_sd_card">Changia</string>
+    <string name="sd_card_use_usb">"U disk kwa kutumia"</string>
+    <string name="delete_all_music">Badilisha</string>
+    <string name="confirm_delete">Badilisha</string>
+    <string name="music_selected_all_delete">"Chagua funguo tupu"</string>
+    <string name="activity_title_delete">"Futa nyimbo"</string>
+    <string-array name="lyrics_edit_item">
+        <item>Sek 0.5 zilizotangulizwa za sasa</item>
+        <item>Sek 0.5 zilizochelewa za sasa</item>
+        <item>Baada ya sek 0.5 za kabla</item>
+        <item>Baada ya kuchelewa kwa sek 0.5</item>
+        <item>Sek zote 0.5 za kabla</item>
+        <item>Sek zote 0.5 za kuchelewa</item>
+        <item>Usifanye chochote</item>
+        <item>Hifadhi wakatisha</item>
+    </string-array>
+    <string name="ringtone_title_sim1">Ringitoni ya simu ya SIM1</string>
+    <string name="ringtone_title_sim2">Ringitoni ya simu ya SIM2</string>
+    <string name="ringtone_set_sim1">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" seti kama ni ringitoni ya simu SIM1.</string>
+    <string name="ringtone_set_sim2">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" seti kama ni ringitoni ya simu SIM2.</string>
+</resources>

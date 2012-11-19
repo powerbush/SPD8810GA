@@ -1,0 +1,7 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="create_playlist_create_text_prompt">Fungua keybodi ili kutoa jina la orodha yako mpya ya kucheza,au kuchagua kuhifadhi ili kuipa jina hiyo \"<xliff:g id="playlist" example="Favorite Songs">%s</xliff:g>\".</string>
+    <string name="rename_playlist_same_prompt">Fungua keybodi ili kutoa orodha ya kucheza \"<xliff:g id="playlist">%s</xliff:g>\" jina jipya.</string>
+    <string name="rename_playlist_diff_prompt">Fungua keybodi ili kutoa orodha ya kucheza \"<xliff:g id="playlist">%1$s</xliff:g>\" jina jipya, au chagua kuhifadhi ili kuipa jina hiyo\"<xliff:g id="name" example="Favorite Songs">%2$s</xliff:g>\".</string>
+</resources>

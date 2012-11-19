@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="status_bar_icon_order">
+        <item><xliff:g id="id">घड़ी</xliff:g></item>
+        <item><xliff:g id="id">सुरक्षित करें</xliff:g></item>
+        <item><xliff:g id="id">अलार्म_घड़ी</xliff:g></item>
+        <item><xliff:g id="id">बैटरी</xliff:g></item>
+        <item><xliff:g id="id">फोन_सिग्नल</xliff:g></item>
+        <item><xliff:g id="id">फोन_सिग्नल_सेकंड_sub</xliff:g></item>
+        <item><xliff:g id="id">फोन_evdo_सिग्नल</xliff:g></item>
+        <item><xliff:g id="id">डेटा_कनेक्शन</xliff:g></item>
+        <item><xliff:g id="id">सीडीएमए_eri</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">आवाज की मात्रा</xliff:g></item>
+        <item><xliff:g id="id">मौन करें</xliff:g></item>
+        <item><xliff:g id="id">स्पीकरफ़ोन</xliff:g></item>
+	    <item><xliff:g id="id">हेडसेट</xliff:g></item>
+        <item><xliff:g id="id">वाई-फ़ाई</xliff:g></item>
+        <item><xliff:g id="id">टीटीवाई</xliff:g></item>
+        <item><xliff:g id="id">ब्लूटूथ</xliff:g></item>
+        <item><xliff:g id="id">जीपीएस</xliff:g></item>
+        <item><xliff:g id="id">सिंक्रनाइज़ेशन_सक्रिय</xliff:g></item>
+        <item><xliff:g id="id">सिंक्रनाइज़ेशन_विफल</xliff:g></item>
+        <item><xliff:g id="id">आईएमई</xliff:g></item>
+    </string-array>
+</resources>

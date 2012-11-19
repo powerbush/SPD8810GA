@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LocationDemoActivity!</string>
+    <string name="app_name">LocationDemo</string>
+    <string name="btnGps">获取经纬度位置描述</string>
+    <string name="btnBase">获取基站位置描述</string>
+    <string name="strGps">113.421321,22.5051039</string>
+    <string name="strBase">50554,9513,460,1</string>
+
+</resources>

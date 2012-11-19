@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_names">
+        <item>Farin ciki</item>                   <!-- 0: :-) -->
+        <item>Abin bakin ciki</item>                     <!-- 1: :-( -->
+        <item>Kyalkyali</item>                 <!-- 2: ;-) -->
+        <item>Harshe a waje</item>     <!-- 3: :-P -->
+        <item>An bada mamaki</item>               <!-- 4: =-O -->
+        <item>Sunbata</item>                 <!-- 5: :-* -->
+        <item>Ihu</item>                 <!-- 6: :O -->
+        <item>Mai sanyi</item>                    <!-- 7: B-) -->
+        <item>Mazubin Kudi</item>             <!-- 8: :-$ -->
+        <item>Kafa cikin baki</item>           <!-- 9: :-! -->
+        <item>Sha kunya</item>             <!-- 10: :-[ -->
+        <item>Mala\'ika</item>                   <!-- 11: O:-) -->
+        <item>Ba a tsaida ra\'ayi  ba</item>               <!-- 12: :-\\ -->
+        <item>Yi kuka</item>                  <!-- 13: :\'( -->
+        <item>Lebba a kulle suke</item>         <!-- 14: :-X -->
+        <item>Dariya</item>                <!-- 15: :-D -->
+        <item>An rikice</item>                <!-- 16: o_O -->
+    </string-array>
+</resources>

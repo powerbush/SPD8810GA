@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+     android:title="@string/sim_lock_or_unlock">
+    <com.android.phone.EditPinPreference 
+        android:key="unlock_key" 
+        android:persistent="false"
+        android:dialogTitle="@string/sim_card_unlock_title"
+        android:summary="@string/sim_card_unlock_summary"
+        android:title="@string/sim_card_unlock"/>
+        
+    <com.android.phone.EditPinPreference 
+        android:key="lock_key" 
+        android:title="@string/sim_card_lock"
+        android:dialogTitle="@string/sim_card_lock_title"
+        android:summary="@string/sim_card_lock_summary"
+        android:persistent="false"/>
+</PreferenceScreen>

@@ -1,0 +1,668 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edit_group_info">Hariri kikundi</string>
+    <string name="rename_contact_group_name">Badili jina</string>
+    <string name="no_contacts_group_name">Hakuna jina la kikundi</string>
+    <string name="contacts_group_name_exist">Kuwepo Jina la Kikundi</string>
+    <string name="sure">Hakika</string>
+    <string name="contacts_group">Kikundi</string>
+    <string name="divided_group_to">Gawa</string>
+    <string name="add_group">ongeza  kufanya kikundi</string>
+    <string name="please_add_group">ongeza  kufanya kikundi</string>
+    <string name="delete">Futa</string>
+    <string name="deleted">Imefutwa</string>
+    <string name="group_name_empty">Kikundi kitupu</string>
+    <string name="all_selected">Zote chagua</string>
+    <string name="group_new">Kikundi kipya</string>
+    <string name="save">Weka data au faili</string>
+    <string name="menu_contacts_group_add">Ongeza</string>
+    <string name="menu_memory_query">Foleni ya Hifadhi</string>
+    <string name="contactor_will_be"><xliff:g id="COUNT">%1$d</xliff:g> wasiliano watakuwa <xliff:g id="OPTERATOR">%2$s</xliff:g></string>
+    <string name="imported">iliyotumwa</string>
+    <string name="exported">iliyotumwa</string>
+    <string name="selected">iliyochaguliwa</string>
+    <string name="sharedUserLabel">Mzinduaji</string>
+    <string name="contactsList">Kitabu cha anwani</string>
+    <string name="launcherDialer">Simu</string>
+    <string name="shortcutContact">Wasiliana</string>
+    <string name="shortcutDialContact">Piga simu moja kwa moja</string>
+    <string name="shortcutMessageContact">Ujumbe wa moja kwa moja</string>
+    <string name="shortcutActivityTitle">Chagua wasiliano wa njia fupi</string>
+    <string name="callShortcutActivityTitle">Chagua nambari ili kupiga</string>
+    <string name="messageShortcutActivityTitle">Chagua nambari ili kutuma ujumbe</string>
+    <string name="starredList">Hoja</string>
+    <string name="frequentList">Mara kwa mara</string>
+    <string name="strequentList">Kibwedo </string>
+    <string name="viewContactTitle">Maelezo ya wasiliano</string>
+    <string name="viewContactDesription">Angalia wasiliano</string>
+    <string name="editContactDescription">Hariri wasiliano</string>
+    <string name="insertContactDescription">Jenga wasiliano</string>
+    <string name="searchHint">Tafuta wasiliano</string>
+    <string name="menu_search">Tafuta</string>
+    <string name="menu_newContact">Wasiliano mpya</string>
+    <string name="menu_viewContact">Angalia wasiliano</string>
+    <string name="menu_callNumber">Call <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_addStar">Ongeza kwa kibwedo</string>
+    <string name="menu_removeStar">Ondoa kutoka katika zinazopendwa zaidi</string>
+    <string name="menu_showBarcode">Onyesha barcodi</string>
+    <string name="menu_editContact">Hariri wasiliano</string>
+    <string name="menu_deleteContact">Futa wasiliano</string>
+    <string name="menu_call">Ita wasiliano</string>
+    <string name="menu_video_call">Wasiliano wa wito wa video</string>
+    <string name="menu_sendSMS">Tuma ujumbe</string>
+    <string name="menu_sendEmail">Tuma barua pepe</string>
+    <string name="menu_viewAddress">Anuani ya mepu</string>
+    <string name="menu_makeDefaultNumber">Fanya defaulti ya nambari</string>
+    <string name="menu_makeDefaultEmail">Fanya defaulti ya barua pepe</string>
+    <string name="menu_splitAggregate">Tenganisha</string>
+    <string name="contactsSplitMessage">Wasiliano wametenganika</string>
+    <string name="splitConfirmation_title">Tenganisha wasiliano</string>
+    <string name="splitConfirmation">Una uhakika unataka kutenganisha wasiliano mmoja huyu kutoka katika wasiliano wengi:moja kwa kila seti ya maelezo ya  wasiliano ambayo yameungana nayo?</string>
+    <string name="menu_joinAggregate">Unga</string>
+    <string name="menu_showSources">Onyesha vyanzo</string>
+    <string name="menu_hideSources">Ficha vyanzo</string>
+    <string name="titleJoinAggregate">Ungana na wasiliano</string>
+    <string name="titleJoinContactDataWith">Jiunga wasiliano</string>
+    <string name="blurbJoinContactDataWith">Chagua wasiliano unaotaka kuunganisha pamoja na <xliff:g id="name">%s</xliff:g>.</string>
+    <string name="showAllContactsJoinItem">Onyesha wasiliano wote</string>
+    <string name="separatorJoinAggregateSuggestions">Wasiliano waliopendekezwa</string>
+    <string name="separatorJoinAggregateAll">Wasiliano wote</string>
+    <string name="contactsJoinedMessage">Wasiliano wamejiunga</string>
+    <string name="menu_contactOptions">Chaguo</string>
+    <string name="contactOptionsTitle">Chaguo</string>
+    <string name="deleteConfirmation_title">Futa</string>
+    <string name="readOnlyContactWarning">Huwezi kufuta wasiliano kutoka katika akaunti za kusoma tu,lakini unaweza kuzificha katika orodha ya wasiliano.</string>
+    <string name="readOnlyContactDeleteConfirmation">Wasiliano huyu amekusanya maelezo kutoka akaunti nyingi.Maelezo ya kusoma akaunti tu yatafichwa katika orodha ya wasiliano.Hayatofutwa.</string>
+    <string name="multipleContactDeleteConfirmation">Kufuta wasiliano huu kutafuta maelezo kutoka katika akaunti nyingi.</string>
+    <string name="deleteConfirmation">Wasiliano huyu atafutwa.</string>
+    <string name="menu_done">Maliza</string>
+    <string name="menu_doNotSave">Rejea</string>
+    <string name="editContact_title_edit">Hariri wasiliano</string>
+    <string name="editContact_title_insert">Wasiliano mpya</string>
+    <string name="menu_addItem">Mael zaidi</string>
+    <string name="label_phonetic_name">Kifonetiki</string>
+    <string name="label_notes">Kumbukumbu</string>
+    <string name="label_sip_address">Wito wa intaneti</string>
+    <string name="label_ringtone">Toni ya simu</string>
+    <string name="label_groups">Grupe</string>
+    <string name="group_list">, <xliff:g id="groupName">%s</xliff:g></string>
+    <string name="menu_viewGroup">Hariri vikundi</string>
+    <string name="ghostData_name">Mwanzo na mwisho</string>
+    <string name="ghostData_phonetic_name">Jina la kifonetiki</string>
+    <string name="ghostData_company">Kampuni</string>
+    <string name="ghostData_title">Jina</string>
+    <string name="ghostData_im">Jina la IM</string>
+    <string name="ghostData_notes">Kumbukumbu yangu</string>
+    <string name="ghostData_phone">Nambari ya simu</string>
+    <string name="ghostData_email">Anuani ya barua pepe</string>
+    <string name="ghostData_postal">Anuani ya posta</string>
+    <string name="ghostData_group">Kuonyesha kikundi</string>
+    <string name="invalidContactMessage">Wasiliano haupo.</string>
+    <string name="pickerNewContactHeader">Jenga wasiliano mpya</string>
+    <string name="selectLabel">Teua alama</string>
+    <string name="phoneLabelsGroup">Simu</string>
+    <string name="emailLabelsGroup">Barua pepe</string>
+    <string name="imLabelsGroup">IM</string>
+    <string name="postalLabelsGroup">Anuani ya posta</string>
+    <string name="otherLabelsGroup">Nyingine</string>
+    <string-array name="otherLabels">
+        <!-- An organization associated with a contact -->
+        <item>Shirika</item>
+        <!-- A note associated with a contact -->
+        <item>Chukua kumbukumbe</item>
+    </string-array>
+    <string name="errorDialogTitle">Hakuna picha</string>
+    <string name="photoPickerNotFoundText">Hakuna picha inayopatikana katika simu.</string>
+    <string name="attachToContact">Ikoni za wasiliano</string>
+    <string name="customLabelPickerTitle">Jina la alama ya Desturi</string>
+    <string name="menu_displayGroup">Zinza chaguo</string>
+    <string name="displayGroups">Zinza chaguo</string>
+    <string name="syncGroupPreference">Hariri kusawazisha Vikundi</string>
+    <string name="importFromSim">Ingiza wasiliana</string>
+    <string name="send_to_voicemail_checkbox">Tuma muongozo wa wito wa simu kwa sauti ya barua</string>
+    <string name="send_to_voicemail_view">Wito utatumwa moja kwa moja kwa barua ya sauti.</string>
+    <string name="default_ringtone">Chaguo msingi</string>
+    <string name="addPicture">Ongeza ikoni</string>
+    <string name="changePicture">Badili ikoni</string>
+    <string name="removePicture">Ondoa ikoni</string>
+    <string name="noContacts">Hakuna wasiliano.</string>
+    <string name="noMatchingContacts">Hakuna wasiliano wanaolingana walioonekana.</string>
+    <string name="noContactsWithPhoneNumbers">Hakuna wasiliano pamoja na nambari za simu.</string>
+    <string name="noFavorites">Hakuna zinazopendwa zaidi.</string>
+    <string name="select_group_title">Grupe</string>
+    <string name="groupEmpty">Kikundi chako \"<xliff:g id="groupName">%s</xliff:g>\" ni kitupu</string>
+    <string name="showAllGroups">Wasiliano wote</string>
+    <string name="showFilterPhones">Wasilano walio na simu Tu</string>
+    <string name="showFilterPhonesDescrip">Kuonyesha tu wasiliano walio na nambari za simu</string>
+    <string name="headerContactGroups">Chagua wasiliano ili kuonyesha</string>
+    <plurals name="groupDescrip">
+        <item quantity="other"><xliff:g id="count">%0$d</xliff:g> wasiliano</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> wasiliano, <xliff:g id="countWithPhones">%2$d</xliff:g> pamoja na simu</item>
+    </plurals>
+    <string name="syncAllGroups">Sawazisha wasiliano wote</string>
+    <string name="groupNameMyContacts">Wasiliano wangu</string>
+    <string name="groupNameWithPhones">Wasiliano pamoja na nambari za simu</string>
+    <string name="starredInAndroid">Nyota katika Android</string>
+    <string name="savingContact">Kuhifadhi wasiliano\u2026</string>
+    <string name="savingDisplayGroups">Kuhifadhi kuonyesha chaguzi\u2026</string>
+    <string name="contactCreatedToast">Wasiliano waliobuniwa.</string>
+    <string name="contactSavedToast">Wasiliano wamehifadhiwa.</string>
+    <string name="contactDeletedToast">Wasiliano imefutwa.</string>
+    <string name="contactSavedErrorToast">Hitilafu,haiwezi kuhifadhi mabadiliko ya wasiliano.</string>
+    <string name="listSeparatorCallNumber">Nambari ya kupiga</string>
+    <string name="listSeparatorCallNumber_edit">Nambari za simu</string>
+    <string name="number_empty">"nambari ya simu ni tupu,haiwezi kuingiza"</string>
+    <string name="listSeparatorSendSmsMms">Tuma maandishi</string>
+    <string name="listSeparatorSendEmail">Tuma barua pepe</string>
+    <string name="listSeparatorSendEmail_edit">Anuani za barua pepe</string>
+    <string name="listSeparatorSendIm">Tuma ujumbe wa papo kwa papo</string>
+    <string name="listSeparatorSendIm_edit">Anuani za mazungumzo</string>
+    <string name="listSeparatorMapAddress">Anuani ya mepu</string>
+    <string name="listSeparatorMapAddress_edit">Anuani ya posta</string>
+    <string name="listSeparatorOrganizations">Mashirika</string>
+    <string name="listSeparatorGroups">Grupe</string>
+    <string name="listSeparatorOtherInformation">Maelezo mengine</string>
+    <string name="listSeparatorOtherInformation_edit">Chaguzi nyengine</string>
+    <string name="listSeparatorMore_edit">Zaidi</string>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="one">Onyesha wasiliano 1 pamoja na nambari ya simu</item>
+        <item quantity="other">Onyesha <xliff:g id="count">%d</xliff:g> wasiliano pamoja na nambari za simu</item>
+    </plurals>
+    <string name="listTotalPhoneContactsZero">Hakuna wasiliano wanaoonekana pamoja na nambari za simu</string>
+    <plurals name="listTotalAllContacts">
+        <item quantity="one">Onyesha wasiliano 1</item>
+        <item quantity="other">Onyesha <xliff:g id="count">%d</xliff:g> wasiliano</item>
+    </plurals>
+    <string name="listTotalAllContactsZero">Hakuna wasiliano wanaoonekana</string>
+    <plurals name="listFoundAllContacts">
+        <item quantity="one">Imeonekana wasiliano 1</item>
+        <item quantity="other">Kuona <xliff:g id="count">%d</xliff:g> wasiliano</item>
+    </plurals>
+    <string name="listFoundAllContactsZero">Wasiliano haijaonekana</string>
+    <plurals name="searchFoundContacts">
+        <item quantity="one">Wasiliano 1</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> wasiliano</item>
+    </plurals>
+    <string name="socialStreamIconLabel">Jamii</string>
+    <string name="contactsIconLabel">Kitabu cha anwani</string>
+    <string name="contactsFavoritesLabel">Kibwedo </string>
+    <string name="dialerIconLabel">Simu</string>
+    <string name="recentCallsIconLabel">Piga logi</string>
+    <string name="liveFolderAll">Wasiliano wote</string>
+    <string name="liveFolderFavorites">Hoja za wasiliano</string>
+    <string name="liveFolderPhone">Wasiliano pamoja na nambari za simu</string>
+    <string name="menu_sendTextMessage">Tuma ujumbe</string>
+    <string name="recentCalls_callNumber">Call <xliff:g id="name">%s</xliff:g></string>
+    <string name="recentCalls_editNumberBeforeCall">Hariri nambari kabla ya kupiga</string>
+    <string name="recentCalls_addToContact">Ongeza kwa anwani kitabu</string>
+    <string name="recentCalls_removeFromRecentList">Ondoa kutoka katika simu ya logi</string>
+    <string name="recentCalls_deleteAll">Tandua piga logi</string>
+    <string name="recentCalls_deleteSome">Tandua baadhi ya logi za kupiga</string>
+    <string name="intent_to_firewall">Ukuta wa moto</string>
+    <string name="recentCalls_Confirm_delete">Thibitisha kufuta </string>
+    <string name="recentCalls_Cancel_delete">Kata futa</string>
+    <string name="recentCalls_button_Confirm_delete">Thibitisha kufuta </string>
+    <string name="recentCalls_button_Cancel">Kata simu</string>
+    <string name="recent_Call_log_checkbox_selecte_all">Zote chagua</string>
+    <string name="recentCalls_empty">Piga logi iko tupu.</string>
+    <string name="clearCallLogConfirmation_title">Tandua piga logi</string>
+    <string name="clearCallLogConfirmation">Una uhakika unataka kuondoa wito wote wa simu wa logi?</string>
+    <string name="voicemail">Ujumbe wa sauti</string>
+    <string name="unknown">Haijulikani</string>
+    <string name="private_num">Nambari ya binafsi</string>
+    <string name="payphone">Lipa simu</string>
+    <string name="dialerKeyboardHintText">Tumia keybodi ili kupiga simu</string>
+    <string name="dialerDialpadHintText">Piga kuongeza wito wa simu</string>
+    <string name="simContacts_emptyLoading">Pakia kutoka katika kadi ya SIM\u2026</string>
+    <string name="simContacts_title">Wasiliano wa SIM kadi</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">"Huna wasiliano wowote ili  kuonyesha .(Kama ni kuongeza tu akaunti, inaweza kuchukua dakika chache kusawazisha wasiliano.)"</string>
+    <string name="noContactsHelpTextForCreateShortcut">"Huna wasiliano wowote ili kuonyesha."</string>
+    <string name="contactsSyncPlug"><font fgcolor="#ffffffff">Kusawazisha wasiliano wako wa Google!</font>
+    \nBaada ya kusawazisha simu yako, wasiliano wako watapatikana kwako popote unapokwenda.</string>
+    <string name="noContactsHelpText">"Huna mawasiliano yoyote ya kuonyesha.\n\nKwa kuongeza mawasiliano,bonyeza<font fgcolor="#ffffffff"><b>Menyu</b></font> na kugusa:\n\n <li><font fgcolor="#ffffffff"><b>Akaunti</b></font> kwa kuongeza au kupanga akaunti pamoja na wasiliano unaweza kusawazisha katika ph</li></string>
+    <string name="noContactsHelpTextWithSync">"Huna mawasiliano yoyote ya kuonyesha. (Kama uliongeza akaunti, inaweza kuchukua dakika chache kusawazisha mawasiliano.)\n\nKwa kuongeza mawasiliano,bonyeza<font fgcolor="#ffffffff"><b>Menyu</b></font> na kugusa:\n\n<li><font fgcolor="#ffffffff"> <b>Akaunti </b></font></li></string>
+    <string name="noContactsNoSimHelpText">"Huna mawasiliano yoyote ya kuonyesha.\n\nKwa kuongeza mawasiliano,bonyeza<font fgcolor="#ffffffff"><b>Menyu</b></font> na kugusa:\n\n <li><font fgcolor="#ffffffff"><b>Akaunti</b></font> kwa kuongeza au kupanga akaunti pamoja na wasiliano unaweza kusawazisha katika ph</li></string>
+    <string name="noContactsNoSimHelpTextWithSync">"Huna mawasiliano yoyote ya kuonyesha. (Kama uliongeza akaunti, inaweza kuchukua dakika chache kusawazisha mawasiliano.)\n\nKwa kuongeza mawasiliano,bonyeza<font fgcolor="#ffffffff"><b>Menyu</b></font> na kugusa:\n\n<li><font fgcolor="#ffffffff"> <b>Akaunti </b></font></li></string>
+    <string name="noFavoritesHelpText">"Huna wanaopendwa zaidi wowote.\n\nKwa kuongeza wasiliano katika orodha ya wanaopendwa zaidi:\n <li>Gusa <b>Wasiliano</b>tab\n</li> \n<li>Gusa wasiliano unaotaka kuongeza katika wanaopendwa zaidi\n</li> \n<li>Gusa nyota mbeleni ya wasiliano\n</li></string>
+    <string name="seclectSyncGroups_title">Chagua kikundi ili kusawazisha</string>
+    <string name="liveFolder_all_label">Wasiliano wote</string>
+    <string name="liveFolder_favorites_label">Hoja</string>
+    <string name="liveFolder_phones_label">Simu</string>
+    <string name="dialer_useDtmfDialpad">Tumia toni keypedi ya kugusa</string>
+    <string name="dialer_returnToInCallScreen">Rejea kwenye wito wa simu ulopo hewani</string>
+    <string name="dialer_addAnotherCall">Ongeza wito wa simu</string>
+    <string name="callDetailTitle">Ita maelezo </string>
+    <string name="toast_call_detail_error">Kuwa haiwezi kusoma maelezo kwa wito wa simu uliombwa.</string>
+    <string name="call_type">Jina</string>
+    <string name="type_incoming">Simu za kuingia</string>
+    <string name="type_outgoing">Simu zinazotoka</string>
+    <string name="type_missed">Kukosa wito wa simu</string>
+    <string name="call_time">Muda</string>
+    <string name="datetime_relative">"<xliff:g id="datetime" example="Dec 31, 2007, 11:00 am">%1$s</xliff:g> (<xliff:g id="relative" example="4 hours ago">%2$s</xliff:g>)"</string>
+    <string name="call_duration">Muda</string>
+    <string name="header_actions">Kitendo</string>
+    <string name="ringtone_spinner">"Ringitoni:<xliff:g id="ringtone" example="Caribbean Ice">%1$s</xliff:g>"</string>
+    <string name="add_more_items">Ongeza vitu zaidi</string>
+    <string name="actionCall">Call <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionEmail">Barua pepe <xliff:g id="type" example="home">%s</xliff:g></string>
+    <string name="actionText">Maandishi <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionChat">Mazungumzo kwa kutumia <xliff:g id="type" example="Google Talk">%s</xliff:g></string>
+    <string name="actionMap">Angalia <xliff:g id="custom">%s</xliff:g> anuani</string>
+    <string name="actionIncomingCall">Wito wa simu unaoingia</string>
+    <string name="detailIncomingCallsGoToVoicemail">Kutumwa moja kwa moja kwenda kwa barua ya sauti</string>
+    <string name="detailsRingtone">Seti kwa <xliff:g id="ringtone_name" example="Flutey Phone">%s</xliff:g></string>
+    <string name="callBack">Rejesha wito wa simu</string>
+    <string name="callAgain">Piga simu tena</string>
+    <string name="returnCall">Rejesha wito wa simu</string>
+    <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> dak <xliff:g id="seconds" example="28">%2$s</xliff:g> sek</string>
+    <string name="favoritesFrquentSeparator">Mara kwa mara kuwasiliana</string>
+    <string name="add_contact_dlg_title">Ongeza wasiliano</string>
+    <string name="add_contact_dlg_message_fmt">Ongeza \"<xliff:g id="email">%s</xliff:g>\" kwa wasiliano ?</string>
+    <string name="all_tab_label">Zote</string>
+    <string name="description_image_button_one">moja</string>
+    <string name="description_image_button_two">mbili</string>
+    <string name="description_image_button_three">tatu</string>
+    <string name="description_image_button_four">nne</string>
+    <string name="description_image_button_five">tano</string>
+    <string name="description_image_button_six">sita</string>
+    <string name="description_image_button_seven">saba</string>
+    <string name="description_image_button_eight">nane</string>
+    <string name="description_image_button_nine">tisa</string>
+    <string name="description_image_button_star">nyota</string>
+    <string name="description_image_button_zero">zero</string>
+    <string name="description_image_button_pound">Pound</string>
+    <string name="description_voicemail_button">Ujumbe wa sauti</string>
+    <string name="description_dial_button">Piga</string>
+    <string name="description_delete_button">sehemu ya nyuma</string>
+    <string name="description_digits_edittext">nambari ya kupiga</string>
+    <string name="description_contact_photo">picha ya wasiliano</string>
+    <string name="description_minus_button">toa</string>
+    <string name="description_plus_button">jumlisha</string>
+    <string name="no_sdcard_title" product="nosdcard">Hifadhi ya USB haipo</string>
+    <string name="no_sdcard_title" product="default">Hakuna kadi ya SD</string>
+    <string name="no_sdcard_message" product="nosdcard">Hakuna hifadhi ya USB ilofutwa</string>
+    <string name="no_sdcard_message" product="default">Hakuna kadi ya SD iliyofutwa</string>
+    <string name="searching_vcard_title">Kutafuta kwa vKadi</string>
+    <string name="select_import_type_title">Unapendelea kutoka wapi kusafirisha wasiliano?</string>
+    <string name="import_from_sim">Leta kutoka katika kadi SIM</string>
+    <string name="import_from_sim1">Leta kutoka katika SIM1</string>
+    <string name="import_from_sim2">Leta kutoka katika SIM2</string>
+    <string name="import_from_sdcard" product="nosdcard">Kutuma kutoka hifadhi ya USB</string>
+    <string name="import_from_sdcard" product="default">Leta kutoka katika kadi ya SD</string>
+    <string name="export_to_sdcard" product="nosdcard">Tuma kwa Hifadhi ya USB</string>
+    <string name="export_to_sdcard" product="default">Safirisha kwenda kwa kadi ya SD</string>
+    <string name="share_visible_contacts">Changia wasiliano wanaonekana</string>
+    <string name="import_one_vcard_string">Leta faili moja la vKadi</string>
+    <string name="import_multiple_vcard_string">Leta mafaili mengi ya vKadi</string>
+    <string name="import_all_vcard_string">Leta mafaili yote ya vKadi</string>
+    <string name="searching_vcard_message" product="nosdcard">Kutafuta vKadi data katika hifahi ya USB</string>
+    <string name="searching_vcard_message" product="default">Kutafuta kwa vKadi data katika SD kadi</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard">Kuskani hifadhi ya USB kumefeli</string>
+    <string name="scanning_sdcard_failed_title" product="default">Kuskani SD kadi kumefeli</string>
+    <string name="scanning_sdcard_failed_message" product="nosdcard">Kuskani hifadhi ya USB kumefeli (Sababu: \"<xliff:g id="fail_reason">%s</xliff:g>\")</string>
+    <string name="scanning_sdcard_failed_message" product="default">Kuskani SD kadi kumefeli  (Sababu: \"<xliff:g id="fail_reason">%s</xliff:g>\")</string>
+    <string name="fail_reason_io_error">Kosa la I/O</string>
+    <string name="fail_reason_vcard_parse_error">Imefeli kupaze vKadi kwa sababu zisizotarajiwa</string>
+    <string name="fail_reason_vcard_not_supported_error">Imeshindwa kupaze vKadi inafikiriwa kuwa ipo katika fomati halali,kuwa utekelezaji wa sasa hauungi mkono hiyo</string>
+    <string name="fail_reason_no_vcard_file" product="nosdcard">Hakuna faili la vKadi liloonekana katika hifadhi ya USB</string>
+    <string name="fail_reason_no_vcard_file" product="default">Hakuna faili la vKadi liloonekana katika kadi ya SD</string>
+    <string name="fail_reason_no_vcard_entry">Hakuna njia ya vKadi halali iliyoonekana katika uchaguo wako</string>
+    <string name="fail_reason_failed_to_read_files">Faili moja au zaidi limefeli kutolewa(%s).</string>
+    <string name="fail_reason_unknown">Kosa lisilojulikana</string>
+    <string name="select_vcard_title">Chagua vKadi faili</string>
+    <string name="select_vcard_message">Tafadhali chagua faili la vKadi ili kutuma</string>
+    <string name="progress_shower_message"><xliff:g id="action" example="Reading VCard">%1$s</xliff:g>\n<xliff:g id="filename" example="foo.vcf">%2$s</xliff:g></string>
+    <string name="reading_vcard_title">Kusoma vKadi</string>
+    <string name="reading_vcard_message">Kusoma vKadi (ma)faili</string>
+    <string name="importing_vcard_message">Tuma data ya vKadi</string>
+    <string name="reading_vcard_failed_title">Kusoma data za vKadi kumefeli</string>
+    <string name="reading_vcard_failed_message">Haiwezi kusoma vKadi.\nSababu ya kufeli: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    <string name="reading_vcard_contacts"><xliff:g id="current_number">%1$s</xliff:g>  ya <xliff:g id="total_number">%2$s</xliff:g> wasiliano</string>
+    <string name="reading_vcard_files"><xliff:g id="current_number">%1$s</xliff:g> ya <xliff:g id="total_number">%2$s</xliff:g>  mafaili</string>
+    <string name="export_all_contacts">Wasiliano wote</string>
+    <string name="export_phone_local_only">Kwa kienyeji kuhifadhi wasiliano</string>
+    <string name="export_contact_list">Hamisha wasiliana</string>
+    <string name="confirm_export_title">Thibitisha kusafirisha nje</string>
+    <string name="confirm_export_message">Je una uhakika unataka kutuma orodha ya wasiliano wako kwa  \"<xliff:g id="vcard_filename">%s</xliff:g>\"?</string>
+    <string name="exporting_contact_failed_title">Imefeli kusafirisha data ya wasiliano</string>
+    <string name="exporting_contact_failed_message">Imefeli kutuma data za wasiliano. \nSababu ya kufeli: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    <string name="fail_reason_no_exportable_contact">Hakuna wasiliano wa kutumwa</string>
+    <string name="fail_reason_too_many_vcard" product="nosdcard">Mafaili ya vKadi ni mengi sana katika hifadhi ya USB</string>
+    <string name="fail_reason_too_many_vcard" product="default">Mafaili mengi sana ya vKadi katika SD kadi</string>
+    <string name="fail_reason_too_long_filename">Jina la faili lililohitajika ni refu sana (\"<xliff:g id="filename">%s</xliff:g>\")</string>
+    <string name="fail_reason_cannot_open_destination_dir">Haiwezi kufungua au kubuni njia ya inakofikia\"<xliff:g id="dir_name">%s</xliff:g>\"</string>
+    <string name="exporting_contact_list_title">Kusafirisha data za wasiliano</string>
+    <string name="exporting_contact_list_message">Tuma data za wasiliano kwa \"<xliff:g id="file_name">%s</xliff:g>\"</string>
+    <string name="fail_reason_could_not_initialize_exporter">Haiwezi kuanzisha kisafirishaji: \"<xliff:g id="exact_reason">%s</xliff:g>\"</string>
+    <string name="fail_reason_error_occurred_during_export">Kosa limetokezea wakati wa kutuma: \"<xliff:g id="exact_reason">%s</xliff:g>\"</string>
+    <string name="composer_failed_to_get_database_infomation">Imefeli kupata maelezo ya databezi</string>
+    <string name="composer_has_no_exportable_contact">Hakuna wasiliano wa kutumwa.Ikiwa kama una wasiliano katika simu yako.Wasiliano wote pengine watazuliwa kutumwa kutoka nje ya simu yako na baadhi ya watoaji data.</string>
+    <string name="composer_not_initialized">VKadi ya mtumaji haijaanzishwa kwa usahihi</string>
+    <string name="fail_reason_could_not_open_file">Haiwezi kufungua: \"<xliff:g id="file_name">%1$s</xliff:g>\": <xliff:g id="exact_reason">%2$s</xliff:g></string>
+    <string name="search_settings_description">Jina la wasiliano wako</string>
+    <string name="add_2sec_pause">Ongeza kisimamo cha sekunde 2</string>
+    <string name="add_wait">Ongeza kusubiri</string>
+    <string name="dial_button_label">Piga</string>
+    <string name="call_disambig_title">Wito wa simu unatumia</string>
+    <string name="sms_disambig_title">Nakala kwa kutumia</string>
+    <string name="make_primary">Kumbuka chaguo hili</string>
+    <string name="quickcontact_missing_app">Hakuna matumizi yaliyonekana kuhimili kitondo hiki.</string>
+    <string name="quickcontact_remember_choice">Kumbuka chaguo hili</string>
+    <string name="quickcontact_missing_name">Haijulikani</string>
+    <string name="menu_accounts">Akaunti</string>
+    <string name="menu_import_export">Leta/Toa</string>
+    <string name="dialog_import_export">Leta/Toa wasiliano</string>
+    <string name="menu_share">Changia</string>
+    <string name="share_via">Changia wasiliano kupitia</string>
+    <string name="share_error">Wasiliano huyu hawezi kuchangiwa.</string>
+    <string name="nameLabelsGroup">Jina</string>
+    <string name="nicknameLabelsGroup">Jina la utani</string>
+    <string name="organizationLabelsGroup">Shirika</string>
+    <string name="websiteLabelsGroup">Tovuti</string>
+    <string name="eventLabelsGroup">Tukio</string>
+    <string name="type_short_mobile">M</string>
+    <string name="type_short_work">W</string>
+    <string name="type_short_pager">P</string>
+    <string name="type_short_other">O</string>
+    <string name="edit_read_only">Wasiliano huyu ni kusoma tu</string>
+    <string name="edit_secondary_collapse">Zaidi</string>
+    <string name="dialog_primary_name">Jina la msingi</string>
+    <string name="dialog_new_contact_account">Jenga wasiliano chini ya akaunti</string>
+    <string name="menu_sync_remove">Ondoa kuwezesha kikundi</string>
+    <string name="dialog_sync_add">Ongeza kuwezesha kikundi</string>
+    <string name="display_more_groups">Vikundi zaidi\u2026</string>
+    <string name="display_ungrouped">Wasiliano wengine wote</string>
+    <string name="display_all_contacts">Wasiliano wote</string>
+    <string name="display_warn_remove_ungrouped">Ondoa \'<xliff:g id="group" example="Starred">%s</xliff:g>\'kutoka kisawazisha pia kutaondoa kikundi cha wasiliano kutoka kisawazisha.</string>
+    <string name="label_email_display_name">Kuonyesha jina</string>
+    <string name="account_phone">Simu tu(zisizowezeshwa)</string>
+    <string name="call_custom">Call <xliff:g id="custom">%s</xliff:g></string>
+    <string name="call_home">Piga simu nyumbani</string>
+    <string name="call_mobile">Piga simu ya mkononi</string>
+    <string name="call_work">Piga kazi</string>
+    <string name="call_fax_work">Piga fax ya kazi</string>
+    <string name="call_fax_home">Piga fax ya nyumbani</string>
+    <string name="call_pager">Piga peja</string>
+    <string name="call_other">Call</string>
+    <string name="call_callback">Wito wa simu kurejesha simu</string>
+    <string name="call_car">Ita gari</string>
+    <string name="call_company_main">Ita kampuni kuu</string>
+    <string name="call_isdn">Piga ISDN</string>
+    <string name="call_main">Piga kuu</string>
+    <string name="call_other_fax">Piga fax</string>
+    <string name="call_radio">Piga redio</string>
+    <string name="call_telex">Piga telex</string>
+    <string name="call_tty_tdd">Piga TTY/TDD</string>
+    <string name="call_work_mobile">Piga simu ya mkononi ya kazi</string>
+    <string name="call_work_pager">Piga peja ya kazi</string>
+    <string name="call_assistant">Wito <xliff:g id="assistant">%s</xliff:g></string>
+    <string name="call_mms">Piga MMS</string>
+    <string name="sms_custom">Maandishi <xliff:g id="custom">%s</xliff:g></string>
+    <string name="sms_home">Nakala ya nyumbani</string>
+    <string name="sms_mobile">Nakala simu</string>
+    <string name="sms_work">Nakala ya kazi</string>
+    <string name="sms_fax_work">Nakala ya fax ya kazi</string>
+    <string name="sms_fax_home">Nakala ya fax ya nyumbani</string>
+    <string name="sms_pager">Nakala peja</string>
+    <string name="sms_other">Matini</string>
+    <string name="sms_callback">Matini rejesha wito wa simu</string>
+    <string name="sms_car">Nakala ya gari</string>
+    <string name="sms_company_main">Nakala ya kampuni kuu</string>
+    <string name="sms_isdn">Nakala ya ISDN</string>
+    <string name="sms_main">Nakala kuu</string>
+    <string name="sms_other_fax">Nakala ya fax</string>
+    <string name="sms_radio">Nakala redio</string>
+    <string name="sms_telex">Nakala telex</string>
+    <string name="sms_tty_tdd">Nakala TTY/TDD</string>
+    <string name="sms_work_mobile">Nakala ya simu ya kazi</string>
+    <string name="sms_work_pager">Nakala ya peja ya kazi</string>
+    <string name="sms_assistant">Maandishi <xliff:g id="assistant">%s</xliff:g></string>
+    <string name="sms_mms">Nakala MMS</string>
+    <string name="email_home">Nyumba ya  barua pepe </string>
+    <string name="email_mobile">Barua pepe ya simu</string>
+    <string name="email_work">Barua pepe ya kazi</string>
+    <string name="email_other">Barua pepe</string>
+    <string name="email_custom">Barua pepe <xliff:g id="custom">%s</xliff:g></string>
+    <string name="email">Barua pepe</string>
+    <string name="map_home">Angalia anuani ya nyumbani</string>
+    <string name="map_work">Angalia anuani ya kazi</string>
+    <string name="map_other">Angalia anuani</string>
+    <string name="map_custom">Angalia <xliff:g id="custom">%s</xliff:g> anuani</string>
+    <string name="chat_aim">Kuzungumza kupitia AIM</string>
+    <string name="chat_msn">Kuzungumza kupitia Windows Live</string>
+    <string name="chat_yahoo">Kuzungumza kupitia Yahoo</string>
+    <string name="chat_skype">Kuzungumza kupitia Skype</string>
+    <string name="chat_qq">Kuzungumza kupitia QQ</string>
+    <string name="chat_gtalk">Kuzungumza kupitia  Zungumza na Google</string>
+    <string name="chat_icq">Kuzungumza kupitia ICQ</string>
+    <string name="chat_jabber">Kuzungumza kupitia Jaba</string>
+    <string name="chat_other">"mazungumzo kutumia zana nyengine"</string>
+    <string name="chat">Kuzungumza</string>
+    <string name="postal_street">Mtaa</string>
+    <string name="postal_pobox">Sanduku la posta</string>
+    <string name="postal_neighborhood">Jirani</string>
+    <string name="postal_city">Mji</string>
+    <string name="postal_region">Dola</string>
+    <string name="postal_postcode">Zip kodi</string>
+    <string name="postal_country">Country</string>
+    <string name="name_given">Jina ulilopewa</string>
+    <string name="name_family">Jina la ukoo</string>
+    <string name="name_prefix">Taja kunganishi cha mbele</string>
+    <string name="name_middle">Jina la Kati</string>
+    <string name="name_suffix">Taja kunganishi cha nyuma</string>
+    <string name="name_phonetic_given">Jina ulilopewa la kifonetiki</string>
+    <string name="name_phonetic_middle">Jina la kati la kifonetiki</string>
+    <string name="name_phonetic_family">Jina la ukoo la kifonetiki</string>
+    <string name="split_label">Gawa</string>
+    <string name="split_explanation">Fanya data hii kuwa wasiliano wake mwenyewe.</string>
+    <string name="account_name_format">Kutoka <xliff:g id="source" example="Gmail">%1$s</xliff:g> akaunti: <xliff:g id="account" example="user@gmail.com">%2$s</xliff:g></string>
+    <string name="account_type_format"><xliff:g id="source" example="Gmail">%1$s</xliff:g> wasiliano</string>
+    <string name="from_account_format">kutoka <xliff:g id="source" example="user@gmail.com">%1$s</xliff:g></string>
+    <string name="use_photo_as_primary">Tumia picha hii</string>
+    <string name="contact_read_only"><xliff:g id="source" example="Gmail">%1$s</xliff:g> maelezo ya wasiliano hayawezi kurekebishwa katika kifaa hiki.</string>
+    <string name="no_contact_details">Hakuna maelezo yaliyongezwa kwa wasiliano huu</string>
+    <string name="display_options_sort_list_by">Pembua orodha kwa</string>
+    <string name="display_options_sort_by_given_name">Jina ulilopewa</string>
+    <string name="display_options_sort_by_family_name">Jina la ukoo</string>
+    <string name="display_options_view_names_as">Angalia majina ya wasiliano kama</string>
+    <string name="display_options_view_given_name_first">Jina ulilopewa mwanzo</string>
+    <string name="display_options_view_family_name_first">Jina la Ukoo mwanzo</string>
+    <string name="search_bar_hint">Tafuta wasiliano</string>
+    <string name="search_for_all_contacts">Tafuta kwa wasiliano wote</string>
+    <string name="take_photo">Chua picha</string>
+    <string name="pick_photo">Chagua picha kutoka katika Gallari</string>
+    <string name="locale_change_in_progress">Orodha ya wasiliano inakua inawakatishwa ili iendane na mabadiliko ya lugha.\n\nTafadhali subiri...</string>
+    <string name="upgrade_in_progress">Orodha ya wasiliano inakua inawakatishwa.\n\nTafadhali subiri...</string>
+    <string name="upgrade_out_of_memory">Wasiliano wako katika mchakato wa kuongezwa daraja. \n\n Machakato wa kuongeza daraja  unahitaji takribani <xliff:g id="size_in_megabytes">%d</xliff:g>Mb ya hifadhi ya ndani ya simu.\n\nChagua moja ya chaguzi zifuatazo:</string>
+    <string name="upgrade_out_of_memory_uninstall">Haijafungwa baadhi ya matumizi</string>
+    <string name="upgrade_out_of_memory_retry">Jaribu tena kubandisha daraja</string>
+    <string name="search_results_for">Tafuta matokeo kwa:<xliff:g id="query">%s</xliff:g></string>
+    <string name="search_results_searching">Kutafuta...</string>
+    <string name="dialer_call_switch">Wito wa sauti/Wito wa Video</string>
+    <string name="menu_voicecall">Simu ya video</string>
+    <string name="menu_videocall">Simu ya video</string>
+    <string name="select_all">Teua zote</string>
+    <string name="select_contacts">teua wasiliano</string>
+    <string name="delete_contacts">futa wasiliano</string>
+    <string name="export_contacts">Hamisha wasiliana</string>
+    <string name="import_contacts">Ingiza wasiliana</string>
+    <string name="add_contacts_to_group">"Ongeza wasiliano katika kikundi"</string>
+    <string name="ok">Ndio</string>
+    <string name="cancel">Kata simu</string>
+    <string name="contact_tag">Jina</string>
+    <string name="inputting__name_sim_contacts">Kumbuka:Urefu wa juu kabisa wa herufi 14 (ikiwa utakusanya herufi au nyuzi za herufi zinaruhusu urefu wa juu kabisa kwa herufi sita),kupindukia hapo zitakuwa zenye kutaingiliana.</string>
+    <string name="inputting_number_sim_contacts">Kumbuka:Urefu wa juu kabisa kwa herufi 20  (unaruhusu tu 0-9 +, * herufi).</string>
+    <string name="setting_digits">1234567890+*#,;</string>
+    <string name="menu_contacts_group">Kikundi cha wasiliano</string>
+    <string name="menu_delete">Wasiliano wamefutwa</string>
+    <string name="on_progress">Katika mchakato....tafadhali subiri.</string>
+    <string name="deleting_contacts">Kufuta wasiliano,tafadhali subiri...</string>
+    <string name="importing_contacts">Tuma wasiliano,tafadhali subiri.</string>
+    <string name="exporting_contacts">Tuma wasiliano,tafadhali subiri.</string>
+    <string name="adding_contacts_to_group">Ongeza wasiliano katika kikundi,tafadhali subiri.</string>
+    <string name="confirm">Conferma?</string>
+    <string name="export_to_sim">Safirisha kwenda kwa kadi ya laini ya simu</string>
+    <string name="export_to_sim1">Safirisha kwenda kwa SIM1</string>
+    <string name="export_to_sim2">Safirisha kwenda kwa SIM2</string>
+    <string name="group_all">Wasiliano wote</string>
+    <string name="group_phone">Wasiliano wa simu</string>
+    <string name="group_sim">Wasiliano wa SIM kadi</string>
+    <string name="group_sim1">"Wasiliano wa SIM1 kadi"</string>
+    <string name="group_sim2">"Wasiliano wa SIM2 kadi"</string>
+    <string name="view_simContact">Angalia wasiliano wa Sim</string>
+    <string name="edit_simContact">Hariri wasiliano wa sim</string>
+    <string name="insert_simContact">Ongeza wasiliano wa sim</string>
+    <string name="select_contacts_group">Teua kikundi cha wasiliano</string>
+    <string name="select_contacts_group_to_add">Chagua kikundi ili kuongeza wasiliano mpya</string>
+    <string name="sim_card">SIM Kadi</string>
+    <string name="sim_card1">"Sim1 kadi"</string>
+    <string name="sim_card2">"Sim2 kadi"</string>
+    <string name="phone">Simu</string>
+    <string name="toast_simcontact_no_name">Hakuna jina</string>
+    <string name="toast_simcontact_no_phone_number">Hakuna nambari ya simu</string>
+    <string name="dial_number">Piga</string>
+    <string name="send_message">Chagua lugha mpya</string>
+    <string name="account_sim">SIM-tu,Haiwezi kusawazisha wasiliano</string>
+    <string name="account_sim1">"SIM1-tu,Haiwezi kuwezesha wasiliano"</string>
+    <string name="account_sim2">"SIM2-tu,Haiwezi kuwezesha wasiliano"</string>
+    <string name="sim1_no_ready">"Sim1 kadi haiko tayari"</string>
+    <string name="sim2_no_ready">"Sim2 kadi haiko tayari"</string>
+    <string name="sim1_fdn_enable">"Sim1 FDN imewezeshwa"</string>
+    <string name="sim2_fdn_enable">"Sim2 FDN imewezeshwa"</string>
+    <string name="airplan_mode_enable">"Modi ya ndege iko wazi,haiwezi kupata wasiliano wa sim"</string>
+    <string name="sim_no_ready">"Sim kadi haiko tayari"</string>
+    <string name="sim_can_not_pick">"Wasiliano wa sim kadi hawawezi kuongezwa kama ni njia fupi"</string>
+    <string name="noContactsWithSimNumbers">"Hakuna wasiliano katika SIM kadi"</string>
+    <string name="no_match_people">Hakuna wasiliano wanaolingana walioonekana.</string>
+    <string name="dialpad_colon">:</string>
+    <string name="progress_dialog_title">Kuleta wasiliano wa SIM</string>
+    <string name="sim_is_initializing">Kuanzisha Sim kadi.</string>
+    <string name="toast_sim_failed">Imefeli kubuni wasiliano wa sim</string>
+    <string name="toast_sim_overflow">Sim Kadi imejaa</string>
+    <string name="toast_simcontact_input_overflow">Uingizaji wa Mael ya wasiliano umetiririka kwa kuzidi</string>
+    <string name="toast_no_map_apk">Hakuna mepu ya Matumizi</string>
+    <string name="toast_name_number_both_empty">Jina na nambari ya simu kwa pamoja haviwezi kuwa vitupu</string>
+    <string name="import_to_phone">Kutuma kwenda kwenye simu</string>
+    <string name="sim_is_initializing1">"anzisha sim1".</string>
+    <string name="sim_is_initializing2">"anzisha sim2".</string>
+    <string name="toast_sim1_overflow">"sim1 imetiririka zaidi"</string>
+    <string name="toast_sim2_overflow">"sim2 imetiririka zaidi"</string>
+    <string name="recentCalls_addToCallFireWall">Ongeza kwa Ukuta wa moto wa wito</string>
+    <string name="contactslist_menu_addto_firewall">Ongeza kwa Ukuta wa moto wa wito</string>
+    <string name="contactslist_menu_addto_firewall_null">Nambari ya wasiliano iko tupu,tafadhali chagua tena ili kuongeza wasiliano</string>
+    <string name="videocall_string">Video</string>
+    <string name="export_contacts_to_sdcard">"safirisha wasiliano kwenda kwa sdkadi"</string>
+    <string name="recentCalls_delete_toest">"Tafadhali changua vitu vya kufutwa"</string>
+    <string name="sendType_MMS">"Maelezo haya yatakuwa yenye kutumwa MMS"</string>
+    <string name="sendType_SMS">"Maelezo haya yatakuwa yenye kutumwa SMS"</string>
+    <string name="service_is_busy">"Kuwezesha huduma kuna kazi,baadhi ya kazi hazitawezeshwa"</string>
+    <string name="service_is_busy_sim1">"Kuwezesha sim1 kadi kuna kazi"</string>
+    <string name="service_is_busy_sim2">"Kuwezesha sim2 kadi kuna kazi"</string>
+    <string name="label_success">"Kufanikiwa"</string>
+    <string name="label_fail">Shindwa</string>
+    <string name="group_manager">"Kikundi cha wasiliano"</string>
+    <string name="group_manager_delete">"Kikundi cha wasiliano-Futa"</string>
+    <string name="empty">"Kikundi cha maelezo ni kitupu,tafadhali ongeza vitu vya menyu"</string>
+    <string name="noGroupInfo">"Hapana kikundi cha Operesheni"</string>
+    <string name="conatcts_name">Jina</string>
+    <string name="phone_number">Simu</string>
+    <string name="phone1">"Simu 1"</string>
+    <string name="phone2">"Simu 2"</string>
+    <string name="phone3">"Simu 3"</string>
+    <string name="phone4">"Simu 4"</string>
+    <string name="nickname">Jina la utani</string>
+    <string name="concacts_email">Barua pepe</string>
+    <string name="ghostData_phone1">"Nambari ya simu1"</string>
+    <string name="ghostData_phone2">"Nambari ya simu2"</string>
+    <string name="ghostData_phone3">"Nambari ya simu3"</string>
+    <string name="ghostData_phone4">"Nambari ya simu4"</string>
+    <string name="ghostData_nickname">Jina la utani</string>
+    <string name="ghostData_concatct_email">Barua pepe</string>
+    <string name="contacts_is_null">"Ingiza maelezo ya wasiliano"</string>
+    <string name="export_sim_success">"Safirisha SIM kumefanikiwa"</string>
+    <string name="export_sim_fail">"Safirisha SIM kumefeli"</string>
+    <string name="export_sim1_success">"Safirisha SIM1 kumefanikiwa"</string>
+    <string name="export_sim1_fail">"Safirisha SIM1 kumefeli"</string>
+    <string name="export_sim2_success">"Safirisha SIM2 kumefanikiwa"</string>
+    <string name="export_sim2_fail">"Safirisha SIM2 kumefeli"</string>
+    <string name="add_to_group_success">"Ongeza kikundi kumefanikiwa"</string>
+    <string name="add_to_group_fail">"Ongeza kikundi kumefeli"</string>
+    <string name="import_to_phone_success">"Kuingiza Simu kumefanikiwa"</string>
+    <string name="import_to_phone_fail">"Kuingiza Simu kumefeli"</string>
+    <string name="delete_phone_success">"Futa kumefanikiwa"</string>
+    <string name="delete_phone_fail">"Futa kumefeli"</string>
+    <string name="delete_sim_success">"Futa kumefanikiwa"</string>
+    <string name="delete_sim_fail">"Futa kumefeli"</string>
+    <string name="recentCallsAllIconLabel">Zote</string>
+    <string name="recentCallsMissedIconLabel">Kukosekana</string>
+    <string name="recentCallsOutgoingIconLabel">Zinazotoka</string>
+    <string name="recentCallsReceivedIconLabel">Soma</string>
+    <string name="select_one">Chagua japo kitu kimoja!</string>
+    <string name="remove_contacts_from_group">Ondoa wasiliano huu kutoka katika kikundi</string>
+    <string name="sim_card_name_too_long">Jina la Sim kadi ni refu sana</string>
+    <string name="group_name_cannot_empty">Jina la kikundi haliwezi kua tupu</string>
+    <string name="assistantLabelPickerTitle">Jina la alama ya msaidizi</string>
+    <string name="share_by_sms">Tuma wasiliano kwa SMS</string>
+    <string name="share_by_mms">Tuma wasiliano kwa MMS</string>
+    <string name="share_by_bluetooth">Tuma wasiliano kwa Bluututhi</string>
+    <string name="share_by_email">Tuma wasiliano kwa Barua pepe</string>
+    <string name="chat_custom">"Mazungumzo kutumia<xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="deleting">"Kufuta,Tafadhali jaribu tena"</string>
+    <string name="import_aborted">"uingizaji umekataa"</string>
+    <string name="exprot_fail">"Kusafirisha kumefeli,Hakuna nafasi iliyobakia katika kifaa"</string>
+    <string name="exprot_fail_only_email">"Wasiliano ni barua pepe tu,haiwezi kusafirisha kwenda kwa SIM"</string>
+    <string name="contacts_information_is_replace">"Maelezo ya wasiliano yamewekwa mbadala wake"</string>
+    <string name="import_sim_too_many">"mtumiaji ameingiza kuliko uwezo wa sim kadi uliobakia"</string>
+    <string name="whether_import_from_SD">"Ingiza kutoka kadi ya SD ikiwa wasiliano?"</string>
+    <string name="blacklist_add">Ongeza kwa orodha nyeusi</string>
+    <string name="blacklist">Orodha nyeusi</string>
+    <string name="blacklist_no_number">Hakuna nambari,unaweza kuongeza.</string>
+    <string name="no_fast_dial">wito wa nambari ya simu wa haraka haujasetiwa</string>
+    <string name="fast_dial_choose">tafadhali chagua aina ya wito wa simu wa haraka</string>
+    <string name="fast_call">Simu ya video</string>
+    <string name="fast_vt_call">Simu ya video</string>
+    <string name="save_contact_faliue">Imeshindwa kuhifadhi</string>
+    <string name="add_contact_success">kuongeza wasiliano kumefanikiwa</string>
+    <string name="group_name">jina la kikundi</string>
+    <string name="contactsSIMIconLabel">SIM</string>
+    <string name="contactsPhoneIconLabel">Simu</string>
+    <string name="sim_notready_cant_not_save">SIM kadi haiko tayari,Haiwezi kuhifadhi wasiliano katika SIM kadi</string>
+    <string name="sim1_notready_cant_not_save">SIM1 haiko tayari, haiwezi kuhifadhi wasiliano katika SIM1</string>
+    <string name="sim2_notready_cant_not_save">SIM2 haiko tayari, haiwezi kuhifadhi wasiliano katika SIM2</string>
+    <string name="cant_not_save_email">"Simu kadi hii haiwezi kuhifadhi barua pepe."</string>
+    <string name="fdn_enable_nosetting">"Kitendo  kilichochaguliwa hakipatikani wakati FDN imewezeshwa."</string>
+    <string name="menu_removeFrequent">Ondoa kutoka katika jamii ya freqeuency</string>
+    <string name="group_name_student">"Mwanafunzi"</string>
+    <string name="group_name_friend">"Rafiki"</string>
+    <string name="group_name_family">Familia</string>
+    <string name="group_name_colleague">"Mwenzake"</string>
+    <string name="default_ban_operate">"Defaulti ya kikundi imepiga marufuku  operesheni"</string>
+    <string name="delete_group">futa kikundi</string>
+    <string name="remove_frequent_contacts">"Ondoa wasiliano wa mara kwa mara"</string>
+    <string name="removing_frequent_contacts">"Kuondoa wasiliano wa mara kwa mara,tafadhali subiri."</string>
+    <string name="remove_collection_contacts">"Ondoa mkusanyiko wa wasiliano"</string>
+    <string name="removing_collection_contacts">"Kuondoa mkusanyiko wa wasiliano,tafadhali subiri."</string>
+    <string name="get_sim_count_fail">sim kadi haiko tayari au haijachomekwa ndani</string>
+    <string name="emergency_call">Simu ya dharura</string>
+    <string name="dial_emergency_error">Wito haujatumwa,<xliff:g id="non_emergency_number">%s</xliff:g> sio nambari ya dharura!</string>
+    <string name="dial_emergency_empty_error">Wito wa simu haujatumwa,tafadhali piga nambari ya dharura!</string>
+    <string name="label_birthday">Siku ya kuzaliwa</string>
+    <string name="noContacts_in_group">Hakuna wasiliano katika kikundi</string>
+    <string name="bulk_sms">"Wingi sms"</string>
+    <string name="bulk_email">"Buld barua pepe"</string>
+    <string name="error_email_fromat">"Fomati ya anuani ya barua ulizozichagua sio sahihi,operesheni ya wingi wa barua imeghairishwa"</string>
+    <string name="contact_invalid_email_error_toast">"Nambari ya simu imekusanya wahusika wasio halali"</string>
+    <string name="contact_invalid_phone_number_error_toast">"Nambari ya simu imekusanya wahusika wasio halali"</string>
+    <string name="contact_invalid_space_name_error_toast">"Jina la muundo haliruhusu nafasi tu"</string>
+    <string name="initializing_sim_contacts">Uanzishaji wa wasiliano wa SIM,tafadhali jaribu baadae</string>
+    <string name="tip_limit_contacts_tomms">Vipokea ujumbe ni vingi sana,kikomo ni <xliff:g id="count">%d</xliff:g></string>
+    <string name="import_success">Kutuma kumefanikiwa</string>
+    <string name="as_bluetooth">Tuma kama ni bluututhi</string>
+    <string name="as_vcard">Tuma kama ni SMS</string>
+    <string name="can_not_empty">Nambari haiwezi kuwa tupu</string>
+    <string name="no_activity_found">Haikuweza kupata matumizi husika</string>
+    <string name="menu_contacts_group_title">"Hariri kikundi cha wasiliano"</string>
+</resources>

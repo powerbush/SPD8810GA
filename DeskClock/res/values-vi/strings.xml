@@ -1,0 +1,120 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">"Đồng hồ"</string>
+    <string name="alarm_list_title">"Báo thức"</string>
+    <string name="add_alarm">"Thêm báo thức"</string>
+    <string name="menu_desk_clock">"Đồng hồ để bàn"</string>
+    <string name="menu_edit_alarm">"Chỉnh sửa báo thức"</string>
+    <string name="delete_alarm">"Xoá báo thức"</string>
+    <string name="enable_alarm">"Bật báo thức"</string>
+    <string name="disable_alarm">"Tắt báo thức"</string>
+    <string name="delete_alarm_confirm">"Báo thức này sẽ bị xoá."</string>
+    <string name="show_clock">"Hiển thị đồng hồ"</string>
+    <string name="hide_clock">"Ẩn đồng hồ"</string>
+    <string name="label">"Nhãn"</string>
+    <string name="default_label">"Báo thức"</string>
+    <string name="set_alarm">"Đặt báo thức"</string>
+    <string name="alarm_vibrate">"Rung"</string>
+    <string name="alarm_repeat">"Lặp lại"</string>
+    <string name="alert">"Nhạc chuông"</string>
+    <string name="time">"Giờ"</string>
+    <string name="alarm_alert_dismiss_text">"Loại bỏ"</string>
+    <string name="alarm_alert_alert_silenced">"Báo thức im lặng sau <xliff:g id="MINUTES">%d</xliff:g> phút"</string>
+    <string name="alarm_alert_snooze_text">"Báo lại"</string>
+    <string name="alarm_alert_snooze_set">"Báo lại trong <xliff:g id="MINUTES">%d</xliff:g> phút."</string>
+    <string name="alarm_alert_power_off">"Tắt nguồn"</string>
+    <string-array name="alarm_set">
+        <item>"Báo thức này được đặt trong dưới 1 phút từ bây giờ."</item>
+        <item>"Báo thức này được đặt cho <xliff:g id="DAYS">%1$s</xliff:g> từ bây giờ."</item>
+        <item>"Báo thức này được đặt cho <xliff:g id="HOURS">%2$s</xliff:g> từ bây giờ."</item>
+        <item>"Báo thức này được đặt cho <xliff:g id="DAYS">%1$s</xliff:g> và <xliff:g id="HOURS">%2$s</xliff:g> từ bây giờ."</item>
+        <item>"Báo thức này được đặt cho <xliff:g id="MINUTES">%3$s</xliff:g> từ bây giờ."</item>
+        <item>"Báo thức này được đặt cho <xliff:g id="DAYS">%1$s</xliff:g> và <xliff:g id="MINUTES">%3$s</xliff:g> từ bây giờ."</item>
+        <item>"Báo thức này được đặt cho <xliff:g id="HOURS">%2$s</xliff:g> và <xliff:g id="MINUTES">%3$s</xliff:g> từ bây giờ."</item>
+        <item>"Báo thức này được đặt cho <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> và <xliff:g id="MINUTES">%3$s</xliff:g> từ bây giờ."</item>
+    </string-array>
+    <string name="day">"1 ngày"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> ngày"</string>
+    <string name="hour">"1 giờ"</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g> giờ"</string>
+    <string name="minute">"1 phút"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> phút"</string>
+    <string name="every_day">"hàng ngày"</string>
+    <string name="never">"Chưa bao giờ"</string>
+    <string name="day_concat">", "</string>
+    <string name="clock_instructions">"Chọn đồng hồ để hiển thị."</string>
+    <string name="analog_gadget">"Đồng hồ kim"</string>
+    <string name="settings">"Cài đặt"</string>
+    <string name="alarm_in_silent_mode_title">"Báo thức ở chế độ im lặng"</string>
+    <string name="alarm_in_silent_mode_summary">"Phát báo thức ngay cả khi điện thoại ở chế độ im lặng"</string>
+    <string name="snooze_duration_title">"Thời gian báo lại"</string>
+    <string-array name="snooze_duration_entries">
+      <item>"5 phút"</item>
+      <item>"10 phút"</item>
+      <item>"15 phút"</item>
+      <item>"20 phút"</item>
+      <item>"25 phút"</item>
+      <item>"30 phút"</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+      <item>"5"</item>
+      <item>"10"</item>
+      <item>"15"</item>
+      <item>"20"</item>
+      <item>"25"</item>
+      <item>"30"</item>
+    </string-array>
+    <string name="done">"Xong"</string>
+    <string name="revert">"Hoàn nguyên"</string>
+    <string name="delete">"Xoá"</string>
+    <string name="alarm_volume_title">"Âm lượng báo thức"</string>
+    <string name="alarm_volume_summary">"Đặt âm lượng báo thức"</string>
+    <string name="silent_alarm_summary">"Im lặng"</string>
+    <string name="alarm_notify_text">"Chọn để báo lại hoặc huỷ báo thức này."</string>
+    <string name="alarm_notify_snooze_label">"<xliff:g id="LABEL">%s</xliff:g> (báo lại)"</string>
+    <string name="alarm_notify_snooze_text">"Báo thức được đặt trong <xliff:g id="TIME">%s</xliff:g>. Chọn để huỷ."</string>
+    <string name="volume_button_setting_title">"Âm lượng và Máy ảnh"</string>
+    <string name="volume_button_dialog_title">"Hiệu ứng nút"</string>
+    <string name="volume_button_setting_summary">"Đặt chức năng của những nút này khi được nhấn trong khi báo thức"</string>
+    <string-array name="volume_button_setting_entries">
+      <item>"Không"</item>
+      <item>"Báo lại"</item>
+      <item>"Loại bỏ"</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+      <item>"0"</item>
+      <item>"1"</item>
+      <item>"2"</item>
+    </string-array>
+    <string name="alarm_button_description">"Báo thức"</string>
+    <string name="gallery_button_description">"Thư viện"</string>
+    <string name="music_button_description">"Nhạc"</string>
+    <string name="nightmode_button_description">"Mờ"</string>
+    <string name="home_button_description">"Trình khởi chạy"</string>
+    <string name="desk_clock_button_description">"Hiển thị Đồng hồ"</string>
+    <string name="battery_charging_level">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="weather_fetch_failure">"Thông tin thời tiết hiện không sẵn có."</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">"Cài đặt đế"</string>
+    <string name="alarm_alread_exist">Báo thức <xliff:g id="time">%s</xliff:g> đã tồn tại, vui lòng đặt giờ khác </string>
+    <string name="duration_title">Thời lượng</string>
+    <string-array name="duration_entries">
+      <item>1 phút</item>
+      <item>2 phút</item>
+      <item>4 phút</item>
+      <item>6 phút</item>
+      <item>8 phút</item>
+      <item>10 phút</item>
+    </string-array>
+    <string-array name="duration_values">
+      <item>1</item>
+      <item>2</item>
+      <item>4</item>
+      <item>6</item>
+      <item>8</item>
+      <item>10</item>
+    </string-array>
+    <string name="alarm_klaxon_service_desc">"Dịch vụ phát âm thanh cho báo thức đã đặt trong DeskClock."</string>
+    <string name="del_all">Xóa tất cả</string>
+    <string name="delete_all_alarm">Bạn có muốn xóa tất cả báo thức không?</string>
+</resources>

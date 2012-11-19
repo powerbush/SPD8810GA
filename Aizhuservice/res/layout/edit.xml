@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:id="@+id/titleId2"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/apneditdata"
+    android:textSize="17sp"
+    android:layout_centerHorizontal="true"
+    />
+    
+    
+<TextView
+    android:id="@+id/nameTitleId2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/apnnamesec"
+    android:textSize="15sp"
+    android:layout_below="@id/titleId2"
+    />
+<EditText
+    android:id="@+id/nameId2"
+    android:layout_width="fill_parent"
+    android:layout_height="37dip"
+    android:layout_below="@id/nameTitleId2"
+
+    />
+    
+<TextView
+    android:id="@+id/telephoneTitleId2" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/apntelenumb"
+    android:textSize="15sp"
+    android:layout_below="@id/nameId2"
+    />
+<EditText
+    android:id="@+id/telephoneId2"
+    android:layout_width="fill_parent"
+    android:layout_height="37dip"
+    android:layout_below="@id/telephoneTitleId2"
+    />
+    
+<TextView
+    android:id="@+id/qqTitleId2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/apnqqnumb"
+    android:textSize="15sp"
+    android:layout_below="@id/telephoneId2"
+    />
+<EditText
+    android:id="@+id/qqId2"
+    android:layout_width="fill_parent"
+    android:layout_height="37dip"
+    android:layout_below="@id/qqTitleId2"
+    />
+    
+    
+<TextView
+    android:id="@+id/addressTitleId2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/apnadress"
+    android:textSize="15sp"
+    android:layout_below="@id/qqId2"
+    />
+<EditText
+    android:id="@+id/addressId2"
+    android:layout_width="fill_parent"
+    android:layout_height="37dip"
+    android:layout_below="@id/addressTitleId2"
+    />
+    
+<TextView
+    android:id="@+id/birthdayTitleId2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/apnbirthday"
+    android:textSize="15sp"
+    android:layout_below="@id/addressId2"
+    />
+<EditText
+    android:id="@+id/birthdayId2"
+    android:layout_width="fill_parent"
+    android:layout_height="37dip"
+    android:layout_below="@id/birthdayTitleId2"
+    />
+
+<Button
+    android:id="@+id/finishId2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="@string/apnfinish"
+    android:layout_below="@id/birthdayId2"
+    />
+</RelativeLayout>

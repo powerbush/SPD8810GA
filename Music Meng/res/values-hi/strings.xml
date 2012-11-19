@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!--
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">1 गाना </string>
+    
+    <plurals name="Nsongs">
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> गाने</item>
+    </plurals>
+
+    <plurals name="Nsongscomp">
+        <item quantity="other"><xliff:g id="total_count">%1$d</xliff:g> गानों के <xliff:g id="count_for_artist">%2$d</xliff:g></item>
+    </plurals>
+
+    <plurals name="Nalbums">
+        <item quantity="one">1 एलबम </item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> एलबम</item>
+    </plurals>
+    <string name="delete_artist_desc">एसडी कार्ड से <xliff:g id="artist">%s</xliff:g> के सभी गानों को स्‍थायी रूप से डिलीट किया जाएगा।</string>
+    
+    
+    <string name="delete_song_desc">\"<xliff:g id="song">%s</xliff:g>\" को एसडी कार्ड से स्‍थायी रूप से डिलीट किया जाएगा।</string>
+    
+
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one">1 गाना डिलीट किया गया था।</item>
+        <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> गाने डिलीट किए गए।</item>
+    </plurals>
+    <string name="all_title">संपूर्ण मीडिया</string>
+    
+    <string name="ringtone_set">\"<xliff:g example="Alarm Bell" id="name">%s</xliff:g>\" को फोन रिंगटोन के तौर पर सेट किया गया।</string>
+    
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="one">1 गाना प्‍लेलिस्‍ट में जोड़ा गया।</item>
+        <item quantity="other"><xliff:g example="27" id="number">%d</xliff:g> गाने प्‍लेलिस्‍ट में जोड़े गए।</item>
+    </plurals>
+    <string name="working_albums">एलबम...</string>
+    
+    <string name="effectspanel">Sound effects</string>
+    
+    <string-array name="weeklist">
+        <item>1 सप्‍ताह</item>
+        <item>2 सप्‍ताह</item>
+        <item>3 सप्‍ताह</item>
+        <item>4 सप्‍ताह</item>
+        <item>5 सप्‍ताह</item>
+        <item>6 सप्‍ताह</item>
+        <item>7 सप्‍ताह</item>
+        <item>8 सप्‍ताह</item>
+        <item>9 सप्‍ताह</item>
+        <item>10 सप्‍ताह</item>
+        <item>11 सप्‍ताह</item>
+        <item>12 सप्‍ताह</item>
+    </string-array>
+    <string name="sdcard_error_message">आपके एसडी कार्ड पर एक त्रुटि मिली थी।</string>
+    <string name="sdcard_error_message_nosdcard">आपके यूएसबी स्‍टोरेज पर एक त्रुटि मिली थी।</string>
+    <string name="search_settings_description">कलाकार, एलबम, और गाने</string>
+    <string name="working_artists">कलाकार...</string>
+    <string name="streamloadingtext"><xliff:g id="host">%s</xliff:g> से कनेक्‍ट</string>
+    <string name="fail_to_start_stream">अनुरोध किए गए स्‍ट्रीम को प्‍ले करने में विफल।</string>
+    <string name="musicshortcutlabel">म्‍युजिक प्‍लेलिस्‍ट</string>
+    <string name="new_playlist_name_template">नई प्‍लेलिस्‍ट <xliff:g id="number">%d</xliff:g></string>
+    <string name="no_playlists_title">प्‍लेलिस्‍ट नहीं है</string>
+    <string name="sdcard_missing_title">एसडी कार्ड कार्ड नहीं</string>
+    <string name="sdcard_missing_title_nosdcard">कोई यूएसबी स्‍टोरेज नहीं</string>
+    <string name="no_videos_title">कोई वीडियो नहीं हैं</string>
+    <string name="party_shuffle">पार्टी शफल </string>
+    <string name="partyshuffle_title">पार्टी शफल </string>
+    <string name="party_shuffle_off">पार्टी शफल ऑफ</string>
+    <string name="play_all">सभी को प्‍ले करें</string>
+    <string name="service_start_error_title">प्‍लेबैक समस्‍या </string>
+    <string name="playlist_deleted_message">प्‍लेलिस्‍ट डिलीट की गई।</string>
+    <string name="playlist_renamed_message">प्‍लेलिस्‍ट को दोबारा नाम दिया गया।</string>
+    <string name="working_playlists">प्‍लेलिस्‍ट...</string>
+    <string name="podcasts_listitem">पॉडकास्‍ट</string>
+    <string name="podcasts_title">पॉडकास्‍ट</string>
+    <string name="recentlyadded">हाल में जोड़े गए</string>
+    <string name="recentlyadded_title">हाल में जोड़े गए</string>
+    <string name="remove_from_playlist">प्‍लेलिस्‍ट से हटाएं</string>
+    <string name="repeat_off_notif">दोहराव बंद है।</string>
+    <string name="repeat_all_notif">सभी गानों को दोहरा रहा है।</string>
+    <string name="repeat_current_notif">वर्तमान गाने को दोहरा रहा है।</string>
+    <string name="save_as_playlist">प्‍लेलिस्‍ट के तौर पर सहेजें</string>
+    <string name="scanning">एसडी कार्ड को स्‍कैन कर रहा है...</string>
+    <string name="scanning_nosdcard">यूएसबी स्‍टोरेज को स्‍कैन कर रहा है...</string>
+    <string name="sdcard_error_title">एसडी कार्ड त्रुटि</string>
+    <string name="sdcard_busy_title">एसडी कार्ड अनुपलब्‍ध है</string>
+    <string name="mediasearch">इसके प्रयोग से <xliff:g example="Beethoven" id="term">%s</xliff:g> को खोजें:</string>
+    <string name="search_hint">संगीत खोजें</string>
+    <string name="music_picker_title">म्‍यूजिक ट्रैक चुनें</string>
+    <string name="emptyplaylist">चुनी गई प्‍लेलिस्‍ट खाली है।</string>
+    <string name="weekpicker_title">समय सेट करें </string>
+    <string name="shuffle_all">सभी को शफल करें</string>
+    <string name="shuffle_off_notif">शफल आफ है।</string>
+    <string name="shuffle_on_notif">शफल ऑन है।</string>
+    <string name="working_songs">गानें...</string>
+    <string name="playback_failed">क्षमा करें, प्‍लेयर इस प्रकार की फाइल का समर्थन नहीं करता है।</string>
+    <string name="service_start_error_msg">क्षमा करें, यह गाना प्‍ले नहीं हो सकता।</string>
+    <string name="sdcard_busy_message">क्षमा करें, आपका एसडी कार्ड व्‍यस्‍त है।</string>
+    <string name="sdcard_busy_message_nosdcard">क्षमा करें, आपका यूएसबी स्‍टोरेज व्‍यस्‍त है।</string>
+    <string name="delete_album_desc">पूरा एलबम \"%s\" एसडी कार्ड से स्‍थायी तौर पर डिलीट कर दिया जाएगा।</string>
+    <string name="delete_album_desc_nosdcard">पूरा एलबम \"<xliff:g id="album">%s</xliff:g>\" यूएसबी स्‍टोरेज से स्‍थायी तौर पर डिलीट कर दिया जाएगा।</string>
+    <string name="widget_initial_text">संगीत चुनने के लिए टच करें।</string>
+    <string name="gadget_track">ट्रैक <xliff:g id="track_number">%d</xliff:g></string>
+    <string name="sort_by_track">ट्रैक्‍स </string>
+    <string name="sdcard_error_title_nosdcard">यूएसबी स्‍टोरेज त्रुटि</string>
+    <string name="sdcard_busy_title_nosdcard">यूएसबी स्‍टोरेज अनुपलब्‍ध </string>
+    <string name="ringtone_menu">फोन रिंगटोन प्रयोग करें</string>
+    <string name="ringtone_menu_short">रिंगटोन के तौर पर प्रयोग करें</string>
+    <string name="videos_title">वीडियो</string>
+    <string name="videobrowserlabel">वीडियो</string>
+    <string name="sdcard_missing_message">आपके फोन में एसडी कार्ड नहीं डाला गया है।</string>
+    <string name="sdcard_missing_message_nosdcard">आपके फोन में यूएसबी स्‍टोरेज नहीं है।</string>
+    <string name = "delete_progress_title">गाने डिलीट करें</string>
+    <string name = "music_fm_transmiter">एफएम ट्रांसमीटर</string>
+    <string name = "delete_progress_message">कृपया गाने मिटाते समय प्रतीक्षा करें...</string>
+    <string name = "music_settings">सेटिंग</string>
+    <string name = "goto_playback">प्लेबैक</string>
+    <string name = "delete_item">मिटाना</string>
+    <string name = "delete_confirm_button_text">ठीक</string>
+    <string name = "artists_title">कलाकार</string>
+    <string name = "albums_menu">अल्‍बम</string>
+    <string name = "albums_title">अल्‍बम</string>
+    <string name = "tracks_menu">गीत</string>
+    <string name = "tracks_title">गीत</string>
+    <string name = "playlists_menu">प्‍लेलिस्‍ट</string>
+    <string name = "playlists_title">प्‍लेलिस्‍ट</string>
+    <string name = "browse_menu">कलाकार</string>
+    <string name = "search_title">सर्च</string>
+    <string name = "no_tracks_title">कोई गीत नहीं</string>
+    <string name = "delete_playlist_menu">हटाऐं</string>
+    <string name = "edit_playlist_menu">संपादित करें</string>
+    <string name = "rename_playlist_menu">पुनर्नाम</string>
+    <string name = "unknown_artist_name">अज्ञात कलाकार</string>
+    <string name = "unknown_album_name">अज्ञात एल्बम</string>
+    <string name = "play_selection">चलाएं</string>
+    <string name = "add_to_playlist">प्लेलिस्ट में जोड़ें</string>
+    <string name = "queue">वर्तमान प्लेलिस्ट</string>
+    <string name = "new_playlist">नई बनाऍ</string>
+    <string name = "create_playlist_create_text">स्टोर करें</string>
+    <string name = "create_playlist_overwrite_text">ओवरराइट करें</string>
+    <string name = "service_start_error_button">ठीक</string>
+    <string name = "weekpicker_set">संपन्न</string>
+    <string name = "clear_playlist">प्लेलिस्ट हटाएं</string>
+    <string name = "musicbrowserlabel">संगीत</string>
+    <string name = "mediaplaybacklabel">संगीत</string>
+    <string name = "mediapickerlabel">संगीत</string>
+    <string name = "cancel">रद्द</string>
+    <string name = "loading">लोड कर रहा है</string>
+    <string name = "sort_by_album">अल्‍बम</string>
+    <string name = "sort_by_artist">कलाकार</string>
+    <string name = "effects_list_title">साउंड इफेक्ट्स</string>
+    <string name = "equalizer_name">ईक्वलाइज़र</string>
+    <string name = "progress_min">मिनट</string>
+    <string name = "eq_preset_normal">सामान्य</string>
+    <string name = "eq_preset_classical">शास्त्रीय</string>
+    <string name = "eq_preset_dance">नाच</string>
+    <string name = "eq_preset_pop">पॉप</string>
+    <string name = "eq_preset_rock">रॉक</string>
+    <string name="goto_start">लाइब्रेरी</string>
+    <string name="delete_artist_desc_nosdcard"><xliff:g id="कलाकार">%s</xliff:g> के द्वारा सभी गाने USB संग्रहण से स्थायी रूप से हटा दिए जाएँगे.</string>
+    <string name="delete_song_desc_nosdcard">\"<xliff:g id="song">%s</xliff:g>\" USB संग्रहण से स्थायी रूप से हटा दिए जाएँगे.</string>
+    <string name="nowplaying_title">अब प्‍ले कर रहा है</string>
+    <string name="fast_scroll_alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="enable_effects">ध्वनि प्रभाव सक्षम करें</string>
+    <string name="effects_panel_window_title">ध्वनि प्रभाव चुनें</string>
+    <string name="bassboost_name">बासबूस्ट</string>
+    <string name="virtualizer_name">वर्चुअलाइज़र</string>
+    <string name="presetreverb_name">प्रीसेट रीवर्ब</string>
+    <string name="bassboost_strength">बास प्रबलता</string>
+    <string name="virtualizer_strength">वर्चुअलाइज़र प्रबलता</string>
+    <string name="progress_max">अधिकतम</string>
+    <string name="reverb_preset_title">रीवर्ब प्रीसेट</string>
+    <string name="equalizer_preset_title">इक्वेलाइज़र प्रीसेट</string>
+    <string-array name="reverb_preset_list">
+        <item>छोटा रूम</item>
+        <item>मध्यम रूम</item>
+        <item>बड़ा रूम</item>
+        <item>मध्यम हॉल</item>
+        <item>बड़ा हॉल</item>
+        <item>प्लेट रीवर्ब</item>
+    </string-array>
+    <string name="eq_preset_flat">फ्लैट</string>
+    <string name="eq_preset_folk">फ़ोक</string>
+    <string name="eq_preset_heavymetal">हेवी मेटल</string>
+    <string name="eq_preset_hiphop">हिप हॉप</string>
+    <string name="eq_preset_jazz">जैज़</string>
+</resources>

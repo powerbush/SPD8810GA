@@ -1,0 +1,498 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Teua njia za kuwasiliana</string>
+    <string name="new_message">Kutuma ujumbe</string>
+    <string name="cdma_cell_broadcast_sms">Matangazo ya Kiini ya SMS</string>
+    <string name="cell_broadcast_sms">Matangazo ya Kiini ya SMS</string>
+    <string name="enable_disable_cell_bc_sms">Matangazo ya Kiini ya SMS</string>
+    <string name="cell_bc_sms_enable">Matangazo ya Kiini ya SMS</string>
+    <string name="cell_bc_sms_disable">Matangazo ya Kiini ya SMS yamewezeshwa</string>
+    <string name="cb_sms_settings">Matangazo ya Kiini ya SMS hayakuwezeshwa</string>
+    <string name="channel_name">Vipimo vya Matangazo ya Kiini ya SMS</string>
+    <string name="channel_number">Jina la kituo</string>
+    <string name="no_cell_broadcast">Nambari ya Chanali</string>
+    <string name="broadcast">Matangazo ya Kiini ya SMS</string>
+    <string name="menu_cellbroadcastsms">Matangazo ya Kiini ya SMS</string>
+    <string name="list_language_title">Matangazo ya Kiini</string>
+    <string name="list_language_summary">Rekebisha Lugha</string>
+    <string name="broadcast_message">Chagua lugha mpya</string>
+    <string name="language_eng">Aina ya lugha:</string>
+    <string name="language_fren">Kingereza</string>
+    <string name="language_spanish">Kifaransa</string>
+    <string name="language_japanese">Kihispania</string>
+    <string name="language_korean">Lugha ya Kijapani</string>
+    <string name="language_chinese">Lugha ya Kikorea</string>
+    <string name="language_hebrew">Kichina</string>
+    <string name="language_type">Lugha</string>
+    <string-array name="list_language_entries">
+        <item>Aina ya lugha:</item>
+        <item>Kingereza</item>
+        <item>Kifaransa</item>
+        <item>Kihispania</item>
+        <item>Kijapani</item>
+        <item>Kikorea</item>
+        <item>Kichina</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">Lugha</string>
+    <string name="create_new_message">Lugha</string>
+    <string name="menu_call_back">Call <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_videocall_back">Wito wa video <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_send_email">Tuma barua pepe kwenda kwa <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_send_sms">Tuma ujumbe kwenda kwa <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_compose_new">Tuma</string>
+    <string name="menu_preferences">Vipimo</string>
+    <string name="menu_add_address_to_contacts">Vipimo vya SIM2</string>
+    <string name="menu_call">Call</string>
+    <string name="menu_videocall">Simu ya video</string>
+    <string name="menu_delete_all">Simu ya video</string>
+    <string name="menu_delete">Futa nyuzi</string>
+    <string name="menu_undelivered_messages">Futa nyuzi</string>
+    <string name="menu_view">Ujumbe usiotumwa</string>
+    <string name="refreshing">Angalia nyuzi</string>
+    <string name="has_draft">Kuzimua...</string>
+    <string name="re_select_media">Fomati si sahihi,tafadhali chagua tena.</string>
+    <string name="broadcast_from_to">Rasimu</string>
+    <string name="anonymous_recipient">Anonimas</string>
+    <string name="no_subject_view">Anonimas</string>
+    <string name="messagelist_sender_self">Mimi</string>
+    <string name="view_picture">Angalia picha</string>
+    <string name="view_slideshow">Angalia picha</string>
+    <string name="view_message_details">Angalia muonyesho wa rambaza</string>
+    <string name="view_delivery_report">Angalia maelezo ya ujumbe</string>
+    <string name="delete_message">Angalia ripoti</string>
+    <string name="sent_on">Futa ujumbe</string>
+    <string name="receive_on">"Imepokelewa: <xliff:g id="date">%s</xliff:g>"</string>
+    <string name="expire_on">"Imepitwa na muda: <xliff:g id="date">%s</xliff:g>"</string>
+    <string name="undelivered_msg_dialog_title">Ujumbe usiotumwa</string>
+    <string name="undelivered_msg_dialog_body">Ujumbe usiotumwa</string>
+    <string name="undelivered_sms_dialog_body">Haiwezi kutuma ujumbe huu.</string>
+    <string name="delete_thread">Haiwezi kutuma ujumbe huu.</string>
+    <string name="menu_forward">Songeza mbele</string>
+    <string name="download">Tuma tena</string>
+    <string name="downloading">Pakua</string>
+    <string name="name_colon"><b><xliff:g id="name" example="Me">%s</xliff:g></b>": "</string>
+    <string name="inline_subject">"&lt;Mtenda: <xliff:g id="subject">%s</xliff:g>&gt;"</string>
+    <string name="drm_protected_text">"*DRM ya ujumbe ulohifadhiwa*"</string>
+    <string name="insufficient_drm_rights">"*DRM ya ujumbe ulohifadhiwa*"</string>
+    <string name="copy_message_text">Haki za DRM zisizo za kutosha zimefutwa.</string>
+    <string name="message_options">Nakili ujumbe wa matini</string>
+    <string name="move_message_to_sim_text">Nakili kwa SIM</string>
+    <string name="copy_message_result_success">Kunakili kumefanikiwa</string>
+    <string name="copy_message_result_faile">Kunakili kumefeli</string>
+    <string name="done">Maliza</string>
+    <string name="move_up">Maliza</string>
+    <string name="move_down">Songa juu</string>
+    <string name="remove_slide">Songa chini</string>
+    <string name="add_slide_before" msgid="9140721399423564187">"Ongeza rambaza, kabla"</string>
+    <string name="add_slide">Ondoa rambaza</string>
+    <string name="add_slide_hint">Ongeza rambisha</string>
+    <string name="discard_slideshow">Chagua ili kupuni rambaza mpya.</string>
+    <string name="slide_show_part">Kutupa maonyesho ya rambaza</string>
+    <string name="remove_text">Ondoa makala</string>
+    <string name="add_picture">Ondoa makala</string>
+    <string name="remove_picture">Ongeza picha</string>
+    <string name="add_music">Ondoa picha</string>
+    <string name="remove_music">Ongeza muziki</string>
+    <string name="add_video">Ondoa muziki</string>
+    <string name="remove_video">Ongeza video</string>
+    <string name="compose_title">Tuma</string>
+    <string name="to_hint">Tuma</string>
+    <string name="subject_hint">Mada</string>
+    <string name="add_attachment">Ambatanisha</string>
+    <string name="add_subject">Ambatanisha</string>
+    <string name="discard">Tupa</string>
+    <string name="view">Angalia</string>
+    <string name="replace">Badilisha</string>
+    <string name="remove">Badilisha</string>
+    <string name="send">Tuma</string>
+    <string name="mms">MMS</string>
+    <string name="all_threads">Nyuzi zote</string>
+    <string name="type_to_compose_text_enter_to_send">Chapa ili kutuma</string>
+    <string name="open_keyboard_to_compose_message">Chapa ili kutuma</string>
+    <string name="image_too_large">Fungua keybodi ili kutuma ujumbe</string>
+    <string name="ask_for_automatically_resize">Picha  kubwa sana</string>
+    <string name="compressing">Kwa aotomatiki uweke tena ukubwa wa picha kabla ya kutuma?</string>
+    <string name="unsupported_media_format">Picha kubwa sasa.Kandamiza\u2026</string>
+    <string name="select_different_media">Tafadhali chagua tofauti <xliff:g id="name">%1$s</xliff:g>.</string>
+    <string name="exceed_message_size_limitation">Kikomo cha ukubwa wa ujumbe kimefikiwa.</string>
+    <string name="exceed_text_length_limitation">Kikomo cha urefu wa maandishi kimefikiwa.</string>
+    <string name="exceed_text_length_limitation_info">Kikomo cha urefu wa maandishi kimefikiwa,tafadhali ingiza tena.</string>
+    <string name="message_too_big_for_video">Kikomo cha ukubwa wa ujumbe kimefikiwa.</string>
+    <string name="failed_to_add_media">Ujumbe ni mkubwa sana kuambatanisha video.</string>
+    <string name="failed_to_resize_image">Picha haijakubishwa tena.</string>
+    <string name="resize_image_error_information">Picha haijakubishwa tena.</string>
+    <string name="forward_prefix">Samahani,japokua ukikubwisha picha hii bado ni kubwa sana kwa kutumwa.</string>
+    <string name="discard_message">Tupa</string>
+    <string name="discard_message_reason">Ujumbe wako utakataliwa kwa sababu hauna wapokeaji halali.</string>
+    <string name="has_invalid_recipient">Ujumbe wako utakataliwa kwa sababu hauna wapokeaji halali.</string>
+    <string name="invalid_destination">Mtumiaji hayupo hai.</string>
+    <string name="invalid_recipient_message">Umeingiza anuani batili.</string>
+    <string name="cannot_send_message">Tafadhali sahihisha m(wa)pokeaji au hawawezi kupokea ujumbe.</string>
+    <string name="cannot_send_message_reason">Haiwezi kutuma ujumbe huu</string>
+    <string name="cannot_forward_drm_obj">Ujumbe wako utaondolewa kwa sababu una wapokeaji wasio halali.</string>
+    <string name="converting_to_picture_message">DRM  mtendwa iliyomo katika ukumbe haiwezi kusambazwa.</string>
+    <string name="converting_to_text_message">Badilisha kuwa Ujumbe wa multimedia\u2026</string>
+    <string name="cannot_add_slide_anymore">Badilisha kuwa ujumbe wa matini\u2026</string>
+    <string name="cannot_add_picture_and_video">Haiwezi kuongeza rambaza za zaidi.</string>
+    <string name="cannot_save_message">Haiwezi kuongeza video na picha katika rambaza moja.</string>
+    <string name="cannot_load_message">Haiwezi kuhifadhi ujumbe.</string>
+    <string name="message_saved_as_draft">Haiwezi kupandisha ujumbe.</string>
+    <string name="locked_message_cannot_be_deleted">Ujumbe umehifadhiwa kwa rasimu.</string>
+    <string name="too_many_recipients">Ujumbe huu una wapokeaji wengi sana (<xliff:g id="currentCount">%1$s</xliff:g>).Kuna kikomo cha <xliff:g id="maxLimit">%2$s</xliff:g> wapokeaji.</string>
+    <string name="too_many_attachments">Kuna kikomo cha <xliff:g id="maxLimit">%1$s</xliff:g> viambatanisho.Ya mwanzo tu <xliff:g id="currentCount">%2$s</xliff:g> itakuwa yenye kuongezwa.</string>
+    <string name="adding_attachments_title">Kuongeza viambatanisho</string>
+    <string name="adding_attachments">Tafadhali subiri wakati vitu vinaongezwa katika maonyesho ya rambazo.</string>
+    <string name="adding_attachments_vcard">Tafadhali subiri wakati vitu vinaongezwa katika maonyesho ya rambazo.</string>
+    <string name="multiple_recipients">Tafadhali subiri wakati vitu vinaongezwa katika kiambatanisho.</string>
+    <string name="cannot_play_audio">Haiwezi kucheza sauti.</string>
+    <string name="preview">Kabla ya kuangalia</string>
+    <string name="preview_slideshow">Kabla ya kuangalia</string>
+    <string name="replace_image">Kabla ya kuangalia</string>
+    <string name="duration_sec">Badili picha</string>
+    <string name="duration_selector_title">"Muda kwa kurambaza"</string>
+    <string name="layout_selector_title">"Muda kwa kurambaza"</string>
+    <string name="layout_top">"Rambaza inaonyesha mazingira ya nje"</string>
+    <string name="layout_bottom">Kuweka nje(juu)</string>
+    <string name="type_to_compose_text_or_leave_blank">Kuweka nje(chini)</string>
+    <string name="duration_not_a_number">Chapa ili kutuma nakala, au acha tupu</string>
+    <string name="duration_zero">Muda lazima uwe ni nambari</string>
+    <string name="secs">sekunde</string>
+    <string-array name="select_dialog_items">
+         <item>Sekunde</item>
+         <item>Sekunde 2</item>
+         <item>Sekunde 3</item>
+         <item>Sekunde 4</item>
+         <item>Sekunde 5</item>
+         <item>Sekunde 5</item>
+         <item>Sekunde 6</item>
+         <item>Sekunde 7</item>
+         <item>Sekunde 8</item>
+         <item>Sekunde 9</item>
+         <item>Sekunde 10</item>
+    </string-array>
+    <string name="menu_view_contact">Angalia wasiliano</string>
+    <string name="menu_add_to_contacts">Angalia wasiliano</string>
+    <string name="hidden_sender_address">Ongeza kwa anwani kitabu</string>
+    <string name="yes">Ndio</string>
+    <string name="no">Kata simu</string>
+    <string name="set">Seti</string>
+    <string name="play">Seti</string>
+    <string name="edit">Hariri</string>
+    <string name="resize">Hariri</string>
+    <string name="try_to_send">Kubwisha</string>
+    <string name="preferences_title">Vipimo</string>
+    <string name="restore_default">Vipimo</string>
+    <string name="pref_notification_settings_title">Vipimo  vya seti upya chaguo msingi</string>
+    <string name="pref_mms_settings_title">Taarifa za vipimo</string>
+    <string name="pref_sms_settings_title">"Vipimo vya ujumbe wa multimedia (MMS)"</string>
+    <string name="pref_sms_storage_title">"Vipimo vya matini ujumbe(SMS)"</string>
+    <string name="pref_summary_manage_sim_messages">Meneji ujumbe ulohifadhiwa katika SIM kadi</string>
+    <string name="pref_summary_mms_delivery_reports">Simamia ujumbe uliohifadhiwa katika kadi ya SIM2</string>
+    <string name="pref_summary_mms_read_reports">Omba kuwasilisha ripoti kwa kila ujumbe unaoutuma</string>
+    <string name="pref_summary_sms_delivery_reports">Omba kusoma ripoti kwa kila ujumbe unaoutuma</string>
+    <string name="pref_summary_auto_delete">Omba kuwasilisha ripoti kwa kila ujumbe unaoutuma</string>
+    <string name="pref_summary_delete_limit_sms"><xliff:g id="count">%1$s</xliff:g> ujumbe kwa kila maongezi</string>
+    <string name="pref_title_manage_sim_messages">Meneji ujumbe wa SIM kadi</string>
+    <string name="pref_title_manage_sim_smsc">SMS Kituo cha Huduma</string>
+    <string name="pref_title_mms_delivery_reports">Soma ripoti</string>
+    <string name="pref_title_mms_read_reports">Uwasilishaji wa ripoti</string>
+    <string name="pref_title_sms_delivery_reports">Soma ripoti</string>
+    <string name="pref_title_sms_save_to_simcard">"SMS imehifadhiwa na SIM kadi"</string>
+    <string name="pref_title_auto_delete">Uwasilishaji wa ripoti</string>
+    <string name="pref_title_sms_delete">Futa ujumbe wa zamani</string>
+    <string name="pref_title_mms_delete">Kikomo cha nakala ujumbe</string>
+    <string name="pref_title_notification_enabled">Tafuta</string>
+    <string name="pref_summary_notification_enabled">Taarifa</string>
+    <string name="pref_title_notification_vibrateWhen">Vibrate</string>
+    <string name="pref_summary_notification_vibrateWhen">Vibrate</string>
+    <string name="pref_title_notification_ringtone">Pia tetemeka wakati wa umearifiwa</string>
+    <string name="pref_forwarding_number_title">"Usambazaji wa vipimo"</string>
+    <string name="pref_title_forwarding_number">"Usambazaji wa nambari"</string>
+    <string name="pref_summary_forwarding_number">"Usambazaji wa habari, pamoja na mtumaji usambazaji"</string>
+    <string name="pref_set_sms_text_size_title">"Vipimo vya mbele"</string>
+    <string name="pref_title_set_sms_text_size">"Vipimo vya ukubwa wa mbele"</string>
+    <string name="pref_summary_set_sms_text_size">"Seti ukubwa wa mbele wa intafezi nyekundu"</string>
+    <string name="pref_messages_to_save_mms">Seti idadi ya ujumbe ili kuhifadhi</string>
+    <string name="pref_messages_to_save_sms">Seti idadi ya ujumbe ili kuhifadhi</string>
+    <string name="sms_init">SMS inaanzishwa</string>
+    <string name="system_busy">"Mfumo uko na kazi,tafadhali subiri"</string>
+    <string-array name="prefEntries_vibrateWhen">
+        <!-- Always -->
+        <item>Daima</item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>Daima</item>
+        <!-- Never -->
+        <item>Kamwe</item>
+    </string-array>
+    <string name="prefDialogTitle_vibrateWhen">Vibrate</string>
+    <string name="pref_title_mms_auto_retrieval">Vibrate</string>
+    <string name="pref_summary_mms_auto_retrieval">Kupata-kiotomati</string>
+    <string name="pref_title_mms_retrieval_during_roaming">Kwa aotomatiki kupata ujumbe</string>
+    <string name="pref_summary_mms_retrieval_during_roaming">Utembezi wa kiotomati umepatikana</string>
+    <string name="to_label">Kwa aotomatiki kupata ujumbe wakati wa roaming</string>
+    <string name="confirm_dialog_title">Futa</string>
+    <string name="confirm_dialog_locked_title">Futa ujumbe uliotiwa loki?</string>
+    <string name="confirm_delete_conversation">Futa ujumbe uliotiwa loki?</string>
+    <string name="confirm_delete_all_conversations">Uzi wote utafutwa.</string>
+    <string name="confirm_delete_message">Nyuzi zote zitafutwa.</string>
+    <string name="confirm_delete_locked_message">Ujumbe utakuwa wenye kufutwa.</string>
+    <string name="confirm_delete_all_messages">Una uhakika unataka kufuta ujumbe huu uliotiwa loki?</string>
+    <string name="confirm_delete_all_SIM_messages">Uzi wote utafutwa.</string>
+    <string name="confirm_delete_SIM_message">Ujumbe wote katika laini ya simu utaftwa.</string>
+    <string name="delete_unlocked">Ujumbe huu katika SIM utafutwa.</string>
+    <string name="delete">Futa</string>
+    <string name="cannot_get_details">Haiwezi kupata maelezo</string>
+    <string name="message_details_title">Haiwezi kupata maelezo</string>
+    <string name="message_type_label">Maelezo ya ujumbe</string>
+    <string name="text_message">Aina:</string>
+    <string name="multimedia_message">Nakala ujumbe</string>
+    <string name="multimedia_notification">Ujumbe wa multimedia</string>
+    <string name="from_label">Taarifa ya ujumbe wa multimedia</string>
+    <string name="to_address_label">Kwa:\u0020</string>
+    <string name="bcc_label">Kwa:\u0022%1$s\u0022</string>
+    <string name="sent_label">Imeshatuma\u0020</string>
+    <string name="received_label">Soma:\u0020</string>
+    <string name="saved_label">Imefanikiwa kupokea:\u0020</string>
+    <string name="subject_label">Mada:\u0020</string>
+    <string name="message_size_label">Mada:\u0020</string>
+    <string name="priority_label">Ukubwa wa ujumbe:\u0020</string>
+    <string name="priority_high">Kipaumbele:</string>
+    <string name="priority_normal">Kawaida</string>
+    <string name="priority_low">Chini</string>
+    <string name="message_class_label">Chini</string>
+    <string name="error_code_label">Daraja ya ujumbe:\u0020</string>
+    <string name="menu_edit">Hariri</string>
+    <string name="menu_retry_sending">Hariri</string>
+    <string name="menu_retry_sending_all">Jaribu tena kutuma</string>
+    <string name="menu_delete_messages">Jaribu tena kutuma zote</string>
+    <string name="menu_sim_capacity">Angalia uwezo</string>
+    <string name="menu_sim_capacity_used">Imetumiwa</string>
+    <string name="menu_sim_capacity_total">Jumla:</string>
+    <string name="retrying_dialog_body">Futa ujumbe</string>
+    <string name="menu_lock">Tia loki ujumbe</string>
+    <string name="menu_unlock">Tia loki ujumbe</string>
+    <string name="sim_copy_to_phone_memory">Ujumbe haujatiwa loki</string>
+    <string name="sim_delete">Futa</string>
+    <string name="sim_manage_messages_title">Futa</string>
+    <string name="sim_manage_messages_title1">Maandishi ya ujumbe katika SIM1</string>
+    <string name="sim_manage_messages_title2">Maandishi ya ujumbe katika SIM2</string>
+    <string name="sim_view">Angalia</string>
+    <string name="sim_empty">Angalia</string>
+    <string name="delivery_header_title">Ripoti</string>
+    <string name="status_none">Ripoti</string>
+    <string name="status_pending">(Hamuna )</string>
+    <string name="status_read">Inasubiri</string>
+    <string name="status_received">Soma</string>
+    <string name="status_failed">Bila ya mafanikio</string>
+    <string name="status_unread">Bila ya mafanikio</string>
+    <string name="status_deleted_unread">Kufutwa bila ya kusomwa</string>
+    <string name="status_rejected">Isiyosomwa</string>
+    <string name="recipient_label">Kufuriwa</string>
+    <string name="status_label">Mpokeaji:\0020</string>
+    <string name="attach_image">Picha</string>
+    <string name="attach_take_photo">Picha</string>
+    <string name="attach_video">Video</string>
+    <string name="attach_record_video">Video</string>
+    <string name="attach_sound">Faili ya kusikia</string>
+    <string name="attach_record_sound">Rekodi sauti</string>
+    <string name="attach_slideshow">Onyesha rambaza</string>
+    <string name="select_bottom_text">Onyesha rambaza</string>
+    <string name="select_top_text">Nakala kutoka chini</string>
+    <string name="delivery_toast_body">Nakala kutoka juu</string>
+    <string name="delivery_toast_body_fail">Ujumbe haujapokelewa na %s</string>
+    <string name="read_report_toast_body">Ujumbe umesomwa na %s</string>
+    <string name="delete_unread_report_toast_body">Ujumbe umefutwa bila ya hata kusomwa na %s</string>
+    <string name="read_report_toast_body_fail">Ujumbe haujasomwa na %s</string>
+    <string name="delivery_toast_body_fail_rejected">"Ujumbe umekataliwa na %s"</string>
+    <string name="delivery_toast_body_expired">"Ujumbe umepitwa na wakati"</string>
+    <string name="notification_multiple">Ujumbe umepokelewa kwa %s</string>
+    <string name="notification_multiple_title">Ujumbe mpya</string>
+    <string name="notification_failed_multiple">Ujumbe mpya</string>
+    <string name="notification_failed_multiple_title">Ujumbe haujatumwa</string>
+    <string name="sim_full_title">Ujumbe haujatumwa</string>
+    <string name="sim_full_title1">SIM1 kadi imejaa</string>
+    <string name="sim_full_title2">SIM2 kadi imejaa</string>
+    <string name="sim_full_body">SIM kadi imejaa</string>
+    <string name="sms_full_title">Futa baadhi ya ujumbe ili kuweka chumba kwa ajili ya zaidi.</string>
+    <string name="sms_full_body">Kumbukumbu ya Nakala ujumbe imejaa</string>
+    <string name="sms_rejected_title">Wito wa simu unaoingia umekataliwa kutokana  na kujaa kwa hifadhi.Tafadhali futa ujumbe za zamani.</string>
+    <string name="sms_rejected_body">Nakala ujumbe imekataliwa</string>
+    <string name="type_audio">Faili ya kusikia</string>
+    <string name="type_picture">Faili ya kusikia</string>
+    <string name="type_video">Video</string>
+    <string name="type_text">Matini</string>
+    <string name="type_vcard">Video</string>
+    <string name="type_file">faili</string>
+    <string name="confirm">Conferma</string>
+    <string name="message_send_read_report">Conferma</string>
+    <string name="message_queued">Ripoti iliyosomwa itapelekwa.</string>
+    <string name="fdn_check_failure">Kwa sasa haiwezi kutuma ujumbe wako.Itatuma pale tu huduma itakapo patikana.</string>
+    <string name="no_subject">Unaweza tu kutuma ujumbe kwenda katika nambari yako maalum ya kupiga.</string>
+    <string name="unknown_sender">(Hapana mtenda)</string>
+    <string name="dl_failure_notification">Mtumaji asiyejuilikana</string>
+    <string name="dl_expired_notification">Ujumbe huu umepitiwa na muda na utakuwa wenye kufutwa.</string>
+    <string name="rate_limit_surpassed">Conferma</string>
+    <string name="confirm_rate_limit">Conferma</string>
+    <string name="message_download_failed_title">Idadi kubwa ya ujumbe wa multimedia ni kuwa utatumwa. Je ni sawa hivyo?</string>
+    <string name="message_send_failed_title">Ujumbe haujashushwa</string>
+    <string name="message_failed_body">Ujumbe haujatumwa</string>
+    <string name="download_later">Chagua ili kupitia ujumbe na kujaribu tena.</string>
+    <string name="select_audio">Kwa sasa haiwezi kushusha.Tafadhali jaribu tena baadae.</string>
+    <string name="copy_to_sdcard">Teua sauti</string>
+    <string name="copy_to_sdcard_success">Nakili inataambatanishwa na kadi ya SD</string>
+    <string name="copy_to_sdcard_fail">Nakala ya viambatanisho kwenda kwa kadi ya SD</string>
+    <string name="save_ringtone">Kunakili kiambatanisho kwenda kwa kadi ya SD kumefeli</string>
+    <string name="saved_ringtone">Hifadhi kama ringitoni</string>
+    <string name="saved_ringtone_fail">Ringitoni zimehifadhiwa</string>
+    <string name="menu_insert_smiley">Kuhifadhi ringi toni kumefeli</string>
+    <string name="select_link_title">Ongeza kwa anwani kitabu</string>
+    <string name="slide_number">Chagua kitendo</string>
+    <plurals name="slide_duration">
+        <item quantity="one">"Sekunde <xliff:g id="NUMBER">%s</xliff:g>"</item>
+        <item quantity="few">"Sekunde <xliff:g id="NUMBER">%s</xliff:g>"</item>
+        <item quantity="other">"Sekunde <xliff:g id="NUMBER">%s</xliff:g>"</item>
+    </plurals>
+    <string name="delivery_report_activity">Ripoti ya uwasilishaji</string>
+    <string name="storage_limits_activity">Ripoti ya uwasilishaji</string>
+    <string name="add_attachment_activity">Kikomo cha hifadhi</string>
+    <string name="select_layout_activity">Chagua mazingira ya nje</string>
+    <string name="change_duration_activity">Chagua mazingira ya nje</string>
+    <string name="edit_text_activity">Hariri matini</string>
+    <string name="edit_slideshow_activity">Hariri matini</string>
+    <string name="edit_slide_activity">Hariri maonyesho ya rambazo</string>
+    <string name="pick_numbers_activity">Hariri rambazo</string>
+    <string name="slideshow_activity">Onyesha rambaza</string>
+    <string name="class_0_message_activity">Onyesha rambaza</string>
+    <string name="send_using_mms_activity">Darasa 0 Ujumbe</string>
+    <string name="select_contact_method_activity">Tuma kama ni ujumbe wa multimedia\u2026</string>
+    <string name="search_label">Teua njia za kuwasiliana</string>
+    <string name="search_hint">Kutuma ujumbe</string>
+    <string name="search">Teua njia za kuwasiliana</string>
+    <string name="search_setting_description">Kutuma ujumbe</string>
+    <string name="search_empty">Nakala katika ujumbe wako</string>
+    <plurals name="search_results_title">
+        <!-- Case of 1 result. -->
+        <item quantity="one">Hakuna michezo</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> matokeo kwa \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+    </plurals>
+    <string name="search_history"><xliff:g id="count">%1$s</xliff:g> matokeo kwa \"<xliff:g id="search">%2$s</xliff:g>\"</string>
+    <string name="confirm_clear_search_title">Tandua</string>
+    <string name="confirm_clear_search_text">Tandua</string>
+    <string name="pref_mms_clear_search_history_title">Historia ya kutafuta itatanduliwa.</string>
+    <string name="pref_mms_clear_search_history_summary">Tandua historia ya kutafuta</string>
+    <string name="save">Weka data au faili</string>
+    <string name="storage_limits_title">Weka data au faili</string>
+    <string name="storage_limits_message">Kikomo cha ujumbe</string>
+    <string name="storage_limits_setting">Je unataka kuwekea kikomo idadi ya ujumbe uliouhifadhi kwa kila mazungumzo?</string>
+    <string name="storage_limits_setting_dismiss">Seti kikomo</string>
+    <string name="too_many_unsent_mms">Hakuna kikomo</string>
+    <string name="me">Mimi</string>
+    <string name="sending_message">Mimi</string>
+    <string name="received_a_contact">Inatuma\u2026</string>
+    <string name="save_a_new_contact">Weka data au faili</string>
+    <string name="cancle_a_new_contact">Kata simu</string>
+    <string name="prefix_send">Tuma</string>
+    <string name="suffix_vcf">.vcf</string>
+    <string name="ConversationList_menu_item_Delete_some">Futa baadhi</string>
+    <string name="ConversationList_menu_item_Cancel">Futa baadhi</string>
+    <string name="ConversationList_menu_item_CONFIRM_delete">Thibitisha kufuta </string>
+    <string name="Conversation_check_type_selected_all">Thibitisha kufuta </string>
+    <string name="Conversation_menu_type_selected_all">Zilizochaguliwa zote</string>
+    <string name="Conversation_menu_type_cancel_selected_all">Teua zote</string>
+    <string name="message_size">"MMS/Inapatikana/Jumla"</string>
+    <string name="save_sdcard_busy_dlg_title">SD kadi haipatikani</string>
+    <string name="save_sdcard_busy_dlg_msg">SD kadi inakazi.Kuruhusu kuhifadhi,Chagua \"Turn off USB storage\" katika taarifa.</string>
+    <string name="save_no_sdcard_dlg_msg">SD kadi inahitaji kuhifadhi <xliff:g id="filename">%s</xliff:g>.</string>
+    <string name="save_no_sdcard_dlg_title">Hakuna kadi ya SD</string>
+    <string name="save_file_error_dlg_title">Hamna nafasi ya kutosha</string>
+    <string name="save_file_error_dlg_msg"><xliff:g id="filename">%s</xliff:g> haliwezi kuhifadhiwa.\nWeka nafasi katika simu yako na  jaribu tena.</string>
+    <string name="save_file_error_title">Hifadhi kwenda kwa SD kadi kumefeli</string>
+    <string name="save_file_error_msg">Hifadhi <xliff:g id="FILENAME">%s</xliff:g> kwenda kwa SD kadi kumefeli</string>
+    <string name="save_file_ok_title">Hifadhi kwenda kwa SD kadi</string>
+    <string name="save_file_ok_msg">Hifadhi <xliff:g id="FILENAME">%s</xliff:g> kwenda kwa SD kadi</string>
+    <string name="slide_max">Rambaza Inaonyesha Kiwango cha juu Cha Nambari</string>
+    <string name="wait_message">Tafadhali subiri</string>
+    <string name="pref_title_sms_validity">SMS uhalali</string>
+    <string-array name="validity_entries">
+        <item>Masaa 1</item>
+        <item>Masaa 6</item>
+        <item>Masaa 24</item>
+        <item>Siku 2</item>
+        <item>1 Wiki</item>
+        <item>Mwisho wa kiwango</item>
+    </string-array>
+    <string name="group_all">Wasiliano wote</string>
+    <string name="group_phone">Wasiliano wa simu</string>
+    <string name="group_sim">Wasiliano wa SIM kadi</string>
+    <string name="group_sim1">"Wasiliano wa SIM1 kadi"</string>
+    <string name="group_sim2">"Wasiliano wa SIM2 kadi"</string>
+    <string name="select_contacts_group">Teua kikundi cha wasiliano</string>
+    <string name="sim_no_ready">"Sim kadi haiko tayari"</string>
+    <string name="save_to_bookmarks">Ongeza alamisha</string>
+    <string name="save_as_draft">Hifadhi kama Rasimu</string>
+    <string name="low_storage_toast">Nafasi ndogo!Futa baadhi ya mafaili ili kupata nafasi.</string>
+    <string name="error_state">Hali isiyo imara</string>
+    <string name="error_state_text">Hali ya nyuzi na wapokeaji sio endelevu.Tafadhali chukua na uripoti kosa kwenda kwa android-sms-bugs@google.com</string>
+    <string name="send_failed_fdn_only">Tuma ujumbe kwenda kwa <xliff:g id="TO">%s</xliff:g> imezuliwa na FDN.</string>
+    <string name="send_need_smsc">Tafadhali ongeza anuani ya SMSC katika Nambari ya maalum ya kupigia.</string>
+    <string name="mms_send_success">MMS zimeshatumwa</string>
+    <string name="contacts_max_exceed">Kuchagua wasiliano waliozidi kiwango cha juu kabisa,wataingiliana,jina linaweza kuonekana sio kamilifu.</string>
+    <string name="to_many_contacts">Ujumbe huu una wapokeaji wengi sana.</string>
+    <string name="to_many_contacts_body">Kuna kikomo cha wapokeaji 200.</string>
+    <string name="activity_not_found">Haijapata matumizi mjarabu</string>
+    <string name="download_beyond_limit">Kikomo cha ukubwa wa MMS kimezidi</string>
+    <string name="mms_memory_usage_progressDialog_title">"Chunguza Utumiajia wa Hifadhi ya Mms..."</string>
+    <string name="service_center">Kituo Cha Huduma:</string>
+    <string name="size_limit_comments">Kikomo(2G:200K; 3G:300K)</string>
+    <string name="size_limit_comments_all">Kikomo(300K)</string>
+    <string name="menu_resend">Songeza mbele</string>
+    <string name="menu_msg_folder">Kuangalia folda</string>
+    <string name="menu_msg_list">Angalia ujumbe</string>
+    <string name="folder_inbox">Kisanduku pokezi</string>
+    <string name="folder_outbox">Kisanduku toa</string>
+    <string name="folder_sent">Imeshatuma</string>
+    <string name="folder_drafts">Rasimu</string>
+    <string name="folder_simcard">SIM Kadi</string>
+    <string name="folder_simcard1">SIM1 Kadi</string>
+    <string name="folder_simcard2">SIM2 Kadi</string>
+    <string name="msg_empty">Hakuna ujumbe katika Folda hili</string>
+    <string name="status_sent">Imeshatuma</string>
+    <string name="status_senting">Yenye kutumwa</string>
+    <string name="status_recieved">Imepokelewa</string>
+    <string name="menu_delete_box_msg">Jaribu tena kutuma zote</string>
+    <string name="clearConfirmation_title">Futa</string>
+    <string name="clearConfirmation">Ujumbe uliouchagua utakuwa wenye kufutwa.</string>
+    <string name="menu_view_box_message">Angalia ujumbe</string>
+    <string name="load_count">Pakia albamu mpya na picha</string>
+    <string name="display_store_title">Nafasi ya kuhifadhi</string>
+    <string name="re_take_picture">Kuhifadhi picha kumefeli,tafadhali nasa tena picha.</string>
+    <string name="slide_fomat_error">"Haijambatanishwa ,faili haliungani mkono!"</string>
+    <string name="filetype_not_support">Aina ya faili haiungwi mkono</string>
+    <string name="comma_zh">"，"</string>
+    <string name="move_message_to_phone_memory">Nakili ujumbe kwenda kwa hifadhi ya simu kwa mafanikio</string>
+    <string name="can_not_copy_the_message">Haiwezi kunakili ujumbe</string>
+    <string name="share_not_support_contentType">"Haijambatanishwa ,faili haliungani mkono!"</string>
+    <string name="dl_expired_wap_push">"Wap kusukuma ujumbe"</string>
+    <string name="WAPPush_Message_title">"OTA vipimo vya ujumbe vimefanikiwa"</string>
+    <string name="open_website">"Hifadhi ya kadi ya simu imejaa."</string>
+    <string name="pref_title_sms_retry_times">Fungua Mechanizimu ya Kujaribu tena</string>
+    <string name="attach_vcard">Video</string>
+    <string name="group_name_student">"Mwanafunzi"</string>
+    <string name="group_name_friend">"Rafiki"</string>
+    <string name="group_name_family">Familia</string>
+    <string name="group_name_colleague">"Mwenzake"</string>
+    <string name="handle_forward_error">"Usambazaji umefeli,Jaribu tena kusambaza."</string>
+    <string name="slide_show_vcard">"Ujumbe huu umekusanya kiambatanisho cha faili ambacho hakionyeshi"</string>
+    <string name="on_progress">Katika mchakato....tafadhali subiri.</string>
+</resources>

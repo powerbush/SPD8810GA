@@ -1,0 +1,120 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">ঘড়ি</string>
+    <string name="alarm_list_title">এলার্ম</string>
+    <string name="add_alarm">এলার্ম যোগ করুন</string>
+    <string name="menu_desk_clock">টেবিল ঘড়ি</string>
+    <string name="menu_edit_alarm">বিপদাশঙ্কা সম্পাদনা করুন</string>
+    <string name="delete_alarm">এলার্ম মুছে দিন</string>
+    <string name="enable_alarm">উপর বিপদাশঙ্কা ঘুরুন</string>
+    <string name="disable_alarm">বিপদাশঙ্কা বন্ধ</string>
+    <string name="delete_alarm_confirm">এই বিপদাশঙ্কা মুছে ফেলা হবে.</string>
+    <string name="show_clock">ঘড়ি দেখান</string>
+    <string name="hide_clock">ঘড়ি লুকান</string>
+    <string name="label">লেবেল</string>
+    <string name="default_label">অ্যালার্ম</string>
+    <string name="set_alarm">বিপদাশঙ্কা সেট</string>
+    <string name="alarm_vibrate">কাম্পান</string>
+    <string name="alarm_repeat">পুনরাবৃত্তি</string>
+    <string name="alert">মন্তব্য</string>
+    <string name="time">সময়</string>
+    <string name="alarm_alert_dismiss_text">বরখাস্ত করা</string>
+    <string name="alarm_alert_alert_silenced">এলার্ম নিচ্চুপ <xliff:g id="minutes">%d</xliff:g> মিনিট</string>
+    <string name="alarm_alert_snooze_text">ঝিমান</string>
+    <string name="alarm_alert_snooze_set">ঝিমান <xliff:g id="minutes">%d</xliff:g> মিনিট ধরে.</string>
+    <string name="alarm_alert_power_off">"পাওয়ার বন্ধ"</string>
+    <string-array name="alarm_set">
+        <item>এই বিপদাশঙ্কা এখন থেকে কম 1 মিনিটের জন্য সেট করা হয়.</item>
+        <item>এলার্ম সেট হলো <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> এখন থেকে.</item>
+        <item>এলার্ম সেট হলো <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> এখন থেকে.</item>
+        <item>এলার্ম সেট হলো <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> এবং <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> এখন থেকে.</item>
+        <item>এলার্ম সেট হলো <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>এখন থেকে.</item>
+        <item>এলার্ম সেট হলো <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> এবং <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> এখন থেকে.</item>
+        <item>এলার্ম সেট হলো <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> এবং<xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+        <item>এলার্ম সেট হলো<xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, এবং <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g>এখন থেকে.</item>
+    </string-array>
+    <string name="day">"1 দিন"</string>
+    <string name="days">"<xliff:g id="days">%s</xliff:g> দিন"</string>
+    <string name="hour">১ ঘন্টা</string>
+    <string name="hours"><xliff:g id="hours">%s</xliff:g> ঘন্টা</string>
+    <string name="minute">"1 মিনিট"</string>
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> মিনিট"</string>
+    <string name="every_day">প্রতিদিন</string>
+    <string name="never">কখনো না</string>
+    <string name="day_concat">","</string>
+    <string name="clock_instructions">প্রদর্শন করার জন্য একটি ঘড়ি নির্বাচন করুন.</string>
+    <string name="analog_gadget">অ্যানালগ ঘড়ি</string>
+    <string name="settings">সেটিংস</string>
+    <string name="alarm_in_silent_mode_title">অ্যালার্ম নির্বাক মোডে</string>
+    <string name="alarm_in_silent_mode_summary">বিপদাশঙ্কা এমনকি যখন ফোন শব্দহীন মোড হল খেলুন</string>
+    <string name="snooze_duration_title">ঝিমান সময়কাল</string>
+    <string-array name="snooze_duration_entries">
+      <item>৫ মিনিট </item>
+      <item>১০ মিনিট</item>
+      <item>15 মিনিট</item>
+      <item>20 মিনিট</item>
+      <item>25 মিনিট</item>
+      <item>৩০ মিনিট</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+      <item>5</item>
+      <item>10</item>
+      <item>15</item>
+      <item>20</item>
+      <item>25</item>
+      <item>30</item>
+    </string-array>
+    <string name="done">কৃত</string>
+    <string name="revert">প্রত্যাবর্তন করা</string>
+    <string name="delete">মুছে ফেলা</string>
+    <string name="alarm_volume_title">অ্যালার্মঘড়ি এর ভলিউম</string>
+    <string name="alarm_volume_summary">এলার্ম এর ভলিউম নির্ধারণ করুন</string>
+    <string name="silent_alarm_summary">নীরব</string>
+    <string name="alarm_notify_text">থেকে বা তন্দ্রা এই বিপদাশঙ্কা বরখাস্ত নির্বাচন করুন.</string>
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (ঝিমান)</string>
+    <string name="alarm_notify_snooze_text">এলার্ম সেট <xliff:g id="time">%s</xliff:g>. বাতিল নির্বাচন করুন.</string>
+    <string name="volume_button_setting_title">ভলিউম এবং ক্যামেরা</string>
+    <string name="volume_button_dialog_title">বোতাম প্রভাব</string>
+    <string name="volume_button_setting_summary">সেট কি এই বোতাম গুলোর কাজ কি এলার্ম সময় যখন নিপীড়িত</string>
+    <string-array name="volume_button_setting_entries">
+      <item>না</item>
+      <item>ঝিমান</item>
+      <item>বরখাস্ত করা</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+    </string-array>
+    <string name="alarm_button_description">এলার্ম</string>
+    <string name="gallery_button_description">গ্যালারি</string>
+    <string name="music_button_description">সঙ্গীত</string>
+    <string name="nightmode_button_description">অস্পষ্ট</string>
+    <string name="home_button_description">লঞ্চার</string>
+    <string name="desk_clock_button_description">ঘড়ি প্রদর্শন</string>
+    <string name="battery_charging_level"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="weather_fetch_failure">আবহাওয়ার তথ্য বর্তমানে অনুপলব্ধ.</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">ডক সেটিংস</string>
+    <string name="alarm_alread_exist">এলার্ম <xliff:g id="time">%s</xliff:g> ইতিমধ্যেই বিদ্যমান, অন্য সময় সেট করুন</string>
+    <string name="duration_title">স্থিতিকাল</string>
+    <string-array name="duration_entries">
+      <item>1 মিনিট</item>
+      <item>2 মিনিট</item>
+      <item>4 মিনিট</item>
+      <item>6 মিনিট</item>
+      <item>8 মিনিট</item>
+      <item>10 মিনিট</item>
+    </string-array>
+    <string-array name="duration_values">
+      <item>1</item>
+      <item>2</item>
+      <item>4</item>
+      <item>6</item>
+      <item>8</item>
+      <item>10</item>
+    </string-array>
+    <string name="alarm_klaxon_service_desc">ডেস্ক ক্লক করুন এলার্ম জন্য প্লেব্যাক সেবা সাউন্ড.</string>
+    <string name="del_all">সব মুছে ফেল</string>
+    <string name="delete_all_alarm">আপনি কি সব এলার্ম মুছে ফেলতে চান?</string>
+</resources>

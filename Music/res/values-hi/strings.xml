@@ -1,0 +1,156 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">1 गीत</string>
+    <plurals name="Nsongs">
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> गीत"</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">"<xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> के <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> गीत"</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <!-- number of albums is one -->
+        <item quantity="one">1 एल्बम</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> एल्‍बम"</item>
+    </plurals>
+    <string name="goto_start">लाइब्रेरी</string>
+    <string name="goto_playback">प्लेबैक</string>
+    <string name="party_shuffle">आंशिक शफल</string>
+    <string name="party_shuffle_off">आंशिक शफल बंद</string>
+    <string name="delete_item">"हटाएं"</string>
+    <string name="shuffle_all">सभी का क्रम बदलें</string>
+    <string name="play_all">सभी चलाएं</string>
+    <string name="delete_artist_desc">"<xliff:g id="ARTIST">%s</xliff:g> के सभी गीत SD कार्ड से स्‍थायी रूप से हटा दिए जाएंगे."</string>
+    <string name="delete_artist_desc_nosdcard" msgid="1843750591006508005"><xliff:g id="artist">%s</xliff:g> द्वारा सभी गानों को स्थायी रूप से यूएसबी भंडारण से मिटा दिया जाएगा। </string>
+    <string name="delete_album_desc">"संपूर्ण एल्‍बम \"<xliff:g id="ALBUM">%s</xliff:g>\" को SD कार्ड से स्‍थायी रूप से हटा दिया जाएगा."</string>
+    <string name="delete_album_desc_nosdcard" msgid="535515999268177079">सम्पूर्ण एल्बम \"<xliff:g id="album">%s</xliff:g>\" को यूएसबी भंडारण से स्थायी रूप से मिटा दिया जाएगा। </string>
+    <string name="delete_song_desc">"\"<xliff:g id="SONG">%s</xliff:g>\" को SD कार्ड से स्‍थायी रूप से हटा दिया जाएगा."</string>
+    <string name="delete_song_desc_nosdcard" msgid="1856800468541831408">\"<xliff:g id="song">%s</xliff:g>\" को यूएसबी भंडारण से स्थायी रूप से मिटा दिया जाएगा। </string>
+    <string name="delete_confirm_button_text">"ठीक"</string>
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">1 गीत हटा दिया गया.</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other">"<xliff:g id="SONGS_TO_DELETE">%d</xliff:g> गीत हटा दिए गए."</item>
+    </plurals>
+    <string name="scanning">SD कार्ड की स्कैनिंग की जा रही है...</string>
+    <string name="scanning_nosdcard" msgid="3529383847223198502">यूएसबी भंडारण की जाँच की जा रही है \u2026</string>
+    <string name="nowplaying_title">अभी चल रहा है</string>
+    <string name="partyshuffle_title">आंशिक शफल</string>
+    <string name="artists_title">कलाकार</string>
+    <string name="albums_menu">"एल्बम"</string>
+    <string name="albums_title">"एल्बम"</string>
+    <string name="tracks_menu">"गीत"</string>
+    <string name="tracks_title">"गीत"</string>
+    <string name="playlists_menu">प्लेलिस्ट</string>
+    <string name="playlists_title">प्लेलिस्ट</string>
+    <string name="videos_title">"वीडियो"</string>
+    <string name="all_title">सभी मीडिया</string>
+    <string name="browse_menu">कलाकार</string>
+    <string name="search_title">खोजें</string>
+    <string name="no_tracks_title">कोई गीत नहीं</string>
+    <string name="no_videos_title">कोई वीडियो नहीं</string>
+    <string name="no_playlists_title">कोई प्लेलिस्ट नहीं</string>
+    <string name="delete_playlist_menu">"हटाएं"</string>
+    <string name="edit_playlist_menu">संपादन</string>
+    <string name="rename_playlist_menu">पुनः नाम दें</string>
+    <string name="playlist_deleted_message">प्‍लेलिस्‍ट हटा दी गई.</string>
+    <string name="playlist_renamed_message">प्‍लेलिस्‍ट का नाम बदला गया.</string>
+    <string name="recentlyadded">हाल ही में जोड़े गए</string>
+    <string name="recentlyadded_title">हाल ही में जोड़े गए</string>
+    <string name="podcasts_listitem">पॉडकास्ट</string>
+    <string name="podcasts_title">पॉडकास्ट</string>
+    <string name="sdcard_missing_title">कोई SD कार्ड नहीं</string>
+    <string name="sdcard_missing_title_nosdcard" msgid="9008284946643270850">कोई यूएसबी भंडारण नहीं है </string>
+    <string name="sdcard_missing_message">"आपके फोन में कोई SD कार्ड नहीं डाला गया है."</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="1169260755336159747">आपके फ़ोन में यूएसबी भंडारण नहीं है। </string>
+    <string name="sdcard_busy_title">SD कार्ड अनुपलब्ध</string>
+    <string name="sdcard_busy_title_nosdcard" msgid="1162763571147174655">यूएसबी भंडारण अनुपलब्ध है </string>
+    <string name="sdcard_busy_message">"क्षमा करें, आपका SD कार्ड व्‍यस्‍त है."</string>
+    <string name="sdcard_busy_message_nosdcard" msgid="8071868348072728830">क्षमा करें, आपका यूएसबी भंडारण व्यस्त है। </string>
+    <string name="sdcard_error_title">SD कार्ड का उपयोग मास स्टोरेज डिवाइस के रूप में किया जा रहा है</string>
+    <string name="sdcard_error_title_nosdcard" msgid="165682155008600643">यूएसबी भंडारण त्रुटि</string>
+    <string name="sdcard_error_message">आपके SD कार्ड में एक त्रुटि आई थी.</string>
+    <string name="sdcard_error_message_nosdcard" msgid="4574563894036627855">आपके यूएसबी भंडारण में एक त्रुटि से सामना हुआ था। </string>
+    <string name="unknown_artist_name">अज्ञात कलाकार</string>
+    <string name="unknown_album_name">"अज्ञात एल्बम"</string>
+    <string name="shuffle_on_notif">शफल चालू है.</string>
+    <string name="shuffle_off_notif">शफल बंद है.</string>
+    <string name="repeat_off_notif">दोहराना बंद है.</string>
+    <string name="repeat_current_notif">वर्तमान गीत दोहराना.</string>
+    <string name="repeat_all_notif">सभी गीतों का क्रम बदलें.</string>
+    <string name="ringtone_menu">"फोन रिंगटोन के रूप में उपयोग करें"</string>
+    <string name="ringtone_menu_short">"रिंगटोन के रूप में उपयोग करें"</string>
+    <string name="ringtone_set">"\"<xliff:g id="NAME">%s</xliff:g>\" फोन रिंगटोन के रूप में सेट किया गया."</string>
+    <string name="play_selection">"चलाएं"</string>
+    <string name="add_to_playlist">प्लेलिस्ट में जोड़ें</string>
+    <string name="queue">वर्तमान प्लेलिस्ट</string>
+    <string name="new_playlist">नया</string>
+    <string name="new_playlist_name_template">"नई प्लेलिस्ट <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">प्‍लेलिस्‍ट में 1 गाना जोड़ा गया.</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> गीत प्‍लेलिस्‍ट में जोडे गए."</item>
+    </plurals>
+    <string name="emptyplaylist">चयनित प्लेलिस्ट खाली है</string>
+    <string name="create_playlist_create_text">सेव करें</string>
+    <string name="create_playlist_overwrite_text">ओवरराइट करें</string>
+    <string name="service_start_error_title">प्लेबैक समस्या</string>
+    <string name="service_start_error_msg">"क्षमा करें, गीत नहीं चलाया जा सका."</string>
+    <string name="service_start_error_button">"ठीक"</string>
+    <string-array name="weeklist">
+        <item>"1 सप्ताह"</item>
+        <item>"2 सप्ताह"</item>
+        <item>"3 सप्ताह"</item>
+        <item>"4 सप्ताह"</item>
+        <item>"5 सप्ताह"</item>
+        <item>"6 सप्ताह"</item>
+        <item>"7 सप्ताह"</item>
+        <item>"8 सप्ताह"</item>
+        <item>"9 सप्ताह"</item>
+        <item>"10 सप्ताह"</item>
+        <item>"11 सप्ताह"</item>
+        <item>"12 सप्ताह"</item>
+    </string-array>
+    <string name="weekpicker_set">"पूर्ण"</string>
+    <string name="weekpicker_title">समय सेट करें</string>
+    <string name="save_as_playlist">प्लेलिस्ट के रूप में सहेजें</string>
+    <string name="clear_playlist">प्‍लेलिस्‍ट साफ करें</string>
+    <string name="musicbrowserlabel">संगीत</string>
+    <string name="musicshortcutlabel">संगीत प्‍लेलिस्‍ट</string>
+    <string name="mediaplaybacklabel">संगीत</string>
+    <string name="videobrowserlabel">"वीडियो"</string>
+    <string name="mediapickerlabel">संगीत</string>
+    <string name="playback_failed">"क्षमा करें, प्‍लेयर इस प्रकार की ऑडियो फ़ाइल का समर्थन नहीं करता."</string>
+    <string name="cancel">"रद्द करें"</string>
+    <string name="remove_from_playlist">प्‍लेलिस्‍ट से निकालें</string>
+    <string name="streamloadingtext">"<xliff:g id="HOST">%s</xliff:g> से कनेक्‍ट हो रहा है"</string>
+    <string name="mediasearch">"<xliff:g id="TERM">%s</xliff:g> के लिए इसका उपयोग कर खोजें:"</string>
+    <string name="working_artists">कलाकार...</string>
+    <string name="working_albums">एल्बम...</string>
+    <string name="working_songs">"गीत..."</string>
+    <string name="working_playlists">प्लेलिस्ट...</string>
+    <string name="loading">लोडिंग</string>
+    <string name="sort_by_track">"ट्रैक"</string>
+    <string name="sort_by_album">"एल्बम"</string>
+    <string name="sort_by_artist">कलाकार</string>
+    <string name="music_picker_title">संगीत ट्रैक का चयन करें</string>
+    <string name="gadget_track">ट्रैक <xliff:g id="track_number">%d</xliff:g></string>
+    <string name="fail_to_start_stream">अनुरोधित स्ट्रीम को चलाने में असमर्थ.</string>
+    <string name="search_settings_description">कलाकार, एल्बम, और ट्रैक</string>
+    <string name="search_hint">संगीत खोजें</string>
+    <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="widget_initial_text">"संगीत चुनने के लिए स्‍पर्श करें."</string>
+    <string name="effectspanel">ध्वनि प्रभाव</string>
+    <string name="delete_from_playlist">"प्लेलिस्ट अर्थात् वादन सूची से मिटा दिया जाएगा।"</string>
+    <string name="delete_playlist">"प्लेलिस्ट को मिटा दें?"</string>
+    <string name="no_play">कॉल के दौरान प्लेबैक प्रतिबंधित है</string>
+    <string name="add_music">संगीत जोड़ें</string>
+    <string name="music_selected_all">सब</string>
+    <string name="confirm_add">जोड़ें </string>
+    <string name="cancel_add">रद्द करें </string>
+    <string name="activity_title">संगीत जोड़ें</string>
+    <string name="no_sd_card">एसडी कार्ड को अनमाउंट कर दिया गया है या वह मौजूद ही नहीं है </string>
+</resources>

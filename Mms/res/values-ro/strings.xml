@@ -1,0 +1,375 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">"Mesagerie"</string>
+    <string name="new_message">"Mesaj nou"</string>
+    <string name="cdma_cell_broadcast_sms">Difuzare celulă SMS</string>
+    <string name="cell_broadcast_sms">Difuzare celulă SMS</string>
+    <string name="enable_disable_cell_bc_sms">Difuzare celulă SMS</string>
+    <string name="cell_bc_sms_enable">Difuzare celulă SMS activată</string>
+    <string name="cell_bc_sms_disable">Difuzare celulă SMS dezactivată</string>
+    <string name="cb_sms_settings">Setări difuzare celulă SMS</string>
+    <string name="channel_name">Nume canal</string>
+    <string name="channel_number">Număr canal</string>
+    <string name="no_cell_broadcast">Nu există celule de transmisie mesaj</string>
+    <string name="broadcast">Difuzare celulă SMS</string>
+    <string name="menu_cellbroadcastsms">Difuzare celulă</string>
+    <string name="list_language_title">Setări limbă</string>
+    <string name="list_language_summary">Selectați limba de știri</string>
+    <string name="broadcast_message">Mesaje</string>
+    <string name="language_eng">Limba engleză</string>
+    <string name="language_fren">Limba franceză</string>
+    <string name="language_spanish">Limba Spaniolă</string>
+    <string name="language_japanese">Limba japoneză</string>
+    <string name="language_korean">Limba coreeană</string>
+    <string name="language_chinese">Limba chineză</string>
+    <string name="language_hebrew">Limba ebraică</string>
+    <string name="language_type">Tipul de limbă:</string>
+    <string-array name="list_language_entries">
+        <item>Engleză</item>
+        <item>Franceză</item>
+        <item>Spaniolă</item>
+        <item>Japoneză</item>
+        <item>Coreeană</item>
+        <item>Chineză</item>
+        <item>Ebraică</item>
+    </string-array>
+    <string name="list_language_dtitle">Limbi</string>
+    <string name="create_new_message">"Scrieţi un mesaj nou"</string>
+    <string name="menu_call_back">"Apelaţi <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_send_email">"Trimiteţi e-mail către <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_compose_new">"Scrieţi"</string>
+    <string name="menu_preferences">"Setări"</string>
+    <string name="menu_add_address_to_contacts">"Adaugă <xliff:g id="NAME">%s</xliff:g> în Agendă"</string>
+    <string name="menu_call">"Apelaţi"</string>
+    <string name="menu_videocall">Apel video</string>
+    <string name="menu_delete_all">"Ştergeţi firele de conversaţie"</string>
+    <string name="menu_delete">"Ştergeţi firul de conversaţie"</string>
+    <string name="menu_undelivered_messages">"Mesaje neexpediate"</string>
+    <string name="menu_view">"Vizualizaţi firele de conversaţie"</string>
+    <string name="refreshing">"Se actualizează..."</string>
+    <string name="has_draft">"Mesaj nefinalizat"</string>
+    <string name="broadcast_from_to">"<xliff:g id="SENDER">%1$s</xliff:g> către <xliff:g id="RECIPIENT">%2$s</xliff:g>"</string>
+    <string name="anonymous_recipient">"Anonim"</string>
+    <string name="no_subject_view">"(niciun subiect)"</string>
+    <string name="messagelist_sender_self">"Eu"</string>
+    <string name="view_picture">"Vizualizaţi fotografia"</string>
+    <string name="view_slideshow">"Vizualizaţi prezentarea"</string>
+    <string name="view_message_details">"Vizualizaţi detaliile mesajului"</string>
+    <string name="view_delivery_report">"Vizualizaţi raportul"</string>
+    <string name="delete_message">"Ştergeţi mesajul"</string>
+    <string name="sent_on">"Trimis: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="expire_on">"Expiră la: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="kilobyte">"KO"</string>
+    <string name="undelivered_msg_dialog_title">"Mesaje neexpediate"</string>
+    <string name="undelivered_msg_dialog_body">"Acest mesaj nu poate fi trimis."\n"Încercare efectuată: <xliff:g id="MESSAGE">%s</xliff:g>."</string>
+    <string name="undelivered_sms_dialog_body">"Acest mesaj nu poate fi transmis."</string>
+    <string name="delete_thread">"Ştergeţi firul de conversaţie"</string>
+    <string name="menu_forward">"Redirecţionaţi"</string>
+    <string name="download">"Descărcaţi"</string>
+    <string name="downloading">"Se descarcă"</string>
+    <string name="name_colon"><b>"<xliff:g id="NAME">%s</xliff:g>"</b>": "</string>
+    <string name="inline_subject">"&lt;Subiect: <xliff:g id="SUBJECT">%s</xliff:g>&gt;"</string>
+    <string name="drm_protected_text">"* Text protejat prin DRM *"</string>
+    <string name="insufficient_drm_rights">"Drepturile DRM detectate sunt insuficiente."</string>
+    <string name="copy_message_text">"Copiaţi textul mesajului"</string>
+    <string name="message_options">"Opţiuni mesaj"</string>
+    <string name="done">"Terminat"</string>
+    <string name="move_up">"Mutaţi în sus"</string>
+    <string name="move_down">"Mutaţi în jos"</string>
+    <string name="remove_slide">"Eliminaţi prezentarea"</string>
+    <string name="add_slide">"Adăugaţi diapozitiv"</string>
+    <string name="add_slide_hint">"Selectaţi pentru a crea o nouă prezentare."</string>
+    <string name="discard_slideshow">"Eliminaţi prezentarea"</string>
+    <string name="slide_show_part">"Partea <xliff:g id="PART">%1$s</xliff:g>/<xliff:g id="TOTAL">%2$s</xliff:g>"</string>
+    <string name="remove_text">"Eliminaţi textul"</string>
+    <string name="add_picture">"Adăugaţi fotografia"</string>
+    <string name="remove_picture">"Eliminaţi fotografia"</string>
+    <string name="add_music">"Adăugaţi muzică"</string>
+    <string name="remove_music">"Eliminaţi muzica"</string>
+    <string name="add_video">"Adăugaţi un videoclip"</string>
+    <string name="remove_video">"Eliminaţi videoclipul"</string>
+    <string name="compose_title">"Scrieţi"</string>
+    <string name="to_hint">"Pentru"</string>
+    <string name="subject_hint">"Subiect"</string>
+    <string name="add_attachment">"Ataşaţi"</string>
+    <string name="add_subject">"Adăugaţi un subiect"</string>
+    <string name="discard">"Renunţaţi"</string>
+    <string name="view">"Vizualizaţi"</string>
+    <string name="replace">"Înlocuiţi"</string>
+    <string name="remove">"Eliminaţi"</string>
+    <string name="send">"Trimiteţi"</string>
+    <string name="mms">"MMS"</string>
+    <string name="all_threads">"Toate firele de conversaţie"</string>
+    <string name="type_to_compose_text_enter_to_send">"Introduceţi text pentru a compune"</string>
+    <string name="open_keyboard_to_compose_message">"Deschideţi tastatura pentru a scrie un mesaj"</string>
+    <string name="image_too_large">"Fotografie prea mare"</string>
+    <string name="ask_for_automatically_resize">"Redimensionaţi automat fotografia înainte de trimitere?"</string>
+    <string name="compressing">"Imaginea este prea mare. Se comprimă..."</string>
+    <string name="unsupported_media_format">"Format <xliff:g id="NAME">%1$s</xliff:g> neacceptat"</string>
+    <string name="select_different_media">"Selectaţi un alt <xliff:g id="NAME">%1$s</xliff:g>."</string>
+    <string name="exceed_message_size_limitation">"S-a atins limita de dimensiune a mesajului."</string>
+    <string name="message_too_big_for_video">"Mesajul este prea mare pentru a ataşa un videoclip."</string>
+    <string name="failed_to_add_media">"Din păcate nu puteţi adăuga acest <xliff:g id="NAME">%1$s</xliff:g> la mesajul dvs."</string>
+    <string name="failed_to_resize_image">"Fotografia nu a fost redimensionată."</string>
+    <string name="resize_image_error_information">"Din păcate, chiar şi redimensionată această fotografie este prea mare pentru a fi trimisă."</string>
+    <string name="forward_prefix">"Redir.: "</string>
+    <string name="discard_message">"Renunţaţi"</string>
+    <string name="discard_message_reason">"Mesajul dvs. va fi eliminat deoarece destinatarii săi nu sunt valizi."</string>
+    <string name="has_invalid_recipient">"Destinatar nevalid: &lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+    <string name="invalid_destination">"Adresa introdusă nu este validă."</string>
+    <string name="invalid_recipient_message">"Corectaţi destinatarul (destinatarii), altfel nu va (vor) primi mesajul."</string>
+    <string name="cannot_send_message">"Acest mesaj nu poate fi trimis"</string>
+    <string name="cannot_send_message_reason">"Mesajul dvs. nu are un destinatar valid."</string>
+    <string name="cannot_forward_drm_obj">"Obiectul DRM inclus în mesaj nu poate fi redirecţionat."</string>
+    <string name="converting_to_picture_message">"Se face conversia la mesaj multimedia..."</string>
+    <string name="converting_to_text_message">"Se face conversia la mesaj text..."</string>
+    <string name="cannot_add_slide_anymore">"Nu se pot adăuga mai multe diapozitive."</string>
+    <string name="cannot_add_picture_and_video">"Nu pot fi adăugate şi videoclipul şi fotografia pe acelaşi diapozitiv."</string>
+    <string name="cannot_save_message">"Mesajul nu poate fi salvat."</string>
+    <string name="cannot_load_message">"Mesajul nu poate fi încărcat."</string>
+    <string name="message_saved_as_draft">"Mesaj salvat ca mesaj nefinalizat."</string>
+    <string name="locked_message_cannot_be_deleted">"Mesajul blocat nu poate fi şters."</string>
+    <string name="too_many_recipients">"Acest mesaj are prea mulţi destinatari (<xliff:g id="CURRENTCOUNT">%1$s</xliff:g>). Există o limită de <xliff:g id="MAXLIMIT">%2$s</xliff:g> (de) destinatari."</string>
+    <string name="too_many_attachments">"Există o limită de <xliff:g id="MAXLIMIT">%1$s</xliff:g> (de) fişiere ataşate. Doar primele <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> vor fi adăugate."</string>
+    <string name="adding_attachments_title">"Se adaugă ataşamente"</string>
+    <string name="adding_attachments">"Aşteptaţi cât timp elementele sunt adăugate la prezentare."</string>
+    <string name="adding_attachments_vcard">Așteptați cât articolele sunt adăugate la atașamente.</string>
+    <string name="multiple_recipients">"<xliff:g id="RECIPIENTCOUNT">%1$s</xliff:g> (de) destinatari"</string>
+    <string name="cannot_play_audio">"Înregistrarea audio nu poate fi redată."</string>
+    <string name="preview">"Previzualizaţi"</string>
+    <string name="preview_slideshow">"Previzualizaţi"</string>
+    <string name="replace_image">"Înlocuiţi fotografia"</string>
+    <string name="duration_sec">"Durată (<xliff:g id="DURATION">%s</xliff:g> s)"</string>
+    <string name="duration_selector_title">"Durata diapozitivului "</string>
+    <string name="layout_selector_title">"Aspect prezentare "</string>
+    <string name="layout_top">"Aspect (deasupra)"</string>
+    <string name="layout_bottom">"Aspect (în partea de jos)"</string>
+    <string name="type_to_compose_text_or_leave_blank">"Tastaţi pentru a scrie textul sau lăsaţi spaţiu"</string>
+    <string name="duration_not_a_number">"Durata trebuie să fie un număr"</string>
+    <string name="duration_zero">"Durata trebuie să fie mai mare decât zero secunde"</string>
+    <string name="secs">"sec."</string>
+    <string-array name="select_dialog_items">
+         <item>"1 secundă"</item>
+         <item>"2 secunde"</item>
+         <item>"3 secunde"</item>
+         <item>"4 secunde"</item>
+         <item>"5 secunde"</item>
+         <item>"6 secunde"</item>
+         <item>"7 secunde"</item>
+         <item>"8 secunde"</item>
+         <item>"9 secunde"</item>
+         <item>"10 secunde"</item>
+         <item>"Altele..."</item>
+    </string-array>
+    <string name="menu_view_contact">"Vizualizaţi persoana din agendă"</string>
+    <string name="menu_add_to_contacts">"Adăugaţi persoana în Agendă"</string>
+    <string name="hidden_sender_address">"Adresă de expeditor ascunsă"</string>
+    <string name="yes">"OK"</string>
+    <string name="no">"Anulaţi"</string>
+    <string name="set">"Setaţi"</string>
+    <string name="play">"Redaţi"</string>
+    <string name="edit">"Modificaţi"</string>
+    <string name="resize">"Redimensionaţi"</string>
+    <string name="try_to_send">"Încercaţi să trimiteţi"</string>
+    <string name="preferences_title">"Setări"</string>
+    <string name="restore_default">"Restabiliţi setările prestabilite"</string>
+    <string name="pref_notification_settings_title">"Setări pentru notificări"</string>
+    <string name="pref_mms_settings_title">"Setări pentru mesaje multimedia (MMS)"</string>
+    <string name="pref_sms_settings_title">"Setări pentru mesaje text (SMS)"</string>
+    <string name="pref_sms_storage_title">"Setările stocării"</string>
+    <string name="pref_summary_manage_sim_messages">"Gestionaţi mesajele stocate pe cardul dvs. SIM"</string>
+    <string name="pref_summary_mms_delivery_reports">"Solicitaţi un raport de expediere pentru fiecare mesaj trimis"</string>
+    <string name="pref_summary_mms_read_reports">"Solicitaţi un raport de citire pentru fiecare mesaj trimis"</string>
+    <string name="pref_summary_sms_delivery_reports">"Solicitaţi un raport de expediere pentru fiecare mesaj trimis"</string>
+    <string name="pref_summary_auto_delete">"Ştergeţi mesajele vechi când se atinge limita"</string>
+    <string name="pref_title_manage_sim_messages">"Gestionaţi mesajele de pe cardul SIM"</string>
+    <string name="pref_title_mms_delivery_reports">"Rapoarte de expediere"</string>
+    <string name="pref_title_mms_read_reports">"Citiţi rapoartele"</string>
+    <string name="pref_title_sms_delivery_reports">"Rapoarte de expediere"</string>
+    <string name="pref_title_auto_delete">"Ştergeţi mesajele vechi"</string>
+    <string name="pref_title_sms_delete">"Limita mesajului text"</string>
+    <string name="pref_title_mms_delete">"Limita pentru mesajele multimedia"</string>
+    <string name="pref_title_notification_enabled">"Notificări"</string>
+    <string name="pref_summary_notification_enabled">"Afişaţi notificări de mesaje în bara de stare"</string>
+    <string name="pref_title_notification_vibrateWhen">"Vibrare"</string>
+    <string name="pref_summary_notification_vibrateWhen">"Vibrare şi la notificări"</string>
+    <string name="pref_title_notification_ringtone">"Selectaţi tonul de apel"</string>
+    <string-array name="prefEntries_vibrateWhen">
+        <!-- Always -->
+        <item>"Întotdeauna"</item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>"Numai când profilul este Silenţios"</item>
+        <!-- Never -->
+        <item>"Niciodată"</item>
+    </string-array>
+    <string name="prefDialogTitle_vibrateWhen">"Vibrare"</string>
+    <string name="pref_title_mms_auto_retrieval">"Preluare automată"</string>
+    <string name="pref_summary_mms_auto_retrieval">"Primiţi automat mesajele"</string>
+    <string name="pref_title_mms_retrieval_during_roaming">"Preluare automată a mesajelor când este activat serviciul de roaming"</string>
+    <string name="pref_summary_mms_retrieval_during_roaming">"Preluarea automată a mesajelor în roaming"</string>
+    <string name="to_label">"Către "</string>
+    <string name="confirm_dialog_title">"Ştergeţi"</string>
+    <string name="confirm_dialog_locked_title">"Ştergeţi mesajul blocat?"</string>
+    <string name="confirm_delete_conversation">"Firul de conversaţie va fi şters în întregime."</string>
+    <string name="confirm_delete_all_conversations">"Toate firele de conversaţie vor fi şterse."</string>
+    <string name="confirm_delete_message">"Mesajul va fi şters."</string>
+    <string name="confirm_delete_locked_message">"Sigur doriţi să ştergeţi acest mesaj blocat?"</string>
+    <string name="confirm_delete_all_messages">"Firul de conversaţie va fi şters în întregime."</string>
+    <string name="confirm_delete_all_SIM_messages">"Toate mesajele de pe cardul SIM vor fi şterse."</string>
+    <string name="confirm_delete_SIM_message">"Acest mesaj de pe cardul SIM va fi şters."</string>
+    <string name="delete_unlocked">"Ştergeţi mesajele blocate"</string>
+    <string name="delete">"Ştergeţi"</string>
+    <string name="cannot_get_details">"Nu se pot obţine detalii"</string>
+    <string name="message_details_title">"Detalii mesaj"</string>
+    <string name="message_type_label">"Tip: "</string>
+    <string name="text_message">"Mesaj text"</string>
+    <string name="multimedia_message">"Mesaj multimedia"</string>
+    <string name="multimedia_notification">"Notificare mesaj multimedia"</string>
+    <string name="from_label">"De la: "</string>
+    <string name="to_address_label">"Către: "</string>
+    <string name="bcc_label">"Bcc: "</string>
+    <string name="sent_label">"Trimis: "</string>
+    <string name="received_label">"Primit: "</string>
+    <string name="saved_label">"Salvat: "</string>
+    <string name="subject_label">"Subiect: "</string>
+    <string name="message_size_label">"Dimensiune mesaj: "</string>
+    <string name="priority_label">"Prioritate: "</string>
+    <string name="priority_high">"Ridicată"</string>
+    <string name="priority_normal">"Normală"</string>
+    <string name="priority_low">"Redusă"</string>
+    <string name="message_class_label">"Clasa de mesaj: "</string>
+    <string name="error_code_label">"Cod de eroare: "</string>
+    <string name="menu_edit">"Modificaţi"</string>
+    <string name="menu_retry_sending">"Încercaţi să trimiteţi din nou"</string>
+    <string name="menu_retry_sending_all">"Încercaţi să trimiteţi din nou toate mesajele"</string>
+    <string name="menu_delete_messages">"Ştergeţi mesajele"</string>
+    <string name="retrying_dialog_body">"Mesajul <xliff:g id="MESSAGE">%s</xliff:g> nu a fost trimis din cauza unei probleme de conectare."\n"Se încearcă din nou trimiterea..."</string>
+    <string name="menu_lock">"Blocaţi mesajul"</string>
+    <string name="menu_unlock">"Deblocaţi mesajul"</string>
+    <string name="sim_copy_to_phone_memory">"Copiaţi în memoria telefonului"</string>
+    <string name="sim_delete">"Ştergeţi"</string>
+    <string name="sim_manage_messages_title">"Mesaje text pe cardul SIM"</string>
+    <string name="sim_view">"Vizualizaţi"</string>
+    <string name="sim_empty">"Niciun mesaj pe acest card SIM."</string>
+    <string name="delivery_header_title">"Raport"</string>
+    <string name="status_none">"(Niciunul)"</string>
+    <string name="status_pending">"În aşteptare"</string>
+    <string name="status_read">"Citiţi"</string>
+    <string name="status_received">"Primit"</string>
+    <string name="status_failed">"Nereuşit"</string>
+    <string name="status_unread">"Necitit"</string>
+    <string name="status_rejected">"Respins"</string>
+    <string name="recipient_label">"Destinatar: "</string>
+    <string name="status_label">"Stare: "</string>
+    <string name="attach_image">"Fotografii"</string>
+    <string name="attach_take_photo">"Realizaţi o fotografie"</string>
+    <string name="attach_video">"Videoclipuri"</string>
+    <string name="attach_record_video">"Realizaţi un videoclip"</string>
+    <string name="attach_sound">"Audio"</string>
+    <string name="attach_record_sound">"Înregistraţi audio"</string>
+    <string name="attach_slideshow">"Prezentare"</string>
+    <string name="select_bottom_text">"Text în partea de jos"</string>
+    <string name="select_top_text">"Text în partea de sus"</string>
+    <string name="delivery_toast_body">"Mesaj primit de către %s"</string>
+    <string name="notification_multiple">"<xliff:g id="COUNT">%s</xliff:g> (de) mesaje necitite."</string>
+    <string name="notification_multiple_title">"Mesaje noi"</string>
+    <string name="notification_failed_multiple">"<xliff:g id="COUNT">%s</xliff:g> (de) mesaje nu pot fi trimise."</string>
+    <string name="notification_failed_multiple_title">"Mesajele nu au fost trimise"</string>
+    <string name="sim_full_title">"Card SIM plin"</string>
+    <string name="sim_full_body">"Ştergeţi câteva mesaje pentru a crea spaţiu pentru mai multe."</string>
+    <string name="sms_full_title">"Memoria pentru mesajul text este plină"</string>
+    <string name="sms_full_body">"Mesajele au fost respinse din lipsă de memorie. Vă recomandăm să ştergeţi mesajele vechi."</string>
+    <string name="sms_rejected_title">"Mesaj text respins"</string>
+    <string name="sms_rejected_body">"Mesajele primite au fost respinse dintr-un motiv necunoscut."</string>
+    <string name="type_audio">"audio"</string>
+    <string name="type_picture">"fotografie"</string>
+    <string name="type_video">"videoclip"</string>
+    <string name="type_vcard">vcard</string>
+    <string name="confirm">"Confirmaţi"</string>
+    <string name="message_send_read_report">"Un raport de citire va fi trimis."</string>
+    <string name="message_queued">"Mesajul dvs. nu poate fi trimis în prezent, ci doar atunci când serviciul va deveni disponibil."</string>
+    <string name="fdn_check_failure">"Puteţi trimite mesaje numai la numerele cu apelări restricţionate."</string>
+    <string name="no_subject">"(niciun subiect)"</string>
+    <string name="unknown_sender">"Expeditor necunoscut"</string>
+    <string name="dl_failure_notification">"Descărcarea mesajului <xliff:g id="SUBJECT">%1$s</xliff:g> de la <xliff:g id="FROM">%2$s</xliff:g> a eşuat."</string>
+    <string name="dl_expired_notification">"Acest mesaj a expirat şi va fi şters."</string>
+    <string name="rate_limit_surpassed">"Confirmaţi"</string>
+    <string name="confirm_rate_limit">"Se trimite un număr mare de mesaje multimedia. Este OK?"</string>
+    <string name="message_download_failed_title">"Mesajul nu a fost descărcat"</string>
+    <string name="message_send_failed_title">"Mesajul nu a fost trimis."</string>
+    <string name="message_failed_body">"Selectaţi pentru a revedea mesajul şi încercaţi din nou."</string>
+    <string name="download_later">"Descărcarea nu se poate efectua. Încercaţi din nou mai târziu."</string>
+    <string name="select_audio">"Selectaţi fişierul audio"</string>
+    <string name="copy_to_sdcard">"Salvaţi ataşamentul"</string>
+    <string name="copy_to_sdcard_success">"Ataşamentul s-a salvat"</string>
+    <string name="copy_to_sdcard_fail">"Ataşamentul nu poate fi salvat"</string>
+    <string name="save_ringtone">"Salvaţi ca ton de apel"</string>
+    <string name="saved_ringtone">"Ton de apel salvat"</string>
+    <string name="saved_ringtone_fail">"Salvarea tonului de sonerie a eşuat"</string>
+    <string name="menu_insert_smiley">"Inseraţi un emoticon"</string>
+    <string name="select_link_title">"Selectaţi o acţiune"</string>
+    <string name="slide_number">"Diapozitiv <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <plurals name="slide_duration">
+        <!-- Case of 1-second duration. -->
+        <item quantity="one">"<xliff:g id="NUMBER">%s</xliff:g> s"</item>
+        <!-- Case of "few" (small number of) seconds of duration. -->
+        <item quantity="few">"<xliff:g id="NUMBER">%s</xliff:g> s"</item>
+        <!-- Case of multiple-second duration. -->
+        <item quantity="other">"<xliff:g id="NUMBER">%s</xliff:g> s"</item>
+    </plurals>
+    <string name="delivery_report_activity">"Raport de expediere"</string>
+    <string name="storage_limits_activity">"Limite de stocare"</string>
+    <string name="add_attachment_activity">"Adăugaţi un ataşament:"</string>
+    <string name="select_layout_activity">"Selectaţi aspectul"</string>
+    <string name="change_duration_activity">"Modificaţi durata"</string>
+    <string name="edit_text_activity">"Modificaţi text"</string>
+    <string name="edit_slideshow_activity">"Modificaţi prezentarea"</string>
+    <string name="edit_slide_activity">"Modificaţi diapozitivul"</string>
+    <string name="pick_numbers_activity">"Alegeţi numerele"</string>
+    <string name="slideshow_activity">"Prezentare"</string>
+    <string name="class_0_message_activity">"Mesaje clasa 0"</string>
+    <string name="send_using_mms_activity">"Trimiteţi ca mesaj multimedia..."</string>
+    <string name="select_contact_method_activity">"Selectaţi metoda de contact"</string>
+    <string name="search_label">"Mesagerie"</string>
+    <string name="search_hint">"Căutare în mesagerie"</string>
+    <string name="search">"Mesagerie"</string>
+    <string name="search_setting_description">"Text în mesajele dvs."</string>
+    <string name="search_empty">"Nicio potrivire"</string>
+    <plurals name="search_results_title">
+        <!-- Case of 1 result. -->
+        <item quantity="one">"<xliff:g id="NUMBER">%1$s</xliff:g> rezultat pentru „<xliff:g id="SEARCH">%2$s</xliff:g>”"</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> (de) rezultate pentru „<xliff:g id="SEARCH">%2$s</xliff:g>”"</item>
+    </plurals>
+    <string name="search_history">"<xliff:g id="COUNT">%1$s</xliff:g> (de) rezultate pentru „<xliff:g id="SEARCH">%2$s</xliff:g>”"</string>
+    <string name="confirm_clear_search_title">"Ştergeţi"</string>
+    <string name="confirm_clear_search_text">"Istoricul căutărilor va fi şters."</string>
+    <string name="pref_mms_clear_search_history_title">"Ştergeţi istoricul căutărilor"</string>
+    <string name="pref_mms_clear_search_history_summary">"Ştergeţi căutarea anterioară de mesaje, pentru a evita afişarea acesteia în caseta de căutare."</string>
+    <string name="save">"Salvaţi"</string>
+    <string name="storage_limits_title">"Limita de mesaje"</string>
+    <string name="storage_limits_message">"Doriţi să limitaţi numărul de mesaje salvate pe conversaţie?"</string>
+    <string name="storage_limits_setting">"Setaţi limitele"</string>
+    <string name="storage_limits_setting_dismiss">"Fără limite"</string>
+    <string name="too_many_unsent_mms">"Mesajul nu poate fi trimis chiar acum. Există prea multe mesaje multimedia netransmise."</string>
+    <string name="me">"Eu"</string>
+    <string name="sending_message">"Se trimite..."</string>
+    <string name="received_a_contact">Obţineţi vcf</string>
+    <string name="save_a_new_contact">Salvare</string>
+    <string name="cancle_a_new_contact">Revocare</string>
+    <string name="prefix_send">Trimite</string>
+    <string name="ConversationList_menu_item_Delete_some">Șterge unele</string>
+    <string name="ConversationList_menu_item_Cancel">Anulați ștergerea</string>
+    <string name="ConversationList_menu_item_CONFIRM_delete">Confirmarea ștergerii</string>
+    <string name="Conversation_check_type_selected_all">Selectare toate</string>
+    <string name="Conversation_menu_type_selected_all">Selectare toate</string>
+    <string name="Conversation_menu_type_cancel_selected_all">Deselectează toate</string>
+    <string name="error_state">"Stare necorespunzătoare"</string>
+    <string name="error_state_text">"Starea şirurilor şi a destinatarilor este necorespunzătoare. Executaţi un raport despre erori şi trimiteţi-l la android-sms-bugs@google.com"</string>
+    <string name="menu_resend">Retrimiţi</string>
+    <string name="slide_fomat_error">Eroare de format de glisare, o parte a informațiilor încărcate nu a reușit.</string>
+    <string name="share_not_support_contentType">Nu este atașat, fișierul nu suportă !</string>
+    <string name="WAPPush_Message_title">Mesaj împingere Wap</string>
+    <string name="open_website">deschidere pagină de internet</string>
+</resources>

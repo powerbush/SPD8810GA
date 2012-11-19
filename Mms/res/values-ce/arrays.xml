@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_names">
+        <item>Nalipay</item>                   <!-- 0: :-) -->
+        <item>Guol</item>                     <!-- 1: :-( -->
+        <item>Kindat</item>                 <!-- 2: ;-) -->
+        <item>Dila nakagawas</item>     <!-- 3: :-P -->
+        <item>Nalubatan</item>               <!-- 4: =-O -->
+        <item>Halikan</item>                 <!-- 5: :-* -->
+        <item>Shagit</item>                 <!-- 6: :O -->
+        <item>Bugnaw</item>                    <!-- 7: B-) -->
+        <item>Kwarta nga ba-ba</item>             <!-- 8: :-$ -->
+        <item>Tiil sa ba-ba</item>           <!-- 9: :-! -->
+        <item>Nauwaw</item>             <!-- 10: :-[ -->
+        <item>Anghel</item>                   <!-- 11: O:-) -->
+        <item>Wa pa nadesisyunan</item>               <!-- 12: :-\\ -->
+        <item>Naghilak</item>                  <!-- 13: :\'( -->
+        <item>Mga wa-it kay gitakban</item>         <!-- 14: :-X -->
+        <item>Nagkatawa</item>                <!-- 15: :-D -->
+        <item>Naglibog</item>                <!-- 16: o_O -->
+    </string-array>
+</resources>

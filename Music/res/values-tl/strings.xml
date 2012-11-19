@@ -1,0 +1,175 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">"1 kanta"</string>
+    <plurals name="Nsongs">
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (na) kanta"</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">"<xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> ng <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> (na) kanta"</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <!-- number of albums is one -->
+        <item quantity="one">"1 album"</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (na) album"</item>
+    </plurals>
+    <string name="goto_start">"Library"</string>
+    <string name="goto_playback">"Playback"</string>
+    <string name="party_shuffle">"Party shuffle"</string>
+    <string name="party_shuffle_off">"I-off ang party shuffle"</string>
+    <string name="delete_item">"Tanggalin"</string>
+    <string name="shuffle_all">"I-shuffle lahat"</string>
+    <string name="play_all">"I-play lahat"</string>
+    <string name="delete_artist_desc">"Permanenteng matatanggal mula sa SD card ang lahat ng mga kanta ni <xliff:g id="ARTIST">%s</xliff:g>."</string>
+    <string name="delete_artist_desc_nosdcard" msgid="1843750591006508005">"Ang lahat ng mga kanta ni <xliff:g id="ARTIST">%s</xliff:g> ay permanenteng tatanggalin mula sa storage ng USB."</string>
+    <string name="delete_album_desc">"Permanenteng matatanggal ang buong album na \"<xliff:g id="ALBUM">%s</xliff:g>\" mula sa SD card."</string>
+    <string name="delete_album_desc_nosdcard" msgid="535515999268177079">"Permanenteng tatanggalin ang kabuuang album na \"<xliff:g id="ALBUM">%s</xliff:g>\" mula sa storage ng USB."</string>
+    <string name="delete_song_desc">"Permanenteng matatanggal ang \"<xliff:g id="SONG">%s</xliff:g>\" mula sa SD card."</string>
+    <string name="delete_song_desc_nosdcard" msgid="1856800468541831408">"Ang \"<xliff:g id="SONG">%s</xliff:g>\" ay permanenteng tatanggalin mula sa storage ng USB."</string>
+    <string name="delete_confirm_button_text">OK</string>
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">"Tinanggal ang 1 awit."</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other">"Tinanggal ang <xliff:g id="SONGS_TO_DELETE">%d</xliff:g> (na) kanta."</item>
+    </plurals>
+    <string name="scanning">"Inii-scan ang SD card..."</string>
+    <string name="scanning_nosdcard" msgid="3529383847223198502">"Ini-scan ang storage ng USB..."</string>
+    <string name="nowplaying_title">"Nagpe-play ngayon"</string>
+    <string name="partyshuffle_title">"Party shuffle"</string>
+    <string name="artists_title">"Mga Artist"</string>
+    <string name="albums_menu">"Mga Album"</string>
+    <string name="albums_title">"Mga Album"</string>
+    <string name="tracks_menu">"Mga Kanta"</string>
+    <string name="tracks_title">"Mga Kanta"</string>
+    <string name="playlists_menu">"Mga Playlist"</string>
+    <string name="playlists_title">"Mga Playlist"</string>
+    <string name="videos_title">Mga video</string>
+    <string name="all_title">"Lahat ng media"</string>
+    <string name="browse_menu">"Mga Artist"</string>
+    <string name="search_title">"Paghahanap"</string>
+    <string name="no_tracks_title">"Walang mga kanta"</string>
+    <string name="no_videos_title">"Walang mga video"</string>
+    <string name="no_playlists_title">"Walang mga playlist"</string>
+    <string name="delete_playlist_menu">"Tanggalin"</string>
+    <string name="edit_playlist_menu">"I-edit"</string>
+    <string name="rename_playlist_menu">"Palitan ang pangalan"</string>
+    <string name="playlist_deleted_message">"Tinanggal ang playlist."</string>
+    <string name="playlist_renamed_message">"Pinalitan ang pangalan ng playlist."</string>
+    <string name="recentlyadded">"Naidagdag kamakailan"</string>
+    <string name="recentlyadded_title">"Naidagdag kamakailan"</string>
+    <string name="podcasts_listitem">"Mga Podcast"</string>
+    <string name="podcasts_title">"Mga Podcast"</string>
+    <string name="sdcard_missing_title">"Walang SD card"</string>
+    <string name="sdcard_missing_title_nosdcard" msgid="9008284946643270850">"Walang storage ng USB"</string>
+    <string name="sdcard_missing_message">"Walang SD card na nakapasok ang iyong telepono."</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="1169260755336159747">"Walang storage ng USB ang iyong telepono."</string>
+    <string name="sdcard_busy_title">"Hindi available ang SD card."</string>
+    <string name="sdcard_busy_title_nosdcard" msgid="1162763571147174655">"Hindi available ang storage ng USB"</string>
+    <string name="sdcard_busy_message">"Paumanhin, abala ang iyong SD card."</string>
+    <string name="sdcard_busy_message_nosdcard" msgid="8071868348072728830">"Paumanhin, abala ang iyong storage ng USB."</string>
+    <string name="sdcard_error_title">"Error sa SD card"</string>
+    <string name="sdcard_error_title_nosdcard" msgid="165682155008600643">"Error sa storage ng USB"</string>
+    <string name="sdcard_error_message">"May naganap na error sa iyong SD card."</string>
+    <string name="sdcard_error_message_nosdcard" msgid="4574563894036627855">"May naranasang error sa iyong storage ng USB."</string>
+    <string name="unknown_artist_name">"Hindi kilalang artist"</string>
+    <string name="unknown_album_name">"Hindi kilalang album"</string>
+    <string name="shuffle_on_notif">"Naka-on ang shuffle."</string>
+    <string name="shuffle_off_notif">"Naka-off ang shuffle."</string>
+    <string name="repeat_off_notif">"Naka-off ang ulitin."</string>
+    <string name="repeat_current_notif">"Inuulit ang kasalukuyang kanta."</string>
+    <string name="repeat_all_notif">"Inuulit ang lahat ng mga kanta."</string>
+    <string name="ringtone_menu">"Gamitin bilang ringtone ng telepono"</string>
+    <string name="ringtone_menu_short">"Gamitin bilang ringtone"</string>
+    <string name="ringtone_set">"I-set ang \"<xliff:g id="NAME">%s</xliff:g>\" bilang ringtone ng telepono."</string>
+    <string name="play_selection">"I-play"</string>
+    <string name="add_to_playlist">"Idagdag sa playlist"</string>
+    <string name="queue">"Kasalukuyang playlist"</string>
+    <string name="new_playlist">Bago</string>
+    <string name="new_playlist_name_template">"Bagong playlist na <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">"1 kanta ang naidagdag sa playlist."</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other">"Naidagdag ang <xliff:g id="NUMBER">%d</xliff:g> (na) kanta sa playlist."</item>
+    </plurals>
+    <string name="emptyplaylist">"Walang laman ang napiling playlist."</string>
+    <string name="create_playlist_create_text">"I-save"</string>
+    <string name="create_playlist_overwrite_text">"I-overwrite"</string>
+    <string name="service_start_error_title">"Problema sa Pag-playback"</string>
+    <string name="service_start_error_msg">"Paumanhin, hindi mape-play ang kantang ito."</string>
+    <string name="service_start_error_button">OK</string>
+    <string-array name="weeklist">
+        <item>"1 linggo"</item>
+        <item>"2 linggo"</item>
+        <item>"3 linggo"</item>
+        <item>"4 linggo"</item>
+        <item>"5 linggo"</item>
+        <item>"6 linggo"</item>
+        <item>"7 linggo"</item>
+        <item>"8 linggo"</item>
+        <item>"9 linggo"</item>
+        <item>"10 linggo"</item>
+        <item>"11 linggo"</item>
+        <item>"12 linggo"</item>
+    </string-array>
+    <string name="weekpicker_set">Tapos</string>
+    <string name="weekpicker_title">"Magtakda ng oras"</string>
+    <string name="save_as_playlist">"I-save bilang playlist"</string>
+    <string name="clear_playlist">"I-clear ang playlist"</string>
+    <string name="musicbrowserlabel">"Musika"</string>
+    <string name="musicshortcutlabel">"Playlist ng musika"</string>
+    <string name="mediaplaybacklabel">"Musika"</string>
+    <string name="videobrowserlabel">Mga video</string>
+    <string name="mediapickerlabel">"Musika"</string>
+    <string name="playback_failed">"Paumanhin, hindi sinusuportahan ng player ang ganitong uri ng audio file."</string>
+    <string name="cancel">"Kanselahin"</string>
+    <string name="remove_from_playlist">"Alisin mula sa playlist"</string>
+    <string name="streamloadingtext">"Kumukonekta sa <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="mediasearch">"Hanapin ang <xliff:g id="TERM">%s</xliff:g> gamit ang:"</string>
+    <string name="working_artists">"Mga Artist..."</string>
+    <string name="working_albums">"Mga Album..."</string>
+    <string name="working_songs">"Mga Kanta..."</string>
+    <string name="working_playlists">"Mga Playlist..."</string>
+    <string name="loading">"Naglo-load"</string>
+    <string name="sort_by_track">"Mga Track"</string>
+    <string name="sort_by_album">"Mga Album"</string>
+    <string name="sort_by_artist">"Mga Artist"</string>
+    <string name="music_picker_title">"Piliin ang track ng musika"</string>
+    <string name="gadget_track">"Track <xliff:g id="TRACK_NUMBER">%d</xliff:g>"</string>
+    <string name="fail_to_start_stream">"Nabigong i-play ang hiniling na stream."</string>
+    <string name="search_settings_description">"Mga artist, album, at track"</string>
+    <string name="search_hint">"Maghanap ng Musika"</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="widget_initial_text">"Galawin upang pumili ng kanta."</string>
+    <string name="effectspanel">"Mga sound effect"</string>
+    <string name="delete_from_playlist">"ay tatanggalin mula sa play list."</string>
+    <string name="delete_playlist">"Ok ng tanggalin ang playlist?"</string>
+    <string name="no_play">Pinagbabawal ang pag-playback kapag tumatawag</string>
+    <string name="add_music">"Magdagdag ng musika"</string>
+    <string name="music_selected_all">"Lahat"</string>
+    <string name="confirm_add">Dagdagan</string>
+    <string name="cancel_add">"Kanselahin"</string>
+    <string name="activity_title">"Magdagdag ng musika"</string>
+    <string name="no_sd_card">"Hindi na-mount ang SD card o walang SD card"</string>
+    <string name="sd_card_use_usb">"U disk na magagamit"</string>
+    <string name="delete_all_music">"Alisin"</string>
+    <string name="confirm_delete">"Alisin"</string>
+    <string name="music_selected_all_delete">"Piliin ang empty key"</string>
+    <string name="activity_title_delete">"I-delete ang mga kanta"</string>
+    <string-array name="lyrics_edit_item">
+        <item>Kasalukuyang advance 0.5 sec</item>
+        <item>Kasalukuyang delay 0.5 sec</item>
+        <item>Matapos ang advance 0.5 sec</item>
+        <item>Matapos ang delay 0.5 sec</item>
+        <item>Lahat advance 0.5 sec</item>
+        <item>Lahat delay 0.5 sec</item>
+        <item>Walang gagawin</item>
+        <item>I-save ang update</item>
+    </string-array>
+    <string name="ringtone_title_sim1">Ringtone ng telepono ng  SIM1</string>
+    <string name="ringtone_title_sim2">Ringtone ng telepono ng  SIM2</string>
+    <string name="ringtone_set_sim1">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" i-set bilang SIM1 Phone ringtone.</string>
+    <string name="ringtone_set_sim2">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" i-set bilang SIM2 Phone ringtone.</string>
+</resources>

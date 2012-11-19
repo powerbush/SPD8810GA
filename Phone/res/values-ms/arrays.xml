@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="videophone_setting_layout_entryvalues">
+<item>1</item>
+<item>2</item>
+</string-array>
+    <string-array name="videophone_setting_static_image_set_entryvalues">
+<item>1</item>
+<item>2</item>
+<item>3</item>
+</string-array>
+    <string-array name="videophone_setting_fallback_entryvalues">
+<item>1</item>
+<item>2</item>
+<item>3</item>
+</string-array>
+</resources>

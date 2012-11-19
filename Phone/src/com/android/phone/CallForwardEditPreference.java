@@ -1,0 +1,287 @@
+package com.android.phone;
+
+import com.android.internal.telephony.CallForwardInfo;
+import com.android.internal.telephony.CommandException;
+import com.android.internal.telephony.CommandsInterface;
+import com.android.internal.telephony.Phone;
+import com.android.internal.telephony.PhoneFactory;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.res.TypedArray;
+import android.os.AsyncResult;
+import android.os.Handler;
+import android.os.Message;
+import android.telephony.TelephonyManager;
+import android.text.TextUtils;
+import android.util.AttributeSet;
+import android.util.Log;
+ 
+import static com.android.phone.TimeConsumingPreferenceActivity.EXCEPTION_ERROR;
+import static com.android.phone.TimeConsumingPreferenceActivity.RESPONSE_ERROR;
+import static com.android.phone.TimeConsumingPreferenceActivity.FDN_CHECK_FAILURE;
+
+public class CallForwardEditPreference extends EditPhoneNumberPreference {
+    private static final String LOG_TAG = "CallForwardEditPreference";
+    //CR NEWOS00108575 Log Start
+    //private static final boolean DBG = (PhoneApp.DBG_LEVEL >= 2);
+    private static final boolean DBG = true;
+    //CR NEWOS00108575 Log Start
+
+    private static final String SRC_TAGS[]       = {"{0}"};
+    private CharSequence mSummaryOnTemplate;
+    private int mButtonClicked;
+    private int mServiceClass;
+    private static final int BACK_KEY = 0;
+    private MyHandler mHandler = new MyHandler();
+    int reason;
+    int action;
+    String number;
+    Phone phone;
+    CallForwardInfo callForwardInfo;
+    TimeConsumingPreferenceListener tcpListener;
+
+    public CallForwardEditPreference(Context context, AttributeSet attrs) {
+        super(context, attrs);
+
+        mSummaryOnTemplate = this.getSummaryOn();
+
+        TypedArray a = context.obtainStyledAttributes(attrs,
+                R.styleable.CallForwardEditPreference, 0, R.style.EditPhoneNumberPreference);
+        mServiceClass = a.getInt(R.styleable.CallForwardEditPreference_serviceClass,
+                CommandsInterface.SERVICE_CLASS_VOICE);
+        reason = a.getInt(R.styleable.CallForwardEditPreference_reason,
+                CommandsInterface.CF_REASON_UNCONDITIONAL);
+        a.recycle();
+
+        if (DBG) Log.d(LOG_TAG, "mServiceClass=" + mServiceClass + ", reason=" + reason);
+    }
+
+    public CallForwardEditPreference(Context context) {
+        this(context, null);
+    }
+
+    void init(TimeConsumingPreferenceListener listener, boolean skipReading, int subId) {
+        phone = PhoneApp.getInstance().getPhone(subId);
+        tcpListener = listener;
+        if (!skipReading) {
+            phone.getCallForwardingOption(reason, mServiceClass,
+                    mHandler.obtainMessage(MyHandler.MESSAGE_GET_CF,
+                            // unused in this case
+                            CommandsInterface.CF_ACTION_DISABLE,
+                            MyHandler.MESSAGE_GET_CF, null));
+            if (tcpListener != null) {
+                tcpListener.onStarted(this, true);
+            }
+        }
+    }
+
+    @Override
+    public void onClick(DialogInterface dialog, int which) {
+        super.onClick(dialog, which);
+        mButtonClicked = which;
+        action = (isToggled() || (mButtonClicked == DialogInterface.BUTTON_POSITIVE)) ?
+                CommandsInterface.CF_ACTION_REGISTRATION :
+                CommandsInterface.CF_ACTION_DISABLE;
+        handleCallForwardResult(callForwardInfo);
+    }
+
+    @Override
+    protected void onDialogClosed(boolean positiveResult) {
+        super.onDialogClosed(positiveResult);
+        number = getPhoneNumber();
+        if (DBG) Log.d(LOG_TAG, "mButtonClicked=" + mButtonClicked
+                + ", positiveResult=" + positiveResult);
+        int time = (reason != CommandsInterface.CF_REASON_NO_REPLY) ? 0 : 20;
+        if (this.mButtonClicked != DialogInterface.BUTTON_NEGATIVE
+                && this.mButtonClicked != BACK_KEY) {
+            if (DBG) Log.d(LOG_TAG, "callForwardInfo=" + callForwardInfo);
+            if (action==CommandsInterface.CF_ACTION_REGISTRATION && (number == null || number.length() == 0)) {
+                CharSequence s;
+                s = getContext().getText(R.string.number_empty);
+                setPhoneNumber(callForwardInfo.number);
+                showAlertDialog(s,R.string.close_dialog,R.string.error_updating_title);
+                return;
+            }
+
+            if (action == CommandsInterface.CF_ACTION_REGISTRATION
+                    && callForwardInfo != null
+                    && callForwardInfo.status == 1
+                    && number.equals(callForwardInfo.number)) {
+                // no change, do nothing
+                if (DBG) Log.d(LOG_TAG, "no change, do nothing");
+            } else {
+                // set to network
+                if (DBG) Log.d(LOG_TAG, "reason=" + reason + ", action=" + action
+                        + ", number=" + number);
+
+                // Display no forwarding number while we're waiting for
+                // confirmation
+                setSummaryOn("");
+
+                // the interface of Phone.setCallForwardingOption has error:
+                // should be action, reason...
+                phone.setCallForwardingOption(action,
+                        reason,
+                        mServiceClass,
+                        number,
+                        time,
+                        mHandler.obtainMessage(MyHandler.MESSAGE_SET_CF,
+                                action,
+                                MyHandler.MESSAGE_SET_CF));
+                try {
+                    if (tcpListener != null) {
+                        tcpListener.onStarted(this, false);
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }
+    }
+
+    void handleCallForwardResult(CallForwardInfo cf) {
+        callForwardInfo = cf;
+        if (DBG) Log.d(LOG_TAG, "handleGetCFResponse done, callForwardInfo=" + callForwardInfo);
+
+        setToggled(callForwardInfo.status == 1);
+        setPhoneNumber(callForwardInfo.number);
+    }
+
+    private void updateSummaryText() {
+        if (isToggled()) {
+            CharSequence summaryOn;
+            final String number = getRawPhoneNumber();
+            if (number != null && number.length() > 0) {
+                String values[] = { number };
+                summaryOn = TextUtils.replace(mSummaryOnTemplate, SRC_TAGS, values);
+            } else {
+                summaryOn = getContext().getString(R.string.sum_cfu_enabled_no_number);
+            }
+            setSummaryOn(summaryOn);
+        }
+
+    }
+
+    // Message protocol:
+    // what: get vs. set
+    // arg1: action -- register vs. disable
+    // arg2: get vs. set for the preceding request
+    private class MyHandler extends Handler {
+        private static final int MESSAGE_GET_CF = 0;
+        private static final int MESSAGE_SET_CF = 1;
+
+        @Override
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case MESSAGE_GET_CF:
+                    handleGetCFResponse(msg);
+                    break;
+                case MESSAGE_SET_CF:
+                    handleSetCFResponse(msg);
+                    break;
+            }
+        }
+
+        private void handleGetCFResponse(Message msg) {
+            if (DBG) Log.d(LOG_TAG, "handleGetCFResponse: done");
+            if (msg.arg2 == MESSAGE_SET_CF) {
+                tcpListener.onFinished(CallForwardEditPreference.this, false);
+            } else {
+                tcpListener.onFinished(CallForwardEditPreference.this, true);
+            }
+
+            AsyncResult ar = (AsyncResult) msg.obj;
+
+            callForwardInfo = null;
+            if (ar.exception != null) {
+                if (DBG) Log.d(LOG_TAG, "handleGetCFResponse: ar.exception=" + ar.exception);
+                if (((CommandException) ar.exception).getCommandError() 
+                        == CommandException.Error.FDN_CHECK_FAILURE) 
+                {
+                    setEnabled(false);
+                    tcpListener.onError(CallForwardEditPreference.this, FDN_CHECK_FAILURE);
+                } else {
+                    setEnabled(false);
+                    tcpListener.onError(CallForwardEditPreference.this, EXCEPTION_ERROR);
+                }
+            } else {
+                CallForwardInfo cfInfoArray[] = (CallForwardInfo[]) ar.result;
+                if (cfInfoArray.length == 0) {
+                    if (DBG) Log.d(LOG_TAG, "handleGetCFResponse: cfInfoArray.length==0");
+                    setEnabled(false);
+                    tcpListener.onError(CallForwardEditPreference.this, RESPONSE_ERROR);
+                } else {
+                    for (int i = 0, length = cfInfoArray.length; i < length; i++) {
+                        if (DBG) Log.d(LOG_TAG, "handleGetCFResponse, cfInfoArray[" + i + "]="
+                                + cfInfoArray[i]);
+                        if ((mServiceClass & cfInfoArray[i].serviceClass) != 0) {
+                            // corresponding class
+                            CallForwardInfo info = cfInfoArray[i];
+                            handleCallForwardResult(info);
+
+                            // Show an alert if we got a success response but
+                            // with unexpected values.
+                            // Currently only handle the fail-to-disable case
+                            // since we haven't observed fail-to-enable.
+                            CharSequence s;
+                            if (msg.arg2 == MESSAGE_SET_CF &&
+                                    msg.arg1 == CommandsInterface.CF_ACTION_DISABLE &&
+                                    info.status == 1) {
+                                switch (reason) {
+                                    case CommandsInterface.CF_REASON_BUSY:
+                                        s = getContext().getText(R.string.disable_cfb_forbidden);
+                                        break;
+                                    case CommandsInterface.CF_REASON_NO_REPLY:
+                                        s = getContext().getText(R.string.disable_cfnry_forbidden);
+                                        break;
+                                    default: // not reachable
+                                        s = getContext().getText(R.string.disable_cfnrc_forbidden);
+                                }
+                                showAlertDialog(s,R.string.close_dialog,R.string.error_updating_title);
+                            }else if(msg.arg2 == MESSAGE_SET_CF && info.status != ((msg.arg1 == CommandsInterface.CF_ACTION_REGISTRATION)?1:0)) {
+                                tcpListener.onError(CallForwardEditPreference.this, EXCEPTION_ERROR);
+                            } else if (ar.userObj instanceof Throwable) {
+                                if(DBG) Log.d(LOG_TAG, "handleGetCFResponse: ar.userObj is Throwable:" + ar.userObj);
+                                tcpListener.onError(CallForwardEditPreference.this, RESPONSE_ERROR);
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Now whether or not we got a new number, reset our enabled
+            // summary text since it may have been replaced by an empty
+            // placeholder.
+            updateSummaryText();
+        }
+
+        private void handleSetCFResponse(Message msg) {
+            AsyncResult ar = (AsyncResult) msg.obj;
+            if (ar.exception != null) {
+                if (DBG) Log.d(LOG_TAG, "handleSetCFResponse: ar.exception=" + ar.exception);
+            }
+
+            if (DBG) Log.d(LOG_TAG, "handleSetCFResponse: re get");
+            phone.getCallForwardingOption(reason, mServiceClass,
+                obtainMessage(MESSAGE_GET_CF, msg.arg1, MESSAGE_SET_CF, ar.exception));
+        }
+    }
+
+    private void showAlertDialog(CharSequence msg,int button,int title) {
+        if (getContext()!=null && getContext() instanceof TimeConsumingPreferenceActivity) {
+            TimeConsumingPreferenceActivity activity = (TimeConsumingPreferenceActivity)getContext();
+            if (activity.mIsForeground) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+                builder.setNeutralButton(button, null);
+                builder.setTitle(getContext().getText(title));
+                builder.setMessage(msg);
+                builder.setCancelable(true);
+                builder.create().show();
+            }
+        }
+    }
+}

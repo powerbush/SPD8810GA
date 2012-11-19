@@ -1,0 +1,154 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_texts">
+      <item>":-)"</item>   <!-- 0: Happy -->
+      <item>":-("</item>   <!-- 1: Sad -->
+      <item>";-)"</item>   <!-- 2: Winking -->
+      <item>":-P"</item>   <!-- 3: Tongue sticking out -->
+      <item>"=-O"</item>   <!-- 4: Surprised -->
+      <item>":-*"</item>   <!-- 5: Kissing -->
+      <item>":O"</item>    <!-- 6: Yelling -->
+      <item>"B-)"</item>   <!-- 7: Cool -->
+      <item>":-$"</item>   <!-- 8: Money mouth -->
+      <item>":-!"</item>   <!-- 9: Foot in mouth -->
+      <item>":-["</item>   <!-- 10: Embarrassed -->
+      <item>"O:-)"</item>  <!-- 11: Angel -->
+      <item>":-\\"</item>  <!-- 12: Undecided -->
+      <item>":\'("</item>  <!-- 13: Crying -->
+      <item>":-X"</item>   <!-- 14: Lips are sealed -->
+      <item>":-D"</item>   <!-- 15: Laughing -->
+      <item>"o_O"</item>   <!-- 16: Confused -->
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>"Contento"</item>                   <!-- 0: :-) -->
+        <item>"Triste"</item>                     <!-- 1: :-( -->
+        <item>"Guiño"</item>                 <!-- 2: ;-) -->
+        <item>"Sacando la lengua"</item>     <!-- 3: :-P -->
+        <item>"Sorprendido"</item>               <!-- 4: =-O -->
+        <item>"Besando"</item>                 <!-- 5: :-* -->
+        <item>"Gritando"</item>                 <!-- 6: :O -->
+        <item>"Atractivo"</item>                    <!-- 7: B-) -->
+        <item>"Dinero en la boca"</item>             <!-- 8: :-$ -->
+        <item>"Metedura de pata"</item>           <!-- 9: :-! -->
+        <item>"Avergonzado"</item>             <!-- 10: :-[ -->
+        <item>"Ángel"</item>                   <!-- 11: O:-) -->
+        <item>"Indeciso"</item>               <!-- 12: :-\\ -->
+        <item>"Llorando"</item>                  <!-- 13: :\'( -->
+        <item>"Labios sellados"</item>         <!-- 14: :-X -->
+        <item>"Riendo"</item>                <!-- 15: :-D -->
+        <item>"Confuso"</item>                <!-- 16: o_O -->
+    </string-array>
+    <string-array name="entries_set_sms_text_size">
+        <item>Tamaño de texto: 17</item>
+        <item>Tamaño de texto: 18</item>
+        <item>Tamaño de texto: 19</item>
+        <item>Tamaño de texto: 20</item>
+        <item>Tamaño de texto: 21</item>
+        <item>Tamaño de texto: 22</item>
+        <item>Tamaño de texto: 23</item>
+        <item>Tamaño de texto: 24</item>
+        <item>Tamaño de texto: 25</item>
+        <item>Tamaño de texto: 26</item>
+        <item>Tamaño de texto: 27</item>
+        <item>Tamaño de texto: 28</item>
+        <item>Tamaño de texto: 29</item>
+        <item>Tamaño de texto: 30</item>
+        <item>Tamaño de texto: 31</item>
+        <item>Tamaño de texto: 32</item>
+        <item>Tamaño de texto: 33</item>
+        <item>Tamaño de texto: 34</item>
+        <item>Tamaño de texto: 35</item>
+        <item>Tamaño de texto: 36</item>
+        <item>Tamaño de texto: 37</item>
+        <item>Tamaño de texto: 38</item>
+        <item>Tamaño de texto: 39</item>
+        <item>Tamaño de texto: 40</item>
+        <item>Tamaño de texto: 41</item>
+        <item>Tamaño de texto: 42</item>
+        <item>Tamaño de texto: 43</item>
+        <item>Tamaño de texto: 44</item>
+        <item>Tamaño de texto: 45</item>
+        <item>Tamaño de texto: 46</item>
+        <item>Tamaño de texto: 47</item>
+        <item>Tamaño de texto: 48</item>
+        <item>Tamaño de texto: 49</item>
+        <item>Tamaño de texto: 50</item>
+        <item>Tamaño de texto: 51</item>
+        <item>Tamaño de texto: 52</item>
+        <item>Tamaño de texto: 53</item>
+        <item>Tamaño de texto: 54</item>
+        <item>Tamaño de texto: 55</item>
+        <item>Tamaño de texto: 56</item>
+        <item>Tamaño de texto: 57</item>
+        <item>Tamaño de texto: 58</item>
+        <item>Tamaño de texto: 59</item>
+        <item>Tamaño de texto: 60</item>
+        <item>Tamaño de texto: 61</item>
+        <item>Tamaño de texto: 62</item>
+        <item>Tamaño de texto: 63</item>
+        <item>Tamaño de texto: 64</item>
+        <item>Tamaño de texto: 65</item>
+        <item>Tamaño de texto: 66</item>
+        <item>Tamaño de texto: 67</item>
+        <item>Tamaño de texto: 68</item>
+        <item>Tamaño de texto: 69</item>
+        <item>Tamaño de texto: 70</item>
+    </string-array>
+    <string-array name="entryvalues_set_sms_text_size">
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+    </string-array>
+</resources>

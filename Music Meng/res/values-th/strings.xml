@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">1 เพลง</string>
+    <plurals name="Nsongs">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> เพลง</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other"><xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> จาก <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> เพลง</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one">1 อัลบั้ม</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> อัลบั้ม</item>
+    </plurals>
+    <string name="goto_start">ไลบรารี</string>
+    <string name="goto_playback">เล่น</string>
+    <string name="party_shuffle">สลับปาร์ตี้</string>
+    <string name="party_shuffle_off">สลับปาร์ตี้ ปิด</string>
+    <string name="delete_item">ลบ</string>
+    <string name="shuffle_all">สลับทั้งหมด</string>
+    <string name="play_all">เล่นทั้งหมด</string>
+    <string name="delete_artist_desc">เพลงทั้งหมดโดย <xliff:g id="ARTIST">%s</xliff:g> จะถูกลบจาก SD การ์ดอย่างถาวร</string>
+    <string name="delete_artist_desc_nosdcard" msgid="1565010405469696133">"เพลงทั้งหมดของ <xliff:g id="ARTIST">%s</xliff:g> จะถูกลบอย่างถาวรจากที่เก็บข้อมูล USB"</string>
+    <string name="delete_album_desc">"อัลบั้ม \"<xliff:g id="ALBUM">%s</xliff:g>\" ทั้งหมดจะถูกลบจาก SD การ์ดอย่างถาวร"</string>
+    <string name="delete_album_desc_nosdcard" msgid="2739690641188691896">"อัลบั้ม \"<xliff:g id="ALBUM">%s</xliff:g>\" ทั้งหมดจะถูกลบจากที่เก็บข้อมูล USB อย่างถาวร"</string>
+    <string name="delete_song_desc">"\"<xliff:g id="SONG">%s</xliff:g>\" จะถูกลบจาก SD การ์ดอย่างถาวร"</string>
+    <string name="delete_song_desc_nosdcard" msgid="2722621774200478721">"\"<xliff:g id="SONG">%s</xliff:g>\" จะถูกลบจากที่เก็บข้อมูล USB อย่างถาวร"</string>
+    <string name="delete_confirm_button_text">ตกลง</string>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one">1 เพลงถูกลบแล้ว</item>
+        <item quantity="other"><xliff:g id="SONGS_TO_DELETE">%d</xliff:g> เพลงถูกลบแล้ว</item>
+    </plurals>
+    
+    <string name="delete_progress_title">"ลบเพลง"</string>
+		<string name="delete_progress_message">"โปรดรอในขณะที่กำลังลบเพลง..."</string>
+    
+    <string name="scanning">กำลังสแกน SD การ์ด…</string>
+    <string name="scanning_nosdcard" msgid="8105284774487360148">"กำลังสแกนที่เก็บข้อมูล USB…"</string>
+    <string name="nowplaying_title">กำลังเล่นในขณะนี้</string>
+    <string name="partyshuffle_title">สลับปาร์ตี้</string>
+    <string name="artists_title">ศิลปิน</string>
+    <string name="albums_menu">อัลบั้ม</string>
+    <string name="albums_title">อัลบั้ม</string>
+    <string name="tracks_menu">เพลง</string>
+    <string name="tracks_title">เพลง</string>
+    <string name="playlists_menu">รายการเล่น</string>
+    <string name="playlists_title">รายการเล่น</string>
+    <string name="videos_title">วีดีโอ</string>
+    <string name="all_title">มีเดียทั้งหมด</string>
+    <string name="browse_menu">ศิลปิน</string>
+    <string name="search_title">ค้นหา</string>
+    <string name="no_tracks_title">ไม่มีเพลง</string>
+    <string name="no_videos_title">ไม่มีวิดีโอ</string>
+    <string name="no_playlists_title">ไม่มีรายการเล่น</string>
+    <string name="delete_playlist_menu">ลบ</string>
+    <string name="edit_playlist_menu">แก้ไข</string>
+    <string name="rename_playlist_menu">เปลี่ยนชื่อ</string>
+    <string name="playlist_deleted_message">รายการเล่นถูกลบแล้ว</string>
+    <string name="playlist_renamed_message">รายการเล่นถูกเปลี่ยนชื่อแล้ว</string>
+    <string name="recentlyadded">ที่เพิ่มเร็วๆ นี้</string>
+    <string name="recentlyadded_title">ที่เพิ่มเร็วๆ นี้</string>
+    <string name="podcasts_listitem">พ็อดคาสต์</string>
+    <string name="podcasts_title">พ็อดคาสต์</string>
+    <string name="sdcard_missing_title">ไม่มี SD การ์ด</string>
+    <string name="sdcard_missing_title_nosdcard" msgid="7984839174824243958">"ไม่มีที่เก็บข้อมูล USB"</string>
+    <string name="sdcard_missing_message">โทรศัพท์ของคุณไม่มี SD การ์ดใส่อยู่</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="4894107850080476295">"โทรศัพท์ของคุณไม่มีที่เก็บข้อมูล USB"</string>
+    <string name="sdcard_busy_title">SD การ์ดใช้ไม่ได้</string>
+    <string name="sdcard_busy_title_nosdcard" msgid="3319125156566499501">"ที่เก็บข้อมูล USB ใช้งานไม่ได้"</string>
+    <string name="sdcard_busy_message">ขออภัย SD การ์ดของคุณไม่ว่าง</string>
+    <string name="sdcard_busy_message_nosdcard" msgid="1644924834752791507">"ขออภัย ที่เก็บข้อมูล USB ของคุณไม่ว่าง"</string>
+    <string name="sdcard_error_title">SD การ์ดผิดพลาด</string>
+    <string name="sdcard_error_title_nosdcard" msgid="7564338137076303931">"ข้อผิดพลาดของที่เก็บข้อมูล USB"</string>
+    <string name="sdcard_error_message">เกิดข้อผิดพลาดขึ้นบน SD การ์ดของคุณ</string>
+    <string name="sdcard_error_message_nosdcard" msgid="4983430848526821234">"พบข้อผิดพลาดบนที่เก็บข้อมูล USB ของคุณ"</string>
+    <string name="unknown_artist_name">ศิลปินที่ไม่รู้จัก</string>
+    <string name="unknown_album_name">อัลบั้มที่ไม่รู้จัก</string>
+    <string name="shuffle_on_notif">การสลับ เปิด</string>
+    <string name="shuffle_off_notif">การสลับ ปิด</string>
+    <string name="repeat_off_notif">การซ้ำ ปิด</string>
+    <string name="repeat_current_notif">กำลังเล่นเพลงปัจจุบันซ้ำ</string>
+    <string name="repeat_all_notif">กำลังเล่นเพลงทั้งหมดซ้ำ</string>
+    <string name="ringtone_menu">ใช้เป็นริงโทนโทรศัพท์</string>
+    <string name="ringtone_menu_short">ใช้เป็นริงโทน</string>
+    <string name="ringtone_set">"\"<xliff:g id="NAME">%s</xliff:g>\" ตั้งเป็นริงโทนโทรศัพท์"</string>
+    <string name="play_selection">เล่น</string>
+    <string name="add_to_playlist">เพิ่มลงในรายการเล่น</string>
+    <string name="queue">รายการเล่นปัจจุบัน</string>
+    <string name="new_playlist">ใหม่</string>
+    <string name="new_playlist_name_template">รายการเล่นใหม่ <xliff:g id="NUMBER">%d</xliff:g></string>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="one">1 เพลงถูกเพิ่มลงในรายการเล่น</item>
+        <item quantity="other"><xliff:g id="NUMBER">%d</xliff:g> เพลงถูกเพิ่มลงในรายการเล่น</item>
+    </plurals>
+    <string name="emptyplaylist">รายการเล่นที่เลือกว่าง</string>
+    <string name="create_playlist_create_text">บันทึก</string>
+    <string name="create_playlist_overwrite_text">เขียนทับ</string>
+    <string name="service_start_error_title">ปัญหาในการเล่น</string>
+    <string name="service_start_error_msg">ขออภัย เพลงไม่สามารถเล่นได้</string>
+    <string name="service_start_error_button">ตกลง</string>
+    <string-array name="weeklist">
+        <item>1 สัปดาห์</item>
+        <item>2 สัปดาห์</item>
+        <item>3 สัปดาห์</item>
+        <item>4 สัปดาห์</item>
+        <item>5 สัปดาห์</item>
+        <item>6 สัปดาห์</item>
+        <item>7 สัปดาห์</item>
+        <item>8 สัปดาห์</item>
+        <item>9 สัปดาห์</item>
+        <item>10 สัปดาห์</item>
+        <item>11 สัปดาห์</item>
+        <item>12 สัปดาห์</item>
+    </string-array>
+    <string name="weekpicker_set">เสร็จ</string>
+    <string name="weekpicker_title">ตั้งเวลา</string>
+    <string name="save_as_playlist">"บันทึกเป็นรายการเล่น"</string>
+    <string name="clear_playlist">ล้างรายการเล่น</string>
+    <string name="musicbrowserlabel">เพลง</string>
+    <string name="musicshortcutlabel">รายการเล่นเพลง</string>
+    <string name="mediaplaybacklabel">เพลง</string>
+    <string name="videobrowserlabel">วีดีโอ</string>
+    <string name="mediapickerlabel">เพลง</string>
+    <string name="playback_failed">ขออภัย เครื่องเล่นไม่สนับสนุนไฟล์เสียงชนิดนี้</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="remove_from_playlist">ลบจากรายการเล่น</string>
+    <string name="streamloadingtext">กำลังเชื่อมต่อไปยัง <xliff:g id="HOST">%s</xliff:g></string>
+    <string name="mediasearch">ค้นหา <xliff:g id="TERM">%s</xliff:g> โดยใช้:</string>
+    <string name="working_artists">ศิลปิน\u2026</string>
+    <string name="working_albums">อัลบั้ม\u2026</string>
+    <string name="working_songs">เพลง\u2026</string>
+    <string name="working_playlists">รายการเล่น\u2026</string>
+    <string name="loading">กำลังโหลด</string>
+    <string name="sort_by_track">แทร็ก</string>
+    <string name="sort_by_album">อัลบั้ม</string>
+    <string name="sort_by_artist">ศิลปิน</string>
+    <string name="music_picker_title">เลือกแทร็กเพลง</string>
+    <string name="gadget_track">แทร็ก <xliff:g id="TRACK_NUMBER">%d</xliff:g></string>
+    <string name="fail_to_start_stream">ไม่สามารถเล่นสตรีมที่ร้องขอได้</string>
+    <string name="search_settings_description">ศิลปิน, อัลบั้ม และแทร็ก</string>
+    <string name="search_hint">ค้นหาเพลง</string>
+    <string name="fast_scroll_alphabet">"ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="widget_initial_text">แตะเพื่อเลือกเพลง</string>
+    <string name="effectspanel" msgid="8804547581593509614">"เอฟเฟ็กต์เสียง"</string>
+    <string name="music_settings">"การตั้งค่า"</string>
+    <string name="music_fm_transmiter">"ตัวส่ง FM"</string>
+
+    <string name="effects_panel_window_title">"เลือกเอฟเฟ็กต์เสียง"</string>
+    <string name="enable_effects">"เปิดทำงานเอฟเฟ็กต์เสียง"</string>
+    <string name="effects_list_title">"เอฟเฟ็กต์เสียง"</string>
+    <string name="bassboost_name">"เบสบูสต์"</string>
+    <string name="virtualizer_name">"เวอร์ชวลไลเซอร์"</string>
+    <string name="presetreverb_name">"พรีเซ็ตรีเวิร์บ"</string>
+    <string name="equalizer_name">"อีควอไลเซอร์"</string>
+    <string name="bassboost_strength">"ความแรงเบส"</string>
+    <string name="virtualizer_strength">"ความแรงเวอร์ชวลไลเซอร์"</string>
+    <string name="progress_min">"ต่ำที่สุด"</string>
+    <string name="progress_max">"สูงที่สุด"</string>
+    <string name="reverb_preset_title">"รีเวิร์บ พรีเซ็ต"</string>
+    <string name="equalizer_preset_title">"อีควอไลเซอร์ พรีเซ็ต"</string>
+    <string name="eq_preset_normal">"ปกติ"</string>
+    <string name="eq_preset_classical">"คลาสสิก"</string>
+    <string name="eq_preset_dance">"แดนซ์"</string>
+    <string name="eq_preset_flat">"แฟลต"</string>
+    <string name="eq_preset_folk">"โฟลค์"</string>
+    <string name="eq_preset_heavymetal">"เฮฟวี่ เมทัล"</string>
+    <string name="eq_preset_hiphop">"ฮิป ฮอป"</string>
+    <string name="eq_preset_jazz">"แจ๊ส"</string>
+    <string name="eq_preset_pop">"ป๊อป"</string>
+    <string name="eq_preset_rock">"ร็อค"</string>
+    <string-array name="reverb_preset_list">
+        <item>"ห้องขนาดเล็ก"</item>
+        <item>"ห้องขนาดกลาง"</item>
+        <item>"ห้องขนาดใหญ่"</item>
+        <item>"ฮอลล์ขนาดกลาง"</item>
+        <item>"ฮอลล์ขนาดใหญ่"</item>
+        <item>"เพลต รีเวิร์บ"</item>
+    </string-array>
+
+</resources>
+

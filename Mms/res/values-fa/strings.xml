@@ -1,0 +1,375 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">"پیام رسانی"</string>
+    <string name="new_message">"پیام جدید"</string>
+    <string name="cdma_cell_broadcast_sms">SMS پخش همراه</string>
+    <string name="cell_broadcast_sms">SMS پخش همراه</string>
+    <string name="enable_disable_cell_bc_sms">SMS پخش همراه</string>
+    <string name="cell_bc_sms_enable">SMS پخش همراه فعال شد</string>
+    <string name="cell_bc_sms_disable">SMS پخش همراه غیر فعال شد</string>
+    <string name="cb_sms_settings">تنظیمات  SMS پخش همراه</string>
+    <string name="channel_name">نام کانال</string>
+    <string name="channel_number">شمره کانال</string>
+    <string name="no_cell_broadcast">هیچ پیام پخش همراه وجود ندارد.</string>
+    <string name="broadcast">SMS پخش همراه</string>
+    <string name="menu_cellbroadcastsms">پخش همراه</string>
+    <string name="list_language_title">تنظیمات زبان</string>
+    <string name="list_language_summary">زبان اخبار را انتخاب کنید</string>
+    <string name="broadcast_message">پیام</string>
+    <string name="language_eng">زبان انگلیسی</string>
+    <string name="language_fren">زبان فرانسوی</string>
+    <string name="language_spanish">زبان اسپانیایی</string>
+    <string name="language_japanese">زبان ژاپنی</string>
+    <string name="language_korean">زبان کره ای</string>
+    <string name="language_chinese">زبان چینی</string>
+    <string name="language_hebrew">زبان عبری</string>
+    <string name="language_type">نوع زبان:</string>
+    <string-array name="list_language_entries">
+        <item>انگلیسی</item>
+        <item>فرانسوی</item>
+        <item>اسپانیایی</item>
+        <item>ژاپنی</item>
+        <item>کره ای</item>
+        <item>زبان چینی</item>
+        <item>عبری</item>
+    </string-array>
+    <string name="list_language_dtitle">زبانها</string>
+    <string name="create_new_message">"نگاشتن پیام جدید"</string>
+    <string name="menu_call_back">"تماس با <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_send_email">"ایمیل به <xliff:g id="NAME">%s</xliff:g> ارسال شد"</string>
+    <string name="menu_compose_new">"نگاشتن"</string>
+    <string name="menu_preferences">"تنظیمات"</string>
+    <string name="menu_add_address_to_contacts">"افزودن <xliff:g id="NAME">%s</xliff:g> به مخاطبین"</string>
+    <string name="menu_call">"تماس"</string>
+    <string name="menu_videocall">تماس ویدیویی</string>
+    <string name="menu_delete_all">"حذف رشته ها"</string>
+    <string name="menu_delete">"حذف رشته"</string>
+    <string name="menu_undelivered_messages">"پیام های تحویل داده نشده"</string>
+    <string name="menu_view">"مشاهده رشته"</string>
+    <string name="refreshing">"در حال تازه کردن..."</string>
+    <string name="has_draft">"پیش نویس"</string>
+    <string name="broadcast_from_to">"<xliff:g id="SENDER">%1$s</xliff:g> به <xliff:g id="RECIPIENT">%2$s</xliff:g>"</string>
+    <string name="anonymous_recipient">"ناشناس"</string>
+    <string name="no_subject_view">"(بدون موضوع)"</string>
+    <string name="messagelist_sender_self">"من"</string>
+    <string name="view_picture">"مشاهده تصویر"</string>
+    <string name="view_slideshow">"مشاهده نمایش اسلاید"</string>
+    <string name="view_message_details">"مشاهده جزئیات پیام"</string>
+    <string name="view_delivery_report">"مشاهده گزارش"</string>
+    <string name="delete_message">"حذف پیام"</string>
+    <string name="sent_on">"ارسال شد: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="expire_on">"تاریخ انقضا: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="kilobyte">"کیلوبایت"</string>
+    <string name="undelivered_msg_dialog_title">"پیام تحویل داده نشده"</string>
+    <string name="undelivered_msg_dialog_body">"این پیام ارسال نشد"\n"تلاش انجام شده: <xliff:g id="MESSAGE">%s</xliff:g>."</string>
+    <string name="undelivered_sms_dialog_body">"این پیام ارسال نشد."</string>
+    <string name="delete_thread">"حذف رشته"</string>
+    <string name="menu_forward">"هدایت"</string>
+    <string name="download">"دانلود"</string>
+    <string name="downloading">"در حال دانلود"</string>
+    <string name="name_colon"><b>"<xliff:g id="NAME">%s</xliff:g>"</b>": "</string>
+    <string name="inline_subject">"&lt;موضوع: <xliff:g id="SUBJECT">%s</xliff:g>&gt;"</string>
+    <string name="drm_protected_text">"* متن محافظت شده با DRM *"</string>
+    <string name="insufficient_drm_rights">"حقوق DRM ناکافی شناسایی شد."</string>
+    <string name="copy_message_text">"کپی متن پیام"</string>
+    <string name="message_options">"گزینه های پیام"</string>
+    <string name="done">"انجام شد"</string>
+    <string name="move_up">"انتقال به بالا"</string>
+    <string name="move_down">"انتقال به پایین"</string>
+    <string name="remove_slide">"حذف اسلاید"</string>
+    <string name="add_slide">"افزودن اسلاید"</string>
+    <string name="add_slide_hint">"برای ایجاد اسلاید جدید انتخاب کنید."</string>
+    <string name="discard_slideshow">"صرفنظر از نمایش اسلاید"</string>
+    <string name="slide_show_part">"قسمت <xliff:g id="PART">%1$s</xliff:g>/<xliff:g id="TOTAL">%2$s</xliff:g>"</string>
+    <string name="remove_text">"حذف متن"</string>
+    <string name="add_picture">"افزودن عکس"</string>
+    <string name="remove_picture">"حذف تصویر"</string>
+    <string name="add_music">"افزودن موسیقی"</string>
+    <string name="remove_music">"حذف موسیقی"</string>
+    <string name="add_video">"افزودن ویدیو"</string>
+    <string name="remove_video">"حذف ویدیو"</string>
+    <string name="compose_title">"نگاشتن"</string>
+    <string name="to_hint">"گیرنده"</string>
+    <string name="subject_hint">"موضوع"</string>
+    <string name="add_attachment">"پیوست"</string>
+    <string name="add_subject">"افزودن موضوع"</string>
+    <string name="discard">"صرفنظر"</string>
+    <string name="view">"مشاهده"</string>
+    <string name="replace">"جایگزینی"</string>
+    <string name="remove">"حذف"</string>
+    <string name="send">"ارسال"</string>
+    <string name="mms">"MMS"</string>
+    <string name="all_threads">"همه رشته ها"</string>
+    <string name="type_to_compose_text_enter_to_send">"تایپ برای نگاشتن"</string>
+    <string name="open_keyboard_to_compose_message">"باز کردن صفحه کلید برای نگارش پیام"</string>
+    <string name="image_too_large">"تصویر خیلی بزرگ است"</string>
+    <string name="ask_for_automatically_resize">"عکس قبل از ارسال بصورت خودکار تغییر اندازه دهد؟"</string>
+    <string name="compressing">"تصویر خیلی بزرگ است. در حال فشرده سازی..."</string>
+    <string name="unsupported_media_format">"قالب <xliff:g id="NAME">%1$s</xliff:g> پشتیبانی نشده"</string>
+    <string name="select_different_media">"لطفاً یک <xliff:g id="NAME">%1$s</xliff:g> دیگر انتخاب کنید."</string>
+    <string name="exceed_message_size_limitation">"از حداکثر اندازه پیام بیشتر شد."</string>
+    <string name="message_too_big_for_video">"پیام خیلی بزرگ است و به ویدیو پیوست نمی شود."</string>
+    <string name="failed_to_add_media">"متأسفم، شما نمی توانید این <xliff:g id="NAME">%1$s</xliff:g> را به پیام خود اضافه کنید."</string>
+    <string name="failed_to_resize_image">"اندازه عکس تغییر نکرد."</string>
+    <string name="resize_image_error_information">"متأسفم، حتی با وجود تغییر اندازه، این تصویر بسیار بزرگ است و ارسال نمی شود."</string>
+    <string name="forward_prefix">"هدایت: "</string>
+    <string name="discard_message">"صرفنظر"</string>
+    <string name="discard_message_reason">"از پیام شما به علت نداشتن گیرندگان معتبر صرفنظر می شود."</string>
+    <string name="has_invalid_recipient">"گیرنده (گیرندگان) نامعتبر : &lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+    <string name="invalid_destination">"شما یک آدرس نامعتبر وارد کردید."</string>
+    <string name="invalid_recipient_message">"لطفاً گیرنده (گیرندگان) را تصحیح کنید در غیر این صورت آنها پیام را دریافت نمی کنند."</string>
+    <string name="cannot_send_message">"این پیام ارسال نمی شود"</string>
+    <string name="cannot_send_message_reason">"پیام شما هیچ گیرنده معتبری ندارد."</string>
+    <string name="cannot_forward_drm_obj">"مورد DRM موجود در پیام هدایت نمی شود."</string>
+    <string name="converting_to_picture_message">"در حال تبدیل به پیام چند رسانه ای..."</string>
+    <string name="converting_to_text_message">"در حال تبدیل به پیام متنی..."</string>
+    <string name="cannot_add_slide_anymore">"اسلاید بیشتری اضافه نمی شود."</string>
+    <string name="cannot_add_picture_and_video">"افزودن ویدیو و عکس به یک اسلاید انجام نشد."</string>
+    <string name="cannot_save_message">"ذخیره پیام امکان پذیر نیست."</string>
+    <string name="cannot_load_message">"پیام بارگیری نمی شود."</string>
+    <string name="message_saved_as_draft">"پیام به عنوان پیش نویس ذخیره شد."</string>
+    <string name="locked_message_cannot_be_deleted">"پیام قفل شده حذف نمی شود."</string>
+    <string name="too_many_recipients">"این پیام دارای گیرندگان بسیار زیادی است (<xliff:g id="CURRENTCOUNT">%1$s</xliff:g>). محدودیت <xliff:g id="MAXLIMIT">%2$s</xliff:g> گیرنده وجود دارد."</string>
+    <string name="too_many_attachments">"محدودیت <xliff:g id="MAXLIMIT">%1$s</xliff:g> پیوست وجود دارد. فقط اولین <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> اضافه می شود."</string>
+    <string name="adding_attachments_title">"افزودن پیوست ها"</string>
+    <string name="adding_attachments">"لطفاً در حالی که موارد به نمایش اسلاید اضافه می شوند، منتظر بمانید."</string>
+    <string name="adding_attachments_vcard">لطفا تا زمانی که آیتم ها به فایل های پیوست اضافه می شوند صبرکنید.</string>
+    <string name="multiple_recipients">"<xliff:g id="RECIPIENTCOUNT">%1$s</xliff:g> گیرنده"</string>
+    <string name="cannot_play_audio">"پخش ویدیو امکان پذیر نیست."</string>
+    <string name="preview">"پیش نمایش"</string>
+    <string name="preview_slideshow">"پیش نمایش"</string>
+    <string name="replace_image">"جایگزینی تصویر"</string>
+    <string name="duration_sec">"طول مدت (<xliff:g id="DURATION">%s</xliff:g> ثانیه)"</string>
+    <string name="duration_selector_title">"طول مدت اسلاید "</string>
+    <string name="layout_selector_title">"چیدمان نمایش اسلاید "</string>
+    <string name="layout_top">"چیدمان (بالا)"</string>
+    <string name="layout_bottom">"چیدمان (پایین)"</string>
+    <string name="type_to_compose_text_or_leave_blank">"برای نگاشتن متن تایپ کنید یا این قسمت را خالی بگذارید"</string>
+    <string name="duration_not_a_number">"طول مدت باید به صورت یک عدد باشد"</string>
+    <string name="duration_zero">"طول مدت باید بیشتر از صفر ثانیه باشد."</string>
+    <string name="secs">"ثانیه"</string>
+    <string-array name="select_dialog_items">
+         <item>"1 ثانیه"</item>
+         <item>"2 ثانیه"</item>
+         <item>"3 ثانیه"</item>
+         <item>"4 ثانیه"</item>
+         <item>"5 ثانیه"</item>
+         <item>"6 ثانیه"</item>
+         <item>"7 ثانیه"</item>
+         <item>"8 ثانیه"</item>
+         <item>"9 ثانیه"</item>
+         <item>"10 ثانیه"</item>
+         <item>"موارد دیگر…"</item>
+    </string-array>
+    <string name="menu_view_contact">"مشاهده مخاطب"</string>
+    <string name="menu_add_to_contacts">"افزودن به مخاطبین"</string>
+    <string name="hidden_sender_address">"آدرس فرستنده پنهان"</string>
+    <string name="yes">"تأیید"</string>
+    <string name="no">"لغو"</string>
+    <string name="set">"تنظیم"</string>
+    <string name="play">"پخش"</string>
+    <string name="edit">"ویرایش"</string>
+    <string name="resize">"تغییر اندازه"</string>
+    <string name="try_to_send">"دوباره ارسال کنید"</string>
+    <string name="preferences_title">"تنظیمات"</string>
+    <string name="restore_default">"بازیابی تنظیمات پیش فرض"</string>
+    <string name="pref_notification_settings_title">"تنظیمات اعلان"</string>
+    <string name="pref_mms_settings_title">"تنظیمات پیام چند رسانه ای (MMS)"</string>
+    <string name="pref_sms_settings_title">"تنظیمات پیام متنی (پیامک)"</string>
+    <string name="pref_sms_storage_title">"تنظیمات ذخیره"</string>
+    <string name="pref_summary_manage_sim_messages">"مدیریت پیام های ذخیره شده در سیم کارت شما"</string>
+    <string name="pref_summary_mms_delivery_reports">"درخواست یک گزارش تحویل برای هر پیامی که ارسال می کنید"</string>
+    <string name="pref_summary_mms_read_reports">"درخواست یک گزارش خواندن برای هر پیامی که ارسال می کنید"</string>
+    <string name="pref_summary_sms_delivery_reports">"درخواست یک گزارش تحویل برای هر پیامی که ارسال می کنید"</string>
+    <string name="pref_summary_auto_delete">"حذف پیام های قدیمی به دلیل بیشتر شدن از حداکثر مجاز"</string>
+    <string name="pref_title_manage_sim_messages">"مدیریت پیام های سیم کارت"</string>
+    <string name="pref_title_mms_delivery_reports">"گزارش های تحویل"</string>
+    <string name="pref_title_mms_read_reports">"گزارش های خواندن"</string>
+    <string name="pref_title_sms_delivery_reports">"گزارش های تحویل"</string>
+    <string name="pref_title_auto_delete">"حذف پیام های قدیمی"</string>
+    <string name="pref_title_sms_delete">"محدودیت پیام متنی"</string>
+    <string name="pref_title_mms_delete">"محدودیت پیام چند رسانه ای"</string>
+    <string name="pref_title_notification_enabled">"اعلان ها"</string>
+    <string name="pref_summary_notification_enabled">"نمایش اعلان های پیام در نوار وضعیت"</string>
+    <string name="pref_title_notification_vibrateWhen">"لرزش"</string>
+    <string name="pref_summary_notification_vibrateWhen">"همچنین لرزش هنگام اعلان"</string>
+    <string name="pref_title_notification_ringtone">"انتخاب آهنگ زنگ"</string>
+    <string-array name="prefEntries_vibrateWhen">
+        <!-- Always -->
+        <item>"همیشه"</item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>"فقط هنگام ساکت بودن"</item>
+        <!-- Never -->
+        <item>"هرگز"</item>
+    </string-array>
+    <string name="prefDialogTitle_vibrateWhen">"لرزش"</string>
+    <string name="pref_title_mms_auto_retrieval">"بازیابی خودکار"</string>
+    <string name="pref_summary_mms_auto_retrieval">"بازیابی خودکار پیام ها"</string>
+    <string name="pref_title_mms_retrieval_during_roaming">"بازیابی خودکار در طول رومینگ"</string>
+    <string name="pref_summary_mms_retrieval_during_roaming">"بازیابی خودکار پیام در حین رومینگ"</string>
+    <string name="to_label">"گیرنده: "</string>
+    <string name="confirm_dialog_title">"حذف"</string>
+    <string name="confirm_dialog_locked_title">"پیام قفل شده حذف شود؟"</string>
+    <string name="confirm_delete_conversation">"کل رشته حذف می شود."</string>
+    <string name="confirm_delete_all_conversations">"همه رشته ها حذف می شوند."</string>
+    <string name="confirm_delete_message">"پیام حذف می شود."</string>
+    <string name="confirm_delete_locked_message">"آیا مطمئن هستید که می خواهید این پیام قفل شده را حذف کنید؟"</string>
+    <string name="confirm_delete_all_messages">"کل رشته حذف می شود."</string>
+    <string name="confirm_delete_all_SIM_messages">"همه پیام های موجود در سیم کارت حذف می شوند."</string>
+    <string name="confirm_delete_SIM_message">"این پیام در سیم کارت حذف می شود."</string>
+    <string name="delete_unlocked">"حذف پیام های قفل شده"</string>
+    <string name="delete">"حذف"</string>
+    <string name="cannot_get_details">"دریافت جزئیات امکان پذیر نیست"</string>
+    <string name="message_details_title">"جزئیات پیام"</string>
+    <string name="message_type_label">"نوع: "</string>
+    <string name="text_message">"پیام متنی"</string>
+    <string name="multimedia_message">"پیام چند رسانه ای"</string>
+    <string name="multimedia_notification">"اعلان های پیام چند رسانه ای"</string>
+    <string name="from_label">"فرستنده: "</string>
+    <string name="to_address_label">"گیرنده: "</string>
+    <string name="bcc_label">"گیرنده کپی مخفی: "</string>
+    <string name="sent_label">"ارسال شد: "</string>
+    <string name="received_label">"دریافت شد: "</string>
+    <string name="saved_label">"ذخیره شد: "</string>
+    <string name="subject_label">"موضوع: "</string>
+    <string name="message_size_label">"اندازه پیام: "</string>
+    <string name="priority_label">"اولویت: "</string>
+    <string name="priority_high">"زیاد"</string>
+    <string name="priority_normal">"معمولی"</string>
+    <string name="priority_low">"کم"</string>
+    <string name="message_class_label">"طبقه بندی پیام: "</string>
+    <string name="error_code_label">"کد خطا: "</string>
+    <string name="menu_edit">"ویرایش"</string>
+    <string name="menu_retry_sending">"امتحان مجدد برای ارسال"</string>
+    <string name="menu_retry_sending_all">"امتحان مجدد برای ارسال همه"</string>
+    <string name="menu_delete_messages">"حذف پیام ها"</string>
+    <string name="retrying_dialog_body">"این پیام <xliff:g id="MESSAGE">%s</xliff:g> به دلیل مشکل اتصال ارسال نشد."\n"در حال امتحان مجدد برای ارسال..."</string>
+    <string name="menu_lock">"قفل کردن پیام"</string>
+    <string name="menu_unlock">"بازگشایی قفل پیام"</string>
+    <string name="sim_copy_to_phone_memory">"کپی در حافظه تلفن"</string>
+    <string name="sim_delete">"حذف"</string>
+    <string name="sim_manage_messages_title">"پیام های متنی در سیم کارت"</string>
+    <string name="sim_view">"مشاهده"</string>
+    <string name="sim_empty">"پیامی در سیم کارت موجود نیست."</string>
+    <string name="delivery_header_title">"گزارش"</string>
+    <string name="status_none">"(هیچکدام)"</string>
+    <string name="status_pending">"در حال تعلیق"</string>
+    <string name="status_read">"خوانده شده"</string>
+    <string name="status_received">"دریافت شد"</string>
+    <string name="status_failed">"ناموفق"</string>
+    <string name="status_unread">"خوانده نشده"</string>
+    <string name="status_rejected">"رد شد"</string>
+    <string name="recipient_label">"گیرنده: "</string>
+    <string name="status_label">"وضعیت: "</string>
+    <string name="attach_image">"تصاویر"</string>
+    <string name="attach_take_photo">"عکسبرداری"</string>
+    <string name="attach_video">"ویدیوها"</string>
+    <string name="attach_record_video">"فیلم برداری"</string>
+    <string name="attach_sound">"صوتی"</string>
+    <string name="attach_record_sound">"ضبط صدا"</string>
+    <string name="attach_slideshow">"نمایش اسلاید"</string>
+    <string name="select_bottom_text">"متن در پایین"</string>
+    <string name="select_top_text">"متن در بالا"</string>
+    <string name="delivery_toast_body">"پیام دریافت شد توسط %s"</string>
+    <string name="notification_multiple">"<xliff:g id="COUNT">%s</xliff:g> پیام خوانده نشده."</string>
+    <string name="notification_multiple_title">"پیام های جدید"</string>
+    <string name="notification_failed_multiple">"<xliff:g id="COUNT">%s</xliff:g> پیام ارسال نشد."</string>
+    <string name="notification_failed_multiple_title">"پیام ها ارسال نشدند"</string>
+    <string name="sim_full_title">"سیم کارت پر است"</string>
+    <string name="sim_full_body">"برای آزاد کردن حافظه، برخی از پیام ها را حذف کنید."</string>
+    <string name="sms_full_title">"حافظه پیام متنی پر است"</string>
+    <string name="sms_full_body">"پیام ورودی به دلیل پر بودن حافظه رد شد. لطفاً پیام های قدیمی را حذف کنید."</string>
+    <string name="sms_rejected_title">"پیام متنی رد شد"</string>
+    <string name="sms_rejected_body">"پیام ورودی به دلیل نامشخص رد شد."</string>
+    <string name="type_audio">"صوتی"</string>
+    <string name="type_picture">"تصویر"</string>
+    <string name="type_video">"ویدیو"</string>
+    <string name="type_vcard">کارت مجازی</string>
+    <string name="confirm">"تأیید"</string>
+    <string name="message_send_read_report">"یک گزارش خواندن ارسال می شود."</string>
+    <string name="message_queued">"در حال حاضر ارسال پیام شما امکان پذیر نمی باشد. به محض دسترسی به سرویس، پیام شما ارسال می شود."</string>
+    <string name="fdn_check_failure">"فقط می توانید به شماره های شماره گیری ثابت خود پیام ارسال کنید."</string>
+    <string name="no_subject">"(بدون موضوع)"</string>
+    <string name="unknown_sender">"فرستنده ناشناس"</string>
+    <string name="dl_failure_notification">"دانلود پیام <xliff:g id="SUBJECT">%1$s</xliff:g> از <xliff:g id="FROM">%2$s</xliff:g> ناموفق بود."</string>
+    <string name="dl_expired_notification">"این پیام منقضی شده است و حذف می شود."</string>
+    <string name="rate_limit_surpassed">"تأیید"</string>
+    <string name="confirm_rate_limit">"تعداد زیادی از پیام های چند رسانه ای در حال ارسال هستند. این را تأیید می کنید؟"</string>
+    <string name="message_download_failed_title">"پیام دانلود نشد"</string>
+    <string name="message_send_failed_title">"پیام ارسال نشد"</string>
+    <string name="message_failed_body">"برای مرور پیام انتخاب کنید و دوباره امتحان کنید."</string>
+    <string name="download_later">"در حال حاضر دانلود امکان پذیر نیست. لطفاً بعداً دوباره امتحان کنید."</string>
+    <string name="select_audio">"انتخاب صدا"</string>
+    <string name="copy_to_sdcard">"ذخیره پیوست"</string>
+    <string name="copy_to_sdcard_success">"پیوست ذخیره شد"</string>
+    <string name="copy_to_sdcard_fail">"ذخیره پیوست ممکن نیست"</string>
+    <string name="save_ringtone">"ذخیره بعنوان آهنگ زنگ"</string>
+    <string name="saved_ringtone">"آهنگ زنگ ذخیره شد"</string>
+    <string name="saved_ringtone_fail">"ذخیره آهنگ زنگ انجام نشد"</string>
+    <string name="menu_insert_smiley">"درج لبخندک"</string>
+    <string name="select_link_title">"انتخاب عملکرد"</string>
+    <string name="slide_number">"اسلاید <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <plurals name="slide_duration">
+        <!-- Case of 1-second duration. -->
+        <item quantity="one">"<xliff:g id="NUMBER">%s</xliff:g> ثانیه"</item>
+        <!-- Case of "few" (small number of) seconds of duration. -->
+        <item quantity="few">"<xliff:g id="NUMBER">%s</xliff:g> ثانیه"</item>
+        <!-- Case of multiple-second duration. -->
+        <item quantity="other">"<xliff:g id="NUMBER">%s</xliff:g> ثانیه"</item>
+    </plurals>
+    <string name="delivery_report_activity">"گزارش تحویل"</string>
+    <string name="storage_limits_activity">"محدودیت های ذخیره"</string>
+    <string name="add_attachment_activity">"افزودن پیوست:"</string>
+    <string name="select_layout_activity">"انتخاب چیدمان"</string>
+    <string name="change_duration_activity">"تغییر مدت زمان"</string>
+    <string name="edit_text_activity">"ویرایش متن"</string>
+    <string name="edit_slideshow_activity">"ویرایش نمایش اسلاید"</string>
+    <string name="edit_slide_activity">"ویرایش اسلاید"</string>
+    <string name="pick_numbers_activity">"انتخاب تعداد"</string>
+    <string name="slideshow_activity">"نمایش اسلاید"</string>
+    <string name="class_0_message_activity">"طبقه بندی 0 پیام"</string>
+    <string name="send_using_mms_activity">"ارسال به عنوان پیام چند رسانه ای..."</string>
+    <string name="select_contact_method_activity">"انتخاب روش تماس"</string>
+    <string name="search_label">"پیام رسانی"</string>
+    <string name="search_hint">"جستجوی پیام رسانی"</string>
+    <string name="search">"پیام رسانی"</string>
+    <string name="search_setting_description">"ارسال متن در پیام های شما"</string>
+    <string name="search_empty">"مورد منطبقی موجود نیست"</string>
+    <plurals name="search_results_title">
+        <!-- Case of 1 result. -->
+        <item quantity="one">"<xliff:g id="NUMBER">%1$s</xliff:g> نتیجه برای \"<xliff:g id="SEARCH">%2$s</xliff:g>\""</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> نتیجه برای \"<xliff:g id="SEARCH">%2$s</xliff:g>\""</item>
+    </plurals>
+    <string name="search_history">"<xliff:g id="COUNT">%1$s</xliff:g> نتیجه برای \"<xliff:g id="SEARCH">%2$s</xliff:g>\""</string>
+    <string name="confirm_clear_search_title">"پاک کردن"</string>
+    <string name="confirm_clear_search_text">"سابقه جستجو پاک می شود."</string>
+    <string name="pref_mms_clear_search_history_title">"پاک کردن سابقه جستجو"</string>
+    <string name="pref_mms_clear_search_history_summary">"پاک کردن جستجوهای پیام رسانی قبلی و جلوگیری از نمایش آنها در کادر جستجو"</string>
+    <string name="save">"ذخیره"</string>
+    <string name="storage_limits_title">"محدودیت پیام ها"</string>
+    <string name="storage_limits_message">"آیا می خواهید تعداد پیام هایی را که در هر گفتگو ذخیره می کنید، محدود کنید."</string>
+    <string name="storage_limits_setting">"تنظیم محدودیت ها"</string>
+    <string name="storage_limits_setting_dismiss">"بدون محدودیت"</string>
+    <string name="too_many_unsent_mms">"اکنون ارسال پیام امکان پذیر نیست. تعداد زیادی پیام های چند رسانه ای ارسال نشده وجود دارد."</string>
+    <string name="me">"من"</string>
+    <string name="sending_message">"درحال ارسال…"</string>
+    <string name="received_a_contact">vcf دریافت</string>
+    <string name="save_a_new_contact">ذخیره </string>
+    <string name="cancle_a_new_contact">لغو</string>
+    <string name="prefix_send">ارسال</string>
+    <string name="ConversationList_menu_item_Delete_some">حذف بعضی</string>
+    <string name="ConversationList_menu_item_Cancel">انصراف حذف</string>
+    <string name="ConversationList_menu_item_CONFIRM_delete">تاید حذف</string>
+    <string name="Conversation_check_type_selected_all">انتخاب همه </string>
+    <string name="Conversation_menu_type_selected_all">انتخاب همه </string>
+    <string name="Conversation_menu_type_cancel_selected_all">عدم انتخاب همه</string>
+    <string name="error_state">"وضعیت ناهماهنگ"</string>
+    <string name="error_state_text">"وضعیت رشته ها و گیرندگان ناهماهنگ است. لطفاً یک گزارش بگیرید و آن را به android-sms-bugs@google.com ارسال کنید"</string>
+    <string name="menu_resend">ارسال مجدد</string>
+    <string name="slide_fomat_error">"خطا در فرمت اسلاید، بخشی از بارگذاری اطلاعات انجام نشد."</string>
+    <string name="share_not_support_contentType">پیوست نشد، فایل پشتیبانی نمی شود! "</string>
+    <string name="WAPPush_Message_title"> پیام Wap push</string>
+    <string name="open_website">"بازکردن وب سایت"</string>
+</resources>

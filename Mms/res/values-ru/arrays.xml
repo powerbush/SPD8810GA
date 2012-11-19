@@ -1,0 +1,154 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_texts">
+      <item>":-)"</item>   <!-- 0: Happy -->
+      <item>":-("</item>   <!-- 1: Sad -->
+      <item>";-)"</item>   <!-- 2: Winking -->
+      <item>":-П"</item>   <!-- 3: Tongue sticking out -->
+      <item>"=-Др"</item>   <!-- 4: Surprised -->
+      <item>":-*"</item>   <!-- 5: Kissing -->
+      <item>":Др"</item>    <!-- 6: Yelling -->
+      <item>"Б-)"</item>   <!-- 7: Cool -->
+      <item>":-$"</item>   <!-- 8: Money mouth -->
+      <item>":-!"</item>   <!-- 9: Foot in mouth -->
+      <item>":-["</item>   <!-- 10: Embarrassed -->
+      <item>"Др:-)"</item>  <!-- 11: Angel -->
+      <item>":-\\"</item>  <!-- 12: Undecided -->
+      <item>":\'("</item>  <!-- 13: Crying -->
+      <item>":-X"</item>   <!-- 14: Lips are sealed -->
+      <item>":-Д"</item>   <!-- 15: Laughing -->
+      <item>"o_O"</item>   <!-- 16: Confused -->
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>"Радость"</item>                   <!-- 0: :-) -->
+        <item>"Грустный"</item>                     <!-- 1: :-( -->
+        <item>"Подмигивает"</item>                 <!-- 2: ;-) -->
+        <item>"Показывает язык"</item>     <!-- 3: :-P -->
+        <item>"Удивлен"</item>               <!-- 4: =-O -->
+        <item>"Поцелуй"</item>                 <!-- 5: :-* -->
+        <item>"Кричит"</item>                 <!-- 6: :O -->
+        <item>"Крутой"</item>                    <!-- 7: B-) -->
+        <item>"Не болтай попусту"</item>             <!-- 8: :-$ -->
+        <item>"В замешательстве"</item>           <!-- 9: :-! -->
+        <item>"Смущение"</item>             <!-- 10: :-[ -->
+        <item>"Ангел"</item>                   <!-- 11: O:-) -->
+        <item>"Нерешительный"</item>               <!-- 12: :-\\ -->
+        <item>"Плачет"</item>                  <!-- 13: :\'( -->
+        <item>"Не скажу"</item>         <!-- 14: :-X -->
+        <item>"Смех"</item>                <!-- 15: :-D -->
+        <item>"Озадаченный"</item>                <!-- 16: o_O -->
+    </string-array>
+    <string-array name="entries_set_sms_text_size">
+        <item>Размер текста: 17</item>
+        <item>Размер текста: 18</item>
+        <item>Размер текста: 19</item>
+        <item>Размер текста: 20</item>
+        <item>Размер текста: 21</item>
+        <item>Размер текста: 22</item>
+        <item>Размер текста: 23</item>
+        <item>Размер текста: 24</item>
+        <item>Размер текста: 25</item>
+        <item>Размер текста: 26</item>
+        <item>Размер текста: 27</item>
+        <item>Размер текста: 28</item>
+        <item>Размер текста: 29</item>
+        <item>Размер текста: 30</item>
+        <item>Размер текста: 31</item>
+        <item>Размер текста: 32</item>
+        <item>Размер текста: 33</item>
+        <item>Размер текста: 34</item>
+        <item>Размер текста: 35</item>
+        <item>Размер текста: 36</item>
+        <item>Размер текста: 37</item>
+        <item>Размер текста: 38</item>
+        <item>Размер текста: 39</item>
+        <item>Размер текста: 40</item>
+        <item>Размер текста: 41</item>
+        <item>Размер текста: 42</item>
+        <item>Размер текста: 43</item>
+        <item>Размер текста: 44</item>
+        <item>Размер текста: 45</item>
+        <item>Размер текста: 46</item>
+        <item>Размер текста: 47</item>
+        <item>Размер текста: 48</item>
+        <item>Размер текста: 49</item>
+        <item>Размер текста: 50</item>
+        <item>Размер текста: 51</item>
+        <item>Размер текста: 52</item>
+        <item>Размер текста: 53</item>
+        <item>Размер текста: 54</item>
+        <item>Размер текста: 55</item>
+        <item>Размер текста: 56</item>
+        <item>Размер текста: 57</item>
+        <item>Размер текста: 58</item>
+        <item>Размер текста: 59</item>
+        <item>Размер текста: 60</item>
+        <item>Размер текста: 61</item>
+        <item>Размер текста: 62</item>
+        <item>Размер текста: 63</item>
+        <item>Размер текста: 64</item>
+        <item>Размер текста: 65</item>
+        <item>Размер текста: 66</item>
+        <item>Размер текста: 67</item>
+        <item>Размер текста: 68</item>
+        <item>Размер текста: 69</item>
+        <item>Размер текста: 70</item>
+    </string-array>
+    <string-array name="entryvalues_set_sms_text_size">
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+    </string-array>
+</resources>

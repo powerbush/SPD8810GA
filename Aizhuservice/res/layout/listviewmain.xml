@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@android:color/white">
+  
+  <TextView
+  android:id="@+id/text_phone"
+  android:layout_height="30dip"
+  android:layout_width="fill_parent"
+  android:gravity="center"
+  android:textSize="26dp"/>
+  
+  <EditText
+  android:id="@+id/text_input_phone"
+  android:layout_height="38dip"
+  android:layout_width="fill_parent"
+  android:hint="@string/apninputtestphbnum"
+ 	android:textSize="28dp"
+ 	android:textColor="@android:color/white"
+ 	android:gravity="center"
+  android:layout_marginLeft="3dip"
+  android:layout_marginRight="3dip"
+  android:layout_marginTop="10dip"
+  android:background="@android:color/black"
+  />
+  <Button 
+  android:id="@+id/text_phone_ok"
+  android:layout_height="38dip"
+  android:layout_width="fill_parent"
+  android:layout_marginTop="10dip"
+  android:text="@string/azconfirm"/>
+	
+  <ListView 
+  android:id="@+id/listview_contact_sms"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  ></ListView>
+</LinearLayout>

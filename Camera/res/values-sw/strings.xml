@@ -1,0 +1,145 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">Hitilafu ya Kamera</string>
+    <string name="cannot_connect_camera">Haiwezi kuunganishwa na kamera.</string>
+    <string name="camera_label">Kamera</string>
+    <string name="video_camera_label">Kamkoda</string>
+    <string name="gallery_camera_bucket_name">Picha za Kamera</string>
+    <string name="gallery_camera_videos_bucket_name">Video za Kamera</string>
+    <string name="wait">Subiri tafadhali\u2026</string>
+    <string name="no_storage" product="nosdcard">Tafadhali pandisha hifadhi ya USB kabla ya kutumia kamera.</string>
+    <string name="no_storage" product="default">Tafadhali ingiza kadi ya SD kabla ya kutumia kamera.</string>
+    <string name="not_enough_space" product="nosdcard">Hifadhi yako ya USB imejaa.</string>
+    <string name="not_enough_space" product="default">SD kadi yako imejaa.</string>
+    <string name="preparing_sd" product="nosdcard">Kutayarisha hifadhi ya USB\u2026</string>
+    <string name="preparing_sd" product="default">Tayarisha kadi ya SD\u2026</string>
+    <string name="access_sd_fail" product="nosdcard">Imefeli kupata hifadhi ya USB.</string>
+    <string name="access_sd_fail" product="default">Imefeli kupata SD kadi.</string>
+    <string name="confirm_restore_title">Rejea kwa defaulti</string>
+    <string name="confirm_restore_message">Vipimo vya kamera vitarejeshwa kwenye defaulti.</string>
+    <string name="review_play">Cheza</string>
+    <string name="review_cancel">Kata simu</string>
+    <string name="review_ok">Ndio</string>
+    <string name="review_retake">CHUKUA TENA</string>
+    <string name="camera_gallery_photos_text">Angalia picha</string>
+    <string name="switch_camera_id">Badili lenzi ya Kamera</string>
+    <string name="pref_camera_id_title">Chagua kamera</string>
+    <string name="pref_camera_id_entry_back">Rudi</string>
+    <string name="pref_camera_id_entry_front">Mbele</string>
+    <string name="pref_camera_brightness_title">Uangavu</string>
+    <string name="pref_camera_brightness_entry_0">0</string>
+    <string name="pref_camera_brightness_entry_1">1</string>
+    <string name="pref_camera_brightness_entry_2">2</string>
+    <string name="pref_camera_brightness_entry_3">3</string>
+    <string name="pref_camera_brightness_entry_4">4</string>
+    <string name="pref_camera_brightness_entry_5">5</string>
+    <string name="pref_camera_brightness_entry_6">6</string>
+    <string name="pref_camera_contrast_title">Contrast</string>
+    <string name="pref_camera_contrast_entry_0">0</string>
+    <string name="pref_camera_contrast_entry_1">1</string>
+    <string name="pref_camera_contrast_entry_2">2</string>
+    <string name="pref_camera_contrast_entry_3">3</string>
+    <string name="pref_camera_contrast_entry_4">4</string>
+    <string name="pref_camera_contrast_entry_5">5</string>
+    <string name="pref_camera_contrast_entry_6">6</string>
+    <string name="pref_camera_recordlocation_title">Pahali</string>
+    <string name="pref_camera_recordlocation_entry_off">Zima</string>
+    <string name="pref_camera_recordlocation_entry_on">Washa</string>
+    <string name="pref_video_quality_title">Ubora wa video</string>
+    <string name="pref_video_quality_entry_d1">SD(D1)</string>
+    <string name="pref_video_quality_entry_high">Juu(60m)</string>
+    <string name="pref_video_quality_entry_low">Chini(30m)</string>
+    <string name="pref_video_quality_entry_mms">MMS(Chini,sek 30)</string>
+    <string name="pref_video_quality_entry_youtube">Yu Tub (Juu,10m)</string>
+    <string name="pref_camera_settings_category">Vipimo vya Kamera</string>
+    <string name="pref_camcorder_settings_category">vipimo vya kamkoda</string>
+    <string name="pref_camera_picturesize_title">Ukubwa wa picha</string>
+    <string name="pref_camera_previewsize_title">Modi iliyopita</string>
+    <string name="pref_camera_previewsize_default">Kawaida</string>
+    <string name="pref_camera_previewsize_normal">Kawaida</string>
+    <string name="pref_camera_previewsize_fullscreen">Full screen</string>
+    <string name="pref_videocamera_format_title">Fomati ya video</string>
+    <string name="pref_videocamera_format_default">3gp</string>
+    <string name="pref_videocamera_format_3GP">3gp</string>
+    <string name="pref_videocamera_format_MP4">mp4</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">5M Piksel</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">3M Piksel</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">2M Piksel</string>
+    <string name="pref_camera_picturesize_entry_1280x960">1.2M Piksel</string>
+    <string name="pref_camera_picturesize_entry_1024x768">1M Piksel</string>
+    <string name="pref_camera_jpegquality_title">Ubora wa picha</string>
+    <string name="pref_camera_jpegquality_entry_superfine">Vizuri sana</string>
+    <string name="pref_camera_jpegquality_entry_fine">Nzuri</string>
+    <string name="pref_camera_jpegquality_entry_normal">Kawaida</string>
+    <string name="pref_camera_focusmode_title">Modi ya kuzingatia</string>
+    <string name="pref_camera_focusmode_entry_auto">Kiotomati</string>
+    <string name="pref_camera_focusmode_entry_infinity">Isokikomo</string>
+    <string name="pref_camera_focusmode_entry_macro">Kubwa</string>
+    <string name="pref_camera_focusmode_entry_multi">Nyingi</string>
+    <string name="pref_camera_flashmode_title">Modi ya flashi</string>
+    <string name="pref_camera_flashmode_entry_auto">Kiotomati</string>
+    <string name="pref_camera_flashmode_entry_on">Washa</string>
+    <string name="pref_camera_flashmode_entry_off">Zima</string>
+    <string name="pref_camera_whitebalance_title">White balance</string>
+    <string name="pref_camera_whitebalance_entry_auto">Kiotomati</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">Inkendesent</string>
+    <string name="pref_camera_whitebalance_entry_daylight">Mwangaza wa mchana</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">Umawingu</string>
+    <string name="pref_camera_coloreffect_title">Athari ya rangi</string>
+    <string name="pref_camera_coloreffect_entry_none">Hakuna</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negative</string>
+    <string name="pref_camera_coloreffect_entry_solarize">Kupata nishati ya jua</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Postarizi</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pasteli</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mosaic</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Tint nyekundu</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Bluu tinti</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Tint ya rangi Kijani</string>
+    <string name="pref_camera_scenemode_title">Modi ya usiku</string>
+    <string name="pref_camera_scenemode_entry_auto">Kiotomati</string>
+    <string name="pref_camera_scenemode_entry_action">Kitendo</string>
+    <string name="pref_camera_scenemode_entry_portrait">Picha ya</string>
+    <string name="pref_camera_scenemode_entry_landscape">Maumbile ya Mandhari</string>
+    <string name="pref_camera_scenemode_entry_night">Usiku</string>
+    <string name="pref_camera_scenemode_entry_night_portrait">Usiku portraiti</string>
+    <string name="pref_camera_scenemode_entry_theatre">Ukumbi</string>
+    <string name="pref_camera_scenemode_entry_beach">Ufukweni</string>
+    <string name="pref_camera_scenemode_entry_snow">Theluji</string>
+    <string name="pref_camera_scenemode_entry_sunset">Jua kutua</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">Kutosha picha</string>
+    <string name="pref_camera_scenemode_entry_fireworks">Kazi ya zima moto</string>
+    <string name="pref_camera_scenemode_entry_party">Sherehe</string>
+    <string name="pref_camera_scenemode_entry_candlelight">Mwangaza wa mshumaa</string>
+    <string name="pref_restore_title">Vipimo vya Kamera</string>
+    <string name="pref_restore_detail">Rejea kwa defaulti</string>
+    <string name="pref_exposure_title">Mfiduo</string>
+    <string name="details_ok">Ndio</string>
+    <string name="spaceIsLow_content" product="nosdcard">Hifadhi yako ya USB haina nafasi ya kutosha. Badilisha vipimo vya ubora au futa baadhi ya picha au mafaili.</string>
+    <string name="spaceIsLow_content" product="default">SD kadi yako haina nafasi ya kutosha.Badilisha vipimo vya ubora au futa baadhi ya picha au mafaili.</string>
+    <string name="video_reach_size_limit">Kikomo cha ukubwa kimefikiwa</string>
+    <string name="zoom_control_title">Tutusha"</string>
+    <string name="switch_to_camera_lable">Badili kwenda kwenye kamera</string>
+    <string name="switch_to_video_lable">Badili kwenda kwenye video</string>
+    <string name="hisense_tv_is_running">Tv ya kwenye simu inatembea!</string>
+    <string name="in_video_call_is_running">Wito wa video unatembea!</string>
+    <string name="canot_takepicture">haiwezi kuchukua picha</string>
+    <string name="camera_memory_low">Hifadhi ya kamera ni ndogo,tafadhali badili ukubwa wa picha</string>
+    <string name="memory_full">Nafasi ya kuhifadhi imejaa</string>
+    <string name="pref_camera_antibanding_title">kupambana na banding</string>
+    <string name="pref_camera_antibanding_default">50hz</string>
+    <string name="pref_camera_antibanding_entry_50hz">50hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60hz</string>
+    <string name="pref_camera_continuous_capture_title">Modi ya kunasa</string>
+    <string name="pref_camera_continuous_capture_default">1</string>
+    <string name="pref_camera_continuous_capture_pt">Mkuu</string>
+    <string name="pref_camera_continuous_capture_lp_3">Uendeleaji 3</string>
+    <string name="pref_camera_continuous_capture_lp_5">Uendeleaji 5</string>
+    <string name="pref_camera_continuous_capture_lp_7">Uendeleaji 7</string>
+    <string name="notice_capture_call_back_error">Kosa la kunasa data,tafadhali jaribu tena</string>
+    <string name="access_storage_fail">Imefeli kupata hifadhi</string>
+</resources>

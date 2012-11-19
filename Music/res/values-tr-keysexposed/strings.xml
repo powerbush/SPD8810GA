@@ -1,0 +1,7 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="create_playlist_create_text_prompt">"Şarkı listesi adı"</string>
+    <string name="rename_playlist_same_prompt">"\"<xliff:g id="PLAYLIST">%s</xliff:g>\" şarkı listesini şu şekilde yeniden adlandır:"</string>
+    <string name="rename_playlist_diff_prompt">"\"<xliff:g id="PLAYLIST">%s</xliff:g>\" şarkı listesini şu şekilde yeniden adlandır:"</string>
+</resources>

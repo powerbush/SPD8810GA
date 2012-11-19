@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button 
+                android:text="@string/SettingUpStep"
+                android:id="@+id/button_insurance_up"
+    	        android:layout_width="160dp" 
+    	        android:layout_height="wrap_content"
+    	        android:textSize="30sp"
+    	        android:textColor="#ffffff00"
+                android:background="#00000000">
+        </Button>
+        <Button 
+            android:text="@string/SettingNextStep"
+            android:id="@+id/button_insurance_next"
+    	    android:layout_width="160dp" 
+    	    android:layout_height="wrap_content"  
+    	    android:textSize="30sp"    	    
+    	    android:layout_alignParentRight="true"    
+    	    android:textColor="#ffffff00"	    
+    	    android:background="#00000000">
+        </Button> 
+     </RelativeLayout>   
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </RelativeLayout> 
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+        <TextView 
+            android:text="@string/SettingUserInsuranceStar"
+            android:id="@+id/text_insurance_star"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            	
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="30dip">
+        </TextView>
+        <Button 
+                android:id="@+id/insuranceStart_key" 
+                android:layout_width="fill_parent" 
+    	        android:layout_height="wrap_content"
+                android:textSize="30dip" 
+                android:layout_gravity="right"
+                android:layout_below="@id/text_insurance_star"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black">
+        </Button>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </RelativeLayout> 
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+        <TextView 
+            android:text="@string/SettingUserInsuranceEnd" 
+            android:id="@+id/text_insurance_end"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="30dip">
+        </TextView>
+        <Button 
+                android:id="@+id/insuranceEnd_key"
+                android:layout_width="fill_parent" 
+    	        android:layout_height="wrap_content"
+                android:textSize="30dip" 
+                android:layout_gravity="right"
+                android:layout_below="@id/text_insurance_end"	
+                android:background="@android:color/white"
+                android:textColor="@android:color/black">
+        </Button>
+
+    </RelativeLayout>    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="180dp">
+    </RelativeLayout> 
+    
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Orasan</string>
+    <string name="alarm_list_title">Mga alarma</string>
+    <string name="add_alarm">Dugang ug alarma</string>
+    <string name="menu_desk_clock">La mesa nga orasan</string>
+    <string name="menu_edit_alarm">Usbon ang alarma</string>
+    <string name="delete_alarm">I-delete ang alarma</string>
+    <string name="enable_alarm">Paandaron ang alarma</string>
+    <string name="disable_alarm">Pagngon ang alarma</string>
+    <string name="delete_alarm_confirm">Kini nga alarma kay madelete.</string>
+    <string name="show_clock">Pakita ug orasan</string>
+    <string name="hide_clock">Tagoan ang orasan</string>
+    <string name="label">Tatak</string>
+    <string name="default_label">Alarma</string>
+    <string name="set_alarm">Takda ug alarma</string>
+    <string name="alarm_vibrate">Mangurog</string>
+    <string name="alarm_repeat">I-balik</string>
+    <string name="alert">Ringtone</string>
+    <string name="time">Oras</string>
+    <string name="alarm_alert_dismiss_text">Tiwalag</string>
+    <string name="alarm_alert_snooze_text">Pa-unyaon</string>
+    <string name="alarm_alert_power_off">"Pawng ang power"</string>
+    <string-array name="alarm_set">
+        <item>Kini nga alarma kay gitakda ubos sa 1 ka minuto gikan karon.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string name="day">"1 adlaw"</string>
+    <string name="hour">1 ka oras</string>
+    <string name="minute">"1 minuto"</string>
+    <string name="every_day">kada adlaw</string>
+    <string name="never">Dili jud</string>
+    <string name="clock_instructions">Pili ug orasan para ipakita.</string>
+    <string name="analog_gadget">Analog nga orasan</string>
+    <string name="settings">Mga setting</string>
+    <string name="alarm_in_silent_mode_title">Alarma sa hilom nga paagi</string>
+    <string name="alarm_in_silent_mode_summary">Paandar ug alarma bisag naa sa hilom nga paagi ang telepono</string>
+    <string name="snooze_duration_title">Pa-unya nga kadugayon</string>
+    <string-array name="snooze_duration_entries">
+      <item>5 ka minuto</item>
+      <item>10 ka minuto</item>
+      <item>15 ka minuto</item>
+      <item>20 ka minuto</item>
+      <item>25 ka minuto</item>
+      <item>30 ka minuto</item>
+    </string-array>
+    <string name="done">Humana</string>
+    <string name="revert">Balihon</string>
+    <string name="delete">Delete</string>
+    <string name="alarm_volume_title">Alarma nga volume</string>
+    <string name="alarm_volume_summary">Takda ug volume sa mga alarma</string>
+    <string name="silent_alarm_summary">Hilomon</string>
+    <string name="alarm_notify_text">Pili para pa-unyaon o tiwalagon kini nga alarma.</string>
+    <string name="volume_button_setting_title">Volume ug Camera</string>
+    <string name="volume_button_dialog_title">Epekto sa pislitanan</string>
+    <string name="volume_button_setting_summary">Andamon ang unsa mabuhat ani nga mga pislitanan kung napislit samtang sa alarma</string>
+    <string-array name="volume_button_setting_entries">
+      <item>Wala</item>
+      <item>Pa-unyaon</item>
+      <item>Tiwalag</item>
+    </string-array>
+    <string name="alarm_button_description">Mga alarma</string>
+    <string name="gallery_button_description">Galerya</string>
+    <string name="music_button_description">Tukar</string>
+    <string name="nightmode_button_description">Ngitngit</string>
+    <string name="home_button_description">Tigsugod</string>
+    <string name="desk_clock_button_description">Pakita ang orasan</string>
+    <string name="weather_fetch_failure">Impormasyon sa panahon dili pa magamit karon.</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">Mga setting sa pantalan</string>
+</resources>

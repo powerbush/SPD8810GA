@@ -1,0 +1,156 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">"1 เพลง"</string>
+    <plurals name="Nsongs">
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> เพลง"</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">"<xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> จาก <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> เพลง"</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <!-- number of albums is one -->
+        <item quantity="one">"1 อัลบั้ม"</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> อัลบั้ม"</item>
+    </plurals>
+    <string name="goto_start">"ไลบรารี"</string>
+    <string name="goto_playback">"เล่น"</string>
+    <string name="party_shuffle">"รายการเพลงสุ่ม"</string>
+    <string name="party_shuffle_off">"ปิดรายการเพลงสุ่ม"</string>
+    <string name="delete_item">"ลบ"</string>
+    <string name="shuffle_all">"สุ่มเพลงทั้งหมด"</string>
+    <string name="play_all">"เล่นทั้งหมด"</string>
+    <string name="delete_artist_desc">"เพลงทั้งหมดโดย <xliff:g id="ARTIST">%s</xliff:g> จะถูกลบออกจากการ์ด SD โดยถาวร"</string>
+    <string name="delete_artist_desc_nosdcard" msgid="1843750591006508005">"เพลงทั้งหมดของ <xliff:g id="ARTIST">%s</xliff:g> จะถูกลบอย่างถาวรจากที่เก็บข้อมูล USB"</string>
+    <string name="delete_album_desc">"อัลบั้ม \"<xliff:g id="ALBUM">%s</xliff:g>\" ทั้งหมดจะถูกลบจากการ์ด SD อย่างถาวร"</string>
+    <string name="delete_album_desc_nosdcard" msgid="535515999268177079">"อัลบั้ม \"<xliff:g id="ALBUM">%s</xliff:g>\" ทั้งหมดจะถูกลบจากที่เก็บข้อมูล USB อย่างถาวร"</string>
+    <string name="delete_song_desc">"\"<xliff:g id="SONG">%s</xliff:g>\" จะถูกลบออกจากการ์ด SD โดยถาวร"</string>
+    <string name="delete_song_desc_nosdcard" msgid="1856800468541831408">"\"<xliff:g id="SONG">%s</xliff:g>\" จะถูกลบจากที่เก็บข้อมูล USB อย่างถาวร"</string>
+    <string name="delete_confirm_button_text">"ตกลง"</string>
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">"ลบไป 1 เพลง"</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other">"เพลง <xliff:g id="SONGS_TO_DELETE">%d</xliff:g> เพลงถูกลบ"</item>
+    </plurals>
+    <string name="scanning">"กำลังสแกนการ์ด SD…"</string>
+    <string name="scanning_nosdcard" msgid="3529383847223198502">"กำลังสแกนที่เก็บข้อมูล USB…"</string>
+    <string name="nowplaying_title">"กำลังเล่น"</string>
+    <string name="partyshuffle_title">"รายการเพลงสุ่ม"</string>
+    <string name="artists_title">"ศิลปิน"</string>
+    <string name="albums_menu">"อัลบั้ม"</string>
+    <string name="albums_title">"อัลบั้ม"</string>
+    <string name="tracks_menu">"เพลง"</string>
+    <string name="tracks_title">"เพลง"</string>
+    <string name="playlists_menu">"รายการเพลง"</string>
+    <string name="playlists_title">"รายการเพลง"</string>
+    <string name="videos_title">"วิดีโอ"</string>
+    <string name="all_title">"สื่อทั้งหมด"</string>
+    <string name="browse_menu">"ศิลปิน"</string>
+    <string name="search_title">"ค้นหา"</string>
+    <string name="no_tracks_title">"ไม่มีเพลง"</string>
+    <string name="no_videos_title">"ไม่มีวิดีโอ"</string>
+    <string name="no_playlists_title">"ไม่มีรายการเพลง"</string>
+    <string name="delete_playlist_menu">"ลบ"</string>
+    <string name="edit_playlist_menu">"แก้ไข"</string>
+    <string name="rename_playlist_menu">"เปลี่ยนชื่อ"</string>
+    <string name="playlist_deleted_message">"รายการเพลงถูกลบ"</string>
+    <string name="playlist_renamed_message">"เปลี่ยนชื่อรายการเพลง"</string>
+    <string name="recentlyadded">"เพิ่งเพิ่มเข้ามา"</string>
+    <string name="recentlyadded_title">"เพิ่งเพิ่มเข้ามา"</string>
+    <string name="podcasts_listitem">"พอดแคสต์"</string>
+    <string name="podcasts_title">"พอดแคสต์"</string>
+    <string name="sdcard_missing_title">"ไม่มีการ์ด SD"</string>
+    <string name="sdcard_missing_title_nosdcard" msgid="9008284946643270850">"ไม่มีที่เก็บข้อมูล USB"</string>
+    <string name="sdcard_missing_message">"โทรศัพท์ของคุณไม่ได้ใส่การ์ด SD"</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="1169260755336159747">"โทรศัพท์ของคุณไม่มีที่เก็บข้อมูล USB"</string>
+    <string name="sdcard_busy_title">"ใช้งานการ์ด SD ไม่ได้"</string>
+    <string name="sdcard_busy_title_nosdcard" msgid="1162763571147174655">"ที่เก็บข้อมูล USB ใช้งานไม่ได้"</string>
+    <string name="sdcard_busy_message">"ขออภัย การ์ด SD ไม่ว่าง"</string>
+    <string name="sdcard_busy_message_nosdcard" msgid="8071868348072728830">"ขออภัย ที่เก็บข้อมูล USB ของคุณไม่ว่าง"</string>
+    <string name="sdcard_error_title">"ข้อผิดพลาดการ์ด SD"</string>
+    <string name="sdcard_error_title_nosdcard" msgid="165682155008600643">"ข้อผิดพลาดของที่เก็บข้อมูล USB"</string>
+    <string name="sdcard_error_message">"พบข้อผิดพลาดบนการ์ด SD ของคุณ"</string>
+    <string name="sdcard_error_message_nosdcard" msgid="4574563894036627855">"พบข้อผิดพลาดบนที่เก็บข้อมูล USB ของคุณ"</string>
+    <string name="unknown_artist_name">"ไม่ทราบศิลปิน"</string>
+    <string name="unknown_album_name">"ไม่ทราบอัลบั้ม"</string>
+    <string name="shuffle_on_notif">"เปิดการสุ่มเพลง"</string>
+    <string name="shuffle_off_notif">"ปิดการสุ่มเพลง"</string>
+    <string name="repeat_off_notif">"ปิดการเล่นซ้ำ"</string>
+    <string name="repeat_current_notif">"เล่นเพลงปัจจุบันซ้ำ"</string>
+    <string name="repeat_all_notif">"เล่นเพลงทั้งหมดซ้ำ"</string>
+    <string name="ringtone_menu">"ใช้เป็นเสียงเรียกเข้าของโทรศัพท์"</string>
+    <string name="ringtone_menu_short">"ใช้เป็นเสียงเรียกเข้า"</string>
+    <string name="ringtone_set">"\"<xliff:g id="NAME">%s</xliff:g>\" ถูกตั้งค่าเป็นเสียงเรียกเข้าของโทรศัพท์"</string>
+    <string name="play_selection">"เล่น"</string>
+    <string name="add_to_playlist">"เพิ่มในรายการเพลง"</string>
+    <string name="queue">"รายการเพลงปัจจุบัน"</string>
+    <string name="new_playlist">"ใหม่"</string>
+    <string name="new_playlist_name_template">"รายการเพลงใหม่ <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">"เพิ่มในรายการเพลง 1 เพลง"</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other">"เพิ่ม <xliff:g id="NUMBER">%d</xliff:g> เพลงลงในรายการเพลง"</item>
+    </plurals>
+    <string name="emptyplaylist">"รายการเพลงที่เลือกไว้ว่างเปล่า"</string>
+    <string name="create_playlist_create_text">"บันทึก"</string>
+    <string name="create_playlist_overwrite_text">"เขียนทับ"</string>
+    <string name="service_start_error_title">"ปัญหาการเล่น"</string>
+    <string name="service_start_error_msg">"ขออภัย เล่นเพลงนี้ไม่ได้"</string>
+    <string name="service_start_error_button">"ตกลง"</string>
+    <string-array name="weeklist">
+        <item>"1 สัปดาห์"</item>
+        <item>"2 สัปดาห์"</item>
+        <item>"3 สัปดาห์"</item>
+        <item>"4 สัปดาห์"</item>
+        <item>"5 สัปดาห์"</item>
+        <item>"6 สัปดาห์"</item>
+        <item>"7 สัปดาห์"</item>
+        <item>"8 สัปดาห์"</item>
+        <item>"9 สัปดาห์"</item>
+        <item>"10 สัปดาห์"</item>
+        <item>"11 สัปดาห์"</item>
+        <item>"12 สัปดาห์"</item>
+    </string-array>
+    <string name="weekpicker_set">"เสร็จสิ้น"</string>
+    <string name="weekpicker_title">"ตั้งเวลา"</string>
+    <string name="save_as_playlist">"บันทึกเป็นรายการเพลง"</string>
+    <string name="clear_playlist">"ล้างรายการเพลง"</string>
+    <string name="musicbrowserlabel">"เพลง"</string>
+    <string name="musicshortcutlabel">"รายการเพลง"</string>
+    <string name="mediaplaybacklabel">"เพลง"</string>
+    <string name="videobrowserlabel">"วิดีโอ"</string>
+    <string name="mediapickerlabel">"เพลง"</string>
+    <string name="playback_failed">"ขออภัย โปรแกรมเล่นไม่สนับสนุนไฟล์เสียงประเภทนี้"</string>
+    <string name="cancel">"ยกเลิก"</string>
+    <string name="remove_from_playlist">"นำออกจากรายการเพลง"</string>
+    <string name="streamloadingtext">"กำลังเชื่อมต่อไปยัง <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="mediasearch">"ค้นหาเกี่ยวกับ <xliff:g id="TERM">%s</xliff:g> โดยใช้:"</string>
+    <string name="working_artists">"ศิลปิน..."</string>
+    <string name="working_albums">"อัลบั้ม..."</string>
+    <string name="working_songs">"เพลง..."</string>
+    <string name="working_playlists">"รายการเพลง..."</string>
+    <string name="loading">"กำลังโหลด"</string>
+    <string name="sort_by_track">"แทร็ก"</string>
+    <string name="sort_by_album">"อัลบั้ม"</string>
+    <string name="sort_by_artist">"ศิลปิน"</string>
+    <string name="music_picker_title">"เลือกแทร็กเพลง"</string>
+    <string name="gadget_track">"แทร็ก <xliff:g id="TRACK_NUMBER">%d</xliff:g>"</string>
+    <string name="fail_to_start_stream">"เล่นสื่อที่ขอไว้ไม่สำเร็จ"</string>
+    <string name="search_settings_description">"ศิลปิน อัลบั้ม และแทร็ก"</string>
+    <string name="search_hint">"ค้นหาเพลง"</string>
+    <string name="fast_scroll_alphabet">" กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ"</string>
+    <string name="widget_initial_text">"แตะเพื่อเลือกเพลง"</string>
+    <string name="effectspanel">"เอฟเฟ็กต์เสียง"</string>
+    <string name="delete_from_playlist">"จะลบออกจากรายการที่เล่น"</string>
+    <string name="delete_playlist">"ต้องการลบรายการเล่นหรือไม่?"</string>
+    <string name="no_play">การเล่นซ้ำเป็นสิ่งต้องห้ามขณะที่โทร</string>
+    <string name="add_music">เพิ่มเพลง</string>
+    <string name="music_selected_all">ทั้งหมด</string>
+    <string name="confirm_add">เพิ่ม</string>
+    <string name="cancel_add">ยกเลิก</string>
+    <string name="activity_title">เพิ่มเพลง</string>
+    <string name="no_sd_card">SD การ์ดยังไม่ได้กำหนดตำแหน่งหรือหาไม่เจอ</string>
+</resources>

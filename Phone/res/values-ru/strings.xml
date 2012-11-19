@@ -1,0 +1,982 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="contactsIconLabel">"Контакты"</string>
+    <string name="contactsFavoritesLabel">"Избранное"</string>
+    <string name="dialerIconLabel">"Телефон"</string>
+    <string name="emergencyDialerIconLabel">"Номера экстренных вызовов"</string>
+    <string name="phoneIconLabel">"Телефон"</string>
+    <string name="recentCallsIconLabel">"Список вызовов"</string>
+    <string name="fdnListLabel">"Разрешенные номера"</string>
+    <string name="unknown">"Неизвестный абонент"</string>
+    <string name="private_num">"Скрытый номер"</string>
+    <string name="payphone">"Телефон-автомат"</string>
+    <string name="onHold">"Ждет ответа"</string>
+    <string name="ongoing">"Активный вызов"</string>
+    <string name="callFailed_userBusy">"Линия занята"</string>
+    <string name="callFailed_congestion">"Сеть занята"</string>
+    <string name="callFailed_timedOut">"Нет ответа, время ожидания истекло"</string>
+    <string name="callFailed_server_unreachable">"Сервер недоступен"</string>
+    <string name="callFailed_number_unreachable">"Номер недоступен"</string>
+    <string name="callFailed_invalid_credentials">"Неверное имя пользователя или пароль"</string>
+    <string name="callFailed_out_of_network">"Вызов из сети"</string>
+    <string name="callFailed_server_error">"Ошибка сервера. Повторите попытку позже."</string>
+    <string name="callFailed_noSignal">"Нет сигнала"</string>
+    <string name="callFailed_limitExceeded">"Превышен лимит ACM"</string>
+    <string name="callFailed_powerOff">"Радио выключено"</string>
+    <string name="callFailed_simError">"SIM-карта не установлена или ошибка SIM-карты"</string>
+    <string name="callFailed_outOfService">"Вне зоны действия сети"</string>
+    <string name="callFailed_fdn_only">"Вы можете позвонить только на телефоны из списка разрешенных номеров."</string>
+    <string name="callFailed_cb_enabled">"Если включена функция запрета вызовов, невозможно осуществлять исходящие вызовы."</string>
+    <string name="callFailed_dsac_restricted">"Все вызовы запрещены настройками доступа."</string>
+    <string name="callFailed_dsac_restricted_emergency">"Экстренные вызовы запрещены настройками доступа."</string>
+    <string name="callFailed_dsac_restricted_normal">"Обычные вызовы запрещены настройками доступа."</string>
+    <string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: телефон заблокирован до следующего включения."</string>
+    <string name="callFailed_cdma_drop">"CDMA: вызов сброшен."</string>
+    <string name="callFailed_cdma_intercept">"CDMA: вызов перехвачен."</string>
+    <string name="callFailed_cdma_reorder">"CDMA: возобновить."</string>
+    <string name="callFailed_cdma_SO_reject">"CDMA: не принят параметр службы."</string>
+    <string name="callFailed_cdma_retryOrder">"CDMA: порядок дозвона."</string>
+    <string name="callFailed_cdma_accessFailure">"CDMA: ошибка доступа."</string>
+    <string name="callFailed_cdma_preempted">"CDMA: зарезервировано."</string>
+    <string name="callFailed_cdma_notEmergency">"Возможны только экстренные вызовы"</string>
+    <string name="callFailed_unobtainable_number">"Недействительный номер"</string>
+    <string name="confCall">"Конференц-вызов"</string>
+    <string name="call_lost">"Вызов был утрачен."</string>
+    <string name="retry">"Повторить попытку"</string>
+    <string name="call_lost_title">"Вызов утрачен"</string>
+    <string name="mmiStarted">"Код MMI запущен"</string>
+    <string name="ussdRunning">"Выполняется запрос USSD…"</string>
+    <string name="mmiCancelled">"Код MMI отменен"</string>
+    <string name="cancel">"Отмена"</string>
+    <string name="menu_speaker">"Динамик"</string>
+    <string name="menu_bluetooth">"Bluetooth"</string>
+    <string name="menu_mute">"Микрофон выкл."</string>
+    <string name="menu_hold">"Удержание"</string>
+    <string name="menu_endCall">"Завершить вызов"</string>
+    <string name="menu_swapCalls">"Другой вызов"</string>
+    <string name="menu_mergeCalls">"Соединить"</string>
+    <string name="menu_phoneRecorder">Record</string>
+    <string name="menu_addCall">"+ вызов"</string>
+    <string name="menu_manageConference">"Управление конференц-связью"</string>
+    <string name="menu_showDialpad">"Показать кнопки"</string>
+    <string name="menu_hideDialpad">"Скрыть кнопки"</string>
+    <string name="menu_answerAndHold">"Поставить текущий вызов на удержание"\n"и ответить"</string>
+    <string name="menu_answerAndEnd">"Завершить текущий вызов "\n"и ответить"</string>
+    <string name="ok">OK</string>
+    <string name="menuButtonHint">"Нажмите кнопку \"Меню\", чтобы просмотреть варианты действий."</string>
+    <string name="menuButtonKeyboardDialHint">"Нажмите кнопку \"Меню\", чтобы увидеть варианты действий.  •  Используйте клавиатуру для набора номера"</string>
+    <string name="menu_answer">"Ответить"</string>
+    <string name="menu_ignore">"Игнорировать"</string>
+    <string name="wait_prompt_str">"Отправить следующие тоны?"\n</string>
+    <string name="pause_prompt_str">"Отправка тональных сигналов"\n</string>
+    <string name="send_button">"Позвонить"</string>
+    <string name="pause_prompt_yes">"Да"</string>
+    <string name="pause_prompt_no">"Нет"</string>
+    <string name="wild_prompt_str">"Заменить универсальный символ на"</string>
+    <string name="no_vm_number">"Не указан номер голосовой почты"</string>
+    <string name="no_vm_number_msg">"На SIM-карте нет ни одного номера голосовой почты."</string>
+    <string name="add_vm_number_str">"Добавить номер"</string>
+    <string name="dialer_emptyListWorking">"Идет загрузка…"</string>
+    <string name="enterPin">"Чтобы разблокировать SIM-карту, введите PIN."</string>
+    <string name="pinUnlocked">"SIM-карта разблокирована"</string>
+    <string name="enterNewPin">"Новый PIN SIM-карты"</string>
+    <string name="verifyNewPin">"Для подтверждения введите новый PIN SIM-карты"</string>
+    <string name="verifyFailed">"Введенные коды PIN SIM-карты не совпадают. Повторите попытку."</string>
+    <string name="enterPuk">"Введите код PUK, чтобы разблокировать SIM-карту"</string>
+    <string name="badPuk">"Неверный код PUK"</string>
+    <string name="buttonTxtContinue">"Продолжить"</string>
+    <string name="puk_unlocked">"SIM-карта разблокирована. Осуществляется разблокировка телефона..."</string>
+    <string name="label_ndp">"PIN для разблокировки сети SIM-карты"</string>
+    <string name="sim_ndp_unlock_text">"Разблокировать"</string>
+    <string name="sim_ndp_dismiss_text">"Закрыть"</string>
+    <string name="requesting_unlock">"Запрос разблокировки сети..."</string>
+    <string name="unlock_failed">"Запрос на разблокировку сети не выполнен."</string>
+    <string name="unlock_success">"Разблокировка сети успешно завершена."</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="labelGSMMore">"Настройки вызовов GSM"</string>
+    <string name="labelCDMAMore">"Настройки вызовов CDMA"</string>
+    <string name="apn_settings">"Точки доступа (APN)"</string>
+    <string name="settings_label">"Настройки сети"</string>
+    <string name="voicemail">"Голосовая почта"</string>
+    <string name="voicemail_abbreviated">"ГП:"</string>
+    <string name="networks">"Операторы связи"</string>
+    <string name="call_settings">"Вызовы"</string>
+    <string name="additional_gsm_call_settings">"Дополнительные настройки"</string>
+    <string name="sum_gsm_call_settings">"Дополнительные настройки только для вызовов GSM"</string>
+    <string name="additional_cdma_call_settings">"Дополнительные настройки вызовов CDMA"</string>
+    <string name="sum_cdma_call_settings">"Дополнительные настройки только для вызовов CDMA"</string>
+    <string name="labelNwService">"Настройки сетевой службы"</string>
+    <string name="labelCallerId">"АОН"</string>
+    <string name="sum_hide_caller_id">"Скрывать номер при исходящих вызовах"</string>
+    <string name="sum_show_caller_id">"Номер, отображающийся при исходящих вызовах"</string>
+    <string name="sum_default_caller_id">"При исходящих вызовах использовать для отображения моего номера настройки, предоставляемые оператором"</string>
+    <string name="labelCW">"Параллельный вызов"</string>
+    <string name="sum_cw_enabled">"Извещать меня о входящих вызовах во время разговора"</string>
+    <string name="sum_cw_disabled">"Извещать меня о входящих вызовах во время разговора"</string>
+    <string name="call_forwarding_settings">"Настройки переадресации вызова"</string>
+    <string name="call_barring_settings">Настройки запрета звонков</string>
+    <string name="labelCF">"Переадресация вызова"</string>
+    <string name="labelCB">"Запрет вызовов"</string>
+    <string name="labelCFU">"Всегда на номер"</string>
+    <string name="messageCFU">"Всегда переадресовывать вызов на этот номер"</string>
+    <string name="sum_cfu_enabled_indicator">"Переадресация всех вызовов"</string>
+    <string name="sum_cfu_enabled">"Переадресация всех вызовов на номер <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfu_enabled_no_number">"Номер не указан"</string>
+    <string name="sum_cfu_disabled">"Отключено"</string>
+    <string name="labelCFB">"Если занято"</string>
+    <string name="messageCFB">"Номер, использующийся, когда линия занята"</string>
+    <string name="sum_cfb_enabled">"Переадресация на номер <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfb_disabled">"Отключено"</string>
+    <string name="disable_cfb_forbidden">"Ваш оператор не поддерживает отключение переадресации звонков, если телефон занят."</string>
+    <string name="labelCFNRy">"При отсутствии ответа"</string>
+    <string name="messageCFNRy">"Номер для переадресации при отсутствии ответа"</string>
+    <string name="sum_cfnry_enabled">"Переадресация на номер <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnry_disabled">"Отключено"</string>
+    <string name="disable_cfnry_forbidden">"Ваш оператор не поддерживает отключение переадресации звонков, если нет ответа."</string>
+    <string name="labelCFNRc">"Если недоступен"</string>
+    <string name="messageCFNRc">"Номер для переадресации, если абонент недоступен"</string>
+    <string name="sum_cfnrc_enabled">"Переадресация на номер <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnrc_disabled">"Отключено"</string>
+    <string name="disable_cfnrc_forbidden">"Ваш оператор не поддерживает отключение переадресации звонков, если телефон находится вне зоны доступа."</string>
+    <string name="network_wrong" msgid="">"Неожиданный ответ сети"</string>
+    <string name="number_empty" msgid="">"Номер пуст"</string>
+    <string name="cb_pw_error" msgid="">"Пароль неверный"</string>
+    <string name="cb_pw_correct" msgid="">"Пароль был изменен"</string>
+    <string name="cb_pw_no_match" msgid="">"пароли не совпадают"</string>
+    <string name="labelAO">Все исходящие</string>
+    <string name="messageAO">Введите пароль запрета вызовов.</string>
+    <string name="sum_ao_enabled_indicator">"Переадресация всех вызовов"</string>
+    <string name="sum_ao_enabled">Включено</string>
+    <string name="sum_ao_disabled">Отключено</string>
+    <string name="enable_ao_forbidden">Ваш носитель не поддерживает подключение блокировки всех исходящих вызовов.</string>
+    <string name="disable_ao_forbidden">Ваш носитель не поддерживает отключение блокировки всех исходящих вызовов.</string>
+    <string name="labelOI">Исходящие международные вызовы</string>
+    <string name="messageOI">Введите пароль запрета вызовов.</string>
+    <string name="sum_oi_enabled">Включено</string>
+    <string name="sum_oi_disabled">Отключено</string>
+    <string name="enable_oi_forbidden">Ваш носитель не поддерживает подключение блокировки всех исходящих международных вызовов.</string>
+    <string name="disable_oi_forbidden">Ваш носитель не поддерживает отключение блокировки всех исходящих международных вызовов.</string>
+    <string name="labelOX">Исходящий международный роуминг</string>
+    <string name="messageOX">Введите пароль запрета вызовов.</string>
+    <string name="sum_ox_enabled">Включено</string>
+    <string name="sum_ox_disabled">Отключено</string>
+    <string name="enable_ox_forbidden">Ваш носитель не поддерживает подключение блокировки всех исходящих международных вызовов в роуминге.</string>
+    <string name="disable_ox_forbidden">Ваш носитель не поддерживает отключение блокировки всех исходящих международных вызовов в роуминге.</string>
+    <string name="labelAI">Все входящие</string>
+    <string name="messageAI">Введите пароль запрета вызовов.</string>
+    <string name="sum_ai_enabled">Включено</string>
+    <string name="sum_ai_disabled">Отключено</string>
+    <string name="enable_ai_forbidden">Ваш носитель не поддерживает подключение блокировки всех входящих вызовов.</string>
+    <string name="disable_ai_forbidden">Ваш носитель не поддерживает отключение блокировки всех входящих вызовов.</string>
+    <string name="labelIR">Входящие вызовы в роуминге</string>
+    <string name="messageIR">Введите пароль запрета вызовов.</string>
+    <string name="sum_ir_enabled">Включено</string>
+    <string name="sum_ir_disabled">Отключено</string>
+    <string name="enable_ir_forbidden">Ваш носитель не поддерживает подключение блокировки всех входящих вызовов в роуминге.</string>
+    <string name="disable_ir_forbidden">Ваш носитель не поддерживает отключение блокировки всех входящих вызовов в роуминге.</string>
+    <string name="labelAB">Деактивировать все</string>
+    <string name="messageAB">Введите пароль запрета вызовов.</string>
+    <string name="sum_ab_enabled">Включено</string>
+    <string name="sum_ab_disabled">Отключено</string>
+    <string name="enable_ab_forbidden">Ваш носитель не поддерживает полную деактивацию.</string>
+    <string name="disable_ab_forbidden">Ваш носитель не поддерживает полную активацию.</string>
+    <string name="labelChgPwd">Изменить пароль</string>
+    <string name="DlgChgPwd_oldpwd">Введите пароль запрета вызовов.</string>
+    <string name="DlgChgPwd_newpwd_first">Введите новый пароль</string>
+    <string name="DlgChgPwd_newpwd_last">Подтвердить новый пароль</string>
+    <string name="updating_title">"Настройки вызовов"</string>
+    <string name="error_updating_title">"Ошибка настройки вызовов"</string>
+    <string name="reading_settings">"Чтение настроек…"</string>
+    <string name="updating_settings">"Обновление настроек…"</string>
+    <string name="reverting_settings">"Возврат к предыдущим настройкам…"</string>
+    <string name="response_error">"Неожиданный отклик сети."</string>
+    <string name="exception_error">"Ошибка сети или SIM-карты."</string>
+    <string name="fdn_only_error">"Возможны операции только с разрешенными номерами."</string>
+    <string name="radio_off_error">"Чтобы увидеть эти настройки, нужно включить радио."</string>
+    <string name="close_dialog">OK</string>
+    <string name="enable">"Включить"</string>
+    <string name="disable">"Отключить"</string>
+    <string name="change_num">"Обновить"</string>
+    <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
+        <item>"Настройки сети по умолчанию"</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
+        <item>"Скрыть номер"</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
+        <item>"Показывать номер"</item>
+    </string-array>
+    <string-array name="clir_values">
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>УМОЛЧАНИЕ</xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>СКРЫТЬ</xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>ПОКАЗАТЬ</xliff:g></item>
+    </string-array>
+    <string name="vm_save_number">"Сохранить номер голосовой почты"</string>
+    <string name="vm_changed">"Номер голосовой почты изменен."</string>
+    <string name="vm_change_failed">"Не удалось изменить номер голосовой почты."\n"Если проблема не будет решена, свяжитесь со своим оператором."</string>
+    <string name="fw_change_failed">"Не удалось изменить номер переадресации вызовов."\n"Если проблема не будет решена, свяжитесь со своим оператором."</string>
+    <string name="fw_get_in_vm_failed">"Не удалось извлечь и сохранить текущие настройки переадресации."\n"Все равно сменить провайдера?"</string>
+    <string name="no_change">"Номер не изменен."</string>
+    <string name="sum_voicemail_choose_provider">"Выберите службу голосовой почты"</string>
+    <string name="voicemail_default">"Мой оператор"</string>
+    <string name="mobile_networks">"Настройки сотовой сети"</string>
+    <string name="mobile_networks_sim1">SIM1</string>
+    <string name="mobile_networks_sim2">SIM2</string>
+    <string name="mobile_networks_other">"Другое"</string>
+    <string name="label_available">"Доступные сети"</string>
+    <string name="label_available_sim1">SIM1 доступные сети</string>
+    <string name="label_available_sim2">SIM2 доступные сети</string>
+    <string name="load_networks_progress">"Поиск…"</string>
+    <string name="empty_networks_list">"Сети не найдены."</string>
+    <string name="search_networks">"Поиск сетей"</string>
+    <string name="network_query_error">"Ошибка поиска сетей."</string>
+    <string name="register_on_network">"Регистрация в сети <xliff:g id="NETWORK">%s</xliff:g>…"</string>
+    <string name="not_allowed">"Установленная SIM-карта не может подключиться к этой сети."</string>
+    <string name="connect_later">"Не удается подключиться к этой сети. Повторите попытку позже."</string>
+    <string name="registration_done">"Регистрация в сети завершена."</string>
+    <string name="sum_carrier_select">"Выберите оператора связи"</string>
+    <string name="sum_search_networks">"Поиск всех доступных сетей"</string>
+    <string name="select_automatically">"Выбирать автоматически"</string>
+    <string name="sum_select_automatically">"Автоматически выбирать предпочтительную сеть"</string>
+    <string name="register_automatically">"Автоматическая регистрация..."</string>
+    <string name="preferred_network_mode_title">"Режим сети"</string>
+    <string name="preferred_network_mode_summary">"Изменить режим работы сети"</string>
+    <string name="preferred_network_mode_dialogtitle">"Режим предпочтительной сети"</string>
+    <string-array name="preferred_network_mode_choices">
+        <!-- <item>Global</item> -->
+        <!-- <item>EvDo only</item> -->
+        <!-- <item>CDMA w/o EvDo</item> -->
+        <!-- <item>CDMA / EvDo auto</item> -->
+        <!-- <item>GSM / WCDMA auto</item> -->
+        <!-- <item>WCDMA only</item> -->
+        <!-- <item>GSM only</item> -->
+        <!-- <item>GSM / WCDMA preferred</item> -->
+        <item>"По всему миру"</item>
+        <item>"Только EvDo"</item>
+        <item>"CDMA без EvDo"</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <!-- <item>"7"</item> -->
+        <!-- <item>"6"</item> -->
+        <!-- <item>"5"</item> -->
+        <!-- <item>"4"</item> -->
+        <!-- <item>"3"</item> -->
+        <item>"7"</item>
+        <item>"6"</item>
+        <item>"5"</item>
+    </string-array>
+    <string name="data_enabled">"Передача данных"</string>
+    <string name="data_enable_summary">"Разрешить передачу данных по сети мобильной связи"</string>
+    <string name="roaming">"Интернет-роуминг"</string>
+    <string name="roaming_enable">"Подключаться к службам передачи данных в роуминге"</string>
+    <string name="roaming_disable">"Подключаться к службам передачи данных в роуминге"</string>
+    <string name="roaming_reenable_message">"Передача данных прекращена, потому что телефон находится за пределами домашней сети, а интернет-роуминг выключен."</string>
+    <string name="roaming_warning">"Разрешить интернет-роуминг? Возможны высокие расходы за использование роуминга."</string>
+    <string name="gsm_umts_options">"Параметры GSM/UMTS"</string>
+    <string name="cdma_options">"Параметры CDMA"</string>
+    <string name="throttle_data_usage">"Передача данных"</string>
+    <string name="throttle_settings_title">"Политика передачи данных оператора связи"</string>
+    <string name="throttle_current_usage">"Передача данных в текущем периоде"</string>
+    <string name="throttle_time_frame">"Время передачи данных"</string>
+    <string name="throttle_rate">"Скорость передачи данных"</string>
+    <string name="throttle_help">"Подробнее"</string>
+    <string name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) из <xliff:g id="USED_2">%3$s</xliff:g> (максимум)"\n"Следующий период начнется в течение <xliff:g id="USED_3">%4$d</xliff:g> дн. (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) из <xliff:g id="USED_2">%3$s</xliff:g> (максимум)"</string>
+    <string name="throttle_data_rate_reduced_subtext">"Превышен лимит в <xliff:g id="USED_0">%1$s</xliff:g>."\n"Скорость передачи данных снижена до <xliff:g id="USED_1">%2$d</xliff:g> кбит/с."</string>
+    <string name="throttle_time_frame_subtext">"Пройдено <xliff:g id="USED_0">%1$d</xliff:g>% цикла."\n"Следующий период начнется в течение <xliff:g id="USED_1">%2$d</xliff:g> дн. (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string name="throttle_rate_subtext">"Превышение лимита снижает скорость передачи данных до <xliff:g id="USED">%1$d</xliff:g> кбит/с"</string>
+    <string name="throttle_help_subtext">"Подробнее о политике передачи данных вашего оператора мобильной связи..."</string>
+    <string name="cdma_cell_broadcast_sms">"Широковещательные SMS-службы"</string>
+    <string name="cell_broadcast_sms">"Широковещательные SMS-службы"</string>
+    <string name="enable_disable_cell_bc_sms">"Широковещательные SMS-службы"</string>
+    <string name="cell_bc_sms_enable">"Широковещательные SMS-службы включены"</string>
+    <string name="cell_bc_sms_disable">"Широковещательные SMS-службы отключены"</string>
+    <string name="cb_sms_settings">"Настройки широковещательных SMS-служб"</string>
+    <string name="channel_list">Список каналов</string>
+    <string name="refreshing">Обновление…</string>
+    <string name="channel_name">Название канала</string>
+    <string name="channel_number">Номер канала</string>
+    <string name="info_input_channel_number">Пожалуйста, введите номер канала</string>
+    <string name="info_input_channel_number_num">Пожалуйста, введите только номера</string>
+    <string name="menu_add_channel">Добавить канал</string>
+    <string name="text_mode">Текстовый режим</string>
+    <string name="pdu_mode">Pdu режим</string>
+    <string name="get_cb_config">Получить CB конфигурацию</string>
+    <string name="menu_add_address_to_contacts">"Добавить пользователя <xliff:g id="NAME">%s</xliff:g> в Контакты"</string>
+    <string name="edit">"Правка" </string>
+    <string name="menu_delete_channel">"Удалить"</string>
+    <string name="no">"Отмена"</string>
+    <string name="confirm_dialog_title">"Удалить"</string>
+    <string name="confirm_delete_message">"Сообщение будет удалено."</string>
+    <string name="enable_disable_emergency_broadcast">"Оповещения о чрезвычайных ситуациях"</string>
+    <string name="emergency_broadcast_enable">"Оповещения о чрезвычайных ситуациях включены"</string>
+    <string name="emergency_broadcast_disable">"Оповещения о чрезвычайных ситуациях отключены"</string>
+    <string name="enable_disable_administrative">"Административные функции"</string>
+    <string name="administrative_enable">"Административные функции включены"</string>
+    <string name="administrative_disable">"Административные функции отключены"</string>
+    <string name="enable_disable_maintenance">"Поддержка"</string>
+    <string name="maintenance_enable">"Поддержка включена"</string>
+    <string name="maintenance_disable">"Поддержка отключена"</string>
+    <string name="general_news_settings">"Основные новости"</string>
+    <string name="bf_news_settings">"Финансовые и деловые новости"</string>
+    <string name="sports_news_settings">"Новости спорта"</string>
+    <string name="entertainment_news_settings">"Калейдоскоп"</string>
+    <string name="enable_disable_local">"Местные"</string>
+    <string name="local_enable">"Местные новости включены"</string>
+    <string name="local_disable">"Местные новости отключены"</string>
+    <string name="enable_disable_regional">"Региональные"</string>
+    <string name="regional_enable">"Региональные новости включены"</string>
+    <string name="regional_disable">"Региональные новости отключены"</string>
+    <string name="enable_disable_national">"Национальные"</string>
+    <string name="national_enable">"Национальные новости включены"</string>
+    <string name="national_disable">"Национальные новости отключены"</string>
+    <string name="enable_disable_international">"Международные"</string>
+    <string name="international_enable">"Международные новости включены"</string>
+    <string name="international_disable">"Международные новости отключены"</string>
+    <string name="list_language_title">"Язык"</string>
+    <string name="list_language_summary">"Выбрать язык для новостей"</string>
+    <string name="broadcast">"Широковещательные SMS-службы"</string>
+    <string name="menu_cellbroadcastsms">Сотовая трансляция</string>
+    <string name="language_eng">Английский</string>
+    <string name="language_fren">Французский</string>
+    <string name="language_spanish">Испанский</string>
+    <string name="language_japanese">Японский </string>
+    <string name="language_korean">Корейский</string>
+    <string name="language_chinese">китайский</string>
+    <string name="language_hebrew">Иврит</string>
+    <string name="same_setting">Пожалуйста, переустановите канал ID, он совпадает с именем канала</string>
+    <string-array name="list_language_entries">
+        <item>"Английский"</item>
+        <item>"Французский"</item>
+        <item>"Испанский"</item>
+        <item>"Японский"</item>
+        <item>"Корейский"</item>
+        <item>"Китайский"</item>
+        <item>"Иврит"</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">"Языки"</string>
+    <string name="enable_disable_local_weather">"Местный прогноз погоды"</string>
+    <string name="local_weather_enable">"Местный прогноз погоды включен"</string>
+    <string name="local_weather_disable">"Местный прогноз погоды отключен"</string>
+    <string name="enable_disable_atr">"Информация о пробках"</string>
+    <string name="atr_enable">"Информация о пробках включена"</string>
+    <string name="atr_disable">"Информация о пробках отключена"</string>
+    <string name="enable_disable_lafs">"Расписание рейсов местного аэропорта"</string>
+    <string name="lafs_enable">"Расписание рейсов местного аэропорта включено"</string>
+    <string name="lafs_disable">"Расписание рейсов местного аэропорта отключено"</string>
+    <string name="enable_disable_restaurants">"Рестораны"</string>
+    <string name="restaurants_enable">"Рестораны включены"</string>
+    <string name="restaurants_disable">"Рестораны отключены"</string>
+    <string name="enable_disable_lodgings">"Аренда жилья"</string>
+    <string name="lodgings_enable">"Аренда жилья включена"</string>
+    <string name="lodgings_disable">"Аренда жилья отключена"</string>
+    <string name="enable_disable_retail_directory">"Торговый каталог"</string>
+    <string name="retail_directory_enable">"Торговый каталог включен"</string>
+    <string name="retail_directory_disable">"Торговый каталог отключен"</string>
+    <string name="enable_disable_advertisements">"Реклама"</string>
+    <string name="advertisements_enable">"Реклама включена"</string>
+    <string name="advertisements_disable">"Реклама отключена"</string>
+    <string name="enable_disable_stock_quotes">"Котировки ценных бумаг"</string>
+    <string name="stock_quotes_enable">"Котировки ценных бумаг включены"</string>
+    <string name="stock_quotes_disable">"Котировки ценных бумаг отключены"</string>
+    <string name="enable_disable_eo">"Вакансии"</string>
+    <string name="eo_enable">"Вакансии включены"</string>
+    <string name="eo_disable">"Вакансии отключены"</string>
+    <string name="enable_disable_mhh">"Медицинские учреждения и больницы"</string>
+    <string name="mhh_enable">"Медицинские учреждения и больницы включены"</string>
+    <string name="mhh_disable">"Медицинские учреждения и больницы отключены"</string>
+    <string name="enable_disable_technology_news">"Новости технологий"</string>
+    <string name="technology_news_enable">"Новости технологий включены"</string>
+    <string name="technology_news_disable">"Новости технологий отключены"</string>
+    <string name="enable_disable_multi_category">"Подборка из нескольких категорий"</string>
+    <string name="multi_category_enable">"Подборка из нескольких категорий включена"</string>
+    <string name="multi_category_disable">"Подборка из нескольких категорий отключена"</string>
+    <string name="cell_broadcast_empty">Отсутствует информация по каналу!</string>
+    <string name="gsm_umts_network_preferences_title">"Параметры сети GSM/UMTS"</string>
+    <string name="gsm_umts_network_preferneces_summary">"Еще не реализовано!"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Настройки сети GSM/UMTS"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"GSM/WCDMA (автоматический режим)"</item>
+        <item>"Только WCDMA"</item>
+        <item>"Только GSM"</item>
+        <item>"GSM/WCDA (предпочтительно WCDMA)"</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+    <string name="prefer_2g">"Только сети 2G"</string>
+    <string name="prefer_2g_summary">"Использовать сети 2G для экономии заряда батареи"</string>
+    <string name="cdma_system_select_title">"Выбор системы"</string>
+    <string name="cdma_system_select_summary">"Изменить режим роуминга CDMA"</string>
+    <string name="cdma_system_select_dialogtitle">"Выбор системы"</string>
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>"Только домашняя"</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
+        <item>"Автоматически"</item>
+    </string-array>
+    <string name="cdma_roaming_mode_title">"Режим роуминга CDMA"</string>
+    <string name="cdma_roaming_mode_summary">"Изменить режим роуминга CDMA"</string>
+    <string name="cdma_roaming_mode_dialogtitle">"Режим роуминга CDMA"</string>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>"Только домашние сети"</item>
+        <item>"Аффилированные сети"</item>
+        <item>"Любая сеть"</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_network_preferences_title">"Параметры сети CDMA"</string>
+    <string name="cdma_network_preferneces_summary">"Еще не реализовано!"</string>
+    <string name="cdma_network_preferences_dialogtitle">"Настройки сети CDMA"</string>
+    <string-array name="cdma_network_preferences_choices">
+        <item>"CDMA/EvDo"</item>
+        <item>"Только CDMA"</item>
+        <item>"Только EvDo"</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_subscription_title">"CDMA-подключение"</string>
+    <string name="cdma_subscription_summary">"Переключение между RUIM/SIM и NV"</string>
+    <string name="cdma_subscription_dialogtitle">"подписка"</string>
+    <string-array name="cdma_subscription_choices">
+        <item>"RUIM/SIM"</item>
+        <item>"NV"</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <string name="fdn">"Разрешенные номера"</string>
+    <string name="manage_fdn_list">"Разрешенные номера"</string>
+    <string name="fdn_activation">"Активация разреш. номеров"</string>
+    <string name="fdn_enabled">"Разрешенные номера включены"</string>
+    <string name="fdn_disabled">"Разрешенные номера отключены"</string>
+    <string name="enable_fdn">"Вкл. разреш. номера"</string>
+    <string name="disable_fdn">"Откл. разреш. номера"</string>
+    <string name="change_pin2">"Изменить PIN2"</string>
+    <string name="enable_fdn_ok">"Откл. разреш. номера"</string>
+    <string name="disable_fdn_ok">"Вкл. разреш. номера"</string>
+    <string name="sum_fdn">"Управление списком разрешенных номеров"</string>
+    <string name="sum_fdn_change_pin">"Изменить PIN для доступа к списку разрешенных номеров"</string>
+    <string name="sum_fdn_manage_list">"Управление списком разрешенных номеров"</string>
+    <string name="voice_privacy">"Конфиденциальность разговоров"</string>
+    <string name="voice_privacy_summary">"Включить усиленный режим конфиденциальности"</string>
+    <string name="tty_mode_title">"Режим телетайпа"</string>
+    <string name="tty_mode_summary">"Включить режим телетайпа"</string>
+    <string name="tty_mode_option_title">"Режим телетайпа"</string>
+    <string name="tty_mode_option_summary">"Установить режим телетайпа"</string>
+    <string name="auto_retry_mode_title">"Автодозвон"</string>
+    <string name="auto_retry_mode_summary">"Включить режим автодозвона"</string>
+    <string name="menu_add">"Добавить контакт"</string>
+    <string name="menu_edit">"Изменить контакт"</string>
+    <string name="menu_delete">"Удалить контакт"</string>
+    <string name="get_pin2">"Введите PIN2"</string>
+    <string name="name">"Имя"</string>
+    <string name="number">"Номер"</string>
+    <string name="save">"Сохранить"</string>
+    <string name="add_fdn_contact">"Добавить номер ограниченного набора"</string>
+    <string name="adding_fdn_contact">"Выполняется добавление номера ограниченного набора..."</string>
+    <string name="fdn_contact_added">"Номер ограниченного набора добавлен."</string>
+    <string name="edit_fdn_contact">"Изменить номер ограниченного набора"</string>
+    <string name="updating_fdn_contact">"Выполняется обновление номера ограниченного набора..."</string>
+    <string name="fdn_contact_updated">"Номер ограниченного набора обновлен."</string>
+    <string name="delete_fdn_contact">"Удалить номер ограниченного набора"</string>
+    <string name="deleting_fdn_contact">"Выполняется удаление номера ограниченного набора…"</string>
+    <string name="fdn_contact_deleted">"Номер ограниченного набора удален."</string>
+    <string name="pin2_invalid">"Номер ограниченного набора не обновлен: вы ввели неверный PIN-код."</string>
+    <string name="fdn_invalid_number">"Номер ограниченного набора не обновлен: он не должен содержать больше 20 цифр."</string>
+    <string name="simContacts_emptyLoading">"Считывание с SIM-карты…"</string>
+    <string name="simContacts_empty">"На SIM-карте нет контактов."</string>
+    <string name="simContacts_title">"Выберите контакты для импорта"</string>
+    <string name="enable_pin">"Включить/отключить запрос PIN SIM-карты"</string>
+    <string name="change_pin">"Изменить PIN SIM-карты"</string>
+    <string name="enter_pin_text">"PIN SIM-карты:"</string>
+    <string name="oldPinLabel">"Прежний PIN"</string>
+    <string name="newPinLabel">"Новый PIN"</string>
+    <string name="confirmPinLabel">"Подтвердите новый PIN"</string>
+    <string name="badPin">"Введен неверный прежний PIN. Повторите попытку."</string>
+    <string name="mismatchPin">"Введенные коды PIN не совпадают. Повторите попытку."</string>
+    <string name="invalidPin">"Введите PIN, содержащий от 4 до 8 цифр."</string>
+    <string name="disable_sim_pin">"Отключить запрос PIN SIM-карты"</string>
+    <string name="enable_sim_pin">"Включить запрос PIN SIM-карты"</string>
+    <string name="enable_in_progress">"Подождите..."</string>
+    <string name="enable_pin_ok">"Запрос PIN SIM-карты включен"</string>
+    <string name="disable_pin_ok">"Запрос PIN SIM-карты отключен"</string>
+    <string name="pin_failed">"Введен неверный PIN"</string>
+    <string name="pin_changed">"PIN SIM-карты успешно изменен"</string>
+    <string name="puk_requested">"Неверный пароль, SIM-карта заблокирована! Введите код PUK2."</string>
+    <string name="enter_pin2_text">"PIN2"</string>
+    <string name="oldPin2Label">"Прежний PIN2"</string>
+    <string name="newPin2Label">"Новый PIN2"</string>
+    <string name="confirmPin2Label">"Подтвердите новый PIN2"</string>
+    <string name="badPuk2">"Введен неверный код PUK2. Повторите попытку."</string>
+    <string name="badPin2">"Введен неверный прежний код PIN2. Повторите попытку."</string>
+    <string name="mismatchPin2">"Введенные коды PIN2 не совпадают. Повторите попытку."</string>
+    <string name="invalidPin2">"Введите PIN2, содержащий от 4 до 8 цифр."</string>
+    <string name="promptWordOne">Остаться</string>
+    <string name="promptWordTwo">раз(ы)</string>
+    <string name="invalidPuk2">"Введите 8-значный код PUK2."</string>
+    <string name="pin2_changed">"PIN2 успешно изменен"</string>
+    <string name="label_puk2_code">"Введите код PUK2"</string>
+    <string name="fdn_enable_puk2_requested">"Неверный пароль. Измените код PIN2 и повторите попытку."</string>
+    <string name="puk2_requested">"Неверный пароль, SIM-карта заблокирована! Введите код PUK2."</string>
+    <string name="doneButton">"Готово"</string>
+    <string name="caller_manage_header">"Конференц-вызов: <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="caller_manage_manage_done_text">"Вернуться к вызову"</string>
+    <string name="fake_phone_activity_phoneNumber_text">(650) 555-1234</string>
+    <string name="fake_phone_activity_infoText_text">Номер входящего вызова</string>
+    <string name="fake_phone_activity_placeCall_text">Поддельный входящий вызов</string>
+    <string name="sim_missing_continueView_text">"Продолжить без SIM-карты"</string>
+    <string name="sim_missing_msg_text">"SIM-карта отсутствует. Установите SIM-карту в телефон."</string>
+    <string name="sim_unlock_dismiss_text">"Закрыть"</string>
+    <string name="sim_unlock_unlock_text">"Разблокировать"</string>
+    <string name="sim_unlock_status_text">"Проверка PIN…"</string>
+    <string name="voicemail_settings_number_label">"Номер голосовой почты"</string>
+    <string name="card_title_dialing">"Набор номера"</string>
+    <string name="card_title_dialing_video">Набор видео</string>
+    <string name="card_title_alerting_video">Оповещение пользователя</string>
+    <string name="card_title_redialing">"Повторная попытка"</string>
+    <string name="card_title_in_progress">"Активный вызов"</string>
+    <string name="card_title_conf_call">"Конференц-вызов"</string>
+    <string name="card_title_incoming_call">"Входящий вызов"</string>
+    <string name="card_title_incoming_video_call">Входящий видеозвонок</string>
+    <string name="card_title_cdma_call_waiting">"Ожидание вызова CDMA"</string>
+    <string name="card_title_call_ended">"Вызов завершен"</string>
+    <string name="card_title_on_hold">"Ждет ответа"</string>
+    <string name="card_title_hanging_up">"Завершение разговора"</string>
+    <string name="card_title_in_call">"Поступающий вызов"</string>
+    <string name="card_title_my_phone_number">"Мой номер: <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_missedCallTitle">"Пропущенный вызов"</string>
+    <string name="notification_missedCallsTitle">"Пропущенные вызовы"</string>
+    <string name="notification_missedCallsMsg">"Пропущенных вызовов: <xliff:g id="NUM_MISSED_CALLS">%s</xliff:g>"</string>
+    <string name="notification_missedCallTicker">"Пропущенные вызовы от абонента <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_ongoing_call_format">"Активный вызов (<xliff:g id="DURATION">%s</xliff:g>)"</string>
+    <string name="notification_on_hold">"На удержании"</string>
+    <string name="notification_incoming_call">"Входящий вызов"</string>
+    <string name="notification_voicemail_title">"Новое сообщение голосовой почты"</string>
+    <string name="notification_voicemail_title_count">"Новое сообщение голосовой почты (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string name="notification_voicemail_text_format">"Набор <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_voicemail_no_vm_number">"Номер голосовой почты неизвестен"</string>
+    <string name="notification_network_selection_title">"Сеть не найдена"</string>
+    <string name="notification_network_selection_text">"Выбранная сеть (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) недоступна."</string>
+    <string name="incall_error_power_off">"Перед тем как звонить, отключите режим полета."</string>
+    <string name="incall_error_emergency_only">"Нет регистрации в сети."</string>
+    <string name="incall_error_out_of_service">"Мобильная сеть недоступна."</string>
+    <string name="incall_error_no_phone_number_supplied">"Вызов не осуществляется, действительный номер телефона не указан."</string>
+    <string name="incall_error_call_failed">"Вызов не осуществляется."</string>
+    <string name="incall_status_dialed_mmi">"Запуск последовательности MMI..."</string>
+    <string name="incall_status_dialed_fc">"Запуск последовательности кодов функций..."</string>
+    <string name="incall_error_supp_service_unknown">"Услуга не поддерживается."</string>
+    <string name="incall_error_supp_service_switch">"Не удается переключить вызовы."</string>
+    <string name="incall_error_supp_service_separate">"Не удалось разделить вызов."</string>
+    <string name="incall_error_supp_service_transfer">"Не удалось перевести вызов."</string>
+    <string name="incall_error_supp_service_conference">"Не удается создать конференц-вызов."</string>
+    <string name="incall_error_supp_service_reject">"Невозможно отклонить вызов."</string>
+    <string name="incall_error_supp_service_hangup">"Не удается разъединить абонентов."</string>
+    <string name="incall_error_dialvt_in_2gcall">Видеозвонок уже производится, мы не можем совершить видеозвонок!</string>
+    <string name="incall_error_dialvt_in_3gcall">Видеозвонок уже производится, мы не можем совершить видеозвонок!</string>
+    <string name="incall_error_dial_in_3gcall">Видеозвонок уже производится, мы не можем совершить видеозвонок!</string>
+    <string name="incall_error_aireplane_mode_on">Для произведения звонка сначала выключите режим полета</string>
+    <string name="emergency_enable_radio_dialog_title">"Экстренный вызов"</string>
+    <string name="emergency_enable_radio_dialog_message">"Включение радио…"</string>
+    <string name="emergency_enable_radio_dialog_retry">"Вне зоны действия сети, повторное подключение..."</string>
+    <string name="dial_emergency_error">"Вызов не осуществляется, <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> не является номером экстренного вызова!"</string>
+    <string name="dial_emergency_empty_error">"Вызов не осуществлен, наберите номер экстренного вызова!"</string>
+    <string name="dialerKeyboardHintText">"Используйте клавиатуру для набора номера"</string>
+    <string name="dtmfDialpadHintText">"Тональная клавиатура"</string>
+    <string name="dtmfDialpadHandleLabel">"Кнопки"</string>
+    <string name="touchLockText">"Нажмите дважды"\n"для разблокировки"</string>
+    <string name="onscreenAnswerText">"Нажмите дважды,"\n"чтобы ответить."</string>
+    <string name="onscreenRejectText">"Нажмите дважды,"\n"чтобы отклонить."</string>
+    <string name="onscreenHoldText">"Удерживать"</string>
+    <string name="onscreenUnholdText">"Снять удержание"</string>
+    <string name="onscreenEndCallText">"Завершить"</string>
+    <string name="onscreenShowDialpadText">"Кнопки"</string>
+    <string name="onscreenHideDialpadText">"Скрыть"</string>
+    <string name="onscreenSpeakerText">"Динамик"</string>
+    <string name="onscreenMuteText">"Откл. звук"</string>
+    <string name="onscreenBluetoothText">"Bluetooth"</string>
+    <string name="onscreenAddCallText">"+ вызов"</string>
+    <string name="onscreenMergeCallsText">"Соединить"</string>
+    <string name="onscreenSwapCallsText">"Перевод звонка"</string>
+    <string name="onscreenManageCallsText">"Управление вызовами"</string>
+    <string name="onscreenManageConferenceText">"Управлять"</string>
+    <string name="importSimEntry">"Импортировать"</string>
+    <string name="importAllSimEntries">"Импортировать все"</string>
+    <string name="importingSimContacts">"Импорт контактов с SIM-карты"</string>
+    <string name="importToFDNfromContacts">"Импортировать из контактов"</string>
+    <string name="hac_mode_title">"Слуховые аппараты"</string>
+    <string name="hac_mode_summary">"Включить слуховой аппарат"</string>
+    <string-array name="tty_mode_entries">
+        <item>"Телетайп выключен"</item>
+        <item>"Полнофункциональный телетайп"</item>
+        <item>"Телетайп с возможностью слышать собеседника"</item>
+        <item>"Телетайп с возможностью передачи голоса"</item>
+    </string-array>
+    <string name="eri_text_label">"Текст ERI"</string>
+    <string name="dtmf_tones_title">"Тональные сигналы DTMF"</string>
+    <string name="dtmf_tones_summary">"Настроить длительность тональных сигналов DTMF"</string>
+    <string-array name="dtmf_tone_entries">
+      <item>"Обычные"</item>
+      <item>"Длинные"</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+       <item>"0"</item>
+       <item>"1"</item>
+    </string-array>
+    <string name="network_message">"Сообщение сети"</string>
+    <string name="ota_title_activate">"Активировать телефон"</string>
+    <string name="ota_touch_activate">"Необходим специальный звонок для активации службы телефона. "\n\n"После нажатия кнопки \"Активировать\" прослушайте инструкции по активации телефона."</string>
+    <string name="ota_touch_activate_new">"Нажмите “Активировать”, чтобы позвонить на специальный номер для активации телефона в сети оператора мобильной связи. После этого вы сможете совершать вызовы и подключаться к мобильным сетям передачи данных."</string>
+    <string name="ota_skip_activation_dialog_title">"Пропустить активацию?"</string>
+    <string name="ota_skip_activation_dialog_message">"Если вы пропустите активацию, вы не сможете совершать вызовы и подключаться к мобильным сетям передачи данных (хотя вы сможете подключаться к сетям Wi-Fi). Пока вы не активируете свой телефон, запрос активации будет отображаться при каждом его включении."</string>
+    <string name="ota_skip_activation_dialog_skip_label">"Пропустить"</string>
+    <string name="ota_skip_activation_dialog_continue_label">"Активировать"</string>
+    <string name="ota_activate">"Активировать"</string>
+    <string name="ota_title_activate_success">"Телефон активирован!"</string>
+    <string name="ota_title_problem_with_activation">"Неполадки при активации"</string>
+    <string name="ota_listen">"Следуйте голосовым инструкциям, пока вам не сообщат, что активация завершена."</string>
+    <string name="ota_dialpad">"Клавиатура"</string>
+    <string name="ota_speaker">"Динамик"</string>
+    <string name="ota_progress">"Дождитесь завершения программирования телефона."</string>
+    <string name="ota_failure">"Сбой при программировании"</string>
+    <string name="ota_successful">"Ваш телефон активирован. Включение службы может занять до 15 минут."</string>
+    <string name="ota_unsuccessful">"Телефон не был активирован. "\n"Возможно, вам следует найти зону с более высоким уровнем сигнала (у окна или на улице). "\n\n"Повторите попытку или свяжитесь со службой поддержки."</string>
+    <string name="ota_spc_failure">"ПРЕВЫШЕНИЕ ЧИСЛА ОШИБОК SPC"</string>
+    <string name="ota_call_end">"Назад"</string>
+    <string name="ota_try_again">"Повторите попытку"</string>
+    <string name="ota_next">"Далее"</string>
+    <string name="ota_back">"Назад"</string>
+    <string name="ecm_exit_dialog">"ДиалогВыходаРАЭВ"</string>
+    <string name="phone_entered_ecm_text">"Телефон переведен в режим экстренных обратных вызовов"</string>
+    <string name="phone_in_ecm_notification_title">"Режим экстренных обратных вызовов"</string>
+    <string name="phone_in_ecm_call_notification_text">"Передача данных отключена"</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Подключение для передачи данных отсутствует <xliff:g id="COUNT">%s</xliff:g> мин."</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Подключение для передачи данных отсутствует <xliff:g id="COUNT">%s</xliff:g> мин."</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Телефон перейдет в режим экстренных обратных вызовов на <xliff:g id="COUNT">%s</xliff:g> мин. В этом режиме невозможно использовать приложения, задействующие передачу данных. Выйти из режима?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Телефон перейдет в режим экстренных обратных вызовов на <xliff:g id="COUNT">%s</xliff:g> мин. В этом режиме невозможно использовать приложения, задействующие передачу данных. Выйти из режима?"</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Выбранное действие недоступно в режиме экстренных обратных вызовов. Телефон будет оставаться в этом режиме еще <xliff:g id="COUNT">%s</xliff:g> мин. Выйти из режима?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Выбранное действие недоступно в режиме экстренных обратных вызовов. Телефон будет оставаться в этом режиме еще <xliff:g id="COUNT">%s</xliff:g> мин. Выйти из режима?"</item>
+    </plurals>
+    <string name="alert_dialog_in_ecm_call">"Выбранное действие невозможно в режиме экстренной связи"</string>
+    <string name="progress_dialog_exiting_ecm">"Выход из режима экстренных обратных вызовов"</string>
+    <string name="alert_dialog_yes">"Да"</string>
+    <string name="alert_dialog_no">"Нет"</string>
+    <string name="alert_dialog_dismiss">"Закрыть"</string>
+    <string name="absent_num">НОМЕР ОТСУТСТВУЕТ</string>
+    <string name="voicemail_settings">"Настройки голосовой почты"</string>
+    <string name="voicemail_number_not_set">"&lt;не задано&gt;"</string>
+    <string name="voicemail_provider">"Служба голосовой почты"</string>
+    <string name="voicemail_settings_for">"Настройки (<xliff:g id="PROVIDER_NAME">%s</xliff:g>)"</string>
+    <string name="other_settings">"Другие настройки вызовов"</string>
+    <string name="dial_button_label">"Набор номера"</string>
+    <string name="calling_via_template">"Звонок через ^1"\n<b>"^2"</b></string>
+    <string name="slide_to_answer">"Перетащите вкладку вправо, чтобы ответить"</string>
+    <string name="slide_to_silence">"Перетащите вкладку влево, чтобы отключить звонок"</string>
+    <string name="slide_to_decline">"Перетащите вкладку влево, чтобы отклонить вызов"</string>
+    <string name="slide_to_answer_and_hold">"Перетащите вкладку вправо, чтобы ответить,"\n"удерживая активный вызов"</string>
+    <string name="slide_to_answer_and_end_active">"Перетащите вкладку вправо, чтобы ответить,"\n"завершив активный вызов"</string>
+    <string name="slide_to_answer_and_end_onhold">"Перетащите вкладку вправо, чтобы ответить,"\n"завершив удерживаемый вызов"</string>
+    <string name="slide_to_answer_hint">"Ответить"</string>
+    <string name="slide_to_decline_hint">"Отклонить"</string>
+    <string name="sim_state_not_changes">Состояние доступа/отсутствия доступа к Sim-карте не изменилось.</string>
+    <string name="sim_state_set_timeout">Тайм-аут установок статуса Sim-карты</string>
+    <string name="data_enable_set">Подключение к данным, настройки</string>
+    <string name="data_enable_set_timeout">Подключение к данным, время вышло.</string>
+    <string name="cb_error">Отмена запрета звонков</string>
+    <string name="video_camera_switch">Сменить камеру</string>
+    <string name="video_view_switch">Переключить обзор</string>
+    <string name="video_camera_close">Закрыть камеру</string>
+    <string name="video_camera_open">Открыть камеру</string>
+    <string name="video_speaker_close">Отключить динамик</string>
+    <string name="video_speaker_open">Открыть говоритель</string>
+    <string name="video_bluetooth_close">Закрыть Bluetooth</string>
+    <string name="video_bluetooth_open">Открыть Bluetooth</string>
+    <string name="video_mute">Без звука </string>
+    <string name="video_unmute">Вернуть звук</string>
+    <string name="video_decline">Отклонить</string>
+    <string name="video_falldown">Упасть</string>
+    <string name="video_record">Запись…</string>
+    <string name="video_start_record_both">Начать запись обоих</string>
+    <string name="video_start_record_audio">Начать запись аудио</string>
+    <string name="video_stop_record">Остановить запись</string>
+    <string name="insert_sd_card">Пожалуйста, вставьте SD-карту</string>
+    <string name="storage_is_full">Хранилище заполнено</string>
+    <string name="video_btn_dialer">Клавиатура</string>
+    <string name="video_btn_hangup">Завершить вызов</string>
+    <string name="video_btn_answer">Ответить</string>
+    <string name="video_btn_decline">Отклонить</string>
+    <string name="video_label_name">Имя:</string>
+    <string name="video_label_time">Время звонка:</string>
+    <string name="video_label_status">Статус:</string>
+    <string name="video_label_begintime">Время начала:</string>
+    <string name="video_dialog_incoming">Входящий вызов, принять или нет?</string>
+    <string name="video_dialog_incoming_accept">Принять</string>
+    <string name="video_dialog_incoming_tovoice">Переключить на голос</string>
+    <string name="video_dialog_incoming_hangup">Отсоединение</string>
+    <string name="videophonesetting_label">Настройки видеофона</string>
+    <string name="videophone_setting">Видеофон</string>
+    <string name="videophone_setting_title">Общие настройки видеофона</string>
+    <string name="videophone_setting_summary">Установить опции для показа видеофона, расположения и т.д.</string>
+    <string name="videophone_callforward_setting_title">Настройки видеофона</string>
+    <string name="videophone_callbarring_setting_title">Настройки блокировки видеофона</string>
+    <string name="videophone_setting_title_static_image">Отображать статическое изображение</string>
+    <string name="videophone_setting_title_static_image_set">Установить статическое изображение</string>
+    <string name="videophone_setting_title_remote_static_image_set">Установка удаленного_статического изображения</string>
+    <string name="videophone_setting_title_local_static_image_set">Установка местного_статического изображения</string>
+    <string name="videophone_setting_title_delete_photo">Удалить статическое изображение</string>
+    <string name="videophone_setting_title_take_photo">"Сфотографировать"</string>
+    <string name="videophone_setting_title_pick_photo">"Выбрать фото из галереи"</string>
+    <string name="videophone_setting_photoPickerNotFoundText">"В телефоне нет картинок."</string>
+    <string name="videophone_setting_summary_static_image">Отображать статическое изображение при закрытой камере</string>
+    <string name="videophone_setting_title_layout">Параметры экрана видео</string>
+    <string name="videophone_layout_my_small">Мое видео маленькое</string>
+    <string name="videophone_layout_my_large">Мое видео большое</string>
+    <string name="videophone_setting_default_image">Изображение по умолчанию</string>
+    <string name="videophone_setting_picture_oversize">"Размер картинки не может превышать 640 * 480"</string>
+    <string name="videophone_setting_picture_widthtoosmall">"Ширина картинки не может быть меньше, чем 64"</string>
+    <string name="videophone_setting_picture_heightoosmall">"Высота картинки не может быть меньше, чем 64"</string>
+    <string name="videophone_setting_picture_notjpg">"Поддерживается только jpg формат картинки"</string>
+    <string name="videophone_setting_title_fallback">Запрос о перезванивании</string>
+    <string name="videophone_fallback_always_ask">Напоминать мне каждый раз</string>
+    <string name="videophone_fallback_always_callback">Всегда перезванивать</string>
+    <string name="videophone_fallback_never_callback">Никогда не перезванивать</string>
+    <string name="videophone_setting_dialog_title_layout">Свойства видео</string>
+    <string name="videophone_setting_dialog_title_fallback">Запрос о перезванивании</string>
+    <string name="videophone_setting_layout_defaultvalue">"1"</string>
+    <string name="videophone_setting_fallback_defaultvalue">"1"</string>
+    <string name="videophone_fallback_title">Откат действия видеофона</string>
+    <string name="videophone_never_fallback">Голосовой вызов запроса приемника. Автоматически сбрасывает повторный набор."</string>
+    <string name="videophone_always_fallback">Голосовой вызов запроса приемника. Автоматически осуществляет повторный набор голосого вызова.</string>
+    <string name="videophone_notin3g_never_fallback">"Текущая сеть не поддерживает видеовызов. Откажитесь от повторного набора автоматически".</string>
+    <string name="videophone_notin3g_always_fallback">"Текущая сеть не поддерживает видеовызов. Откажитесь от повторного набора автоматически".</string>
+    <string name="videophone_fallback_menu_videocall">Видеозвонок</string>
+    <string name="videophone_fallback_menu_voicecall">Голосовой вызов</string>
+    <string name="videophone_fallback_menu_cancel">"Отмена"</string>
+    <string name="videophone_fallback_question">Что Вы хотите сделать?</string>
+    <string name="videophone_failcause_1000">"Последний видеозвонок закончился с неполадками, повторите попытку через некоторое время"</string>
+    <string name="videophone_failcause_1">Незарегистрированный номер</string>
+    <string name="videophone_failcause_3">Польз-ль не подключается</string>
+    <string name="videophone_failcause_8">Звонок заблокирован</string>
+    <string name="videophone_failcause_17">Пользователь занят</string>
+    <string name="videophone_failcause_19">"Абонент не отвечает"</string>
+    <string name="videophone_failcause_27">Пользователь выключен</string>
+    <string name="videophone_failcause_34">Подключение прервано</string>
+    <string name="videophone_failcause_63">Вызовы в роуминге запрещены</string>
+    <string name="videophone_failcause_79">Видеовызовы недоступны</string>
+    <string name="videophone_failcause_default">Польз-ль не подключается</string>
+    <string name="videophone_failcause_47">Видеовызов недоступен</string>
+    <string name="videophone_failcause_57">"Вы не подключили услуги VT" </string>
+    <string name="videophone_failcause_58">Видеовызовы недоступны</string>
+    <string name="videophone_failcause_88">Польз-ль выбирает видеовызов</string>
+    <string name="videophone_failcause_minus_1">Сеть 3G не доступна</string>
+    <string name="videophone_incoming_prompt">Входящий видеозвонок</string>
+    <string name="brightness">"Яркость экрана"</string>
+    <string name="camera_brightness">Яркость камеры</string>
+    <string name="camera_contrast">Контрастность камеры</string>
+    <string name="prompt_remotecamera_close">Удаленная камера закрыта</string>
+    <string name="prompt_remotecamera_open">Удаленная камера открыта</string>
+    <string name="sutstitute_not_exist">Сменная картинка не существует</string>
+    <string name="prompt_picture_format_error">"Заменяемая картинка не формата jpeg, восстановить картинку по умолчанию"</string>
+    <string name="prompt_wait_voicecall">Пожалуйста, подождите голосовой звонок</string>
+    <string name="prompt_record_finish">Регистрационный файл был сохранен в</string>
+    <string name="prompt_camera_fail">Ошибка открытия камеры</string>
+    <string name="prompt_no_freespace">В данный момент свободная память превышает 500kb, запись будет остановлена.</string>
+    <string name="audio_db_title_format"><xliff:g id="format">гггг-MM-дд ЧЧ:мм:сс</xliff:g></string>
+    <string name="audio_db_artist_name">Ваши записи</string>
+    <string name="audio_db_album_name">Аудио-записи</string>
+    <string name="audio_db_playlist_name">Мои записи</string>
+    <string name="app_name">Телефон прил.</string>
+    <string name="error_mediadb_new_record">Невозможно сохранить записанное аудио</string>
+    <string name="hangup_reply_message_title">Сообщение отклонено</string>
+    <string name="hangup_reply_message">Ответить на сообщение Отсоединение</string>
+    <string name="hangup_reply_message_tip">при выборе входящего UI, вызывающему автоматически будет отправлено сообщение.</string>
+    <string name="edit_message_content_for_hangup">Правка содержания сообщения</string>
+    <string name="edit_message_content_introdution">Правка содержания сообщения и указание конкретного адресата</string>
+    <string name="label_message_reject">Содержание сообщения для сброса вызова</string>
+    <string name="tip_input_content">У вас нет установленного содержания сообщения</string>
+    <string name="label_button_edit">"Правка" </string>
+    <string name="label_button_ok">Ok</string>
+    <string name="label_button_add_special_reply">Добавить специальный номер для ответа</string>
+    <string name="reply_message_default">Я занят, перезвоню тебе позже!</string>
+    <string name="title_message_reply_for_hangup">Редактировать содержание сообщения</string>
+    <string name="contactPhoto">"фотография контакта"</string>
+    <string name="goPrivate">"приватная конференция"</string>
+    <string name="selectContact">"выбрать контакт"</string>
+    <string name="standby_select">Выбор питания в режиме ожидания</string>
+    <string name="sip_settings">"Настройки интернет-телефонии"</string>
+    <string name="sip_accounts">"Аккаунты интернет-телефонии (SIP)"</string>
+    <string name="sip_accounts_title">"Аккаунты"</string>
+    <string name="sip_accounts_summary">"Управление аккаунтами и состоянием интернет-вызовов (SIP)"</string>
+    <string name="sip_receive_calls">"Принимать входящие"</string>
+    <string name="sip_receive_calls_summary">"Повышает расход заряда батареи"</string>
+    <string name="sip_call_options">"Настроить параметры вызова"</string>
+    <string name="sip_call_options_title">"Использовать Интернет"</string>
+    <string name="sip_call_options_wifi_only_title">"Использовать интернет-соединение (Wi-Fi)"</string>
+    <string name="sip_call_options_entry_1">"Для всех вызовов при возможности передачи данных"</string>
+    <string name="sip_call_options_entry_2">"Только для интернет-вызовов"</string>
+    <string name="sip_call_options_entry_3">"Спрашивать для каждого вызова"</string>
+    <string name="sip_call_options_wifi_only_entry_1">"Для всех вызовов"</string>
+    <string name="auto_reg">"Автоматическая регистрация"</string>
+    <string name="call_priority">"Исходящий вызов через SIP"</string>
+    <string name="pick_outgoing_call_phone_type">"Исходящий вызов"</string>
+    <string name="pick_outgoing_sip_phone">"Аккаунт для интернет-вызовов:"</string>
+    <string name="remember_my_choice">"Использовать для всех интернет-вызовов"</string>
+    <string name="reset_my_choice_hint">"В настройках вызовов можно изменить аккаунт интернет-телефонии, который используется по умолчанию при выполнении вызовов. Для этого выберите другой аккаунт в настройках интернет-вызовов."</string>
+    <string name="pstn_phone">"Вызов по сотовой сети"</string>
+    <string name="internet_phone">"Интернет-вызов"</string>
+    <string name="no_sip_account_found_title">"Нет аккаунтов для интернет-вызовов"</string>
+    <string name="no_sip_account_found">"Нет аккаунтов для интернет-вызовов. Создать аккаунт?"</string>
+    <string name="sip_menu_add">"Добавить"</string>
+    <string name="add_sip_account">"Добавить аккаунт"</string>
+    <string name="remove_sip_account">"Удалить аккаунт"</string>
+    <string name="sip_account_list">"SIP-аккаунты"</string>
+    <string name="saving_account">"Сохранение аккаунта..."</string>
+    <string name="removing_account">"Удаление аккаунта..."</string>
+    <string name="sip_menu_save">"Сохранить"</string>
+    <string name="sip_menu_discard">"Отменить"</string>
+    <string name="alert_dialog_close">"Закройте профиль"</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="close_profile">"Закрыть"</string>
+    <string name="primary_account">"Основной"</string>
+    <string name="primary_account_title">"Сделать этот аккаунт основным"</string>
+    <string name="primary_account_summary">"Использовать этот аккаунт по умолчанию для исходящих вызовов"</string>
+    <string name="advanced_settings_title">"Расширенные настройки"</string>
+    <string name="primary_account_summary_with">"Основной аккаунт. <xliff:g id="REGISTRATION_STATUS">%s</xliff:g>"</string>
+    <string name="registration_status_checking_status">"Проверка состояния..."</string>
+    <string name="registration_status_registering">"Регистрация..."</string>
+    <string name="registration_status_still_trying">"Пожалуйста, подождите..."</string>
+    <string name="registration_status_not_receiving">"Вызовы не принимаются"</string>
+    <string name="registration_status_no_data">"Регистрация аккаунта прервана – отсутствует подключение к Интернету"</string>
+    <string name="registration_status_no_wifi_data">"Регистрация прервана – отсутствует подключение Wi-Fi"</string>
+    <string name="registration_status_not_running">"Не удалось зарегистрировать аккаунт"</string>
+    <string name="registration_status_done">"Вызовы принимаются"</string>
+    <string name="registration_status_failed_try_later">"Не удалось зарегистрировать аккаунт (<xliff:g id="REGISTRATION_ERROR_MESSAGE">%s</xliff:g>); повторная попытка будет предпринята позже."</string>
+    <string name="registration_status_invalid_credentials">"Не удается зарегистрировать аккаунт. Неверные имя пользователя или пароль."</string>
+    <string name="registration_status_server_unreachable">"Не удалось зарегистрировать аккаунт. Неверное имя сервера."</string>
+    <string name="third_party_account_summary">"Этим аккаунтом сейчас пользуется приложение <xliff:g id="ACCOUNT_OWNER">%s</xliff:g>"</string>
+    <string name="sip_edit_title">"Настройки SIP-аккаунта"</string>
+    <string name="sip_edit_new_title">"Настройки SIP-аккаунта"</string>
+    <string name="domain_address_title">"Сервер"</string>
+    <string name="username_title">"Имя пользователя"</string>
+    <string name="password_title">"Пароль"</string>
+    <string name="display_name_title">"Отображаемое имя"</string>
+    <string name="proxy_address_title">"Адрес прокси-сервера"</string>
+    <string name="port_title">"Номер порта"</string>
+    <string name="transport_title">"Протокол"</string>
+    <string name="send_keepalive_title">"Отправлять keep-alive"</string>
+    <string name="send_keepalive_summary">"Отправлять сообщения keep-alive"</string>
+    <string name="auto_registration_title">"Автоматическая регистрация"</string>
+    <string name="auto_registration_summary">"Регистрировать профиль автоматически"</string>
+    <string name="set_primary_title">"Основной аккаунт"</string>
+    <string name="set_primary_summary">"Использовать этот аккаунт по умолчанию для исходящих вызовов"</string>
+    <string name="advanced_settings">"Расширенные настройки"</string>
+    <string name="auth_username_title">"Имя пользователя"</string>
+    <string name="auth_username_summary">"Имя пользователя для аутентификации"</string>
+    <string name="default_preference_summary">"&lt;Не настроено&gt;"</string>
+    <string name="display_name_summary">"&lt;Совпадает с именем пользователя&gt;"</string>
+    <string name="optional_summary">"&lt;Необязательно&gt;"</string>
+    <string name="advanced_settings_show">"▷ Нажмите, чтобы показать все"</string>
+    <string name="advanced_settings_hide">"▽ Нажмите, чтобы скрыть все"</string>
+    <string name="empty_alert">"Поле \"<xliff:g id="INPUT_FIELD_NAME">%s</xliff:g>\" не может быть пустым"</string>
+    <string name="not_a_valid_port">"Номер порта должен быть от 1000 до 65534"</string>
+    <string name="no_internet_available_title">"Подключение к Интернету отсутствует"</string>
+    <string name="no_wifi_available_title">"Отсутствует подключение Wi-Fi"</string>
+    <string name="no_internet_available">"Перед звонком через Интернет проверьте подключение"</string>
+    <string name="no_wifi_available">"Для совершения интернет-вызовов необходимо подключение к сети Wi-Fi (используйте настройки беспроводной сети)."</string>
+    <string name="no_voip">"Интернет-вызов не поддерживается"</string>
+    <string name="send_message">Отклонить звонок сообщением</string>
+    <string name="menu_endbgcall">завершить фоновый вызов</string>
+    <string name="menu_endallcalls">завершить все вызовы</string>
+    <string name="adn_full">ADN заполнена</string>
+    <string name="china_mobile_provider">CHINA MOBILE</string>
+    <string name="chn_cugsm_provider">CHN-CUGSM</string>
+    <string name="network_inhibit">ЗАПРЕЩЕНО</string>
+    <string name="network_unknown">НЕИЗВЕСТНО</string>
+    <string name="disk_full">"Диск заполнен. Невозможно добавить к журналу звонков."</string>
+    <string name="fast_dial">быстрый вызов</string>
+    <string name="fast_dial_settings">установка быстрого вызова</string>
+    <string name="fast_dial_changed">#номер телефона быстрого вызова изменился</string>
+    <string name="fast_dial_no_changed">номер телефона быстрого вызова не изменился.</string>
+    <string name="fast_dial_change_failed">ошибка установки номера телефона быстрого вызова.</string>
+    <string name="fast_dial_2">2#быстрый вызов</string>
+    <string name="fast_dial_3">3#быстрый вызов</string>
+    <string name="fast_dial_4">4#быстрый вызов</string>
+    <string name="fast_dial_5">5#быстрый вызов</string>
+    <string name="fast_dial_6">6#быстрый вызов</string>
+    <string name="fast_dial_7">7#быстрый вызов</string>
+    <string name="fast_dial_8">8#быстрый вызов</string>
+    <string name="fast_dial_9">9#быстрый вызов</string>
+    <string name="no_fast_dial">номер телефона быстрого вызова не установлен</string>
+    <string name="not_set">Не установлено</string>
+    <string name="call_number">В:</string>
+    <string name="place_a_call1">Подписка 1</string>
+    <string name="place_a_call2">Подписка 2</string>
+    <string name="cancel_call">Отменить</string>
+    <string name="sub_1">SUB 1</string>
+    <string name="sub_2">SUB 2</string>
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="other_setting">Другие установки вызова</string>
+    <string name="sim1_call_settings">SIM1 установки вызовов</string>
+    <string name="sim2_call_settings">SIM2 установки вызовов</string>
+    <string name="updating_dualsim_title">Настройки в режиме 2х SIM-карт</string>
+    <string name="toast_message_name_too_long">Слишком длинное имя, пожалуйста, измените его.</string>
+    <string name="toast_message_name_number_null">Имя и номер не могут быть пустыми, пожалуйста, измените их.</string>
+    <string name="toast_message_data_business_on">Соединение данных включено, пожалуйста выключите, когда Вы выберите сеть.</string>
+    <string name="set_ip_dailing_title">IP набор</string>
+    <string name="ip_dailing">Лист IP номеров</string>
+    <string name="ip_dailing_setting_title">Установить IP набор</string>
+    <string name="ip_dailing_one_title">IP номер 1</string>
+    <string name="ip_dailing_two_title">IP номер 2</string>
+    <string name="ip_dailing_three_title">IP номер 3</string>
+    <string name="ip_dailing_four_title">IP номер 4</string>
+    <string name="ip_dailing_five_title">IP номер 5</string>
+    <string name="ip_dailing_save_button_text">Сохранить</string>
+    <string name="dialing_selector">Набор селектора</string>
+    <string name="directly_call">Прямой набор</string>
+    <string name="ip_call">IP набор:</string>
+    <string name="emergency_call">Экстренный вызов</string>
+    <string name="reply_message_cannot_be_empty">Содержание не может быть пустым</string>
+    <string name="auto_send_message">Сообщение автоответчика</string>
+    <string name="auto_send_message_tip">Автоматически отвечать заготовленным сообщением.</string>
+    <string name="UPLMN_setting">"UPLMN установка"</string>
+    <string name="open_cb">Открытие сотовой трансляции SMS</string>
+    <string name="close_cb">Закрытие сотовой трансляции SMS</string>
+    <string name="init_setting">Установки инициализации</string>
+</resources>

@@ -1,0 +1,503 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">"Pagpapadala ng mensahe"</string>
+    <string name="new_message">"Bagong mensahe"</string>
+    <string name="cdma_cell_broadcast_sms">Cell broadcast SMS</string>
+    <string name="cell_broadcast_sms">Cell broadcast SMS</string>
+    <string name="enable_disable_cell_bc_sms">Cell broadcast SMS</string>
+    <string name="cell_bc_sms_enable">Cell broadcast SMS pinagana</string>
+    <string name="cell_bc_sms_disable">Cell broadcast SMS di pinagana</string>
+    <string name="cb_sms_settings">Mga setting ng Cell broadcast SMS</string>
+    <string name="channel_name">Pangalan ng istasyon</string>
+    <string name="channel_number">Numero ng istasyon</string>
+    <string name="no_cell_broadcast">Walang mensahe ng cell broadcast</string>
+    <string name="broadcast">Cell broadcast SMS</string>
+    <string name="menu_cellbroadcastsms">Cell broadcast</string>
+    <string name="list_language_title">"Mga setting ng wika"</string>
+    <string name="list_language_summary">Piliin ang wika ng balita</string>
+    <string name="broadcast_message">Mensahe</string>
+    <string name="language_eng">Ingles</string>
+    <string name="language_fren">Pranses</string>
+    <string name="language_spanish">"Espanyol"</string>
+    <string name="language_japanese">Japanese</string>
+    <string name="language_korean">Wikang Koreano</string>
+    <string name="language_chinese">Wikang Tsino</string>
+    <string name="language_hebrew">Hebrew</string>
+    <string name="language_type">"Wika"</string>
+    <string-array name="list_language_entries">
+        <item>Ingles</item>
+        <item>Pranses</item>
+        <item>"Espanyol"</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Chinese </item>
+        <item>Hebrew</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">Mga wika</string>
+    <string name="create_new_message">"Bumuo ng bagong mensahe"</string>
+    <string name="menu_call_back">"Tawagan si <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_videocall_back">Video Call <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_send_email">"Ipadala ang email kay <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_send_sms">Ipadala ang mensahe sa <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_compose_new">"Lumikha"</string>
+    <string name="menu_preferences">"Mga Setting"</string>
+    <string name="menu_add_address_to_contacts">"Idagdag si <xliff:g id="NAME">%s</xliff:g> sa Mga Contact"</string>
+    <string name="menu_call">"Tawag"</string>
+    <string name="menu_videocall">Tawag sa video</string>
+    <string name="menu_delete_all">"Tanggalin ang mga thread"</string>
+    <string name="menu_delete">"Tanggalin ang thread"</string>
+    <string name="menu_undelivered_messages">"Hindi nahatid na mga mensahe"</string>
+    <string name="menu_view">"Tingnan ang thread"</string>
+    <string name="refreshing">"Nagre-refresh..."</string>
+    <string name="has_draft">"Draft"</string>
+    <string name="re_select_media">Hindi tama ang format, pumili ulit.</string>
+    <string name="broadcast_from_to">"<xliff:g id="SENDER">%1$s</xliff:g>kay <xliff:g id="RECIPIENT">%2$s</xliff:g>"</string>
+    <string name="anonymous_recipient">"Anonymous"</string>
+    <string name="no_subject_view">"(Walang paksa)"</string>
+    <string name="messagelist_sender_self">"Ako"</string>
+    <string name="view_picture">"Tingnan ang larawan"</string>
+    <string name="view_slideshow">"Tingnan ang slideshow"</string>
+    <string name="view_message_details">"Tingnan ang mga detalye ng mensahe"</string>
+    <string name="view_delivery_report">"Tingnan ang ulat"</string>
+    <string name="delete_message">"Tanggalin ang mensahe"</string>
+    <string name="sent_on">"Ipinadala: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="receive_on">"Natanggap: <xliff:g id="date">%s</xliff:g>"</string>
+    <string name="expire_on">"Mag-e-expire sa: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="kilobyte">"KB"</string>
+    <string name="undelivered_msg_dialog_title">"Hindi naipadalang mensahe"</string>
+    <string name="undelivered_msg_dialog_body">"Hindi maipadala ang mensaheng ito."\n"Pagtatangkang isinagawa: <xliff:g id="MESSAGE">%s</xliff:g>."</string>
+    <string name="undelivered_sms_dialog_body">"Hindi magawang ipadala ang mensaheng ito."</string>
+    <string name="delete_thread">"Tanggalin ang thread"</string>
+    <string name="menu_forward">"Ipasa"</string>
+    <string name="download">"I-download"</string>
+    <string name="downloading">"Nagda-download"</string>
+    <string name="name_colon"><b>"<xliff:g id="NAME">%s</xliff:g>"</b>": "</string>
+    <string name="inline_subject">"&lt;Paksa: <xliff:g id="SUBJECT">%s</xliff:g>&gt;"</string>
+    <string name="drm_protected_text">"* Tekstong protektado ng DRM *"</string>
+    <string name="insufficient_drm_rights">"Natuklasan ang hindi sapat na mga karapatang DRM."</string>
+    <string name="copy_message_text">"Kopyahin ang mensaheng teksto"</string>
+    <string name="message_options">"Mga pagpipilian sa mensahe"</string>
+    <string name="move_message_to_sim_text">Kopyahin sa SIM</string>
+    <string name="copy_message_result_success">Tagumpay ang pagkopya</string>
+    <string name="copy_message_result_faile">Nabigo ang pagkopya</string>
+    <string name="done">Tapos</string>
+    <string name="move_up">"Lumipat pataas"</string>
+    <string name="move_down">"Ilipat pababa"</string>
+    <string name="remove_slide">"Alisin ang slide"</string>
+    <string name="add_slide_before" msgid="9140721399423564187">"Magdagdag ng slide, bago"</string>
+    <string name="add_slide">"Magdagdag ng slide"</string>
+    <string name="add_slide_hint">"Piliing lumikha ng bagong slide."</string>
+    <string name="discard_slideshow">"Itapon ang slideshow"</string>
+    <string name="slide_show_part">"Bahagi <xliff:g id="PART">%1$s</xliff:g>/<xliff:g id="TOTAL">%2$s</xliff:g>"</string>
+    <string name="remove_text">"Alisin ang teksto"</string>
+    <string name="add_picture">"Magdagdag ng larawan"</string>
+    <string name="remove_picture">"Alisin ang larawan"</string>
+    <string name="add_music">"Magdagdag ng musika"</string>
+    <string name="remove_music">"Alisin ang musika"</string>
+    <string name="add_video">"Magdagdag ng video"</string>
+    <string name="remove_video">"Alisin ang video"</string>
+    <string name="compose_title">"Lumikha"</string>
+    <string name="to_hint">"Para Kay"</string>
+    <string name="subject_hint">"Paksa"</string>
+    <string name="add_attachment">"I-attach"</string>
+    <string name="add_subject">"Magdagdag ng paksa"</string>
+    <string name="discard">"Itapon"</string>
+    <string name="view">"Tingnan"</string>
+    <string name="replace">"Palitan"</string>
+    <string name="remove">"Alisin"</string>
+    <string name="send">"Ipadala"</string>
+    <string name="mms">"MMS"</string>
+    <string name="all_threads">"Lahat ng mga thread"</string>
+    <string name="type_to_compose_text_enter_to_send">"Mag-type upang lumikha"</string>
+    <string name="open_keyboard_to_compose_message">"Buksan ang keyboard upang bumuo ng mensahe"</string>
+    <string name="image_too_large">"Masyadong malaki ang larawan"</string>
+    <string name="ask_for_automatically_resize">"Awtomatikong palitan ang laki ng larawan bago ipadala?"</string>
+    <string name="compressing">"Masyadong malaki ang larawan. Nagsisiksik..."</string>
+    <string name="unsupported_media_format">"Hindi suportadong <xliff:g id="NAME">%1$s</xliff:g> na format"</string>
+    <string name="select_different_media">"Mangyaring pumili ng ibang <xliff:g id="NAME">%1$s</xliff:g>."</string>
+    <string name="exceed_message_size_limitation">"Naabot na ang limitasyon ng laki ng mensahe."</string>
+    <string name="exceed_text_length_limitation">Naabot ang takdang haba ng text.</string>
+    <string name="exceed_text_length_limitation_info">Naabot ang takdang haba ng text,paki re-input.</string>
+    <string name="message_too_big_for_video">"Masyadong malaki ang mensahe upang i-attach sa video."</string>
+    <string name="failed_to_add_media">"Paumanhin, hindi mo maidaragdag si <xliff:g id="NAME">%1$s</xliff:g> na ito sa iyong mensahe."</string>
+    <string name="failed_to_resize_image">"Hindi pinalitan ang laki ng larawan."</string>
+    <string name="resize_image_error_information">"Paumanhin, kahit na pinalitan ang laki, masyado pa ring malaki ang larawang ito upang ipadala."</string>
+    <string name="forward_prefix">"Fwd: "</string>
+    <string name="discard_message">"Itapon"</string>
+    <string name="discard_message_reason">"Itatapon ang iyong mensahe dahil wala itong mga wastong recipient."</string>
+    <string name="has_invalid_recipient">"(Mga) di-wastong recipient: &lt;<xliff:g id="NAME">%1$s</xliff:g>&gt;"</string>
+    <string name="invalid_destination">"Nagpasok ka ng di-wastong address."</string>
+    <string name="invalid_recipient_message">"Pakitama ang (mga) recipient o hindi nila matatanggap ang mensahe."</string>
+    <string name="cannot_send_message">"Hindi maipapadala ang mensaheng ito"</string>
+    <string name="cannot_send_message_reason">"Walang mga wastong recipient ang iyong mensahe."</string>
+    <string name="cannot_forward_drm_obj">"Hindi maipapasa ang DRM na bagay na isinama sa mensahe."</string>
+    <string name="converting_to_picture_message">"Nagko-convert patungo sa mga multimedia na mensahe..."</string>
+    <string name="converting_to_text_message">"Nagko-convert sa text message..."</string>
+    <string name="cannot_add_slide_anymore">"Hindi makakapagdagdag ng higit pang mga slide."</string>
+    <string name="cannot_add_picture_and_video">"Hindi makakapagdagdag ng video at larawan sa isang slide."</string>
+    <string name="cannot_save_message">"Hindi mase-save ang mensahe."</string>
+    <string name="cannot_load_message">"Hindi malo-load ang mensahe."</string>
+    <string name="message_saved_as_draft">"Na-save ang mensahe bilang draft."</string>
+    <string name="locked_message_cannot_be_deleted">"Hindi matatanggal ang mga naka-lock na mensahe."</string>
+    <string name="too_many_recipients">"Mayroong masyadong maraming recipient ang mensaheng ito (<xliff:g id="CURRENTCOUNT">%1$s</xliff:g>). May limitasyong <xliff:g id="MAXLIMIT">%2$s</xliff:g> (na) recipient."</string>
+    <string name="too_many_attachments">"May limitasyong <xliff:g id="MAXLIMIT">%1$s</xliff:g> (na) attachment. Ang unang <xliff:g id="CURRENTCOUNT">%2$s</xliff:g> lang ang idaragdag."</string>
+    <string name="adding_attachments_title">"Nagdaragdag ng mga attachment"</string>
+    <string name="adding_attachments">"Pakihintay habang idinaragdag ang mga item sa slideshow."</string>
+    <string name="adding_attachments_vcard">"Pakihintay habang idinaragdag ang mga item sa slideshow."</string>
+    <string name="multiple_recipients">"<xliff:g id="RECIPIENTCOUNT">%1$s</xliff:g> (na) recipient"</string>
+    <string name="cannot_play_audio">"Hindi mape-play ang audio."</string>
+    <string name="preview">"Preview"</string>
+    <string name="preview_slideshow">"Preview"</string>
+    <string name="replace_image">"Palitan ang larawan"</string>
+    <string name="duration_sec">"Tagal (<xliff:g id="DURATION">%s</xliff:g> segundo)"</string>
+    <string name="duration_selector_title">"Tagal para sa slide "</string>
+    <string name="layout_selector_title">"Layout ng slideshow "</string>
+    <string name="layout_top">"Layout (tuktok)"</string>
+    <string name="layout_bottom">"Layout (ibaba)"</string>
+    <string name="type_to_compose_text_or_leave_blank">"Mag-type upang bumuo ng teksto, o iwanang blangko"</string>
+    <string name="duration_not_a_number">"Dapat na numero ang tagal"</string>
+    <string name="duration_zero">"Dapat na mas mataas sa zero na segundo ang tagal"</string>
+    <string name="secs">"mga seg"</string>
+    <string-array name="select_dialog_items">
+         <item>"1 segundo"</item>
+         <item>"2 segundo"</item>
+         <item>"3 segundo"</item>
+         <item>"4 segundo"</item>
+         <item>"5 segundo"</item>
+         <item>"6 segundo"</item>
+         <item>"7 segundo"</item>
+         <item>"8 segundo"</item>
+         <item>"9 segundo"</item>
+         <item>"10 segundo"</item>
+         <item>"Iba pa..."</item>
+    </string-array>
+    <string name="menu_view_contact">"Tingnan ang contact"</string>
+    <string name="menu_add_to_contacts">"Idagdag sa Mga Contact"</string>
+    <string name="hidden_sender_address">"Nakatagong address ng nagpadala"</string>
+    <string name="yes">OK</string>
+    <string name="no">"Kanselahin"</string>
+    <string name="set">"Itakda"</string>
+    <string name="play">"I-play"</string>
+    <string name="edit">"I-edit"</string>
+    <string name="resize">"Palitan ang laki"</string>
+    <string name="try_to_send">"Subukang ipadala"</string>
+    <string name="preferences_title">"Mga Setting"</string>
+    <string name="restore_default">"Ibalik ang mga default na setting"</string>
+    <string name="pref_notification_settings_title">"Mga setting ng notification"</string>
+    <string name="pref_mms_settings_title">"Mga setting ng multimedia na mensahe (multimedia message o MMS)"</string>
+    <string name="pref_sms_settings_title">"Mga setting ng text message (SMS)"</string>
+    <string name="pref_sms_storage_title">"Mga setting ng imbakan"</string>
+    <string name="pref_summary_manage_sim_messages">"Pamahalaan ang mga mensaheng nakaimbak sa iyong SIM card"</string>
+    <string name="pref_summary_mms_delivery_reports">"Humiling ng ulat ng paghahatid para sa bawat mensaheng iyong ipinapadala"</string>
+    <string name="pref_summary_mms_read_reports">"Humiling ng ulat ng pagbabasa para sa bawat mensaheng iyong ipinapadala"</string>
+    <string name="pref_summary_sms_delivery_reports">"Humiling ng ulat ng paghahatid para sa bawat mensahe na iyong ipinapadala"</string>
+    <string name="pref_summary_auto_delete">"Tanggalin ang mga lumang mensahe dahil naabot na ang mga limitasyon"</string>
+    <string name="pref_summary_delete_limit_sms"><xliff:g id="count">%1$s</xliff:g> mga mensahe kada nag-uusap</string>
+    <string name="pref_summary_delete_limit_mms"><xliff:g id="count">%1$s</xliff:g> mga mensahe kada nag-uusap</string>
+    <string name="pref_title_manage_sim_messages">"Pamahalaan ang mga mensahe sa SIM card"</string>
+    <string name="pref_title_manage_sim_smsc">SMS Service Center</string>
+    <string name="pref_title_mms_delivery_reports">"Mga ulat sa paghahatid"</string>
+    <string name="pref_title_mms_read_reports">"Basahin ang mga ulat"</string>
+    <string name="pref_title_sms_delivery_reports">"Mga ulat sa paghahatid"</string>
+    <string name="pref_title_sms_save_to_simcard">"Naka-save ang SMS sa SIM card"</string>
+    <string name="pref_title_auto_delete">"Tanggalin ang mga lumang mensahe"</string>
+    <string name="pref_title_sms_delete">"Limitasyon ng text message"</string>
+    <string name="pref_title_mms_delete">"Limitasyon ng multimedia na mensahe"</string>
+    <string name="pref_title_notification_enabled">"Mga Notification"</string>
+    <string name="pref_summary_notification_enabled">"Ipakita ang mga notification ng mensahe sa bar ng katayuan"</string>
+    <string name="pref_title_notification_vibrateWhen">"I-vibrate"</string>
+    <string name="pref_summary_notification_vibrateWhen">"Mag-vibrate din kapag na-notify"</string>
+    <string name="pref_title_notification_ringtone">"Pumili ng ringtone"</string>
+    <string name="pref_forwarding_number_title">"Pino-forward ang setting"</string>
+    <string name="pref_title_forwarding_number">"Pino-forward ang Numero"</string>
+    <string name="pref_summary_forwarding_number">"Ipino-forwad ang impormasyon,gayundin ang nagpadala"</string>
+    <string name="pref_set_sms_text_size_title">"Setting ng font"</string>
+    <string name="pref_title_set_sms_text_size">"Setting ng sukat ng font"</string>
+    <string name="pref_summary_set_sms_text_size">"I-set ang sukat ng font ng nabasang interface"</string>
+    <string name="pref_messages_to_save_mms">Itakda bilang ng mga mensahe upang i-save</string>
+    <string name="pref_messages_to_save_sms">Itakda bilang ng mga mensahe upang i-save</string>
+    <string name="sms_init">Nagiinitialize ang SMS</string>
+    <string name="system_busy">"Busy ang sistema ,pakihintay"</string>
+    <string-array name="prefEntries_vibrateWhen">
+        <!-- Always -->
+        <item>"Palagi"</item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>"Kapag tahimik lang"</item>
+        <!-- Never -->
+        <item>"Hindi Kailanman"</item>
+    </string-array>
+    <string name="prefDialogTitle_vibrateWhen">"I-vibrate"</string>
+    <string name="pref_title_mms_auto_retrieval">"I-auto-retrieve"</string>
+    <string name="pref_summary_mms_auto_retrieval">"Awtomatikong bawiin ang mga mensahe"</string>
+    <string name="pref_title_mms_retrieval_during_roaming">"Niro-roam ang auto-retrieve"</string>
+    <string name="pref_summary_mms_retrieval_during_roaming">"Awtomatikong bawiin ang mga mensahe habang nagro-roam"</string>
+    <string name="to_label">"Para kay "</string>
+    <string name="confirm_dialog_title">"Tanggalin"</string>
+    <string name="confirm_dialog_locked_title">"Tanggalin ang naka-lock na mensahe?"</string>
+    <string name="confirm_delete_conversation">"Tatanggalin ang buong thread."</string>
+    <string name="confirm_delete_all_conversations">"Tatanggalin ang lahat ng mga thread."</string>
+    <string name="confirm_delete_message">"Tatanggalin ang mensahe."</string>
+    <string name="confirm_delete_locked_message">"Sigurado ka bang gusto mong tanggalin ang naka-lock na mensaheng ito?"</string>
+    <string name="confirm_delete_all_messages">"Tatanggalin ang buong thread."</string>
+    <string name="confirm_delete_all_SIM_messages">"Tatanggalin ang lahat ng mga mensahe sa SIM."</string>
+    <string name="confirm_delete_SIM_message">"Tatanggalin ang mensaheng ito sa SIM."</string>
+    <string name="delete_unlocked">"Tanggalin ang mga naka-lock na mensahe"</string>
+    <string name="delete">"Tanggalin"</string>
+    <string name="cannot_get_details">"Hindi makakuha ng mga detalye"</string>
+    <string name="message_details_title">"Mga detalye ng mensahe"</string>
+    <string name="message_type_label">"I-type: "</string>
+    <string name="text_message">"Text message"</string>
+    <string name="multimedia_message">"Multimedia na mensahe"</string>
+    <string name="multimedia_notification">"Notification ng multimedia na mensahe"</string>
+    <string name="from_label">"Mula kay: "</string>
+    <string name="to_address_label">"Para kay: "</string>
+    <string name="bcc_label">"Bcc: "</string>
+    <string name="sent_label">"Ipinadala: "</string>
+    <string name="received_label">"Natanggap: "</string>
+    <string name="saved_label">"Na-save: "</string>
+    <string name="subject_label">"Paksa: "</string>
+    <string name="message_size_label">"Laki ng mensahe: "</string>
+    <string name="priority_label">"Priyoridad: "</string>
+    <string name="priority_high">"Mataas"</string>
+    <string name="priority_normal">"Normal"</string>
+    <string name="priority_low">"Mababa"</string>
+    <string name="message_class_label">"Uri ng mensahe: "</string>
+    <string name="error_code_label">"Code ng error: "</string>
+    <string name="menu_edit">"I-edit"</string>
+    <string name="menu_retry_sending">"Subukang muli ang pagpapadala"</string>
+    <string name="menu_retry_sending_all">"Subukang muli ang pagpapadala ng lahat"</string>
+    <string name="menu_delete_messages">"Tanggalin ang mga mensahe"</string>
+    <string name="menu_sim_capacity">Tingnan ang kapasidad</string>
+    <string name="menu_sim_capacity_used">Nagamit na:</string>
+    <string name="menu_sim_capacity_total">"Kabuuan:"</string>
+    <string name="retrying_dialog_body">"Ang mensaheng <xliff:g id="MESSAGE">%s</xliff:g> na ito ay hindi naipadala dahil sa problema sa koneksyon."\n"Sinusubukan muling ipadala..."</string>
+    <string name="menu_lock">"I-lock ang mensahe"</string>
+    <string name="menu_unlock">"I-unlock ang mensahe"</string>
+    <string name="sim_copy_to_phone_memory">"Kopyahin sa memorya ng telepono"</string>
+    <string name="sim_delete">"Tanggalin"</string>
+    <string name="sim_manage_messages_title">"Mga text message sa SIM card"</string>
+    <string name="sim_manage_messages_title1">Mga mensahe ng text sa SIM1</string>
+    <string name="sim_manage_messages_title2">Mga mensahe ng text sa SIM2</string>
+    <string name="sim_view">"Tingnan"</string>
+    <string name="sim_empty">"Walang mga mensahe sa SIM card."</string>
+    <string name="delivery_header_title">"Ulat"</string>
+    <string name="status_none">"(Wala)"</string>
+    <string name="status_pending">"Nakabinbin"</string>
+    <string name="status_read">"Basahin"</string>
+    <string name="status_received">"Natanggap"</string>
+    <string name="status_failed">"Hindi tagumpay"</string>
+    <string name="status_unread">"Hindi pa nabasa"</string>
+    <string name="status_deleted_unread">Tanggalin kahit hindi nabasa</string>
+    <string name="status_rejected">"Tinanggihan"</string>
+    <string name="recipient_label">"Recipient: "</string>
+    <string name="status_label">"Katayuan: "</string>
+    <string name="attach_image">Mga Litrato</string>
+    <string name="attach_take_photo">"Kumuha ng larawan"</string>
+    <string name="attach_video">Mga video</string>
+    <string name="attach_record_video">"Kumuha ng video"</string>
+    <string name="attach_sound">Audio</string>
+    <string name="attach_record_sound">"Mag-record ng audio"</string>
+    <string name="attach_slideshow">"Slideshow"</string>
+    <string name="select_bottom_text">"Teksto sa ibaba"</string>
+    <string name="select_top_text">"Teksto sa itaas"</string>
+    <string name="delivery_toast_body">"Natanggang ang mensahe ni %s"</string>
+    <string name="delivery_toast_body_fail">Hindi natanggap ang mensahe ng %s</string>
+    <string name="read_report_toast_body">Binasa ang mensahe ng %s</string>
+    <string name="delete_unread_report_toast_body">Tinanggal ang mensahe ng hindi nabasa ng %s</string>
+    <string name="read_report_toast_body_fail">Hindi binasa ang mensahe ng %s</string>
+    <string name="delivery_toast_body_fail_rejected">"Ang message ay tinanggihan ni %s"</string>
+    <string name="delivery_toast_body_expired">"Nagtapos na ang mensahe"</string>
+    <string name="notification_multiple">"<xliff:g id="COUNT">%s</xliff:g> (na) hindi pa nababasang mensahe."</string>
+    <string name="notification_multiple_title">"Mga bagong mensahe"</string>
+    <string name="notification_failed_multiple">"Hindi maipadala ang <xliff:g id="COUNT">%s</xliff:g> (na) mensahe."</string>
+    <string name="notification_failed_multiple_title">"Hindi naipadala ang mga mensahe"</string>
+    <string name="sim_full_title">"Puno na ang SIM card"</string>
+    <string name="sim_full_title1">Puno na ang SIM1 card</string>
+    <string name="sim_full_title2">Puno na ang SIM2 card</string>
+    <string name="sim_full_body">"Tanggalin ang ilang mensahe upang maglaan ng lugar para sa higit pa."</string>
+    <string name="sms_full_title">"Puno na ang memorya ng text message"</string>
+    <string name="sms_full_body">"Tinanggihan ang paparating na mensahe dahil sa punong memorya. Mangyaring magtanggal ng mga lumang mensahe."</string>
+    <string name="sms_rejected_title">"Tinanggihan ang text message"</string>
+    <string name="sms_rejected_body">"Tinanggihan ang paparating na mensahe dahil sa hindi alam na dahilan."</string>
+    <string name="type_audio">Audio</string>
+    <string name="type_picture">"larawan"</string>
+    <string name="type_video">"video"</string>
+    <string name="type_text">"Teksto"</string>
+    <string name="type_vcard">vcard</string>
+    <string name="type_file">file</string>
+    <string name="confirm">"Kumpirmahin"</string>
+    <string name="message_send_read_report">"Magpapadala ng ulat ng pagbabasa."</string>
+    <string name="message_queued">"Kasalukuyang hindi available para ipadala ang iyong mensahe. Ipapadala ito kapag naging available ang serbisyo."</string>
+    <string name="fdn_check_failure">"Maaari ka lang magpadala ng mga mensahe sa iyong nakatakdang mga numero sa pag-dial."</string>
+    <string name="no_subject">"(Walang paksa)"</string>
+    <string name="unknown_sender">"Hindi kilalang nagpadala"</string>
+    <string name="dl_failure_notification">"Ang pag-download ng mensahe <xliff:g id="SUBJECT">%1$s</xliff:g> mula sa <xliff:g id="FROM">%2$s</xliff:g> ay hindi matagumpay."</string>
+    <string name="dl_expired_notification">"Nag-expire at tatanggalin ang mensaheng ito."</string>
+    <string name="rate_limit_surpassed">"Kumpirmahin"</string>
+    <string name="confirm_rate_limit">"Ipinadala ang malaking bilang ng mga multimedia na mensahe. OK ba ito?"</string>
+    <string name="message_download_failed_title">"Hindi na-download ang mensahe"</string>
+    <string name="message_send_failed_title">"Hindi naipadala ang mensahe"</string>
+    <string name="message_failed_body">"Piliing suriin ang mensahe at subukang muli."</string>
+    <string name="download_later">"Kasalukuyang hindi available upang i-download. Pakisubukang muli sa ibang pagkakataon."</string>
+    <string name="select_audio">"Pumili ng audio"</string>
+    <string name="copy_to_sdcard">"I-save ang attachment"</string>
+    <string name="copy_to_sdcard_success">"Na-save ang attachment"</string>
+    <string name="copy_to_sdcard_fail">"Hindi na-save ang attachment"</string>
+    <string name="save_ringtone">"I-save bilang ringtone"</string>
+    <string name="saved_ringtone">"Na-save ang ringtone"</string>
+    <string name="saved_ringtone_fail">"Nabigo ang pag-save ng ringtone"</string>
+    <string name="menu_insert_smiley">"Magpasok ng smiley"</string>
+    <string name="select_link_title">"Pumili ng pagkilos"</string>
+    <string name="slide_number">"Slide <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <plurals name="slide_duration">
+        <!-- Case of 1-second duration. -->
+        <item quantity="one">"<xliff:g id="NUMBER">%s</xliff:g> (na) segundo"</item>
+        <!-- Case of "few" (small number of) seconds of duration. -->
+        <item quantity="few">"<xliff:g id="NUMBER">%s</xliff:g> (na) segundo"</item>
+        <!-- Case of multiple-second duration. -->
+        <item quantity="other">"<xliff:g id="NUMBER">%s</xliff:g> (na) segundo"</item>
+    </plurals>
+    <string name="delivery_report_activity">"Ulat sa paghahatid"</string>
+    <string name="storage_limits_activity">"Mga limitasyon sa imbakan"</string>
+    <string name="add_attachment_activity">"Magdagdag ng attachment:"</string>
+    <string name="select_layout_activity">"Pumili ng layout"</string>
+    <string name="change_duration_activity">"Palitan ang tagal"</string>
+    <string name="edit_text_activity">"I-edit ang teksto"</string>
+    <string name="edit_slideshow_activity">"I-edit ang slideshow"</string>
+    <string name="edit_slide_activity">"I-edit ang slide"</string>
+    <string name="pick_numbers_activity">"Pumili ng Mga Numero"</string>
+    <string name="slideshow_activity">"Slideshow"</string>
+    <string name="class_0_message_activity">"Class 0 na Mensahe"</string>
+    <string name="send_using_mms_activity">"Ipadala bilang multimedia na mensahe..."</string>
+    <string name="select_contact_method_activity">"Pumili ng Paraan sa Pakikipag-ugnay"</string>
+    <string name="search_label">"Pagpapadala ng mensahe"</string>
+    <string name="search_hint">"Paghahanap ng Pagpapadala ng Mensahe"</string>
+    <string name="search">"Pagpapadala ng mensahe"</string>
+    <string name="search_setting_description">"Teksto sa iyong mga mensahe"</string>
+    <string name="search_empty">"Walang mga tugma"</string>
+    <plurals name="search_results_title">
+        <!-- Case of 1 result. -->
+        <item quantity="one">"<xliff:g id="NUMBER">%1$s</xliff:g> (na) resulta para sa \"<xliff:g id="SEARCH">%2$s</xliff:g>\""</item>
+        <!-- Case of 0 or 2 or more results. -->
+        <item quantity="other">"<xliff:g id="NUMBER">%1$s</xliff:g> (na) resulta para sa \"<xliff:g id="SEARCH">%2$s</xliff:g>\""</item>
+    </plurals>
+    <string name="search_history">"<xliff:g id="COUNT">%1$s</xliff:g> (na) resulta para sa \"<xliff:g id="SEARCH">%2$s</xliff:g>\""</string>
+    <string name="confirm_clear_search_title">"I-clear"</string>
+    <string name="confirm_clear_search_text">"Iki-clear ang kasaysayan ng paghahanap."</string>
+    <string name="pref_mms_clear_search_history_title">"I-clear ang kasaysayan ng paghahanap"</string>
+    <string name="pref_mms_clear_search_history_summary">"I-clear ang mga nakaraang paghahanap sa Pagpapadala ng mensahe mula sa paglabas sa box para sa Paghahanap"</string>
+    <string name="save">"I-save"</string>
+    <string name="storage_limits_title">"Limitahan ang mga mensahe"</string>
+    <string name="storage_limits_message">"Gusto mo bang limitahan ang bilang ng mga mensaheng iyong isine-save sa bawat pag-uusap?"</string>
+    <string name="storage_limits_setting">"Itakda ang mga limitasyon"</string>
+    <string name="storage_limits_setting_dismiss">"Walang mga limitasyon"</string>
+    <string name="too_many_unsent_mms">"Hindi maaaring magpadala ng mensahe ngayon. May masyadong maraming hindi naipadalang mutimedia na mensahe."</string>
+    <string name="me">"Ako"</string>
+    <string name="sending_message">"Nagpapadala..."</string>
+    <string name="received_a_contact">Kumuha ng vcf</string>
+    <string name="save_a_new_contact">"I-save"</string>
+    <string name="cancle_a_new_contact">"Kanselahin"</string>
+    <string name="prefix_send">"Ipadala"</string>
+    <string name="suffix_vcf">.vcf</string>
+    <string name="ConversationList_menu_item_Delete_some">Tanggalin ang ilan</string>
+    <string name="ConversationList_menu_item_Cancel">Ikansela ang delete</string>
+    <string name="ConversationList_menu_item_CONFIRM_delete">Kumpirmahin ang pagtanggal</string>
+    <string name="Conversation_check_type_selected_all">Pinili lahat</string>
+    <string name="Conversation_menu_type_selected_all">Pinili lahat</string>
+    <string name="Conversation_menu_type_cancel_selected_all">"Alisin sa Pagkakapili Lahat"</string>
+    <string name="message_size">"MMS/Magagamit/Total"</string>
+    <string name="save_sdcard_busy_dlg_title">"Hindi available ang SD card."</string>
+    <string name="save_sdcard_busy_dlg_msg">Abala ang SD card. Para payagan ang pag-save, piliin ang \"Patayin ang Storage na USB\" sa notipikasyon.</string>
+    <string name="save_no_sdcard_dlg_msg">Kinakailangan ng SD card para makapag-save <xliff:g id="filename">%s</xliff:g>.</string>
+    <string name="save_no_sdcard_dlg_title">"Walang SD card"</string>
+    <string name="save_file_error_dlg_title">"Wala nang espasyo"</string>
+    <string name="save_file_error_dlg_msg"><xliff:g id="filename">%s</xliff:g> hindi maise-save.\nMagbigay ng espasyo sa iyong telepono at subukang muli.</string>
+    <string name="save_file_error_title">Nabigo ang pag-save sa SD card</string>
+    <string name="save_file_error_msg">Nabigo ang pagsave<xliff:g id="FILENAME">%s</xliff:g> sa SD card </string>
+    <string name="save_file_ok_title">I-save sa SD card</string>
+    <string name="save_file_ok_msg">I-save<xliff:g id="FILENAME">%s</xliff:g> sa SD card</string>
+    <string name="slide_max">SlideShow Numbers Max</string>
+    <string name="wait_message">Pakihintay</string>
+    <string name="pref_title_sms_validity">SMS validity</string>
+    <string-array name="validity_entries">
+        <item>1 oras</item>
+        <item>"6 oras"</item>
+        <item>"24 oras"</item>
+        <item>"2 araw"</item>
+        <item>"1 linggo"</item>
+        <item>Pinakamalaki</item>
+    </string-array>
+    <string name="group_all">"Lahat ng mga contact"</string>
+    <string name="group_phone">Mga kontak ng telepono</string>
+    <string name="group_sim">"Mga contact sa SIM card"</string>
+    <string name="group_sim1">"Mga kontak ng SIM1 card"</string>
+    <string name="group_sim2">"Mga kontak ng SIM2 card"</string>
+    <string name="select_contacts_group">Piliin ang mga contact ng grupo</string>
+    <string name="sim_no_ready">"Hindi pa handa ang sim card"</string>
+    <string name="save_to_bookmarks">"Magdagdag ng bookmark"</string>
+    <string name="save_as_draft">"I-save bilang draft"</string>
+    <string name="low_storage_toast">Mababa na ang espasyo!magtanggal ng ibang mga file para magkaroon ng libreng espasyo.</string>
+    <string name="error_state">"Paiba-ibang estado"</string>
+    <string name="error_state_text">"Ang estado ng mga thread at mga recipient ay paiba-iba. Paki-capture ang ulat ng bug at ipadala ito sa android-sms-bugs@google.com"</string>
+    <string name="send_failed_fdn_only">Ipadala ang mensahe sa <xliff:g id="TO">%s</xliff:g> ay is pinagbabawalan ng FDN.</string>
+    <string name="send_need_smsc">Pakidagdag ang SMSC address sa mga numero ng fixed Dialing.</string>
+    <string name="mms_send_success">Naipadala na ang MMS</string>
+    <string name="contacts_max_exceed">Ang napiling kontak ay lumampas sa takdang hangganan, naharang, ang pangalan ay maaring hindi kumpleto.</string>
+    <string name="to_many_contacts">"Mayroong masyadong maraming recipient ang mensaheng ito ."</string>
+    <string name="to_many_contacts_body">Mayroong takda na hanggang 200 na mga tatanggap.</string>
+    <string name="activity_not_found">Walang nakitang maaring application</string>
+    <string name="download_beyond_limit">Lumampas na sa takdang laki ng MMS</string>
+    <string name="mms_memory_usage_progressDialog_title">"Sinusuri ang Nagamit na Mms Memory..."</string>
+    <string name="service_center">Service Center: </string>
+    <string name="size_limit_comments">limit(2G:200K; 3G:300K)</string>
+    <string name="size_limit_comments_all">limit(300K)</string>
+    <string name="menu_resend">Ipadala muli</string>
+    <string name="menu_msg_folder">Folder view</string>
+    <string name="menu_msg_list">Tingnan ang mensahe</string>
+    <string name="folder_inbox">"Inbox"</string>
+    <string name="folder_outbox">Outbox</string>
+    <string name="folder_sent">"Ipinadala"</string>
+    <string name="folder_drafts">"Mga Draft"</string>
+    <string name="folder_simcard">SIM Card</string>
+    <string name="folder_simcard1">SIM1 Card</string>
+    <string name="folder_simcard2">SIM2 Card</string>
+    <string name="msg_empty">Walang mga mensaseh sa Folder na ito</string>
+    <string name="status_sent">"Ipinadala"</string>
+    <string name="status_senting">Ipinapadala</string>
+    <string name="status_recieved">Tinanggap</string>
+    <string name="menu_delete_box_msg">"Tanggalin ang mga mensahe"</string>
+    <string name="clearConfirmation_title">"Tanggalin"</string>
+    <string name="clearConfirmation">Ang mga mensaheng napili mo ay tatanggalin.</string>
+    <string name="menu_view_box_message">Tingnan ang mensaher</string>
+    <string name="load_count">"Naglo-load"</string>
+    <string name="display_store_title">Espasyo ng Storage</string>
+    <string name="re_take_picture">Nabigo ang pag-save ng litrato,kumuha ulit ng litrato.</string>
+    <string name="slide_fomat_error">"Error sa slide format, bahagi ng na-load na impormasyon ay hindi nagtagumpay."</string>
+    <string name="filetype_not_support">Hindi suportado ang tipo ng file</string>
+    <string name="comma_zh">"，"</string>
+    <string name="move_message_to_phone_memory">Tagumpay ang pagkopya ng mensahe sa memory ng telepono</string>
+    <string name="can_not_copy_the_message">Hindi makopya ang mensahe</string>
+    <string name="share_not_support_contentType">"Hindi nakalakip, hindi ito sinusuportahan ng file ! "</string>
+    <string name="dl_expired_wap_push">Mayroong mga <xliff:g id="COUNT">%1$s</xliff:g> mensahe na nagtapos na at tatanggalin na.</string>
+    <string name="WAPPush_Message_title">"Mensahe na Wap  push"</string>
+    <string name="open_website">"buksan ang website"</string>
+    <string name="pref_title_sms_retry_times">Buksan ang pag-retry sa Mechanism</string>
+    <string name="attach_vcard">vcard</string>
+    <string name="group_name_student">"Estudyante"</string>
+    <string name="group_name_friend">"Kaibigan"</string>
+    <string name="group_name_family">Pamilya</string>
+    <string name="group_name_colleague">"Kasamahan"</string>
+    <string name="handle_forward_error">"Nabigo ang pag-forward, Sinusubukan muli ang pag-forward."</string>
+    <string name="slide_show_vcard">"Ang mensaheng ito ay kinabibilangan ng naka-attach na file na hindi pinapakita"</string>
+    <string name="on_progress">Nasa proseso...pakihintay.</string>
+</resources>

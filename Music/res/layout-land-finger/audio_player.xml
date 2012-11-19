@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+
+
+	<!-- This is the LinearLayout that contains the album art, function buttons 
+		and album/artist/track info -->
+	<RelativeLayout android:id="@+id/track"
+		android:layout_width="fill_parent" android:layout_height="0dip"
+		android:layout_weight="1">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="vertical">
+			<LinearLayout android:layout_width="match_parent"
+				android:layout_height="0dip" android:layout_weight="1"
+				android:orientation="horizontal">
+
+				<ImageView android:id="@+id/album" android:layout_width="133dip"
+					android:layout_height="133dip" android:layout_marginLeft="12dip"
+					android:layout_marginRight="15dip" android:layout_marginTop="12dip" />
+
+				<!-- This is the LinearLayout that contains function buttons and album/artist/track 
+					info -->
+				<LinearLayout android:layout_width="0dip"
+					android:layout_height="wrap_content" android:layout_weight="1"
+					android:orientation="vertical">
+
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:orientation="horizontal"
+						android:paddingTop="10dip">
+
+						<ImageButton android:id="@+id/curplaylist"
+							android:src="@drawable/ic_mp_current_playlist_btn"
+							android:layout_width="82dip" android:layout_height="40dip"
+							android:layout_marginRight="8dip" android:nextFocusLeft="@id/curplaylist" />
+
+						<ImageButton android:id="@+id/shuffle"
+							android:layout_width="82dip" android:layout_height="40dip"
+							android:layout_marginRight="8dip" />
+
+						<ImageButton android:id="@+id/repeat"
+							android:layout_width="82dip" android:layout_height="40dip" />
+
+					</LinearLayout>
+
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:orientation="horizontal"
+						android:baselineAligned="false" android:paddingTop="2dip"
+						android:paddingBottom="2dip">
+
+						<ImageView android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:layout_marginRight="4dip"
+							android:src="@drawable/ic_mp_artist_playback" />
+
+						<TextView android:id="@+id/artistname" android:textSize="18sp"
+							android:singleLine="true" android:ellipsize="end"
+							android:textStyle="bold" android:layout_gravity="center_vertical"
+							android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+					</LinearLayout>
+
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:orientation="horizontal"
+						android:baselineAligned="false" android:paddingTop="2dip"
+						android:paddingBottom="2dip">
+
+						<ImageView android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:layout_marginRight="4dip"
+							android:src="@drawable/ic_mp_album_playback" />
+
+						<TextView android:id="@+id/albumname" android:textSize="14sp"
+							android:singleLine="true" android:ellipsize="end"
+							android:textStyle="bold" android:layout_gravity="center_vertical"
+							android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+					</LinearLayout>
+
+					<LinearLayout android:layout_width="match_parent"
+						android:layout_height="wrap_content" android:orientation="horizontal"
+						android:baselineAligned="false" android:paddingTop="2dip"
+						android:paddingBottom="2dip">
+
+						<ImageView android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:layout_marginRight="4dip"
+							android:src="@drawable/ic_mp_song_playback" />
+
+						<TextView android:id="@+id/trackname" android:textSize="14sp"
+							android:singleLine="true" android:ellipsize="end"
+							android:textStyle="bold" android:layout_gravity="center_vertical"
+							android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+					</LinearLayout>
+
+				</LinearLayout>
+			</LinearLayout>
+
+
+		</LinearLayout>
+	</RelativeLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:layout_alignParentBottom="true">
+		<LinearLayout android:id="@+id/track_info"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<LinearLayout android:layout_width="490dip"
+				android:layout_height="wrap_content" android:orientation="vertical">
+				<TextView android:id="@+id/lrc_artistname"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:paddingTop="0dip" android:paddingBottom="0dip"
+					android:paddingLeft="20dip" android:paddingRight="10dip"
+					android:gravity="center_vertical" android:textColor="#ffffff"
+					android:textSize="17sp" android:singleLine="true"
+					android:ellipsize="marquee" />
+				<TextView android:id="@+id/lrc_trackname"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:paddingTop="0dip" android:paddingBottom="0dip"
+					android:paddingLeft="20dip" android:paddingRight="10dip"
+					android:gravity="center_vertical" android:textSize="12sp"
+					android:textColor="#ffffff" android:singleLine="true"
+					android:ellipsize="marquee" />
+			</LinearLayout>
+
+			<ImageView android:id="@+id/lyric_expend_icon"
+				android:layout_width="35dip" android:layout_height="35dip"
+				android:gravity="center_vertical" android:src="@drawable/lyric_display"
+				android:background="@null" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/lyric_container"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="0dip" android:layout_weight="1"
+		android:visibility="gone">
+		<com.android.music.lrc.LyricListView
+			android:id="@+id/lyric_list" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:minHeight="200dip"
+			android:divider="@null" android:scrollbars="none"
+			android:cacheColorHint="#66000000" android:focusable="false"
+			android:focusableInTouchMode="false" android:clickable="false"
+			android:longClickable="true" />
+		<TextView android:id="@+id/nolrc_notifier"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingLeft="10dip" android:paddingTop="10dip"
+			android:paddingRight="10dip" android:paddingBottom="10dip"
+			android:gravity="center" android:text="@string/nolrc"
+			android:visibility="gone" />
+	</LinearLayout>
+
+	<include layout="@layout/audio_player_common" />
+
+</LinearLayout>

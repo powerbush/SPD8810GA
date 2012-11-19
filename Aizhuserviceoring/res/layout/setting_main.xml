@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout  
+			xmlns:android="http://schemas.android.com/apk/res/android"  
+			android:layout_width="fill_parent"  
+			android:layout_height="fill_parent"  
+			android:orientation="vertical"
+			android:background="@drawable/bk" >
+			<RelativeLayout 
+				android:orientation="horizontal" 
+				android:layout_width="fill_parent" 
+			    android:layout_height="40dp"
+			    android:background="#808080">
+			    <TextView 	    
+				      android:id="@+id/info_title"
+				      android:layout_width="wrap_content" 
+				      android:layout_centerInParent="true" 
+				      android:layout_height="wrap_content" 
+				      android:textSize = "27sp"
+				      android:textColor="@android:color/white"
+				      android:text="@string/apnpersoniforinput">
+				</TextView>    
+        	</RelativeLayout> 
+	      	<android.support.v4.view.ViewPager
+		        android:layout_weight="1"
+		        android:id="@+id/viewpagerLayout_setting"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" />
+    </LinearLayout>  

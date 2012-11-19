@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="highlight_sentence">#ffb800</color>
+    <color name="normal_sentence">#ffffff</color>
+</resources>

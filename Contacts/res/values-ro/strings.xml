@@ -1,0 +1,436 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="rename_contact_group_name">Redenumire</string>
+    <string name="no_contacts_group_name">Nu există Un Grup de Nume</string>
+    <string name="contacts_group_name_exist">Numele grupului existent</string>
+    <string name="sure">Sigur</string>
+    <string name="contacts_group">Grupare</string>
+    <string name="divided_group_to">Împarte</string>
+    <string name="add_group">adăugare grupare</string>
+    <string name="please_add_group">adăugare grupare</string>
+    <string name="delete">Ştergere</string>
+    <string name="group_name_empty">Golire Grup</string>
+    <string name="all_selected">Toate cele selectate</string>
+    <string name="group_new">Grup Nou</string>
+    <string name="save">Salvare</string>
+    <string name="sharedUserLabel">"Android Core Apps"</string>
+    <string name="contactsList">"Agendă"</string>
+    <string name="launcherDialer">"Telefon"</string>
+    <string name="shortcutContact">"Persoană din Agendă"</string>
+    <string name="shortcutDialContact">"Apel direct"</string>
+    <string name="shortcutMessageContact">"Mesaj direct"</string>
+    <string name="shortcutActivityTitle">"Alegeţi o persoană din agendă pentru a crea o comandă rapidă"</string>
+    <string name="callShortcutActivityTitle">"Alegeţi un număr pentru apelare"</string>
+    <string name="messageShortcutActivityTitle">"Alegeţi un număr pentru trimiterea mesajului"</string>
+    <string name="starredList">"Cu stea"</string>
+    <string name="frequentList">"Frecvent"</string>
+    <string name="strequentList">"Favorite"</string>
+    <string name="viewContactTitle">"Detalii ale persoanei din agendă"</string>
+    <string name="viewContactDesription">"Vizualizaţi persoana din agendă"</string>
+    <string name="editContactDescription">"Modificaţi informaţiile despre persoana din agendă"</string>
+    <string name="insertContactDescription">"Creaţi persoana din agendă"</string>
+    <string name="searchHint">"Căutaţi în Agendă"</string>
+    <string name="menu_search">"Căutaţi"</string>
+    <string name="menu_newContact">"Persoană nouă în agendă"</string>
+    <string name="menu_viewContact">"Vizualizaţi persoana din agendă"</string>
+    <string name="menu_callNumber">"Apelaţi <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_addStar">"Adăugaţi la lista de favorite"</string>
+    <string name="menu_removeStar">"Eliminaţi din lista de favorite"</string>
+    <string name="menu_editContact">"Modificaţi informaţiile despre persoana din agendă"</string>
+    <string name="menu_deleteContact">"Ştergeţi persoana din agendă"</string>
+    <string name="menu_call">"Apelaţi persoana din agendă"</string>
+    <string name="menu_video_call">Apel video</string>
+    <string name="menu_sendSMS">"Trimiteţi mesaj text către o persoană din agendă"</string>
+    <string name="menu_sendEmail">"Trimiteţi un e-mail"</string>
+    <string name="menu_viewAddress">"Adresa pe hartă"</string>
+    <string name="menu_makeDefaultNumber">"Setaţi ca număr prestabilit"</string>
+    <string name="menu_makeDefaultEmail">"Setaţi ca adresă de e-mail prestabilită"</string>
+    <string name="menu_splitAggregate">"Separaţi"</string>
+    <string name="contactsSplitMessage">"Persoane din Agendă separate"</string>
+    <string name="splitConfirmation_title">"Separaţi persoana din agendă"</string>
+    <string name="splitConfirmation">"Sigur doriţi să separaţi această persoană din agendă în mai multe: câte una pentru fiecare set de informaţii care au fost reunite în aceasta?"</string>
+    <string name="menu_joinAggregate">"Alăturaţi-vă"</string>
+    <string name="titleJoinContactDataWith">"Asociaţi intrările din Agendă"</string>
+    <string name="blurbJoinContactDataWith">"Selectaţi persoana din agendă, căreia vreţi să vă alăturaţi <xliff:g id="NAME">%s</xliff:g>."</string>
+    <string name="showAllContactsJoinItem">"Afişaţi toate persoanele din agendă"</string>
+    <string name="separatorJoinAggregateSuggestions">"Persoane din agendă sugerate"</string>
+    <string name="separatorJoinAggregateAll">"Toate persoanele din agendă"</string>
+    <string name="contactsJoinedMessage">"Persoanele din agendă au fost unite"</string>
+    <string name="menu_contactOptions">"Opţiuni"</string>
+    <string name="contactOptionsTitle">"Opţiuni"</string>
+    <string name="deleteConfirmation_title">"Ştergeţi"</string>
+    <string name="readOnlyContactWarning">"Nu puteţi şterge persoane din agendă, din conturi cu permisiuni doar de citire, însă puteţi să le ascundeţi în lista dvs. de persoane din agendă."</string>
+    <string name="readOnlyContactDeleteConfirmation">"Informaţiile despre această persoană din agendă provin din mai multe conturi. Informaţiile provenite din conturile numai în citire nu vor fi şterse din lista dvs., ci doar ascunse."</string>
+    <string name="multipleContactDeleteConfirmation">"Ştergerea acestei persoane din agendă va elimina informaţii din mai multe conturi."</string>
+    <string name="deleteConfirmation">"Această persoană va fi ştearsă din agendă."</string>
+    <string name="menu_done">"Terminat"</string>
+    <string name="menu_doNotSave">"Reveniţi"</string>
+    <string name="editContact_title_edit">"Modificaţi informaţiile despre persoana din agendă"</string>
+    <string name="editContact_title_insert">"Persoană nouă în agendă"</string>
+    <string name="label_phonetic_name">"Fonetic"</string>
+    <string name="label_notes">"Note"</string>
+    <string name="label_sip_address">"Apel prin internet"</string>
+    <string name="label_ringtone">"Ton de apel"</string>
+    <string name="ghostData_name">"Nume şi prenume"</string>
+    <string name="ghostData_phonetic_name">"Nume fonetic"</string>
+    <string name="ghostData_company">"Companie"</string>
+    <string name="ghostData_title">"Titlu"</string>
+    <string name="invalidContactMessage">"Persoana nu există în agendă."</string>
+    <string name="pickerNewContactHeader">"Creaţi o persoană nouă în agendă"</string>
+    <string name="selectLabel">"Selectaţi o etichetă"</string>
+    <string name="phoneLabelsGroup">"Telefon"</string>
+    <string name="emailLabelsGroup">"E-mail"</string>
+    <string name="imLabelsGroup">"IM"</string>
+    <string name="postalLabelsGroup">"Adresa poştală"</string>
+    <string-array name="otherLabels">
+        <!-- An organization associated with a contact -->
+        <item>"Organizaţie"</item>
+        <!-- A note associated with a contact -->
+        <item>"Notă"</item>
+    </string-array>
+    <string name="photoPickerNotFoundText">"Nicio fotografie disponibilă în telefon."</string>
+    <string name="attachToContact">"Pictogramă pentru persoana din agendă selectată"</string>
+    <string name="customLabelPickerTitle">"Numele etichetei personalizate"</string>
+    <string name="menu_displayGroup">"Opţiuni de afişare"</string>
+    <string name="displayGroups">"Opţiuni de afişare"</string>
+    <string name="send_to_voicemail_checkbox">"Trimiteţi apelurile direct către mesageria vocală"</string>
+    <string name="default_ringtone">"Prestabilit"</string>
+    <string name="changePicture">"Schimbaţi pictograma"</string>
+    <string name="removePicture">"Eliminaţi pictograma"</string>
+    <string name="noContacts">"Nicio persoană în agendă."</string>
+    <string name="noMatchingContacts">"Nu a fost găsită nicio persoană potrivită în agendă."</string>
+    <string name="noContactsWithPhoneNumbers">"Nicio persoană din agendă cu numere de telefon."</string>
+    <string name="showFilterPhones">"Numai persoanele din agendă cu numere de telefon"</string>
+    <string name="showFilterPhonesDescrip">"Afişaţi doar persoanele din agendă care au numere de telefon"</string>
+    <string name="headerContactGroups">"Alegeţi persoanele din agendă pentru afişare"</string>
+    <plurals name="groupDescrip">
+        <item quantity="other">"<xliff:g id="COUNT">%0$d</xliff:g> (de) persoane din agendă"</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">"<xliff:g id="COUNT_0">%1$d</xliff:g> persoane din agendă, <xliff:g id="COUNTWITHPHONES">%2$d</xliff:g> cu numere de telefon"</item>
+    </plurals>
+    <string name="savingContact">"Se salvează persoana din agendă..."</string>
+    <string name="savingDisplayGroups">"Se salvează opţiunile de afişare..."</string>
+    <string name="contactSavedToast">"Persoana din agendă a fost salvată."</string>
+    <string name="contactDeletedToast">Contact șters.</string>
+    <string name="contactSavedErrorToast">"Eroare, modificările persoanei din agendă nu pot fi salvate."</string>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="one">"Se afişează o persoană din agendă cu număr de telefon"</item>
+        <item quantity="other">"Se afişează <xliff:g id="COUNT">%d</xliff:g> (de) persoane din agendă cu numere de telefon"</item>
+    </plurals>
+    <string name="listTotalPhoneContactsZero">"Nicio persoană din agendă vizibilă cu numere de telefon"</string>
+    <plurals name="listTotalAllContacts">
+        <item quantity="one">"Se afişează o persoană din agendă"</item>
+        <item quantity="other">"Se afişează <xliff:g id="COUNT">%d</xliff:g> (de) persoane din agendă"</item>
+    </plurals>
+    <string name="listTotalAllContactsZero">"Nicio persoană din agendă nu este vizibilă"</string>
+    <plurals name="listFoundAllContacts">
+        <item quantity="one">"S-a găsit o persoană în agendă"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> persoane găsite în agendă"</item>
+    </plurals>
+    <string name="listFoundAllContactsZero">"Persoana din agendă nu a fost găsită"</string>
+    <plurals name="searchFoundContacts">
+        <item quantity="one">"1 persoană din agendă"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (de) persoane din agendă"</item>
+    </plurals>
+    <string name="contactsIconLabel">"Agendă"</string>
+    <string name="contactsFavoritesLabel">"Favorite"</string>
+    <string name="dialerIconLabel">"Telefon"</string>
+    <string name="recentCallsIconLabel">"Jurnal de apeluri"</string>
+    <string name="liveFolderAll">"Toată Agenda"</string>
+    <string name="liveFolderFavorites">"Persoane din agendă marcate cu stea"</string>
+    <string name="liveFolderPhone">"Persoane din Agendă cu numere de telefon"</string>
+    <string name="menu_sendTextMessage">"Trimiteţi un mesaj text"</string>
+    <string name="recentCalls_callNumber">"Apelaţi <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="recentCalls_editNumberBeforeCall">"Modificaţi numărul înainte de apelare"</string>
+    <string name="recentCalls_addToContact">"Adăugaţi la persoane din agendă"</string>
+    <string name="recentCalls_removeFromRecentList">"Eliminaţi din jurnalul de apeluri"</string>
+    <string name="recentCalls_deleteAll">"Ştergeţi jurnalul de apeluri"</string>
+    <string name="recentCalls_deleteSome">Şterge o parte din jurnalul de apeluri</string>
+    <string name="recentCalls_Confirm_delete">Confirmarea ștergerii</string>
+    <string name="recentCalls_Cancel_delete">Anulați ștergerea</string>
+    <string name="recentCalls_button_Confirm_delete">Confirmarea ștergerii</string>
+    <string name="recentCalls_button_Cancel">Revocare</string>
+    <string name="recent_Call_log_checkbox_selecte_all">Toate cele selectate</string>
+    <string name="recentCalls_empty">"Jurnalul de apeluri este gol."</string>
+    <string name="clearCallLogConfirmation_title">"Ştergeţi jurnalul de apeluri"</string>
+    <string name="clearCallLogConfirmation">"Sigur doriţi ştergerea jurnalului de apeluri?"</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="voicemail">"Mesagerie vocală"</string>
+    <string name="unknown">"Necunoscut"</string>
+    <string name="private_num">"Număr privat"</string>
+    <string name="payphone">"Telefon public"</string>
+    <string name="dialerKeyboardHintText">"Utilizaţi tastatura pentru a forma"</string>
+    <string name="dialerDialpadHintText">"Formaţi pentru a adăuga un apel"</string>
+    <string name="simContacts_emptyLoading">"Se încarcă de pe cardul SIM..."</string>
+    <string name="simContacts_title">"Persoanele din agendă de pe cardul SIM"</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">"Nicio persoană în agendă pentru afişare. (Dacă tocmai aţi adăugat un cont, poate dura câteva minute sincronizarea persoanelor din agendă.)"</string>
+    <string name="noContactsHelpTextForCreateShortcut">"Nicio persoană din agendă pentru afişare."</string>
+    <string name="noContactsHelpText">"Nicio persoană în agendă pentru afişare."\n\n"Pentru a adăuga persoane în agendă, apăsaţi pe "<font fgcolor="#ffffffff"><b>"Meniu"</b></font>" şi atingeţi:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Conturi"</b></font>" pentru a adăuga sau a configura un cont cu persoane în agendă pe care să-l puteţi sincroniza cu telefonul"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Persoană nouă în agendă"</b></font>" pentru a crea o nouă persoană în agendă"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Importaţi/Exportaţi"</b></font>\n</li></string>
+    <string name="noContactsHelpTextWithSync">"Nicio persoană în agendă pentru afişare. (Dacă tocmai aţi adăugat un cont, poate dura câteva minute sincronizarea persoanelor din agendă.)"\n\n"Pentru a adăuga persoane în agendă, apăsaţi pe "<font fgcolor="#ffffffff"><b>"Meniu"</b></font>" şi atingeţi:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Conturi"</b></font>" pentru a adăuga sau a configura un cont cu persoane în agendă pe care să-l puteţi sincroniza cu telefonul"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Opţiuni de afişare"</b></font>" pentru a selecta care persoane din agendă să fie vizibile"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Persoană nouă în agendă"</b></font>" pentru a crea o nouă persoană în agendă"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Importaţi/Exportaţi"</b></font>\n</li></string>
+    <string name="noContactsNoSimHelpText">"Nicio persoană în agendă pentru afişare."\n\n"Pentru a adăuga persoane în agendă, apăsaţi pe "<font fgcolor="#ffffffff"><b>"Meniu"</b></font>" şi atingeţi:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Conturi"</b></font>" pentru a adăuga sau a configura un cont cu persoane în agendă pe care să-l puteţi sincroniza cu telefonul"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Persoană nouă în agendă"</b></font>" pentru a crea o nouă persoană în agendă"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Importaţi/Exportaţi"</b></font>\n</li></string>
+    <string name="noContactsNoSimHelpTextWithSync">"Nicio persoană în agendă pentru afişare. (Dacă tocmai aţi adăugat un cont, poate dura câteva minute sincronizarea persoanelor din agendă.)"\n\n"Pentru a adăuga persoane în agendă, apăsaţi pe "<font fgcolor="#ffffffff"><b>"Meniu"</b></font>" şi atingeţi:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Conturi"</b></font>" pentru a adăuga sau a configura un cont cu persoane în agendă pe care să-l puteţi sincroniza cu telefonul"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Opţiuni de afişare"</b></font>" pentru a selecta care persoane din agendă să fie vizibile"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Persoană nouă în agendă"</b></font>" pentru a crea o nouă persoană în agendă"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Importaţi/Exportaţi"</b></font>\n</li></string>
+    <string name="noFavoritesHelpText">"Nu aveţi favorite."\n\n" Pentru a adăuga o persoană în lista de favorite:"\n\n"        "<li>"Apăsaţi pe fila "<b>"Agendă"</b>" "\n</li>" "\n<li>"Apăsaţi persoana pe care doriţi să o adăugaţi în lista de favorite"\n</li>" "\n<li>"Apăsaţi pe steaua de lângă numele persoanei"\n</li></string>
+    <string name="liveFolder_all_label">"Toate persoanele din agendă"</string>
+    <string name="liveFolder_favorites_label">"Cu stea"</string>
+    <string name="liveFolder_phones_label">"Telefoane"</string>
+    <string name="dialer_useDtmfDialpad">"Utilizaţi tastatura DTMF"</string>
+    <string name="dialer_returnToInCallScreen">"Reveniţi la apelul în curs"</string>
+    <string name="dialer_addAnotherCall">"Adăugaţi un apel"</string>
+    <string name="callDetailTitle">"Detaliile apelului"</string>
+    <string name="toast_call_detail_error">"Nu se pot citi detaliile pentru apelul solicitat."</string>
+    <string name="type_incoming">"Apel de intrare"</string>
+    <string name="type_outgoing">"Apel de ieşire"</string>
+    <string name="type_missed">"Apel nepreluat"</string>
+    <string name="actionIncomingCall">"Apeluri de intrare"</string>
+    <string name="callBack">"Apelaţi din nou"</string>
+    <string name="callAgain">"Apelaţi din nou"</string>
+    <string name="returnCall">"Apelaţi înapoi"</string>
+    <string name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%1$s</xliff:g> m <xliff:g id="SECONDS">%2$s</xliff:g> s"</string>
+    <string name="favoritesFrquentSeparator">"Frecvent contactate"</string>
+    <string name="add_contact_dlg_title">"Adăugaţi o persoană în agendă"</string>
+    <string name="add_contact_dlg_message_fmt">"Adăugaţi „<xliff:g id="EMAIL">%s</xliff:g>” la persoanele din agendă?"</string>
+    <string name="all_tab_label">"Toate"</string>
+    <string name="description_image_button_one">"unu"</string>
+    <string name="description_image_button_two">"doi"</string>
+    <string name="description_image_button_three">"trei"</string>
+    <string name="description_image_button_four">"patru"</string>
+    <string name="description_image_button_five">"cinci"</string>
+    <string name="description_image_button_six">"şase"</string>
+    <string name="description_image_button_seven">"şapte"</string>
+    <string name="description_image_button_eight">"opt"</string>
+    <string name="description_image_button_nine">"nouă"</string>
+    <string name="description_image_button_star">"stea"</string>
+    <string name="description_image_button_zero">"zero"</string>
+    <string name="description_image_button_pound">"clar"</string>
+    <string name="description_voicemail_button">"Mesaj vocal"</string>
+    <string name="description_dial_button">"apelaţi"</string>
+    <string name="description_delete_button">"tasta backspace"</string>
+    <string name="description_digits_edittext">"numărul de apelat"</string>
+    <string name="description_contact_photo">"fotografia persoanei din agendă"</string>
+    <string name="description_minus_button">"minus"</string>
+    <string name="description_plus_button">"plus"</string>
+    <string name="no_sdcard_title" product="nosdcard">"Stoc. USB nu este disp."</string>
+    <string name="no_sdcard_title" product="default">"Niciun card SD"</string>
+    <string name="no_sdcard_message" product="nosdcard">"Stocare USB nedetectată"</string>
+    <string name="no_sdcard_message" product="default">"Niciun card SD detectat"</string>
+    <string name="searching_vcard_title">"Se caută date în format vCard"</string>
+    <string name="import_from_sim">"Importaţi de pe cardul SIM"</string>
+    <string name="import_from_sim1">Importare din SIM1</string>
+    <string name="import_from_sim2">Importare din SIM2</string>
+    <string name="import_from_sdcard" product="nosdcard">"Import. din stocarea USB"</string>
+    <string name="import_from_sdcard" product="default">"Importaţi de pe cardul SD"</string>
+    <string name="export_to_sdcard" product="nosdcard">"Exportaţi în stocarea USB"</string>
+    <string name="export_to_sdcard" product="default">"Exportaţi pe cardul SD"</string>
+    <string name="share_visible_contacts">"Distribuiţi persoanele vizibile din agendă"</string>
+    <string name="import_one_vcard_string">"Importaţi un fişier vCard"</string>
+    <string name="import_multiple_vcard_string">"Importaţi fişiere multiple vCard"</string>
+    <string name="import_all_vcard_string">"Importaţi toate fişierele vCard"</string>
+    <string name="searching_vcard_message" product="nosdcard">"Se caută date vCard în spaţiul de stocare USB"</string>
+    <string name="searching_vcard_message" product="default">"Se caută date vCard pe cardul SD"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard">"Scanarea stocării USB a eşuat"</string>
+    <string name="scanning_sdcard_failed_title" product="default">"Scanarea cardului SD a eşuat"</string>
+    <string name="scanning_sdcard_failed_message" product="nosdcard">"Scanarea stocării USB a eşuat (Motiv: „<xliff:g id="FAIL_REASON">%s</xliff:g>”)"</string>
+    <string name="scanning_sdcard_failed_message" product="default">"Scanarea cardului SD eşuată (Motiv: „<xliff:g id="FAIL_REASON">%s</xliff:g>”)"</string>
+    <string name="fail_reason_io_error">"Eroare I/E"</string>
+    <string name="fail_reason_vcard_parse_error">"Analiza vCard a eşuat dintr-un motiv necunoscut"</string>
+    <string name="fail_reason_vcard_not_supported_error">"Analiza vCard a eşuat, deşi pare a fi în format valid. Implementarea actuală nu acceptă acest format."</string>
+    <string name="fail_reason_no_vcard_file" product="nosdcard">"Nu a fost găsit niciun fişier vCard în spaţiul de stocare USB"</string>
+    <string name="fail_reason_no_vcard_file" product="default">"Niciun fişier vCard găsit pe cardul SD"</string>
+    <string name="fail_reason_failed_to_read_files">"Unul sau mai multe fişiere nu s-au putut importa (%s)."</string>
+    <string name="fail_reason_unknown">"Eroare necunoscută"</string>
+    <string name="select_vcard_title">"Selectaţi fişierul vCard"</string>
+    <string name="progress_shower_message">"<xliff:g id="ACTION">%1$s</xliff:g>"\n"<xliff:g id="FILENAME">%2$s</xliff:g>"</string>
+    <string name="reading_vcard_title">"Se citeşte vCard"</string>
+    <string name="reading_vcard_message">"Se citeşte fişierul vCard"</string>
+    <string name="reading_vcard_failed_title">"Citirea datelor de pe vCard a eşuat"</string>
+    <string name="reading_vcard_contacts">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> din <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> (de) persoane din agendă"</string>
+    <string name="reading_vcard_files">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> din <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> (de) fişiere"</string>
+    <string name="confirm_export_title">"Confirmaţi exportul"</string>
+    <string name="confirm_export_message">"Sigur doriţi să exportaţi lista de persoane din agendă către „<xliff:g id="VCARD_FILENAME">%s</xliff:g>”?"</string>
+    <string name="exporting_contact_failed_title">"Exportul datelor persoanei din agendă a eşuat"</string>
+    <string name="exporting_contact_failed_message">"Exportul datelor din agendă a eşuat."\n" Motivul erorii: „<xliff:g id="FAIL_REASON">%s</xliff:g>”"</string>
+    <string name="fail_reason_no_exportable_contact">"Nicio persoană în agendă exportabilă"</string>
+    <string name="fail_reason_too_many_vcard" product="nosdcard">"Prea multe fişiere vCard pe spaţiul de stocare USB"</string>
+    <string name="fail_reason_too_many_vcard" product="default">"Prea multe fişiere de tip vCard pe cardul SD"</string>
+    <string name="fail_reason_too_long_filename">"Numele de fişier este prea lung („<xliff:g id="FILENAME">%s</xliff:g>”)"</string>
+    <string name="exporting_contact_list_title">"Se exportă datele persoanelor din agendă"</string>
+    <string name="exporting_contact_list_message">"Se exportă datele despre persoanele din agendă către „<xliff:g id="FILE_NAME">%s</xliff:g>”"</string>
+    <string name="fail_reason_could_not_initialize_exporter">"Nu se poate iniţializa instrumentul de export: „<xliff:g id="EXACT_REASON">%s</xliff:g>”"</string>
+    <string name="fail_reason_error_occurred_during_export">"Eroare apărută în timpul exportului: „<xliff:g id="EXACT_REASON">%s</xliff:g>”"</string>
+    <string name="composer_failed_to_get_database_infomation">"Obţinerea informaţiilor din baza de date a eşuat"</string>
+    <string name="composer_has_no_exportable_contact">"Nicio persoană din agendă exportabilă. Dacă în acest moment aveţi persoane în telefonul dvs., toate acestea pot fi reţinute de la exportul în afara telefonului de către un furnizor de date."</string>
+    <string name="composer_not_initialized">"Compozitorul vCard nu este corect iniţializat"</string>
+    <string name="fail_reason_could_not_open_file">"Nu poate fi deschis fişierul „<xliff:g id="FILE_NAME">%1$s</xliff:g>: <xliff:g id="EXACT_REASON">%2$s</xliff:g>"</string>
+    <string name="exporting_contact_list_progress">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> din <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> (de) persoane din agendă"</string>
+    <string name="search_settings_description">"Numele persoanelor din agenda dvs."</string>
+    <string name="add_2sec_pause">"Pauză 2 secunde"</string>
+    <string name="add_wait">"Adăugaţi interval de aşteptare"</string>
+    <string name="call_disambig_title">"Apelaţi utilizând"</string>
+    <string name="sms_disambig_title">"Mesaj text utilizând"</string>
+    <string name="make_primary">"Reţineţi această alegere"</string>
+    <string name="quickcontact_missing_app">"Nicio aplicaţie pentru gestionarea acestei acţiuni"</string>
+    <string name="quickcontact_remember_choice">"Doresc să se reţină această alegere"</string>
+    <string name="quickcontact_missing_name">"Necunoscut"</string>
+    <string name="menu_accounts">"Conturi"</string>
+    <string name="menu_import_export">"Importaţi/Exportaţi"</string>
+    <string name="dialog_import_export">"Importaţi/exportaţi persoanele din agendă"</string>
+    <string name="menu_share">"Distribuiţi"</string>
+    <string name="share_via">"Distribuiţi persoana din agendă prin"</string>
+    <string name="share_error">"Aceasta persoană din agendă nu poate fi distribuită."</string>
+    <string name="nameLabelsGroup">"Nume"</string>
+    <string name="nicknameLabelsGroup">"Pseudonim"</string>
+    <string name="organizationLabelsGroup">"Organizaţie"</string>
+    <string name="websiteLabelsGroup">"Site web"</string>
+    <string name="eventLabelsGroup">"Eveniment"</string>
+    <string name="type_short_home">"D"</string>
+    <string name="type_short_mobile">"M"</string>
+    <string name="type_short_work">"Mi."</string>
+    <string name="type_short_pager">"P"</string>
+    <string name="type_short_other">"A"</string>
+    <string name="edit_read_only">"Această persoană din agendă este numai în citire"</string>
+    <string name="edit_secondary_collapse">"Mai multe"</string>
+    <string name="dialog_primary_name">"Nume principal"</string>
+    <string name="dialog_new_contact_account">"Creaţi o persoană în agendă, într-un cont"</string>
+    <string name="menu_sync_remove">"Eliminaţi grup de sincronizare"</string>
+    <string name="dialog_sync_add">"Adăugaţi grup de sincronizare"</string>
+    <string name="display_more_groups">"Mai multe grupuri..."</string>
+    <string name="display_ungrouped">"Toate celelalte persoane din Agendă"</string>
+    <string name="display_all_contacts">"Toate persoanele din Agendă"</string>
+    <string name="display_warn_remove_ungrouped">"Eliminarea „<xliff:g id="GROUP">%s</xliff:g>” din sincronizare va elimina, de asemenea, orice persoană din agendă care nu face parte dintr-un grup."</string>
+    <string name="account_phone">"Numai pe telefon, nesincronizată"</string>
+    <string name="call_custom">"Apelaţi <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="call_home">"Apelaţi numărul de domiciliu"</string>
+    <string name="call_mobile">"Apelaţi numărul de mobil"</string>
+    <string name="call_work">"Apelaţi numărul de serviciu"</string>
+    <string name="call_fax_work">"Apelaţi un număr de fax de serviciu"</string>
+    <string name="call_fax_home">"Apelaţi un număr de fax de la domiciliu"</string>
+    <string name="call_pager">"Apelaţi un număr de pager"</string>
+    <string name="call_other">"Apelaţi"</string>
+    <string name="call_callback">"Apelaţi un număr cu apelare inversă"</string>
+    <string name="call_car">"Apelaţi numărul de maşină"</string>
+    <string name="call_company_main">"Apelaţi numărul principal al companiei"</string>
+    <string name="call_isdn">"Apelaţi ISDN"</string>
+    <string name="call_main">"Apelaţi numărul principal"</string>
+    <string name="call_other_fax">"Apelaţi numărul de fax"</string>
+    <string name="call_radio">"Apelaţi un număr radio"</string>
+    <string name="call_telex">"Apelaţi un număr de telex"</string>
+    <string name="call_tty_tdd">"Apelaţi TTY/TDD"</string>
+    <string name="call_work_mobile">"Apelaţi numărul de mobil de la serviciu"</string>
+    <string name="call_work_pager">"Apelaţi pagerul de serviciu"</string>
+    <string name="call_assistant">"Apelaţi <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="call_mms">"Apelaţi MMS"</string>
+    <string name="sms_custom">"Trimiteţi mesaj text către <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="sms_home">"Trimiteţi mesaj text către telefonul de domiciliu"</string>
+    <string name="sms_mobile">"Trimiteţi mesaj text către telefonul mobil"</string>
+    <string name="sms_work">"Trimiteţi mesaj text către numărul de serviciu"</string>
+    <string name="sms_fax_work">"Trimiteţi mesaj text către un fax de serviciu"</string>
+    <string name="sms_fax_home">"Trimiteţi mesaj text către un număr de fax de domiciliu"</string>
+    <string name="sms_pager">"Trimiteţi mesaj text către un număr de pager"</string>
+    <string name="sms_other">"Mesaj"</string>
+    <string name="sms_callback">"Trimiteţi un mesaj text către un număr cu apelare inversă"</string>
+    <string name="sms_car">"Trimiteţi mesaj text către un număr de telefon de maşină"</string>
+    <string name="sms_company_main">"Trimiteţi mesaj text către numărul principal al companiei"</string>
+    <string name="sms_isdn">"Mesaj text către un număr ISDN"</string>
+    <string name="sms_main">"Trimiteţi mesaj text către numărul principal"</string>
+    <string name="sms_other_fax">"Trimiteţi mesaj text către un număr de fax"</string>
+    <string name="sms_radio">"Trimiteţi mesaj text către un număr radio"</string>
+    <string name="sms_telex">"Trimiteţi mesaj text către un număr de telex"</string>
+    <string name="sms_tty_tdd">"Trimiteţi mesaj text către TTY/TDD"</string>
+    <string name="sms_work_mobile">"Trimiteţi mesaj text către numărul de mobil de serviciu"</string>
+    <string name="sms_work_pager">"Trimiteţi mesaj text către un număr de pager de la serviciu"</string>
+    <string name="sms_assistant">"Trimiteţi mesaj text către <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="sms_mms">"Trimiteţi mesaj text către un număr MMS"</string>
+    <string name="email_home">"Trimiteţi un e-mai la o adresă de e-mail de domiciliu"</string>
+    <string name="email_mobile">"Trimiteţi un e-mail către un telefon mobil"</string>
+    <string name="email_work">"Trimiteţi e-mail către adresa de serviciu"</string>
+    <string name="email_other">"Trimiteţi un e-mail"</string>
+    <string name="email_custom">"Trimiteţi e-mail către <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="email">"Trimiteţi un e-mail"</string>
+    <string name="map_home">"Vizualizaţi adresa de domiciliu"</string>
+    <string name="map_work">"Vizualizaţi adresa de serviciu"</string>
+    <string name="map_other">"Vizualizaţi adresa poştală"</string>
+    <string name="map_custom">"Vizualizaţi adresa <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="chat_aim">"Conversaţi prin AIM"</string>
+    <string name="chat_msn">"Conversaţi prin Windows Live"</string>
+    <string name="chat_yahoo">"Conversaţi prin Yahoo"</string>
+    <string name="chat_skype">"Conversaţi prin Skype"</string>
+    <string name="chat_qq">"Conversaţi prin QQ"</string>
+    <string name="chat_gtalk">"Conversaţi prin Google Talk"</string>
+    <string name="chat_icq">"Conversaţi prin ICQ"</string>
+    <string name="chat_jabber">"Conversaţi prin Jabber"</string>
+    <string name="chat">"Conversaţi prin chat"</string>
+    <string name="postal_street">"Stradă"</string>
+    <string name="postal_pobox">"Căsuţa poştală"</string>
+    <string name="postal_neighborhood">"Vecinătate"</string>
+    <string name="postal_city">"Oraş"</string>
+    <string name="postal_region">"Stat"</string>
+    <string name="postal_postcode">"Codul ZIP"</string>
+    <string name="postal_country">"Ţara"</string>
+    <string name="name_given">"Prenume"</string>
+    <string name="name_family">"Numele de familie"</string>
+    <string name="name_prefix">"Prefixul numelui"</string>
+    <string name="name_middle">"Al doilea prenume"</string>
+    <string name="name_suffix">"Sufixul numelui"</string>
+    <string name="name_phonetic_given">"Prenume fonetic"</string>
+    <string name="name_phonetic_middle">"Numele mijlociu fonetic"</string>
+    <string name="name_phonetic_family">"Numele de familie fonetic"</string>
+    <string name="account_type_format">"Persoana din agendă din <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="from_account_format">"din <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="use_photo_as_primary">"Utilizaţi această fotografie"</string>
+    <string name="contact_read_only">"<xliff:g id="SOURCE">%1$s</xliff:g> Informaţiile despre această persoană din agendă nu se pot edita pe acest dispozitiv."</string>
+    <string name="no_contact_details">"Nicio informaţie suplimentară pentru această persoană din agendă"</string>
+    <string name="display_options_sort_list_by">"Sortaţi lista după"</string>
+    <string name="display_options_sort_by_given_name">"Prenume"</string>
+    <string name="display_options_sort_by_family_name">"Numele de familie"</string>
+    <string name="display_options_view_names_as">"Vizualizaţi numele persoanei din agendă ca"</string>
+    <string name="display_options_view_given_name_first">"Întâi prenumele"</string>
+    <string name="display_options_view_family_name_first">"Întâi numele de familie"</string>
+    <string name="search_bar_hint">"Căutaţi în persoanele din agendă"</string>
+    <string name="search_for_all_contacts">"Căutare în toate persoanele din agendă"</string>
+    <string name="take_photo">"Fotografiaţi"</string>
+    <string name="pick_photo">"Selectaţi o fotografie din galerie"</string>
+    <string name="locale_change_in_progress">"Se actualizează lista de persoane din agendă pentru a reflecta modificarea limbii."\n\n" Aşteptaţi..."</string>
+    <string name="upgrade_in_progress">"Se actualizează lista persoanelor din agendă."\n\n"Aşteptaţi..."</string>
+    <string name="upgrade_out_of_memory">"Agenda este în proces de trecere la o versiune superioară. "\n\n"Procesul necesită aproximativ <xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MO din spaţiul intern de stocare al telefonului."\n\n"Alegeţi una dintre următoarele opţiuni:"</string>
+    <string name="upgrade_out_of_memory_uninstall">"Dezinstalaţi unele aplicaţii"</string>
+    <string name="upgrade_out_of_memory_retry">"Încercaţi din nou trecerea la o versiune superioară"</string>
+    <string name="search_results_for">"Rezultatele căutării pentru: <xliff:g id="QUERY">%s</xliff:g>"</string>
+    <string name="search_results_searching">"Se caută..."</string>
+    <string name="select_contacts">selectați contactele</string>
+    <string name="add_contacts_to_group">Adăugați contacte la grup</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Revocare</string>
+    <string name="menu_contacts_group">Grup de Contacte</string>
+    <string name="export_to_sim">Exportare pe cardul SIM</string>
+    <string name="export_to_sim1">Exportare pe SIM1</string>
+    <string name="export_to_sim2">Exportare pe SIM2</string>
+    <string name="select_contacts_group">Selectați grupul de contacte</string>
+    <string name="recentCalls_delete_toest">Vă rugăm selectați elementele de ștergere</string>
+    <string name="group_manager_delete">Grup contact - Ștergere</string>
+    <string name="empty">Câmpul pentru informația grupului este gol, vă rugăm adăugați un element de meniu</string>
+    <string name="noGroupInfo">Niciun grup operațional</string>
+    <string name="add_to_group_success">Adăugare Grup cu Succes</string>
+    <string name="add_to_group_fail">Adăugare Grup Eșuată</string>
+    <string name="remove_contacts_from_group">Ştergeţi acest contact din grup</string>
+    <string name="group_name_cannot_empty">Numele grupului nu poate fi gol</string>
+    <string name="blacklist_add">Adaugă la lista neagră</string>
+    <string name="blacklist">Lista neagră</string>
+    <string name="group_name">nume grup</string>
+    <string name="contactsPhoneIconLabel">Telefon</string>
+    <string name="sim_notready_cant_not_save">Cartela SIM nu este pregătită, nu poate salva contactul pe cartela SIM </string>
+    <string name="cant_not_save_email">Această cartelă sim nu poate salva email.</string>
+    <string name="fdn_enable_nosetting">Acțiunea selectată nu este disponibilă când FDN este activat.</string>
+    <string name="menu_removeFrequent">Ştergeţi de la frecventare</string>
+    <string name="group_name_student">Student</string>
+    <string name="group_name_friend">Prieten</string>
+    <string name="group_name_family">Familie</string>
+    <string name="group_name_colleague">Coleg</string>
+    <string name="default_ban_operate">Grupul prestabilit a interzis operațiunea</string>
+    <string name="delete_group">ștergerea grupării</string>
+    <string name="emergency_call">Apel de urgenţă</string>
+    <string name="dial_emergency_empty_error">Apelul nu a fost expediat, vă rugăm apelați un număr de urgență!</string>
+    <string name="initializing_sim_contacts">Iniţializare contacte SIM, vă rugăm încercaţi mai târziu</string>
+</resources>

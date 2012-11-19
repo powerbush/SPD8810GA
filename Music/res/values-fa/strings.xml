@@ -1,0 +1,150 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">"1 آهنگ"</string>
+    <plurals name="Nsongs">
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> آهنگ"</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">"<xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> از <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> آهنگ"</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <!-- number of albums is one -->
+        <item quantity="one">"1 آلبوم"</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> آلبوم"</item>
+    </plurals>
+    <string name="goto_start">"کتابخانه"</string>
+    <string name="goto_playback">"پخش"</string>
+    <string name="party_shuffle">"ترتیب تصادفی گروه"</string>
+    <string name="party_shuffle_off">"ترتیب تصادفی گروه خاموش است"</string>
+    <string name="delete_item">"حذف"</string>
+    <string name="shuffle_all">"ترتیب تصادفی همه"</string>
+    <string name="play_all">"پخش همه"</string>
+    <string name="delete_artist_desc">"همه آهنگ های <xliff:g id="ARTIST">%s</xliff:g> به طور دائم از کارت SD حذف می شوند."</string>
+    <string name="delete_artist_desc_nosdcard" msgid="1843750591006508005">"تمام آهنگ های <xliff:g id="ARTIST">%s</xliff:g> به صورت دائمی از حافظه USB حذف می شوند."</string>
+    <string name="delete_album_desc">"کل آلبوم \"<xliff:g id="ALBUM">%s</xliff:g>\" به صورت دائم از کارت SD حذف می شود."</string>
+    <string name="delete_album_desc_nosdcard" msgid="535515999268177079">"کل آلبوم \"<xliff:g id="ALBUM">%s</xliff:g>\" به صورت دائمی از حافظه USB حذف می شود."</string>
+    <string name="delete_song_desc">"\"<xliff:g id="SONG">%s</xliff:g>\" به صورت دائم از کارت SD حذف می شود."</string>
+    <string name="delete_song_desc_nosdcard" msgid="1856800468541831408">"\"<xliff:g id="SONG">%s</xliff:g>\" به صورت دائمی از حافظه USB حذف می شود."</string>
+    <string name="delete_confirm_button_text">"تأیید"</string>
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">"1 آهنگ حذف شد."</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other">"<xliff:g id="SONGS_TO_DELETE">%d</xliff:g> آهنگ حذف شد."</item>
+    </plurals>
+    <string name="scanning">"در حال اسکن کارت SD..."</string>
+    <string name="scanning_nosdcard" msgid="3529383847223198502">"در حال اسکن کردن حافظه USB..."</string>
+    <string name="nowplaying_title">"در حال پخش"</string>
+    <string name="partyshuffle_title">"ترتیب تصادفی گروه"</string>
+    <string name="artists_title">"هنرمندها"</string>
+    <string name="albums_menu">"آلبوم ها"</string>
+    <string name="albums_title">"آلبوم ها"</string>
+    <string name="tracks_menu">"آهنگ ها"</string>
+    <string name="tracks_title">"آهنگ ها"</string>
+    <string name="playlists_menu">"لیست های پخش"</string>
+    <string name="playlists_title">"لیست های پخش"</string>
+    <string name="videos_title">"ویدیوها"</string>
+    <string name="all_title">"همه رسانه"</string>
+    <string name="browse_menu">"هنرمندها"</string>
+    <string name="search_title">"جستجو"</string>
+    <string name="no_tracks_title">"بدون آهنگ"</string>
+    <string name="no_videos_title">"ویدیویی موجود نیست"</string>
+    <string name="no_playlists_title">"لیست پخشی موجود نیست"</string>
+    <string name="delete_playlist_menu">"حذف"</string>
+    <string name="edit_playlist_menu">"ویرایش"</string>
+    <string name="rename_playlist_menu">"تغییر نام"</string>
+    <string name="playlist_deleted_message">"لیست پخش حذف شد."</string>
+    <string name="playlist_renamed_message">"نام لیست پخش تغییر کرد."</string>
+    <string name="recentlyadded">"اخیراً افزوده شده"</string>
+    <string name="recentlyadded_title">"اخیراً افزوده شده"</string>
+    <string name="podcasts_listitem">"پادکست ها"</string>
+    <string name="podcasts_title">"پادکست ها"</string>
+    <string name="sdcard_missing_title">"کارت SD موجود نیست"</string>
+    <string name="sdcard_missing_title_nosdcard" msgid="9008284946643270850">"حافظه USB وجود ندارد"</string>
+    <string name="sdcard_missing_message">"کارت SD در گوشی شما قرار داده نشده است."</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="1169260755336159747">"تلفن شما دارای حافظه USB نیست."</string>
+    <string name="sdcard_busy_title">"کارت SD موجود نیست"</string>
+    <string name="sdcard_busy_title_nosdcard" msgid="1162763571147174655">"حافظه USB در دسترس نیست"</string>
+    <string name="sdcard_busy_message">"متأسفم، کارت SD شما مشغول است."</string>
+    <string name="sdcard_busy_message_nosdcard" msgid="8071868348072728830">"متأسفیم، حافظه USB مشغول است."</string>
+    <string name="sdcard_error_title">"خطای کارت SD"</string>
+    <string name="sdcard_error_title_nosdcard" msgid="165682155008600643">"خطای حافظه USB"</string>
+    <string name="sdcard_error_message">"در کارت SD شما خطایی روی داد."</string>
+    <string name="sdcard_error_message_nosdcard" msgid="4574563894036627855">"خطایی در حافظه USB رخ داد."</string>
+    <string name="unknown_artist_name">"هنرمند ناشناس"</string>
+    <string name="unknown_album_name">"آلبوم ناشناس"</string>
+    <string name="shuffle_on_notif">"ترتیب تصادفی روشن است"</string>
+    <string name="shuffle_off_notif">"ترتیب تصادفی خاموش است."</string>
+    <string name="repeat_off_notif">"تکرار خاموش است."</string>
+    <string name="repeat_current_notif">"تکرار آهنگ فعلی."</string>
+    <string name="repeat_all_notif">"تکرار همه آهنگ ها."</string>
+    <string name="ringtone_menu">"استفاده به عنوان آهنگ زنگ گوشی"</string>
+    <string name="ringtone_menu_short">"استفاده به عنوان آهنگ زنگ"</string>
+    <string name="ringtone_set">"\"<xliff:g id="NAME">%s</xliff:g>\" به عنوان آهنگ زنگ تنظیم می شود."</string>
+    <string name="play_selection">"پخش"</string>
+    <string name="add_to_playlist">"افزودن به لیست پخش"</string>
+    <string name="queue">"لیست پخش فعلی"</string>
+    <string name="new_playlist">"جدید"</string>
+    <string name="new_playlist_name_template">"لیست پخش جدید <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">"1 آهنگ به لیست پخش اضافه شد."</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> آهنگ به لیست پخش افزوده شد."</item>
+    </plurals>
+    <string name="emptyplaylist">"لیست پخش انتخابی خالی است."</string>
+    <string name="create_playlist_create_text">"ذخیره"</string>
+    <string name="create_playlist_overwrite_text">"رونویسی"</string>
+    <string name="service_start_error_title">"مشکل پخش"</string>
+    <string name="service_start_error_msg">"متأسفم، آهنگ پخش نشد."</string>
+    <string name="service_start_error_button">"تأیید"</string>
+    <string-array name="weeklist">
+        <item>"1 هفته"</item>
+        <item>"2 هفته"</item>
+        <item>"3 هفته"</item>
+        <item>"4 هفته"</item>
+        <item>"5 هفته"</item>
+        <item>"6 هفته"</item>
+        <item>"7 هفته"</item>
+        <item>"8 هفته"</item>
+        <item>"9 هفته"</item>
+        <item>"10 هفته"</item>
+        <item>"11 هفته"</item>
+        <item>"12 هفته"</item>
+    </string-array>
+    <string name="weekpicker_set">"انجام شد"</string>
+    <string name="weekpicker_title">"تنظیم زمان"</string>
+    <string name="save_as_playlist">"ذخیره بعنوان لیست پخش"</string>
+    <string name="clear_playlist">"پاک کردن لیست پخش"</string>
+    <string name="musicbrowserlabel">"موسیقی"</string>
+    <string name="musicshortcutlabel">"لیست پخش موسیقی"</string>
+    <string name="mediaplaybacklabel">"موسیقی"</string>
+    <string name="videobrowserlabel">"ویدیوها"</string>
+    <string name="mediapickerlabel">"موسیقی"</string>
+    <string name="playback_failed">"متأسفم، پخش کننده از این نوع فایل صوتی پشتیبانی نمی کند."</string>
+    <string name="cancel">"لغو"</string>
+    <string name="remove_from_playlist">"حذف از لیست پخش"</string>
+    <string name="streamloadingtext">"اتصال به <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="mediasearch">"جستجو برای <xliff:g id="TERM">%s</xliff:g> با استفاده از:"</string>
+    <string name="working_artists">"هنرمندها..."</string>
+    <string name="working_albums">"آلبوم ها..."</string>
+    <string name="working_songs">"آهنگ ها..."</string>
+    <string name="working_playlists">"لیست های پخش..."</string>
+    <string name="loading">"بارگیری"</string>
+    <string name="sort_by_track">"تراک ها"</string>
+    <string name="sort_by_album">"آلبوم ها"</string>
+    <string name="sort_by_artist">"هنرمندها"</string>
+    <string name="music_picker_title">"انتخاب تراک موسیقی"</string>
+    <string name="gadget_track">"تراک <xliff:g id="TRACK_NUMBER">%d</xliff:g>"</string>
+    <string name="fail_to_start_stream">"پخش جریان درخواستی انجام نشد."</string>
+    <string name="search_settings_description">"هنرمندها، آلبوم ها و تراک ها"</string>
+    <string name="search_hint">"جستجوی موسیقی"</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="widget_initial_text">"برای انتخاب موسیقی لمس کنید."</string>
+    <string name="effectspanel">"جلوه های صوتی"</string>
+    <string name="no_play">پخش در جریان تماس منع است</string>
+    <string name="ringtone_title_sim1">زنگ تلفن سیم کارت 1</string>
+    <string name="ringtone_title_sim2">زنگ تلفن سیم کارت 2</string>
+</resources>

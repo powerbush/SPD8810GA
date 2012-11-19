@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="status_bar_icon_order">
+        <item><xliff:g id="id">นาฬิกา</xliff:g></item>
+        <item><xliff:g id="id">ความปลอดภัย</xliff:g></item>
+        <item><xliff:g id="id">alarm_clock</xliff:g></item>
+        <item><xliff:g id="id">แบตเตอรี่</xliff:g></item>
+        <item><xliff:g id="id">สัญญาณ_โทรศัพท์</xliff:g></item>
+        <item><xliff:g id="id">สัญญาณ_โทรศัพท์_วินาที_ย่อย</xliff:g></item>
+        <item><xliff:g id="id">สัญญาณ_evdo_โทรศัพท์</xliff:g></item>
+        <item><xliff:g id="id">การเชื่อมต่อ_ข้อมูล</xliff:g></item>
+        <item><xliff:g id="id">cdma_eri</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">เสียง</xliff:g></item>
+        <item><xliff:g id="id">ปิดเสียง</xliff:g></item>
+        <item><xliff:g id="id">ลำโพง</xliff:g></item>
+	    <item><xliff:g id="id">ชุดหูฟัง</xliff:g></item>
+        <item><xliff:g id="id">wifi</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">บลูทูธ</xliff:g></item>
+        <item><xliff:g id="id">gps</xliff:g></item>
+        <item><xliff:g id="id">เปิดใช้_การซิงค์</xliff:g></item>
+        <item><xliff:g id="id">ซิงค์_ไม่สำเร็จ</xliff:g></item>
+        <item><xliff:g id="id">ime</xliff:g></item>
+    </string-array>
+</resources>

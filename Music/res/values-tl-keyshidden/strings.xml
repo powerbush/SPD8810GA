@@ -1,0 +1,7 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="create_playlist_create_text_prompt">"Buksan ang keyboard upang bigyan ng bagong pangalan ang iyong Playlist, o piliin ang I-save upang pangalanan ito na \"<xliff:g id="PLAYLIST">%s</xliff:g>\"."</string>
+    <string name="rename_playlist_same_prompt">"Buksan ang keyboard upang bigyan ang playlist na \"<xliff:g id="PLAYLIST">%s</xliff:g>\" ng bagong pangalan."</string>
+    <string name="rename_playlist_diff_prompt">"Buksan ang keyboard upang bigyan ang playlist na \"<xliff:g id="PLAYLIST">%1$s</xliff:g>\" ng bagong pangalan, o piliin ang I-save upang pangalanan ito na \"<xliff:g id="NAME">%2$s</xliff:g>\"."</string>
+</resources>

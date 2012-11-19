@@ -1,0 +1,123 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">waka 1</string>
+    <plurals name="Nalbums">
+        <!-- number of albums is one -->
+        <item quantity="one">ma\'ajiyar hotuna 1</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other"></item>
+    </plurals>
+    <string name="goto_start">Dakin karatu</string>
+    <string name="goto_playback">Kunna/koma-baya</string>
+    <string name="party_shuffle">Party shuffle</string>
+    <string name="party_shuffle_off">An kashe Party Shuffle</string>
+    <string name="delete_item">Goge</string>
+    <string name="shuffle_all">Zagaya duka</string>
+    <string name="play_all">Kunna duka</string>
+    <string name="delete_confirm_button_text">OK</string>
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">an soke waka 1.</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other"></item>
+    </plurals>
+    <string name="scanning">Ana tace SD card\u2026</string>
+    <string name="nowplaying_title">Yana cikin aiki</string>
+    <string name="partyshuffle_title">Party shuffle</string>
+    <string name="artists_title">Gwanayen waka</string>
+    <string name="albums_menu">Littattafan hoto</string>
+    <string name="albums_title">Littattafan hoto</string>
+    <string name="tracks_menu">Wakoki</string>
+    <string name="tracks_title">Wakoki</string>
+    <string name="playlists_menu">Jerin wakoki</string>
+    <string name="playlists_title">Jerin wakoki</string>
+    <string name="videos_title">Bidiyo</string>
+    <string name="all_title">Duk kafar sadarwa</string>
+    <string name="browse_menu">Gwanayen waka</string>
+    <string name="search_title">Bincika</string>
+    <string name="no_tracks_title">Babu wakoki</string>
+    <string name="no_videos_title">Babu bidiyo</string>
+    <string name="no_playlists_title">Babu jerin wakoki/kida</string>
+    <string name="delete_playlist_menu">Goge</string>
+    <string name="edit_playlist_menu">Gyara</string>
+    <string name="rename_playlist_menu">Sake suna</string>
+    <string name="playlist_deleted_message">An goge jerin wakoki.</string>
+    <string name="playlist_renamed_message">An canja sunan jerin wakoki.</string>
+    <string name="recentlyadded">Wanda aka shigar kwanan nan</string>
+    <string name="recentlyadded_title">Wanda aka shigar kwanan nan</string>
+    <string name="podcasts_listitem">Podcast</string>
+    <string name="podcasts_title">Podcast</string>
+    <string name="sdcard_missing_title">Babu SD card</string>
+    <string name="sdcard_missing_message">Ba a sanya SD card cikin wayarka ba.</string>
+    <string name="sdcard_busy_title">An kasa samun SD card</string>
+    <string name="sdcard_busy_message">Yi hakuri, SD card yana cikin aiki.</string>
+    <string name="sdcard_error_title">Matsala a SD card</string>
+    <string name="sdcard_error_message">An gamu da kure kan katin SD naka.</string>
+    <string name="unknown_artist_name">Bakon mawaki</string>
+    <string name="unknown_album_name">Bakon mazubin wakoki</string>
+    <string name="shuffle_on_notif">An kunna zagaye.</string>
+    <string name="shuffle_off_notif">An kashe zagaye.</string>
+    <string name="repeat_off_notif">An kashe Maimaita.</string>
+    <string name="repeat_current_notif">Maimaita wakar da ke kai.</string>
+    <string name="repeat_all_notif">Maimaita duk wakoki.</string>
+    <string name="ringtone_menu">Yi amfani da shi a matsayin sautin kiran waya</string>
+    <string name="ringtone_menu_short">Yi amfani da shi a matsayin sautin kira</string>
+    <string name="play_selection">Kunna</string>
+    <string name="add_to_playlist">Kara wa jerin rerawa</string>
+    <string name="queue">Jerin wakoki na yanzu</string>
+    <string name="new_playlist">Sabo</string>
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">an kara waka 1 ga jerin wakoki.</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other"></item>
+    </plurals>
+    <string name="emptyplaylist">Babu komai a jakar jerin wakoki</string>
+    <string name="create_playlist_create_text">Ajiye</string>
+    <string name="create_playlist_overwrite_text">Rubutawa fiye da ka\'ida</string>
+    <string name="service_start_error_title">Matsalar koma-baya</string>
+    <string name="service_start_error_msg">Yi hakuri, wakar ba za ta kunnu ba.</string>
+    <string name="service_start_error_button">OK</string>
+    <string-array name="weeklist">
+        <item>Mako 1</item>
+        <item>Mako 2</item>
+        <item>Mako 3</item>
+        <item>Mako 4</item>
+        <item>Mako 5</item>
+        <item>Mako 6</item>
+        <item>Mako 7</item>
+        <item>Mako 8</item>
+        <item>Mako 9</item>
+        <item>Mako 10</item>
+        <item>Mako 11</item>
+        <item>Mako 12</item>
+    </string-array>
+    <string name="weekpicker_set">An gama</string>
+    <string name="weekpicker_title">Saita lokaci</string>
+    <string name="save_as_playlist">Ajiye a matsayin jein wakoki/kade kade</string>
+    <string name="clear_playlist">Share jerin wakoki</string>
+    <string name="musicbrowserlabel">Waka</string>
+    <string name="musicshortcutlabel">Jerin wakoki</string>
+    <string name="mediaplaybacklabel">Waka</string>
+    <string name="videobrowserlabel">Bidiyo</string>
+    <string name="mediapickerlabel">Waka</string>
+    <string name="playback_failed">Yi hakuri, na\'urar kidan ba ta bude irin wannan makunshin wakar.</string>
+    <string name="cancel">Soke</string>
+    <string name="remove_from_playlist">Cire daga jerin wakoki/kade kade</string>
+    <string name="working_artists">Gwanayen waka\u2026</string>
+    <string name="working_songs">Wakoki\u2026</string>
+    <string name="working_playlists">Jerin wakoki\u2026</string>
+    <string name="loading">Ana daura wa</string>
+    <string name="sort_by_track">Makunsan waka</string>
+    <string name="sort_by_album">Littattafan hoto</string>
+    <string name="sort_by_artist">Gwanayen waka</string>
+    <string name="music_picker_title">Zabi sunan waka</string>
+    <string name="fail_to_start_stream">Ta kasa ta kunna jeri mara iyaka da an roka.</string>
+    <string name="search_settings_description">Gwanayen waka, littafin hotuna, da tafarkuna</string>
+    <string name="search_hint">Bincika ma\'adanar wakoki</string>
+    <string name="widget_initial_text">Taba don zabar waka.</string>
+    <string name="no_play">An hana komawa baya yayin da ake buga waya</string>
+    <string name="ringtone_title_sim1">Sautin kiran waya a SIM1</string>
+    <string name="ringtone_title_sim2">Sautin kiran waya a SIM2</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="设置">
+
+    <PreferenceCategory 
+        android:title="1006号码设置"
+        android:summary="设置11位的1006号码"
+        >
+        <EditTextPreference
+            android:key="phone_num"
+            android:title="1006号码设置"
+            android:summary="设置11位的1006号码"
+            android:dialogTitle="请输入11位的手机号码"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

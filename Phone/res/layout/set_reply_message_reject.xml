@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ImageView 
+    	android:layout_height="wrap_content" 
+    	android:src="@drawable/divider" 
+    	android:layout_width="fill_parent" 
+    	android:id="@+id/imageView1">
+    </ImageView>
+    
+	<TextView  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="@string/label_message_reject"
+        android:paddingTop="10sp"
+        />
+        
+	<EditText
+		android:id="@+id/edit_content" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:textSize="14sp" 
+		android:layout_weight="1"
+		android:lines="2" 
+		android:maxLines="2"
+		android:maxLength="100"
+		android:hint="@string/tip_input_content"
+		android:paddingTop="10sp">
+	</EditText>
+	
+    <LinearLayout 
+		android:orientation="horizontal" 
+		android:id="@+id/LinearLayoutBackGround" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:background="#ffffffff">
+		
+		<Button 
+        android:id="@+id/ok_for_save_message_content"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ok" 
+        android:gravity="center_vertical|center_horizontal"/>
+         
+		<Button 
+        android:id="@+id/cancel_for_exit_activity"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/cancel"
+        android:gravity="center_vertical|center_horizontal"/>
+
+	</LinearLayout>
+	
+</LinearLayout>

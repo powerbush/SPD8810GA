@@ -1,0 +1,156 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">"أغنية واحدة"</string>
+    <plurals name="Nsongs">
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> من الأغاني"</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">"<xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> من إجمالي <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> من الأغاني"</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <!-- number of albums is one -->
+        <item quantity="one">"ألبوم واحد"</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> من الألبومات"</item>
+    </plurals>
+    <string name="goto_start">"المكتبة"</string>
+    <string name="goto_playback">"تشغيل"</string>
+    <string name="party_shuffle">"ترتيب عشوائي جماعي"</string>
+    <string name="party_shuffle_off">"إيقاف الترتيب العشوائي الجماعي"</string>
+    <string name="delete_item">"حذف"</string>
+    <string name="shuffle_all">"ترتيب عشوائي للكل"</string>
+    <string name="play_all">"تشغيل الكل"</string>
+    <string name="delete_artist_desc">"سيتم حذف جميع الأغاني بواسطة <xliff:g id="ARTIST">%s</xliff:g> نهائيًا من بطاقة SD."</string>
+    <string name="delete_artist_desc_nosdcard" msgid="1843750591006508005">"سيتم حذف جميع أغاني <xliff:g id="ARTIST">%s</xliff:g> نهائيًا من وحدة تخزين USB."</string>
+    <string name="delete_album_desc">"سيتم حذف الألبوم \"<xliff:g id="ALBUM">%s</xliff:g>\" بالكامل من بطاقة SD نهائيًا."</string>
+    <string name="delete_album_desc_nosdcard" msgid="535515999268177079">"سيتم حذف الألبوم \"<xliff:g id="ALBUM">%s</xliff:g>\" بالكامل من وحدة تخزين USB نهائيًا."</string>
+    <string name="delete_song_desc">"سيتم حذف \"<xliff:g id="SONG">%s</xliff:g>\" نهائيًا من بطاقة SD."</string>
+    <string name="delete_song_desc_nosdcard" msgid="1856800468541831408">"سيتم حذف \"<xliff:g id="SONG">%s</xliff:g>\" نهائيًا من وحدة تخزين USB."</string>
+    <string name="delete_confirm_button_text">"موافق"</string>
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">"تم حذف أغنية واحدة"</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other">"تم حذف <xliff:g id="SONGS_TO_DELETE">%d</xliff:g> من الأغاني."</item>
+    </plurals>
+    <string name="scanning">"جارٍ فحص بطاقة SD..."</string>
+    <string name="scanning_nosdcard" msgid="3529383847223198502">"جارٍ فحص وحدة تخزين USB..."</string>
+    <string name="nowplaying_title">"يجري الآن تشغيل"</string>
+    <string name="partyshuffle_title">"ترتيب عشوائي جماعي"</string>
+    <string name="artists_title">"الفنانون"</string>
+    <string name="albums_menu">"الألبومات"</string>
+    <string name="albums_title">"الألبومات"</string>
+    <string name="tracks_menu">"الأغاني"</string>
+    <string name="tracks_title">"الأغاني"</string>
+    <string name="playlists_menu">"قوائم التشغيل"</string>
+    <string name="playlists_title">"قوائم التشغيل"</string>
+    <string name="videos_title">"مقاطع الفيديو"</string>
+    <string name="all_title">"كل الوسائط"</string>
+    <string name="browse_menu">"الفنانون"</string>
+    <string name="search_title">"بحث"</string>
+    <string name="no_tracks_title">"ليس هناك أغاني"</string>
+    <string name="no_videos_title">"ليس هناك أي مقاطع فيديو"</string>
+    <string name="no_playlists_title">"لا قوائم تشغيل"</string>
+    <string name="delete_playlist_menu">"حذف"</string>
+    <string name="edit_playlist_menu">"تعديل"</string>
+    <string name="rename_playlist_menu">"إعادة تسمية"</string>
+    <string name="playlist_deleted_message">"تم حذف قائمة التشغيل."</string>
+    <string name="playlist_renamed_message">"تمت إعادة تسمية قائمة التشغيل."</string>
+    <string name="recentlyadded">"تمت إضافتها حديثًا"</string>
+    <string name="recentlyadded_title">"تمت إضافتها حديثًا"</string>
+    <string name="podcasts_listitem">"مواد الوسائط"</string>
+    <string name="podcasts_title">"مواد الوسائط"</string>
+    <string name="sdcard_missing_title">"لا بطاقة SD"</string>
+    <string name="sdcard_missing_title_nosdcard" msgid="9008284946643270850">"ليس هناك وحدة تخزين USB"</string>
+    <string name="sdcard_missing_message">"لم يتم إدراج بطاقة SD في الهاتف."</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="1169260755336159747">"لا تتوفر وحدة تخزين USB في هاتفك."</string>
+    <string name="sdcard_busy_title">"بطاقة SD غير متوفرة"</string>
+    <string name="sdcard_busy_title_nosdcard" msgid="1162763571147174655">"وحدة تخزين USB غير متوفرة"</string>
+    <string name="sdcard_busy_message">"نأسف، بطاقة SD مشغولة."</string>
+    <string name="sdcard_busy_message_nosdcard" msgid="8071868348072728830">"نأسف، وحدة تخزين USB مشغولة."</string>
+    <string name="sdcard_error_title">"خطأ في بطاقة SD"</string>
+    <string name="sdcard_error_title_nosdcard" msgid="165682155008600643">"خطأ في وحدة تخزين USB"</string>
+    <string name="sdcard_error_message">"تمت مصادفة خطأ على بطاقة SD."</string>
+    <string name="sdcard_error_message_nosdcard" msgid="4574563894036627855">"تمت مصادفة خطأ في وحدة تخزين USB."</string>
+    <string name="unknown_artist_name">"فنان غير معروف"</string>
+    <string name="unknown_album_name">"ألبوم غير معروف"</string>
+    <string name="shuffle_on_notif">"تم تشغيل الترتيب العشوائي."</string>
+    <string name="shuffle_off_notif">"تم إيقاف الترتيب العشوائي."</string>
+    <string name="repeat_off_notif">"تم إيقاف التكرار."</string>
+    <string name="repeat_current_notif">"تكرار الأغنية الحالية."</string>
+    <string name="repeat_all_notif">"تكرار كل الأغاني."</string>
+    <string name="ringtone_menu">"استخدام كنغمة رنين للهاتف"</string>
+    <string name="ringtone_menu_short">"استخدام كنغمة رنين"</string>
+    <string name="ringtone_set">"تم تعيين \"<xliff:g id="NAME">%s</xliff:g>\" كنغمة رنين للهاتف."</string>
+    <string name="play_selection">"تشغيل"</string>
+    <string name="add_to_playlist">"إضافة إلى قائمة التشغيل"</string>
+    <string name="queue">"قائمة التشغيل الحالية"</string>
+    <string name="new_playlist">"جديد"</string>
+    <string name="new_playlist_name_template">"قائمة تشغيل جديدة <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">"تمت إضافة أغنية واحدة إلى قائمة التشغيل."</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other">"تمت إضافة <xliff:g id="NUMBER">%d</xliff:g> من الأغاني إلى قائمة التشغيل."</item>
+    </plurals>
+    <string name="emptyplaylist">"قائمة التشغيل المحددة فارغة."</string>
+    <string name="create_playlist_create_text">"حفظ"</string>
+    <string name="create_playlist_overwrite_text">"استبدال"</string>
+    <string name="service_start_error_title">"مشكلة في التشغيل"</string>
+    <string name="service_start_error_msg">"نأسف، تعذر تشغيل الأغنية."</string>
+    <string name="service_start_error_button">"موافق"</string>
+    <string-array name="weeklist">
+        <item>"أسبوع واحد"</item>
+        <item>"أسبوعان"</item>
+        <item>"3 أسابيع"</item>
+        <item>"4 أسابيع"</item>
+        <item>"5 أسابيع"</item>
+        <item>"6 أسابيع"</item>
+        <item>"7 أسابيع"</item>
+        <item>"8 أسابيع"</item>
+        <item>"9 أسابيع"</item>
+        <item>"10 أسابيع"</item>
+        <item>"11 أسبوعًا"</item>
+        <item>"12 أسبوعًا"</item>
+    </string-array>
+    <string name="weekpicker_set">"تم"</string>
+    <string name="weekpicker_title">"تعيين الوقت"</string>
+    <string name="save_as_playlist">"حفظ كقائمة تشغيل"</string>
+    <string name="clear_playlist">"محو قائمة التشغيل"</string>
+    <string name="musicbrowserlabel">"موسيقى"</string>
+    <string name="musicshortcutlabel">"قائمة تشغيل الموسيقى"</string>
+    <string name="mediaplaybacklabel">"موسيقى"</string>
+    <string name="videobrowserlabel">"مقاطع الفيديو"</string>
+    <string name="mediapickerlabel">"موسيقى"</string>
+    <string name="playback_failed">"نأسف، لا يتيح المشغل استخدام هذا النوع من الملفات الصوتية."</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="remove_from_playlist">"إزالة من قائمة التشغيل"</string>
+    <string name="streamloadingtext">"الاتصال بـ <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="mediasearch">"بحث عن <xliff:g id="TERM">%s</xliff:g> باستخدام:"</string>
+    <string name="working_artists">"الفنانون..."</string>
+    <string name="working_albums">"الألبومات…"</string>
+    <string name="working_songs">"أغاني..."</string>
+    <string name="working_playlists">"قوائم التشغيل…"</string>
+    <string name="loading">"جارٍ التحميل"</string>
+    <string name="sort_by_track">"المسارات"</string>
+    <string name="sort_by_album">"الألبومات"</string>
+    <string name="sort_by_artist">"الفنانون"</string>
+    <string name="music_picker_title">"تحديد مسار موسيقي"</string>
+    <string name="gadget_track">"المقطع الصوتي <xliff:g id="TRACK_NUMBER">%d</xliff:g>"</string>
+    <string name="fail_to_start_stream">"أخفق تشغيل مجموعة البث المطلوبة."</string>
+    <string name="search_settings_description">"الفنانون والألبومات والمقاطع الصوتية"</string>
+    <string name="search_hint">"بحث في الموسيقى"</string>
+    <string name="fast_scroll_alphabet">" أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي"</string>
+    <string name="widget_initial_text">"المس لتحديد موسيقى."</string>
+    <string name="effectspanel">"التأثيرات الصوتية"</string>
+    <string name="delete_from_playlist">"سوف يتم حذفه من قائمة التشغيل."</string>
+    <string name="delete_playlist">"موافق حذف قائمة التشغيل؟"</string>
+    <string name="no_play">التشغيل محظور عند اجراء اتصال</string>
+    <string name="add_music">إضافة موسيقى</string>
+    <string name="music_selected_all">الكل</string>
+    <string name="confirm_add">إضافة</string>
+    <string name="cancel_add">إلغاء</string>
+    <string name="activity_title">إضافة موسيقى</string>
+    <string name="no_sd_card">لم يتم تركيب الذاكرة الرقمية المؤمنه او غير موجوده</string>
+</resources>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- In-videocall state of the Phone UI. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/root"
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+	    
+	    <LinearLayout
+	    	android:orientation="vertical"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    >
+		    
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				>
+				
+			<SurfaceView
+				android:id="@+id/LargeVideoPhoneView"
+				style="@style/LargeView"
+				/>			
+		        <!--set incall volume by hjc -->
+		        <RelativeLayout android:id="@+id/incall_volume"
+		                        android:layout_width="match_parent"
+		                        android:layout_height="match_parent"
+					android:paddingTop="30px"
+					android:gravity ="right"
+		                        >
+
+				<Button
+				android:id="@+id/increase_volume"
+				android:layout_below="@id/inCallPanel"
+				android:layout_width="33dip"
+				android:layout_height="70dip"
+				android:textStyle="bold"
+				android:textSize="30sp"
+				android:gravity ="center"
+				/>
+				<Button
+				android:id="@+id/decline_volume"
+				android:layout_width="33dip"
+				android:layout_height="70dip"
+				android:layout_below="@id/increase_volume"
+				android:textStyle="bold"
+				android:textSize="30sp"
+				android:gravity ="center"
+				/>
+		        </RelativeLayout>  <!-- End of inCallPanel -->
+		         <!-- set incall volume by hjc -->
+			</LinearLayout>
+			
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				>
+				<SurfaceView
+					android:id="@+id/SmallVideoPhoneView"
+					style="@style/SmallView"
+					/>
+				<LinearLayout
+					android:id="@+id/CallInfo"
+				    android:orientation="vertical"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="10dip"
+					android:paddingTop="20dip"
+					>
+					<TextView  
+						android:id="@+id/upperTitle"
+					    android:layout_height="wrap_content"
+	                    android:layout_width="match_parent"
+					    android:gravity="left"
+              			android:singleLine="true"/>
+					<TextView
+						android:id="@+id/name"
+					    android:gravity="left"
+					    android:layout_height="wrap_content"
+	                    android:layout_width="match_parent"
+		              			android:textAppearance="?android:attr/textAppearanceLarge"
+		              			android:textSize="15sp"
+		              			android:singleLine="true"/>
+					<TextView
+						android:id="@+id/phoneNumber"
+					    android:gravity="left"
+					    android:layout_height="wrap_content"
+	                    android:layout_width="match_parent"
+		                  		android:textAppearance="?android:attr/textAppearanceSmall"
+		                  		android:textSize="15sp"
+		                  		android:textColor="?android:attr/textColorSecondary"
+		                  		android:singleLine="true"/>
+					<TextView
+						android:id="@+id/elapsedTime"
+					    android:gravity="left"
+					    android:layout_height="wrap_content"
+	                    android:layout_width="180dip"
+		                  		android:textAppearance="?android:attr/textAppearanceMedium"
+		                  		android:textSize="15sp"
+		                  		android:textStyle="bold"
+		                  		android:singleLine="true"/>
+					<TextView
+						android:id="@+id/beginTime"
+					    android:gravity="left"
+					    android:layout_height="wrap_content"
+	                    android:layout_width="180dip"
+							android:visibility="gone"
+		                  		android:textAppearance="?android:attr/textAppearanceMedium"
+		                  		android:textSize="15sp"
+		                  		android:textStyle="bold"
+		                  		android:singleLine="true"/>
+				</LinearLayout>	
+			</LinearLayout>
+		</LinearLayout>
+
+		<TableLayout
+			android:id="@+id/InCallPanel"
+			android:visibility="gone"
+			android:layout_alignParentBottom="true"
+	    		android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="50dip"
+			android:stretchColumns="0,1">
+			<TableRow>
+				<Button
+					android:id="@+id/dialer"
+					android:layout_alignParentLeft="true"
+					android:layout_height="match_parent"
+					android:text="@string/video_btn_dialer"
+					/>
+				<Button
+					android:id="@+id/hangup"
+					android:layout_alignParentRight="true"
+					android:layout_height="match_parent"
+					android:text="@string/video_btn_hangup"
+					/>			
+			</TableRow>
+		</TableLayout>
+		
+		<TableLayout
+			android:id="@+id/InComingCallPanel"
+			android:visibility="gone"
+			android:layout_alignParentBottom="true"
+	    	android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="50dip"
+			android:stretchColumns="0,1">
+			<TableRow>
+				<Button
+					android:id="@+id/answer"
+					android:layout_alignParentLeft="true"
+					android:layout_height="match_parent"
+					android:text="@string/video_btn_answer"
+					/>
+				<Button
+					android:id="@+id/decline"
+					android:layout_alignParentRight="true"
+					android:layout_height="match_parent"
+					android:text="@string/video_btn_decline"
+					/>			
+			</TableRow>
+		</TableLayout>
+
+	</RelativeLayout>
+
+    <!-- The sliding drawer control containing the DTMF dialpad.
+         Note this isn't a child of mainFrame, which ensures that it'll be
+         able to use the full width of the screen.  (And a SlidingDrawer
+         widget needs to be be a direct child of a FrameLayout anyway.)
+         This is used only on devices that do *not* have an onscreen
+         InCallTouchUi widget.-->
+    <!-- TODO: this should be a ViewStub, and should only get inflated
+         on platforms that need it. -->
+    <include layout="@layout/videophone_twelve_key_dialer"/>
+    
+    <com.android.phone.AdjustMenuView
+        xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+        android:id="@+id/brightness_adjustmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    	android:visibility="gone"
+        phone:title="@string/brightness"
+        phone:rank="10"/>
+        
+    <com.android.phone.AdjustMenuView
+        xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+        android:id="@+id/camera_brightness_adjustmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    	android:visibility="gone"
+        phone:title="@string/camera_brightness"
+        phone:rank="6"/>
+        
+    <com.android.phone.AdjustMenuView
+        xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+        android:id="@+id/camera_contrast_adjustmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    	android:visibility="gone"
+        phone:title="@string/camera_contrast"
+        phone:rank="6"/>
+</FrameLayout>

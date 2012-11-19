@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="status_bar_icon_order">
+        <item><xliff:g id="id">الساعة</xliff:g></item>
+        <item><xliff:g id="id">حماية</xliff:g></item>
+        <item><xliff:g id="id">منبة الساعة</xliff:g></item>
+        <item><xliff:g id="id">البطارية</xliff:g></item>
+        <item><xliff:g id="id">إشارات الهاتف</xliff:g></item>
+        <item><xliff:g id="id">phone_signal_second_sub</xliff:g></item>
+        <item><xliff:g id="id">phone_evdo_signal</xliff:g></item>
+        <item><xliff:g id="id">اتصال البيانات</xliff:g></item>
+        <item><xliff:g id="id">cdma_eri</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">حجم الصوت</xliff:g></item>
+        <item><xliff:g id="id">كتم</xliff:g></item>
+        <item><xliff:g id="id">سماعة الهاتف</xliff:g></item>
+	    <item><xliff:g id="id">سماعة الاذن</xliff:g></item>
+        <item><xliff:g id="id">واي فاي</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">بلوتوث</xliff:g></item>
+        <item><xliff:g id="id">gps</xliff:g></item>
+        <item><xliff:g id="id">تفعيل التزامن</xliff:g></item>
+        <item><xliff:g id="id">فشل التزامن</xliff:g></item>
+        <item><xliff:g id="id">ime</xliff:g></item>
+    </string-array>
+</resources>

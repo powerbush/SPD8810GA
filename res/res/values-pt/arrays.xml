@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="status_bar_icon_order">
+        <item><xliff:g id="id">relógio</xliff:g></item>
+        <item><xliff:g id="id">segurança</xliff:g></item>
+        <item><xliff:g id="id">relógio_alarme</xliff:g></item>
+        <item><xliff:g id="id">bateria</xliff:g></item>
+        <item><xliff:g id="id">sinal_telefone</xliff:g></item>
+        <item><xliff:g id="id">segundo_sub_sinal_telefone</xliff:g></item>
+        <item><xliff:g id="id">sinal_evdo_telefone</xliff:g></item>
+        <item><xliff:g id="id">conexão_dados</xliff:g></item>
+        <item><xliff:g id="id">cdma_eri</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">volume</xliff:g></item>
+        <item><xliff:g id="id">silêncio</xliff:g></item>
+        <item><xliff:g id="id">colunas</xliff:g></item>
+	    <item><xliff:g id="id">auricular</xliff:g></item>
+        <item><xliff:g id="id">wifi</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">bluetooth</xliff:g></item>
+        <item><xliff:g id="id">gps</xliff:g></item>
+        <item><xliff:g id="id">sincronização_activa</xliff:g></item>
+        <item><xliff:g id="id">falha_sincronização</xliff:g></item>
+        <item><xliff:g id="id">ime</xliff:g></item>
+    </string-array>
+</resources>

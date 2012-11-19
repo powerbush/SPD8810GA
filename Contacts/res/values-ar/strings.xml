@@ -1,0 +1,647 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edit_group_info">تحرير مجموعة</string>
+    <string name="rename_contact_group_name">اعادة تسمية</string>
+    <string name="no_contacts_group_name">مجموعة بلا اسم</string>
+    <string name="contacts_group_name_exist">اسم مجموعة مجود</string>
+    <string name="sure">متأكد</string>
+    <string name="contacts_group">مجموعة</string>
+    <string name="divided_group_to">تفرق</string>
+    <string name="add_group">إضافة مجموعة</string>
+    <string name="please_add_group">الرجاء إضافة مجموعة</string>
+    <string name="delete">حذف</string>
+    <string name="deleted">تم حذف</string>
+    <string name="group_name_empty">المجموعة فارغه</string>
+    <string name="all_selected">حدد الجميع</string>
+    <string name="group_new">مجموعة جديدة</string>
+    <string name="save">حفظ</string>
+    <string name="menu_contacts_group_add">إضافة</string>
+    <string name="menu_memory_query">إستعلام الذاكرة</string>
+    <string name="contactor_will_be"><xliff:g id="COUNT">%1$d</xliff:g> جهات الاتصال سوف  <xliff:g id="OPTERATOR">%2$s</xliff:g> </string>
+    <string name="imported">تم الاستيراد</string>
+    <string name="exported">تم التصدير</string>
+    <string name="selected">تم الاختيار</string>
+    <string name="sharedUserLabel">"تطبيقات Android المركزية"</string>
+    <string name="contactsList">"جهات الاتصال"</string>
+    <string name="launcherDialer">"الهاتف"</string>
+    <string name="shortcutContact">"الاتصال بـ"</string>
+    <string name="shortcutDialContact">"طلب مباشر"</string>
+    <string name="shortcutMessageContact">"رسالة مباشرة"</string>
+    <string name="shortcutActivityTitle">"اختيار اختصار لجهة الاتصال"</string>
+    <string name="callShortcutActivityTitle">"اختيار رقم للاتصال به"</string>
+    <string name="messageShortcutActivityTitle">"اختيار رقم لإرسال رسالة له"</string>
+    <string name="starredList">"مميّزة بنجمة"</string>
+    <string name="frequentList">"متكررة"</string>
+    <string name="strequentList">"المفضلة"</string>
+    <string name="viewContactTitle">"تفاصيل جهة الاتصال"</string>
+    <string name="viewContactDesription">"عرض جهة الاتصال"</string>
+    <string name="editContactDescription">"تعديل جهة الاتصال"</string>
+    <string name="insertContactDescription">"إنشاء جهة اتصال"</string>
+    <string name="searchHint">"البحث في جهات الاتصال"</string>
+    <string name="menu_search">"بحث"</string>
+    <string name="menu_newContact">"جهة اتصال جديدة"</string>
+    <string name="menu_viewContact">"عرض جهة الاتصال"</string>
+    <string name="menu_callNumber">"الاتصال بـ <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_addStar">"إضافة إلى المفضلة"</string>
+    <string name="menu_removeStar">"إزالة من المفضلة"</string>
+    <string name="menu_showBarcode">عرض الباركود</string>
+    <string name="menu_editContact">"تعديل جهة الاتصال"</string>
+    <string name="menu_deleteContact">"حذف جهة الاتصال"</string>
+    <string name="menu_call">"الاتصال بجهة الاتصال"</string>
+    <string name="menu_video_call">مكاملة فيديو</string>
+    <string name="menu_sendSMS">"إرسال رسالة لجهة الاتصال"</string>
+    <string name="menu_sendEmail">"إرسال رسالة إلكترونية"</string>
+    <string name="menu_viewAddress">"عنوان الخريطة"</string>
+    <string name="menu_makeDefaultNumber">"جعله رقمًا افتراضيًا"</string>
+    <string name="menu_makeDefaultEmail">"تحديد كبريد إلكتروني افتراضي"</string>
+    <string name="menu_splitAggregate">"فصل"</string>
+    <string name="contactsSplitMessage">"تم فصل جهات الاتصال"</string>
+    <string name="splitConfirmation_title">"فصل جهة الاتصال"</string>
+    <string name="splitConfirmation">"هل أنت متأكد من أنك تريد فصل جهة الاتصال الفردية هذه إلى عدة جهات اتصال: جهة اتصال لكل مجموعة من معلومات الاتصال التي تم تجميعها بها؟"</string>
+    <string name="menu_joinAggregate">"ضم"</string>
+    <string name="menu_showSources">عرض المصادر</string>
+    <string name="menu_hideSources">إخفاء المصادر</string>
+    <string name="titleJoinAggregate">ضم الاتصال</string>
+    <string name="titleJoinContactDataWith">"ضم جهات الاتصال"</string>
+    <string name="blurbJoinContactDataWith">"حدد جهة الاتصال التي تريد ربطها بـ <xliff:g id="NAME">%s</xliff:g>."</string>
+    <string name="showAllContactsJoinItem">"عرض جميع جهات الاتصال"</string>
+    <string name="separatorJoinAggregateSuggestions">"جهات الاتصال المقترحة"</string>
+    <string name="separatorJoinAggregateAll">"جميع جهات الاتصال"</string>
+    <string name="contactsJoinedMessage">"جهات الاتصال المنضمة"</string>
+    <string name="menu_contactOptions">"الخيارات"</string>
+    <string name="contactOptionsTitle">"الخيارات"</string>
+    <string name="deleteConfirmation_title">"حذف"</string>
+    <string name="readOnlyContactWarning">"لا يمكنك حذف جهات الاتصال من الحسابات للقراءة فقط، ولكن يمكنك إخفاؤها في قوائم جهات الاتصال."</string>
+    <string name="readOnlyContactDeleteConfirmation">"تحتوي جهة الاتصال هذه على معلومات من عدة حسابات. وسيتم إخفاء المعلومات من الحسابات التي للقراءة فقط في قوائم جهات الاتصال، وليس حذفها."</string>
+    <string name="multipleContactDeleteConfirmation">"سيؤدي حذف جهة الاتصال هذه إلى حذف المعلومات من عدة حسابات."</string>
+    <string name="deleteConfirmation">"سيتم حذف جهة الاتصال هذه."</string>
+    <string name="menu_done">"تم"</string>
+    <string name="menu_doNotSave">"تراجع"</string>
+    <string name="editContact_title_edit">"تعديل جهة الاتصال"</string>
+    <string name="editContact_title_insert">"جهة اتصال جديدة"</string>
+    <string name="menu_addItem">مزيد من المعلومات</string>
+    <string name="label_phonetic_name">"صوتيًا"</string>
+    <string name="label_notes">"ملاحظات"</string>
+    <string name="label_sip_address">"مكالمة عبر الإنترنت"</string>
+    <string name="label_ringtone">"نغمة الرنين"</string>
+    <string name="label_groups">مجموعات</string>
+    <string name="group_list">، <xliff:g id="groupName">%s</xliff:g></string>
+    <string name="menu_viewGroup">تحرير مجموعة</string>
+    <string name="ghostData_name">"الاسم الأول والأخير"</string>
+    <string name="ghostData_phonetic_name">"الاسم"</string>
+    <string name="ghostData_company">"شركة"</string>
+    <string name="ghostData_title">"المسمى الوظيفي"</string>
+    <string name="ghostData_im">اسم IM</string>
+    <string name="ghostData_notes">مذكراتي</string>
+    <string name="ghostData_phone">رقم الهاتف</string>
+    <string name="ghostData_email">عنوان البريد الإلكتروني</string>
+    <string name="ghostData_postal">العنوان البريدي</string>
+    <string name="ghostData_group">عرض مجموعة</string>
+    <string name="invalidContactMessage">"جهة الاتصال غير موجودة."</string>
+    <string name="pickerNewContactHeader">"إنشاء جهة اتصال جديدة"</string>
+    <string name="selectLabel">"تحديد التصنيف"</string>
+    <string name="phoneLabelsGroup">"الهاتف"</string>
+    <string name="emailLabelsGroup">"إرسال رسالة إلكترونية"</string>
+    <string name="imLabelsGroup">"المراسلة الفورية"</string>
+    <string name="postalLabelsGroup">"العنوان البريدي"</string>
+    <string name="otherLabelsGroup">اخرى</string>
+    <string-array name="otherLabels">
+        <!-- An organization associated with a contact -->
+        <item>"المؤسسة"</item>
+        <!-- A note associated with a contact -->
+        <item>"ملاحظة"</item>
+    </string-array>
+    <string name="errorDialogTitle">بدون صوره</string>
+    <string name="photoPickerNotFoundText">"لا تتوفر أية صور على الهاتف."</string>
+    <string name="attachToContact">"رمز جهة الاتصال"</string>
+    <string name="customLabelPickerTitle">"اسم تصنيف مخصص"</string>
+    <string name="menu_displayGroup">"خيارات العرض"</string>
+    <string name="displayGroups">"خيارات العرض"</string>
+    <string name="syncGroupPreference">تحرير تزامن المجموعات</string>
+    <string name="importFromSim">استيراد جهات اتصال</string>
+    <string name="send_to_voicemail_checkbox">"إرسال المكالمات إلى البريد الصوتي مباشرة"</string>
+    <string name="send_to_voicemail_view">تم ارسال المكالمات الى البريد الصوتي.</string>
+    <string name="default_ringtone">"افتراضي"</string>
+    <string name="addPicture">اضافة ايقونه</string>
+    <string name="changePicture">"تغيير الرمز"</string>
+    <string name="removePicture">"إزالة الرمز"</string>
+    <string name="noContacts">"لا توجد جهات اتصال."</string>
+    <string name="noMatchingContacts">"لم يتم العثور على أية جهات اتصال متطابقة."</string>
+    <string name="noContactsWithPhoneNumbers">"ليس هناك جهات اتصال تشتمل على أرقام هواتف."</string>
+    <string name="noFavorites">لايوجد اي مفضلة.</string>
+    <string name="select_group_title">المجموعات</string>
+    <string name="groupEmpty">المجموعة   \"<xliff:g id="groupName">%s</xliff:g>\" الخاصه بك فارغه.</string>
+    <string name="showAllGroups">جميع جهات الاتصال</string>
+    <string name="showFilterPhones">"جهات الاتصال فقط التي بها صور"</string>
+    <string name="showFilterPhonesDescrip">"عدم عرض سوى جهات الاتصال التي تشتمل على أرقام هواتف"</string>
+    <string name="headerContactGroups">"اختيار جهات اتصال لعرضها"</string>
+    <plurals name="groupDescrip">
+        <item quantity="other">"<xliff:g id="COUNT">%0$d</xliff:g> من جهات الاتصال"</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">"<xliff:g id="COUNT_0">%1$d</xliff:g> من جهات الاتصال، منها <xliff:g id="COUNTWITHPHONES">%2$d</xliff:g> تشتمل على هواتف"</item>
+    </plurals>
+    <string name="syncAllGroups">تزامن جميع جهات الاتصال</string>
+    <string name="groupNameMyContacts">جهات الاتصال الخاصه بي</string>
+    <string name="groupNameWithPhones">جهات الاتصال مع ارقام الهواتف</string>
+    <string name="starredInAndroid">نجم الاندرويد</string>
+    <string name="savingContact">"جارٍ حفظ جهة الاتصال..."</string>
+    <string name="savingDisplayGroups">"جارٍ حفظ خيارات العرض..."</string>
+    <string name="contactCreatedToast">تم انشاء جهة الاتصال.</string>
+    <string name="contactSavedToast">"تم حفظ جهة الاتصال."</string>
+    <string name="contactDeletedToast">تم حذف جهة الاتصال .</string>
+    <string name="contactSavedErrorToast">"خطأ، غير قادر على حفظ تغييرات جهة الاتصال."</string>
+    <string name="listSeparatorCallNumber">اتصال بالرقم</string>
+    <string name="listSeparatorCallNumber_edit">ارقام الهاتف</string>
+    <string name="number_empty">" رقم الهاتف فارغا، لا يمكن ادراجه"</string>
+    <string name="listSeparatorSendSmsMms">إرسال رسائل نصية</string>
+    <string name="listSeparatorSendEmail">ارسال البريد الالكتروني</string>
+    <string name="listSeparatorSendEmail_edit">عناوين البريد الإلكتروني</string>
+    <string name="listSeparatorSendIm">إرسال رسالة فورية</string>
+    <string name="listSeparatorSendIm_edit">عناوين الدردشة</string>
+    <string name="listSeparatorMapAddress">عنوان خريطة </string>
+    <string name="listSeparatorMapAddress_edit">عناوين البريدية</string>
+    <string name="listSeparatorOrganizations">المنظمات</string>
+    <string name="listSeparatorGroups">المجموعات</string>
+    <string name="listSeparatorOtherInformation">معلومات أخرى</string>
+    <string name="listSeparatorOtherInformation_edit">خيارات أخرى</string>
+    <string name="listSeparatorMore_edit">أكثر</string>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="one">"عرض جهة اتصال واحدة تشتمل على رقم هاتف"</item>
+        <item quantity="other">"عرض عدد <xliff:g id="COUNT">%d</xliff:g> من جهات الاتصال التي تشتمل على أرقام هواتف"</item>
+    </plurals>
+    <string name="listTotalPhoneContactsZero">"ليس هناك جهات اتصال مرئية تشتمل على أرقام هواتف"</string>
+    <plurals name="listTotalAllContacts">
+        <item quantity="one">"عرض جهة اتصال واحدة"</item>
+        <item quantity="other">"عرض <xliff:g id="COUNT">%d</xliff:g> من جهات الاتصال"</item>
+    </plurals>
+    <string name="listTotalAllContactsZero">"ليس هناك جهات اتصال مرئية"</string>
+    <plurals name="listFoundAllContacts">
+        <item quantity="one">"تم العثور على جهة اتصال واحدة"</item>
+        <item quantity="other">"تم العثور على <xliff:g id="COUNT">%d</xliff:g> من جهات الاتصال"</item>
+    </plurals>
+    <string name="listFoundAllContactsZero">"لم يتم العثور على جهة الاتصال"</string>
+    <plurals name="searchFoundContacts">
+        <item quantity="one">"عنوان واحد"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> من جهات الاتصال"</item>
+    </plurals>
+    <string name="socialStreamIconLabel">اجتماعي</string>
+    <string name="contactsIconLabel">"جهات الاتصال"</string>
+    <string name="contactsFavoritesLabel">"المفضلة"</string>
+    <string name="dialerIconLabel">"الهاتف"</string>
+    <string name="recentCallsIconLabel">"سجل المكالمات"</string>
+    <string name="liveFolderAll">"جميع جهات الاتصال"</string>
+    <string name="liveFolderFavorites">"جهات الاتصال المميّزة بنجمة"</string>
+    <string name="liveFolderPhone">"جهات الاتصال التي تشتمل على أرقام هواتف"</string>
+    <string name="menu_sendTextMessage">"إرسال رسالة نصية"</string>
+    <string name="recentCalls_callNumber">"الاتصال بـ <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="recentCalls_editNumberBeforeCall">"تعديل الرقم قبل الاتصال"</string>
+    <string name="recentCalls_addToContact">"إضافة إلى جهات الاتصال"</string>
+    <string name="recentCalls_removeFromRecentList">"إزالة من سجل المكالمات"</string>
+    <string name="recentCalls_deleteAll">"محو سجل المكالمات"</string>
+    <string name="recentCalls_deleteSome">مسح بعض سجل المكالمة</string>
+    <string name="recentCalls_Answered">نوع الوارد</string>
+    <string name="recentCalls_NOT_Answered">نوع المكالمات الفائتة</string>
+    <string name="recentCalls_Connected">نوع الصادر</string>
+    <string name="recentCalls_Alltypes"> جميع الانواع</string>
+    <string name="intent_to_firewall">جدار الحماية</string>
+    <string name="recentCalls_Confirm_delete">تأكيد الحذف</string>
+    <string name="recentCalls_Cancel_delete">الغاء الحذف</string>
+    <string name="recentCalls_button_Confirm_delete">تأكيد الحذف</string>
+    <string name="recentCalls_button_Cancel">"إلغاء"</string>
+    <string name="recent_Call_log_checkbox_selecte_all"> اختيار كل</string>
+    <string name="recentCalls_empty">"سجل المكالمات فارغ."</string>
+    <string name="clearCallLogConfirmation_title">"محو سجل المكالمات"</string>
+    <string name="clearCallLogConfirmation">"هل أنت متأكد من أنك تريد محو سجل المكالمات؟"</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="voicemail">"البريد الصوتي"</string>
+    <string name="unknown">"غير معروف"</string>
+    <string name="private_num">"رقم خاص"</string>
+    <string name="payphone">"هاتف مدفوع"</string>
+    <string name="dialerKeyboardHintText">"استخدام لوحة المفاتيح للطلب"</string>
+    <string name="dialerDialpadHintText">"طلب لإضافة مكالمة"</string>
+    <string name="simContacts_emptyLoading">"جارٍ التحميل من بطاقة SIM…"</string>
+    <string name="simContacts_title">"بطاقة SIM وجهات الاتصال"</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">"ليس لديك أي جهات اتصال لعرضها. (إذا كنت قد أضفت حسابًا توًا، فيمكن أن تستغرق مزامنة جهات الاتصال دقائق معدودة.)"</string>
+    <string name="noContactsHelpTextForCreateShortcut">"ليس لديك أية جهات اتصال لعرضها."</string>
+    <string name="contactsSyncPlug"><font fgcolor="#ffffffff"> تزامن جهات اتصال جوجل!   </font>    \n سوف تصبح جهات الاتصال متاحة لك في اي مكان.  </string>
+    <string name="noContactsHelpText">"ليس لديك أي جهات اتصال لعرضها."\n\n"لإضافة جهات اتصال، اضغط على "<font fgcolor="#ffffffff"><b>"القائمة"</b></font>" والمس:"\n" "\n<li><font fgcolor="#ffffffff"><b>"الحسابات"</b></font>" لإضافة حساب أو تهيئته مع جهات الاتصال التي يمكنك مزامنتها بالهاتف"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"جهة اتصال جديدة"</b></font>" لإنشاء جهة اتصال جديدة من البداية"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"استيراد/تصدير"</b></font>\n</li></string>
+    <string name="noContactsHelpTextWithSync">"ليس لديك أي جهات اتصال لعرضها. (إذا كنت قد أضفت حسابًا توًا، فيمكن أن تستغرق مزامنة جهات الاتصال دقائق معدودة.)"\n\n"لإضافة جهات الاتصال، اضغط على "<font fgcolor="#ffffffff"><b>"القائمة"</b></font>" والمس:"\n" "\n<li><font fgcolor="#ffffffff"><b>"الحسابات"</b></font>" لإضافة حساب أو تهيئته مع جهات الاتصال التي يمكنك مزامنتها إلى الهاتف"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"خيارات العرض"</b></font>" لتغيير جهات الاتصال التي تكون مرئية"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"جهة اتصال جديدة"</b></font>" لإنشاء جهة اتصال جديدة من البداية"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"استيراد/تصدير"</b></font>\n</li></string>
+    <string name="noContactsNoSimHelpText">"ليس لديك أي جهات اتصال لعرضها."\n\n"لإضافة جهات اتصال، اضغط على "<font fgcolor="#ffffffff"><b>"القائمة"</b></font>" والمس:"\n" "\n<li><font fgcolor="#ffffffff"><b>"الحسابات"</b></font>" لإضافة حساب أو تهيئته مع جهات الاتصال التي يمكنك مزامنتها بالهاتف"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"جهة اتصال جديدة"</b></font>" لإنشاء جهة اتصال جديدة من البداية"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"استيراد/تصدير"</b></font>\n</li></string>
+    <string name="noContactsNoSimHelpTextWithSync">"ليس لديك أي جهات اتصال لعرضها. (إذا كنت قد أضفت حسابًا توًا، فيمكن أن تستغرق مزامنة جهات الاتصال دقائق معدودة.)"\n\n"لإضافة جهات الاتصال، اضغط على "<font fgcolor="#ffffffff"><b>"القائمة"</b></font>" والمس:"\n" "\n<li><font fgcolor="#ffffffff"><b>"الحسابات"</b></font>" لإضافة حساب أو تهيئته مع جهات الاتصال التي يمكنك مزامنتها إلى الهاتف"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"خيارات العرض"</b></font>" لتغيير جهات الاتصال التي تكون مرئية"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"جهة اتصال جديدة"</b></font>" لإنشاء جهة اتصال جديدة من البداية"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"استيراد/تصدير"</b></font>\n</li></string>
+    <string name="noFavoritesHelpText">"ليس لديك أي عناصر في المفضلة."\n\n"لإضافة جهة اتصال إلى قائمة المفضلة:"\n\n"        "<li>"المس علامة التبويب "<b>"جهات الاتصال"</b>\n</li>" "\n<li>"المس جهة الاتصال التي تريد إضافتها إلى المفضلة"\n</li>" "\n<li>"المس علامة النجمة إلى جانب اسم جهة الاتصال"\n</li></string>
+    <string name="seclectSyncGroups_title">حدد المجموعات للتزامن</string>
+    <string name="liveFolder_all_label">"جميع جهات الاتصال"</string>
+    <string name="liveFolder_favorites_label">"مميّزة بنجمة"</string>
+    <string name="liveFolder_phones_label">"الهواتف"</string>
+    <string name="dialer_useDtmfDialpad">"استخدام لوحة مفاتيح نغمات باللمس"</string>
+    <string name="dialer_returnToInCallScreen">"عودة إلى المكالمة الجارية"</string>
+    <string name="dialer_addAnotherCall">"إضافة مكالمة"</string>
+    <string name="callDetailTitle">"تفاصيل المكالمة"</string>
+    <string name="toast_call_detail_error">"تعذرت قراءة تفاصيل المكالمة المطلوبة."</string>
+    <string name="call_type">النوع</string>
+    <string name="type_incoming">"مكالمة واردة"</string>
+    <string name="type_outgoing">"مكالمة صادرة"</string>
+    <string name="type_missed">"مكالمة فائتة"</string>
+    <string name="call_time">الوقت</string>
+    <string name="datetime_relative">"<xliff:g id="datetime" example="Dec 31, 2007, 11:00 am">%1$s</xliff:g> (<xliff:g id="relative" example="4 hours ago">%2$s</xliff:g>)"</string>
+    <string name="call_duration">الفترة</string>
+    <string name="header_actions">الحدث</string>
+    <string name="ringtone_spinner">" نغمة الرنين : <xliff:g id="ringtone" example="Caribbean Ice">%1$s</xliff:g>"</string>
+    <string name="add_more_items">اضافة عناصر اخرى</string>
+    <string name="actionCall">مكالمة <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionEmail">البريد الالكتروني  <xliff:g id="type" example="home">%s</xliff:g></string>
+    <string name="actionText">النص  <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionChat">محادثة عبر  <xliff:g id="type" example="Google Talk">%s</xliff:g></string>
+    <string name="actionMap">عرض العنوان  <xliff:g id="type" example="home">%s</xliff:g> </string>
+    <string name="actionIncomingCall">"المكالمات الواردة"</string>
+    <string name="detailIncomingCallsGoToVoicemail">سوف يتم ارسالها الى البريد الصوتي</string>
+    <string name="detailsRingtone">تعيين  <xliff:g id="ringtone_name" example="Flutey Phone">%s</xliff:g></string>
+    <string name="callBack">"معاودة الاتصال"</string>
+    <string name="callAgain">"الاتصال مرة أخرى"</string>
+    <string name="returnCall">"معاودة اتصال بمكالمة فائتة"</string>
+    <string name="callDetailsDurationFormat">"عدد الدقائق:<xliff:g id="MINUTES">%1$s</xliff:g>، عددالثواني: <xliff:g id="SECONDS">%2$s</xliff:g>"</string>
+    <string name="favoritesFrquentSeparator">"يتم الاتصال بها بشكل متكرر"</string>
+    <string name="add_contact_dlg_title">"إضافة جهة اتصال"</string>
+    <string name="add_contact_dlg_message_fmt">"هل ترغب في إضافة \"<xliff:g id="EMAIL">%s</xliff:g>\" إلى جهات الاتصال؟"</string>
+    <string name="all_tab_label">"الكل"</string>
+    <string name="description_image_button_one">"واحد"</string>
+    <string name="description_image_button_two">"اثنان"</string>
+    <string name="description_image_button_three">"ثلاثة"</string>
+    <string name="description_image_button_four">"أربعة"</string>
+    <string name="description_image_button_five">"خمسة"</string>
+    <string name="description_image_button_six">"ستة"</string>
+    <string name="description_image_button_seven">"سبعة"</string>
+    <string name="description_image_button_eight">"ثمانية"</string>
+    <string name="description_image_button_nine">"تسعة"</string>
+    <string name="description_image_button_star">"نجمة"</string>
+    <string name="description_image_button_zero">"صفر"</string>
+    <string name="description_image_button_pound">"رنين"</string>
+    <string name="description_voicemail_button">"البريد الصوتي"</string>
+    <string name="description_dial_button">"طلب"</string>
+    <string name="description_delete_button">"backspace"</string>
+    <string name="description_digits_edittext">"الرقم الذي سيتم طلبه"</string>
+    <string name="description_contact_photo">"صورة جهة الاتصال"</string>
+    <string name="description_minus_button">"علامة الطرح"</string>
+    <string name="description_plus_button">"علامة زائد"</string>
+    <string name="no_sdcard_title" product="nosdcard">"وحدة تخزين USB غير متوفرة"</string>
+    <string name="no_sdcard_title" product="default">"لا بطاقة SD"</string>
+    <string name="no_sdcard_message" product="nosdcard">"لم يتم اكتشاف وحدة تخزين USB"</string>
+    <string name="no_sdcard_message" product="default">"لم يتم اكتشاف بطاقة SD"</string>
+    <string name="searching_vcard_title">"البحث عن vCard"</string>
+    <string name="select_import_type_title">من اين ترغب استيراد جهات الاتصال؟</string>
+    <string name="import_from_sim">"استيراد من بطاقة SIM"</string>
+    <string name="import_from_sim1">استيراد من شريحة SIM1</string>
+    <string name="import_from_sim2">استيراد من شريحة SIM2</string>
+    <string name="import_from_sdcard" product="nosdcard">"استيراد من وحدة تخزين USB"</string>
+    <string name="import_from_sdcard" product="default">"استيراد من بطاقة SD"</string>
+    <string name="export_to_sdcard" product="nosdcard">"تصدير إلى وحدة تخزين USB"</string>
+    <string name="export_to_sdcard" product="default">"تصدير إلى بطاقة SD"</string>
+    <string name="share_visible_contacts">"مشاركة جهات الاتصال المرئية"</string>
+    <string name="import_one_vcard_string">"استيراد ملف vCard واحد"</string>
+    <string name="import_multiple_vcard_string">"استيراد ملفات vCard متعددة"</string>
+    <string name="import_all_vcard_string">"استيراد جميع ملفات vCard"</string>
+    <string name="searching_vcard_message" product="nosdcard">"البحث عن بيانات vCard في وحدة تخزين USB"</string>
+    <string name="searching_vcard_message" product="default">"البحث عن بيانات vCard على بطاقة SD"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard">"أخفق فحص وحدة تخزين USB"</string>
+    <string name="scanning_sdcard_failed_title" product="default">"أخفق المسح الضوئي لبطاقة SD"</string>
+    <string name="scanning_sdcard_failed_message" product="nosdcard">"أخفق فحص وحدة تخزين USB (السبب: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\")"</string>
+    <string name="scanning_sdcard_failed_message" product="default">"أخفق المسح الضوئي لبطاقة SD (السبب: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\")"</string>
+    <string name="fail_reason_io_error">"خطأ I/O"</string>
+    <string name="fail_reason_vcard_parse_error">"أخفق تحليل vCard بسبب غير متوقع"</string>
+    <string name="fail_reason_vcard_not_supported_error">"أخفق تحليل vCard على الرغم من أنها تبدو بتنسيق صالح، نظرًا لأنها غير معتمدة من قِبل التنفيذ الحالي"</string>
+    <string name="fail_reason_no_vcard_file" product="nosdcard">"لم يتم العثور على أي ملف vCard في وحدة تخزين USB"</string>
+    <string name="fail_reason_no_vcard_file" product="default">"لم يتم العثور على ملف vCard على بطاقة SD"</string>
+    <string name="fail_reason_no_vcard_entry">لا يوجد  مدخل فكارت متاح في خياراتك</string>
+    <string name="fail_reason_failed_to_read_files">"أخفق استيراد ملف أو أكثر (%s)."</string>
+    <string name="fail_reason_unknown">"خطأ غير معروف"</string>
+    <string name="select_vcard_title">"تحديد ملف vCard"</string>
+    <string name="select_vcard_message">قم بتحديد فكارت للإستيراد</string>
+    <string name="progress_shower_message">"<xliff:g id="ACTION">%1$s</xliff:g>"\n"<xliff:g id="FILENAME">%2$s</xliff:g>"</string>
+    <string name="reading_vcard_title">"قراءة vCard"</string>
+    <string name="reading_vcard_message">"قراءة ملفات vCard"</string>
+    <string name="importing_vcard_message">جاري إستيراد بيانات فكارت</string>
+    <string name="reading_vcard_failed_title">"لقد أخفقت قراءة بيانات vCard"</string>
+    <string name="reading_vcard_failed_message">لا يمكن قراءة بيانات الفكارت. \n السبب :  \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    <string name="reading_vcard_contacts">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> من <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> من جهات الاتصال"</string>
+    <string name="reading_vcard_files">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> من إجمالي <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> من الملفات"</string>
+    <string name="export_all_contacts">جميع جهات الاتصال</string>
+    <string name="export_phone_local_only">حفظ جميع جهات الاتصال محليا</string>
+    <string name="export_contact_list">تصدير جهات الاتصال</string>
+    <string name="confirm_export_title">"تأكيد التصدير"</string>
+    <string name="confirm_export_message">"هل أنت متأكد من أنك تريد تصدير قائمة جهات الاتصال إلى \"<xliff:g id="VCARD_FILENAME">%s</xliff:g>\"؟"</string>
+    <string name="exporting_contact_failed_title">"أخفق تصدير بيانات جهة الاتصال"</string>
+    <string name="exporting_contact_failed_message">"أخفق تصدير بيانات جهة الاتصال."\n"سبب الإخفاق: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_no_exportable_contact">"ليس هناك جهة اتصال قابلة للتصدير"</string>
+    <string name="fail_reason_too_many_vcard" product="nosdcard">"هناك ملفات vCard كثيرة جدًا في وحدة تخزين USB"</string>
+    <string name="fail_reason_too_many_vcard" product="default">"هناك ملفات vCard كثيرة جدًا على بطاقة SD"</string>
+    <string name="fail_reason_too_long_filename">"اسم الملف المطلوب طويل جدًا (\"<xliff:g id="FILENAME">%s</xliff:g>\")"</string>
+    <string name="fail_reason_cannot_open_destination_dir">لا يمكن فتح او انشاء الدليل الهدف \"<xliff:g id="dir_name">%s</xliff:g>\"</string>
+    <string name="exporting_contact_list_title">"تصدير بيانات جهة الاتصال"</string>
+    <string name="exporting_contact_list_message">"تصدير بيانات جهة الاتصال إلى: \"<xliff:g id="FILE_NAME">%s</xliff:g>\""</string>
+    <string name="fail_reason_could_not_initialize_exporter">"تعذرت تهيئة المُصدر: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_error_occurred_during_export">"حدث خطأ أثناء التصدير: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="composer_failed_to_get_database_infomation">"أخفق الحصول على معلومات قاعدة البيانات"</string>
+    <string name="composer_has_no_exportable_contact">"ليس هناك جهات اتصال قابلة للتصدير. إذا كان لديك جهات اتصال على الهاتف فعلاً، فربما يتم منع تصدير جميع جهات الاتصال إلى خارج الهاتف بواسطة أحد موفري البيانات."</string>
+    <string name="composer_not_initialized">"لم تتم تهيئة مؤلف vCard بشكل صحيح"</string>
+    <string name="fail_reason_could_not_open_file">"تعذر فتح \"<xliff:g id="FILE_NAME">%1$s</xliff:g>\": <xliff:g id="EXACT_REASON">%2$s</xliff:g>"</string>
+    <string name="exporting_contact_list_progress">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> من <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> من جهات الاتصال"</string>
+    <string name="search_settings_description">"أسماء جهات الاتصال"</string>
+    <string name="add_2sec_pause">"إضافة فترة إيقاف مؤقت مدتها ثانيتان"</string>
+    <string name="add_wait">"إضافة انتظار"</string>
+    <string name="dial_button_label">الاتصال الهاتفي</string>
+    <string name="call_disambig_title">"اتصال باستخدام"</string>
+    <string name="sms_disambig_title">"إرسال رسالة نصية قصيرة باستخدام"</string>
+    <string name="make_primary">"تذكر هذا الاختيار"</string>
+    <string name="quickcontact_missing_app">"لم يتم العثور على تطبيق يمكنه مباشرة هذا الإجراء."</string>
+    <string name="quickcontact_remember_choice">"تذكر هذا الاختيار"</string>
+    <string name="quickcontact_missing_name">"غير معروف"</string>
+    <string name="menu_accounts">"الحسابات"</string>
+    <string name="menu_import_export">"استيراد/تصدير"</string>
+    <string name="dialog_import_export">"استيراد/تصدير جهات الاتصال"</string>
+    <string name="menu_share">"مشاركة"</string>
+    <string name="share_via">"مشاركة جهة الاتصال عبر"</string>
+    <string name="share_error">"لا يمكن مشاركة جهة الاتصال هذه."</string>
+    <string name="nameLabelsGroup">"الاسم"</string>
+    <string name="nicknameLabelsGroup">"اللقب"</string>
+    <string name="organizationLabelsGroup">"المؤسسة"</string>
+    <string name="websiteLabelsGroup">"موقع ويب"</string>
+    <string name="eventLabelsGroup">"حدث"</string>
+    <string name="type_short_home">"د"</string>
+    <string name="type_short_mobile">"جوال"</string>
+    <string name="type_short_work">"أربعاء"</string>
+    <string name="type_short_pager">"ط"</string>
+    <string name="type_short_other">"ض"</string>
+    <string name="edit_read_only">"جهة الاتصال هذه للقراءة فقط"</string>
+    <string name="edit_secondary_collapse">"المزيد"</string>
+    <string name="dialog_primary_name">"الاسم الأساسي"</string>
+    <string name="dialog_new_contact_account">"إنشاء جهة اتصال ضمن حساب"</string>
+    <string name="menu_sync_remove">"إزالة مجموعة متزامنة"</string>
+    <string name="dialog_sync_add">"إضافة مجموعة متزامنة"</string>
+    <string name="display_more_groups">"مزيد من المجموعات..."</string>
+    <string name="display_ungrouped">"جميع جهات الاتصال الأخرى"</string>
+    <string name="display_all_contacts">"جميع جهات الاتصال"</string>
+    <string name="display_warn_remove_ungrouped">"ستؤدي إزالة \'<xliff:g id="GROUP">%s</xliff:g>\' من المزامنة أيضًا إلى إزالة أية جهات اتصال غير مجمعة من المزامنة."</string>
+    <string name="label_email_display_name">عرض اسم</string>
+    <string name="account_phone">"الهاتف فقط، غير متزامنة"</string>
+    <string name="call_custom">"الاتصال بـ <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="call_home">"الاتصال بهاتف منزلي"</string>
+    <string name="call_mobile">"الاتصال بالجوال"</string>
+    <string name="call_work">"الاتصال بهاتف العمل"</string>
+    <string name="call_fax_work">"الاتصال بفاكس العمل"</string>
+    <string name="call_fax_home">"الاتصال بفاكس المنزل"</string>
+    <string name="call_pager">"الاتصال بجهاز النداء"</string>
+    <string name="call_other">"اتصال"</string>
+    <string name="call_callback">"الاتصال برقم معادوة الاتصال"</string>
+    <string name="call_car">"الاتصال بهاتف السيارة"</string>
+    <string name="call_company_main">"الاتصال بهاتف الشركة الرئيسي"</string>
+    <string name="call_isdn">"اتصال بـ ISDN"</string>
+    <string name="call_main">"الاتصال بالهاتف الرئيسي"</string>
+    <string name="call_other_fax">"الاتصال برقم الفاكس"</string>
+    <string name="call_radio">"اتصال بهاتف لاسلكي"</string>
+    <string name="call_telex">"الاتصال بالتلكس"</string>
+    <string name="call_tty_tdd">"اتصال بـ TTY/TDD"</string>
+    <string name="call_work_mobile">"الاتصال بجوال العمل"</string>
+    <string name="call_work_pager">"الاتصال بجهاز نداء العمل"</string>
+    <string name="call_assistant">"الاتصال بـ <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="call_mms">"اتصال بهاتف رسائل الوسائط المتعددة"</string>
+    <string name="sms_custom">"إرسال رسالة نصية إلى <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="sms_home">"إرسال رسالة نصية إلى هاتف منزلي"</string>
+    <string name="sms_mobile">"إرسال رسالة نصية إلى جوال"</string>
+    <string name="sms_work">"إرسال رسالة نصية قصيرة إلى هاتف العمل"</string>
+    <string name="sms_fax_work">"إرسال رسالة نصية قصيرة إلى فاكس العمل"</string>
+    <string name="sms_fax_home">"إرسال رسالة نصية إلى فاكس المنزل"</string>
+    <string name="sms_pager">"إرسال رسالة نصية إلى جهاز النداء"</string>
+    <string name="sms_other">"إرسال رسالة نصية"</string>
+    <string name="sms_callback">"إرسال رسالة إلى هاتف معاودة الاتصال"</string>
+    <string name="sms_car">"إرسال رسالة نصية إلى هاتف السيارة"</string>
+    <string name="sms_company_main">"إرسال رسالة نصية قصيرة على الهاتف الرئيسي للشركة"</string>
+    <string name="sms_isdn">"إرسال رسالة نصية قصيرة إلى ISDN"</string>
+    <string name="sms_main">"إرسال رسالة إلى الهاتف الرئيسي"</string>
+    <string name="sms_other_fax">"إرسال رسالة إلى فاكس"</string>
+    <string name="sms_radio">"إرسال رسالة إلى هاتف لاسلكي"</string>
+    <string name="sms_telex">"إرسال رسالة نصية إلى هاتف تليكس"</string>
+    <string name="sms_tty_tdd">"إرسال رسالة إلى TTY/TDD"</string>
+    <string name="sms_work_mobile">"إرسال رسالة إلى جوال العمل"</string>
+    <string name="sms_work_pager">"إرسال رسالة نصية قصيرة على جهاز نداء العمل"</string>
+    <string name="sms_assistant">"إرسال رسالة نصية إلى <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="sms_mms">"إرسال رسالة وسائط متعددة"</string>
+    <string name="email_home">"إرسال رسالة إلكترونية إلى العنوان الرئيسي"</string>
+    <string name="email_mobile">"إرسال رسالة إلكترونية إلى عنوان بريد إلكتروني على الجوال"</string>
+    <string name="email_work">"إرسال رسالة إلكترونية إلى عنوان البريد الإلكتروني للعمل"</string>
+    <string name="email_other">"إرسال رسالة إلكترونية"</string>
+    <string name="email_custom">"البريد الإلكتروني <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="email">"إرسال رسالة إلكترونية"</string>
+    <string name="map_home">"عرض عنوان المنزل"</string>
+    <string name="map_work">"عرض عنوان العمل"</string>
+    <string name="map_other">"عرض عنوان"</string>
+    <string name="map_custom">"عرض عنوان <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="chat_aim">"الدردشة باستخدام AIM"</string>
+    <string name="chat_msn">"الدردشة باستخدام Windows Live"</string>
+    <string name="chat_yahoo">"الدردشة باستخدام Yahoo"</string>
+    <string name="chat_skype">"الدردشة باستخدام Skype"</string>
+    <string name="chat_qq">"الدردشة باستخدام QQ"</string>
+    <string name="chat_gtalk">"الدردشة باستخدام Google Talk"</string>
+    <string name="chat_icq">"الدردشة باستخدام ICQ"</string>
+    <string name="chat_jabber">"الدردشة باستخدام Jabber"</string>
+    <string name="chat_other">"الدردشة باستخدام وسائل أخرى"</string>
+    <string name="chat">"دردشة"</string>
+    <string name="postal_street">"الشارع"</string>
+    <string name="postal_pobox">"صندوق البريد"</string>
+    <string name="postal_neighborhood">"منطقة مجاورة"</string>
+    <string name="postal_city">"المدينة"</string>
+    <string name="postal_region">"المحافظة"</string>
+    <string name="postal_postcode">"الرمز البريدي"</string>
+    <string name="postal_country">"البلد"</string>
+    <string name="name_given">"الاسم الممنوح"</string>
+    <string name="name_family">"اسم العائلة"</string>
+    <string name="name_prefix">"بادئة الاسم"</string>
+    <string name="name_middle">"الاسم الأوسط"</string>
+    <string name="name_suffix">"لاحقة الاسم"</string>
+    <string name="name_phonetic_given">"الاسم الصوتي الممنوح"</string>
+    <string name="name_phonetic_middle">"الاسم الصوتي الأوسط"</string>
+    <string name="name_phonetic_family">"اسم الأسرة الصوتي"</string>
+    <string name="split_label">انقسم</string>
+    <string name="split_explanation">اجعل هذه البيانات كجهة اتصال</string>
+    <string name="account_name_format">من <xliff:g id="source" example="Gmail">%1$s</xliff:g> جهات اتصال: <xliff:g id="account" example="user@gmail.com">%2$s</xliff:g></string>
+    <string name="account_type_format">"جهة اتصال <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="from_account_format">"من <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="use_photo_as_primary">"استخدام هذه الصورة"</string>
+    <string name="contact_read_only">"معلومات جهة اتصال <xliff:g id="SOURCE">%1$s</xliff:g> غير قابلة للتعديل على هذا الجهاز."</string>
+    <string name="no_contact_details">"ليس هناك معلومات إضافية لجهة الاتصال هذه"</string>
+    <string name="display_options_sort_list_by">"تصنيف القائمة بحسب"</string>
+    <string name="display_options_sort_by_given_name">"الاسم الممنوح"</string>
+    <string name="display_options_sort_by_family_name">"اسم العائلة"</string>
+    <string name="display_options_view_names_as">"عرض أسماء جهات الاتصال كـ"</string>
+    <string name="display_options_view_given_name_first">"الاسم الممنوح أولاً"</string>
+    <string name="display_options_view_family_name_first">"الاسم العائلة أولاً"</string>
+    <string name="search_bar_hint">"البحث في جهات الاتصال"</string>
+    <string name="search_for_all_contacts">"البحث عن كل جهات الاتصال"</string>
+    <string name="take_photo">"التقاط صورة"</string>
+    <string name="pick_photo">"تحديد صورة من المعرض"</string>
+    <string name="locale_change_in_progress">"يتم تحديث قائمة جهات الاتصال لتعكس التغيير الذي حدث في اللغة."\n\n"الرجاء الانتظار..."</string>
+    <string name="upgrade_in_progress">"يتم حاليًا تحديث قائمة جهات الاتصال."\n\n"الرجاء الانتظار..."</string>
+    <string name="upgrade_out_of_memory">"جهات الاتصال قيد التحديث. "\n\n"تتطلب عملية الترقية مساحة تبلغ حوالي <xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> ميغابايت من سعة تخزين الهاتف الداخلية."\n\n"اختر أحد الخيارات التالية:"</string>
+    <string name="upgrade_out_of_memory_uninstall">"إزالة بعض التطبيقات"</string>
+    <string name="upgrade_out_of_memory_retry">"إعادة محاولة الترقية"</string>
+    <string name="search_results_for">"نتائج البحث عن: <xliff:g id="QUERY">%s</xliff:g>"</string>
+    <string name="search_results_searching">"جارِ البحث..."</string>
+    <string name="dialer_call_switch">مكالمة صوتيه/ مكالمة فيديو</string>
+    <string name="menu_voicecall">المكالمة الصوتية</string>
+    <string name="menu_videocall">مكالمة فيديو</string>
+    <string name="select_all">حدد الكل</string>
+    <string name="select_contacts">حدد جهة الاتصال</string>
+    <string name="delete_contacts">حذف جهة الاتصال</string>
+    <string name="export_contacts">تصدير جهات الاتصال</string>
+    <string name="import_contacts">استيراد جهة الاتصال</string>
+    <string name="add_contacts_to_group">إضافة جهات اتصال إلى مجموعة</string>
+    <string name="ok">"موافق"</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="contact_tag">اسم</string>
+    <string name="inputting__name_sim_contacts">ملاحظة: الطول الاقصي هو 14 رمز ( اذا احتوى رمز او سلسه من الرموز سوف يكون الطول الاقصي 6 رموز)، سوف يتجاوز الحد الاقصى.</string>
+    <string name="inputting_number_sim_contacts">ملاحظة: الطول الاقصي هو 20 رمز ( فقط مسموح الرموز 0-9 +، *)</string>
+    <string name="setting_digits">1234567890+*#,;</string>
+    <string name="menu_contacts_group">مجموعة جهات الاتصال</string>
+    <string name="menu_delete">حذف جهة الاتصال</string>
+    <string name="on_progress">جاري التقدم ... الرجاء الانتظار.</string>
+    <string name="deleting_contacts">حذف جهة اتصال، الرجاء الانتظار.</string>
+    <string name="importing_contacts">استيراد جهات الاتصال، يرجى الانتظار.</string>
+    <string name="exporting_contacts">تصدير جهة اتصال، الرجاء الانتظار.</string>
+    <string name="adding_contacts_to_group">إضافة جهات اتصال إلى المجموعة، الرجاء الانتظار.</string>
+    <string name="confirm">تأكيد؟</string>
+    <string name="export_to_sim">تصدير الى شريحة الهاتف SIM</string>
+    <string name="export_to_sim1">تصدير الى شريحة الهاتف SIM1</string>
+    <string name="export_to_sim2">تصدير الى شريحة الهاتف SIM2</string>
+    <string name="group_all">جميع جهات الاتصال</string>
+    <string name="group_phone">جهات اتصال الهاتف</string>
+    <string name="group_sim">جهات اتصال بطاقة الهاتف </string>
+    <string name="group_sim1">جهات اتصال بطاقة الهاتف 1</string>
+    <string name="group_sim2">جهات اتصال بطاقة الهاتف 2</string>
+    <string name="view_simContact">عرض جهات اتصال بطاقة الهاتف</string>
+    <string name="edit_simContact">تحرير جهات اتصال بطاقة الهاتف</string>
+    <string name="insert_simContact">اضافة جهة اتصال الى بطاقة الهاتف</string>
+    <string name="select_contacts_group">حدد مجموعة جهات الاتصال</string>
+    <string name="select_contacts_group_to_add">حدد المجموعه لاضافه جهة اتصال جديده</string>
+    <string name="sim_card">فقط بطاقة الهاتف</string>
+    <string name="sim_card1">" فقط بطاقة الهاتف 1"</string>
+    <string name="sim_card2">" فقط بطاقة الهاتف 2"</string>
+    <string name="phone">الهاتف</string>
+    <string name="toast_simcontact_no_name">لا يوجد إسم</string>
+    <string name="toast_simcontact_no_phone_number">لا يوجد رقم هاتف</string>
+    <string name="dial_number">اتصل</string>
+    <string name="send_message">رسالة</string>
+    <string name="account_sim">فقط بطاقة الهاتف</string>
+    <string name="account_sim1">" فقط بطاقة الهاتف 1"</string>
+    <string name="account_sim2">" فقط بطاقة الهاتف 2"</string>
+    <string name="sim1_no_ready">"بطاقة الهاتف 1 غير متاحة"</string>
+    <string name="sim2_no_ready">"بطاقة الهاتف 2 غير متاحة"</string>
+    <string name="sim_no_ready">"بطاقة الهاتف  غير متاحة"</string>
+    <string name="noContactsWithSimNumbers">" لا يوجد جهات الاتصال في بطاقة الهاتف"</string>
+    <string name="no_match_people">لا يوجد جهة اتصال مطابقة.</string>
+    <string name="dialpad_colon">:</string>
+    <string name="progress_dialog_title">إستيراد جهات اتصال من بطاقة الهاتف.</string>
+    <string name="sim_is_initializing">تهئية بطاقة الهاتف.</string>
+    <string name="toast_sim_overflow">بطاقة الهاتف ممتلئة</string>
+    <string name="toast_simcontact_input_overflow">تجاوز الحد الاقصي لمدخلات معلومات جهة الاتصال</string>
+    <string name="toast_no_map_apk">لا يوجد تطبيق خرائط</string>
+    <string name="toast_name_number_both_empty">رقم الهاتف والاسم لا يمكن ان يكونا فارغين</string>
+    <string name="import_to_phone">إٍستيراد الى</string>
+    <string name="recentCalls_addToCallFireWall">اضف الى الجدار الناري</string>
+    <string name="contactslist_menu_addto_firewall">اضف الى الجدار الناري</string>
+    <string name="contactslist_menu_addto_firewall_null">رقم جهة الاتصال لا يمكن ان يكون فارغا، قم بتحديد واضف جهة اتصال</string>
+    <string name="videocall_string">فيديو</string>
+    <string name="export_contacts_to_sdcard">"تصدير جهات الاتصال الى الذاكرة الرقمية المؤمنه"</string>
+    <string name="recentCalls_delete_toest">"يرحى تحديد حذف عنصر"</string>
+    <string name="sendType_MMS">"سوف يتم ارسال هذه المعلومه على شكل رساله وسائط"</string>
+    <string name="sendType_SMS">"سوف يتم ارسال هذه المعلومه على شكل رساله قصيرة"</string>
+    <string name="service_is_busy">"خدمة التزامن مشغوله الان ،بعض الوظائف معطله"</string>
+    <string name="label_success">"تم بنجاح"</string>
+    <string name="label_fail">"فشل"</string>
+    <string name="group_manager">"مجموعات جهات الاتصال"</string>
+    <string name="group_manager_delete">"حذف صانع مجموعات الاتصال"</string>
+    <string name="empty">" مجموعه خاليه، ادخل القائمة لاضافة عناصر"</string>
+    <string name="noGroupInfo">"لا يوجد مجموعه للتشغيل"</string>
+    <string name="conatcts_name">"الاسم"</string>
+    <string name="phone_number">"الهاتف"</string>
+    <string name="phone1">"الهاتف 1"</string>
+    <string name="phone2">"الهاتف 2"</string>
+    <string name="phone3">"الهاتف 3"</string>
+    <string name="phone4">"الهاتف 4"</string>
+    <string name="nickname">"الاسم المستعار"</string>
+    <string name="concacts_email">"البريد الالكتروني"</string>
+    <string name="ghostData_phone1">"رقم الهاتف 1"</string>
+    <string name="ghostData_phone2">"رقم الهاتف 2"</string>
+    <string name="ghostData_phone3">"رقم الهاتف 3"</string>
+    <string name="ghostData_phone4">"رقم الهاتف 4"</string>
+    <string name="ghostData_nickname">"الإسم المستعار"</string>
+    <string name="ghostData_concatct_email">"البريد الالكتروني"</string>
+    <string name="contacts_is_null">"أدخل معلومات جهات الاتصال"</string>
+    <string name="export_sim_success">"تم تصدير بطاقة الهاتف بنجاح"</string>
+    <string name="export_sim_fail">"فشل تصدير بطاقة الهاتف"</string>
+    <string name="export_sim1_success">"تم تصدير بطاقة الهاتف 1 بنجاح"</string>
+    <string name="export_sim1_fail">"فشل تصدير بطاقة الهاتف 1"</string>
+    <string name="export_sim2_success">تم تصدير بطاقة الهاتف2 بنجاح</string>
+    <string name="export_sim2_fail">"فشل تصدير بطاقة الهاتف 2"</string>
+    <string name="add_to_group_success">"إضافة  المجموعة تم بنجاح"</string>
+    <string name="add_to_group_fail">"فشل إضافة المجموعة"</string>
+    <string name="import_to_phone_success">"استيراد الهاتف تم بنجاح"</string>
+    <string name="import_to_phone_fail">"فشل استيراد الهاتف"</string>
+    <string name="delete_phone_success">"تم الحذف بنجاح"</string>
+    <string name="delete_phone_fail">"فشل الحذف"</string>
+    <string name="delete_sim_success">"تم الحذف"</string>
+    <string name="delete_sim_fail">"فشل الحذف"</string>
+    <string name="recentCallsAllIconLabel">الكل</string>
+    <string name="recentCallsMissedIconLabel">مفقوده</string>
+    <string name="recentCallsOutgoingIconLabel">الصادرة</string>
+    <string name="recentCallsReceivedIconLabel">الوارده</string>
+    <string name="select_one">على الاقل حدد عنصر واحد !</string>
+    <string name="remove_contacts_from_group">ازالة جهة الاتصال من المجموعة</string>
+    <string name="sim_card_name_too_long">اسم بطاقة الهاتف طويل جدا</string>
+    <string name="group_name_cannot_empty">اسم المجموعة لا يمكن ان يكون فارغا</string>
+    <string name="assistantLabelPickerTitle">اسم العنوان المساعد</string>
+    <string name="share_by_sms">ارسال جهة الاتصال على شكل رسالة قصيرة</string>
+    <string name="share_by_mms">ارسال جهة الاتصال على شكل رسالة وسائط</string>
+    <string name="share_by_bluetooth">ارسال جهة الاتصال عبر البلوتوث</string>
+    <string name="share_by_email">ارسال جهة الاتصال عبر البريد الالكتروني</string>
+    <string name="chat_custom">"محادثة بإستخدام <xliff:g id="NAME">%s</xliff:g> "</string>
+    <string name="deleting">"جاري الحذف ، حاول مرة اخرى"</string>
+    <string name="import_aborted">"تم تجاهل الاستيراد"</string>
+    <string name="exprot_fail">"فشل التصدير،لا يوجد مساحة في الهاتف"</string>
+    <string name="exprot_fail_only_email">"جهاة الاتصال فقط بريد الكتروني،لايمكن تصديرة الى بطاقة الهاتف"</string>
+    <string name="contacts_information_is_replace">"تم إستبدال معلومات جهة الاتصال"</string>
+    <string name="import_sim_too_many">"المستخدم قام بإستيراد اكثر من المساحة الباقية على بطاقة الهاتف"</string>
+    <string name="whether_import_from_SD">"إستيراد من الذاكرة الرقمية المؤمنة اذا كانت هذه هي جهة اتصال؟"</string>
+    <string name="blacklist_add">إضافة إلى قائمة الحظر</string>
+    <string name="blacklist">القائمة السوداء</string>
+    <string name="blacklist_no_number">لايوجد رقم معين ،لا يمكن اضافة جهة الاتصال.</string>
+    <string name="no_fast_dial">رقم الاتصال السريع لم يتم تعيينه</string>
+    <string name="fast_dial_choose">يرجى تحديد نوع المكالمة السريعه</string>
+    <string name="fast_call">مكالمة صوتيه</string>
+    <string name="fast_vt_call">مكالمة فيديو</string>
+    <string name="save_contact_faliue">فشل الحفظ</string>
+    <string name="add_contact_success">تم اضافة جهة الاتصال بنجاح</string>
+    <string name="group_name">اسم المجموعة</string>
+    <string name="contactsSIMIconLabel">SIM</string>
+    <string name="contactsPhoneIconLabel">الهاتف</string>
+    <string name="sim_notready_cant_not_save">بطاقة SIM غير جاهزة ,  لا تستطيع حفظ متصلين في بطاقة SIM</string>
+    <string name="cant_not_save_email">بطاقة sim هذه لايمكن ان تحفظ البريد الالكتروني "</string>
+    <string name="fdn_enable_nosetting">الحركة المختارة غير متاحة عندما تكون FDN مفعلة "</string>
+    <string name="menu_removeFrequent">حذف من الارتياد</string>
+    <string name="group_name_student">"الطالب"</string>
+    <string name="group_name_friend">"الصديق"</string>
+    <string name="group_name_family">"العائلة"</string>
+    <string name="group_name_colleague">"الزميل"</string>
+    <string name="default_ban_operate">"المجموعة الافتراضية  العملية الحظوره"</string>
+    <string name="delete_group">حذف مجموعة</string>
+    <string name="remove_frequent_contacts">"ازالة جهات الاتصال المتكرره"</string>
+    <string name="removing_frequent_contacts">"جاري حذف جهات الاتصال المتكرره،يرجى الانتظار."</string>
+    <string name="remove_collection_contacts">"حذف تجمع جهات الاتصال"</string>
+    <string name="removing_collection_contacts">"جاري حذف تجمع جهات الاتصال،يرجى الانتظار."</string>
+    <string name="get_sim_count_fail">بطاقة الهاتف غير جاهزة،او لم يتم تركيبها</string>
+    <string name="emergency_call">مكالمة طوارئ</string>
+    <string name="dial_emergency_error">"لم يتم إرسال المكالمة، <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> ليس رقم طوارئ!"</string>
+    <string name="dial_emergency_empty_error">الاتصال لم يرسل، يرجى الاتصال على رقم طوارئ!</string>
+    <string name="label_birthday">عيد الميلاد</string>
+</resources>

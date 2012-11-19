@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bk" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+        <Button 
+                android:text="@string/SettingUpStep"
+                android:id="@+id/button_constitution_up"
+    	        android:layout_width="160dp" 
+    	        android:layout_height="wrap_content"
+    	        android:textSize="30sp"
+    	        android:textColor="#ffffff00"
+                android:background="#00000000">
+        </Button>
+        <Button 
+            android:text="@string/SettingNextStep"
+            android:id="@+id/button_constitution_next"
+    	    android:layout_width="160dp" 
+    	    android:layout_height="wrap_content"  
+    	    android:textSize="30sp"    	    
+    	    android:layout_alignParentRight="true"
+    	    android:textColor="#ffffff00"
+    	    android:background="#00000000">
+        </Button> 
+        
+     </RelativeLayout> 
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp">
+    </RelativeLayout> 
+    <RelativeLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+            <TextView 
+                android:text="@string/SettingUserConstitution" 
+                android:id="@+id/text_constitution"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"      
+                android:textColor="@android:color/white"                        
+                android:textSize="30dip">
+             </TextView>
+             <Spinner
+                 android:id="@+id/constitution_key"
+                 android:entries="@array/constitution_entryvalues"  
+		         android:entryValues="@array/constitution_entryvalues" 
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@id/text_constitution"
+                 android:textColor="@android:color/white"
+                 android:dialogTitle="@string/SettingUserConstitutionDialogTitle"
+		         android:textSize="30dip">
+            </Spinner>
+            </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="360dp">
+        </RelativeLayout>    
+        
+</LinearLayout>

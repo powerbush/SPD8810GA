@@ -1,0 +1,334 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">ئۇچۇر يوللىنۋاتىدۇ</string>
+    <string name="new_message">يېڭى ئۇچۇر</string>
+    <string name="cdma_cell_broadcast_sms">رادىئو ئاڭلىتىش ئۆيىSMS </string>
+    <string name="cell_broadcast_sms">رادىئو ئاڭلىتىش ئۆيىSMS </string>
+    <string name="enable_disable_cell_bc_sms">رادىئو ئاڭلىتىش ئۆيىSMS </string>
+    <string name="cell_bc_sms_enable">مىكرورايون رادىئو SMS قوزغىتىلغان</string>
+    <string name="cell_bc_sms_disable">مىكرورايون رادىئو SMS چەكلەنگەن</string>
+    <string name="cb_sms_settings">مىكرورايون رادىئو SMSتەڭشەش</string>
+    <string name="channel_name">قانال ئىسمى</string>
+    <string name="channel_number">قانال نومۇرى</string>
+    <string name="no_cell_broadcast">رادىئو ئۇچۇرى يوق</string>
+    <string name="broadcast">رادىئو ئاڭلىتىش ئۆيىSMS </string>
+    <string name="menu_cellbroadcastsms">رادىئو ئاڭلىتىش ئۆيى</string>
+    <string name="list_language_title">تىلنى لايىھەلەش</string>
+    <string name="list_language_summary">يېڭى تىل تاللاش</string>
+    <string name="broadcast_message">ئۇچۇر</string>
+    <string name="language_eng">ئىنگىلىزچە تىل</string>
+    <string name="language_fren">فىرانسۇزتىلى</string>
+    <string name="language_spanish">ئىسپان تىلى</string>
+    <string name="language_japanese">ياپۇنىيە تىلى</string>
+    <string name="language_korean">كۇرىيە تىلى</string>
+    <string name="language_chinese">جوڭگۇ تىلى</string>
+    <string name="language_hebrew">ئىبرانچە تىل</string>
+    <string name="language_type">لايىھەلەش شەكلى:</string>
+    <string-array name="list_language_entries">
+        <item>ئۇيغۇرچە</item>
+        <item>فىرانسۇزچە</item>
+        <item>ئىسپانچە</item>
+        <item>ياپۇنىيەنىڭ</item>
+        <item>كۇرىيە</item>
+        <item>خەنزۇچە</item>
+        <item>ئىبرانچە</item>
+    </string-array>
+    <string name="list_language_dtitle">تىل</string>
+    <string name="create_new_message">يېڭى ئۇچۇرنى يېزىش</string>
+    <string name="menu_compose_new">تەشكىللەش</string>
+    <string name="menu_preferences">تەڭشەك</string>
+    <string name="menu_call">چاقىرىش</string>
+    <string name="menu_videocall">كۆرۈشمە تېلېفون</string>
+    <string name="menu_delete_all">سىزىقلارنى ئۆچۈرۈش</string>
+    <string name="menu_delete">سىزىقچىنى ئۆچۈرۈش</string>
+    <string name="menu_undelivered_messages">يەتكۈزۈلمىگەن ئۇچۇرلار</string>
+    <string name="menu_view">تالا كۆرۈش</string>
+    <string name="refreshing">يېڭىلاۋاتىدۇ\u2026</string>
+    <string name="has_draft">كوپيە</string>
+    <string name="anonymous_recipient">نامسىز</string>
+    <string name="no_subject_view">(تەسىرى يوق)</string>
+    <string name="messagelist_sender_self">مەن</string>
+    <string name="view_picture">رەسىم كۆرۈش</string>
+    <string name="view_slideshow">سىرىلما كۆرۈنۈشنى كۆرۈش</string>
+    <string name="view_message_details">ئۇچۇر تەپسىلاتىنى كۆرۈش</string>
+    <string name="view_delivery_report">دوكلاتنى كۆرۈش</string>
+    <string name="delete_message">ئۇچۇرنى ئۆچۈرۈش</string>
+    <string name="undelivered_msg_dialog_title">يەتكۈزۈلمىگەن ئۇچۇر</string>
+    <string name="undelivered_sms_dialog_body">بۇ ئۇچۇرنى يوللىيالمايدۇ.</string>
+    <string name="delete_thread">سىزىقچىنى ئۆچۈرۈش</string>
+    <string name="menu_forward">باشقىغا يۆتكىمەك</string>
+    <string name="download">چۈشۈرۈش</string>
+    <string name="downloading">چۈشۈرۈۋاتىدۇ</string>
+    <string name="drm_protected_text">"* قوغدىلىدىغان ھۆججەتDRM *"</string>
+    <string name="insufficient_drm_rights">تۇلۇق بولمىغان  DRM ھۇقۇقى ئۇچۇرۇلدى.</string>
+    <string name="copy_message_text">ئۇچۇر تىكىستىنى كۆپەيتىش</string>
+    <string name="message_options">ئۇچۇر تاللىشى</string>
+    <string name="done">تامام</string>
+    <string name="move_up">يۇقۇرىغا يۆتكەش</string>
+    <string name="move_down">ئاستىغا يۆتكەش</string>
+    <string name="remove_slide">پرويېكسيە پلاستىنكىسىنى ئۆچۇرۋېتىش</string>
+    <string name="add_slide">پرويېكسيە پلاستىنكىسى قۇشۇش</string>
+    <string name="add_slide_hint">يېڭى سېيرىلما ھاسىل قىلىشنى تاللاش.</string>
+    <string name="discard_slideshow">پرويىكسىيە پىلاستىنكىسىنى تاشلىۋىتىش</string>
+    <string name="remove_text">خەتنى ئۆچۇرۋېتىش</string>
+    <string name="add_picture">رەسىم قۇشۇش</string>
+    <string name="remove_picture">رەسىمنى ئۆچۇرۋېتىش</string>
+    <string name="add_music">مۇزىكا قوشۇش</string>
+    <string name="remove_music">مۇزىكىنى ئۆچۇرۋېتىش</string>
+    <string name="add_video">ۋېدىئو قوشۇش</string>
+    <string name="remove_video">كىنونى ئۆچۇرۋېتىش</string>
+    <string name="compose_title">تەشكىللەش</string>
+    <string name="to_hint">...غا:</string>
+    <string name="subject_hint">تېما</string>
+    <string name="add_attachment">تىگىشىش</string>
+    <string name="add_subject">تۈر قۇشۇش</string>
+    <string name="discard">تاشلىۋىتىش</string>
+    <string name="view">كۆرۈش</string>
+    <string name="replace">ئالماشتۇرۇش</string>
+    <string name="remove">ئۈچۈرۈش</string>
+    <string name="send">يوللاش</string>
+    <string name="mms">سۆرەتلىك ئۇچۇر</string>
+    <string name="all_threads">ھەممە سىزىق</string>
+    <string name="type_to_compose_text_enter_to_send">خەت كىرگۈزۈڭ</string>
+    <string name="open_keyboard_to_compose_message">كۇنۇپكا تاختىسىنى ئچىپ ئۇچۇر يېزىش</string>
+    <string name="image_too_large">رەسىم بەك چوڭ</string>
+    <string name="ask_for_automatically_resize">رەسىمنىڭ چوڭ كىچىكلىكنى ئىۋەتىشتىن بۇرۇن ئاپتوماتىك تەڭشەش؟</string>
+    <string name="compressing">رەسىم بەك چوڭ. \u2026نى پىرىسلاۋاتىدۇ</string>
+    <string name="exceed_message_size_limitation">ئۇچۇر چوڭ كىچىكلىكى بولدى.</string>
+    <string name="message_too_big_for_video">ئۇچۇر بەك چوڭ بولغانلىقتىن سىن ھۆججىتىنى قوشۇشقا بولمايدۇ.</string>
+    <string name="failed_to_resize_image">رەسىم چوڭ كىچىكلىكى تەڭشەلمىگەن.</string>
+    <string name="resize_image_error_information">كەچۈرۈڭ، رەسىمىڭىز ئۆزگەرتىلگەندىن كىيىنمۇ چوڭ بولغانلىقتىن يوللانمىدى.</string>
+    <string name="forward_prefix">Fwd:\u0020</string>
+    <string name="discard_message">تاشلىۋىتىش</string>
+    <string name="discard_message_reason">سىزنىڭ ئۇچۇرىڭىز ئەمەلدىن قالدۇرۇلماقچى،چۈنكى ئۇنىڭ ئىناۋەتلىك تاپشۇرۋالغۇچىسى يوق.</string>
+    <string name="invalid_destination">كىرگزگىنىڭىز ئىناۋەتسىز ئادىرىس.</string>
+    <string name="invalid_recipient_message">قۇبۇل قىلغۇچىنى توغرا كىرگۈزىڭ،بولمىسا ئۇچۇرىڭىز قۇبۇل قىلىنمايدۇ.</string>
+    <string name="cannot_send_message">بۇ ئۇچۇرنى ئېۋەتەلمىدى</string>
+    <string name="cannot_send_message_reason">سىزنىڭ ئۇچۇرىڭىزنىڭ ئىناۋەتلىك تاپشۇرۋالغۇچىسى يوق.</string>
+    <string name="cannot_forward_drm_obj">ئۇچۇردىكى DRM ئوبىكتى يوللانمىدى.</string>
+    <string name="converting_to_picture_message">كۆپ ۋاستىلىك ئۇچۇرغا ئۆزگەرتىش\u2026</string>
+    <string name="converting_to_text_message">تىكىست ئۇچۇرغا ئۆزگەرتىش\u2026</string>
+    <string name="cannot_add_slide_anymore"> ئەمدى پرويېكسىيە پلاستىنكىسى قوشقىلى بولمايدۇ.</string>
+    <string name="cannot_add_picture_and_video">كۆرۈنمە چاستوتا ۋە رەسىم قوشقىلى بولمايدۇ.</string>
+    <string name="cannot_save_message">قىسقا ئۇچۇر ساقلىياممايدۇ.</string>
+    <string name="cannot_load_message">قىسقا ئۇچۇر قاچىلياممايدۇ.</string>
+    <string name="message_saved_as_draft">ئۇچۇر دەسلەپكى نوسقا شەكلىدە ساقلاندى.</string>
+    <string name="locked_message_cannot_be_deleted">تاقالغان ئۇچۇرنى ئۇچۇرگىلى بولمايدۇ.</string>
+    <string name="adding_attachments_title">قۇشۇمچە ماتېريال قۇشۇش</string>
+    <string name="adding_attachments">تۈرلەرنىڭ سېيرىلمىغا قوشۇلىشىنى ساقلاپ تۇرۇڭ.</string>
+    <string name="adding_attachments_vcard">تۈرلەرنىڭ قوشۇلىشىنى ساقلاپ تۇرۇڭ.</string>
+    <string name="cannot_play_audio">ئاۋاز قۇيالمايدۇ.</string>
+    <string name="preview">ئالدىن كۆرۈش</string>
+    <string name="preview_slideshow">ئالدىن كۆرۈش</string>
+    <string name="replace_image">ئالماشتۇرىلىدىغان رەسىم</string>
+    <string name="duration_selector_title">پرويېكسيە پلاستىنكىسىنىڭ ۋاقتى</string>
+    <string name="layout_selector_title">رويېكسىيە پلاستىنكىسىنىڭ ئورۇنلاشتۇرۇلىشى</string>
+    <string name="layout_top">چىكىنپ چىقىش(باش)</string>
+    <string name="layout_bottom">چىكىنپ چىقىش(ئاخىرى)</string>
+    <string name="type_to_compose_text_or_leave_blank">خەت كىرگۈزۈڭ ياكى بوش قويۇڭ</string>
+    <string name="duration_not_a_number">ۋاقىت پەقەتلا بىر ساندۇر</string>
+    <string name="duration_zero">ۋاقىت نۆل سىكونتتىن چوڭ</string>
+    <string name="secs">سېكۇنت</string>
+    <string-array name="select_dialog_items">
+         <item>بىر سىكونىت</item>
+         <item>2سېكۇنت</item>
+         <item>3سېكۇنت</item>
+         <item>4سېكۇنت</item>
+         <item>5سېكۇنت</item>
+         <item>6سېكۇنت</item>
+         <item>7سېكۇنت</item>
+         <item>8سېكۇنت</item>
+         <item>9سېكۇنت</item>
+         <item>10سېكۇنت</item>
+         <item>باشقا \u2026</item>
+    </string-array>
+    <string name="menu_view_contact">تېلفون دەپتىرىنى كۆرۈش </string>
+    <string name="menu_add_to_contacts">ئالاقىلاشقۇچىغا قوشامسىز</string>
+    <string name="hidden_sender_address">يوللىغۇچى ئادىرىسىنى تىقىپ قويۇش</string>
+    <string name="yes">مۇقىملاش</string>
+    <string name="no">ئەمەلدىن قالدۇرۇش</string>
+    <string name="set">تەڭشەش</string>
+    <string name="play">قۇيۇش</string>
+    <string name="edit">تەھرىرلەش</string>
+    <string name="resize">چوڭ كىچىكلىكىنى تەڭشەش</string>
+    <string name="try_to_send">ئەۋەتىپ بېقىڭ</string>
+    <string name="preferences_title">تەڭشەك</string>
+    <string name="restore_default">بار سانالغان تەڭشەكنى ئەسلىگە كەلتۈرۈش</string>
+    <string name="pref_notification_settings_title">ئۇختۇرۇشنى ئورنىتىش</string>
+    <string name="pref_mms_settings_title">كۆپ تەرەپلىمە قىسقا ئۇچۇر(MMS) لاھىيەسى</string>
+    <string name="pref_sms_settings_title">قىسقا ئۇچۇر (SMS)ئورۇنلاشتۇرۇش ئىقتىدارى</string>
+    <string name="pref_sms_storage_title">ساقلىغۇچ تەڭشىكى</string>
+    <string name="pref_summary_mms_delivery_reports">يوللىغان ئۇچۇرۇڭىزغا تاپشۇرۋالغان دوكىلات تەلەپ قىلىش</string>
+    <string name="pref_summary_mms_read_reports">يوللىغان ئۇچۇرۇڭىزغا ئوقۇلغان دوكىلات تەلەپ قىلىش</string>
+    <string name="pref_summary_sms_delivery_reports">يوللىغان ئۇچۇرۇڭىزغا تاپشۇرۋالغان دوكىلات تەلەپ قىلىش</string>
+    <string name="pref_summary_auto_delete">چەكلىمە يىتىپ بارغان كونا ئۇچۇرنى ئۆچۈرۈش</string>
+    <string name="pref_title_mms_delivery_reports">ئەۋەتىش دوكلاتىنى يوللاش</string>
+    <string name="pref_title_mms_read_reports">دوكىلاتنى ئوقۇڭ</string>
+    <string name="pref_title_sms_delivery_reports">ئەۋەتىش دوكلاتىنى يوللاش</string>
+    <string name="pref_title_auto_delete">كونا ئۇچۇرنى ئۆچۈرۈش</string>
+    <string name="pref_title_sms_delete">خەتلىك ئۇچۇر چېكى</string>
+    <string name="pref_title_mms_delete">رەڭلىك ئۇچۇرچېكى</string>
+    <string name="pref_title_notification_enabled">ئۇختۇرۇش</string>
+    <string name="pref_summary_notification_enabled">ھالەت كۆزنىكىدە ئۇچۇر ئۇقتۇرىشىنى كۆرسىتىش</string>
+    <string name="pref_title_notification_vibrateWhen">تىترەش</string>
+    <string name="pref_summary_notification_vibrateWhen">ئۇقتۇرۇش بولغاندا تىتىرەش</string>
+    <string name="pref_title_notification_ringtone">قوڭغۇراق ئاۋازى تاللاش</string>
+    <string-array name="prefEntries_vibrateWhen">
+        <!-- Always -->
+        <item>ھەمىشە</item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>تېنىچ ھالەتتە</item>
+        <!-- Never -->
+        <item>ھەرگىز</item>
+    </string-array>
+    <string name="prefDialogTitle_vibrateWhen">تىترەش</string>
+    <string name="pref_title_mms_auto_retrieval">ئاپتوماتىك قايتا ئىرشىش</string>
+    <string name="pref_summary_mms_auto_retrieval">قىسقا ئۇچۇرنى ئاپتۇماتىك ئەسلىگە كەلتۈرۈش</string>
+    <string name="pref_title_mms_retrieval_during_roaming"> سەييارە سۆزلىشىش ئاپتۇماتىك قايتۇرمىسى</string>
+    <string name="pref_summary_mms_retrieval_during_roaming">سەييارە سۆزلىشىش ۋاقتىدا قىسقا ئۇچۇرنى ئاپتۇماتىك ئەسلىگە كەلتۈرۈش</string>
+    <string name="to_label">...غا:</string>
+    <string name="confirm_dialog_title">ئۈچۈرۈش</string>
+    <string name="confirm_dialog_locked_title">قولۇپلانغان ئۇچۇرنى ئۆچۈرەمسىز؟</string>
+    <string name="confirm_delete_conversation">بارلىق تالا ئۆچۈرۋېتىلىدۇ.</string>
+    <string name="confirm_delete_all_conversations">ھەممە سىزىقلار ئۆچۈرۈلىدۇ.</string>
+    <string name="confirm_delete_message">ئۇچۇر ئۆچۈرىلىدۇ.</string>
+    <string name="confirm_delete_locked_message">بۇ قۇلۇپلانغان قىسقا ئۇچۇرنى ئۈچۈردىغانلىقىڭىزنى خەزىملەشتۈرەمسىز؟</string>
+    <string name="confirm_delete_all_messages">بارلىق تالا ئۆچۈرۋېتىلىدۇ.</string>
+    <string name="confirm_delete_all_SIM_messages">SIM كارتىدىكى بارلىق قىسقا ئۇچۇرلار ئۆچۈرۈلىدۇ.</string>
+    <string name="confirm_delete_SIM_message">SIM دىكى بۇ ئۇچۇر ئۆچۈرىلىدۇ.</string>
+    <string name="delete_unlocked">قولۇپلانغان ئۇچۇرنى ئۆچۈرۈش</string>
+    <string name="delete">ئۈچۈرۈش</string>
+    <string name="cannot_get_details">تەپسىلاتىغا ئېرىشەممىدى</string>
+    <string name="message_details_title">ئۇچۇر تەپسلى ئەھۋالى</string>
+    <string name="message_type_label">تىپى:\u0020</string>
+    <string name="text_message">خەتلىك ئۇچۇر</string>
+    <string name="multimedia_message">رەڭلىك ئۇچۇر</string>
+    <string name="multimedia_notification">رەڭلىك ئۇچۇرئۇقتۇرىشى</string>
+    <string name="from_label">دىن:\u0020</string>
+    <string name="to_address_label">قوبۇللىغۇچى:\u0020</string>
+    <string name="bcc_label">شىفىر يوللاش:\u0020</string>
+    <string name="sent_label">يوللاندى:\u0020</string>
+    <string name="received_label">قوبۇل قىلىندى:\u0020</string>
+    <string name="saved_label">ساقلاندى:</string>
+    <string name="subject_label">تېما:\u0020</string>
+    <string name="message_size_label">ئۇچۇر نۇمىرى:\u0020</string>
+    <string name="priority_label">ئالدىنلىقى:</string>
+    <string name="priority_high">ئېگىز</string>
+    <string name="priority_normal">نورمال</string>
+    <string name="priority_low">ئاددى</string>
+    <string name="message_class_label">ئۇچۇر تۇرى:\u0020</string>
+    <string name="error_code_label">خاتا نومۇر:\u0020</string>
+    <string name="menu_edit">تەھرىرلەش</string>
+    <string name="menu_retry_sending">قايتا ئەۋەتىش</string>
+    <string name="menu_retry_sending_all">ھەممىنى قايتا ئەۋەتىش</string>
+    <string name="menu_delete_messages">ئۇچۇرنى ئۆچۈرۈش</string>
+    <string name="menu_lock">ئۇچۇرنى تاقاش</string>
+    <string name="menu_unlock">ئۇچۇر قۇلۇپىنى ئېچىش</string>
+    <string name="sim_copy_to_phone_memory">تېلفۇن كارتىسىغا كۆچۈرۈش</string>
+    <string name="sim_delete">ئۈچۈرۈش</string>
+    <string name="sim_manage_messages_title">SIM1كارتىدىكى ئۇچۇر</string>
+    <string name="sim_view">كۆرۈش</string>
+    <string name="sim_empty">.SIM1 كارتىڭىز   دا ئۇچۇر يوق</string>
+    <string name="delivery_header_title">دوكىلات</string>
+    <string name="status_none">(يوق)</string>
+    <string name="status_pending">كېچىكتۈرۈلدى</string>
+    <string name="status_read">ئۇقۇش</string>
+    <string name="status_received">قوبۇل قىلىندى</string>
+    <string name="status_failed">مەغلۇپ بولدى، تاماملانمىدى</string>
+    <string name="status_unread">ئوقۇلمىدى　</string>
+    <string name="status_rejected">رەت قىلىندى.</string>
+    <string name="recipient_label">قۇبۇل قىلغۇچى\u0020</string>
+    <string name="status_label">ھالىتى:</string>
+    <string name="attach_image">رەسىملەر</string>
+    <string name="attach_take_photo">تارتقان رەسىم</string>
+    <string name="attach_video">سىن، سىنلىق ھۆججەتلەر، ۋىدىيولار</string>
+    <string name="attach_record_video">تارىتقان كۆرۈنمە چاستوتا
+
+</string>
+    <string name="attach_sound">ئۈن</string>
+    <string name="attach_record_sound">سىنغا ئېلىش</string>
+    <string name="attach_slideshow">قويۇش</string>
+    <string name="select_bottom_text">خەت ھالىتى</string>
+    <string name="select_top_text">ئۈستىدىكى خەت</string>
+    <string name="delivery_toast_body">ئۇچۇر قۇبۇل قىلىندى %s</string>
+    <string name="notification_multiple_title">يېڭى ئۇچۇرلار</string>
+    <string name="notification_failed_multiple_title">ئۇچۇر يوللانمىدى</string>
+    <string name="sim_full_title">SIMكارتا تولدى</string>
+    <string name="sim_full_body">تېخىمۇ كۆپ ئورۇن چىقىرىش ئۈچۈن ئۇچۇرلارنى ئۆچۈرۈش.</string>
+    <string name="sms_full_title">ئۇچۇر ساقلىغۇچ توشۇپ كەتتى</string>
+    <string name="sms_full_body">بوشلۇق توشۇپ كەتكەچكە ئۇچۇر رەت قىلىندى. كونا ئۇچۇرنى ئۆچۈرۈڭ.</string>
+    <string name="sms_rejected_title">ئۇچۇر رەت قىلىندى</string>
+    <string name="sms_rejected_body">نامەلۇم سەۋەپتىن ئۇچۇر رەت قىلىندى.</string>
+    <string name="type_audio">ئۈن</string>
+    <string name="type_picture">رەسىم</string>
+    <string name="type_video">ۋېدىئو</string>
+    <string name="type_vcard">Vكارتىسى</string>
+    <string name="confirm">مۇقىملاش</string>
+    <string name="message_send_read_report">بىر دوكىلات ئېۋەتىلمەكچى.</string>
+    <string name="message_queued">ئۇچۇر ئىناۋەتلىك، مۇلازىمەت ئېچىلغان ئۇچۇر ئېۋەتىلىدۇ.</string>
+    <string name="fdn_check_failure">سىز پەقەت ئۇچۇر يوللىيالايسىز.</string>
+    <string name="no_subject">(تەسىرى يوق)</string>
+    <string name="unknown_sender">نامەلۇم ئەۋەتكۈچى</string>
+    <string name="dl_expired_notification">بۇ ئۇچۇرنىڭ ساقلاش مۇددىتى توشتى ئۆچۈرىلىدۇ.</string>
+    <string name="rate_limit_surpassed">مۇقىملاش</string>
+    <string name="confirm_rate_limit"> نۇرغۇنلىغان كۆپ مېدىيا ئۇچۇرى  ئېۋەتىلىۋاتىدۇ،بۇلامدۇ؟ </string>
+    <string name="message_download_failed_title">ئۇچۇر چۇشۇرۇلمىدى</string>
+    <string name="message_send_failed_title">ئۇچۇر ئىۋەتىلمىدى</string>
+    <string name="message_failed_body">ئۇچۇرنى قايتا كۆرۈشنى تاللاش ياكى قايتا سىناش.</string>
+    <string name="download_later">چۈشۈرۈش ئىناۋەتسىز، سەل تۇرۇپ سىناپ بېقىڭ.</string>
+    <string name="select_audio">فىلىم تاللاش</string>
+    <string name="copy_to_sdcard">SD كارتىنى كۆپەيتىش</string>
+    <string name="copy_to_sdcard_success">قۇشۇمچە ھۆججەت SDكارتىغا كوپىي قىلىندى</string>
+    <string name="copy_to_sdcard_fail">SD كارتىغا كۆپەيتىش مەغلۇپ بولدى</string>
+    <string name="save_ringtone">قۇڭغۇراق ئاۋازىنى ساقلاش</string>
+    <string name="saved_ringtone">قوڭغۇراق مۇزىكىسى ساقلىنۋاتىدۇ</string>
+    <string name="saved_ringtone_fail">قۇڭغۇراق مۇزىكىسىنى  ساقلاۋاتىدۇ</string>
+    <string name="menu_insert_smiley">ئىپادە قىستۇرۇش</string>
+    <string name="select_link_title">ھەركەت تاللاش</string>
+    <string name="delivery_report_activity">ئەۋەتىش دوكلاتىنى يوللاش</string>
+    <string name="storage_limits_activity">ئىچكى ساقلىغۇچ چېكى</string>
+    <string name="add_attachment_activity">قوشۇمچە ھۆججەت كۆپەيتىش:</string>
+    <string name="select_layout_activity">ئورۇنلاشتۇرۇشنى تاللاش</string>
+    <string name="change_duration_activity">ئۆزگەرتىش-داۋاملىشىش-پائالىيەت</string>
+    <string name="edit_text_activity">تىكىستنى تەھرىرلەش</string>
+    <string name="edit_slideshow_activity">پرويىكسىيە پىلاستىنكىسى قويۇشنى تەھرىرلەش</string>
+    <string name="edit_slide_activity">پرويىكسىيە پىلاستىنكىسىنى تەھرىرلەش</string>
+    <string name="pick_numbers_activity">نۇمۇر تاللاڭ</string>
+    <string name="slideshow_activity">قويۇش</string>
+    <string name="class_0_message_activity">سىنىپ0ئۇچۇر</string>
+    <string name="send_using_mms_activity">رەڭلىك ئۇچۇر يوللاش \u2026</string>
+    <string name="select_contact_method_activity">ئالاقىلىشىش ئۇسۇلىنى تاللاش</string>
+    <string name="search_label">ئۇچۇر يوللىنۋاتىدۇ</string>
+    <string name="search_hint">ئۇچۇر ئىزدەش</string>
+    <string name="search">ئۇچۇر يوللىنۋاتىدۇ</string>
+    <string name="search_setting_description">ئۇچۇر مەزمۇنى</string>
+    <string name="search_empty">ماس كەلمىدى</string>
+    <string name="confirm_clear_search_title">تازلاقلىق</string>
+    <string name="confirm_clear_search_text">ئۆچۈرۋېتىلگەن خاتىرىلەرنى ئىزدەش.</string>
+    <string name="pref_mms_clear_search_history_title">ئىزدىگەن تارىخى ھۆججەتنى تازىلاش</string>
+    <string name="pref_mms_clear_search_history_summary">ئىزدەش ساندۇقىدىن ئىزدىگەن ئۇچۇرلارنى تازىلاش</string>
+    <string name="save">ساقلاش</string>
+    <string name="storage_limits_title">ئۇچۇرنى چەكلەش</string>
+    <string name="storage_limits_message">دىئالوگدا سىز بەزى ئۇچۇرلارنى چەكلەپسىز؟</string>
+    <string name="storage_limits_setting">چەكلىمىنى بىكىتىش</string>
+    <string name="storage_limits_setting_dismiss">لىمىتى يوق</string>
+    <string name="too_many_unsent_mms">ھازىر ئۇچۇر ئېۋەتەممەيسىز،بۇ يەردە نۇرغۇنلىغان ئېۋەتىلمىگەن كۆپ مىدىيالىق ئۇچۇر بار.</string>
+    <string name="me">مەن</string>
+    <string name="sending_message">يوللاۋاتىدۇ\u2026</string>
+    <string name="received_a_contact">vcf گە ئىگە بولۇش</string>
+    <string name="save_a_new_contact">ساقلاش</string>
+    <string name="cancle_a_new_contact">ئەمەلدىن قالدۇرۇش</string>
+    <string name="prefix_send">يوللاش</string>
+    <string name="ConversationList_menu_item_Delete_some">ئازراق ئۆچۈرۈش</string>
+    <string name="ConversationList_menu_item_Cancel">ئۆچۈرۈشنى چىكىندۈرۈش</string>
+    <string name="ConversationList_menu_item_CONFIRM_delete">ئۆچۈرۈشنى مۇقىملاش</string>
+    <string name="Conversation_check_type_selected_all">ھەممىنى تاللاش</string>
+    <string name="Conversation_menu_type_selected_all">ھەممىنى تاللاش</string>
+    <string name="Conversation_menu_type_cancel_selected_all">ھەممىدىن چىكىنىش</string>
+    <string name="menu_resend">قايتا يوللاش</string>
+    <string name="slide_fomat_error">پرويېكسىيە پلاستىنكىسىنىڭ فورماتىدىن چاتاق چىقتى،قىسمەن ئۇچۇرنى يۈكلەش مەغلۇب بولدى.</string>
+    <string name="share_not_support_contentType">ئبۇ ھۆججەت قوللىمايدۇ،ئۇلىنىش يوق!</string>
+    <string name="WAPPush_Message_title">سىمسىز پوچتا ئېۋەتىش</string>
+    <string name="open_website">تورئادىرسىنى ئېچىش</string>
+</resources>

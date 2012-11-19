@@ -1,0 +1,154 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_texts">
+      <item>":-)"</item>   <!-- 0: Happy -->
+      <item>":-("</item>   <!-- 1: Sad -->
+      <item>";-)"</item>   <!-- 2: Winking -->
+      <item>":-p"</item>   <!-- 3: Tongue sticking out -->
+      <item>"=-O"</item>   <!-- 4: Surprised -->
+      <item>":-*"</item>   <!-- 5: Kissing -->
+      <item>":O"</item>    <!-- 6: Yelling -->
+      <item>"B-)"</item>   <!-- 7: Cool -->
+      <item>":-$"</item>   <!-- 8: Money mouth -->
+      <item>":-!"</item>   <!-- 9: Foot in mouth -->
+      <item>":-["</item>   <!-- 10: Embarrassed -->
+      <item>"O:-)"</item>  <!-- 11: Angel -->
+      <item>":-\\"</item>  <!-- 12: Undecided -->
+      <item>":\'("</item>  <!-- 13: Crying -->
+      <item>":-x"</item>   <!-- 14: Lips are sealed -->
+      <item>":-D"</item>   <!-- 15: Laughing -->
+      <item>"o_O"</item>   <!-- 16: Confused -->
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>"Bahagia"</item>                   <!-- 0: :-) -->
+        <item>"Sedih"</item>                     <!-- 1: :-( -->
+        <item>"Mengedipkan mata"</item>                 <!-- 2: ;-) -->
+        <item>"Lidah menjulur"</item>     <!-- 3: :-P -->
+        <item>"Terkejut"</item>               <!-- 4: =-O -->
+        <item>"Mencium"</item>                 <!-- 5: :-* -->
+        <item>"Berteriak"</item>                 <!-- 6: :O -->
+        <item>"Keren"</item>                    <!-- 7: B-) -->
+        <item>"Mulut uang"</item>             <!-- 8: :-$ -->
+        <item>"Kaki di mulut"</item>           <!-- 9: :-! -->
+        <item>"Tersipu"</item>             <!-- 10: :-[ -->
+        <item>"Malaikat"</item>                   <!-- 11: O:-) -->
+        <item>"Tidak ditentukan"</item>               <!-- 12: :-\\ -->
+        <item>"Menangis"</item>                  <!-- 13: :\'( -->
+        <item>"Bibir terkunci"</item>         <!-- 14: :-X -->
+        <item>"Tertawa"</item>                <!-- 15: :-D -->
+        <item>"Bingung"</item>                <!-- 16: o_O -->
+    </string-array>
+    <string-array name="entries_set_sms_text_size">
+        <item>Ukuran teks: 17</item>
+        <item>Ukuran teks: 18</item>
+        <item>Ukuran teks: 19</item>
+        <item>Ukuran teks: 20</item>
+        <item>Ukuran teks: 21</item>
+        <item>Ukuran teks: 22</item>
+        <item>Ukuran teks: 23</item>
+        <item>Ukuran teks: 24</item>
+        <item>Ukuran teks: 25</item>
+        <item>Ukuran teks: 26</item>
+        <item>Ukuran teks: 27</item>
+        <item>Ukuran teks: 28</item>
+        <item>Ukuran teks: 29</item>
+        <item>Ukuran teks: 30</item>
+        <item>Ukuran teks: 31</item>
+        <item>Ukuran teks: 32</item>
+        <item>Ukuran teks: 33</item>
+        <item>Ukuran teks: 34</item>
+        <item>Ukuran teks: 35</item>
+        <item>Ukuran teks: 36</item>
+        <item>Ukuran teks: 37</item>
+        <item>Ukuran teks: 38</item>
+        <item>Ukuran teks: 39</item>
+        <item>Ukuran teks: 40</item>
+        <item>Ukuran teks: 41</item>
+        <item>Ukuran teks: 42</item>
+        <item>Ukuran teks: 43</item>
+        <item>Ukuran teks: 44</item>
+        <item>Ukuran teks: 45</item>
+        <item>Ukuran teks: 46</item>
+        <item>Ukuran teks: 47</item>
+        <item>Ukuran teks: 48</item>
+        <item>Ukuran teks: 49</item>
+        <item>Ukuran teks: 50</item>
+        <item>Ukuran teks: 51</item>
+        <item>Ukuran teks: 52</item>
+        <item>Ukuran teks: 53</item>
+        <item>Ukuran teks: 54</item>
+        <item>Ukuran teks: 55</item>
+        <item>Ukuran teks: 56</item>
+        <item>Ukuran teks: 57</item>
+        <item>Ukuran teks: 58</item>
+        <item>Ukuran teks: 59</item>
+        <item>Ukuran teks: 60</item>
+        <item>Ukuran teks: 61</item>
+        <item>Ukuran teks: 62</item>
+        <item>Ukuran teks: 63</item>
+        <item>Ukuran teks: 64</item>
+        <item>Ukuran teks: 65</item>
+        <item>Ukuran teks: 66</item>
+        <item>Ukuran teks: 67</item>
+        <item>Ukuran teks: 68</item>
+        <item>Ukuran teks: 69</item>
+        <item>Ukuran teks: 70</item>
+    </string-array>
+    <string-array name="entryvalues_set_sms_text_size">
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">கடிகாரம்</string>
+    <string name="alarm_list_title">அலாரங்கள்</string>
+    <string name="add_alarm">அலாரம் சேர்க்கவும்</string>
+    <string name="menu_desk_clock">டெஸ்க் கடிகாரம்</string>
+    <string name="menu_edit_alarm">அலாரம் திருத்துக</string>
+    <string name="delete_alarm">அலாரம் அழிக்கவும்</string>
+    <string name="enable_alarm">அலாரம் ஆன் செய்க</string>
+    <string name="disable_alarm">அலாரம் ஆஃப் செய்க</string>
+    <string name="delete_alarm_confirm">அலாரம் அழிக்கப்படும்.</string>
+    <string name="show_clock">கடிகாரத்தைக் காட்டவும்</string>
+    <string name="hide_clock">கடிகாரத்தை மறை</string>
+    <string name="label">லேபிள்</string>
+    <string name="default_label">அலாரம்</string>
+    <string name="set_alarm">அலாரம் அமைக்கவும்</string>
+    <string name="alarm_vibrate">அதிர்வு</string>
+    <string name="alarm_repeat">திரும்பச் செய்</string>
+    <string name="alert">ரிங்டோன்</string>
+    <string name="time">நேரம்</string>
+    <string name="alarm_alert_dismiss_text">நீக்குக</string>
+    <string name="alarm_alert_snooze_text">அலாரம் தள்ளிப்போடு </string>
+    <string name="alarm_alert_power_off">மின்சக்தி அகல்</string>
+    <string-array name="alarm_set">
+        <item>த்ற்போதிலிருந்து 1 நிமிடத்திற்கும் குறைவான நேரத்தில் அலாரம் அமைக்கப்பட்டுள்ளது.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string name="day">1 நாள்</string>
+    <string name="hour">1 மணி</string>
+    <string name="minute">1 நிமிடம்</string>
+    <string name="every_day">ஒவ்வொரு நாள்</string>
+    <string name="never">ஒருபோதுமில்லை</string>
+    <string name="clock_instructions">கடிகாரம் திரையிட தெரிவு செய்க.</string>
+    <string name="analog_gadget">முள் கடிகாரம்</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="alarm_in_silent_mode_title">அலாரம் நிசப்த மோடில்</string>
+    <string name="alarm_in_silent_mode_summary">தொலைபேசி நிசப்த மோடில் இருந்தாலும் அலாரம் அடிக்க விடவும்</string>
+    <string name="snooze_duration_title">அலாரம் தள்ளிப்போடும் கால அவகாசம்</string>
+    <string-array name="snooze_duration_entries">
+      <item>5 நிமிடங்கள்</item>
+      <item>10 நிமிடங்கள்</item>
+      <item>15 நிமிடங்கள்</item>
+      <item>20 நிமிடங்கள்</item>
+      <item>25 நிமிடங்கள்</item>
+      <item>30 நிமிடங்கள்</item>
+    </string-array>
+    <string name="done">செய்தாயிற்று</string>
+    <string name="revert">பழைய நிலைக்கு செல்க</string>
+    <string name="delete">நீக்கவா</string>
+    <string name="alarm_volume_title">அலாரம் ஒலியளவு</string>
+    <string name="alarm_volume_summary">அலாரங்களின் ஒலியளவினை அமைக்கவும்</string>
+    <string name="silent_alarm_summary">நிசப்தம்</string>
+    <string name="alarm_notify_text">உறங்கச்செய்ய தெரிவு செய்க அல்லது அலாரத்தை ரத்து செய்க.</string>
+    <string name="volume_button_setting_title">ஒலியளவு மற்றும் கேமிரா</string>
+    <string name="volume_button_dialog_title">பட்டன் விளைவு</string>
+    <string name="volume_button_setting_summary">ஒரு அலாரத்தின்போது இந்த பட்டன்கள் என்ன செய்யும் என அமைக்கவும்</string>
+    <string-array name="volume_button_setting_entries">
+      <item>ஒன்றுமில்லை</item>
+      <item>அலாரம் தள்ளிப்போடு </item>
+      <item>நீக்குக</item>
+    </string-array>
+    <string name="alarm_button_description">அலாரங்கள்</string>
+    <string name="gallery_button_description">கேலரி</string>
+    <string name="music_button_description">இசை</string>
+    <string name="nightmode_button_description">மங்கசெய்க</string>
+    <string name="home_button_description">தாக்கல் செய்பவர்</string>
+    <string name="desk_clock_button_description">கடிகாரம் திரையிடு</string>
+    <string name="weather_fetch_failure">வானிலைத் தகவல்கள் த்ற்போதைக்கு கிடைக்கின்றன.</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">டாக் அமைப்புக்கள்</string>
+</resources>

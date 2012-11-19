@@ -1,0 +1,120 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">"الساعة"</string>
+    <string name="alarm_list_title">"التنبيهات"</string>
+    <string name="add_alarm">"إضافة منبه"</string>
+    <string name="menu_desk_clock">"ساعة مكتب"</string>
+    <string name="menu_edit_alarm">"تعديل المنبه"</string>
+    <string name="delete_alarm">"حذف المنبه"</string>
+    <string name="enable_alarm">"تشغيل المنبه"</string>
+    <string name="disable_alarm">"إيقاف تشغيل المنبه"</string>
+    <string name="delete_alarm_confirm">"سيتم حذف هذا المنبه."</string>
+    <string name="show_clock">"إظهار الساعة"</string>
+    <string name="hide_clock">"إخفاء الساعة"</string>
+    <string name="label">"تصنيف"</string>
+    <string name="default_label">"المنبه"</string>
+    <string name="set_alarm">"ضبط المنبه"</string>
+    <string name="alarm_vibrate">"اهتزاز"</string>
+    <string name="alarm_repeat">"تكرار"</string>
+    <string name="alert">"نغمة الرنين"</string>
+    <string name="time">"الوقت"</string>
+    <string name="alarm_alert_dismiss_text">"إزالة"</string>
+    <string name="alarm_alert_alert_silenced">"يتم جعل المنبه صامتًا بعد <xliff:g id="MINUTES">%d</xliff:g> دقيقة"</string>
+    <string name="alarm_alert_snooze_text">"غفوة"</string>
+    <string name="alarm_alert_snooze_set">"غفوة لمدة <xliff:g id="MINUTES">%d</xliff:g> دقيقة."</string>
+    <string name="alarm_alert_power_off">" اغلاق "</string>
+    <string-array name="alarm_set">
+        <item>"تم ضبط هذا المنبه على أقل من دقيقة من الآن."</item>
+        <item>"تم ضبط هذا المنبه على <xliff:g id="DAYS">%1$s</xliff:g> من الآن."</item>
+        <item>"تم ضبط هذا المنبه على <xliff:g id="HOURS">%2$s</xliff:g> من الآن."</item>
+        <item>"تم ضبط هذا المنبه على <xliff:g id="DAYS">%1$s</xliff:g> و<xliff:g id="HOURS">%2$s</xliff:g> من الآن."</item>
+        <item>"تم ضبط هذا المنبه على <xliff:g id="MINUTES">%3$s</xliff:g> من الآن."</item>
+        <item>"تم ضبط هذا المنبه على <xliff:g id="DAYS">%1$s</xliff:g> و<xliff:g id="MINUTES">%3$s</xliff:g> من الآن."</item>
+        <item>"تم ضبط هذا المنبه على <xliff:g id="HOURS">%2$s</xliff:g> و<xliff:g id="MINUTES">%3$s</xliff:g> من الآن."</item>
+        <item>"تم ضبط هذا المنبه على <xliff:g id="DAYS">%1$s</xliff:g>، و<xliff:g id="HOURS">%2$s</xliff:g>، و<xliff:g id="MINUTES">%3$s</xliff:g> من الآن."</item>
+    </string-array>
+    <string name="day">"يوم واحد"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> يوم"</string>
+    <string name="hour">"ساعة واحدة"</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g> ساعة"</string>
+    <string name="minute">"دقيقة واحدة"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> دقيقة"</string>
+    <string name="every_day">"كل يوم"</string>
+    <string name="never">"مطلقًا"</string>
+    <string name="day_concat">"، "</string>
+    <string name="clock_instructions">"حدد ساعة لعرضها."</string>
+    <string name="analog_gadget">"ساعة عادية"</string>
+    <string name="settings">"الإعدادات"</string>
+    <string name="alarm_in_silent_mode_title">"المنبه في الوضع صامت"</string>
+    <string name="alarm_in_silent_mode_summary">"تشغيل المنبه حتى ولو كان الهاتف في الوضع صامت"</string>
+    <string name="snooze_duration_title">"مدة الغفوة"</string>
+    <string-array name="snooze_duration_entries">
+      <item>"5 دقائق"</item>
+      <item>"10 دقائق"</item>
+      <item>"15 دقيقة"</item>
+      <item>"20 دقيقة"</item>
+      <item>"25 دقيقة"</item>
+      <item>"30 دقيقة"</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+      <item>"5"</item>
+      <item>"10"</item>
+      <item>"15"</item>
+      <item>"20"</item>
+      <item>"25"</item>
+      <item>"30"</item>
+    </string-array>
+    <string name="done">"تم"</string>
+    <string name="revert">"تراجع"</string>
+    <string name="delete">"حذف"</string>
+    <string name="alarm_volume_title">"مستوى صوت المنبّه"</string>
+    <string name="alarm_volume_summary">"ضبط مستوى صوت المنبهات"</string>
+    <string name="silent_alarm_summary">"صامت"</string>
+    <string name="alarm_notify_text">"تحديد للغفوة أو إزالة هذا المنبه."</string>
+    <string name="alarm_notify_snooze_label">"<xliff:g id="LABEL">%s</xliff:g> (غفوة)"</string>
+    <string name="alarm_notify_snooze_text">"تم ضبط المنبه على <xliff:g id="TIME">%s</xliff:g>. حدد للإلغاء."</string>
+    <string name="volume_button_setting_title">"مستوى الصوت والكاميرا"</string>
+    <string name="volume_button_dialog_title">"تأثير الزر"</string>
+    <string name="volume_button_setting_summary">"تعيين ما تقوم به هذه الأزرار عند الضغط عليها أثناء تشغيل المنبه"</string>
+    <string-array name="volume_button_setting_entries">
+      <item>"لا شيء"</item>
+      <item>"غفوة"</item>
+      <item>"إزالة"</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+      <item>"0"</item>
+      <item>"1"</item>
+      <item>"2"</item>
+    </string-array>
+    <string name="alarm_button_description">"التنبيهات"</string>
+    <string name="gallery_button_description">"المعرض"</string>
+    <string name="music_button_description">"موسيقى"</string>
+    <string name="nightmode_button_description">"خافت"</string>
+    <string name="home_button_description">"المشغل"</string>
+    <string name="desk_clock_button_description">"عرض الساعة"</string>
+    <string name="battery_charging_level">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="weather_fetch_failure">"معلومات الطقس غير متوفرة حاليًا."</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">"إعدادات الإرساء"</string>
+    <string name="alarm_alread_exist">التنبية  <xliff:g id="time">%s</xliff:g> موجود مسبقا ،يرجى تحديد وقت اخر</string>
+    <string name="duration_title">الفترة</string>
+    <string-array name="duration_entries">
+      <item>1 دقيقة</item>
+      <item>2 دقيقة</item>
+      <item>4 دقائق</item>
+      <item>6 دقائق</item>
+      <item>8 دقائق</item>
+      <item>10 دقائق</item>
+    </string-array>
+    <string-array name="duration_values">
+      <item>1</item>
+      <item>2</item>
+      <item>4</item>
+      <item>6</item>
+      <item>8</item>
+      <item>10</item>
+    </string-array>
+    <string name="alarm_klaxon_service_desc">"خدمة تشغيل الصوت بالنسبة إلى التنبيهات التي تم تعيينها في DeskClock."</string>
+    <string name="del_all">حذف الكل</string>
+    <string name="delete_all_alarm">هل تريد حذف كل التنبيهات؟</string>
+</resources>

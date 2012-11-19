@@ -1,0 +1,133 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">"Erro de câmera"</string>
+    <string name="cannot_connect_camera">"Não é possível se conectar à câmera."</string>
+    <string name="camera_label">"Câmera"</string>
+    <string name="video_camera_label">"Filmadora"</string>
+    <string name="gallery_camera_bucket_name">"Imagens da câmera"</string>
+    <string name="gallery_camera_videos_bucket_name">"Vídeos de câmera"</string>
+    <string name="wait">"Aguarde..."</string>
+    <string name="no_storage" product="nosdcard">"Conecte o armazenamento USB antes de usar a câmera."</string>
+    <string name="no_storage" product="default">"Insira um cartão SD antes de usar a câmera."</string>
+    <string name="not_enough_space" product="nosdcard">"Seu armazenamento USB está cheio."</string>
+    <string name="not_enough_space" product="default">"O seu cartão SD está cheio."</string>
+    <string name="preparing_sd" product="nosdcard">"Preparando armazenamento USB…"</string>
+    <string name="preparing_sd" product="default">"Preparando o cartão SD…"</string>
+    <string name="access_sd_fail" product="nosdcard">"Falha ao acessar o armazenamento USB."</string>
+    <string name="access_sd_fail" product="default">"Falha ao acessar o cartão SD."</string>
+    <string name="confirm_restore_title">"Restaurar padrões"</string>
+    <string name="confirm_restore_message">"As configurações da câmera serão restauradas para os valores padrão."</string>
+    <string name="review_play">"REPRODUZIR"</string>
+    <string name="review_cancel">"CANCELAR"</string>
+    <string name="review_ok">OK</string>
+    <string name="review_retake">"TIRAR OUTRA"</string>
+    <string name="camera_gallery_photos_text">"Galeria"</string>
+    <string name="switch_camera_id">"Alternar câmera"</string>
+    <string name="pref_camera_id_title">"Selecionar câmera"</string>
+    <string name="pref_camera_id_entry_back">"Traseira"</string>
+    <string name="pref_camera_id_entry_front">"Visão frontal"</string>
+    <string name="pref_camera_brightness_title">Brilho</string>
+    <string name="pref_camera_brightness_entry_0">0</string>
+    <string name="pref_camera_brightness_entry_1">1</string>
+    <string name="pref_camera_brightness_entry_2">2</string>
+    <string name="pref_camera_brightness_entry_3">3</string>
+    <string name="pref_camera_brightness_entry_4">4</string>
+    <string name="pref_camera_brightness_entry_5">5</string>
+    <string name="pref_camera_brightness_entry_6">6</string>
+    <string name="pref_camera_contrast_title">Contraste</string>
+    <string name="pref_camera_contrast_entry_0">0</string>
+    <string name="pref_camera_contrast_entry_1">1</string>
+    <string name="pref_camera_contrast_entry_2">2</string>
+    <string name="pref_camera_contrast_entry_3">3</string>
+    <string name="pref_camera_contrast_entry_4">4</string>
+    <string name="pref_camera_contrast_entry_5">5</string>
+    <string name="pref_camera_contrast_entry_6">6</string>
+    <string name="pref_camera_recordlocation_title">"Local de armazenamento"</string>
+    <string name="pref_camera_recordlocation_entry_off">"Desativado"</string>
+    <string name="pref_camera_recordlocation_entry_on">"Ativado"</string>
+    <string name="pref_video_quality_title">"Qualidade do vídeo"</string>
+    <string name="pref_video_quality_entry_d1">SD(D1)</string>
+    <string name="pref_video_quality_entry_high">"Alta (30m)"</string>
+    <string name="pref_video_quality_entry_low">"Baixa (30m)"</string>
+    <string name="pref_video_quality_entry_mms">"MMS (Baixo, 30s)"</string>
+    <string name="pref_video_quality_entry_youtube">"YouTube (Alta, 10m)"</string>
+    <string name="pref_camera_settings_category">"Configurações da câmera"</string>
+    <string name="pref_camcorder_settings_category">"Configurações da filmadora"</string>
+    <string name="pref_camera_picturesize_title">"Tamanho da imagem"</string>
+    <string name="pref_camera_previewsize_title">Modo de pre-visualização</string>
+    <string name="pref_camera_previewsize_default">normal</string>
+    <string name="pref_camera_previewsize_normal">normal</string>
+    <string name="pref_camera_previewsize_fullscreen">ecrã inteiro</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">"5M Pixels"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"3M Pixels"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"2M Pixels"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">1.2M Peixels</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"1M Pixels"</string>
+    <string name="pref_camera_jpegquality_title">"Qualidade da imagem"</string>
+    <string name="pref_camera_jpegquality_entry_superfine">"Muito boa"</string>
+    <string name="pref_camera_jpegquality_entry_fine">"Boa"</string>
+    <string name="pref_camera_jpegquality_entry_normal">"Normal"</string>
+    <string name="pref_camera_focusmode_title">"Modo de foco"</string>
+    <string name="pref_camera_focusmode_entry_auto">"Automático"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"Infinito"</string>
+    <string name="pref_camera_focusmode_entry_macro">"Macro"</string>
+    <string name="pref_camera_focusmode_entry_multi">Multi</string>
+    <string name="pref_camera_flashmode_title">"Modo de flash"</string>
+    <string name="pref_camera_flashmode_entry_auto">"Automático"</string>
+    <string name="pref_camera_flashmode_entry_on">"Ativado"</string>
+    <string name="pref_camera_flashmode_entry_off">"Desativado"</string>
+    <string name="pref_camera_whitebalance_title">"Balanço de branco"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"Automático"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"Incandescente"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">"Luz do dia"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">"Fluorescente"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">"Nublado"</string>
+    <string name="pref_camera_coloreffect_title">"Efeito de cor"</string>
+    <string name="pref_camera_coloreffect_entry_none">"Nenhum"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"Mono"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sépia"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"Negativo"</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Solarizar"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"Transformar em pôster"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"Aqua"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"Tons pastéis"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"Mosaico"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"Filtro vermelho"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"Filtro azul"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"Filtro verde"</string>
+    <string name="pref_camera_scenemode_title">"Modo de cena"</string>
+    <string name="pref_camera_scenemode_entry_auto">"Automático"</string>
+    <string name="pref_camera_scenemode_entry_action">"Ação"</string>
+    <string name="pref_camera_scenemode_entry_portrait">"Retrato"</string>
+    <string name="pref_camera_scenemode_entry_landscape">"Paisagem"</string>
+    <string name="pref_camera_scenemode_entry_night">"Cena noturna"</string>
+    <string name="pref_camera_scenemode_entry_night_portrait">"Retrato noturno"</string>
+    <string name="pref_camera_scenemode_entry_theatre">"Teatro"</string>
+    <string name="pref_camera_scenemode_entry_beach">"Praia"</string>
+    <string name="pref_camera_scenemode_entry_snow">"Neve"</string>
+    <string name="pref_camera_scenemode_entry_sunset">"Pôr-do-sol"</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">"Foto nítida"</string>
+    <string name="pref_camera_scenemode_entry_fireworks">"Fogos de artifício"</string>
+    <string name="pref_camera_scenemode_entry_party">"Festa"</string>
+    <string name="pref_camera_scenemode_entry_candlelight">"Luz de velas"</string>
+    <string name="pref_restore_title">"Configurações da câmera"</string>
+    <string name="pref_restore_detail">"Restaurar padrões"</string>
+    <string name="pref_exposure_title">"Exposição"</string>
+    <string name="details_ok">OK</string>
+    <string name="spaceIsLow_content" product="nosdcard">"Seu armazenamento USB está sem espaço. Altere a configuração de qualidade ou exclua algumas imagens ou outros arquivos."</string>
+    <string name="spaceIsLow_content" product="default">"Seu cartão SD está sem espaço. Altere a configuração de qualidade ou exclua algumas imagens ou outros arquivos."</string>
+    <string name="video_reach_size_limit">"Limite de tamanho atingido."</string>
+    <string name="zoom_control_title">"Zoom"</string>
+    <string name="switch_to_camera_lable">"Alternar para câmera"</string>
+    <string name="switch_to_video_lable">"Alternar para vídeo"</string>
+    <string name="hisense_tv_is_running">TV móvel está aberta!</string>
+    <string name="in_video_call_is_running">Chamada de vídeo ligada!</string>
+    <string name="canot_takepicture">não é possível tirar a imagem</string>
+    <string name="camera_memory_low">Memória de câmara demasiado baixa, mude o tamanho de imagem</string>
+    <string name="memory_full">Espaço de armazenamento cheio</string>
+    <string name="pref_camera_antibanding_title">anti banda</string>
+    <string name="pref_camera_antibanding_default">50hz</string>
+    <string name="pref_camera_antibanding_entry_50hz">50hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60hz</string>
+</resources>

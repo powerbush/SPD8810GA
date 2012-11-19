@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="status_bar_icon_order">
+        <item><xliff:g id="id">jam</xliff:g></item>
+        <item><xliff:g id="id">amankan</xliff:g></item>
+        <item><xliff:g id="id">jam_alarm</xliff:g></item>
+        <item><xliff:g id="id">baterai</xliff:g></item>
+        <item><xliff:g id="id">sinyal_telepon</xliff:g></item>
+        <item><xliff:g id="id">telepon_sinyal_detik_sub</xliff:g></item>
+        <item><xliff:g id="id">telepon_evdo_sinyal</xliff:g></item>
+        <item><xliff:g id="id">koneksi_data</xliff:g></item>
+        <item><xliff:g id="id">cdma_eri</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">volume</xliff:g></item>
+        <item><xliff:g id="id">diam</xliff:g></item>
+        <item><xliff:g id="id">pengeras suara telepon</xliff:g></item>
+	    <item><xliff:g id="id">headset</xliff:g></item>
+        <item><xliff:g id="id">wifi</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">bluetooth</xliff:g></item>
+        <item><xliff:g id="id">gps</xliff:g></item>
+        <item><xliff:g id="id">sinkron_aktif</xliff:g></item>
+        <item><xliff:g id="id">sinkron_gagal</xliff:g></item>
+        <item><xliff:g id="id">ime</xliff:g></item>
+    </string-array>
+</resources>

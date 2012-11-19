@@ -1,0 +1,102 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">"خطای دوربین"</string>
+    <string name="cannot_connect_camera">"اتصال به دوربین انجام نشد."</string>
+    <string name="camera_label">"دوربین"</string>
+    <string name="video_camera_label">"دوربین فیلمبرداری"</string>
+    <string name="gallery_camera_bucket_name">"عکس های دوربین"</string>
+    <string name="gallery_camera_videos_bucket_name">"ویدیوهای دوربین"</string>
+    <string name="wait">"لطفاً منتظر بمانید…"</string>
+    <string name="no_storage" product="nosdcard">"لطفاً قبل از استفاده از دوربین حافظه USB را وصل کنید."</string>
+    <string name="no_storage" product="default">"لطفاً قبل از استفاده از دوربین، یک کارت SD وارد کنید."</string>
+    <string name="not_enough_space" product="nosdcard">"حافظه USB پر است."</string>
+    <string name="not_enough_space" product="default">"کارت SD شما پر است."</string>
+    <string name="preparing_sd" product="nosdcard">"آماده سازی حافظه USB..."</string>
+    <string name="preparing_sd" product="default">"در حال آماده سازی کارت SD..."</string>
+    <string name="access_sd_fail" product="nosdcard">"دسترسی به حافظه USB ناموفق بود."</string>
+    <string name="access_sd_fail" product="default">"دسترسی به کارت SD ناموفق بود."</string>
+    <string name="confirm_restore_title">"بازیابی پیش فرض ها"</string>
+    <string name="confirm_restore_message">"تنظیمات دوربین روی موارد پیش فرض بازیابی می شوند."</string>
+    <string name="review_play">"پخش"</string>
+    <string name="review_cancel">"لغو"</string>
+    <string name="review_ok">"تأیید"</string>
+    <string name="review_retake">"دریافت مجدد"</string>
+    <string name="camera_gallery_photos_text">"گالری"</string>
+    <string name="switch_camera_id">"جابجایی به دوربین"</string>
+    <string name="pref_camera_id_title">"انتخاب دوربین"</string>
+    <string name="pref_camera_id_entry_back">"برگشت"</string>
+    <string name="pref_camera_id_entry_front">"جلو"</string>
+    <string name="pref_camera_recordlocation_title">"ذخیره موقعیت مکانی"</string>
+    <string name="pref_camera_recordlocation_entry_off">"خاموش"</string>
+    <string name="pref_camera_recordlocation_entry_on">"در"</string>
+    <string name="pref_video_quality_title">"کیفیت ویدیو"</string>
+    <string name="pref_video_quality_entry_high">"زیاد (30 دقیقه)"</string>
+    <string name="pref_video_quality_entry_low">"کم (30 دقیقه)"</string>
+    <string name="pref_video_quality_entry_mms">"MMS (کم، 30 ثانیه)"</string>
+    <string name="pref_video_quality_entry_youtube">"YouTube (زیاد، 10 دقیقه)"</string>
+    <string name="pref_camera_settings_category">"تنظیمات دوربین"</string>
+    <string name="pref_camcorder_settings_category">"تنظیمات دوربین فیلمبرداری"</string>
+    <string name="pref_camera_picturesize_title">"اندازه تصویر"</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">"5 مگاپیکسل"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"3 مگاپیکسل"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"2 مگاپیکسل"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">1.2Mپیکسل</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"1 مگاپیکسل"</string>
+    <string name="pref_camera_jpegquality_title">"کیفیت تصویر"</string>
+    <string name="pref_camera_jpegquality_entry_superfine">"بسیار عالی"</string>
+    <string name="pref_camera_jpegquality_entry_fine">"عالی"</string>
+    <string name="pref_camera_jpegquality_entry_normal">"معمولی"</string>
+    <string name="pref_camera_focusmode_title">"حالت فوکوس"</string>
+    <string name="pref_camera_focusmode_entry_auto">"خودکار"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"بی نهایت"</string>
+    <string name="pref_camera_focusmode_entry_macro">"ماکرو"</string>
+    <string name="pref_camera_flashmode_title">"حالت فلاش"</string>
+    <string name="pref_camera_flashmode_entry_auto">"خودکار"</string>
+    <string name="pref_camera_flashmode_entry_on">"در"</string>
+    <string name="pref_camera_flashmode_entry_off">"خاموش"</string>
+    <string name="pref_camera_whitebalance_title">"توازن سفیدی"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"خودکار"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"تابان"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">"روشنایی روز"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">"فلورسنت"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">"ابری"</string>
+    <string name="pref_camera_coloreffect_title">"جلوه رنگ"</string>
+    <string name="pref_camera_coloreffect_entry_none">"هیچکدام"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"مونو"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"سپیا"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"نگاتیو"</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"جلوه آفتابی"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"پوستری کردن"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"فیروزه ای"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"پاستل"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"موزائیکی"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"ته رنگ قرمز"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"ته رنگ آبی"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"ته رنگ سبز"</string>
+    <string name="pref_camera_scenemode_title">"حالت منظره"</string>
+    <string name="pref_camera_scenemode_entry_auto">"خودکار"</string>
+    <string name="pref_camera_scenemode_entry_action">"عملکرد"</string>
+    <string name="pref_camera_scenemode_entry_portrait">"افقی"</string>
+    <string name="pref_camera_scenemode_entry_landscape">"افقی"</string>
+    <string name="pref_camera_scenemode_entry_night">"شب"</string>
+    <string name="pref_camera_scenemode_entry_night_portrait">"چهره در شب"</string>
+    <string name="pref_camera_scenemode_entry_theatre">"تئاتر"</string>
+    <string name="pref_camera_scenemode_entry_beach">"ساحل"</string>
+    <string name="pref_camera_scenemode_entry_snow">"برف"</string>
+    <string name="pref_camera_scenemode_entry_sunset">"غروب آفتاب"</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">"عکس ثابت"</string>
+    <string name="pref_camera_scenemode_entry_fireworks">"آتش بازی"</string>
+    <string name="pref_camera_scenemode_entry_party">"طرف مقابل"</string>
+    <string name="pref_camera_scenemode_entry_candlelight">"نور شمع"</string>
+    <string name="pref_restore_title">"تنظیمات دوربین"</string>
+    <string name="pref_restore_detail">"بازیابی موارد پیش فرض"</string>
+    <string name="pref_exposure_title">"نوردهی"</string>
+    <string name="details_ok">"تأیید"</string>
+    <string name="spaceIsLow_content" product="nosdcard">"حافظه USB پر است. تنظیمات کیفیت را تغییر دهید یا برخی تصاویر یا سایر فایل ها را حذف کنید."</string>
+    <string name="spaceIsLow_content" product="default">"کارت SD شما پر شده است. تنظیمات کیفیت را تغییر دهید یا برخی تصاویر یا فایل های دیگر را حذف کنید."</string>
+    <string name="video_reach_size_limit">"بیش از حداکثر مجاز."</string>
+    <string name="zoom_control_title">"بزرگنمایی"</string>
+    <string name="switch_to_camera_lable">"رفتن به دوربین"</string>
+    <string name="switch_to_video_lable">"رفتن به ویدیو"</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- <string name="select_one">At least select one item!</string> -->
+	<string name="delete_selected_calls">Do you want to delete the selected calls?</string>
+	<string name="selected_deleted_ok">Selected calls deleted.</string>
+	<string name="all_select">select all</string>
+	<string name="all_select_cancel">Cancel</string>
+	<!-- <string name="select_all">Select All</string> -->
+	<string name="delete_calls">Delete</string>
+
+	<!-- calls tab  -->
+	<!-- <string name="recentCallsAllIconLabel">All</string>
+	<string name="recentCallsMissedIconLabel">Missed</string>
+	<string name="recentCallsOutgoingIconLabel">Outgoing</string> -->
+	<!-- <string name="recentCallsReceivedIconLabel">Received</string> -->
+	<string name="call_log_delete">Call log delete</string>
+	<string name="call_log_display_option">Call log display option</string>
+	<!-- Menu item used to display options about sim -->
+    <string name="recentCalls_diplayOptions">Display Options</string>
+	<string name="recentCalls_delete">Delete</string>
+	<string name="callLogDisplayOptionsAll">All</string>
+	<string name="callLogDisplayOptionsPhone">Phone</string>
+	<string name="callLogDisplayOptionsSIM1">SIM1</string>
+	<string name="callLogDisplayOptionsSIM2">SIM2</string>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">"1 cântec"</string>
+    <plurals name="Nsongs">
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (de) cântece"</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">"<xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> din <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> (de) cântece"</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <!-- number of albums is one -->
+        <item quantity="one">"1 album"</item>
+        <!-- number of albums is not equal to one -->
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (de) albume"</item>
+    </plurals>
+    <string name="goto_start">"Bibliotecă"</string>
+    <string name="goto_playback">"Redaţi"</string>
+    <string name="party_shuffle">"Colecţie aleatorie"</string>
+    <string name="party_shuffle_off">"Colecţie aleatorie dezactivată"</string>
+    <string name="delete_item">"Ştergeţi"</string>
+    <string name="shuffle_all">"Redaţi toată lista în mod aleatoriu"</string>
+    <string name="play_all">"Redaţi toate"</string>
+    <string name="delete_artist_desc">"Toate cântecele de <xliff:g id="ARTIST">%s</xliff:g> vor fi şterse definitiv de pe cardul SD."</string>
+    <string name="delete_artist_desc_nosdcard" msgid="1843750591006508005">"Toate cântecele de <xliff:g id="ARTIST">%s</xliff:g> vor fi şterse definitiv din stocarea USB."</string>
+    <string name="delete_album_desc">"Albumul „<xliff:g id="ALBUM">%s</xliff:g>” va fi şters în întregime şi definitiv de pe cardul SD."</string>
+    <string name="delete_album_desc_nosdcard" msgid="535515999268177079">"Întregul album „<xliff:g id="ALBUM">%s</xliff:g>” va fi şters definitiv din stocarea USB."</string>
+    <string name="delete_song_desc">"„<xliff:g id="SONG">%s</xliff:g>” va fi şters definitiv de pe cardul SD."</string>
+    <string name="delete_song_desc_nosdcard" msgid="1856800468541831408">"„<xliff:g id="SONG">%s</xliff:g>” va fi şters definitiv din stocarea USB."</string>
+    <string name="delete_confirm_button_text">"OK"</string>
+    <plurals name="NNNtracksdeleted">
+        <!-- delete confirmation message for 1 song -->
+        <item quantity="one">"1 cântec a fost şters."</item>
+        <!-- delete confirmation message for 0 or more than 1 songs -->
+        <item quantity="other">"<xliff:g id="SONGS_TO_DELETE">%d</xliff:g> (de) cântece au fost şterse."</item>
+    </plurals>
+    <string name="scanning">"Se scanează cardul SD..."</string>
+    <string name="scanning_nosdcard" msgid="3529383847223198502">"Se scanează stocarea USB..."</string>
+    <string name="nowplaying_title">"Acum se redă"</string>
+    <string name="partyshuffle_title">"Colecţie aleatorie"</string>
+    <string name="artists_title">"Artişti"</string>
+    <string name="albums_menu">"Albume"</string>
+    <string name="albums_title">"Albume"</string>
+    <string name="tracks_menu">"Cântece"</string>
+    <string name="tracks_title">"Cântece"</string>
+    <string name="playlists_menu">"Liste de redare"</string>
+    <string name="playlists_title">"Liste de redare"</string>
+    <string name="videos_title">"Videoclipuri"</string>
+    <string name="all_title">"Tot conţinutul media"</string>
+    <string name="browse_menu">"Artişti"</string>
+    <string name="search_title">"Căutaţi"</string>
+    <string name="no_tracks_title">"Niciun cântec"</string>
+    <string name="no_videos_title">"Niciun videoclip"</string>
+    <string name="no_playlists_title">"Nicio listă de redare"</string>
+    <string name="delete_playlist_menu">"Ştergeţi"</string>
+    <string name="edit_playlist_menu">"Modificaţi"</string>
+    <string name="rename_playlist_menu">"Redenumiţi"</string>
+    <string name="playlist_deleted_message">"Listă de redare ştearsă."</string>
+    <string name="playlist_renamed_message">"Listă de redare redenumită."</string>
+    <string name="recentlyadded">"Adăugat recent"</string>
+    <string name="recentlyadded_title">"Adăugat recent"</string>
+    <string name="podcasts_listitem">"Podcasturi"</string>
+    <string name="podcasts_title">"Podcasturi"</string>
+    <string name="sdcard_missing_title">"Niciun card SD"</string>
+    <string name="sdcard_missing_title_nosdcard" msgid="9008284946643270850">"Nu există spaţiu de stocare USB"</string>
+    <string name="sdcard_missing_message">"Telefonul dvs. nu are introdus un card SD."</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="1169260755336159747">"Telefonul dvs. nu are spaţiu de stocare USB."</string>
+    <string name="sdcard_busy_title">"Card SD nedisponibil"</string>
+    <string name="sdcard_busy_title_nosdcard" msgid="1162763571147174655">"Stocarea USB nu este disponibilă"</string>
+    <string name="sdcard_busy_message">"Din păcate cardul dvs. SD este ocupat."</string>
+    <string name="sdcard_busy_message_nosdcard" msgid="8071868348072728830">"Din păcate, stocarea USB este ocupată."</string>
+    <string name="sdcard_error_title">"Eroare pe cardul SD"</string>
+    <string name="sdcard_error_title_nosdcard" msgid="165682155008600643">"Eroare la accesarea spaţiului de stocare USB"</string>
+    <string name="sdcard_error_message">"A apărut o eroare pe cardul dvs. SD."</string>
+    <string name="sdcard_error_message_nosdcard" msgid="4574563894036627855">"A apărut o eroare pe stocarea USB."</string>
+    <string name="unknown_artist_name">"Artist necunoscut"</string>
+    <string name="unknown_album_name">"Album necunoscut"</string>
+    <string name="shuffle_on_notif">"Redarea aleatorie este dezactivată."</string>
+    <string name="shuffle_off_notif">"Redarea aleatorie este dezactivată."</string>
+    <string name="repeat_off_notif">"Repetarea este dezactivată."</string>
+    <string name="repeat_current_notif">"Se repetă cântecul curent."</string>
+    <string name="repeat_all_notif">"Se repetă toate cântecele."</string>
+    <string name="ringtone_menu">"Utilizaţi ca ton de apel al telefonului"</string>
+    <string name="ringtone_menu_short">"Utilizaţi ca ton de apel"</string>
+    <string name="ringtone_set">"„<xliff:g id="NAME">%s</xliff:g>” setat ca ton de apel al telefonului."</string>
+    <string name="play_selection">"Redaţi"</string>
+    <string name="add_to_playlist">"Adăugaţi la lista de redare"</string>
+    <string name="queue">"Lista de redare curentă"</string>
+    <string name="new_playlist">"Nou"</string>
+    <string name="new_playlist_name_template">"Listă de redare nouă <xliff:g id="NUMBER">%d</xliff:g>"</string>
+    <plurals name="NNNtrackstoplaylist">
+        <!-- message shown when one song was added -->
+        <item quantity="one">"1 cântec adăugat la lista de redare."</item>
+        <!-- message shown when zero or more than one song was added -->
+        <item quantity="other">"<xliff:g id="NUMBER">%d</xliff:g> (de) cântece adăugate la lista de redare."</item>
+    </plurals>
+    <string name="emptyplaylist">"Lista de redare selectată este goală."</string>
+    <string name="create_playlist_create_text">"Salvaţi"</string>
+    <string name="create_playlist_overwrite_text">"Suprascrieţi"</string>
+    <string name="service_start_error_title">"Problemă de redare"</string>
+    <string name="service_start_error_msg">"Cântecul nu poate fi redat."</string>
+    <string name="service_start_error_button">"OK"</string>
+    <string-array name="weeklist">
+        <item>"1 săptămână"</item>
+        <item>"2 săptămâni"</item>
+        <item>"3 săptămâni"</item>
+        <item>"4 săptămâni"</item>
+        <item>"5 săptămâni"</item>
+        <item>"6 săptămâni"</item>
+        <item>"7 săptămâni"</item>
+        <item>"8 săptămâni"</item>
+        <item>"9 săptămâni"</item>
+        <item>"10 săptămâni"</item>
+        <item>"11 săptămâni"</item>
+        <item>"12 săptămâni"</item>
+    </string-array>
+    <string name="weekpicker_set">"Terminat"</string>
+    <string name="weekpicker_title">"Setaţi ora"</string>
+    <string name="save_as_playlist">"Salvaţi ca listă de redare"</string>
+    <string name="clear_playlist">"Ştergeţi lista de redare"</string>
+    <string name="musicbrowserlabel">"Muzică"</string>
+    <string name="musicshortcutlabel">"Listă de redare muzică"</string>
+    <string name="mediaplaybacklabel">"Muzică"</string>
+    <string name="videobrowserlabel">"Videoclipuri"</string>
+    <string name="mediapickerlabel">"Muzică"</string>
+    <string name="playback_failed">"Din păcate, acest tip de fişier audio nu este acceptat de player."</string>
+    <string name="cancel">"Anulaţi"</string>
+    <string name="remove_from_playlist">"Eliminaţi din lista de redare"</string>
+    <string name="streamloadingtext">"Se conectează la <xliff:g id="HOST">%s</xliff:g>"</string>
+    <string name="mediasearch">"Căutaţi <xliff:g id="TERM">%s</xliff:g> folosind:"</string>
+    <string name="working_artists">"Artişti..."</string>
+    <string name="working_albums">"Albume..."</string>
+    <string name="working_songs">"Cântece..."</string>
+    <string name="working_playlists">"Liste de redare..."</string>
+    <string name="loading">"Se încarcă"</string>
+    <string name="sort_by_track">"Înregistrări"</string>
+    <string name="sort_by_album">"Albume"</string>
+    <string name="sort_by_artist">"Artişti"</string>
+    <string name="music_picker_title">"Selectaţi o melodie"</string>
+    <string name="gadget_track">"Înregistrare <xliff:g id="TRACK_NUMBER">%d</xliff:g>"</string>
+    <string name="fail_to_start_stream">"Eroare la redarea solicitată."</string>
+    <string name="search_settings_description">"Artişti, albume şi melodii"</string>
+    <string name="search_hint">"Caută muzică"</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="widget_initial_text">"Atingeţi pentru a selecta muzica."</string>
+    <string name="effectspanel">"Efecte de sunet"</string>
+    <string name="no_play">Redarea este interzisă în timpul apelării</string>
+    <string name="ringtone_title_sim1">Ton de apel SIM1 </string>
+    <string name="ringtone_title_sim2">Ton de apel SIM2 </string>
+</resources>

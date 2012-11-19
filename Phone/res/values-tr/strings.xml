@@ -1,0 +1,892 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="contactsIconLabel">"Kişiler"</string>
+    <string name="contactsFavoritesLabel">"Sık Kullanılanlar"</string>
+    <string name="dialerIconLabel">"Çevirici"</string>
+    <string name="emergencyDialerIconLabel">"Acil Durum Çeviricisi"</string>
+    <string name="phoneIconLabel">"Telefon"</string>
+    <string name="recentCallsIconLabel">"Çağrı kaydı"</string>
+    <string name="fdnListLabel">"SAN listesi"</string>
+    <string name="unknown">"Bilinmiyor"</string>
+    <string name="private_num">"Özel numara"</string>
+    <string name="payphone">"Ankesörlü telefon"</string>
+    <string name="onHold">"Beklemede"</string>
+    <string name="ongoing">"Geçerli çağrı"</string>
+    <string name="callFailed_userBusy">"Hat meşgul"</string>
+    <string name="callFailed_congestion">"Ağ meşgul"</string>
+    <string name="callFailed_timedOut">"Yanıt yok, zaman aşımı oluştu"</string>
+    <string name="callFailed_server_unreachable">"Sunucuya ulaşılamıyor"</string>
+    <string name="callFailed_number_unreachable">"Numaraya ulaşılamıyor"</string>
+    <string name="callFailed_invalid_credentials">"Hatalı kullanıcı adı veya şifre"</string>
+    <string name="callFailed_out_of_network">"Çağrı, ağın dışından yapıldı"</string>
+    <string name="callFailed_server_error">"Sunucu hatası. Daha sonra tekrar deneyin."</string>
+    <string name="callFailed_noSignal">"Sinyal yok"</string>
+    <string name="callFailed_limitExceeded">"ACM sınırı aşıldı"</string>
+    <string name="callFailed_powerOff">"Radyo kapalı"</string>
+    <string name="callFailed_simError">"SIM kart yok veya SIM hatası"</string>
+    <string name="callFailed_outOfService">"Hizmet alanı dışında"</string>
+    <string name="callFailed_fdn_only">"Giden çağrılar SAN tarafından kısıtlandı."</string>
+    <string name="callFailed_cb_enabled">"Çağrı engelleme açıkken giden çağrı yapamazsınız."</string>
+    <string name="callFailed_dsac_restricted">"Tüm çağrılar erişim denetimi tarafından kısıtlandı."</string>
+    <string name="callFailed_dsac_restricted_emergency">"Acil durum çağrıları erişim denetimi tarafından kısıtlandı."</string>
+    <string name="callFailed_dsac_restricted_normal">"Normal çağrılar erişim denetimi tarafından kısıtlanmış."</string>
+    <string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: Telefon kapatılıp açılana kadar kilitlendi."</string>
+    <string name="callFailed_cdma_drop">"CDMA: Çağrı kesildi."</string>
+    <string name="callFailed_cdma_intercept">"CDMA: Çağrı yakalandı."</string>
+    <string name="callFailed_cdma_reorder">"CDMA: yeniden sırala."</string>
+    <string name="callFailed_cdma_SO_reject">"CDMA: Hizmet Seçeneği Reddi."</string>
+    <string name="callFailed_cdma_retryOrder">"CDMA: tekrar deneme sırası."</string>
+    <string name="callFailed_cdma_accessFailure">"CDMA: Erişim hatası."</string>
+    <string name="callFailed_cdma_preempted">"CDMA: Değiştirildi."</string>
+    <string name="callFailed_cdma_notEmergency">"Yalnızca acil çağrı yapılabilir."</string>
+    <string name="callFailed_unobtainable_number">"Geçersiz Numara"</string>
+    <string name="confCall">"Konferans görüşmesi"</string>
+    <string name="call_lost">"Çağrı istemeden sonlandırıldı."</string>
+    <string name="retry">"Tekrar Dene"</string>
+    <string name="call_lost_title">"Çağrı İstemeden Sonlandırıldı"</string>
+    <string name="mmiStarted">"MMI kodu başlatıldı"</string>
+    <string name="ussdRunning">"USSD kodu çalışıyor…"</string>
+    <string name="mmiCancelled">"MMI kodu iptal edildi"</string>
+    <string name="cancel">"İptal"</string>
+    <string name="menu_speaker">"Hoparlör"</string>
+    <string name="menu_bluetooth">"Bluetooth"</string>
+    <string name="menu_mute">"Sesi Kapat"</string>
+    <string name="menu_hold">"Beklet"</string>
+    <string name="menu_endCall">"Çağrıyı sonlandır"</string>
+    <string name="menu_swapCalls">"Çağrılar arasında geçiş yap"</string>
+    <string name="menu_mergeCalls">"Çağrıları birleştir"</string>
+    <string name="menu_phoneRecorder">Kaydet</string>
+    <string name="menu_addCall">"Çağrı ekle"</string>
+    <string name="menu_manageConference">"Konferans görüşmesini yönet"</string>
+    <string name="menu_showDialpad">"Tuş takımını göster"</string>
+    <string name="menu_hideDialpad">"Tuş takımını gizle"</string>
+    <string name="menu_answerAndHold">"Geçerli çağrıyı beklet"\n"ve yanıtla"</string>
+    <string name="menu_answerAndEnd">"Geçerli çağrıyı sonlandır"\n"ve yanıtla"</string>
+    <string name="ok">"Tamam"</string>
+    <string name="menuButtonHint">"Çağrı seçenekleri için Menü\'ye basın"</string>
+    <string name="menuButtonKeyboardDialHint">"Çağrı seçenekleri için Menü\'ye basın •  Çevirmek için klavyeyi kullanın"</string>
+    <string name="menu_answer">"Yanıtla"</string>
+    <string name="menu_ignore">"Yoksay"</string>
+    <string name="wait_prompt_str">"Şu zil sesleri gönderilsin mi?"\n</string>
+    <string name="pause_prompt_str">"Zil Sesleri Gönderiliyor"\n</string>
+    <string name="send_button">"Gönder"</string>
+    <string name="pause_prompt_yes">"Evet"</string>
+    <string name="pause_prompt_no">"Hayır"</string>
+    <string name="wild_prompt_str">"Joker karakteri şununla değiştir:"</string>
+    <string name="no_vm_number">"Eksik sesli mesaj numarası"</string>
+    <string name="no_vm_number_msg">"SIM kartta depolanan sesli mesaj numarası yok."</string>
+    <string name="add_vm_number_str">"Numara ekle"</string>
+    <string name="dialer_emptyListWorking">"Yükleniyor..."</string>
+    <string name="enterPin">"SIM kart kilidini açmak için PIN kodunu yazın."</string>
+    <string name="pinUnlocked">"SIM kilidi açıldı"</string>
+    <string name="enterNewPin">"Yeni SIM PIN kodu"</string>
+    <string name="verifyNewPin">"Doğrulamak için yeni SIM PIN kodunu tekrar girin"</string>
+    <string name="verifyFailed">"Yazdığınız SIM PIN kodları eşleşmiyor. Lütfen tekrar deneyin."</string>
+    <string name="enterPuk">"SIM kart kilidini açmak için PUK kodunu yazın"</string>
+    <string name="badPuk">"Hatalı PUK kodu!"</string>
+    <string name="buttonTxtContinue">"Devam"</string>
+    <string name="puk_unlocked">"SIM kartınızın engellemesi kaldırıldı. Telefonunuzun kilidi açılıyor..."</string>
+    <string name="label_ndp">"SIM ağı kilit açma PIN kodu"</string>
+    <string name="sim_ndp_unlock_text">"Kilit Aç"</string>
+    <string name="sim_ndp_dismiss_text">"Kapat"</string>
+    <string name="requesting_unlock">"Ağ kilidini açma isteği yapılıyor..."</string>
+    <string name="unlock_failed">"Ağ kilidi açma isteği başarısız."</string>
+    <string name="unlock_success">"Ağ kilidi açılamadı."</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="labelGSMMore">"GSM çağrı ayarları"</string>
+    <string name="labelCDMAMore">"CDMA çağrı ayarları"</string>
+    <string name="apn_settings">"Erişim Noktası Adları"</string>
+    <string name="settings_label">"Ağ ayarları"</string>
+    <string name="voicemail">"Sesli mesaj"</string>
+    <string name="voicemail_abbreviated">"VM:"</string>
+    <string name="networks">"Ağ operatörleri"</string>
+    <string name="call_settings">"Çağrı ayarları"</string>
+    <string name="additional_gsm_call_settings">"Ek ayarlar"</string>
+    <string name="sum_gsm_call_settings">"Yalnızca GSM çağrısı ek ayarları"</string>
+    <string name="additional_cdma_call_settings">"Ek CDMA çağrı ayarları"</string>
+    <string name="sum_cdma_call_settings">"Yalnızca CDMA çağrısı ek ayarları"</string>
+    <string name="labelNwService">"Ağ hizmeti ayarları"</string>
+    <string name="labelCallerId">"Arayan Kimliği"</string>
+    <string name="sum_hide_caller_id">"Giden çağrılarda numara gizli"</string>
+    <string name="sum_show_caller_id">"Giden çağrılarda numara görüntüleniyor"</string>
+    <string name="sum_default_caller_id">"Giden çağrılarda numaramı görüntülemek için varsayılan operatör ayarlarını kullan"</string>
+    <string name="labelCW">"Çağrı bekletme"</string>
+    <string name="sum_cw_enabled">"Bir çağrı sırasında, gelen çağrıları bana bildir"</string>
+    <string name="sum_cw_disabled">"Bir çağrı sırasında, gelen çağrıları bana bildir"</string>
+    <string name="call_forwarding_settings">"Çağrı yönlendirme ayarları"</string>
+    <string name="call_barring_settings">Arama engelleme ayarları</string>
+    <string name="labelCF">"Çağrı yönlendirme"</string>
+    <string name="labelCB">"Çağrı engelleme"</string>
+    <string name="labelCFU">"Her zaman yönlendir"</string>
+    <string name="messageCFU">"Daima bu numarayı kullan"</string>
+    <string name="sum_cfu_enabled_indicator">"Tüm çağrılar yönlendiriliyor"</string>
+    <string name="sum_cfu_enabled">"Tüm çağrılar şuraya yönlendiriliyor: <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfu_enabled_no_number">"Numara kullanılamıyor"</string>
+    <string name="sum_cfu_disabled">"Devre dışı"</string>
+    <string name="labelCFB">"Meşgul olduğunda yönlendir"</string>
+    <string name="messageCFB">"Meşgulken kullanılacak numara"</string>
+    <string name="sum_cfb_enabled">"Şuraya yönlendiriliyor: <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfb_disabled">"Devre dışı"</string>
+    <string name="disable_cfb_forbidden">"Operatörünüz, telefonunuz meşgul olduğunda çağrı yönlendirmenin devre dışı bırakılmasını desteklemiyor."</string>
+    <string name="labelCFNRy">"Yanıtlanmadığında yönlendir"</string>
+    <string name="messageCFNRy">"Yanıtlanmadığında kullanılacak numara"</string>
+    <string name="sum_cfnry_enabled">"Şuraya yönlendiriliyor: <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnry_disabled">"Devre dışı"</string>
+    <string name="disable_cfnry_forbidden">"Operatörünüz, telefonunuz yanıt vermediğinde çağrı yönlendirmenin devre dışı bırakılmasını desteklemiyor."</string>
+    <string name="labelCFNRc">"Ulaşılamadığında yönlendir"</string>
+    <string name="messageCFNRc">"Ulaşılamadığında kullanılacak numara"</string>
+    <string name="sum_cfnrc_enabled">"Şuraya yönlendiriliyor: <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnrc_disabled">"Devre dışı"</string>
+    <string name="disable_cfnrc_forbidden">"Operatörünüz, telefonunuza ulaşılamadığında çağrı yönlendirmenin devre dışı bırakılmasını desteklemiyor."</string>
+    <string name="network_wrong" msgid="">"Şebekeden beklenmeyen yanıt"</string>
+    <string name="number_empty" msgid="">"Numara boş"</string>
+    <string name="cb_pw_error" msgid="">"Parola geçersiz"</string>
+    <string name="cb_pw_correct" msgid="">"Parola değiştirildi"</string>
+    <string name="cb_pw_no_match" msgid="">"Parolalar eşleşmiyor"</string>
+    <string name="labelAO">Tüm gidenler</string>
+    <string name="messageAO">Arama engelleme parolasını girin.</string>
+    <string name="sum_ao_enabled_indicator">"Tüm çağrılar yönlendiriliyor"</string>
+    <string name="sum_ao_enabled">"Etkin"</string>
+    <string name="sum_ao_disabled">"Devre dışı"</string>
+    <string name="enable_ao_forbidden">Hizmet sağlayıcınız giden tüm aramaların etkinleştirilmesini desteklemiyor.</string>
+    <string name="disable_ao_forbidden">Hizmet sağlayıcınız tüm giden aramaların engellenmesinin devre dışı bırakılmasını desteklemiyor.</string>
+    <string name="labelOI">Giden uluslararası</string>
+    <string name="messageOI">Arama engelleme parolasını girin.</string>
+    <string name="sum_oi_enabled">"Etkin"</string>
+    <string name="sum_oi_disabled">"Devre dışı"</string>
+    <string name="enable_oi_forbidden">Hizmet sağlayıcınız giden uluslararası aramaların engellenmesinin etkinleştirilmesini desteklemiyor.</string>
+    <string name="disable_oi_forbidden">Hizmet sağlayıcınız giden uluslararası aramaların engellenmesinin devre dışı bırakılmasını desteklemiyor.</string>
+    <string name="labelOX">Giden uluslararası dolaşım</string>
+    <string name="messageOX">Arama engelleme parolasını girin.</string>
+    <string name="sum_ox_enabled">"Etkin"</string>
+    <string name="sum_ox_disabled">"Devre dışı"</string>
+    <string name="enable_ox_forbidden">Hizmet sağlayıcınız dolaşımda iken giden uluslararası aramaların engellenmesinin etkinleştirilmesini desteklemiyor.</string>
+    <string name="disable_ox_forbidden">Hizmet sağlayıcınız dolaşımda iken giden uluslararası aramaların engellenmesinin devre dışı bırakılmasını desteklemiyor.</string>
+    <string name="labelAI">Tüm gelenler</string>
+    <string name="messageAI">Arama engelleme parolasını girin.</string>
+    <string name="sum_ai_enabled">"Etkin"</string>
+    <string name="sum_ai_disabled">"Devre dışı"</string>
+    <string name="enable_ai_forbidden">Hizmet sağlayıcınız gelen tüm aramaların etkinleştirilmesini desteklemiyor.</string>
+    <string name="disable_ai_forbidden">Hizmet sağlayıcınız tüm gelen aramaların engellenmesinin devre dışı bırakılmasını desteklemiyor.</string>
+    <string name="labelIR">Dolaşımda gelen aramalar</string>
+    <string name="messageIR">Arama engelleme parolasını girin.</string>
+    <string name="sum_ir_enabled">"Etkin"</string>
+    <string name="sum_ir_disabled">"Devre dışı"</string>
+    <string name="enable_ir_forbidden">Hizmet sağlayıcınız dolaşımda iken tüm gelen aramaların engellenmesinin etkinleştirilmesini desteklemiyor.</string>
+    <string name="disable_ir_forbidden">Hizmet sağlayıcınız dolaşımda iken tüm gelen aramaların engellenmesinin devre dışı bırakılmasını desteklemiyor.</string>
+    <string name="labelAB">Tümünü devre dışı bırak</string>
+    <string name="messageAB">Arama engelleme parolasını girin.</string>
+    <string name="sum_ab_enabled">"Etkin"</string>
+    <string name="sum_ab_disabled">"Devre dışı"</string>
+    <string name="enable_ab_forbidden">Hizmet sağlayıcınız tamamını devre dışı bırakmayı desteklemiyor.</string>
+    <string name="disable_ab_forbidden">Hizmet sağlayıcınız tamamını aktif hale getirmeyi desteklemiyor.</string>
+    <string name="labelChgPwd">"Şifreyi değiştir"</string>
+    <string name="DlgChgPwd_oldpwd">Arama engelleme parolasını girin.</string>
+    <string name="DlgChgPwd_newpwd_first">Yeni parolayı girin</string>
+    <string name="DlgChgPwd_newpwd_last">"Yeni şifreyi doğrulayın"</string>
+    <string name="updating_title">"Çağrı ayarları"</string>
+    <string name="error_updating_title">"Çağrı ayarları hatası"</string>
+    <string name="reading_settings">"Ayarlar okunuyor..."</string>
+    <string name="updating_settings">"Ayarlar güncelleniyor..."</string>
+    <string name="reverting_settings">"Ayarlar geri alınıyor..."</string>
+    <string name="response_error">"Ağdan beklenmeyen yanıt."</string>
+    <string name="exception_error">"Ağ veya SIM kart hatası."</string>
+    <string name="fdn_only_error">"İşlemlere sadece sabit arama numaralarında izin verilir."</string>
+    <string name="radio_off_error">"Bu ayarları görüntülemeden önce lütfen radyoyu açın."</string>
+    <string name="close_dialog">"Tamam"</string>
+    <string name="enable">"Etkinleştir"</string>
+    <string name="disable">"Devre Dışı Bırak"</string>
+    <string name="change_num">"Güncelle"</string>
+    <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
+        <item>"Ağ varsayılanı"</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
+        <item>"Numarayı gizle"</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
+        <item>"Numarayı göster"</item>
+    </string-array>
+    <string name="vm_save_number">"Sesli mesaj numarasını kaydet"</string>
+    <string name="vm_changed">"Sesli mesaj numarası değiştirildi."</string>
+    <string name="vm_change_failed">"Sesli mesaj numarası değiştirilemedi."\n"Sorun devam ederse lütfen operatörünüze başvurun."</string>
+    <string name="fw_change_failed">"Yönlendirme numarası değiştirilemedi."\n"Bu sorun devam ederse lütfen operatörünüze başvurun."</string>
+    <string name="fw_get_in_vm_failed">"Geçerli yönlendirme numarası ayarları alınamadı ve kaydedilemedi."\n"Yine de yeni sağlayıcıya geçiş yapmak istiyor musunuz?"</string>
+    <string name="no_change">"Hiçbir değişiklik yapılmadı."</string>
+    <string name="sum_voicemail_choose_provider">"Sesli mesaj hizmetini seç"</string>
+    <string name="voicemail_default">"Operatörüm"</string>
+    <string name="mobile_networks">"Mobil ağ ayarları"</string>
+    <string name="mobile_networks_sim1">SIM1</string>
+    <string name="mobile_networks_sim2">SIM2</string>
+    <string name="mobile_networks_other">"Diğer"</string>
+    <string name="label_available">"Kullanılabilir ağlar"</string>
+    <string name="label_available_sim1">SIM1 Mevcut şebekeler</string>
+    <string name="label_available_sim2">SIM2 Mevcut şebekeler</string>
+    <string name="load_networks_progress">"Aranıyor..."</string>
+    <string name="empty_networks_list">"Hiçbir ağ bulunamadı."</string>
+    <string name="search_networks">"Ağları ara"</string>
+    <string name="network_query_error">"Ağlar aranırken hata oluştu."</string>
+    <string name="register_on_network">"<xliff:g id="NETWORK">%s</xliff:g> ağına kaydediliyor..."</string>
+    <string name="not_allowed">"SIM kartınız bu ağa bağlanmaya izin vermiyor."</string>
+    <string name="connect_later">"Şu anda bu ağa bağlanılamıyor. Lütfen daha sonra tekrar deneyin."</string>
+    <string name="registration_done">"Ağa kaydedildi."</string>
+    <string name="sum_carrier_select">"Bir ağ operatörü seçin"</string>
+    <string name="sum_search_networks">"Kullanılabilen tüm ağları ara"</string>
+    <string name="select_automatically">"Otomatik olarak seç"</string>
+    <string name="sum_select_automatically">"Tercih edilen ağı otomatik olarak seç"</string>
+    <string name="register_automatically">"Otomatik kayıt..."</string>
+    <string name="preferred_network_mode_title">"Ağ Modu"</string>
+    <string name="preferred_network_mode_summary">"Ağın çalışma modunu değiştir"</string>
+    <string name="preferred_network_mode_dialogtitle">"Tercih edilen ağ modu"</string>
+    <string-array name="preferred_network_mode_choices">
+        <!-- <item>Global</item> -->
+        <!-- <item>EvDo only</item> -->
+        <!-- <item>CDMA w/o EvDo</item> -->
+        <!-- <item>CDMA / EvDo auto</item> -->
+        <!-- <item>GSM / WCDMA auto</item> -->
+        <!-- <item>WCDMA only</item> -->
+        <!-- <item>GSM only</item> -->
+        <!-- <item>GSM / WCDMA preferred</item> -->
+        <item>"Küresel"</item>
+        <item>"Yalnızca EvDo"</item>
+        <item>"EvDo olmadan CDMA"</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <!-- <item>"7"</item> -->
+        <!-- <item>"6"</item> -->
+        <!-- <item>"5"</item> -->
+        <!-- <item>"4"</item> -->
+        <!-- <item>"3"</item> -->
+        <item>"7"</item>
+        <item>"6"</item>
+        <item>"5"</item>
+    </string-array>
+    <string name="data_enabled">"Veri etkin"</string>
+    <string name="data_enable_summary">"Mobil ağ üzerinden veri erişimini etkinleştir"</string>
+    <string name="roaming">"Veri dolaşımı"</string>
+    <string name="roaming_enable">"Dolaşırken veri hizmetlerine bağlan"</string>
+    <string name="roaming_disable">"Dolaşırken veri hizmetlerine bağlan"</string>
+    <string name="roaming_reenable_message">"Veri dolaşımı kapalıyken ana ağınızdan ayrıldığınız için veri bağlantısını kaybettiniz."</string>
+    <string name="roaming_warning">"Veri dolaşımına izin verilsin mi? Kayda değer dolaşım ücretleri ödeyebilirsiniz!"</string>
+    <string name="gsm_umts_options">"GSM/UMTS Seçenekleri"</string>
+    <string name="cdma_options">"CDMA Seçenekleri"</string>
+    <string name="throttle_data_usage">"Veri kullanımı"</string>
+    <string name="throttle_settings_title">"Operatörün veri politikası"</string>
+    <string name="throttle_current_usage">"Geçerli dönemde kullanılan veri"</string>
+    <string name="throttle_time_frame">"Veri kullanım dönemi"</string>
+    <string name="throttle_rate">"Veri hızı politikası"</string>
+    <string name="throttle_help">"Daha fazla bilgi edinin"</string>
+    <string name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (٪<xliff:g id="USED_1">%2$d</xliff:g>) / <xliff:g id="USED_2">%3$s</xliff:g> dönem maksimumu"\n"Bir sonraki dönem <xliff:g id="USED_3">%4$d</xliff:g> gün sonra başlıyor (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string name="throttle_data_usage_subtext">"Maksimum dönem <xliff:g id="USED_0">%1$s</xliff:g> (٪<xliff:g id="USED_1">%2$d</xliff:g>) / <xliff:g id="USED_2">%3$s</xliff:g>"</string>
+    <string name="throttle_data_rate_reduced_subtext">"Maksimum değer <xliff:g id="USED_0">%1$s</xliff:g> aşıldı"\n"Veri hızı <xliff:g id="USED_1">%2$d</xliff:g> Kb/s\'ye düşürüldü"</string>
+    <string name="throttle_time_frame_subtext">"Dönemin tamamlanan bölümü:٪ <xliff:g id="USED_0">%1$d</xliff:g>"\n"Bir sonraki dönem <xliff:g id="USED_1">%2$d</xliff:g> gün sonra başlıyor (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string name="throttle_rate_subtext">"Veri kullanım sınırı aşılırsa veri hızı <xliff:g id="USED">%1$d</xliff:g> Kb/s\'ye düşürülür"</string>
+    <string name="throttle_help_subtext">"Operatörünüzün mobil ağ üzerinden veri kullanımı politikası hakkında daha fazla bilgi edinin"</string>
+    <string name="cdma_cell_broadcast_sms">"Hücre Yayını SMS\'si"</string>
+    <string name="cell_broadcast_sms">"Hücre Yayını SMS\'i"</string>
+    <string name="enable_disable_cell_bc_sms">"Hücre Yayını SMS\'i"</string>
+    <string name="cell_bc_sms_enable">"Hücre Yayını SMS\'si etkinleştirildi"</string>
+    <string name="cell_bc_sms_disable">"Hücre Yayını SMS\'si devre dışı bırakıldı"</string>
+    <string name="cb_sms_settings">"Hücre Yayını SMS ayarları"</string>
+    <string name="channel_list">Kanal listesi</string>
+    <string name="refreshing">"Yenileniyor..."</string>
+    <string name="channel_name">Kanal adı</string>
+    <string name="channel_number">Kanal numarası</string>
+    <string name="menu_add_channel">Kanal ekle</string>
+    <string name="text_mode">Metin kipi </string>
+    <string name="pdu_mode">Pdu modu </string>
+    <string name="get_cb_config">CB yapılandırması al </string>
+    <string name="menu_add_address_to_contacts">"<xliff:g id="NAME">%s</xliff:g> Kişilere eklensin mi?"</string>
+    <string name="edit">"Düzenle"</string>
+    <string name="menu_delete_channel">Tümünü sil</string>
+    <string name="no">"İptal"</string>
+    <string name="confirm_dialog_title">"Sil"</string>
+    <string name="confirm_delete_message">"İleti silinecek."</string>
+    <string name="enable_disable_emergency_broadcast">"Acil Durum Yayını"</string>
+    <string name="emergency_broadcast_enable">"Acil Durum Yayını etkinleştirildi"</string>
+    <string name="emergency_broadcast_disable">"Acil Durum Yayını devre dışı bırakıldı"</string>
+    <string name="enable_disable_administrative">"İdari"</string>
+    <string name="administrative_enable">"İdari seçeneği etkinleştirildi"</string>
+    <string name="administrative_disable">"İdari seçeneği devre dışı bırakıldı"</string>
+    <string name="enable_disable_maintenance">"Bakım"</string>
+    <string name="maintenance_enable">"Bakım etkinleştirildi"</string>
+    <string name="maintenance_disable">"Bakım devre dışı bırakıldı"</string>
+    <string name="general_news_settings">"Genel Haberler"</string>
+    <string name="bf_news_settings">"İşletme ve Finans Haberleri"</string>
+    <string name="sports_news_settings">"Spor Haberleri"</string>
+    <string name="entertainment_news_settings">"Eğlence Haberleri"</string>
+    <string name="enable_disable_local">"Yerel"</string>
+    <string name="local_enable">"Yerel haberler etkinleştirildi"</string>
+    <string name="local_disable">"Yerel haberler devre dışı bırakıldı"</string>
+    <string name="enable_disable_regional">"Bölgesel"</string>
+    <string name="regional_enable">"Bölgesel haberler etkinleştirildi"</string>
+    <string name="regional_disable">"Bölgesel haberler devre dışı bırakıldı"</string>
+    <string name="enable_disable_national">"Ulusal"</string>
+    <string name="national_enable">"Ulusal haberler etkinleştirildi"</string>
+    <string name="national_disable">"Ulusal haberler devre dışı bırakıldı"</string>
+    <string name="enable_disable_international">"Uluslararası"</string>
+    <string name="international_enable">"Uluslararası haberler etkinleştirildi"</string>
+    <string name="international_disable">"Uluslararası haberler devre dışı bırakıldı"</string>
+    <string name="list_language_title">"Dil"</string>
+    <string name="list_language_summary">"Haber dilini seçin"</string>
+    <string name="broadcast">"Hücre Yayını SMS\'i"</string>
+    <string name="menu_cellbroadcastsms">"Hücre Yayını SMS\'i"</string>
+    <string name="language_eng">"İngilizce"</string>
+    <string name="language_fren">"Fransızca"</string>
+    <string name="language_spanish">"İspanyolca"</string>
+    <string name="language_japanese">"Japonca"</string>
+    <string name="language_korean">"Korece"</string>
+    <string name="language_chinese">"Çince"</string>
+    <string name="language_hebrew">"İbranice"</string>
+    <string name="same_setting">Lütfen kanal ID\'sini değiştirin, bu şu anda kanal ismiyle aynı </string>
+    <string-array name="list_language_entries">
+        <item>"İngilizce"</item>
+        <item>"Fransızca"</item>
+        <item>"İspanyolca"</item>
+        <item>"Japonca"</item>
+        <item>"Korece"</item>
+        <item>"Çince"</item>
+        <item>"İbranice"</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">"Diller"</string>
+    <string name="enable_disable_local_weather">"Yerel Hava Durumu"</string>
+    <string name="local_weather_enable">"Yerel Hava Durumu etkinleştirildi"</string>
+    <string name="local_weather_disable">"Yerel Hava Durumu devre dışı bırakıldı"</string>
+    <string name="enable_disable_atr">"Bölge Trafik Raporları"</string>
+    <string name="atr_enable">"Bölge Trafik Raporları etkinleştirildi"</string>
+    <string name="atr_disable">"Bölge Trafik Raporları devre dışı bırakıldı"</string>
+    <string name="enable_disable_lafs">"Yerel Havaalanı Uçuş Tarifeleri"</string>
+    <string name="lafs_enable">"Yerel Havaalanı Uçuş Tarifeleri etkinleştirildi"</string>
+    <string name="lafs_disable">"Yerel Havaalanı Uçuş Tarifeleri devre dışı bırakıldı"</string>
+    <string name="enable_disable_restaurants">"Restoranlar"</string>
+    <string name="restaurants_enable">"Restoranlar etkinleştirildi"</string>
+    <string name="restaurants_disable">"Restoranlar devre dışı bırakıldı"</string>
+    <string name="enable_disable_lodgings">"Konaklamalar"</string>
+    <string name="lodgings_enable">"Konaklama etkinleştirildi"</string>
+    <string name="lodgings_disable">"Konaklama devre dışı bırakıldı"</string>
+    <string name="enable_disable_retail_directory">"Perakende Dizini"</string>
+    <string name="retail_directory_enable">"Perakende Dizini etkinleştirildi"</string>
+    <string name="retail_directory_disable">"Perakende Dizini devre dışı bırakıldı"</string>
+    <string name="enable_disable_advertisements">"Reklamlar"</string>
+    <string name="advertisements_enable">"Reklamlar etkinleştirildi"</string>
+    <string name="advertisements_disable">"Reklamlar devre dışı bırakıldı"</string>
+    <string name="enable_disable_stock_quotes">"Hisse Senetleri"</string>
+    <string name="stock_quotes_enable">"Hisse Senetleri etkinleştirildi"</string>
+    <string name="stock_quotes_disable">"Hisse Senetleri devre dışı bırakıldı"</string>
+    <string name="enable_disable_eo">"İş İmkanları"</string>
+    <string name="eo_enable">"İş İmkanları etkinleştirildi"</string>
+    <string name="eo_disable">"İş İmkanları devre dışı bırakıldı"</string>
+    <string name="enable_disable_mhh">"Tıp, Sağlık ve Hastane"</string>
+    <string name="mhh_enable">"Tıp, Sağlık ve Hastane seçenekleri etkinleştirildi"</string>
+    <string name="mhh_disable">"Tıp, Sağlık ve Hastane seçeneği devre dışı bırakıldı"</string>
+    <string name="enable_disable_technology_news">"Teknoloji Haberleri"</string>
+    <string name="technology_news_enable">"Teknoloji Haberleri etkinleştirildi"</string>
+    <string name="technology_news_disable">"Teknoloji Haberleri devre dışı bırakıldı"</string>
+    <string name="enable_disable_multi_category">"Çoklu kategori"</string>
+    <string name="multi_category_enable">"Çoklu kategori etkinleştirildi"</string>
+    <string name="multi_category_disable">"Çoklu kategori devre dışı bırakıldı"</string>
+    <string name="cell_broadcast_empty">Kanal bilgisi yok!</string>
+    <string name="gsm_umts_network_preferences_title">"GSM/UMTS Ağ Tercihleri"</string>
+    <string name="gsm_umts_network_preferneces_summary">"Henüz uygulanmadı!"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"GSM/UMTS ağ tercihleri"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"GSM/WCDMA (otomatik mod)"</item>
+        <item>"Yalnızca WCDMA"</item>
+        <item>"Yalnızca GSM"</item>
+        <item>"GSM/WCDA (WCDMA tercihli)"</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+    <string name="prefer_2g">"Yalnızca 2G ağlarını kullan"</string>
+    <string name="prefer_2g_summary">"Pil tasarrufu sağlar"</string>
+    <string name="cdma_system_select_title">"Sistem seç"</string>
+    <string name="cdma_system_select_summary">"Cdma dolaşım modunu değiştir"</string>
+    <string name="cdma_system_select_dialogtitle">"Sistem seçin"</string>
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>"Yalnızca ev"</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
+        <item>"Otomatik"</item>
+    </string-array>
+    <string name="cdma_roaming_mode_title">"CDMA Dolaşım Modu"</string>
+    <string name="cdma_roaming_mode_summary">"Cdma dolaşım modunu değiştir"</string>
+    <string name="cdma_roaming_mode_dialogtitle">"CDMA dolaşım modu"</string>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>"Yalnızca Ana Ağlar"</item>
+        <item>"Bağlı Ağlar"</item>
+        <item>"Tüm Ağlar"</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_network_preferences_title">"CDMA Ağ Tercihleri"</string>
+    <string name="cdma_network_preferneces_summary">"Henüz uygulanmadı!"</string>
+    <string name="cdma_network_preferences_dialogtitle">"CDMA ağ tercihleri"</string>
+    <string-array name="cdma_network_preferences_choices">
+        <item>"CDMA/EvDo"</item>
+        <item>"Yalnızca CDMA"</item>
+        <item>"Yalnızca EvDo"</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_subscription_title">"CDMA Aboneliği"</string>
+    <string name="cdma_subscription_summary">"RUIM/SIM ve NV arasında değiştir"</string>
+    <string name="cdma_subscription_dialogtitle">"abonelik"</string>
+    <string-array name="cdma_subscription_choices">
+        <item>"RUIM/SIM"</item>
+        <item>"NV"</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <string name="fdn">"Sabit Arama Numaraları"</string>
+    <string name="manage_fdn_list">"SAN listesi"</string>
+    <string name="fdn_activation">"SAN etkinleştirme"</string>
+    <string name="fdn_enabled">"Sabit Arama Numaraları etkin"</string>
+    <string name="fdn_disabled">"Sabit Arama Numaraları devre dışı"</string>
+    <string name="enable_fdn">"SAN\'yi etkinleştir"</string>
+    <string name="disable_fdn">"SAN\'yi devre dışı bırak"</string>
+    <string name="change_pin2">"PIN2 kodunu değiştir"</string>
+    <string name="enable_fdn_ok">"SAN\'yi devre dışı bırak"</string>
+    <string name="disable_fdn_ok">"SAN\'yi etkinleştir"</string>
+    <string name="sum_fdn">"Sabit Arama Numaralarını Yönet"</string>
+    <string name="sum_fdn_change_pin">"SAN erişimi için PIN kodunu değiştir"</string>
+    <string name="sum_fdn_manage_list">"Telefon numarası listesini yönet"</string>
+    <string name="voice_privacy">"Ses Gizliliği"</string>
+    <string name="voice_privacy_summary">"Gelişmiş gizlilik modunu etkinleştir"</string>
+    <string name="tty_mode_title">"TTY modu"</string>
+    <string name="tty_mode_summary">"TTY modunu etkinleştir"</string>
+    <string name="tty_mode_option_title">"TTY modu"</string>
+    <string name="tty_mode_option_summary">"TTY modunu ayarla"</string>
+    <string name="auto_retry_mode_title">"Otomatik Yeniden Deneme"</string>
+    <string name="auto_retry_mode_summary">"Otomatik Yeniden Deneme modunu etkinleştir"</string>
+    <string name="menu_add">"Kişi ekle"</string>
+    <string name="menu_edit">"Kişiyi düzenle"</string>
+    <string name="menu_delete">"Kişiyi sil"</string>
+    <string name="get_pin2">"PIN2 kodunu girin"</string>
+    <string name="name">"Ad"</string>
+    <string name="number">"Numara"</string>
+    <string name="save">"Kaydet"</string>
+    <string name="add_fdn_contact">"Sabit arama numarası ekle"</string>
+    <string name="adding_fdn_contact">"Sabit arama numarası ekleniyor..."</string>
+    <string name="fdn_contact_added">"Sabit arama numarası eklendi."</string>
+    <string name="edit_fdn_contact">"Sabit arama numarasını düzenle"</string>
+    <string name="updating_fdn_contact">"Sabit arama numarası güncelleniyor..."</string>
+    <string name="fdn_contact_updated">"Sabit arama numarası güncellendi."</string>
+    <string name="delete_fdn_contact">"Sabit arama numarasını sil"</string>
+    <string name="deleting_fdn_contact">"Sabit arama numarası siliniyor..."</string>
+    <string name="fdn_contact_deleted">"Sabit arama numarası silindi."</string>
+    <string name="pin2_invalid">"FDN güncellenmedi: yanlış PIN girdiniz."</string>
+    <string name="fdn_invalid_number">"FDN güncellenmedi: sayı 20 basamağı aşamaz."</string>
+    <string name="simContacts_emptyLoading">"SIM karttan okunuyor..."</string>
+    <string name="simContacts_empty">"SIM kartınızda hiçbir kişi yok."</string>
+    <string name="simContacts_title">"İçe aktarılacak kişileri seçin"</string>
+    <string name="enable_pin">"SIM PIN Kodunu Etkinleştir/Devre Dışı Bırak"</string>
+    <string name="change_pin">"SIM PIN Kodunu Değiştir"</string>
+    <string name="enter_pin_text">"SIM PIN kodu:"</string>
+    <string name="oldPinLabel">"Eski PIN"</string>
+    <string name="newPinLabel">"Yeni PIN"</string>
+    <string name="confirmPinLabel">"Yeni PIN kodunu doğrula"</string>
+    <string name="badPin">"Yazdığınız eski PIN doğru değil. Lütfen tekrar deneyin."</string>
+    <string name="mismatchPin">"Girdiğiniz PIN kodları eşleşmiyor. Lütfen tekrar deneyin."</string>
+    <string name="invalidPin">"4 ila 8 haneli bir PIN yazın."</string>
+    <string name="disable_sim_pin">"SIM PIN kodunu devre dışı bırak"</string>
+    <string name="enable_sim_pin">"SIM PIN Kodunu Etkinleştir"</string>
+    <string name="enable_in_progress">"Lütfen bekleyin..."</string>
+    <string name="enable_pin_ok">"SIM PIN kodu etkin"</string>
+    <string name="disable_pin_ok">"SIM PIN kodu devre dışı"</string>
+    <string name="pin_failed">"Yazdığınız PIN hatalı"</string>
+    <string name="pin_changed">"SIM PIN kodu başarıyla değiştirildi"</string>
+    <string name="puk_requested">"Şifre hatalı, SIM kilitlendi! PUK2 isteniyor."</string>
+    <string name="enter_pin2_text">"PIN2"</string>
+    <string name="oldPin2Label">"Eski PIN2"</string>
+    <string name="newPin2Label">"Yeni PIN2"</string>
+    <string name="confirmPin2Label">"Yeni PIN2 kodunu doğrula"</string>
+    <string name="badPuk2">"Yazdığınız PUK2 doğru değil. Lütfen tekrar deneyin."</string>
+    <string name="badPin2">"Yazdığınız eski PIN2 doğru değil. Lütfen tekrar deneyin."</string>
+    <string name="mismatchPin2">"Girdiğiniz PIN2 kodları eşleşmiyor. Lütfen tekrar deneyin."</string>
+    <string name="invalidPin2">"4 ila 8 haneli bir PIN2 kodu yazın."</string>
+    <string name="invalidPuk2">"8 haneli bir PUK2 yazın."</string>
+    <string name="pin2_changed">"PIN2 başarıyla değiştirildi"</string>
+    <string name="label_puk2_code">"PUK2 kodunu yazın"</string>
+    <string name="fdn_enable_puk2_requested">"Şifre hatalı, lütfen PIN2 kodunu değiştirin ve tekrar deneyin!"</string>
+    <string name="puk2_requested">"Şifre hatalı, SIM kilitlendi! PUK2 isteniyor."</string>
+    <string name="doneButton">"Bitti"</string>
+    <string name="caller_manage_header">"Konferans görüşmesi <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="caller_manage_manage_done_text">"Çağrıya dön"</string>
+    <string name="fake_phone_activity_infoText_text">Gelen telefon numarası</string>
+    <string name="fake_phone_activity_placeCall_text">Sahte Gelen Arama</string>
+    <string name="sim_missing_continueView_text">"SIM kart olmadan devam et"</string>
+    <string name="sim_missing_msg_text">"SIM kart bulunamadı. Lütfen telefona bir SIM kart takın."</string>
+    <string name="sim_unlock_dismiss_text">"Kapat"</string>
+    <string name="sim_unlock_unlock_text">"Kilit Aç"</string>
+    <string name="sim_unlock_status_text">"PIN kimlik denetimi yapılıyor..."</string>
+    <string name="voicemail_settings_number_label">"Sesli mesaj numarası"</string>
+    <string name="card_title_dialing">"Çevriliyor"</string>
+    <string name="card_title_redialing">"Tekrar deniyor"</string>
+    <string name="card_title_in_progress">"Geçerli çağrı"</string>
+    <string name="card_title_conf_call">"Konferans görüşmesi"</string>
+    <string name="card_title_incoming_call">"Gelen çağrı"</string>
+    <string name="card_title_cdma_call_waiting">"Cdma çağrısı beklemede"</string>
+    <string name="card_title_call_ended">"Çağrı sonlandırıldı"</string>
+    <string name="card_title_on_hold">"Beklemede"</string>
+    <string name="card_title_hanging_up">"Sonlandırılıyor"</string>
+    <string name="card_title_in_call">"Çağrı halinde"</string>
+    <string name="card_title_my_phone_number">"Numaram: <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_missedCallTitle">"Cevapsız çağrı"</string>
+    <string name="notification_missedCallsTitle">"Cevapsız çağrılar"</string>
+    <string name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> cevapsız çağrı"</string>
+    <string name="notification_missedCallTicker">"Cevapsız çağrı: <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_ongoing_call_format">"Geçerli çağrı (<xliff:g id="DURATION">%s</xliff:g>)"</string>
+    <string name="notification_on_hold">"Beklemede"</string>
+    <string name="notification_incoming_call">"Gelen çağrı"</string>
+    <string name="notification_voicemail_title">"Yeni sesli mesaj"</string>
+    <string name="notification_voicemail_title_count">"Yeni sesli mesaj (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string name="notification_voicemail_text_format">"Çevir: <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_voicemail_no_vm_number">"Sesli mesaj numarası bilinmiyor"</string>
+    <string name="notification_network_selection_title">"Hizmet yok"</string>
+    <string name="notification_network_selection_text">"Seçili ağ (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) kullanılamıyor"</string>
+    <string name="incall_error_power_off">"Bir çağrı yapmak için öncelikle Uçak modunu kapatın."</string>
+    <string name="incall_error_emergency_only">"Ağda kayıtlı değil."</string>
+    <string name="incall_error_out_of_service">"Mobil ağ kullanılamıyor."</string>
+    <string name="incall_error_no_phone_number_supplied">"Çağrı gönderilmedi. Geçerli numara girilmedi."</string>
+    <string name="incall_error_call_failed">"Çağrı gönderilmedi."</string>
+    <string name="incall_status_dialed_mmi">"MMI dizisi başlatılıyor..."</string>
+    <string name="incall_status_dialed_fc">"Özellik kodu dizisi başlatılıyor..."</string>
+    <string name="incall_error_supp_service_unknown">"Desteklenmeyen hizmet."</string>
+    <string name="incall_error_supp_service_switch">"Çağrılar arasında geçiş yapılamıyor."</string>
+    <string name="incall_error_supp_service_separate">"Çağrı ayrılamıyor."</string>
+    <string name="incall_error_supp_service_transfer">"Çağrı aktarılamıyor."</string>
+    <string name="incall_error_supp_service_conference">"Çağrılar konferans görüşmesi olarak birleştirilemiyor."</string>
+    <string name="incall_error_supp_service_reject">"Çağrı reddedilemiyor."</string>
+    <string name="incall_error_supp_service_hangup">"Çağrılar serbest bırakılamıyor."</string>
+    <string name="emergency_enable_radio_dialog_title">"Acil durum çağrısı"</string>
+    <string name="emergency_enable_radio_dialog_message">"Radyo açılıyor..."</string>
+    <string name="emergency_enable_radio_dialog_retry">"Hizmet alanı dışında, tekrar deneniyor..."</string>
+    <string name="dial_emergency_error">"Çağrı gönderilmedi. <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> bir acil durum numarası değil!"</string>
+    <string name="dial_emergency_empty_error">"Çağrı gönderilmedi. Lütfen bir acil durum numarası çevirin!"</string>
+    <string name="dialerKeyboardHintText">"Çevirmek için klavyeyi kullan"</string>
+    <string name="dtmfDialpadHintText">"Telefon tuş takımı"</string>
+    <string name="dtmfDialpadHandleLabel">"Tuş takımı"</string>
+    <string name="touchLockText">"Kilit açmak için"\n"iki kez hafifçe vurun"</string>
+    <string name="onscreenAnswerText">"Yanıtlamak için"\n"iki kez hafifçe vurun"</string>
+    <string name="onscreenRejectText">"Reddetmek için"\n"iki kez hafifçe vurun"</string>
+    <string name="onscreenHoldText">"Beklet"</string>
+    <string name="onscreenUnholdText">"Devam Et"</string>
+    <string name="onscreenEndCallText">"Sonlandır"</string>
+    <string name="onscreenShowDialpadText">"Tuş takımı"</string>
+    <string name="onscreenHideDialpadText">"Gizle"</string>
+    <string name="onscreenSpeakerText">"Hoparlör"</string>
+    <string name="onscreenMuteText">"Sesi Kapat"</string>
+    <string name="onscreenBluetoothText">"Bluetooth"</string>
+    <string name="onscreenAddCallText">"Çağrı ekle"</string>
+    <string name="onscreenMergeCallsText">"Çağrıları birleştir"</string>
+    <string name="onscreenSwapCallsText">"Değiştir"</string>
+    <string name="onscreenManageCallsText">"Aramaları yönet"</string>
+    <string name="onscreenManageConferenceText">"Yönet"</string>
+    <string name="importSimEntry">"İçe aktar"</string>
+    <string name="importAllSimEntries">"Tümünü içe aktar"</string>
+    <string name="importingSimContacts">"SIM kişileri içe aktarılıyor"</string>
+    <string name="importToFDNfromContacts">"Kişilerden içe aktar"</string>
+    <string name="hac_mode_title">"İşitme cihazları"</string>
+    <string name="hac_mode_summary">"İşitme cihazı uyumluluğunu aç"</string>
+    <string-array name="tty_mode_entries">
+        <item>"TTY Kapalı"</item>
+        <item>"TTY Tam"</item>
+        <item>"TTY HCO"</item>
+        <item>"TTY VCO"</item>
+    </string-array>
+    <string name="eri_text_label">"ERI metni"</string>
+    <string name="dtmf_tones_title">"DTMF Zil Sesleri"</string>
+    <string name="dtmf_tones_summary">"DTMF seslerinin uzunluğunu ayarla"</string>
+    <string-array name="dtmf_tone_entries">
+      <item>"Normal"</item>
+      <item>"Uzun"</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+       <item>"0"</item>
+       <item>"1"</item>
+    </string-array>
+    <string name="network_message">"Ağ İletisi"</string>
+    <string name="ota_title_activate">"Telefonunuzu aktive edin"</string>
+    <string name="ota_touch_activate">"Telefon hizmetinizin aktive edilmesi için özel bir çağrı yapılması gerekiyor. "\n\n"“Aktive Et”e bastıktan sonra, telefonunuzun aktive edilmesi için sağlanan talimatları dinleyin."</string>
+    <string name="ota_touch_activate_new">"Telefonunuzu operatörünüzün mobil ağında etkinleştirecek, böylece arama yapabilmenizi ve mobil veri ağlarına bağlanabilmenizi sağlayacak özel bir arama yapmak için \"Etkinleştir\"e dokunun."</string>
+    <string name="ota_skip_activation_dialog_title">"Etkinleştirme atlansın mı?"</string>
+    <string name="ota_skip_activation_dialog_message">"Etkinleştirmeyi atlarsanız, arama yapamaz veya mobil veri ağlarına bağlanamazsınız (yine de Kablosuz ağlara bağlanabilirsiniz). Telefonunuzu etkinleştirinceye kadar, telefonu her açışınızda ürünü etkinleştirip etkinleştirmeyeceğiniz sorulur."</string>
+    <string name="ota_skip_activation_dialog_skip_label">"Atla"</string>
+    <string name="ota_skip_activation_dialog_continue_label">"Etkinleştir"</string>
+    <string name="ota_activate">"Etkinleştir"</string>
+    <string name="ota_title_activate_success">"Telefon aktive edildi!"</string>
+    <string name="ota_title_problem_with_activation">"Aktivasyon sorunu"</string>
+    <string name="ota_listen">"Etkinleştirmenin tamamlandığını duyuncaya kadar söylenen talimatları izleyin."</string>
+    <string name="ota_dialpad">"Tuş takımı"</string>
+    <string name="ota_speaker">"Hoparlör"</string>
+    <string name="ota_progress">"Telefonunuz programlanırken lütfen bekleyin."</string>
+    <string name="ota_failure">"Programlama Başarısız"</string>
+    <string name="ota_successful">"Telefonunuz şimdi aktive edildi. Hizmetin başlaması 15 dakika sürebilir."</string>
+    <string name="ota_unsuccessful">"Telefonunuz aktive edilmedi. "\n"Daha iyi çeken bir yer (pencere kenarı veya dış mekan) bulmanız gerekebilir. "\n\n"Tekrar deneyin veya daha fazla seçenek için müşteri hizmetlerini arayın."</string>
+    <string name="ota_spc_failure">"AŞIRI SPC HATASI"</string>
+    <string name="ota_call_end">"Geri"</string>
+    <string name="ota_try_again">"Tekrar dene"</string>
+    <string name="ota_next">"İleri"</string>
+    <string name="ota_back">"Geri"</string>
+    <string name="ecm_exit_dialog">"EcmExitDialog"</string>
+    <string name="phone_entered_ecm_text">"Acil Geri Arama Moduna Girildi"</string>
+    <string name="phone_in_ecm_notification_title">"Acil Geri Arama Modu"</string>
+    <string name="phone_in_ecm_call_notification_text">"Veri bağlantısı devre dışı bırakıldı"</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <!-- number of minutes is one -->
+        <item quantity="one">"<xliff:g id="COUNT">%s</xliff:g> dakika boyunca veri bağlantısı yok"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"<xliff:g id="COUNT">%s</xliff:g> dakika boyunca veri bağlantısı yok"</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Telefonunuz <xliff:g id="COUNT">%s</xliff:g> dakika boyunca acil durumda geri arama modunda olacaktır. Bu moddayken veri bağlantısı kullanan hiçbir uygulama kullanılamaz. Şimdi çıkmak istiyor musunuz?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Telefonunuz <xliff:g id="COUNT">%s</xliff:g> dakika boyunca acil durumda geri arama modunda olacaktır. Bu moddayken veri bağlantısı kullanan hiçbir uygulama kullanılamaz. Şimdi çıkmak istiyor musunuz?"</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Seçilen işlem, acil durumda geri arama modundayken kullanılamıyor. Telefon <xliff:g id="COUNT">%s</xliff:g> dakika boyunca bu modda kalacak. Şimdi çıkmak istiyor musunuz?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Seçilen işlem, acil durumda geri arama modundayken kullanılamıyor. Telefon <xliff:g id="COUNT">%s</xliff:g> dakika boyunca bu modda kalacak. Şimdi çıkmak istiyor musunuz?"</item>
+    </plurals>
+    <string name="alert_dialog_in_ecm_call">"Seçili işlem, acil durum çağrısında kullanılamaz"</string>
+    <string name="progress_dialog_exiting_ecm">"Acil Geri Arama Modundan Çıkılıyor"</string>
+    <string name="alert_dialog_yes">"Evet"</string>
+    <string name="alert_dialog_no">"Hayır"</string>
+    <string name="alert_dialog_dismiss">"Kapat"</string>
+    <string name="absent_num">NUMARA YOK</string>
+    <string name="voicemail_settings">"Sesli mesaj ayarları"</string>
+    <string name="voicemail_number_not_set">"&lt;ayarlanmadı&gt;"</string>
+    <string name="voicemail_provider">"Sesli mesaj hizmeti"</string>
+    <string name="voicemail_settings_for">"<xliff:g id="PROVIDER_NAME">%s</xliff:g> için ayarlar"</string>
+    <string name="other_settings">"Diğer çağrı ayarları"</string>
+    <string name="dial_button_label">"Çevir"</string>
+    <string name="calling_via_template">"^1"\n<b>"^2"</b>" aracılığıyla aranıyor"</string>
+    <string name="slide_to_answer">"Yanıtlamak için sağa sürükleyin"</string>
+    <string name="slide_to_silence">"Zil programını susturmak için sola sürükleyin"</string>
+    <string name="slide_to_decline">"Reddetmek için sola sürükleyin"</string>
+    <string name="slide_to_answer_and_hold">"Yanıtlamak ve"\n"etkin çağrıyı beklemeye almak için sağa sürükleyin"</string>
+    <string name="slide_to_answer_and_end_active">"Yanıtlamak ve"\n"etkin çağrıyı sonlandırmak için sağa sürükleyin"</string>
+    <string name="slide_to_answer_and_end_onhold">"Yanıtlamak ve"\n"beklemedeki çağrıyı sonlandırmak için sağa sürükleyin"</string>
+    <string name="slide_to_answer_hint">"Yanıtla"</string>
+    <string name="slide_to_decline_hint">"Reddet"</string>
+    <string name="sim_state_not_changes">SIM kart etkinleştir/devre dışı bırak durumunda değişiklik yok.</string>
+    <string name="sim_state_set_timeout">SIM kart Durum Ayarı zaman aşımı.</string>
+    <string name="data_enable_set">Veri bağlantısı etkinleştirme Ayarı</string>
+    <string name="data_enable_set_timeout">Veri bağlantısı etkinleştirme Ayarı Zaman Aşımı.</string>
+    <string name="selectsim_settings_label">Standby Sim kart Ayarları</string>
+    <string name="cb_error">Arama engelleme reddedildi</string>
+    <string name="video_camera_switch">Kamera Değiştir</string>
+    <string name="video_view_switch">Görünüm Değiştir</string>
+    <string name="video_camera_close">Kamerayı Kapat</string>
+    <string name="video_camera_open">Kamerayı Aç</string>
+    <string name="video_speaker_close">Hoparlörü Kapat</string>
+    <string name="video_speaker_open">Hoparlörü Aç</string>
+    <string name="video_mute">"Sesi Kapat"</string>
+    <string name="video_unmute">Sesi Aç</string>
+    <string name="video_decline">"Reddet"</string>
+    <string name="video_falldown">Düştü</string>
+    <string name="video_record">Kaydet...</string>
+    <string name="video_start_record_both">Her İki Kaydediciyi Başlat</string>
+    <string name="video_start_record_audio">Ses Kaydediciyi Başlat</string>
+    <string name="video_stop_record">Kaydetmeyi Durdur</string>
+    <string name="insert_sd_card">"Lütfen bir SD kart takın"</string>
+    <string name="storage_is_full">"Depolama alanı dolu"</string>
+    <string name="video_btn_dialer">"Tuş takımı"</string>
+    <string name="video_btn_hangup">Kapat</string>
+    <string name="video_btn_answer">"Yanıtla"</string>
+    <string name="video_btn_decline">"Reddet"</string>
+    <string name="video_label_name">Ad:</string>
+    <string name="video_label_time">Saat:</string>
+    <string name="video_label_status">"Durum:"</string>
+    <string name="video_dialog_incoming">Gelen arama, kabul edilsin mi?</string>
+    <string name="video_dialog_incoming_accept">"Kabul Et"</string>
+    <string name="video_dialog_incoming_tovoice">"Videoya geç"</string>
+    <string name="video_dialog_incoming_hangup">Kapat</string>
+    <string name="videophonesetting_label">VideoFon Ayarları</string>
+    <string name="videophone_setting">VideoFon</string>
+    <string name="videophone_setting_title">VideoFon Genel Ayarları</string>
+    <string name="videophone_setting_summary">Videofon görüntüsü, düzeni ve vb. için seçenekleri ayarla</string>
+    <string name="videophone_callforward_setting_title">VideoFon yönlendirme Ayarları</string>
+    <string name="videophone_callbarring_setting_title">VideoFon engelleme Ayarları</string>
+    <string name="videophone_setting_title_static_image">Sabit Resim Göster</string>
+    <string name="videophone_setting_title_static_image_set">Statik Resim Ayarlama</string>
+    <string name="videophone_setting_title_delete_photo">Statik Resim Silme</string>
+    <string name="videophone_setting_title_take_photo">"Fotoğraf çek"</string>
+    <string name="videophone_setting_title_pick_photo">"Galeri\'den fotoğraf seç"</string>
+    <string name="videophone_setting_photoPickerNotFoundText">"Telefonda hiçbir resim yok."</string>
+    <string name="videophone_setting_summary_static_image">Kamera kapatıldığında sabit resim göster</string>
+    <string name="videophone_setting_title_layout">Video ekran tercihleri</string>
+    <string name="videophone_layout_my_small">Küçük videom</string>
+    <string name="videophone_layout_my_large">Büyük videom</string>
+    <string name="videophone_setting_title_fallback">Sesli geri arama isteği</string>
+    <string name="videophone_fallback_always_ask">Her zaman bana sor</string>
+    <string name="videophone_fallback_always_callback">Daima geri ara</string>
+    <string name="videophone_fallback_never_callback">Asla geri arama</string>
+    <string name="videophone_setting_dialog_title_layout">Video tercihleri</string>
+    <string name="videophone_setting_dialog_title_fallback">Sesli geri arama isteği</string>
+    <string name="videophone_setting_layout_defaultvalue">"1"</string>
+    <string name="videophone_setting_fallback_defaultvalue">"1"</string>
+    <string name="videophone_fallback_title">VideoFon GeriÇekilme</string>
+    <string name="videophone_never_fallback">Alıcı sesli arama isteği yapıyor. Tekrar aramadan otomatik olarak vazgeç.</string>
+    <string name="videophone_always_fallback">Alıcı sesli arama isteği yapıyor. Sesli aramayı otomatik olarak tekrar ara.</string>
+    <string name="videophone_fallback_menu_videocall">Video arama</string>
+    <string name="videophone_fallback_menu_voicecall">Video arama</string>
+    <string name="videophone_fallback_menu_cancel">"İptal"</string>
+    <string name="videophone_failcause_1">Atanmamış numara</string>
+    <string name="videophone_failcause_3">Kullanıcıya bağlanamadı</string>
+    <string name="videophone_failcause_8">Arama engellendi</string>
+    <string name="videophone_failcause_17">Kullanıcı meşgul</string>
+    <string name="videophone_failcause_19">"Aradığınız kişi yanıt vermiyor"</string>
+    <string name="videophone_failcause_27">Kullanıcı kapalı</string>
+    <string name="videophone_failcause_34">Bağlantı kesildi</string>
+    <string name="videophone_failcause_63">Dolaşım araması engellendi</string>
+    <string name="videophone_failcause_79">Kullanıcı video aramasını desteklemiyor</string>
+    <string name="videophone_failcause_default">Kullanıcıya bağlanamadı</string>
+    <string name="videophone_failcause_47">Üzgünüz, video arama kullanılamaz</string>
+    <string name="videophone_failcause_57">"VT servisini başlatmadınız"</string>
+    <string name="videophone_failcause_58">Kullanıcı video aramasını desteklemiyor</string>
+    <string name="videophone_failcause_88">Kullanıcı video aramasını seçiyor</string>
+    <string name="videophone_failcause_minus_1">3G hizmeti kullanılamaz</string>
+    <string name="brightness">Ekran Parlaklığı</string>
+    <string name="camera_brightness">Kamera Parlaklığı</string>
+    <string name="camera_contrast">Kamera Karşıtlığı</string>
+    <string name="prompt_remotecamera_close">Uzaktaki kamera kapatıldı</string>
+    <string name="prompt_remotecamera_open">Uzaktaki kamera açıldı</string>
+    <string name="sutstitute_not_exist">Yerine geçecek olan resim mevcut değil</string>
+    <string name="prompt_wait_voicecall">Lütfen sesli arama için bekleyin</string>
+    <string name="audio_db_artist_name">"Kayıtlarınız"</string>
+    <string name="audio_db_album_name">"Ses kayıtları"</string>
+    <string name="audio_db_playlist_name">"Kayıtlarım"</string>
+    <string name="app_name">Telefon Uygulaması</string>
+    <string name="error_mediadb_new_record">"Kaydedilmiş ses diske yazılamıyor"</string>
+    <string name="hangup_reply_message_title">Mesaj Reddetme</string>
+    <string name="hangup_reply_message">Kapatma cevap mesajı</string>
+    <string name="hangup_reply_message_tip">gelen UI\'ye tıkladığınız zaman sizi aryana otomatik olarak mesaj gönderecektir.</string>
+    <string name="edit_message_content_for_hangup">Mesaj içeriğini düzenle</string>
+    <string name="edit_message_content_introdution">Mesaj içeriğini düzenle ve özel bir kişiye yönelt</string>
+    <string name="label_message_reject">Telefonu kapatma mesajı içeriği</string>
+    <string name="tip_input_content">Ayarlanmış mesaj içeriğiniz yok</string>
+    <string name="label_button_edit">"Düzenle"</string>
+    <string name="label_button_ok">"Tamam"</string>
+    <string name="label_button_add_special_reply">Cevaba özel numara ekle</string>
+    <string name="reply_message_default">Meşgulüm, daha sonra arayacağım!</string>
+    <string name="title_message_reply_for_hangup">Mesaj içeriğini düzenle</string>
+    <string name="contactPhoto">"kişi fotoğrafı"</string>
+    <string name="goPrivate">"özele git"</string>
+    <string name="selectContact">"kişi seçin"</string>
+    <string name="standby_select">Bekleme konumu güç seçimi</string>
+    <string name="sip_settings">"İnternet üzerinden çağrı ayarları"</string>
+    <string name="sip_accounts">"İnternet çağrısı (SIP) hesapları"</string>
+    <string name="sip_accounts_title">"Hesaplar"</string>
+    <string name="sip_accounts_summary">"İnternet çağrısı (SIP) hesaplarını ve durumunu yönet"</string>
+    <string name="sip_receive_calls">"Gelen çağrıları al"</string>
+    <string name="sip_receive_calls_summary">"Pil ömrünü kısaltır"</string>
+    <string name="sip_call_options">"Çağrı seçeneklerini yapılandır"</string>
+    <string name="sip_call_options_title">"İnternet çağrısını kullan"</string>
+    <string name="sip_call_options_wifi_only_title">"İnternet çağrısı kullan (yalnızca kablosuz)"</string>
+    <string name="sip_call_options_entry_1">"Veri ağı uygun durumdayken yapılan tüm çağrılar için"</string>
+    <string name="sip_call_options_entry_2">"Yalnızca İnternet numaraları için"</string>
+    <string name="sip_call_options_entry_3">"Her çağrı için sor"</string>
+    <string name="sip_call_options_wifi_only_entry_1">"Tüm çağrılar için"</string>
+    <string name="auto_reg">"Otomatik kayıt"</string>
+    <string name="call_priority">"SIP üzerinden giden çağrı"</string>
+    <string name="pick_outgoing_call_phone_type">"Çağrı yap"</string>
+    <string name="pick_outgoing_sip_phone">"İnternet çağrısı hesabını kullan:"</string>
+    <string name="remember_my_choice">"Her zaman İnternet çağrıları yapmak için kullan"</string>
+    <string name="reset_my_choice_hint">"Çağrı yaparken varsayılan olarak kullanılacak İnternet çağrısı hesabını, İnternet çağrısı ayarları altında farklı bir hesap seçerek değiştirmek için Çağrı Ayarları\'nı kullanın"</string>
+    <string name="pstn_phone">"Cep telefonu çağrısı"</string>
+    <string name="internet_phone">"İnternet çağrısı"</string>
+    <string name="no_sip_account_found_title">"İnternet çağrısı hesabı yok"</string>
+    <string name="no_sip_account_found">"Bu telefonda herhangi bir İnternet çağrısı hesabı yok. Şimdi eklensin mi?"</string>
+    <string name="sip_menu_add">"Ekle"</string>
+    <string name="add_sip_account">"Hesap ekle"</string>
+    <string name="remove_sip_account">"Hesabı kaldır"</string>
+    <string name="sip_account_list">"SIP hesapları"</string>
+    <string name="saving_account">"Hesap kaydediliyor..."</string>
+    <string name="removing_account">"Hesap kaldırılıyor..."</string>
+    <string name="sip_menu_save">"Kaydet"</string>
+    <string name="sip_menu_discard">"Sil"</string>
+    <string name="alert_dialog_close">"Profili kapat"</string>
+    <string name="alert_dialog_ok">"Tamam"</string>
+    <string name="close_profile">"Kapat"</string>
+    <string name="primary_account">"Birincil"</string>
+    <string name="primary_account_title">"Bunu birincil hesabım yap"</string>
+    <string name="primary_account_summary">"Giden çağrılar için kullanılır"</string>
+    <string name="advanced_settings_title">"Gelişmiş ayarlar"</string>
+    <string name="primary_account_summary_with">"Birincil hesap. <xliff:g id="REGISTRATION_STATUS">%s</xliff:g>"</string>
+    <string name="registration_status_checking_status">"Durum denetleniyor..."</string>
+    <string name="registration_status_registering">"Kaydettiriliyor..."</string>
+    <string name="registration_status_still_trying">"Denemeye devam ediliyor..."</string>
+    <string name="registration_status_not_receiving">"Çağrıları almıyor"</string>
+    <string name="registration_status_no_data">"İnternet bağlantısı olmadığı için hesap kaydı durduruldu"</string>
+    <string name="registration_status_no_wifi_data">"Kablosuz bağlantı hesap kayıt işlemi durduruldu"</string>
+    <string name="registration_status_not_running">"Hesap kaydı başarısız oldu"</string>
+    <string name="registration_status_done">"Çağrıları alıyor"</string>
+    <string name="registration_status_failed_try_later">"Hesap kaydı başarısız oldu: (<xliff:g id="REGISTRATION_ERROR_MESSAGE">%s</xliff:g>); daha sonra tekrar denenecek"</string>
+    <string name="registration_status_invalid_credentials">"Hesap kaydı başarısız oldu: Yanlış kullanıcı adı veya şifre"</string>
+    <string name="registration_status_server_unreachable">"Hesap kaydı başarısız oldu: Lütfen sunucu adını kontrol edin"</string>
+    <string name="third_party_account_summary">"Bu hesap şu anda <xliff:g id="ACCOUNT_OWNER">%s</xliff:g> uygulaması tarafından kullanılıyor"</string>
+    <string name="sip_edit_title">"SIP hesabı ayrıntıları"</string>
+    <string name="sip_edit_new_title">"SIP hesabı ayrıntıları"</string>
+    <string name="domain_address_title">"Sunucu"</string>
+    <string name="username_title">"Kullanıcı adı"</string>
+    <string name="password_title">"Şifre"</string>
+    <string name="display_name_title">"Görüntülenen ad"</string>
+    <string name="proxy_address_title">"Giden proxy adresi"</string>
+    <string name="port_title">"Bağlantı noktası numarası"</string>
+    <string name="transport_title">"Aktarım türü"</string>
+    <string name="send_keepalive_title">"Canlı tutma mesajı gönder"</string>
+    <string name="send_keepalive_summary">"SIP canlı tutma mesajları gönder"</string>
+    <string name="auto_registration_title">"Otomatik kayıt"</string>
+    <string name="auto_registration_summary">"Profili otomatik olarak kaydet"</string>
+    <string name="set_primary_title">"Birincil hesap olarak ayarla"</string>
+    <string name="set_primary_summary">"Giden çağrılar için kullanılır"</string>
+    <string name="advanced_settings">"İsteğe bağlı ayarlar"</string>
+    <string name="auth_username_title">"Kimlik doğrulama kullanıcı adı"</string>
+    <string name="auth_username_summary">"Kimlik doğrulama için kullanılan kullanıcı adı"</string>
+    <string name="default_preference_summary">"&lt;Ayarlanmadı&gt;"</string>
+    <string name="display_name_summary">"&lt;Kullanıcı adıyla aynı&gt;"</string>
+    <string name="optional_summary">"&lt;İsteğe bağlı&gt;"</string>
+    <string name="advanced_settings_show">"▷ Tümünü göstermek için dokunun"</string>
+    <string name="advanced_settings_hide">"▽ Tümünü gizlemek için dokunun"</string>
+    <string name="empty_alert">"<xliff:g id="INPUT_FIELD_NAME">%s</xliff:g> gerekli, bu alan boş bırakılamaz"</string>
+    <string name="not_a_valid_port">"Bağlantı noktası numarası 1000 ile 65534 arasında olmalıdır"</string>
+    <string name="no_internet_available_title">"İnternet bağlantısı yok"</string>
+    <string name="no_wifi_available_title">"Kablosuz bağlantı yok"</string>
+    <string name="no_internet_available">"İnternet çağrısı yapmak için öncelikle İnternet bağlantınızı denetleyin"</string>
+    <string name="no_wifi_available">"İnternet çağrıları için bir Kablosuz ağa bağlı olmalısınız (Kablosuz ve Ağ ayarlarını kullanın)"</string>
+    <string name="no_voip">"İnternet çağrısı desteklenmiyor"</string>
+    <string name="menu_endbgcall">arka plan aramasını bitir</string>
+    <string name="menu_endallcalls">tüm aramaları bitir</string>
+    <string name="sim1_call_settings">SIM1 Arama ayarları</string>
+    <string name="sim2_call_settings">SIM2 Arama ayarları</string>
+    <string name="updating_dualsim_title">Çift SIM ayarları </string>
+    <string name="emergency_call">"Acil durum çağrısı"</string>
+    <string name="auto_send_message">Otomatik Yanıt İletisi</string>
+    <string name="auto_send_message_tip">hazırlanan bir mesaj ile otomatik olarak cevaplamayı seç.</string>
+</resources>

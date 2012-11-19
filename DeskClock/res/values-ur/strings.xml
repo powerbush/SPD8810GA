@@ -1,0 +1,77 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">گھڑی</string>
+    <string name="alarm_list_title">الارم</string>
+    <string name="add_alarm">الارم کااضافہ کیجئے</string>
+    <string name="menu_desk_clock">ڈیسک گھڑی</string>
+    <string name="menu_edit_alarm">الارم میں ترمیم کریں</string>
+    <string name="delete_alarm">الارم خارج کر دیں</string>
+    <string name="enable_alarm">الارم  فعال کریں</string>
+    <string name="disable_alarm">الارم کو بند کر دیں</string>
+    <string name="delete_alarm_confirm">یہ انتباہ کو خارج کر دیا جائے گا.</string>
+    <string name="show_clock">گھڑی دکھائیں</string>
+    <string name="hide_clock">گھڑی پوشیدہ</string>
+    <string name="label">لیبل</string>
+    <string name="default_label">الارم</string>
+    <string name="set_alarm">الارم سیٹ کریں</string>
+    <string name="alarm_vibrate">تھرتھراہٹ</string>
+    <string name="alarm_repeat">دہرائیں</string>
+    <string name="alert">رِنگ ٹون</string>
+    <string name="time">وقت</string>
+    <string name="alarm_alert_dismiss_text">برخاست کریں</string>
+    <string name="alarm_alert_snooze_text">مؤخر الارم</string>
+    <string name="alarm_alert_power_off">پاور آف</string>
+    <string-array name="alarm_set">
+        <item>یہ الارم سے کم اب سے 1  منٹ کم  کے لئے مقرر کیا گیا ہے.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string name="day">1 دن</string>
+    <string name="hour">1 گھنٹہ</string>
+    <string name="minute">1 منٹ</string>
+    <string name="every_day">ہر روز</string>
+    <string name="never">کبھی نہیں</string>
+    <string name="clock_instructions">ظاہر کرنے کے لئے اس گھڑی کو منتخب کریں.</string>
+    <string name="analog_gadget">   اینالاگ گھڑی</string>
+    <string name="settings">سیٹنگز</string>
+    <string name="alarm_in_silent_mode_title">خاموش موڈ میں الارم</string>
+    <string name="alarm_in_silent_mode_summary"> گھنٹی بجاو اس وقت بھی جب فون خاموش موڈ میں ہے</string>
+    <string name="snooze_duration_title">اُونگھنا کی مدت </string>
+    <string-array name="snooze_duration_entries">
+      <item>5 منٹ</item>
+      <item>10 منٹ</item>
+      <item>15 منٹ</item>
+      <item>20 منٹ</item>
+      <item>25 منٹ</item>
+      <item>30 منٹ</item>
+    </string-array>
+    <string name="done">مکمل</string>
+    <string name="revert">الٹ کریں</string>
+    <string name="delete">حذف کریں</string>
+    <string name="alarm_volume_title">الارم  کا حجم</string>
+    <string name="alarm_volume_summary">الارم کی مقدار مقرر کریں</string>
+    <string name="silent_alarm_summary">خاموش</string>
+    <string name="alarm_notify_text">  الارم سنوز یا مسترد کرنے کا انتخاب کریں.</string>
+    <string name="volume_button_setting_title">حجم اور کیمرے</string>
+    <string name="volume_button_dialog_title">بٹن اثر</string>
+    <string name="volume_button_setting_summary">  یہ بٹن الارم کے دوران کیا کرتے ہیں ,مقرر کریں</string>
+    <string-array name="volume_button_setting_entries">
+      <item>کوئی نہیں</item>
+      <item>مؤخر الارم</item>
+      <item>برخاست کریں</item>
+    </string-array>
+    <string name="alarm_button_description">الارم</string>
+    <string name="gallery_button_description">گیلری</string>
+    <string name="music_button_description">موسیقی</string>
+    <string name="nightmode_button_description">دھیما</string>
+    <string name="home_button_description">لانچر</string>
+    <string name="desk_clock_button_description">گھڑی دکھائیں</string>
+    <string name="weather_fetch_failure">موسم کی معلومات فی الحال دستیاب نہیں.</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">ڈاک ترتیبات کی</string>
+</resources>

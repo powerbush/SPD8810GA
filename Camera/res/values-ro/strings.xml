@@ -1,0 +1,102 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">"Eroare cameră foto"</string>
+    <string name="cannot_connect_camera">"Nu se poate realiza conectarea la camera foto."</string>
+    <string name="camera_label">"Cameră foto"</string>
+    <string name="video_camera_label">"Cameră video"</string>
+    <string name="gallery_camera_bucket_name">"Fotografii cameră"</string>
+    <string name="gallery_camera_videos_bucket_name">"Videoclipuri cameră"</string>
+    <string name="wait">"Aşteptaţi…"</string>
+    <string name="no_storage" product="nosdcard">"Înainte de a utiliza camera foto, montaţi dispozitivul de stocare USB."</string>
+    <string name="no_storage" product="default">"Inseraţi un card SD înainte de a utiliza camera foto."</string>
+    <string name="not_enough_space" product="nosdcard">"Spaţiul de stocare USB s-a terminat."</string>
+    <string name="not_enough_space" product="default">"Cardul SD este plin."</string>
+    <string name="preparing_sd" product="nosdcard">"Se pregăteşte stocarea USB..."</string>
+    <string name="preparing_sd" product="default">"Se pregăteşte cardul SD..."</string>
+    <string name="access_sd_fail" product="nosdcard">"Accesarea spaţiului de stocare USB a eşuat."</string>
+    <string name="access_sd_fail" product="default">"Accesarea cardului SD a eşuat."</string>
+    <string name="confirm_restore_title">"Restabiliţi valorile prestabilite"</string>
+    <string name="confirm_restore_message">"Setările camerei foto vor fi restabilite la valorile prestabilite."</string>
+    <string name="review_play">"REDAŢI"</string>
+    <string name="review_cancel">"Anulaţi"</string>
+    <string name="review_ok">"OK"</string>
+    <string name="review_retake">"ALTĂ FOTOGRAFIE"</string>
+    <string name="camera_gallery_photos_text">"Galerie"</string>
+    <string name="switch_camera_id">"Schimbaţi camera foto"</string>
+    <string name="pref_camera_id_title">"Select. camera foto"</string>
+    <string name="pref_camera_id_entry_back">"Înapoi"</string>
+    <string name="pref_camera_id_entry_front">"Frontal"</string>
+    <string name="pref_camera_recordlocation_title">"Stocaţi locaţia"</string>
+    <string name="pref_camera_recordlocation_entry_off">"Dezactivat"</string>
+    <string name="pref_camera_recordlocation_entry_on">"Activat"</string>
+    <string name="pref_video_quality_title">"Calitate video"</string>
+    <string name="pref_video_quality_entry_high">"Ridicată (30 m)"</string>
+    <string name="pref_video_quality_entry_low">"Redusă (30 m)"</string>
+    <string name="pref_video_quality_entry_mms">"MMS (Redusă, 30 s)"</string>
+    <string name="pref_video_quality_entry_youtube">"YouTube (ridicată, 10 m)"</string>
+    <string name="pref_camera_settings_category">"Setările camerei foto"</string>
+    <string name="pref_camcorder_settings_category">"Setările camerei video"</string>
+    <string name="pref_camera_picturesize_title">"Dimensiune fotografie"</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">"5 M pixeli"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"3 M pixeli"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"2 M pixeli"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">1.2M Pixeli</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"1 M pixeli"</string>
+    <string name="pref_camera_jpegquality_title">"Calitatea fotografiei"</string>
+    <string name="pref_camera_jpegquality_entry_superfine">"Super fin"</string>
+    <string name="pref_camera_jpegquality_entry_fine">"Fin"</string>
+    <string name="pref_camera_jpegquality_entry_normal">"Normală"</string>
+    <string name="pref_camera_focusmode_title">"Mod focus"</string>
+    <string name="pref_camera_focusmode_entry_auto">"Automat"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"Infinit"</string>
+    <string name="pref_camera_focusmode_entry_macro">"Macro"</string>
+    <string name="pref_camera_flashmode_title">"Mod flash"</string>
+    <string name="pref_camera_flashmode_entry_auto">"Automat"</string>
+    <string name="pref_camera_flashmode_entry_on">"Activat"</string>
+    <string name="pref_camera_flashmode_entry_off">"Dezactivată"</string>
+    <string name="pref_camera_whitebalance_title">"Balanţă de alb"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"Automat"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"Incandescent"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">"Lumină de zi"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">"Fluorescent"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">"Înnorat"</string>
+    <string name="pref_camera_coloreffect_title">"Efect de culoare"</string>
+    <string name="pref_camera_coloreffect_entry_none">"Niciunul"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"Mono"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sepia"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"Negativ"</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Solarizare"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"Poster"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"Apă"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"Pastel"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"Mozaic"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"Tentă roşie"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"Tentă albastră"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"Tentă verde"</string>
+    <string name="pref_camera_scenemode_title">"Mod Scenă"</string>
+    <string name="pref_camera_scenemode_entry_auto">"Automat"</string>
+    <string name="pref_camera_scenemode_entry_action">"Acţiune"</string>
+    <string name="pref_camera_scenemode_entry_portrait">"Portret"</string>
+    <string name="pref_camera_scenemode_entry_landscape">"Peisaj"</string>
+    <string name="pref_camera_scenemode_entry_night">"Noapte"</string>
+    <string name="pref_camera_scenemode_entry_night_portrait">"Portret nocturn"</string>
+    <string name="pref_camera_scenemode_entry_theatre">"Teatru"</string>
+    <string name="pref_camera_scenemode_entry_beach">"Plajă"</string>
+    <string name="pref_camera_scenemode_entry_snow">"Ninsoare"</string>
+    <string name="pref_camera_scenemode_entry_sunset">"Apus de soare"</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">"Fotografie uniformă"</string>
+    <string name="pref_camera_scenemode_entry_fireworks">"Focuri de artificii"</string>
+    <string name="pref_camera_scenemode_entry_party">"Petrecere"</string>
+    <string name="pref_camera_scenemode_entry_candlelight">"Lumină lumânare"</string>
+    <string name="pref_restore_title">"Setările camerei foto"</string>
+    <string name="pref_restore_detail">"Restabiliţi valorile prestabilite"</string>
+    <string name="pref_exposure_title">"Expunere"</string>
+    <string name="details_ok">"OK"</string>
+    <string name="spaceIsLow_content" product="nosdcard">"Spaţiul de stocare USB este aproape ocupat. Editaţi setarea de calitate sau ştergeţi câteva imagini ori alte fişiere."</string>
+    <string name="spaceIsLow_content" product="default">"Cardul SD rămâne fără spaţiu de stocare. Editaţi setarea de calitate sau ştergeţi câteva imagini sau alte fişiere."</string>
+    <string name="video_reach_size_limit">"Dimensiune limită depăşită."</string>
+    <string name="zoom_control_title">"Zoom"</string>
+    <string name="switch_to_camera_lable">"Comutaţi la camera foto"</string>
+    <string name="switch_to_video_lable">"Comutaţi la camera video"</string>
+</resources>

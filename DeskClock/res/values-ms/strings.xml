@@ -1,0 +1,120 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">"Jam"</string>
+    <string name="alarm_list_title">"Penggera"</string>
+    <string name="add_alarm">Tambah penggera</string>
+    <string name="menu_desk_clock">"Jam meja"</string>
+    <string name="menu_edit_alarm">"Edit penggera"</string>
+    <string name="delete_alarm">Hapuskan penggera</string>
+    <string name="enable_alarm">"Hidupkan penggera"</string>
+    <string name="disable_alarm">"Matikan penggera"</string>
+    <string name="delete_alarm_confirm">Penggera ini akan dihapuskan.</string>
+    <string name="show_clock">Tunjuk jam</string>
+    <string name="hide_clock">Sembunyikan jam</string>
+    <string name="label">Label</string>
+    <string name="default_label">Penggera</string>
+    <string name="set_alarm">Tetapkan penggera</string>
+    <string name="alarm_vibrate">Bergetar</string>
+    <string name="alarm_repeat">Ulang</string>
+    <string name="alert">Nada dering</string>
+    <string name="time">"Masa"</string>
+    <string name="alarm_alert_dismiss_text">Ketepikan</string>
+    <string name="alarm_alert_alert_silenced">"Penggera disenyapkan selepas <xliff:g id="MINUTES">%d</xliff:g> minit"</string>
+    <string name="alarm_alert_snooze_text">Tunda penggera</string>
+    <string name="alarm_alert_snooze_set">"Tidur sekejap untuk <xliff:g id="MINUTES">%d</xliff:g> minit."</string>
+    <string name="alarm_alert_power_off">"Matikan kuasa"</string>
+    <string-array name="alarm_set">
+        <item>Penggera ini disetkan untuk kurang daripada 1 minit dari sekarang.</item>
+        <item>"Penggera ditetapkan pada <xliff:g id="DAYS">%1$s</xliff:g> dari sekarang."</item>
+        <item>"Penggera ditetapkan pada <xliff:g id="HOURS">%2$s</xliff:g> dari sekarang."</item>
+        <item>"Penggera ditetapkan pada <xliff:g id="DAYS">%1$s</xliff:g> dan <xliff:g id="HOURS">%2$s</xliff:g> dari sekarang."</item>
+        <item>"Penggera ditetapkan pada <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang."</item>
+        <item>"Penggera ditetapkan pada <xliff:g id="DAYS">%1$s</xliff:g> dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang."</item>
+        <item>"Penggera ditetapkan pada <xliff:g id="HOURS">%2$s</xliff:g> dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang."</item>
+        <item>"Penggera ditetapkan untuk <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g> dan <xliff:g id="MINUTES">%3$s</xliff:g> dari sekarang."</item>
+    </string-array>
+    <string name="day">"1 hari"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> hari"</string>
+    <string name="hour">1 jam</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g> jam"</string>
+    <string name="minute">"1 minit"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> minit"</string>
+    <string name="every_day">setiap hari</string>
+    <string name="never">Tidak sama sekali</string>
+    <string name="day_concat">", "</string>
+    <string name="clock_instructions">Pilih jam untuk dipaparkan.</string>
+    <string name="analog_gadget">Jam analog</string>
+    <string name="settings">Tetapan</string>
+    <string name="alarm_in_silent_mode_title">Penggera dalam mod diam</string>
+    <string name="alarm_in_silent_mode_summary">Mainkan penggera walaupun telefon dalam mod senyap</string>
+    <string name="snooze_duration_title">Tempoh tunda penggera</string>
+    <string-array name="snooze_duration_entries">
+      <item>5 mins</item>
+      <item>10 minit</item>
+      <item>"15 minit"</item>
+      <item>"20 minit"</item>
+      <item>"25 minit"</item>
+      <item>30 minit</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+      <item>"5"</item>
+      <item>"10"</item>
+      <item>"15"</item>
+      <item>"20"</item>
+      <item>"25"</item>
+      <item>"30"</item>
+    </string-array>
+    <string name="done">"Selesai"</string>
+    <string name="revert">Kembali ke keadaan asal</string>
+    <string name="delete">"Padam"</string>
+    <string name="alarm_volume_title">"Kelantangan penggera"</string>
+    <string name="alarm_volume_summary">Tetapkan kenyaringan penggera</string>
+    <string name="silent_alarm_summary">Senyap</string>
+    <string name="alarm_notify_text">Pilih untuk senyapkan sekejab atau ketepikan penggera ini.</string>
+    <string name="alarm_notify_snooze_label">"<xliff:g id="LABEL">%s</xliff:g> (ditidurkan sekejap)"</string>
+    <string name="alarm_notify_snooze_text">"Penggera ditetapkan pada <xliff:g id="TIME">%s</xliff:g>. Sentuh untuk membatalkan."</string>
+    <string name="volume_button_setting_title">"Butang kelantangan"</string>
+    <string name="volume_button_dialog_title">"Kesan butang"</string>
+    <string name="volume_button_setting_summary">"Tetapkan apa yang dilakukan butang ini apabila ditekan semasa penggera berbunyi"</string>
+    <string-array name="volume_button_setting_entries">
+      <item>"Tiada"</item>
+      <item>Tunda penggera</item>
+      <item>Ketepikan</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+      <item>"0"</item>
+      <item>"1"</item>
+      <item>"2"</item>
+    </string-array>
+    <string name="alarm_button_description">"Penggera"</string>
+    <string name="gallery_button_description">Galeri</string>
+    <string name="music_button_description">Muzik</string>
+    <string name="nightmode_button_description">"Malap"</string>
+    <string name="home_button_description">"Pelancar"</string>
+    <string name="desk_clock_button_description">"Paparan jam"</string>
+    <string name="battery_charging_level">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="weather_fetch_failure">Maklumat cuaca tidak tersedia sekarang.</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">"Tetapan dok"</string>
+    <string name="alarm_alread_exist">Penggera <xliff:g id="time">%s</xliff:g> telah wujud, sila tetapkan masa yang lain</string>
+    <string name="duration_title">Tempoh</string>
+    <string-array name="duration_entries">
+      <item>1 minit</item>
+      <item>2 minit</item>
+      <item>4 minit</item>
+      <item>6 minit</item>
+      <item>8 minit</item>
+      <item>10 minit</item>
+    </string-array>
+    <string-array name="duration_values">
+      <item>1</item>
+      <item>2</item>
+      <item>4</item>
+      <item>6</item>
+      <item>8</item>
+      <item>10</item>
+    </string-array>
+    <string name="alarm_klaxon_service_desc">Perkhidmatan main semula bunyi untuk penggera yang ditetapkan di dalam DeskClock.</string>
+    <string name="del_all">Hapuskan semua</string>
+    <string name="delete_all_alarm">Anda mahu hapuskan semua penggera?</string>
+</resources>

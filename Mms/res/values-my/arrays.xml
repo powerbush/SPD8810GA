@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_names">
+        <item>ေပ်ာ္တယ္</item>                   <!-- 0: :-) -->
+        <item>၀မ္းနည္းတယ္</item>                     <!-- 1: :-( -->
+        <item>မွိတ္တုတ္မွိတ္တုတ္ျဖစ္ျခင္း</item>                 <!-- 2: ;-) -->
+        <item>ေျပာင္ျပသည္</item>     <!-- 3: :-P -->
+        <item>အံ့အားသင့္သည္</item>               <!-- 4: =-O -->
+        <item>နမ္းျခင္း</item>                 <!-- 5: :-* -->
+        <item>ေအာ္ျခင္း</item>                 <!-- 6: :O -->
+        <item>မိုက္တယ္</item>                    <!-- 7: B-) -->
+        <item>ပိုက္ဆံအေၾကာင္းပဲအျမဲေျပာေနသည့္လူ</item>             <!-- 8: :-$ -->
+        <item>Foot in mouth ဆု</item>           <!-- 9: :-! -->
+        <item>႐ွက္သည္</item>             <!-- 10: :-[ -->
+        <item>Angel</item>                   <!-- 11: O:-) -->
+        <item>မဆံုးျဖတ္ရေသး</item>               <!-- 12: :-\\ -->
+        <item>ငိုေနသည္</item>                  <!-- 13: :\'( -->
+        <item>ဘာမွေျပာမည္မဟုတ္</item>         <!-- 14: :-X -->
+        <item>ရယ္ေမာျခင္း</item>                <!-- 15: :-D -->
+        <item>႐ႈပ္ေထြးေနသည္</item>                <!-- 16: o_O -->
+    </string-array>
+</resources>

@@ -1,0 +1,982 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="contactsIconLabel">"Kenalan"</string>
+    <string name="contactsFavoritesLabel">"Favorit"</string>
+    <string name="dialerIconLabel">"Aplikasi Telepon"</string>
+    <string name="emergencyDialerIconLabel">"Aplikasi Telepon Darurat"</string>
+    <string name="phoneIconLabel">"Telepon"</string>
+    <string name="recentCallsIconLabel">"Log panggilan"</string>
+    <string name="fdnListLabel">"Daftar FDN"</string>
+    <string name="unknown">"Tidak diketahui"</string>
+    <string name="private_num">"Nomor pribadi"</string>
+    <string name="payphone">"Telepon umum"</string>
+    <string name="onHold">"Ditangguhkan"</string>
+    <string name="ongoing">"Panggilan saat ini"</string>
+    <string name="callFailed_userBusy">"Jalur sibuk"</string>
+    <string name="callFailed_congestion">"Jaringan sibuk"</string>
+    <string name="callFailed_timedOut">"Tidak ada jawaban, waktu habis"</string>
+    <string name="callFailed_server_unreachable">"Server tidak dapat dijangkau"</string>
+    <string name="callFailed_number_unreachable">"Nomor tidak dapat dijangkau"</string>
+    <string name="callFailed_invalid_credentials">"Nama pengguna atau sandi salah"</string>
+    <string name="callFailed_out_of_network">"dipanggil dari luar jaringan"</string>
+    <string name="callFailed_server_error">"Galat Server: Coba lagi nanti."</string>
+    <string name="callFailed_noSignal">"Tidak ada sinyal"</string>
+    <string name="callFailed_limitExceeded">"ACM melebihi batas"</string>
+    <string name="callFailed_powerOff">"Radio mati"</string>
+    <string name="callFailed_simError">"Tidak ada SIM, atau SIM salah"</string>
+    <string name="callFailed_outOfService">"Di luar area layanan"</string>
+    <string name="callFailed_fdn_only">"Panggilan keluar dibatasi oleh FDN."</string>
+    <string name="callFailed_cb_enabled">"Anda tidak dapat melakukan panggilan keluar sewaktu pemblokiran panggilan aktif."</string>
+    <string name="callFailed_dsac_restricted">"Semua panggilan dibatasi oleh kontrol akses."</string>
+    <string name="callFailed_dsac_restricted_emergency">"Panggilan darurat dibatasi oleh kontrol akses."</string>
+    <string name="callFailed_dsac_restricted_normal">"Panggilan normal dibatasi oleh kontrol akses."</string>
+    <string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: Perangkat dikunci sampai siklus daya."</string>
+    <string name="callFailed_cdma_drop">"CDMA: Panggilan terputus."</string>
+    <string name="callFailed_cdma_intercept">"CDMA: Panggilan terganggu."</string>
+    <string name="callFailed_cdma_reorder">"CDMA: pengaturan urutan."</string>
+    <string name="callFailed_cdma_SO_reject">"CDMA: Penolakan Opsi Layanan."</string>
+    <string name="callFailed_cdma_retryOrder">"CDMA: urutan coba kembali."</string>
+    <string name="callFailed_cdma_accessFailure">"CDMA: Kegagalan akses."</string>
+    <string name="callFailed_cdma_preempted">"CDMA: Dihalangi."</string>
+    <string name="callFailed_cdma_notEmergency">"Hanya panggilan Darurat yang dapat dilakukan."</string>
+    <string name="callFailed_unobtainable_number">"Nomor Tidak Valid"</string>
+    <string name="confCall">"Telewicara"</string>
+    <string name="call_lost">"Panggilan telah terputus."</string>
+    <string name="retry">"Coba Lagi"</string>
+    <string name="call_lost_title">"Panggilan Terputus"</string>
+    <string name="mmiStarted">"Kode MMI dimulai"</string>
+    <string name="ussdRunning">"Kode USSD sedang berjalan…"</string>
+    <string name="mmiCancelled">"Kode MMI dibatalkan"</string>
+    <string name="cancel">"Batal"</string>
+    <string name="menu_speaker">"Pengeras Suara"</string>
+    <string name="menu_bluetooth">"Bluetooth"</string>
+    <string name="menu_mute">"Bisukan"</string>
+    <string name="menu_hold">"Tahan"</string>
+    <string name="menu_endCall">"Akhiri panggilan"</string>
+    <string name="menu_swapCalls">"Tukar panggilan"</string>
+    <string name="menu_mergeCalls">"Gabungkan panggilan"</string>
+    <string name="menu_phoneRecorder">Record</string>
+    <string name="menu_addCall">"Tambahkan panggilan"</string>
+    <string name="menu_manageConference">"Kelola telewicara"</string>
+    <string name="menu_showDialpad">"Tampilkan dialpad"</string>
+    <string name="menu_hideDialpad">"Sembunyikan dialpad"</string>
+    <string name="menu_answerAndHold">"Tahan panggilan terkini"\n"&amp; jawab"</string>
+    <string name="menu_answerAndEnd">"Akhiri panggilan terkini"\n"&amp; jawab"</string>
+    <string name="ok">OK</string>
+    <string name="menuButtonHint">"Tekan Menu untuk opsi panggilan."</string>
+    <string name="menuButtonKeyboardDialHint">"Tekan Menu untuk opsi panggilan • Gunakan keyboard untuk melakukan panggilan"</string>
+    <string name="menu_answer">"Jawab"</string>
+    <string name="menu_ignore">"Abaikan"</string>
+    <string name="wait_prompt_str">"Kirimkan nada berikut?"\n</string>
+    <string name="pause_prompt_str">"Mengirim Nada"\n</string>
+    <string name="send_button">"Kirimkan"</string>
+    <string name="pause_prompt_yes">"Ya"</string>
+    <string name="pause_prompt_no">"Tidak"</string>
+    <string name="wild_prompt_str">"Ganti karakter acak dengan"</string>
+    <string name="no_vm_number">"Nomor kotak pesan hilang"</string>
+    <string name="no_vm_number_msg">"Tidak ada nomor kotak pesan tersimpan pada kartu SIM."</string>
+    <string name="add_vm_number_str">"Tambahkan nomor"</string>
+    <string name="dialer_emptyListWorking">"Memuat…"</string>
+    <string name="enterPin">"Ketikkan kode PIN untuk membuka kartu SIM."</string>
+    <string name="pinUnlocked">"SIM tidak terkunci"</string>
+    <string name="enterNewPin">"Kode PIN SIM baru"</string>
+    <string name="verifyNewPin">"Ketikkan kode PIN SIM baru untuk mengonfirmasi"</string>
+    <string name="verifyFailed">"PIN SIM yang Anda ketikkan tidak sesuai. Harap coba lagi."</string>
+    <string name="enterPuk">"Ketikkan kode PIN untuk membuka kartu SIM"</string>
+    <string name="badPuk">"Kode PUK salah!"</string>
+    <string name="buttonTxtContinue">"Lanjutkan"</string>
+    <string name="puk_unlocked">"Kartu SIM Anda tidak lagi dicekal. Ponsel Anda sedang dibuka kuncinya..."</string>
+    <string name="label_ndp">"PIN pembuka kunci jaringan SIM"</string>
+    <string name="sim_ndp_unlock_text">"Buka kunci"</string>
+    <string name="sim_ndp_dismiss_text">"Tolak"</string>
+    <string name="requesting_unlock">"Meminta membuka jaringan..."</string>
+    <string name="unlock_failed">"Permintaan buka kunci jaringan gagal."</string>
+    <string name="unlock_success">"Jaringan berhasil dibuka."</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="labelGSMMore">"Setelan panggilan GSM"</string>
+    <string name="labelCDMAMore">"Setelan panggilan CDMA"</string>
+    <string name="apn_settings">"Access Point Names (Nama Titik Akses)"</string>
+    <string name="settings_label">"Setelan jaringan"</string>
+    <string name="voicemail">"Kotak Pesan"</string>
+    <string name="voicemail_abbreviated">"VM:"</string>
+    <string name="networks">"Operator jaringan"</string>
+    <string name="call_settings">"Setelan panggilan"</string>
+    <string name="additional_gsm_call_settings">"Setelan tambahan"</string>
+    <string name="sum_gsm_call_settings">"Setelan panggilan khusus GSM tambahan"</string>
+    <string name="additional_cdma_call_settings">"Setelan panggilan CDMA tambahan"</string>
+    <string name="sum_cdma_call_settings">"Setelan panggilan khusus CDMA tambahan"</string>
+    <string name="labelNwService">"Setelan layanan jaringan"</string>
+    <string name="labelCallerId">"Nomor Penelepon"</string>
+    <string name="sum_hide_caller_id">"Nomor disembunyikan selama panggilan keluar"</string>
+    <string name="sum_show_caller_id">"Nomor ditampilkan selama panggilan keluar"</string>
+    <string name="sum_default_caller_id">"Gunakan setelan operator bawaan untuk menampilkan nomor saya pada panggilan keluar"</string>
+    <string name="labelCW">"Nada tunggu"</string>
+    <string name="sum_cw_enabled">"Selama panggilan, beritahukan panggilan masuk kepada saya"</string>
+    <string name="sum_cw_disabled">"Selama panggilan, beritahukan panggilan masuk kepada saya"</string>
+    <string name="call_forwarding_settings">"Setelan penerusan panggilan"</string>
+    <string name="call_barring_settings">"Pengaturan pemblokiran panggilan"</string>
+    <string name="labelCF">"Penerusan panggilan"</string>
+    <string name="labelCB">"Pemblokiran panggilan"</string>
+    <string name="labelCFU">"Selalu teruskan"</string>
+    <string name="messageCFU">"Selalu gunakan nomor ini"</string>
+    <string name="sum_cfu_enabled_indicator">"Meneruskan semua panggilan"</string>
+    <string name="sum_cfu_enabled">"Meneruskan semua panggilan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfu_enabled_no_number">"Nomor tidak tersedia"</string>
+    <string name="sum_cfu_disabled">"Dinonaktifkan"</string>
+    <string name="labelCFB">"Teruskan ketika sibuk"</string>
+    <string name="messageCFB">"Nomor ketika sibuk"</string>
+    <string name="sum_cfb_enabled">"Meneruskan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfb_disabled">"Dinonaktifkan"</string>
+    <string name="disable_cfb_forbidden">"Operator Anda tidak mendukung penonaktifan penerusan panggilan ketika ponsel Anda sibuk."</string>
+    <string name="labelCFNRy">"Teruskan ketika tidak dijawab"</string>
+    <string name="messageCFNRy">"Nomor ketika tidak dapat dihubungi"</string>
+    <string name="sum_cfnry_enabled">"Meneruskan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnry_disabled">"Dinonaktifkan"</string>
+    <string name="disable_cfnry_forbidden">"Operator Anda tidak mendukung penonaktifan penerusan panggilan ketika ponsel Anda tidak menerima panggilan."</string>
+    <string name="labelCFNRc">"Teruskan ketika tidak dapat dihubungi"</string>
+    <string name="messageCFNRc">"Nomor ketika tidak dapat dihubungi"</string>
+    <string name="sum_cfnrc_enabled">"Meneruskan ke <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnrc_disabled">"Dinonaktifkan"</string>
+    <string name="disable_cfnrc_forbidden">"Operator Anda tidak mendukung penonaktifan penerusan panggilan ketika ponsel Anda tidak dapat dijangkau."</string>
+    <string name="network_wrong" msgid="">"Respon tak terduga dari jaringan"</string>
+    <string name="number_empty" msgid="">"Nomor kosong"</string>
+    <string name="cb_pw_error" msgid="">"Kata sandi tidak benar"</string>
+    <string name="cb_pw_correct" msgid="">"Kata sandi telah diubah"</string>
+    <string name="cb_pw_no_match" msgid="">"Kata sandi tidak cocok"</string>
+    <string name="labelAO">"Semua yang keluar"</string>
+    <string name="messageAO">"Masukkan kata sandi pembatas telepon."</string>
+    <string name="sum_ao_enabled_indicator">"Meneruskan semua panggilan"</string>
+    <string name="sum_ao_enabled">"Aktifkan"</string>
+    <string name="sum_ao_disabled">"Nonaktif"</string>
+    <string name="enable_ao_forbidden">"Operator Anda tidak mendukung mengaktifkan pembatasan semua panggilan keluar."</string>
+    <string name="disable_ao_forbidden">"Operator Anda tidak mendukung penonaktifan pembatasan semua panggilan keluar."</string>
+    <string name="labelOI">"Panggilan keluar internasional"</string>
+    <string name="messageOI">"Masukkan kata sandi pembatas telepon."</string>
+    <string name="sum_oi_enabled">"Aktifkan"</string>
+    <string name="sum_oi_disabled">"Nonaktif"</string>
+    <string name="enable_oi_forbidden">"Operator Anda tidak mendukung mengaktifkan pembatasan semua panggilan internasional keluar."</string>
+    <string name="disable_oi_forbidden">"Operator Anda tidak mendukung penonaktifan pembatasan panggilan keluar internasional."</string>
+    <string name="labelOX">"Roaming panggilan keluar internasional"</string>
+    <string name="messageOX">"Masukkan kata sandi pembatas telepon."</string>
+    <string name="sum_ox_enabled">"Aktifkan"</string>
+    <string name="sum_ox_disabled">"Nonaktif"</string>
+    <string name="enable_ox_forbidden">"Operator Anda tidak mendukung mengaktifkan pembatasan semua panggilan roaming internasional keluar."</string>
+    <string name="disable_ox_forbidden">"Operator Anda tidak mendukung penonaktifan pembatasan panggilan keluar pada saat roaming."</string>
+    <string name="labelAI">"Semua yang masuk"</string>
+    <string name="messageAI">"Masukkan kata sandi pembatas telepon."</string>
+    <string name="sum_ai_enabled">"Aktifkan"</string>
+    <string name="sum_ai_disabled">"Nonaktif"</string>
+    <string name="enable_ai_forbidden">"Operator Anda tidak mendukung mengaktifkan pembatasan semua panggilan masuk."</string>
+    <string name="disable_ai_forbidden">"Operator Anda tidak mendukung penonaktifan pembatasan semua panggilan masuk."</string>
+    <string name="labelIR">Panggilan masuk ketika roaming</string>
+    <string name="messageIR">"Masukkan kata sandi pembatas telepon."</string>
+    <string name="sum_ir_enabled">"Aktifkan"</string>
+    <string name="sum_ir_disabled">"Nonaktif"</string>
+    <string name="enable_ir_forbidden">"Operator Anda tidak mendukung mengaktifkan pembatasan semua panggilan masuk saat roaming."</string>
+    <string name="disable_ir_forbidden">"Operator Anda tidak mendukung penonaktifan pembatasan panggilan masuk pada saat roaming."</string>
+    <string name="labelAB">"Matikan semua"</string>
+    <string name="messageAB">"Masukkan kata sandi pembatas telepon."</string>
+    <string name="sum_ab_enabled">"Aktifkan"</string>
+    <string name="sum_ab_disabled">"Nonaktif"</string>
+    <string name="enable_ab_forbidden">"Operator Anda tidak mendukung penonaktifan semua."</string>
+    <string name="disable_ab_forbidden">"Operator Anda tidak mendukung pengaktifan semua."</string>
+    <string name="labelChgPwd">Ganti kata sandi</string>
+    <string name="DlgChgPwd_oldpwd">"Masukkan kata sandi pembatas telepon."</string>
+    <string name="DlgChgPwd_newpwd_first">"Masukkan kata sandi baru"</string>
+    <string name="DlgChgPwd_newpwd_last">Konfirmasi kata sandi baru</string>
+    <string name="updating_title">"Setelan panggilan"</string>
+    <string name="error_updating_title">"Galat setelan panggilan"</string>
+    <string name="reading_settings">"Membaca setelan…"</string>
+    <string name="updating_settings">"Memperbarui setelan…"</string>
+    <string name="reverting_settings">"Mengembalikan setelan..."</string>
+    <string name="response_error">"Tanggapan tak terduga dari jaringan."</string>
+    <string name="exception_error">"Kesalahan jaringan atau kartu SIM."</string>
+    <string name="fdn_only_error">"Operasi hanya diizinkan pada nomor panggilan tetap."</string>
+    <string name="radio_off_error">"Hidupkan radio sebelum melihat setelan ini."</string>
+    <string name="close_dialog">"OK"</string>
+    <string name="enable">"Aktifkan"</string>
+    <string name="disable">"Nonaktifkan"</string>
+    <string name="change_num">"Perbarui"</string>
+    <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
+        <item>"Setelan bawaan jaringan"</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
+        <item>"Sembunyikan nomor"</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
+        <item>"Tampilkan nomor"</item>
+    </string-array>
+    <string-array name="clir_values">
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>STANDAR</xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>SEMBUNYIKAN</xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>TUNJUKAN</xliff:g></item>
+    </string-array>
+    <string name="vm_save_number">"Simpan nomor kotak pesan"</string>
+    <string name="vm_changed">"Nomor kotak pesan berubah."</string>
+    <string name="vm_change_failed">"Perubahan nomor kotak pesan tidak berhasil."\n"Harap hubungi operator jika masalah tetap ada."</string>
+    <string name="fw_change_failed">"Perubahan penerusan nomor gagal."\n"Harap hubungi operator Anda jika masalah tetap ada."</string>
+    <string name="fw_get_in_vm_failed">"Gagal menarik dan menyimpan setelan nomor terusan terkini."\n"Apakah Anda tetap ingin beralih ke penyedia jasa baru?"</string>
+    <string name="no_change">"Tidak ada perubahan yang dilakukan."</string>
+    <string name="sum_voicemail_choose_provider">"Pilih layanan kotak pesan"</string>
+    <string name="voicemail_default">"Operator Anda"</string>
+    <string name="mobile_networks">"Setelan jaringan seluler"</string>
+    <string name="mobile_networks_sim1">SIM1</string>
+    <string name="mobile_networks_sim2">SIM2</string>
+    <string name="mobile_networks_other">"Lainnya"</string>
+    <string name="label_available">"Jaringan yang tersedia"</string>
+    <string name="label_available_sim1">"Jaringan tersedia SIM1 "</string>
+    <string name="label_available_sim2">"Jaringan tersedia SIM2 "</string>
+    <string name="load_networks_progress">"Menelusuri…"</string>
+    <string name="empty_networks_list">"Jaringan tidak ditemukan."</string>
+    <string name="search_networks">"Telusuri jaringan"</string>
+    <string name="network_query_error">"Galat ketika menelusuri jaringan."</string>
+    <string name="register_on_network">"Mendaftarkan pada <xliff:g id="NETWORK">%s</xliff:g>…"</string>
+    <string name="not_allowed">"Kartu SIM Anda tidak mengizinkan sambungan ke jaringan ini."</string>
+    <string name="connect_later">"Saat ini tidak dapat menyambung ke jaringan. Coba lagi nanti."</string>
+    <string name="registration_done">"Terdaftar pada jaringan."</string>
+    <string name="sum_carrier_select">"Pilih operator jaringan"</string>
+    <string name="sum_search_networks">"Telusuri semua jaringan yang tersedia"</string>
+    <string name="select_automatically">"Pilih secara otomatis"</string>
+    <string name="sum_select_automatically">"Memilih jaringan yang disukai secara otomatis"</string>
+    <string name="register_automatically">"Pendaftaran otomatis..."</string>
+    <string name="preferred_network_mode_title">"Mode Jaringan"</string>
+    <string name="preferred_network_mode_summary">"Ubah mode pengoperasian jaringan"</string>
+    <string name="preferred_network_mode_dialogtitle">"Mode jaringan yang disukai"</string>
+    <string-array name="preferred_network_mode_choices">
+        <!-- <item>Global</item> -->
+        <!-- <item>EvDo only</item> -->
+        <!-- <item>CDMA w/o EvDo</item> -->
+        <!-- <item>CDMA / EvDo auto</item> -->
+        <!-- <item>GSM / WCDMA auto</item> -->
+        <!-- <item>WCDMA only</item> -->
+        <!-- <item>GSM only</item> -->
+        <!-- <item>GSM / WCDMA preferred</item> -->
+        <item>"Global"</item>
+        <item>"EvDo saja"</item>
+        <item>"CDMA tanpa EvDo"</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <!-- <item>"7"</item> -->
+        <!-- <item>"6"</item> -->
+        <!-- <item>"5"</item> -->
+        <!-- <item>"4"</item> -->
+        <!-- <item>"3"</item> -->
+        <item>"7"</item>
+        <item>"6"</item>
+        <item>"5"</item>
+    </string-array>
+    <string name="data_enabled">"Data diaktifkan"</string>
+    <string name="data_enable_summary">"Aktifkan akses data pada jaringan Seluler"</string>
+    <string name="roaming">"Data roaming"</string>
+    <string name="roaming_enable">"Sambungkan ke layanan data ketika roaming"</string>
+    <string name="roaming_disable">"Sambungkan ke layanan data ketika roaming"</string>
+    <string name="roaming_reenable_message">"Anda telah kehilangan konektivitas data karena data roaming pada jaringan utama Anda biarkan dalam keadaan mati."</string>
+    <string name="roaming_warning">"Izinkan data roaming? Anda mungkin dikenai tarif jelajah yang tinggi!"</string>
+    <string name="gsm_umts_options">"Opsi GSM//UMTS"</string>
+    <string name="cdma_options">"Opsi CDMA"</string>
+    <string name="throttle_data_usage">"Penggunaan data"</string>
+    <string name="throttle_settings_title">"Kebijakan data operator"</string>
+    <string name="throttle_current_usage">"Data yang digunakan dalam periode saat ini"</string>
+    <string name="throttle_time_frame">"Periode penggunaan data"</string>
+    <string name="throttle_rate">"Kebijakan kecepatan data"</string>
+    <string name="throttle_help">"Pelajari lebih lanjut"</string>
+    <string name="throttle_status_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) dari <xliff:g id="USED_2">%3$s</xliff:g> maksimum periode "\n"Periode berikutnya dimulai dalam <xliff:g id="USED_3">%4$d</xliff:g> hari (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) dari <xliff:g id="USED_2">%3$s</xliff:g> maksimum periode"</string>
+    <string name="throttle_data_rate_reduced_subtext">"Melebihi batas maksimum <xliff:g id="USED_0">%1$s</xliff:g>"\n"Kecepatan data dikurangi hingga <xliff:g id="USED_1">%2$d</xliff:g> Kb/s"</string>
+    <string name="throttle_time_frame_subtext">"<xliff:g id="USED_0">%1$d</xliff:g>٪ dari siklus yang berlalu"\n"Periode berikutnya dimulai dalam <xliff:g id="USED_1">%2$d</xliff:g> hari (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string name="throttle_rate_subtext">"Kecepatan data dikurangi menjadi <xliff:g id="USED">%1$d</xliff:g> Kb/s jika penggunaan data melebihi batas"</string>
+    <string name="throttle_help_subtext">"Informasi selengkapnya tentang kebijakan penggunaan data jaringan seluler operator Anda"</string>
+    <string name="cdma_cell_broadcast_sms">"SMS Siaran Sel"</string>
+    <string name="cell_broadcast_sms">"SMS Siaran Sel"</string>
+    <string name="enable_disable_cell_bc_sms">"SMS Siaran Sel"</string>
+    <string name="cell_bc_sms_enable">"Setelan SMS Siaran Sel diaktifkan"</string>
+    <string name="cell_bc_sms_disable">"SMS Siaran Sel dinonaktifkan"</string>
+    <string name="cb_sms_settings">"Setelan SMS Siaran Sel"</string>
+    <string name="channel_list">"Daftar saluran"</string>
+    <string name="refreshing">"Segarkan..."</string>
+    <string name="channel_name">Nama saluran</string>
+    <string name="channel_number">"Nomor saluran"</string>
+    <string name="info_input_channel_number">Silahkan masukan nomor saluran</string>
+    <string name="info_input_channel_number_num">Silahkan masukan nomor saja</string>
+    <string name="menu_add_channel">"Tambahkan saluran"</string>
+    <string name="text_mode">"Modus teks"</string>
+    <string name="pdu_mode">"Modus Pdu"</string>
+    <string name="get_cb_config">"Dapatkan konfigurasi CB"</string>
+    <string name="menu_add_address_to_contacts">"Tambahkan <xliff:g id="NAME">%s</xliff:g> ke Kenalan"</string>
+    <string name="edit">Ubah  </string>
+    <string name="menu_delete_channel">"Hapus"</string>
+    <string name="no">"Batal"</string>
+    <string name="confirm_dialog_title">"Hapus"</string>
+    <string name="confirm_delete_message">"Pesan akan dihapus."</string>
+    <string name="enable_disable_emergency_broadcast">"Siaran Darurat"</string>
+    <string name="emergency_broadcast_enable">"Siaran Darurat diaktifkan"</string>
+    <string name="emergency_broadcast_disable">"Siaran Darurat dinonaktifkan"</string>
+    <string name="enable_disable_administrative">"Administratif"</string>
+    <string name="administrative_enable">"Administratif diaktifkan"</string>
+    <string name="administrative_disable">"Administratif dinonaktifkan"</string>
+    <string name="enable_disable_maintenance">"Pemeliharaan"</string>
+    <string name="maintenance_enable">"Pemeliharaan diaktifkan"</string>
+    <string name="maintenance_disable">"Perawatan dinonaktifkan"</string>
+    <string name="general_news_settings">"Berita Umum"</string>
+    <string name="bf_news_settings">"Bisnis dan Berita Keuangan"</string>
+    <string name="sports_news_settings">"Berita Olahraga"</string>
+    <string name="entertainment_news_settings">"Berita Hiburan"</string>
+    <string name="enable_disable_local">"Lokal"</string>
+    <string name="local_enable">"Berita Lokal diaktifkan"</string>
+    <string name="local_disable">"Berita lokal dinonakifkan"</string>
+    <string name="enable_disable_regional">"Regional"</string>
+    <string name="regional_enable">"Berita Regional diaktifkan"</string>
+    <string name="regional_disable">"Berita Regional dinonakifkan"</string>
+    <string name="enable_disable_national">"Nasional"</string>
+    <string name="national_enable">"Berita nasional diaktifkan"</string>
+    <string name="national_disable">"Berita nasional dinonaktifkan"</string>
+    <string name="enable_disable_international">"Internasional"</string>
+    <string name="international_enable">"Berita internasional diaktifkan"</string>
+    <string name="international_disable">"Berita internasional dinonakifkan"</string>
+    <string name="list_language_title">"Bahasa"</string>
+    <string name="list_language_summary">"Pilih bahasa berita"</string>
+    <string name="broadcast">"SMS Siaran Sel"</string>
+    <string name="menu_cellbroadcastsms">Siaran cell</string>
+    <string name="language_eng">Inggris</string>
+    <string name="language_fren">Bhs Perancis</string>
+    <string name="language_spanish">Bhs Spanyol</string>
+    <string name="language_japanese">Bahasa Jepang</string>
+    <string name="language_korean">"Korea"</string>
+    <string name="language_chinese">Bahasa Mandarin</string>
+    <string name="language_hebrew">Bhs Ibrani</string>
+    <string name="same_setting">"Atur ulang saluran ID, ini sama dengan nama saluran"</string>
+    <string-array name="list_language_entries">
+        <item>"Inggris"</item>
+        <item>"Prancis"</item>
+        <item>"Spanyol"</item>
+        <item>"Jepang"</item>
+        <item>"Korea"</item>
+        <item>"Bahasa China"</item>
+        <item>"Ibrani"</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">"Bahasa"</string>
+    <string name="enable_disable_local_weather">"Cuaca Lokal"</string>
+    <string name="local_weather_enable">"Cuaca Lokal diaktifkan"</string>
+    <string name="local_weather_disable">"Cuaca Lokal dinonakifkan"</string>
+    <string name="enable_disable_atr">"Laporan Lalu Lintas Daerah"</string>
+    <string name="atr_enable">"Laporan Lalu Lintas Daerah diaktifkan"</string>
+    <string name="atr_disable">"Laporan Lalu Lintas Daerah dinonaktifkan"</string>
+    <string name="enable_disable_lafs">"Jadwal Penerbangan Bandara Lokal"</string>
+    <string name="lafs_enable">"Jadwal Penerbangan Bandara Lokal diaktifkan"</string>
+    <string name="lafs_disable">"Jadwal Penerbangan Bandara Lokal dinonaktifkan"</string>
+    <string name="enable_disable_restaurants">"Restoran"</string>
+    <string name="restaurants_enable">"Restoran diaktifkan"</string>
+    <string name="restaurants_disable">"Restoran dinonaktifkan"</string>
+    <string name="enable_disable_lodgings">"Penginapan"</string>
+    <string name="lodgings_enable">"Penginapan diaktifkan"</string>
+    <string name="lodgings_disable">"Penginapan dinonaktifkan"</string>
+    <string name="enable_disable_retail_directory">"Direktori Pengecer"</string>
+    <string name="retail_directory_enable">"Direktori Pengecer diaktifkan"</string>
+    <string name="retail_directory_disable">"Direktori Pengecer dinonaktifkan"</string>
+    <string name="enable_disable_advertisements">"Iklan"</string>
+    <string name="advertisements_enable">"Iklan diaktifkan"</string>
+    <string name="advertisements_disable">"Iklan dinonaktifkan"</string>
+    <string name="enable_disable_stock_quotes">"Kutipan Saham"</string>
+    <string name="stock_quotes_enable">"Kutipan Saham diaktifkan"</string>
+    <string name="stock_quotes_disable">"Kutipan Saham dinonaktifkan"</string>
+    <string name="enable_disable_eo">"Peluang Kerja"</string>
+    <string name="eo_enable">"Peluang Kerja diaktifkan"</string>
+    <string name="eo_disable">"Peluang Kerja dinonaktifkan"</string>
+    <string name="enable_disable_mhh">"Medis, Kesehatan, dan Rumah Sakit"</string>
+    <string name="mhh_enable">"Medis, Kesehatan, dan Rumah Sakit diaktifkan"</string>
+    <string name="mhh_disable">"Medis, Kesehatan, dan Rumah Sakit dinonaktifkan"</string>
+    <string name="enable_disable_technology_news">"Berita Teknologi"</string>
+    <string name="technology_news_enable">"Berita Teknologi diaktifkan"</string>
+    <string name="technology_news_disable">"Berita Teknologi dinonaktifkan"</string>
+    <string name="enable_disable_multi_category">"Multi-kategori"</string>
+    <string name="multi_category_enable">"Multi-kategori diaktifkan"</string>
+    <string name="multi_category_disable">"Multi-kategori dinonaktifkan"</string>
+    <string name="cell_broadcast_empty">"Tidak ada informasi saluran!"</string>
+    <string name="gsm_umts_network_preferences_title">"Preferensi Jaringan GSM//UMTS"</string>
+    <string name="gsm_umts_network_preferneces_summary">"Belum diimplementasikan!"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Preferensi jaringan GSM//UMTS"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"GSM /WCDMA (mode otomatis)"</item>
+        <item>"WCDMA saja"</item>
+        <item>"GSM saja"</item>
+        <item>"GSM/WCDMA (WCDMA yang disukai)"</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+    <string name="prefer_2g">"Jaringan 2G saja"</string>
+    <string name="prefer_2g_summary">"Menghemat baterai"</string>
+    <string name="cdma_system_select_title">"Pilih sistem"</string>
+    <string name="cdma_system_select_summary">"Ubah mode roaming cdma"</string>
+    <string name="cdma_system_select_dialogtitle">"Pilih sistem"</string>
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>"Utama saja"</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
+        <item>"Otomatis"</item>
+    </string-array>
+    <string name="cdma_roaming_mode_title">"Mode Roaming CDMA"</string>
+    <string name="cdma_roaming_mode_summary">"Ubah mode roaming cdma"</string>
+    <string name="cdma_roaming_mode_dialogtitle">"Mode roaming CDMA"</string>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>"Jaringan Utama Saja"</item>
+        <item>"Jaringan Berafiliasi"</item>
+        <item>"Jaringan Manapun"</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_network_preferences_title">"Preferensi Jaringan CDMA"</string>
+    <string name="cdma_network_preferneces_summary">"Belum diimplementasikan!"</string>
+    <string name="cdma_network_preferences_dialogtitle">"Preferensi jaringan CDMA"</string>
+    <string-array name="cdma_network_preferences_choices">
+        <item>"CDMA/EvDo"</item>
+        <item>"CDMA saja"</item>
+        <item>"EvDo saja"</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_subscription_title">"Langganan CDMA"</string>
+    <string name="cdma_subscription_summary">"Ubah antara RUIM/SIM dan NV"</string>
+    <string name="cdma_subscription_dialogtitle">"langganan"</string>
+    <string-array name="cdma_subscription_choices">
+        <item>"RUIM//SIM"</item>
+        <item>"NV"</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <string name="fdn">"Nomor Panggilan Tetap"</string>
+    <string name="manage_fdn_list">"Daftar FDN"</string>
+    <string name="fdn_activation">"Aktivasi FDN"</string>
+    <string name="fdn_enabled">"Nomor Panggilan Tetap diaktifkan"</string>
+    <string name="fdn_disabled">"Nomor Panggilan Tetap dinonaktifkan"</string>
+    <string name="enable_fdn">"Aktifkan FDN"</string>
+    <string name="disable_fdn">"Nonaktifkan FDN"</string>
+    <string name="change_pin2">"Ubah PIN2"</string>
+    <string name="enable_fdn_ok">"Nonaktifkan FDN"</string>
+    <string name="disable_fdn_ok">"Aktifkan FDN"</string>
+    <string name="sum_fdn">"Kelola Nomor Panggilan Tetap"</string>
+    <string name="sum_fdn_change_pin">"Ubah PIN untuk akses FDN"</string>
+    <string name="sum_fdn_manage_list">"Kelola daftar nomor telepon"</string>
+    <string name="voice_privacy">"Privasi Suara"</string>
+    <string name="voice_privacy_summary">"Aktifkan mode privasi yang ditingkatkan"</string>
+    <string name="tty_mode_title">"Mode TTY"</string>
+    <string name="tty_mode_summary">"Aktifkan mode TTY"</string>
+    <string name="tty_mode_option_title">"Mode TTY"</string>
+    <string name="tty_mode_option_summary">"Setel Mode TTY"</string>
+    <string name="auto_retry_mode_title">"Coba Lagi Otomatis"</string>
+    <string name="auto_retry_mode_summary">"Aktifkan mode Coba Lagi Otomatis"</string>
+    <string name="menu_add">"Tambahkan kenalan"</string>
+    <string name="menu_edit">"Edit data kenalan"</string>
+    <string name="menu_delete">"Hapus kenalan"</string>
+    <string name="get_pin2">"Masukkan PIN2"</string>
+    <string name="name">"Nama"</string>
+    <string name="number">"Nomor"</string>
+    <string name="save">"Simpan"</string>
+    <string name="add_fdn_contact">"Tambahkan nomor panggilan tetap"</string>
+    <string name="adding_fdn_contact">"Menambahkan nomor panggilan tetap..."</string>
+    <string name="fdn_contact_added">"Nomor panggilan tetap ditambahkan."</string>
+    <string name="edit_fdn_contact">"Edit nomor panggilan tetap"</string>
+    <string name="updating_fdn_contact">"Memperbarui nomor panggilan tetap..."</string>
+    <string name="fdn_contact_updated">"Nomor panggilan tetap diperbarui."</string>
+    <string name="delete_fdn_contact">"Hapus nomor panggilan tetap"</string>
+    <string name="deleting_fdn_contact">"Menghapus nomor panggilan tetap..."</string>
+    <string name="fdn_contact_deleted">"Nomor panggilan tetap dihapus."</string>
+    <string name="pin2_invalid">"FDN tidak diperbarui: Anda memasukkan PIN yang salah."</string>
+    <string name="fdn_invalid_number">"FDN tidak diperbarui: angka tidak boleh lebih dari 20 digit."</string>
+    <string name="simContacts_emptyLoading">"Membaca dari kartu SIM…"</string>
+    <string name="simContacts_empty">"Tidak ada data kenalan pada Kartu SIM."</string>
+    <string name="simContacts_title">"Pilih kenalan untuk diimpor"</string>
+    <string name="enable_pin">"Aktifkan/nonaktifkan PIN SIM"</string>
+    <string name="change_pin">"Ubah PIN SIM"</string>
+    <string name="enter_pin_text">"PIN SIM:"</string>
+    <string name="oldPinLabel">"PIN lama"</string>
+    <string name="newPinLabel">"PIN Baru"</string>
+    <string name="confirmPinLabel">"Konfirmasi PIN baru"</string>
+    <string name="badPin">"PIN lama yang Anda masukkan salah. Harap coba lagi."</string>
+    <string name="mismatchPin">"PIN yang Anda masukkan tidak sesuai. Harap coba lagi."</string>
+    <string name="invalidPin">"Ketikkan PIN berupa 4 sampai 8 angka."</string>
+    <string name="disable_sim_pin">"Nonaktifkan PIN SIM"</string>
+    <string name="enable_sim_pin">"Aktifkan PIN SIM"</string>
+    <string name="enable_in_progress">"Harap tunggu…"</string>
+    <string name="enable_pin_ok">"PIN SIM diaktifkan"</string>
+    <string name="disable_pin_ok">"PIN SIM dinonaktifkan"</string>
+    <string name="pin_failed">"PIN yang Anda ketikkan salah"</string>
+    <string name="pin_changed">"PIN SIM berhasil diubah"</string>
+    <string name="puk_requested">"Sandi salah, SIM terkunci! Masukkan PUK2."</string>
+    <string name="enter_pin2_text">"PIN2"</string>
+    <string name="oldPin2Label">"PIN2 yang lama"</string>
+    <string name="newPin2Label">"PIN2 Baru"</string>
+    <string name="confirmPin2Label">"Konfirmasi PIN2 baru"</string>
+    <string name="badPuk2">"PUK2 yang Anda ketikkan salah. Harap coba lagi."</string>
+    <string name="badPin2">"PIN2 lama yang Anda masukkan salah. Harap coba lagi."</string>
+    <string name="mismatchPin2">"PIN2 yang Anda masukkan tidak sesuai. Harap coba lagi."</string>
+    <string name="invalidPin2">"Ketikkan PIN2 berupa 4 sampai 8 angka."</string>
+    <string name="promptWordOne">Tersisa</string>
+    <string name="promptWordTwo"> waktu(d)</string>
+    <string name="invalidPuk2">"Ketikkan PUK2 berupa 8 angka."</string>
+    <string name="pin2_changed">"PIN2 berhasil diubah"</string>
+    <string name="label_puk2_code">"Ketikkan kode PUK2."</string>
+    <string name="fdn_enable_puk2_requested">"Sandi salah, harap ubah PIN2 dan coba lagi!"</string>
+    <string name="puk2_requested">"Sandi salah, SIM terkunci! Masukkan PUK2."</string>
+    <string name="doneButton">"Selesai"</string>
+    <string name="caller_manage_header">"Telewicara <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="caller_manage_manage_done_text">"Kembali ke panggilan"</string>
+    <string name="fake_phone_activity_phoneNumber_text">(650) 555-1234</string>
+    <string name="fake_phone_activity_infoText_text">"Nomor telepon yang masuk"</string>
+    <string name="fake_phone_activity_placeCall_text">"Panggilan masuk palsu"</string>
+    <string name="sim_missing_continueView_text">"Lanjutkan tanpa kartu SIM"</string>
+    <string name="sim_missing_msg_text">"Tidak ada kartu SIM. Harap masukkan kartu SIM ke dalam ponsel."</string>
+    <string name="sim_unlock_dismiss_text">"Tolak"</string>
+    <string name="sim_unlock_unlock_text">"Buka kunci"</string>
+    <string name="sim_unlock_status_text">"Mengautentikasi PIN…"</string>
+    <string name="voicemail_settings_number_label">"Nomor kotak pesan"</string>
+    <string name="card_title_dialing">"Memanggil"</string>
+    <string name="card_title_dialing_video">Memanggil video</string>
+    <string name="card_title_alerting_video">Peringatan pengguna</string>
+    <string name="card_title_redialing">"Mencoba ulang"</string>
+    <string name="card_title_in_progress">"Panggilan saat ini"</string>
+    <string name="card_title_conf_call">"Telewicara"</string>
+    <string name="card_title_incoming_call">"Panggilan masuk"</string>
+    <string name="card_title_incoming_video_call">Panggilan video masuk</string>
+    <string name="card_title_cdma_call_waiting">"Nada tunggu cdma"</string>
+    <string name="card_title_call_ended">"Panggilan diakhiri"</string>
+    <string name="card_title_on_hold">"Ditangguhkan"</string>
+    <string name="card_title_hanging_up">"Menutup panggilan"</string>
+    <string name="card_title_in_call">"Sedang dalam panggilan"</string>
+    <string name="card_title_my_phone_number">"Nomor saya <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_missedCallTitle">"Panggilan tak terjawab"</string>
+    <string name="notification_missedCallsTitle">"Panggilan tak terjawab"</string>
+    <string name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> panggilan tak terjawab"</string>
+    <string name="notification_missedCallTicker">"Panggilan tak terjawab dari <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_ongoing_call_format">"Panggilan saat ini <xliff:g id="DURATION">%s</xliff:g>"</string>
+    <string name="notification_on_hold">"Ditangguhkan"</string>
+    <string name="notification_incoming_call">"Panggilan masuk"</string>
+    <string name="notification_voicemail_title">"Kotak pesan baru"</string>
+    <string name="notification_voicemail_title_count">"Kotak pesan baru (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string name="notification_voicemail_text_format">"Panggil <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_voicemail_no_vm_number">"Nomor kotak pesan tidak dikenal"</string>
+    <string name="notification_network_selection_title">"Tidak ada layanan"</string>
+    <string name="notification_network_selection_text">"Jaringan yang dipilih (<xliff:g id="OPERATOR_NAME">%s</xliff:g>) tidak tersedia"</string>
+    <string name="incall_error_power_off">"Untuk melakukan panggilan, pertama-tama matikan mode Pesawat."</string>
+    <string name="incall_error_emergency_only">"Tidak terdaftar pada jaringan."</string>
+    <string name="incall_error_out_of_service">"Jaringan seluler tidak tersedia."</string>
+    <string name="incall_error_no_phone_number_supplied">"Panggilan tidak terkirim, tidak ada nomor valid yang dimasukkan."</string>
+    <string name="incall_error_call_failed">"Panggilan tidak terkirim."</string>
+    <string name="incall_status_dialed_mmi">"Memulai urutan MMI..."</string>
+    <string name="incall_status_dialed_fc">"Memulai urutan kode fitur..."</string>
+    <string name="incall_error_supp_service_unknown">"Layanan tidak didukung."</string>
+    <string name="incall_error_supp_service_switch">"Tidak dapat mengalihkan panggilan."</string>
+    <string name="incall_error_supp_service_separate">"Tidak dapat memisahkan panggilan."</string>
+    <string name="incall_error_supp_service_transfer">"Tidak dapat mentransfer panggilan."</string>
+    <string name="incall_error_supp_service_conference">"Tidak dapat melakukan telewicara."</string>
+    <string name="incall_error_supp_service_reject">"Tidak dapat menolak panggilan."</string>
+    <string name="incall_error_supp_service_hangup">"Tidak dapat melepaskan panggilan."</string>
+    <string name="incall_error_dialvt_in_2gcall">Panggilan suara sudah berjalan, kami tidak dapat menempatkan panggilan video!</string>
+    <string name="incall_error_dialvt_in_3gcall">Panggilan video sudah berjalan, kami tidak dapat menempatkan panggilan video!</string>
+    <string name="incall_error_dial_in_3gcall">Panggilan video sudah berjalan, kami tidak dapat menempatkan panggilan suara!</string>
+    <string name="incall_error_aireplane_mode_on">Untuk membuat panggilan, pertama nonaktifkan mode pesawat</string>
+    <string name="emergency_enable_radio_dialog_title">"Panggilan darurat"</string>
+    <string name="emergency_enable_radio_dialog_message">"Menghidupkan radio..."</string>
+    <string name="emergency_enable_radio_dialog_retry">"Di luar area layanan, mencoba sekali lagi..."</string>
+    <string name="dial_emergency_error">"Panggilan tidak terkirim, <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> bukan nomor darurat!"</string>
+    <string name="dial_emergency_empty_error">"Panggilan tidak terkirim, harap panggil nomor darurat!"</string>
+    <string name="dialerKeyboardHintText">"Gunakan keyboard untuk memanggil"</string>
+    <string name="dtmfDialpadHintText">"Keypad nada sentuh"</string>
+    <string name="dtmfDialpadHandleLabel">"Dialpad"</string>
+    <string name="touchLockText">"Ketuk dua kali"\n"untuk membuka kunci"</string>
+    <string name="onscreenAnswerText">"Ketuk dua kali"\n"untuk menjawab"</string>
+    <string name="onscreenRejectText">"Ketuk dua kali"\n"untuk menolak"</string>
+    <string name="onscreenHoldText">"Tahan"</string>
+    <string name="onscreenUnholdText">"Aktifkan kembali"</string>
+    <string name="onscreenEndCallText">"Akhiri"</string>
+    <string name="onscreenShowDialpadText">"Dialpad"</string>
+    <string name="onscreenHideDialpadText">"Sembunyikan"</string>
+    <string name="onscreenSpeakerText">"Pengeras suara"</string>
+    <string name="onscreenMuteText">"Bisukan"</string>
+    <string name="onscreenBluetoothText">"Bluetooth"</string>
+    <string name="onscreenAddCallText">"Tambahkan panggilan"</string>
+    <string name="onscreenMergeCallsText">"Gabungkan panggilan"</string>
+    <string name="onscreenSwapCallsText">"Tukar"</string>
+    <string name="onscreenManageCallsText">"Kelola panggilan"</string>
+    <string name="onscreenManageConferenceText">"Kelola"</string>
+    <string name="importSimEntry">"Impor"</string>
+    <string name="importAllSimEntries">"Impor semua"</string>
+    <string name="importingSimContacts">"Mengimpor kenalan dari SIM"</string>
+    <string name="importToFDNfromContacts">"Impor dari kenalan"</string>
+    <string name="hac_mode_title">"Alat bantu dengar"</string>
+    <string name="hac_mode_summary">"Hidupkan kompatibilitas alat bantu dengar"</string>
+    <string-array name="tty_mode_entries">
+        <item>"TTY Mati"</item>
+        <item>"TTY Penuh"</item>
+        <item>"TTY HCO"</item>
+        <item>"TTY VCO"</item>
+    </string-array>
+    <string name="eri_text_label">"Teks ERI"</string>
+    <string name="dtmf_tones_title">"Nada DTMF"</string>
+    <string name="dtmf_tones_summary">"Setel panjang nada DTMF"</string>
+    <string-array name="dtmf_tone_entries">
+      <item>"Normal"</item>
+      <item>"Jauh"</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+       <item>"0"</item>
+       <item>"1"</item>
+    </string-array>
+    <string name="network_message">"Pesan Jaringan"</string>
+    <string name="ota_title_activate">"Aktifkan ponsel Anda"</string>
+    <string name="ota_touch_activate">"Perlu dilakukan panggilan khusus untuk mengaktifkan layanan ponsel Anda. "\n\n"Setelah menekan “Aktifkan”, dengarkan instruksi yang diberikan untuk mengaktifkan ponsel."</string>
+    <string name="ota_touch_activate_new">"Sentuh “Aktifkan” untuk melakukan panggilan khusus yang mengaktifkan ponsel pada jaringan seluler operator, sehingga Anda dapat melakukan panggilan dan tersambung ke jaringan data seluler."</string>
+    <string name="ota_skip_activation_dialog_title">"Lewati aktivasi?"</string>
+    <string name="ota_skip_activation_dialog_message">"Jika Anda mengabaikan aktivasi, Anda tidak dapat melakukan panggilan atau menyambung ke jaringan data seluler (walaupun dapat menyambung ke jaringan Wi-Fi). Sampai ponsel diaktifkan, Anda akan diminta mengaktifkannya setiap kali ponsel dihidupkan."</string>
+    <string name="ota_skip_activation_dialog_skip_label">"Lewati"</string>
+    <string name="ota_skip_activation_dialog_continue_label">"Aktifkan"</string>
+    <string name="ota_activate">"Aktifkan"</string>
+    <string name="ota_title_activate_success">"Ponsel telah aktif!"</string>
+    <string name="ota_title_problem_with_activation">"Masalah dengan aktivasi"</string>
+    <string name="ota_listen">"Ikuti instruksi lisan sampai Anda mendengar aktivasi telah selesai."</string>
+    <string name="ota_dialpad">"Keypad"</string>
+    <string name="ota_speaker">"Pengeras Suara"</string>
+    <string name="ota_progress">"Harap tunggu sampai ponsel Anda selesai diprogram."</string>
+    <string name="ota_failure">"Pemrograman gagal"</string>
+    <string name="ota_successful">"Ponsel Anda sekarang diaktifkan. Mungkin dibutuhkan waktu hingga 15 menit sampai layanan dimulai."</string>
+    <string name="ota_unsuccessful">"Ponsel Anda tidak aktif. "\n"Anda mungkin perlu mencari area dengan cakupan yang lebih baik (di dekat jendela, atau di luar). "\n\n"Coba lagi atau hubungi layanan pelanggan untuk opsi selengkapnya."</string>
+    <string name="ota_spc_failure">"KEGAGALAN SPC BERLEBIH"</string>
+    <string name="ota_call_end">"Kembali"</string>
+    <string name="ota_try_again">"Coba lagi"</string>
+    <string name="ota_next">"Berikutnya"</string>
+    <string name="ota_back">"Kembali"</string>
+    <string name="ecm_exit_dialog">"EcmExitDialog"</string>
+    <string name="phone_entered_ecm_text">"Masukkan Mode Panggilan Balik Darurat"</string>
+    <string name="phone_in_ecm_notification_title">"Mode Panggilan Balik Darurat"</string>
+    <string name="phone_in_ecm_call_notification_text">"Sambungan data dinonaktifkan"</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Tidak ada sambungan data selama <xliff:g id="COUNT">%s</xliff:g> menit"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Tidak ada sambungan data selama <xliff:g id="COUNT">%s</xliff:g> menit"</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Ponsel ini akan berada pada mode panggilan balik darurat selama <xliff:g id="COUNT">%s</xliff:g> menit. Selama dalam mode ini, aplikasi mana pun yang memanfaatkan sambungan data tidak dapat digunakan. Apakah Anda ingin keluar sekarang?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Ponsel ini akan berada pada mode panggilan balik darurat selama <xliff:g id="COUNT">%s</xliff:g> menit. Selama dalam mode ini, aplikasi mana pun yang memanfaatkan sambungan data tidak dapat digunakan. Apakah Anda ingin keluar sekarang?"</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Tindakan yang dipilih tidak tersedia selama mode panggilan balik darurat. Ponsel akan berada pada mode ini selama <xliff:g id="COUNT">%s</xliff:g> menit. Apakah Anda ingin keluar sekarang?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Tindakan yang dipilih tidak tersedia selama mode panggilan balik darurat. Ponsel akan berada pada mode ini selama <xliff:g id="COUNT">%s</xliff:g> menit. Apakah Anda ingin keluar sekarang?"</item>
+    </plurals>
+    <string name="alert_dialog_in_ecm_call">"Tindakan yang dipilih tidak tersedia ketika dalam panggilan darurat"</string>
+    <string name="progress_dialog_exiting_ecm">"Keluar dari Mode Panggilan Balik Darurat"</string>
+    <string name="alert_dialog_yes">"Ya"</string>
+    <string name="alert_dialog_no">"Tidak"</string>
+    <string name="alert_dialog_dismiss">"Tolak"</string>
+    <string name="absent_num">"Nomor absen"</string>
+    <string name="voicemail_settings">"Setelan kotak pesan"</string>
+    <string name="voicemail_number_not_set">"&lt;tidak disetel&gt;"</string>
+    <string name="voicemail_provider">"Layanan kotak pesan"</string>
+    <string name="voicemail_settings_for">"Setelan untuk <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string name="other_settings">"Setelan panggilan lainnya"</string>
+    <string name="dial_button_label">"Panggil"</string>
+    <string name="calling_via_template">"Memanggil melalui ^1"\n<b>"^2"</b></string>
+    <string name="slide_to_answer">"Seret kanan untuk menjawab"</string>
+    <string name="slide_to_silence">"Seret kiri untuk mematikan pendering"</string>
+    <string name="slide_to_decline">"Seret kiri untuk menolak"</string>
+    <string name="slide_to_answer_and_hold">"Seret kanan untuk menjawab dan"\n"menahan panggilan aktif"</string>
+    <string name="slide_to_answer_and_end_active">"Seret kanan untuk menjawab dan"\n" mengakhiri panggilan aktif"</string>
+    <string name="slide_to_answer_and_end_onhold">"Seret kanan untuk menjawab dan"\n"mengakhiri panggilan yang ditangguhkan"</string>
+    <string name="slide_to_answer_hint">"Jawab"</string>
+    <string name="slide_to_decline_hint">"Tolak"</string>
+    <string name="sim_state_not_changes">"Kondisi kartu SIM aktif/nonaktif tidak ada perubahan."</string>
+    <string name="sim_state_set_timeout">"Status pengaturan batas waktu kartu SIM."</string>
+    <string name="data_enable_set">"Pengaturan koneksi data aktif"</string>
+    <string name="data_enable_set_timeout">"Pengaturan batas waktu koneksi data aktif."</string>
+    <string name="cb_error">"Pemblokiran panggilan ditolak"</string>
+    <string name="video_camera_switch">"Alihkan kamera"</string>
+    <string name="video_view_switch">"Alihkan tampilan"</string>
+    <string name="video_camera_close">"Tutup kamera"</string>
+    <string name="video_camera_open">"Buka kamera"</string>
+    <string name="video_speaker_close">"Tutup pengeras suara"</string>
+    <string name="video_speaker_open">"Buka pengeras suara"</string>
+    <string name="video_bluetooth_close">Tutup Bluetooth</string>
+    <string name="video_bluetooth_open">Buka Bluetooth</string>
+    <string name="video_mute">Diam</string>
+    <string name="video_unmute">"Aktifkan suara"</string>
+    <string name="video_decline">"Tolak"</string>
+    <string name="video_falldown">"Jatuh"</string>
+    <string name="video_record">"Rekam..."</string>
+    <string name="video_start_record_both">"Mulai merekam dua duanya"</string>
+    <string name="video_start_record_audio">"Mulai merekam audio"</string>
+    <string name="video_stop_record">"Berhenti merekam"</string>
+    <string name="insert_sd_card">"Masukkan kartu SD"</string>
+    <string name="storage_is_full">"Penyimpanan penuh"</string>
+    <string name="video_btn_dialer">Tombol</string>
+    <string name="video_btn_hangup">"Mengakhiri"</string>
+    <string name="video_btn_answer">Balasan</string>
+    <string name="video_btn_decline">"Tolak"</string>
+    <string name="video_label_name">Nama:</string>
+    <string name="video_label_time">Waktu panggilan:</string>
+    <string name="video_label_status">Status:</string>
+    <string name="video_label_begintime">Waktu mulai:</string>
+    <string name="video_dialog_incoming">"Panggilan masuk, terima atu tidak?"</string>
+    <string name="video_dialog_incoming_accept">Terima</string>
+    <string name="video_dialog_incoming_tovoice">"Alihkan ke suara"</string>
+    <string name="video_dialog_incoming_hangup">"Mengakhiri"</string>
+    <string name="videophonesetting_label">"Pengaturan video telepon"</string>
+    <string name="videophone_setting">"Video telepon"</string>
+    <string name="videophone_setting_title">"Pengaturan umum video telepon"</string>
+    <string name="videophone_setting_summary">"Atur pilihan untuk menampilkan telepon video, tata letak dan lain lain."</string>
+    <string name="videophone_callforward_setting_title">"Pengaturan penerusan panggilan video"</string>
+    <string name="videophone_callbarring_setting_title">"Pengaturan pembatasan panggilan video"</string>
+    <string name="videophone_setting_title_static_image">"Tampilkan gambar statis"</string>
+    <string name="videophone_setting_title_static_image_set">"Gambar statis atur"</string>
+    <string name="videophone_setting_title_remote_static_image_set">"Gambar statis jarak jauh diatur"</string>
+    <string name="videophone_setting_title_local_static_image_set">"Gambar statis lokal ditetapkan"</string>
+    <string name="videophone_setting_title_delete_photo">"Gambar statis hapus"</string>
+    <string name="videophone_setting_title_take_photo">"Ambil foto"</string>
+    <string name="videophone_setting_title_pick_photo">"Pilih foto dari galeri"</string>
+    <string name="videophone_setting_photoPickerNotFoundText">"Tidak ada gambar pada ponsel."</string>
+    <string name="videophone_setting_summary_static_image">"Tampilkan gambar statis saat kamera ditutup"</string>
+    <string name="videophone_setting_title_layout">"Pilihan layar video"</string>
+    <string name="videophone_layout_my_small">"Video saya kecil"</string>
+    <string name="videophone_layout_my_large">"Video saya besar"</string>
+    <string name="videophone_setting_default_image">Gambar standar</string>
+    <string name="videophone_setting_picture_oversize">"Ukuran gambar tidak dapat melebihi 640 * 480"</string>
+    <string name="videophone_setting_picture_widthtoosmall">"Lebar gambar tidak bisa kurang dari 64"</string>
+    <string name="videophone_setting_picture_heightoosmall">"Tinggi gambar tidak bisa kurang dari 64"</string>
+    <string name="videophone_setting_picture_notjpg">"Hanya mendukung format gambar jpg"</string>
+    <string name="videophone_setting_title_fallback">"Permintaan panggilan suara balik"</string>
+    <string name="videophone_fallback_always_ask">"Tanya saya setiap kali"</string>
+    <string name="videophone_fallback_always_callback">"Selalu telepon kembali"</string>
+    <string name="videophone_fallback_never_callback">"Jangan pernah memanggil kembali"</string>
+    <string name="videophone_setting_dialog_title_layout">"Pilihan video"</string>
+    <string name="videophone_setting_dialog_title_fallback">"Permintaan panggilan suara balik"</string>
+    <string name="videophone_setting_layout_defaultvalue">"1"</string>
+    <string name="videophone_setting_fallback_defaultvalue">"1"</string>
+    <string name="videophone_fallback_title">"Panggilan video mundur"</string>
+    <string name="videophone_never_fallback">"Penerima meminta panggilan suara. Berikan panggilan ulang otomatis."</string>
+    <string name="videophone_always_fallback">"Penerima meminta panggilan suara. Panggil ulang panggilan suara otomatis."</string>
+    <string name="videophone_notin3g_never_fallback">"Saat ini jaringan tidak mendukung panggilan video. Berhenti memanggil ulang secara otomatis."</string>
+    <string name="videophone_notin3g_always_fallback">"Saat ini jaringan tidak mendukung panggilan video Memanggil ulang panggilan suara secara otomatis."</string>
+    <string name="videophone_fallback_menu_videocall">Panggilan video</string>
+    <string name="videophone_fallback_menu_voicecall">"Panggilan suara"</string>
+    <string name="videophone_fallback_menu_cancel">"Batal"</string>
+    <string name="videophone_fallback_question">Apa yang Anda ingin lakukan?</string>
+    <string name="videophone_failcause_1000">"Panggilan video terakhir belum diakhiri dengan normal, coba lagi setelah beberapa saat"</string>
+    <string name="videophone_failcause_1">"Jumlah yang belum ditugaskan"</string>
+    <string name="videophone_failcause_3">Pemakai tidak dapat terhubung</string>
+    <string name="videophone_failcause_8">"Panggilan diblokir"</string>
+    <string name="videophone_failcause_17">Pengguna Sibuk</string>
+    <string name="videophone_failcause_19">"Pengguna yang anda panggil tidak merespon"</string>
+    <string name="videophone_failcause_27">Pemakai tidak aktif</string>
+    <string name="videophone_failcause_34">"Koneksi terputus"</string>
+    <string name="videophone_failcause_63">Panggilan menjelajah dibatasi</string>
+    <string name="videophone_failcause_79">Pemakai tidak mendukung panggilan video</string>
+    <string name="videophone_failcause_default">Pemakai tidak dapat terhubung</string>
+    <string name="videophone_failcause_47">Maaf, panggilan video tidak tersedia</string>
+    <string name="videophone_failcause_57">"Anda belum memulai layanan VT"</string>
+    <string name="videophone_failcause_58">Pemakai tidak mendukung panggilan video</string>
+    <string name="videophone_failcause_88">Pemakai memilih panggilan suara</string>
+    <string name="videophone_failcause_minus_1">Layanan 3G Tidak Didukung</string>
+    <string name="videophone_incoming_prompt">Panggilan video masuk</string>
+    <string name="brightness">"Kecerahan layar"</string>
+    <string name="camera_brightness">"Kecerahan kamera"</string>
+    <string name="camera_contrast">"Kontras kamera"</string>
+    <string name="prompt_remotecamera_close">"Kamera jarak jauh ditutup"</string>
+    <string name="prompt_remotecamera_open">"Kamera jarak jauh dibuka"</string>
+    <string name="sutstitute_not_exist">"Gambar pengganti tidak ada"</string>
+    <string name="prompt_picture_format_error">"Gambar pengganti tidak jpeg, mengembalikan ke gambar standar"</string>
+    <string name="prompt_wait_voicecall">"Harap tunggu panggilan suara"</string>
+    <string name="prompt_record_finish">Berkas rekaman telah disimpan ke</string>
+    <string name="prompt_camera_fail">Membuka kamera gagal</string>
+    <string name="prompt_no_freespace">Ruang kosong tidak lebih dari 500KB sekarang, perekaman akan berhenti.</string>
+    <string name="audio_db_title_format"><xliff:g id="format">tttt-BB-hh JJ:mm:dd</xliff:g></string>
+    <string name="audio_db_artist_name">"Rekaman anda"</string>
+    <string name="audio_db_album_name">"Rekaman audio"</string>
+    <string name="audio_db_playlist_name">"Rekaman saya"</string>
+    <string name="app_name">"Aplikasi telepon"</string>
+    <string name="error_mediadb_new_record">"Tidak dapat menyimpan rekaman audio"</string>
+    <string name="hangup_reply_message_title">"Pesan Ditolak"</string>
+    <string name="hangup_reply_message">"Balas pesan menggantung"</string>
+    <string name="hangup_reply_message_tip">"Ketika Anda mengklik UI masuk, secara otomatis akan mengirim pesan ke orang yang menghubungi Anda.</string>
+    <string name="edit_message_content_for_hangup">"Ubah isi pesan"</string>
+    <string name="edit_message_content_introdution">"Ubah isi pesan dan pilih orang khusus"</string>
+    <string name="label_message_reject">"Konten pesan untuk hangup"</string>
+    <string name="tip_input_content">"Anda tidak mengatur konten pesan" </string>
+    <string name="label_button_edit">Ubah  </string>
+    <string name="label_button_ok">"OK"</string>
+    <string name="label_button_add_special_reply">"Tambahkan nomor khusus untuk membalas"</string>
+    <string name="reply_message_default">"Saya sedang sibuk, menghubungi anda nanti!"</string>
+    <string name="title_message_reply_for_hangup">Ubah konten pesan</string>
+    <string name="contactPhoto">"foto kenalan"</string>
+    <string name="goPrivate">"aktifkan pribadi"</string>
+    <string name="selectContact">"pilih kenalan"</string>
+    <string name="standby_select">"Pilihan daya siaga"</string>
+    <string name="sip_settings">"Setelan panggilan internet"</string>
+    <string name="sip_accounts">"Akun panggilan internet (SIP)"</string>
+    <string name="sip_accounts_title">"Akun"</string>
+    <string name="sip_accounts_summary">"Mengelola akun dan status panggilan internet (ISP)"</string>
+    <string name="sip_receive_calls">"Terima panggilan masuk"</string>
+    <string name="sip_receive_calls_summary">"Mengurangi masa pakai baterai"</string>
+    <string name="sip_call_options">"Konfigurasi opsi paggilan"</string>
+    <string name="sip_call_options_title">"Gunakan panggilan internet"</string>
+    <string name="sip_call_options_wifi_only_title">"Gunakan panggilan internet (Wi-Fi saja)"</string>
+    <string name="sip_call_options_entry_1">"Untuk semua panggilan ketika jaringan data tersedia"</string>
+    <string name="sip_call_options_entry_2">"Hanya untuk panggilan internet"</string>
+    <string name="sip_call_options_entry_3">"Tanyakan pada setiap panggilan"</string>
+    <string name="sip_call_options_wifi_only_entry_1">"Untuk semua panggilan"</string>
+    <string name="auto_reg">"Pendaftaran otomatis"</string>
+    <string name="call_priority">"Panggilan keluar melalui SIP"</string>
+    <string name="pick_outgoing_call_phone_type">"Lakukan panggilan"</string>
+    <string name="pick_outgoing_sip_phone">"Gunakan akun panggilan internet"</string>
+    <string name="remember_my_choice">"Selalu gunakan untuk melakukan panggilan internet"</string>
+    <string name="reset_my_choice_hint">"Anda dapat menggunakan Setelan Panggilan untuk mengubah akun panggilan internet mana yang digunakan secara bawaan ketika melakukan panggilan, dengan memilih akun yang berbeda pada bagian setelan panggilan internet"</string>
+    <string name="pstn_phone">"Paggilan ponsel"</string>
+    <string name="internet_phone">"Panggilan internet"</string>
+    <string name="no_sip_account_found_title">"Tidak ada akun panggilan internet"</string>
+    <string name="no_sip_account_found">"Tidak ada akun panggilan internet pada ponsel ini. Tambahkan yang baru sekarang?"</string>
+    <string name="sip_menu_add">"Tambahkan"</string>
+    <string name="add_sip_account">"Tambahkan akun"</string>
+    <string name="remove_sip_account">"Hapus akun"</string>
+    <string name="sip_account_list">"Akun SIP"</string>
+    <string name="saving_account">"Menyimpan akun..."</string>
+    <string name="removing_account">"Menghapus akun..."</string>
+    <string name="sip_menu_save">"Simpan"</string>
+    <string name="sip_menu_discard">"Hapus"</string>
+    <string name="alert_dialog_close">"Tutup profil"</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="close_profile">"Tutup"</string>
+    <string name="primary_account">"Utama"</string>
+    <string name="primary_account_title">"Jadikan ini akun utama saya"</string>
+    <string name="primary_account_summary">"Digunakan untuk panggilan keluar"</string>
+    <string name="advanced_settings_title">"Setelan lanjutan"</string>
+    <string name="primary_account_summary_with">"Akun utama. <xliff:g id="REGISTRATION_STATUS">%s</xliff:g>"</string>
+    <string name="registration_status_checking_status">"Memeriksa status..."</string>
+    <string name="registration_status_registering">"Mendaftarkan..."</string>
+    <string name="registration_status_still_trying">"Masih mencoba..."</string>
+    <string name="registration_status_not_receiving">"Tidak menerima panggilan"</string>
+    <string name="registration_status_no_data">"Pendaftaran akun berhenti karena tidak ada sambungan internet"</string>
+    <string name="registration_status_no_wifi_data">"Pendaftaran akun berhenti karena tidak ada sambungan Wi-Fi"</string>
+    <string name="registration_status_not_running">"Pendaftaran akun gagal"</string>
+    <string name="registration_status_done">"Menerima panggilan"</string>
+    <string name="registration_status_failed_try_later">"Pendaftaran akun gagal: (<xliff:g id="REGISTRATION_ERROR_MESSAGE">%s</xliff:g>); akan mencoba nanti"</string>
+    <string name="registration_status_invalid_credentials">"Pendaftaran akun gagal: nama pengguna atau sandi salah"</string>
+    <string name="registration_status_server_unreachable">"Pendaftaran akun gagal: periksa nama server"</string>
+    <string name="third_party_account_summary">"Saat ini akun ini digunakan oleh aplikasi <xliff:g id="ACCOUNT_OWNER">%s</xliff:g>"</string>
+    <string name="sip_edit_title">"Detail akun SIP"</string>
+    <string name="sip_edit_new_title">"Detail akun SIP"</string>
+    <string name="domain_address_title">"Server"</string>
+    <string name="username_title">"Nama Pengguna"</string>
+    <string name="password_title">"Sandi"</string>
+    <string name="display_name_title">"Nama tampilan"</string>
+    <string name="proxy_address_title">"Alamat proxy di luar"</string>
+    <string name="port_title">"Nomor port"</string>
+    <string name="transport_title">"Jenis transportasi"</string>
+    <string name="send_keepalive_title">"Kirim keep-alive"</string>
+    <string name="send_keepalive_summary">"Kirim pesan SIP keep-alive"</string>
+    <string name="auto_registration_title">"Pendaftaran otomatis"</string>
+    <string name="auto_registration_summary">"Daftar profil secara otomatis"</string>
+    <string name="set_primary_title">"Setel sebagai akun utama"</string>
+    <string name="set_primary_summary">"Digunakan untuk panggilan keluar"</string>
+    <string name="advanced_settings">"Setelan opsional"</string>
+    <string name="auth_username_title">"Nama pengguna autentikasi"</string>
+    <string name="auth_username_summary">"Nama pengguna yang digunakan untuk autentikasi"</string>
+    <string name="default_preference_summary">"&lt;Tidak disetel&gt;"</string>
+    <string name="display_name_summary">"&lt;Sama dengan nama pengguna&gt;"</string>
+    <string name="optional_summary">"&lt;Opsional&gt;"</string>
+    <string name="advanced_settings_show">"▷ Sentuh untuk menampilkan semua"</string>
+    <string name="advanced_settings_hide">"▽ Sentuh untuk menyembunyikan semua"</string>
+    <string name="empty_alert">"<xliff:g id="INPUT_FIELD_NAME">%s</xliff:g> diperlukan, tidak boleh kosong"</string>
+    <string name="not_a_valid_port">"Nomor harus dalam 1000 dan 65534"</string>
+    <string name="no_internet_available_title">"Tidak ada sambungan internet"</string>
+    <string name="no_wifi_available_title">"Tidak ada sambungan Wi-Fi"</string>
+    <string name="no_internet_available">"Untuk melakukan panggilan internet, periksalah sambungan internet Anda terlebih dulu"</string>
+    <string name="no_wifi_available">"Anda harus terhubung ke jaringan Wi-Fi untuk panggilan internet (gunakan setelan Nirkabel &amp; Jaringan)"</string>
+    <string name="no_voip">"Panggilan internet tidak didukung"</string>
+    <string name="send_message">Tolak panggilan dengan pesan</string>
+    <string name="menu_endbgcall">"Akhiri panggilan latar belakang"</string>
+    <string name="menu_endallcalls">"Akhiri semua panggilan"</string>
+    <string name="adn_full">AND penuh</string>
+    <string name="china_mobile_provider">CHINA MOBILE</string>
+    <string name="chn_cugsm_provider">CHN-CUGSM</string>
+    <string name="network_inhibit">DILARANG</string>
+    <string name="network_unknown">TIDAK DIKETAHUI</string>
+    <string name="disk_full">"Disk penuh. Tidak dapat menambahkan log panggilan"</string>
+    <string name="fast_dial">panggilan cepat</string>
+    <string name="fast_dial_settings">pengaturan panggilan cepat</string>
+    <string name="fast_dial_changed">#panggilan nomor telepon cepat telah berubah</string>
+    <string name="fast_dial_no_changed">panggilan nomor telepon cepat tidak berubah.</string>
+    <string name="fast_dial_change_failed">mengatur panggilan nomor telepon cepat gagal.</string>
+    <string name="fast_dial_2">2 # panggilan cepat</string>
+    <string name="fast_dial_3">3 # panggilan cepat</string>
+    <string name="fast_dial_4">4 # panggilan cepat</string>
+    <string name="fast_dial_5">5 # panggilan cepat</string>
+    <string name="fast_dial_6">6 # panggilan cepat</string>
+    <string name="fast_dial_7">7 # panggilan cepat</string>
+    <string name="fast_dial_8">8 # panggilan cepat</string>
+    <string name="fast_dial_9">9 # panggilan cepat</string>
+    <string name="no_fast_dial">nomor panggilan cepat tidak diatur</string>
+    <string name="not_set">Tidak diatur</string>
+    <string name="call_number">Ke:</string>
+    <string name="place_a_call1">Berlangganan 1</string>
+    <string name="place_a_call2">Berlangganan 2</string>
+    <string name="cancel_call">Batal</string>
+    <string name="sub_1">SUB 1</string>
+    <string name="sub_2">SUB 2</string>
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="other_setting">Pengaturan panggilan lainnya</string>
+    <string name="sim1_call_settings">"Pengaturan panggilan SIM1"</string>
+    <string name="sim2_call_settings">"Pengaturan panggilan SIM2"</string>
+    <string name="updating_dualsim_title">"Pengaturan Sim ganda"</string>
+    <string name="toast_message_name_too_long">Nama terlalu panjang, silahkan memodifikasinya.</string>
+    <string name="toast_message_name_number_null">Nama dan nomor tidak bisa keduanya kosong, silahkan memodifikasinya.</string>
+    <string name="toast_message_data_business_on">Koneksi data nyala, silahkan mematikannya bila Anda sedang memilih jaringan.</string>
+    <string name="set_ip_dailing_title">IP memanggil</string>
+    <string name="ip_dailing">Daftar nomor IP</string>
+    <string name="ip_dailing_setting_title">Atur pemanggilan IP</string>
+    <string name="ip_dailing_one_title">IP nomor 1</string>
+    <string name="ip_dailing_two_title">IP nomor 2</string>
+    <string name="ip_dailing_three_title">IP nomor 3</string>
+    <string name="ip_dailing_four_title">IP nomor 4</string>
+    <string name="ip_dailing_five_title">IP nomor 5</string>
+    <string name="ip_dailing_save_button_text">Simpan</string>
+    <string name="dialing_selector">Memanggil pemilih</string>
+    <string name="directly_call">Memanggil langsung</string>
+    <string name="ip_call">IP memanggil:</string>
+    <string name="emergency_call">Panggilan darurat</string>
+    <string name="reply_message_cannot_be_empty">Konten tidak dapat kosong</string>
+    <string name="auto_send_message">"Membalas pesan otomatis"</string>
+    <string name="auto_send_message_tip">"Pilih untuk membalas pesan yang telah disiapkan."</string>
+    <string name="UPLMN_setting">"Pengaturan UPLMN"</string>
+    <string name="open_cb">Membuka siaran Cell SMS</string>
+    <string name="close_cb">Menutup siaran Cell SMS</string>
+    <string name="init_setting">Inisialisasi pengaturan</string>
+</resources>

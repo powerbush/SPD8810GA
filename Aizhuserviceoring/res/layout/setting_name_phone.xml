@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"> 
+            <Button 
+                android:id="@+id/button_name_next" 
+                android:text="@string/SettingNextStep"
+                android:layout_width="160dp" 
+    	        android:layout_height="wrap_content"
+                android:textSize="30sp" 
+                android:layout_alignParentRight="true" 
+                android:layout_gravity="right"
+                android:background="#00000000"
+                android:textColor="#ffffff00">
+            </Button>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </RelativeLayout> 
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+        <TextView 
+            android:text="@string/SettingUserName" 
+            android:id="@+id/text_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="30dip">
+        </TextView>
+        <EditText 
+           android:id="@+id/edit_name"
+		   android:layout_width="fill_parent"
+		   android:layout_height="wrap_content"
+		   android:layout_below="@id/text_name"
+		   android:textColor="@android:color/black"
+		   android:maxLength="40"
+		   android:textSize="25dip">	        
+        </EditText>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="10dp">
+    </RelativeLayout> 
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+        <TextView 
+            android:text="@string/SettingUserPhone" 
+            android:id="@+id/text_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"                     
+            android:textColor="@android:color/white"
+            android:textSize="30dip">
+        </TextView>
+        <EditText 
+           android:id="@+id/edit_phone"
+		   android:layout_width="fill_parent"
+		   android:layout_height="wrap_content"
+		   android:layout_below="@id/text_phone"		   
+		   android:textColor="@android:color/black"
+		   android:numeric="integer"
+		   android:maxLength="20"
+		   android:textSize="25dip">	        
+        </EditText>
+    </RelativeLayout>    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="180dp">
+    </RelativeLayout> 
+    
+</LinearLayout>

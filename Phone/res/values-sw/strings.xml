@@ -1,0 +1,1007 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="contactsIconLabel">Kitabu cha anwani</string>
+    <string name="contactsFavoritesLabel">Kibwedo </string>
+    <string name="dialerIconLabel">Mpigaji simu</string>
+    <string name="emergencyDialerIconLabel">Mpiga simu za Dharura</string>
+    <string name="phoneIconLabel">Simu</string>
+    <string name="recentCallsIconLabel">Piga logi</string>
+    <string name="fdnListLabel">Orodha ya FDN</string>
+    <string name="unknown">Haijulikani</string>
+    <string name="private_num">Nambari ya binafsi</string>
+    <string name="payphone">Lipa simu</string>
+    <string name="onHold">Kushikilia</string>
+    <string name="ongoing">Simu ya sasa</string>
+    <string name="callFailed_userBusy">Laini inatumika</string>
+    <string name="callFailed_congestion">Mtandao unakazi</string>
+    <string name="callFailed_timedOut">Hakuna majibu,muda umemaliza</string>
+    <string name="callFailed_server_unreachable">Seva haiwezi kufikiwa</string>
+    <string name="callFailed_number_unreachable">Nambari haifikiwi</string>
+    <string name="callFailed_invalid_credentials">Jina la mtumiaji au paswadi sio sahihi</string>
+    <string name="callFailed_out_of_network">Kuita kutoka nje ya mtandao</string>
+    <string name="callFailed_server_error">Hitilafu ya Seva.Jaribu tena baadae.</string>
+    <string name="callFailed_noSignal">Hakuna mawimbi</string>
+    <string name="callFailed_limitExceeded">ACM imezidi kikomo</string>
+    <string name="callFailed_powerOff">Redio imezimwa</string>
+    <string name="callFailed_simError">Hakuna laini ya simu,au hitilafu ya laini ya simu</string>
+    <string name="callFailed_outOfService">Nje ya eneo la Huduma</string>
+    <string name="callFailed_fdn_only">Simu zinazotoka zimezuiliwa na FDN.</string>
+    <string name="callFailed_cb_enabled">Huwezi kufanya wito wa simu zinazotoka wakati uzuiaji wa wito wa simu uko wazi.</string>
+    <string name="callFailed_dsac_restricted">Wito wote wa simu umedhibitiwa na kidhibiti upatikanaji.</string>
+    <string name="callFailed_dsac_restricted_emergency">Simu za dharura zimezuiliwa na mdhibili upatikanaji.</string>
+    <string name="callFailed_dsac_restricted_normal">Wito wa kawaida wa simu umezuliwa na mdhibiti upatikanaji.</string>
+    <string name="callFailed_cdma_lockedUntilPowerCycle">CDMA:Simu imetiwa loki mpaka nguvu ya mzunguko.</string>
+    <string name="callFailed_cdma_drop">CDMA:Wito wa simu umeachwa.</string>
+    <string name="callFailed_cdma_intercept">CDMA:Wito wa simu umeingiliana.</string>
+    <string name="callFailed_cdma_reorder">CDMA:panga tena.</string>
+    <string name="callFailed_cdma_SO_reject">CDMA:Chaguzi za Huduma zimekataa.</string>
+    <string name="callFailed_cdma_retryOrder">CDMA:jaribu kupanga tena.</string>
+    <string name="callFailed_cdma_accessFailure">CDMA:Upatikanaji umefeli.</string>
+    <string name="callFailed_cdma_preempted">CDMA:Premtedi.</string>
+    <string name="callFailed_cdma_notEmergency">Simu za Dharura tu zinawezekana</string>
+    <string name="callFailed_unobtainable_number">Namba batili</string>
+    <string name="confCall">Wito wa mkutano</string>
+    <string name="call_lost">Wito wa simu umepotezwa.</string>
+    <string name="retry">Jaribu tena</string>
+    <string name="call_lost_title">Wito wa simu umepotezwa </string>
+    <string name="mmiStarted">Codi ya MMI imeanza</string>
+    <string name="ussdRunning">Kodi ya USSD inatembea\u2026</string>
+    <string name="mmiCancelled">Codi ya MMI imeghairishwa</string>
+    <string name="cancel">Kata simu</string>
+    <string name="menu_speaker">Spika</string>
+    <string name="menu_bluetooth">Bluetooth</string>
+    <string name="menu_mute">Toa sauti</string>
+    <string name="menu_hold">Kushikilia</string>
+    <string name="menu_endCall">Maliza wito</string>
+    <string name="menu_swapCalls">Badilishana simu</string>
+    <string name="menu_mergeCalls">Kuunganisha simu</string>
+    <string name="menu_phoneRecorder">Rekodi</string>
+    <string name="menu_addCall">Ongeza wito wa simu</string>
+    <string name="menu_manageConference">Simamia wito wa simu wa mkutano</string>
+    <string name="menu_showDialpad">Onyesha pad za kupigia</string>
+    <string name="menu_hideDialpad">Ficha padi za kupigia simu</string>
+    <string name="menu_answerAndHold">Kushikilia wito wa simu wa sasa\n&amp; jibu</string>
+    <string name="menu_answerAndEnd">Maliza wito wa simu wa sasa\n&amp; jibu</string>
+    <string name="ok">Ndio</string>
+    <string name="menuButtonHint">Bonyeza Menyu kwa chaguzi za simu.</string>
+    <string name="menuButtonKeyboardDialHint">"Bonyeza menyu kwa chaguzi za kupiga simu \u2022 tumia keybodi kwa kupiga </string>
+    <string name="menu_answer">Jibu simu</string>
+    <string name="menu_ignore">Usizingatie</string>
+    <string name="wait_prompt_str">Tuma toni ifuatayo?\n</string>
+    <string name="pause_prompt_str">Kutuma Toni\n</string>
+    <string name="send_button">Tuma</string>
+    <string name="pause_prompt_yes">Ndio</string>
+    <string name="pause_prompt_no">La</string>
+    <string name="wild_prompt_str">Chukua nafasi ya sifa za mwitu kwa</string>
+    <string name="no_vm_number">Inakosa nambari ya barua ya sauti</string>
+    <string name="no_vm_number_msg">Hakuna nambari ya barua ya sauti iliyohifadhiwa katika kadi ya SIM.</string>
+    <string name="add_vm_number_str">Ongeza nambari</string>
+    <string name="dialer_emptyListWorking">Pakia\u2026</string>
+    <string name="enterPin">Chapa PIN codi ili kutoa loki SIM kadi</string>
+    <string name="pinUnlocked">SIM haikutiwa loki</string>
+    <string name="enterNewPin">PIN codi mpya ya SIM</string>
+    <string name="verifyNewPin">Chapa PIN codi mpya ya SIM tena ili kuthibitisha</string>
+    <string name="verifyFailed">PIN ya SIM ulochapa hailingani.Tafadhali jaribu tena.</string>
+    <string name="enterPuk">Chapa PUK codi ili kutoa loki SIM kadi</string>
+    <string name="badPuk">PUKcodi sisahihi!</string>
+    <string name="buttonTxtContinue">Endelea kupiga picha</string>
+    <string name="puk_unlocked">SIM kadi yako haikuwa yenye kuzuiliwa.Simu yako haikuzuiliwa\u2026</string>
+    <string name="label_ndp">Mtandao wa SIM isotiwa loki PIN</string>
+    <string name="sim_ndp_unlock_text">Fungua</string>
+    <string name="sim_ndp_dismiss_text">Kufukuza</string>
+    <string name="requesting_unlock">Kuomba mtandao hakujatiwa loki\u2026</string>
+    <string name="unlock_failed">Ombi la Mtandao usio na loki halijafanikiwa.</string>
+    <string name="unlock_success">Mtandao umetolewa loki kwa mafanikio.</string>
+    <string name="labelGSMMore">Vipimo vya Wito wa simu wa GSM</string>
+    <string name="labelCDMAMore">Vipimo vya wito wa simu wa CDMA</string>
+    <string name="apn_settings">Kupata  Nukta ya Majina</string>
+    <string name="settings_label">Vipimo vya mtandao</string>
+    <string name="voicemail">Ujumbe wa sauti</string>
+    <string name="voicemail_abbreviated">VM:</string>
+    <string name="networks">Mwendeshaji wa Mtandao</string>
+    <string name="call_settings">Vipimo vya kupiga simu</string>
+    <string name="additional_gsm_call_settings">Vipimo vya ziada</string>
+    <string name="sum_gsm_call_settings">Vipimo vya witu wa simu wa GSM vya ziada tu</string>
+    <string name="additional_cdma_call_settings">Vipimo vya wito wa simu wa CDMA vya ziada</string>
+    <string name="sum_cdma_call_settings">Vipimo vya witu wa simu wa CDMA vya ziada tu</string>
+    <string name="labelNwService">Vipimo vya Huduma ya Mtandao</string>
+    <string name="labelCallerId">Namba yangu ya simu</string>
+    <string name="sum_hide_caller_id">Nambari zinajificha katika simu zinazotoka</string>
+    <string name="sum_show_caller_id">Nambari zinaonyesha katika simu zinazotoka</string>
+    <string name="sum_default_caller_id">Tumia vipimo vya defaulti opereta ili kuonyesha nambari yangu ya simu katika simu zinazotoka</string>
+    <string name="labelCW">Subiri call</string>
+    <string name="sum_cw_enabled">Wakati wa wito wa simu,niarifu mimi kwa wito wa simu zinazoingia</string>
+    <string name="sum_cw_disabled">Wakati wa wito wa simu,niarifu mimi kwa wito wa simu zinazoingia</string>
+    <string name="call_forwarding_settings">Vipimo vya wito wa simu unaosambazwa</string>
+    <string name="call_barring_settings">Vipimo vya wito wa simu wa kuzuia</string>
+    <string name="labelCF">Wito wa simu unasambazwa</string>
+    <string name="labelCB">Vipimo vya wito wa simu wa kuzuia</string>
+    <string name="labelCFU">Daima mbele</string>
+    <string name="messageCFU">Daima tumia nambari hii</string>
+    <string name="sum_cfu_enabled_indicator">Kusambaza wito wote wa simu</string>
+    <string name="sum_cfu_enabled">Sambaza simu zote kwa <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+    <string name="sum_cfu_enabled_no_number">Nambari haipatikani</string>
+    <string name="sum_cfu_disabled">Isowezeshwa</string>
+    <string name="labelCFB">Sambaza wakati kuna kazi</string>
+    <string name="messageCFB">Nambari wakati kuna kazi</string>
+    <string name="sum_cfb_enabled">Sambaza kwa <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+    <string name="sum_cfb_disabled">Isowezeshwa</string>
+    <string name="disable_cfb_forbidden">Keriya yako haiungi mkono kutokuwezesha kusambaza wito wa simu wakati simu yako ina kazi.</string>
+    <string name="labelCFNRy">Sambaza wakati hakujajibiwa</string>
+    <string name="messageCFNRy">Nambari wakati hakuna jibu</string>
+    <string name="sum_cfnry_enabled">Sambaza kwa <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+    <string name="sum_cfnry_disabled">Isowezeshwa</string>
+    <string name="disable_cfnry_forbidden">
+\'Keriya yako hakiingiliani na kutokuwezesha kutuma kupiga simu wakati simu yako haiwezi\'t jibu.</string>
+    <string name="labelCFNRc">Sambaza wakati haifikiwi</string>
+    <string name="messageCFNRc">Nambari wakati haifikiwi</string>
+    <string name="sum_cfnrc_enabled">Sambaza kwa <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+    <string name="sum_cfnrc_disabled">Isowezeshwa</string>
+    <string name="disable_cfnrc_forbidden">Keriya yako haiungi mkono kutokuwezesha kusambaza wito wa simu wakati simu yako haipatikani.</string>
+    <string name="network_wrong" msgid="">"Mwitiko wa bila kutegemea kutoka mtandao"</string>
+    <string name="number_empty" msgid="">"Nambari iko tupu"</string>
+    <string name="cb_pw_error" msgid="">"Paswadi haiko sahihi"</string>
+    <string name="cb_pw_correct" msgid="">"Paswadi imebadilishwa"</string>
+    <string name="cb_pw_no_match" msgid="">"Paswadi hazilingani"</string>
+    <string name="labelAO">Zote zinazotoka</string>
+    <string name="messageAO">Ingiza paswadi ya simu zilizozuliwa.</string>
+    <string name="sum_ao_enabled_indicator">Kusambaza wito wote wa simu</string>
+    <string name="sum_ao_enabled">Wezesha</string>
+    <string name="sum_ao_disabled">Isowezeshwa</string>
+    <string name="enable_ao_forbidden">Keriya yako hakiingiliani na kuwezesha kuzuia simu zote zinazotoka.</string>
+    <string name="disable_ao_forbidden">Keriya yako hakiingiliani na kutokuwezesha kuzuia simu zote zinazotoka.</string>
+    <string name="labelOI">Zinazotoka kimataifa</string>
+    <string name="messageOI">Ingiza paswadi ya simu zilizozuliwa.</string>
+    <string name="sum_oi_enabled">Wezesha</string>
+    <string name="sum_oi_disabled">Isowezeshwa</string>
+    <string name="enable_oi_forbidden">
+\'Keriya yako hakiingiliani na kuwezesha kuzuia simu za kimataifa zinazotoka.</string>
+    <string name="disable_oi_forbidden">Keriya yako hakiingiliani na kutokuwezesha kuzuia simu za kimataifa zinazotoka.</string>
+    <string name="labelOX">Zinazotoka kimataifa roaming</string>
+    <string name="messageOX">Ingiza paswadi ya simu zilizozuliwa.</string>
+    <string name="sum_ox_enabled">Wezesha</string>
+    <string name="sum_ox_disabled">Isowezeshwa</string>
+    <string name="enable_ox_forbidden">Keriya yako hakiingiliani na kuwezesha kuzuia simu za kimataifa za roaming zinazotoka.</string>
+    <string name="disable_ox_forbidden">Keriya yako hakiingiliani na kutokuwezesha kuzuia simu za kimataifa za roaming zinazotoka.</string>
+    <string name="labelAI">Simu zote zinazoingia</string>
+    <string name="messageAI">Ingiza paswadi ya simu zilizozuliwa.</string>
+    <string name="sum_ai_enabled">Wezesha</string>
+    <string name="sum_ai_disabled">Isowezeshwa</string>
+    <string name="enable_ai_forbidden">Keriya yako hakiingiliani na kuwezesha kuzuia simu zote zinazoingia. 
+</string>
+    <string name="disable_ai_forbidden">Keriya yako hakiingiliani na kutokuwezesha kuzuia simu zote zinazoingia.</string>
+    <string name="labelIR">Pokea simu wakati unasafiri nje ya nchi</string>
+    <string name="messageIR">Ingiza paswadi ya simu zilizozuliwa.</string>
+    <string name="sum_ir_enabled">Wezesha</string>
+    <string name="sum_ir_disabled">Isowezeshwa</string>
+    <string name="enable_ir_forbidden">Keriya yako hakiingiliani na kuwezesha kuzuia simu zinazoingia wakati wa kupiga simu za roaming.
+</string>
+    <string name="disable_ir_forbidden">Keriya yako hakiingiliani na kutokuwezesha kuzuia simu za kimataifa zinazoingia wakati wa simu za roaming.</string>
+    <string name="labelAB">Atilisha zote</string>
+    <string name="messageAB">Ingiza paswadi ya simu zilizozuliwa.</string>
+    <string name="sum_ab_enabled">Wezesha</string>
+    <string name="sum_ab_disabled">Isowezeshwa</string>
+    <string name="enable_ab_forbidden">Keriya yako hakiingiliani na kutokushamsha zote. </string>
+    <string name="disable_ab_forbidden">Keriya yako hakiingiliani na kushamsha zote.</string>
+    <string name="labelChgPwd">Badilisha nywila</string>
+    <string name="DlgChgPwd_oldpwd">Ingiza paswadi ya simu zilizozuliwa.</string>
+    <string name="DlgChgPwd_newpwd_first">Ingiza paswadi mpya</string>
+    <string name="DlgChgPwd_newpwd_last">Thibitisha nywila mpya:</string>
+    <string name="updating_title">Vipimo vya kupiga simu</string>
+    <string name="error_updating_title">Hitilifu katika vipimo vya wito wa simu</string>
+    <string name="reading_settings">Vipimo vya Kusoma\u2026</string>
+    <string name="updating_settings">Pandisha daraja vipimo\u2026</string>
+    <string name="reverting_settings">Kurejea mazingira \u2026</string>
+    <string name="response_error">Hisia zisizotarajiwa kutoka katika mtandao.</string>
+    <string name="exception_error">Mtandao au hitilafu ya kadi ya SIM.</string>
+    <string name="fdn_only_error">Operesheni zinaruhusiwa tu katika kurekebisha nambari za kupigia.</string>
+    <string name="radio_off_error">Tafadhali washa redio kabla ya kuangalia vipimo hivi.</string>
+    <string name="close_dialog">Ndio</string>
+    <string name="enable">Wezesha</string>
+    <string name="disable">Lemaza</string>
+    <string name="change_num">Sasisha</string>
+    <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
+        <item>Defaulti ya Mtandao</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
+        <item>Ficha nambari</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
+        <item>Onyesha nambari</item>
+    </string-array>
+    <string-array name="clir_values">
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>DEFAULTI</xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>FICHA</xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>ONYESHA</xliff:g></item>
+    </string-array>
+    <string name="vm_save_number">Hifadhi nambari ya sauti ya barua pepe</string>
+    <string name="vm_changed">Nambari ya ujumbe wa sauti imebadilika.</string>
+    <string name="vm_change_failed">Nambari ya ujumbe wa sauti haijafanikiwa kubadilika.\nTafadhali wasiliana na keriya wako kama tatizo linaendelea.</string>
+    <string name="fw_change_failed">Kusambaza nambari kunabadilika bila mafanikio.\nTafadhali wasiliana na mchukuaji wako ikiwa tatizo hili linaendelea.</string>
+    <string name="fw_get_in_vm_failed">Imefeli kupata na kuhifadhi vipimo vya sasa vya kusambaza nambari.\nJe kwa vyovyote unataka kubadili kwenda kwa mtoaji mpya?</string>
+    <string name="no_change">Hakuna mabadiliko yaliyofanywa.</string>
+    <string name="sum_voicemail_choose_provider">Chagua huduma ya barua ya sauti</string>
+    <string name="voicemail_default">Maisha yangu</string>
+    <string name="mobile_networks">Vipimo vya mtandao wa Simu</string>
+    <string name="mobile_networks_sim1">SIM 1</string>
+    <string name="mobile_networks_sim2">SIM 2</string>
+    <string name="mobile_networks_other">Nyingine</string>
+    <string name="label_available">Mitandao inayopatikana</string>
+    <string name="label_available_sim1">SIM1 Mtandao unaopatikana</string>
+    <string name="label_available_sim2">SIM2 Mtandao unaopatikana</string>
+    <string name="load_networks_progress">Kutafuta...</string>
+    <string name="empty_networks_list">Hakuna mitandao iliyoonekana.</string>
+    <string name="search_networks">Tafuta mitandao</string>
+    <string name="network_query_error">Hitilafu wakati wa kutafuta mitandao.</string>
+    <string name="register_on_network">Kusajili katika <xliff:g id="network">%s</xliff:g>\u2026</string>
+    <string name="not_allowed">Simu kadi yako hairuhusu kuunganisha na mtandao huu.</string>
+    <string name="connect_later">Haiwezi kuunganishwa na mtandao huu kwa wakati huu.Tafadhali jaribu tena.</string>
+    <string name="registration_done">Kusajili katika mtandao.</string>
+    <string name="sum_carrier_select">Chagua opereta wa mtandao</string>
+    <string name="sum_search_networks">Tafuta kwa mitandao yote inayopatikana</string>
+    <string name="select_automatically">Teau kwa kiotomatiki</string>
+    <string name="sum_select_automatically">Kwa aotomatiki chagua mtandao unaopendelewa</string>
+    <string name="register_automatically">Usajili wa Aotomatiki...</string>
+    <string name="preferred_network_mode_title">Modi ya Mtandao</string>
+    <string name="preferred_network_mode_summary">Badili modi ya mtandao ya kufanya kazi</string>
+    <string name="preferred_network_mode_dialogtitle">Modi ya network inayopendelewa</string>
+    <string-array name="preferred_network_mode_choices">
+        <!-- <item>Global</item> -->
+        <!-- <item>EvDo only</item> -->
+        <!-- <item>CDMA w/o EvDo</item> -->
+        <!-- <item>CDMA / EvDo auto</item> -->
+        <!-- <item>GSM / WCDMA auto</item> -->
+        <!-- <item>WCDMA only</item> -->
+        <!-- <item>GSM only</item> -->
+        <!-- <item>GSM / WCDMA preferred</item> -->
+        <item>TD-SCDMA tu</item>
+        <item>GSM pekee</item>
+        <item>Kiotomati</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <!-- <item>"7"</item> -->
+        <!-- <item>"6"</item> -->
+        <!-- <item>"5"</item> -->
+        <!-- <item>"4"</item> -->
+        <!-- <item>"3"</item> -->
+        <item>"15"</item>
+        <item>"13"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="data_enabled">Data zimewezeshwa</string>
+    <string name="data_enable_summary">Wezesha upatikanaji wa data katika Mtandao wa simu</string>
+    <string name="roaming">Data roaming</string>
+    <string name="roaming_enable">Unganisha na huduma ya data wakati wa roaming</string>
+    <string name="roaming_disable">Unganisha na huduma ya data wakati wa roaming</string>
+    <string name="roaming_reenable_message">Umepoteza data za kuunganisha kwa sababu umewacha mtandao wako wa nyumbani ukiwa na data roaming imezimwa.</string>
+    <string name="roaming_warning">Ruhusu data roaming? Unaweza kupata imashtaka muhimu ya roaming!</string>
+    <string name="gsm_umts_options">Chaguo la GSM/UMTS</string>
+    <string name="cdma_options">Chaguzi za CDMA</string>
+    <string name="throttle_data_usage">Matumizi ya data</string>
+    <string name="throttle_settings_title">Sera za kichukua data</string>
+    <string name="throttle_current_usage">Data zilizotumika katika muda wa sasa</string>
+    <string name="throttle_time_frame">Muda wa matumizi ya data</string>
+    <string name="throttle_rate">Kiwango cha sera za data</string>
+    <string name="throttle_help">Soma zaidi</string>
+    <string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> muda wa juu kabisa\nMuhula mwengine kuanza<xliff:g id="used">%4$d</xliff:g> siku (<xliff:g id="used">%5$s</xliff:g>)</string>
+    <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> muda wa juu kabisa</string>
+    <string name="throttle_data_rate_reduced_subtext"><xliff:g id="used">%1$s</xliff:g> ya juu kabisa imezidi\nUwiano wa Data umepungua kwa<xliff:g id="used">%2$d</xliff:g> Kb/s</string>
+    <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d</xliff:g>\u066A za mizunguko ilozidi\nMuhula mwengine kuanza <xliff:g id="used">%2$d</xliff:g> siku (<xliff:g id="used">%3$s</xliff:g>)</string>
+    <string name="throttle_rate_subtext">Uwiano wa data umepunguzwa mpaka <xliff:g id="used">%1$d</xliff:g> Kb/s ikiwa kikomo cha utumizi wa data kimezidi</string>
+    <string name="throttle_help_subtext">Maelezo ya zaidi juu ya utumiaji wa sera wa maisha ya data ya mtandao wa simu</string>
+    <string name="cdma_cell_broadcast_sms">Matangazo ya Kiini ya SMS</string>
+    <string name="cell_broadcast_sms">Matangazo ya Kiini ya SMS</string>
+    <string name="enable_disable_cell_bc_sms">Matangazo ya Kiini ya SMS</string>
+    <string name="cell_bc_sms_enable">Matangazo ya Kiini ya SMS</string>
+    <string name="cell_bc_sms_disable">Matangazo ya Kiini ya SMS yamewezeshwa</string>
+    <string name="cb_sms_settings">Matangazo ya Kiini ya SMS hayakuwezeshwa</string>
+    <string name="channel_list">Orodha la stesheni la redio</string>
+    <string name="refreshing">Angalia nyuzi</string>
+    <string name="channel_name">Vipimo vya Matangazo ya Kiini ya SMS</string>
+    <string name="channel_number">Jina la kituo</string>
+    <string name="info_input_channel_number">Tafadhali ingiza nambari ya chanali</string>
+    <string name="info_input_channel_number_num">Tafadhali ingiza nambari tu</string>
+    <string name="menu_add_channel">Ongeza mkondo</string>
+    <string name="text_mode">Nakala simu</string>
+    <string name="pdu_mode">Modi ya Pdu</string>
+    <string name="get_cb_config">Pata muundo wa CB</string>
+    <string name="menu_add_address_to_contacts">Vipimo vya SIM2</string>
+    <string name="edit">Hariri</string>
+    <string name="menu_delete_channel">Futa zote</string>
+    <string name="menu_delete_sigle_channel">Futa</string>
+    <string name="no">Kata simu</string>
+    <string name="confirm_dialog_title">Futa</string>
+    <string name="confirm_delete_message">Nyuzi zote zitafutwa.</string>
+    <string name="enable_disable_emergency_broadcast">Matangazo ya Dharura</string>
+    <string name="emergency_broadcast_enable">Matangazo ya Dharura yamewezeshwa</string>
+    <string name="emergency_broadcast_disable">Matangazo ya Dharura hayakuwezeshwa</string>
+    <string name="enable_disable_administrative">Utawala</string>
+    <string name="administrative_enable">Utawala umewezeshwa</string>
+    <string name="administrative_disable">Utawala haukuwezeshwa</string>
+    <string name="enable_disable_maintenance">Uboreshaji</string>
+    <string name="maintenance_enable">Uboroshaji umewezeshwa</string>
+    <string name="maintenance_disable">Uboreshaji haukuwezeshwa</string>
+    <string name="general_news_settings">Habari kuu</string>
+    <string name="bf_news_settings">Habari za Biashara na Fedha</string>
+    <string name="sports_news_settings">Habari za michezo</string>
+    <string name="entertainment_news_settings">Habari za Kufurahisha</string>
+    <string name="enable_disable_local">Ya ndani</string>
+    <string name="local_enable">Habari za ndani zimewezeshwa</string>
+    <string name="local_disable">Habari za ndani hazikuwezeshwa</string>
+    <string name="enable_disable_regional">Eneo</string>
+    <string name="regional_enable">Habari za Eneo zimewezeshwa</string>
+    <string name="regional_disable">Habari za Eneo hazijawezeshwa</string>
+    <string name="enable_disable_national">Utaifa</string>
+    <string name="national_enable">Habari za Utaifa hazimewezeshwa</string>
+    <string name="national_disable">Habari za Utaifa hazijawezeshwa</string>
+    <string name="enable_disable_international">Kimataifa</string>
+    <string name="international_enable">Habari za kimataifa zimewezeshwa</string>
+    <string name="international_disable">Habari za kimataifa hazikuwezeshwa</string>
+    <string name="list_language_title">Matangazo ya Kiini</string>
+    <string name="list_language_summary">Rekebisha Lugha</string>
+    <string name="broadcast">Matangazo ya Kiini ya SMS</string>
+    <string name="menu_cellbroadcastsms">Matangazo ya Kiini ya SMS</string>
+    <string name="language_eng">Aina ya lugha:</string>
+    <string name="language_fren">Kingereza</string>
+    <string name="language_spanish">Kifaransa</string>
+    <string name="language_japanese">Kihispania</string>
+    <string name="language_korean">Kijapani</string>
+    <string name="language_chinese">Kikorea</string>
+    <string name="language_hebrew">Kichina</string>
+    <string name="same_setting">Tafadhali seti tena nambari ya chanali,hii ni sawa na jina la chanali</string>
+    <string-array name="list_language_entries">
+        <item>Aina ya lugha:</item>
+        <item>Kingereza</item>
+        <item>Kifaransa</item>
+        <item>Kihispania</item>
+        <item>Kijapani</item>
+        <item>Kikorea</item>
+        <item>Kichina</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">Lugha</string>
+    <string name="enable_disable_local_weather">Utabiri wa Ndani</string>
+    <string name="local_weather_enable">Utabiri wa Ndani umewezeshwa</string>
+    <string name="local_weather_disable">Utabiri wa Ndani hakuwezeshwa</string>
+    <string name="enable_disable_atr">Eneo la Ripoti ya Trafiki</string>
+    <string name="atr_enable">Eneo la Ripoti ya Trafiki limewezeshwa</string>
+    <string name="atr_disable">Eneo la Ripoti ya Trafiki halikuwezeshwa</string>
+    <string name="enable_disable_lafs">Ratiba za Ndege za Uwanja wa ndege wa Ndani</string>
+    <string name="lafs_enable">Ratiba za Ndege za Uwanja wa ndege wa Ndani imewezeshwa</string>
+    <string name="lafs_disable">Ratiba za Ndege za Uwanja wa ndege wa Ndani haikuwezeshwa</string>
+    <string name="enable_disable_restaurants">Mikahawa</string>
+    <string name="restaurants_enable">Mikahawa umewezeshwa</string>
+    <string name="restaurants_disable">Mikahawa haijawezeshwa</string>
+    <string name="enable_disable_lodgings">Lodgingi</string>
+    <string name="lodgings_enable">Lodgingi imewezesha</string>
+    <string name="lodgings_disable">Lodgingi haikuwezeshwa</string>
+    <string name="enable_disable_retail_directory">Mwongozo wa rejareja</string>
+    <string name="retail_directory_enable">Muongozo wa rejareja umewezeshwa</string>
+    <string name="retail_directory_disable">Mwongozo wa rejereja haukuwezeshwa</string>
+    <string name="enable_disable_advertisements">Matangazo</string>
+    <string name="advertisements_enable">Matangazo yamewezeshwa</string>
+    <string name="advertisements_disable">Matangazo hayakuwezeshwa</string>
+    <string name="enable_disable_stock_quotes">Nakili hisa</string>
+    <string name="stock_quotes_enable">Nakili hisa imewezeshwa</string>
+    <string name="stock_quotes_disable">Nakili hisa haikuwezeshwa</string>
+    <string name="enable_disable_eo">Nafasi za Kazi</string>
+    <string name="eo_enable">Nafasi za Kazi zimewezeshwa</string>
+    <string name="eo_disable">Nafasi za Kazi hazikuwezeshwa</string>
+    <string name="enable_disable_mhh">Matibabu, Afya na Hospitali</string>
+    <string name="mhh_enable">Matibabu, Afya na Hospitali yamewezesha</string>
+    <string name="mhh_disable">Matibabu, Afya na Hospitali hayakuwezeshwa</string>
+    <string name="enable_disable_technology_news">Habari za Teknologia</string>
+    <string name="technology_news_enable">Habari za Teknologia zimewezeshwa</string>
+    <string name="technology_news_disable">Habari za Teknologia hazikuwezeshwa</string>
+    <string name="enable_disable_multi_category">Aina Nyingi</string>
+    <string name="multi_category_enable">Aina nyingi zimewezeshwa</string>
+    <string name="multi_category_disable">Aina nyingi hazikuwezeshwa</string>
+    <string name="cell_broadcast_empty">Hakuna maelezo ya Chanal!</string>
+    <string name="gsm_umts_network_preferences_title">Mtandao unaopendelewa wa GSM/UMTS</string>
+    <string name="gsm_umts_network_preferneces_summary">Haijatekelezwa bado!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">Mtandao unaopendelewa wa GSM/UMTS</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA(modi ya kiotomatiki)</item>
+        <item>WCDMA tu</item>
+        <item>GSM pekee</item>
+        <item>GSM/WCDMA (WCDMA inapendeleawa )</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+    <string name="prefer_2g">Tumia mtandao wa 2G tu</string>
+    <string name="prefer_2g_summary">hifadhi betri</string>
+    <string name="cdma_system_select_title">Mfumo wa Chaguo</string>
+    <string name="cdma_system_select_summary">Badili modi ya cdma roaming</string>
+    <string name="cdma_system_select_dialogtitle">Mfumo wa Chaguo</string>
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>Nyumbani tu</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
+        <item>Aotomatiki</item>
+    </string-array>
+    <string name="cdma_roaming_mode_title">Modi ya Roaming ya CDMA</string>
+    <string name="cdma_roaming_mode_summary">Badili modi ya cdma roaming</string>
+    <string name="cdma_roaming_mode_dialogtitle">Modi ya roaming ya CDMA</string>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Mtandao wa Nyumbani tu</item>
+        <item>Mtandao ulioimarishwa</item>
+        <item>Mtandao wowote</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_network_preferences_title">Mtandao wa CDMA unaopendelewa</string>
+    <string name="cdma_network_preferneces_summary">Haijatekelezwa bado!</string>
+    <string name="cdma_network_preferences_dialogtitle">Mtandao wa CDMA unaopendelewa</string>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EvDo</item>
+        <item>CDMA tu</item>
+        <item>EvDo tu</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_subscription_title">Maelezo ya CDMA</string>
+    <string name="cdma_subscription_summary">Badili kati ya RUIM/SIM na NV</string>
+    <string name="cdma_subscription_dialogtitle">mchango</string>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <string name="fdn">Nambari maalum za kupiga </string>
+    <string name="manage_fdn_list">Orodha ya FDN</string>
+    <string name="fdn_activation">Muamsho wa FDN</string>
+    <string name="fdn_enabled">Nambari maalum za kupiga zimewezeshwa</string>
+    <string name="fdn_disabled">Nambari maalum za kupiga hazikuwezeshwa</string>
+    <string name="enable_fdn">Wezesha FDN</string>
+    <string name="disable_fdn">Kutokuwezesha FDN</string>
+    <string name="change_pin2">Badili PIN2</string>
+    <string name="enable_fdn_ok">Kutokuwezesha FDN</string>
+    <string name="disable_fdn_ok">Wezesha FDN</string>
+    <string name="sum_fdn">Simamia nambari maalum za kupiga</string>
+    <string name="sum_fdn_change_pin">Badili PIN kwa upatikanaji wa FDN</string>
+    <string name="sum_fdn_manage_list">Simamia orodha ya nambari za simu</string>
+    <string name="voice_privacy">Sauti ya faragha</string>
+    <string name="voice_privacy_summary">wezesha modi ya siri ya kilichowezeshwa</string>
+    <string name="tty_mode_title">Modi ya TTY</string>
+    <string name="tty_mode_summary">Wezesha Modi ya TTY</string>
+    <string name="tty_mode_option_title">Modi ya TTY</string>
+    <string name="tty_mode_option_summary">Seti modi ya TTY</string>
+    <string name="auto_retry_mode_title">Jaribu tena kiotomatiki</string>
+    <string name="auto_retry_mode_summary">Wezesha Kiotomati cha Modi ya jaribu tena</string>
+    <string name="menu_add">Ongeza wasiliano</string>
+    <string name="menu_edit">Hariri wasiliano</string>
+    <string name="menu_delete">Futa wasiliano</string>
+    <string name="get_pin2">Ingiza PIN2</string>
+    <string name="name">Jina</string>
+    <string name="number">Nambari</string>
+    <string name="save">Weka data au faili</string>
+    <string name="add_fdn_contact">Ongeza nambari maalum ya kupiga</string>
+    <string name="adding_fdn_contact">Kuongeza nambari maalum ya kupiga\u2026</string>
+    <string name="fdn_contact_added">Nambari maalum ya kupiga imeongezwa.</string>
+    <string name="edit_fdn_contact">Hariri nambari maalum ya kupigia</string>
+    <string name="updating_fdn_contact">Pandisha daraja nambari maalum ya kupigia\u2026</string>
+    <string name="fdn_contact_updated">Nambari maalum ya kupiga imewakatishwa.</string>
+    <string name="delete_fdn_contact">Futa nambari maalum ya kupigia</string>
+    <string name="deleting_fdn_contact">Kufuta nambari maalum ya kupigia\u2026</string>
+    <string name="fdn_contact_deleted">Nambari maalum ya kupiga imefutwa.</string>
+    <string name="pin2_invalid">FDN haijawakatishwa:umeingiza PIN isiyosahihi.</string>
+    <string name="fdn_invalid_number">FDN haijawakatishwa:nambari haziwezi kuzidi tarakimu 20.</string>
+    <string name="simContacts_emptyLoading">Kusoma kutoka kadi ya SIM\u2026</string>
+    <string name="simContacts_empty">Hakuna wasiliano katika kadi ya SIM.</string>
+    <string name="simContacts_title">Teua wasiliano ili kutoa</string>
+    <string name="enable_pin">Wezesha/Kutokuwezesha PIN ya laini ya simu</string>
+    <string name="change_pin">Badili PIN ya SIM</string>
+    <string name="enter_pin_text">PIN ya SIM:</string>
+    <string name="oldPinLabel">PIN ya zamani</string>
+    <string name="newPinLabel">PIN mpya</string>
+    <string name="confirmPinLabel">Thibitisha PIN mpya</string>
+    <string name="badPin">PIN kongwe ulichapa sio sahihi.Tafadhali jaribu tena.</string>
+    <string name="mismatchPin">PIN uloingiza hailingani.Tafadhali jaribu tena.</string>
+    <string name="invalidPin">Chapa PIN ambayo ni nambari 4 mpaka 8.</string>
+    <string name="disable_sim_pin">Kutokuwezesha PIN ya laini ya simu</string>
+    <string name="enable_sim_pin">Wezesha PIN ya laini ya simu</string>
+    <string name="enable_in_progress">Subiri tafadhali\u2026</string>
+    <string name="enable_pin_ok">PIN ya SIM imewezeshwa</string>
+    <string name="disable_pin_ok">PIN ya SIM haikuwezeshwa</string>
+    <string name="pin_failed">PIN uloichapa sio sahihi</string>
+    <string name="pin_changed">Mabadiliko ya PIN ya SIM yamefanikiwa</string>
+    <string name="puk_requested">Paswadi sio sahihi,SIM imetiwa loki! PUK2 imeombwa.</string>
+    <string name="enter_pin2_text">PIN2</string>
+    <string name="oldPin2Label">PIN2 ya zamani</string>
+    <string name="newPin2Label">PIN2 mpya</string>
+    <string name="confirmPin2Label">Thibitisha PIN2 mpya</string>
+    <string name="badPuk2">PUK2 ulochapa sio sahihi.Tafadhali jaribu tena.</string>
+    <string name="badPin2">PIN2 kongwe ulichapa sio sahihi.Tafadhali jaribu tena.</string>
+    <string name="mismatchPin2">PIN2 uloingiza hailingani.Tafadhali jaribu tena.</string>
+    <string name="invalidPin2">Chapa PIN2 ambayo ni nambari 4 mpaka 8.</string>
+    <string name="promptWordOne">Kubaki</string>
+    <string name="promptWordTwo"> Mara</string>
+    <string name="invalidPuk2">Chapa PUK2 ambayo ni nambari 8.</string>
+    <string name="pin2_changed">Mabadiliko ya PIN2 yamefanikiwa</string>
+    <string name="label_puk2_code">Chapa PUK2 codi</string>
+    <string name="fdn_enable_puk2_requested">Paswadi sio sahihi,tafadhali badili PIN2 na jaribu tena!</string>
+    <string name="puk2_requested">Paswadi sio sahihi,SIM imetiwa loki! PUK2 imeombwa.</string>
+    <string name="doneButton">Maliza</string>
+    <string name="caller_manage_header">Wito wa mkutano <xliff:g id="conf_call_time">%s</xliff:g></string>
+    <string name="caller_manage_manage_done_text">Kurejesha wito wa simu</string>
+    <string name="fake_phone_activity_phoneNumber_text">(650) 555-1234</string>
+    <string name="fake_phone_activity_infoText_text">Nambari ya simu inayoingia</string>
+    <string name="fake_phone_activity_placeCall_text">Wito feki wa simu unaoingia</string>
+    <string name="sim_missing_continueView_text">Endelea bila ya laini ya kadi ya simu</string>
+    <string name="sim_missing_msg_text">Hakuna kadi ya SIM ilioonekana.Tafadhali ingiza kadi ya SIM katika simu yako.</string>
+    <string name="sim_unlock_dismiss_text">Kufukuza</string>
+    <string name="sim_unlock_unlock_text">Fungua</string>
+    <string name="sim_unlock_status_text">Kusalamisha PIN\u2026</string>
+    <string name="voicemail_settings_number_label">Nambari ya ujumbe wa sauti</string>
+    <string name="card_title_dialing">Kupiga simu</string>
+    <string name="card_title_dialing_video">Kupiga video</string>
+    <string name="card_title_alerting_video">Tahadharisha mtumiaji</string>
+    <string name="card_title_redialing">Kujaribu tena</string>
+    <string name="card_title_in_progress">Simu ya sasa</string>
+    <string name="card_title_conf_call">Wito wa mkutano</string>
+    <string name="card_title_incoming_call">Simu za kuingia</string>
+    <string name="card_title_incoming_video_call">Simu ya video inaingia</string>
+    <string name="card_title_cdma_call_waiting">Wito wa Simu wa kusubiri wa Cdma</string>
+    <string name="card_title_call_ended">Kupiga simu imemaliza</string>
+    <string name="card_title_on_hold">Kushikilia</string>
+    <string name="card_title_hanging_up">Kata simu</string>
+    <string name="card_title_in_call">Katika wito wa simu</string>
+    <string name="card_title_my_phone_number">Nambari yangu ni <xliff:g id="my_phone_number">%s</xliff:g></string>
+    <string name="notification_missedCallTitle">Kukosa wito wa simu</string>
+    <string name="notification_missedCallsTitle">Kukosa wito wa simu</string>
+    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> wito ulikosekana</string>
+    <string name="notification_missedCallTicker">Wito ulokosekana kutoka <xliff:g id="missed_call_from">%s</xliff:g></string>
+    <string name="notification_ongoing_call_format">Wito wa sasa (<xliff:g id="duration">%s</xliff:g>)</string>
+    <string name="notification_on_hold">Kushikilia</string>
+    <string name="notification_incoming_call">Simu za kuingia</string>
+    <string name="notification_voicemail_title">Barua ya sauti mpya</string>
+    <string name="notification_voicemail_title_count">Barua mpya ya sauti (<xliff:g id="count">%d</xliff:g>)</string>
+    <string name="notification_voicemail_text_format">Piga <xliff:g id="voicemail_number">%s</xliff:g></string>
+    <string name="notification_voicemail_no_vm_number">Nambari ya ujumbe wa sauti haijuilikani</string>
+    <string name="notification_network_selection_title">Hakuna huduma</string>
+    <string name="notification_network_selection_text">Mtandao uliochaguliwa (<xliff:g id="operator_name">%s</xliff:g>) haupatikani</string>
+    <string name="incall_error_power_off">Ili kuweka wito wa simu,kwanza zima modi ya Ndege</string>
+    <string name="incall_error_emergency_only">Haijasajiliwa katika mtandao</string>
+    <string name="incall_error_out_of_service">Mtandao wa Simu haupatikani.</string>
+    <string name="incall_error_no_phone_number_supplied">Wito wa simu haujatumwa,hakuna nambari halili iliyoingizwa.</string>
+    <string name="incall_error_call_failed">Wito wa simu haujatumwa.</string>
+    <string name="incall_status_dialed_mmi">Kuanzisha MMI mtiririko\u2026</string>
+    <string name="incall_status_dialed_fc">Kuanzisha sifa mtiririko wa codi\u2026</string>
+    <string name="incall_error_supp_service_unknown">Huduma isiyoungwa mkono.</string>
+    <string name="incall_error_supp_service_switch">Haiwezi kubadili wito wa simu.</string>
+    <string name="incall_error_supp_service_separate">Haiwezi kutenganisha wito wa simu.</string>
+    <string name="incall_error_supp_service_transfer">Haiwezi kuhamisha wito wa simu.</string>
+    <string name="incall_error_supp_service_conference">Haiwezi kufanya mkutano wa simu.</string>
+    <string name="incall_error_supp_service_reject">Haiwezi kukataa wito wa simu.</string>
+    <string name="incall_error_supp_service_hangup">Haiwezi kuachia wito wa simu.</string>
+    <string name="incall_error_dialvt_in_2gcall">Wito wa video unatembea tayari,hatuwezi kuweka wito wa video!</string>
+    <string name="incall_error_dialvt_in_3gcall">Wito wa video unatembea tayari,hatuwezi kuweka wito wa video!</string>
+    <string name="incall_error_dial_in_3gcall">Wito wa video unatembea tayari,hatuwezi kuweka wito wa video!</string>
+    <string name="incall_error_aireplane_mode_on">Ili kuweka wito wa simu,kwanza zima modi ya Ndege</string>
+    <string name="emergency_enable_radio_dialog_title">Simu ya dharura</string>
+    <string name="emergency_enable_radio_dialog_message">Washa redio\u2026</string>
+    <string name="emergency_enable_radio_dialog_retry">Nje ya eneo la Huduma,jaribu tena\u2026</string>
+    <string name="dial_emergency_error">Wito haujatumwa,<xliff:g id="non_emergency_number">%s</xliff:g> sio nambari ya dharura!</string>
+    <string name="dial_emergency_empty_error">Wito wa simu haujatumwa,tafadhali piga nambari ya dharura!</string>
+    <string name="dialerKeyboardHintText">Tumia keybodi ili kupiga simu</string>
+    <string name="dtmfDialpadHintText">Gusa toni ya keypadi</string>
+    <string name="dtmfDialpadHandleLabel">Dayo padi</string>
+    <string name="touchLockText">Mara mbili-tap\n kwa kutoa loki</string>
+    <string name="onscreenAnswerText">Mara mbili-tap\n kwa jibu</string>
+    <string name="onscreenRejectText">Mara mbili-tap\n kwa kukataa</string>
+    <string name="onscreenHoldText">Kushikilia</string>
+    <string name="onscreenUnholdText">Haijashikiliwa</string>
+    <string name="onscreenEndCallText">Kuanza</string>
+    <string name="onscreenShowDialpadText">Dayo padi</string>
+    <string name="onscreenHideDialpadText">Kuficha simu</string>
+    <string name="onscreenSpeakerText">Spika</string>
+    <string name="onscreenMuteText">Toa sauti</string>
+    <string name="onscreenBluetoothText">Bluetooth</string>
+    <string name="onscreenAddCallText">Ongeza wito wa simu</string>
+    <string name="onscreenMergeCallsText">Kuunganisha simu</string>
+    <string name="onscreenSwapCallsText">Badilishana</string>
+    <string name="onscreenManageCallsText">Simamia wito wa simu</string>
+    <string name="onscreenManageConferenceText">Kusimamia</string>
+    <string name="importSimEntry">Leta</string>
+    <string name="importAllSimEntries">Leta zote</string>
+    <string name="importingSimContacts">Kuleta wasiliano wa SIM</string>
+    <string name="importToFDNfromContacts">Leta kutoka katika wasiliano</string>
+    <string name="hac_mode_title">Visaidizi vya kusikia</string>
+    <string name="hac_mode_summary">Washa Kisaidi kusikia ilicho imara</string>
+    <string-array name="tty_mode_entries">
+        <item>TTY  zimwa</item>
+        <item>TTY imejaa</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string name="eri_text_label">ERI matini</string>
+    <string name="dtmf_tones_title">DTMF Toni</string>
+    <string name="dtmf_tones_summary">Seti urefu wa toni ya DTMF</string>
+    <string-array name="dtmf_tone_entries">
+      <item>Kawaida</item>
+      <item>Refu</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+       <item>0</item>
+       <item>1</item>
+    </string-array>
+    <string name="network_message">Ujumbe wa Mtandao</string>
+    <string name="ota_title_activate">Amilisha simu yako</string>
+    <string name="ota_touch_activate">"Wito maalum wa simu unahitaji kufanywa ili kuamsha huduma ya simu yako.
+     \n\nBaada ya kuponyeza \u201C Kuamsha\u201D, sikiliza maelekezo yanayotolewa ili kuamsha simu yako. "</string>
+    <string name="ota_touch_activate_new">Gusa\u201CWeka hai\u201D ili kuweka simu maalum ambazo zinaweka hai katika maisha ya mtandao wa simu,kwa hivyo unaweza kuweka wito wa simu na kuunganishwa kwa mitandao ya data za simu.</string>
+    <string name="ota_skip_activation_dialog_title">Acha kuweka hai?</string>
+    <string name="ota_skip_activation_dialog_message">Ikiwa utaacha kuhaiisha,huwezi kuweka wito wa simu au kuunganisha data za mtandao wa simu(fikira unaweza kuunganishwa na mtandao wa Wi-Fi).Mpaka utakapo haiisha,utaulizwa kila wakati unapowasha simu yako.</string>
+    <string name="ota_skip_activation_dialog_skip_label">Acha</string>
+    <string name="ota_skip_activation_dialog_continue_label">Amilisha</string>
+    <string name="ota_activate">Amilisha</string>
+    <string name="ota_title_activate_success">Simu imehaishwa!</string>
+    <string name="ota_title_problem_with_activation">Tatizo pamoja na kushamsha</string>
+    <string name="ota_listen">Fata maelekezo yanazozungumzwa mpaka utakaposikia uamshaji umekamilika.</string>
+    <string name="ota_dialpad">Baobonye</string>
+    <string name="ota_speaker">Spika</string>
+    <string name="ota_progress">Tafadhali subiri wakati simu yako inakuwa inapangiliwa.</string>
+    <string name="ota_failure">Upangaji haujafanikiwa</string>
+    <string name="ota_successful">Simu yako sasa inawekwa hai.Inaweza kuchukua mpaka dakika 15 kwa huduma kuanza.</string>
+    <string name="ota_unsuccessful">"Simu yako haikuamshwa.
+     \n Unaweza kuwa na haja ya kutafuta eneo lenye chanjo nbora (karibu na dirisha, au nje).
+     \n\n Jaribu tena au piga simu huduma kwa wateja kwa chaguzi zaidi. "</string>
+    <string name="ota_spc_failure">SEHEMU ILIYOZIDI IMEFELI</string>
+    <string name="ota_call_end">Rudi</string>
+    <string name="ota_try_again">Jaribu tena</string>
+    <string name="ota_next">Hatua ya pili</string>
+    <string name="ota_back">Rudi</string>
+    <string name="phone_entered_ecm_text">Imeingizwa Modi ya kurejesha wito wa simu wa Dharura</string>
+    <string name="phone_in_ecm_notification_title">Modi ya kurejesha simu ya Dharura</string>
+    <string name="phone_in_ecm_call_notification_text">Muunganisho wa data haukuwezeshwa</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <!-- number of minutes is one -->
+        <item quantity="one">Hakuna muunganisho wa data kwa <xliff:g id="count">%s</xliff:g> dakika</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">Hakuna muunganisho wa data kwa <xliff:g id="count">%s</xliff:g> dakika</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">Simu itakuwa katika modi ya kurejesha wito wa dharura <xliff:g id="count">%s</xliff:g> kwa dakika.Wakati ikiwa katika modi hii hakuna matumizi yanayotumia munganisho wa data yatakayotumika.Je unataka kuondoa sasa?</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">Simu itakuwa katika modi ya kurejesha wito wa dharura <xliff:g id="count">%s</xliff:g> kwa dakika.Wakati ikiwa katika modi hii hakuna matumizi yanayotumia munganisho wa data yatakayotumika.Je unataka kuondoa sasa?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">Kitendo kilichochakuliwa hakipatikani wakati ukiwa katika modi ya kurejesha Simu ya Dharura.Simu itakuwa katika modi hii <xliff:g id="count">%s</xliff:g> kwa dakika .Je unataka kuondoa sasa?</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">Kitendo kilichochakuliwa hakipatikani wakati ukiwa katika modi ya kurejesha Simu ya Dharura.Simu itakuwa katika modi hii <xliff:g id="count">%s</xliff:g>kwa dakika .Je unataka kuondoa sasa?</item>
+    </plurals>
+    <string name="alert_dialog_in_ecm_call">Kitendo kilichochakuliwa hakipatikani wakati ukiwa katika Simu ya Dharura</string>
+    <string name="progress_dialog_exiting_ecm">Kuondoa Modi ya wito wa kurejesha simu wa Dharura</string>
+    <string name="alert_dialog_yes">Ndio</string>
+    <string name="alert_dialog_no">La</string>
+    <string name="alert_dialog_dismiss">Kufukuza</string>
+    <string name="absent_num">NAMBARI ZINAZOKOSEKANA</string>
+    <string name="voicemail_settings">Mazingira ya ujumbe wa sauti</string>
+    <string name="voicemail_number_not_set">"&lt;si kuweka&gt;"</string>
+    <string name="voicemail_provider">Huduma ya ujumbe wa sauti</string>
+    <string name="voicemail_settings_for">Rekebisha kwa<xliff:g id="provider_name">%s</xliff:g></string>
+    <string name="other_settings">Vipimo vyengine vya wito</string>
+    <string name="dial_button_label">Piga</string>
+    <string name="calling_via_template">Kuita kupitia ^1\n<b>^2</b></string>
+    <string name="slide_to_answer">Futa kulia kwa kujibu</string>
+    <string name="slide_to_silence">Futa kushoto kwa ringi ya kimya kimya</string>
+    <string name="slide_to_decline">Futa kushoto kwa kukataa</string>
+    <string name="slide_to_answer_and_hold">Futa kulia kwa kujibu na \n shikilia wito uliko hai</string>
+    <string name="slide_to_answer_and_end_active">Futa kulia kwa kujibu na \n maliza wito ulioko hai</string>
+    <string name="slide_to_answer_and_end_onhold">Futa kulia kwa kujibu na \n maliza wito ulioshikiliwa</string>
+    <string name="slide_to_answer_hint">Jibu simu</string>
+    <string name="slide_to_decline_hint">Kataa</string>
+    <string name="sim_state_not_changes">Hali ya Sim kadi kuwezeshwa/kutokuwezeshwa haina mabadiliko.</string>
+    <string name="sim_state_set_timeout">Hali muda wa mpangilio wa Sim kadi umeisha.</string>
+    <string name="data_enable_set">Muunganisho wa data unawezesha vipimo</string>
+    <string name="data_enable_set_timeout">Muunganisho wa data unawezesha vipimo vya kumaliza muda.</string>
+    <string name="selectsim_settings_label">Vipimo vya hali ya kusubiri vya Sim kadi</string>
+    <string name="cb_error">Wito wa simu wa kuzuia umekataliwa</string>
+    <string name="video_camera_switch">Badili kamera</string>
+    <string name="video_view_switch">Badili muono</string>
+    <string name="video_camera_close">Funga Kamera</string>
+    <string name="video_camera_open">Fungua kamera</string>
+    <string name="video_speaker_close">Funga Spika</string>
+    <string name="video_speaker_open">Fungua spika</string>
+    <string name="video_bluetooth_close">Funga bluetooth</string>
+    <string name="video_bluetooth_open">Washa bluetooth</string>
+    <string name="video_mute">Toa sauti</string>
+    <string name="video_unmute">Haijatolewa sauti</string>
+    <string name="video_decline">Kataa</string>
+    <string name="video_falldown">Sauti tu</string>
+    <string name="video_record">Rekodi...</string>
+    <string name="video_start_record_both">Anza kurekodi zote</string>
+    <string name="video_start_record_audio">Anza Kurekodi Sauti</string>
+    <string name="video_stop_record">Simamisha kurekodi</string>
+    <string name="insert_sd_card">Tafadhali ingiza kadi ya SD</string>
+    <string name="storage_is_full">Hifadhi imejaa</string>
+    <string name="video_btn_dialer">Baobonye</string>
+    <string name="video_btn_hangup">Ninginiza</string>
+    <string name="video_btn_answer">Jibu simu</string>
+    <string name="video_btn_decline">Kataa</string>
+    <string name="video_label_name">Jina:</string>
+    <string name="video_label_time">Muda wa wito:</string>
+    <string name="video_label_status">\'Mpokeaji</string>
+    <string name="video_label_begintime">Muda wa kunza:</string>
+    <string name="video_dialog_incoming">Wito wa simu unaoingia,kubali au la?</string>
+    <string name="video_dialog_incoming_accept">Kubali</string>
+    <string name="video_dialog_incoming_tovoice">Badili kwenda kwenye video</string>
+    <string name="video_dialog_incoming_hangup">Pokea simu</string>
+    <string name="videophonesetting_label">Vipimo vya video ya simu</string>
+    <string name="videophone_setting">Video ya simu</string>
+    <string name="videophone_setting_title">Vipimo vikuu vya video ya simu</string>
+    <string name="videophone_setting_summary">Seti chaguzi kwa video ya simu kuonyesha,mazingira ya nje na n.k</string>
+    <string name="videophone_callforward_setting_title">Vipimo vya kusambaza vya video ya simu</string>
+    <string name="videophone_callbarring_setting_title">Vipimo vya Kuzuia vya video ya simu</string>
+    <string name="videophone_setting_title_static_image">Kuonyesha picha iliyotulia</string>
+    <string name="videophone_setting_title_static_image_set">Seti  Picha Tulivu</string>
+    <string name="videophone_setting_title_remote_static_image_set">Kudhibiti_Seti ya Picha Iliyotulia</string>
+    <string name="videophone_setting_title_delete_photo">Picha ya defaulti</string>
+    <string name="videophone_setting_title_take_photo">Chua picha</string>
+    <string name="videophone_setting_title_pick_photo">Chagua picha kutoka katika Gallari</string>
+    <string name="videophone_setting_photoPickerNotFoundText">Hakuna picha inayopatikana katika simu.</string>
+    <string name="videophone_setting_summary_static_image">Kuonyesha picha iliyotulia wakati kidhibiti kamera kitakapofungwa</string>
+    <string name="videophone_setting_title_layout">Upendeleo wa video skrini</string>
+    <string name="videophone_layout_my_small">Video yangu ndogo</string>
+    <string name="videophone_layout_my_large">Video yangu kubwa</string>
+    <string name="videophone_setting_default_image">Picha ya defaulti</string>
+    <string name="videophone_setting_picture_oversize">"Ukumbwa wa picha hauwezi kuzidi 640*480"</string>
+    <string name="videophone_setting_picture_widthtoosmall">"Upana wa picha hauwezi kuwa chini ya 64"</string>
+    <string name="videophone_setting_picture_heightoosmall">"Urefu wa picha hauwezi kuwa chini ya 64"</string>
+    <string name="videophone_setting_picture_notjpg">"Inaunga mkono fomati ya picha za jpg tu"</string>
+    <string name="videophone_setting_title_fallback">Ombi la kurejesha wito wa simu wa sauti</string>
+    <string name="videophone_fallback_always_ask">Niulize mimi kila wakati</string>
+    <string name="videophone_fallback_always_callback">Daima kurejesha wito wa simu</string>
+    <string name="videophone_fallback_never_callback">Kwamwe usirejeshe wito wa simu</string>
+    <string name="videophone_setting_dialog_title_layout">Upendeleo wa video</string>
+    <string name="videophone_setting_dialog_title_fallback">Ombi la kurejesha wito wa simu wa sauti</string>
+    <string name="videophone_setting_layout_defaultvalue">1</string>
+    <string name="videophone_setting_fallback_defaultvalue">1</string>
+    <string name="videophone_setting_title_remote_static_image_defaultvalue">3</string>
+    <string name="videophone_setting_title_local_static_image_defaultvalue">3</string>
+    <string name="videophone_fallback_title">Video ya simu imeanguka nyuma</string>
+    <string name="videophone_never_fallback">Kipokeaji kimeomba wito wa sauti.Kipe na kipige kiotomatiki.</string>
+    <string name="videophone_always_fallback">Kipokeaji kimeomba wito wa sauti.Piga tena wito wa sauti kiotomatiki.</string>
+    <string name="videophone_notin3g_never_fallback">"Mtandao wa sasa haungi mkono wito wa video.Acha piga tena kwa kiotomatiki."</string>
+    <string name="videophone_notin3g_always_fallback">"Mtandao wa sasa haungi mkono wito wa video.Piga tena kwa kiotomatiki."</string>
+    <string name="videophone_fallback_menu_videocall">Simu ya video</string>
+    <string name="videophone_fallback_menu_voicecall">Simu ya video</string>
+    <string name="videophone_fallback_menu_cancel">Kata simu</string>
+    <string name="videophone_fallback_question">Unataka kufanya nini?</string>
+    <string name="videophone_failcause_1000">"Wito wa video uliopita umemaliza kikawaida,tafadhali jaribu tena baada ya muda"</string>
+    <string name="videophone_failcause_1">Nambari uliyokuwa hujapewa</string>
+    <string name="videophone_failcause_3">Mteja hawezi unganishwa</string>
+    <string name="videophone_failcause_8">Wito wa simu uwazi</string>
+    <string name="videophone_failcause_17">Mteja inashugulika</string>
+    <string name="videophone_failcause_19">"Mtumiaji unayempigia haitikii"</string>
+    <string name="videophone_failcause_27">Mteja amezima simu</string>
+    <string name="videophone_failcause_34">Unganisho umetengana</string>
+    <string name="videophone_failcause_63">Simu ya utembezi imezibwa</string>
+    <string name="videophone_failcause_79">Huduma ya simu ya video haiungwi mkono</string>
+    <string name="videophone_failcause_default">Mteja hawezi unganishwa</string>
+    <string name="videophone_failcause_47">Pole,simu ya video haipatikani</string>
+    <string name="videophone_failcause_57">"Upande mwengine haujaanza Huduma ya VT"</string>
+    <string name="videophone_failcause_58">Huduma ya simu ya video haiungwi mkono</string>
+    <string name="videophone_failcause_88">Mtumiaji chagua sauti call</string>
+    <string name="videophone_failcause_minus_1">Huduma ya 3 G haipatikani</string>
+    <string name="videophone_incoming_prompt">Simu ya video inaingia</string>
+    <string name="brightness">Mwangza wa skrini</string>
+    <string name="camera_brightness">Kiwango cha mwangaza wa kamera</string>
+    <string name="camera_contrast">Utofauti wa Kamera </string>
+    <string name="prompt_remotecamera_close">Ongoza kamera imefungwa</string>
+    <string name="prompt_remotecamera_open">Ongoza kamera imefunguliwa</string>
+    <string name="sutstitute_not_exist">Mbadala wa picha haupo</string>
+    <string name="prompt_picture_format_error">"Picha inayoingizwa sio jpeg,rejea katika picha ya defaulti"</string>
+    <string name="prompt_wait_voicecall">Tafadhali subiri wito wa simu wa sauti</string>
+    <string name="prompt_record_finish">Faili lilorekodiwa limehifadhiwa kwenye</string>
+    <string name="prompt_camera_fail">Kufungua kamera kumefeli</string>
+    <string name="prompt_no_freespace">Nafasi huru haizidi 500kb sasa,kurekodi kutasimamishwa.</string>
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <string name="audio_db_artist_name">Rekodi zako</string>
+    <string name="audio_db_album_name">Rekodi ya sauti</string>
+    <string name="audio_db_playlist_name">Rekodi zangu</string>
+    <string name="app_name">Simu App</string>
+    <string name="error_mediadb_new_record">Haiwezi kuhifadhi sauti iliyorekodiwa</string>
+    <string name="hangup_reply_message_title">Ujumbe umekataa </string>
+    <string name="hangup_reply_message">Jibu ujumbe Zagaa</string>
+    <string name="hangup_reply_message_tip">wakati utakapo bonyeza UI inayoingia,kiotomatiki utamtumia ujumbe mtu aliyekupigia simu.</string>
+    <string name="edit_message_content_for_hangup">Hariri maudhui ya ujumbe</string>
+    <string name="edit_message_content_introdution">Hariri maudhui ya ujumbe na onyesha mtu maalum</string>
+    <string name="label_message_reject">Maudhui ya ujumbe kwa kuninginia</string>
+    <string name="tip_input_content">Hujarekebisha yaliyomo kwenye ujembe</string>
+    <string name="label_button_edit">Hariri</string>
+    <string name="label_button_ok">Ndio</string>
+    <string name="label_button_add_special_reply">Ongeza nambari maalum ili kujibu</string>
+    <string name="reply_message_default">Nina kazi,nitakupigia baadae!</string>
+    <string name="title_message_reply_for_hangup">Hariri maudhui ya ujumbe</string>
+    <string name="contactPhoto">picha ya wasiliano</string>
+    <string name="goPrivate">nenda binafsi</string>
+    <string name="selectContact">chagua wasiliano</string>
+    <string name="standby_select">Chaguo la Nguvu ya hali ya kusubiri</string>
+    <string name="sip_settings">Vipimo vya wito wa intaneti</string>
+    <string name="sip_accounts">Akaunti ya kupiga simu kwa intaneti (SIP)</string>
+    <string name="sip_accounts_title">Akaunti</string>
+    <string name="sip_accounts_summary">Meneji akaunti ya Wito wa simu wa intaneti(SIP) na hadhi</string>
+    <string name="sip_receive_calls">Kupokea wito wa simu zinazoingia</string>
+    <string name="sip_receive_calls_summary">Punguza maisha ya betri</string>
+    <string name="sip_call_options">Unda chaguzi za wito</string>
+    <string name="sip_call_options_title">Tumia kupiga kwa intaneti</string>
+    <string name="sip_call_options_wifi_only_title">Tumia kupiga kwa intaneti (WiFi tu)</string>
+    <string name="sip_call_options_entry_1">Kwa miito ya simu yote wakati mtandao wa data unapatikana</string>
+    <string name="sip_call_options_entry_2">Ni kwa wito wa Intaneti tu</string>
+    <string name="sip_call_options_entry_3">Uliza kwa kila wito wa simu</string>
+    <string name="sip_call_options_wifi_only_entry_1">Kwa miito ya simu yote</string>
+    <string name="auto_reg">Usajili wa kiotomati</string>
+    <string name="call_priority">Simu zinazotoka kupitia SIP</string>
+    <string name="pick_outgoing_call_phone_type">Weka wito wa simu</string>
+    <string name="pick_outgoing_sip_phone">Tumia akaunti ya kupiga kwa intanenti:</string>
+    <string name="remember_my_choice">Mara zote tumia ili kuweka wito wa simu wa intaneti</string>
+    <string name="reset_my_choice_hint">Unaweza kutumia Vipimo vya wito wa simu ili kubadili intaneti akaunti gani ya kupigia ya defaulti ya kuweza kutumia wakati wa kuweka wito wa simu,kwa kuchagua akaunti tofauti zilizoko katika vipimo vya wito wa intaneti</string>
+    <string name="pstn_phone">Wito wa simu ya mkononi</string>
+    <string name="internet_phone">Wito wa intaneti</string>
+    <string name="no_sip_account_found_title">Hakuna akaunti ya kupiga kwa intaneti</string>
+    <string name="no_sip_account_found">Hakuna akaunti ya wito wa intaneti katika simu hii.Ongeza moja sasa?</string>
+    <string name="sip_menu_add">Ongeza</string>
+    <string name="add_sip_account">Kuzungumza-Chagua akaunti</string>
+    <string name="remove_sip_account">Hariri akaunti</string>
+    <string name="sip_account_list">SIP akaunti</string>
+    <string name="saving_account">Inahifadhi akaunti...</string>
+    <string name="removing_account">Ondoa akaunti...</string>
+    <string name="sip_menu_save">Weka data au faili</string>
+    <string name="sip_menu_discard">Tupa</string>
+    <string name="alert_dialog_close">Funga profaili</string>
+    <string name="alert_dialog_ok">Ndio</string>
+    <string name="close_profile">Funga</string>
+    <string name="primary_account">Msingi</string>
+    <string name="primary_account_title">Fanya hii kuwa akaunti yangu ya msingi</string>
+    <string name="primary_account_summary">Inatumika kwa wito wa simu za mipaka ya nje</string>
+    <string name="advanced_settings_title">Vipimo vya hali ya juu</string>
+    <string name="primary_account_summary_with">Akaunti ya msingi. <xliff:g id="registration_status" example="Registering...">%s</xliff:g></string>
+    <string name="registration_status_checking_status">Chunguza hali...</string>
+    <string name="registration_status_registering">Kusajili...</string>
+    <string name="registration_status_still_trying">Bado najaribu...</string>
+    <string name="registration_status_not_receiving">Hakunapokelewa wito wa simu</string>
+    <string name="registration_status_no_data">Usajili wa akaunti umesimama kwa sababu hakuna munganiko wa intaneti</string>
+    <string name="registration_status_no_wifi_data">Usajili wa akaunti umesimama kwa sababu hakuna munganiko wa Wi-Fi</string>
+    <string name="registration_status_not_running">Usajili wa akaunti umefeli</string>
+    <string name="registration_status_done">Kupokea wito wa simu</string>
+    <string name="registration_status_failed_try_later">Usajili wa akaunti umefeli:(<xliff:g id="registration_error_message" example="timed out">%s</xliff:g>); nitajaribu tena baadae</string>
+    <string name="registration_status_invalid_credentials">Usajili wa akaunti umefeli: jina la mtumiaji au paswadi sio sahihi</string>
+    <string name="registration_status_server_unreachable">Usajili wa akaunti umefeli:tafadhali chunguza jina la seva</string>
+    <string name="third_party_account_summary">Hii akaunti kwa sasa inatumika <xliff:g id="account_owner" example="Google Talk">%s</xliff:g> na matumizi</string>
+    <string name="sip_edit_title">SIP maelezo ya akaunti</string>
+    <string name="sip_edit_new_title">SIP maelezo ya akaunti</string>
+    <string name="domain_address_title">Seva</string>
+    <string name="username_title">Jina la mtumiaji</string>
+    <string name="password_title">Nywila</string>
+    <string name="display_name_title">Kuonyesha jina</string>
+    <string name="proxy_address_title">Anuani ya Mipaka ya nje ya proxy</string>
+    <string name="port_title">Nambari ya mlango</string>
+    <string name="transport_title">Aina ya Usafiri</string>
+    <string name="send_keepalive_title">Tuma kuweka-hai</string>
+    <string name="send_keepalive_summary">Tuma SIP kuweka-hai ujumbe</string>
+    <string name="auto_registration_title">Usajili wa kiotomati</string>
+    <string name="auto_registration_summary">Sajili profaili kwa kiotomatiki</string>
+    <string name="set_primary_title">Seti kama ni akaunti ya msingi</string>
+    <string name="set_primary_summary">Inatumika kwa wito wa simu za mipaka ya nje</string>
+    <string name="advanced_settings">Vipimo vya Uchaguzi</string>
+    <string name="auth_username_title">Kuwekea ulizni jina la mtumiaji</string>
+    <string name="auth_username_summary">Jina la mtumiaji lililotumika kwa ulinzi</string>
+    <string name="default_preference_summary">"&lt;si kuweka&gt;"</string>
+    <string name="display_name_summary">&lt;Sawa na jina la mtumiaji&gt;</string>
+    <string name="optional_summary">&lt;Chaguo&gt;</string>
+    <string name="advanced_settings_show">▷ Gusa kuonyesha zote</string>
+    <string name="advanced_settings_hide">▽ Gusa kuficha zote</string>
+    <string name="empty_alert"><xliff:g id="input_field_name" example="Username, Password...">%s</xliff:g> inahitajika, haviwezi kuachwa vitupu</string>
+    <string name="not_a_valid_port">Nambari ya dirisha iwe kati ya 1000 na 65534</string>
+    <string name="no_internet_available_title">Hakuna muunganisho wa Intaneti</string>
+    <string name="no_wifi_available_title">Hakuna muunganisho wa Wi-Fi</string>
+    <string name="no_internet_available">Ili kuweka wito wa intaneti,chunguza intaneti yako kwanza</string>
+    <string name="no_wifi_available">Lazima uwe umeunganishwa na mtandao wa Wi-Fi kwa kwa ajili ya wito wa intaneti (Tumia wayaless &amp;vipimo vya mtandao)</string>
+    <string name="no_voip">Kupiga simu kwa intaneti hakuungwi mkono</string>
+    <string name="send_message">Kataa wito wa simu pamoja na ujumbe</string>
+    <string name="menu_endbgcall">Maliza wito wa uwanja wa nyuma</string>
+    <string name="menu_endallcalls">Maliza wito wote wa simu</string>
+    <string name="adn_full">ADN imejaa</string>
+    <string name="china_mobile_provider">China Mobile</string>
+    <string name="network_inhibit">Haramu</string>
+    <string name="network_unknown">Haijulikani</string>
+    <string name="disk_full">"Disk imejaa.Haiwezi kuongeza wito wa logs"</string>
+    <string name="add_calllog_error">"Haiwezi kuongeza Wito wa logs!Hitilafu ya ndani au Disk imejaa."</string>
+    <string name="fast_dial">wito wa haraka</string>
+    <string name="fast_dial_settings">vipimo vya wito wa haraka</string>
+    <string name="fast_dial_changed">#nambari ya haraka ya kupiga simu imebadilika</string>
+    <string name="fast_dial_no_changed">wito wa nambari ya simu wa haraka haujabadilika.</string>
+    <string name="fast_dial_change_failed">kuseti wito wa nambari ya simu wa haraka kumefeli.</string>
+    <string name="fast_dial_2">2# wito wa haraka</string>
+    <string name="fast_dial_3">3#fast call</string>
+    <string name="fast_dial_4">4#fast call</string>
+    <string name="fast_dial_5">5#fast call</string>
+    <string name="fast_dial_6">6#fast call</string>
+    <string name="fast_dial_7">7#fast call</string>
+    <string name="fast_dial_8">8#fast call</string>
+    <string name="fast_dial_9">9#fast call</string>
+    <string name="no_fast_dial">wito wa nambari ya simu wa haraka haujasetiwa katika SIM ya sasa</string>
+    <string name="not_set">si kuweka</string>
+    <string name="call_number">Kwa:</string>
+    <string name="place_a_call1">Maelezo 1</string>
+    <string name="place_a_call2">Maelezo 2</string>
+    <string name="cancel_call">Kata simu</string>
+    <string name="sub_1">SIM 1</string>
+    <string name="sub_2">SIM 2</string>
+    <string name="sim1">SIM 1</string>
+    <string name="sim2">SIM 2</string>
+    <string name="other_setting">Vipimo vyengine vya wito</string>
+    <string name="sim1_call_settings">SIM1 Vipimo vya wito wa simu</string>
+    <string name="sim2_call_settings">SIM2 Vipimo vya wito wa simu</string>
+    <string name="updating_dualsim_title">Je,unataka kuseti SIM mbili</string>
+    <string name="toast_message_name_too_long">Jina ni refu sana,tafadhali rekebisha hiyo.</string>
+    <string name="toast_message_name_number_null">Jina na nambari haviwezi kuwa vitupu,tafadhali rekebisha hiyo.</string>
+    <string name="toast_message_data_business_on">Muunganisho wa data uko wazi,tafadhali zima wakati wa kuchakua mtandao.</string>
+    <string name="set_ip_dailing_title">IP ya Kupiga</string>
+    <string name="ip_dailing">Orodha ya IP nambari</string>
+    <string name="ip_dailing_setting_title">Seti IP ya kupigia</string>
+    <string name="ip_dailing_one_title">IP nambari 1</string>
+    <string name="ip_dailing_two_title">IP nambari 2</string>
+    <string name="ip_dailing_three_title">IP nambari 3</string>
+    <string name="ip_dailing_four_title">IP nambari 4</string>
+    <string name="ip_dailing_five_title">IP nambari 5</string>
+    <string name="ip_dailing_save_button_text">Weka data au faili</string>
+    <string name="dialing_selector">Kichagua kipigaji</string>
+    <string name="directly_call">Kupiga moja kwa moja</string>
+    <string name="ip_call">IP ya Kupiga:</string>
+    <string name="emergency_call">Simu ya dharura</string>
+    <string name="reply_message_cannot_be_empty">Maudhui hayawezi kuwa matupu</string>
+    <string name="auto_send_message">Kwa kiotomatiki kutuma maelezo</string>
+    <string name="auto_send_message_tip">Kama ni kwa kiotomatiki kutuma ujumbe uliosetiwa kabla</string>
+    <string name="UPLMN_setting">"UPLMN Vipimo"</string>
+    <string name="open_cb">Ufunguaji wa Kiini cha Matangazo ya SMS</string>
+    <string name="close_cb">Kufunga Matangazo ya kiini ya SMS</string>
+    <string name="init_setting">Vipimo vya uanzishaji</string>
+    <string name="record_flag">Inrekodi</string>
+    <string name="call_vibrate_title">Mtetemeko</string>
+    <string name="call_vibrate_summary">Tetemeka wakati wa kujibu/kuchukua</string>
+    <string name="title_dial_from_cotacts">Wito haujatumwa</string>
+    <string name="error_airplane_mode_on">Ili kuweka wito wa simu,kwanza zima modi ya Ndege</string>
+    <string name="error_no_active_sim">"Hakuna sim kadi iliyoko hai.Kuweka wito wa simu,kwanza weka hai sim kadi."</string>
+    <string name="error_radio_off">"Radio imezimwa.Tafadhali piga nambari ya dharura."</string>
+    <string name="error_no_active_sim_cb">"Hakuna sim kadi iliyoko hai."</string>
+    <string name="sim_card_unlock">"Utoaji loki wa sim kadi"</string>
+    <string name="sim_card_lock">"tia loki sim kadi"</string>
+    <string name="sim_lock_or_unlock">"tia loki au toa loki sim kadi"</string>
+    <string name="sim_card_lock_title">"tia loki sim kadi"</string>
+    <string name="sim_card_lock_summary">"tia loki sim kadi"</string>
+    <string name="sim_card_unlock_title">"Utoaji loki wa sim kadi"</string>
+    <string name="sim_card_unlock_summary">"Utoaji loki wa sim kadi"</string>
+    <string name="sim_lock_state_is_new">"Hakuna haja ya kubadili hali ya loki ya sim."</string>
+    <string name="sim_lock_process_success">fanikiwa,tafadhali anzisha tena DUT</string>
+    <string name="sim_lock_process_failed">Imeshindwa</string>
+</resources>

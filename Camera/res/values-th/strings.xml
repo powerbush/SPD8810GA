@@ -1,0 +1,133 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">"ข้อผิดพลาดกล้องถ่ายรูป"</string>
+    <string name="cannot_connect_camera">"ไม่สามารถเชื่อมต่อกับกล้องถ่ายรูป"</string>
+    <string name="camera_label">"กล้อง"</string>
+    <string name="video_camera_label">"กล้องวิดีโอ"</string>
+    <string name="gallery_camera_bucket_name">"ภาพจากกล้องถ่ายรูป"</string>
+    <string name="gallery_camera_videos_bucket_name">"วิดีโอจากกล้องถ่ายรูป"</string>
+    <string name="wait">"โปรดรอสักครู่..."</string>
+    <string name="no_storage" product="nosdcard">"โปรดต่อเชื่อมที่เก็บข้อมูล USB ก่อนใช้กล้องถ่ายรูป"</string>
+    <string name="no_storage" product="default">"โปรดใส่การ์ด SD ก่อนใช้กล้องถ่ายรูป"</string>
+    <string name="not_enough_space" product="nosdcard">"ที่เก็บข้อมูล USB ของคุณเต็ม"</string>
+    <string name="not_enough_space" product="default">"การ์ด SD ของคุณเต็ม"</string>
+    <string name="preparing_sd" product="nosdcard">"กำลังเตรียมที่เก็บข้อมูล USB..."</string>
+    <string name="preparing_sd" product="default">"กำลังเตรียมการ์ด SD…"</string>
+    <string name="access_sd_fail" product="nosdcard">"เข้าถึงที่เก็บข้อมูล USB ไม่สำเร็จ"</string>
+    <string name="access_sd_fail" product="default">"เข้าถึงการ์ด SD ไม่สำเร็จ"</string>
+    <string name="confirm_restore_title">"คืนค่าเริ่มต้น"</string>
+    <string name="confirm_restore_message">"การตั้งค่ากล้องถ่ายรูปจะถูกคืนค่าเริ่มต้น"</string>
+    <string name="review_play">"เล่น"</string>
+    <string name="review_cancel">"ยกเลิก"</string>
+    <string name="review_ok">"ตกลง"</string>
+    <string name="review_retake">"ถ่ายภาพซ้ำ"</string>
+    <string name="camera_gallery_photos_text">"แกลเลอรี"</string>
+    <string name="switch_camera_id">"เปลี่ยนกล้องถ่ายรูป"</string>
+    <string name="pref_camera_id_title">"เลือกกล้องถ่ายรูป"</string>
+    <string name="pref_camera_id_entry_back">"ย้อนกลับ"</string>
+    <string name="pref_camera_id_entry_front">"ด้านหน้า"</string>
+    <string name="pref_camera_brightness_title">ความสว่าง</string>
+    <string name="pref_camera_brightness_entry_0">0</string>
+    <string name="pref_camera_brightness_entry_1">1</string>
+    <string name="pref_camera_brightness_entry_2">2</string>
+    <string name="pref_camera_brightness_entry_3">3</string>
+    <string name="pref_camera_brightness_entry_4">4</string>
+    <string name="pref_camera_brightness_entry_5">5</string>
+    <string name="pref_camera_brightness_entry_6">6</string>
+    <string name="pref_camera_contrast_title">ความคมชัด</string>
+    <string name="pref_camera_contrast_entry_0">0</string>
+    <string name="pref_camera_contrast_entry_1">1</string>
+    <string name="pref_camera_contrast_entry_2">2</string>
+    <string name="pref_camera_contrast_entry_3">3</string>
+    <string name="pref_camera_contrast_entry_4">4</string>
+    <string name="pref_camera_contrast_entry_5">5</string>
+    <string name="pref_camera_contrast_entry_6">6</string>
+    <string name="pref_camera_recordlocation_title">"ตำแหน่งจัดเก็บ"</string>
+    <string name="pref_camera_recordlocation_entry_off">"ปิด"</string>
+    <string name="pref_camera_recordlocation_entry_on">"เปิด"</string>
+    <string name="pref_video_quality_title">"คุณภาพวิดีโอ"</string>
+    <string name="pref_video_quality_entry_d1">SD(D1)</string>
+    <string name="pref_video_quality_entry_high">"สูง (30m)"</string>
+    <string name="pref_video_quality_entry_low">"ต่ำ (30m)"</string>
+    <string name="pref_video_quality_entry_mms">"MMS (ต่ำ, 30 วินาที)"</string>
+    <string name="pref_video_quality_entry_youtube">"YouTube (สูง, 10 นาที)"</string>
+    <string name="pref_camera_settings_category">"การตั้งค่ากล้องถ่ายรูป"</string>
+    <string name="pref_camcorder_settings_category">"การตั้งค่ากล้องวิดีโอ"</string>
+    <string name="pref_camera_picturesize_title">"ขนาดของภาพ"</string>
+    <string name="pref_camera_previewsize_title">โหมดดูตัวอย่าง</string>
+    <string name="pref_camera_previewsize_default">ปกติ</string>
+    <string name="pref_camera_previewsize_normal">ปกติ</string>
+    <string name="pref_camera_previewsize_fullscreen">เต็มหน้าจอ</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">"5 ล้านพิกเซล"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"3 ล้านพิกเซล"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"2 ล้านพิกเซล"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">1.2m พิกเซล</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"1 ล้านพิกเซล"</string>
+    <string name="pref_camera_jpegquality_title">"คุณภาพของภาพ"</string>
+    <string name="pref_camera_jpegquality_entry_superfine">"ความละเอียดสูง"</string>
+    <string name="pref_camera_jpegquality_entry_fine">"ละเอียด"</string>
+    <string name="pref_camera_jpegquality_entry_normal">"ปกติ"</string>
+    <string name="pref_camera_focusmode_title">"โหมดโฟกัส"</string>
+    <string name="pref_camera_focusmode_entry_auto">"อัตโนมัติ"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"อินฟินิตี"</string>
+    <string name="pref_camera_focusmode_entry_macro">"มาโคร"</string>
+    <string name="pref_camera_focusmode_entry_multi">มัลติ</string>
+    <string name="pref_camera_flashmode_title">"โหมดแฟลช"</string>
+    <string name="pref_camera_flashmode_entry_auto">"อัตโนมัติ"</string>
+    <string name="pref_camera_flashmode_entry_on">"เปิด"</string>
+    <string name="pref_camera_flashmode_entry_off">"ปิด"</string>
+    <string name="pref_camera_whitebalance_title">"ไวต์บาลานซ์"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"อัตโนมัติ"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"หลอดไส้"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">"กลางวัน"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">"ฟลูออเรสเซนต์"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">"เมฆมาก"</string>
+    <string name="pref_camera_coloreffect_title">"เอฟเฟ็กต์สี"</string>
+    <string name="pref_camera_coloreffect_entry_none">"ไม่มี"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"โมโน"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"ซีเปีย"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"เนกาทีฟ"</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"เปิดหน้ากล้อง"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"ลดจำนวนสีในภาพ"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"สีฟ้าน้ำทะเล"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"พาสเทล"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"โมเสก"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"สีแดงอ่อน"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"สีฟ้าอ่อน"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"สีเขียวอ่อน"</string>
+    <string name="pref_camera_scenemode_title">"โหมดสำเร็จรูป"</string>
+    <string name="pref_camera_scenemode_entry_auto">"อัตโนมัติ"</string>
+    <string name="pref_camera_scenemode_entry_action">"การทำงาน"</string>
+    <string name="pref_camera_scenemode_entry_portrait">"บุคคล"</string>
+    <string name="pref_camera_scenemode_entry_landscape">"แนวนอน"</string>
+    <string name="pref_camera_scenemode_entry_night">"กลางคืน"</string>
+    <string name="pref_camera_scenemode_entry_night_portrait">"ภาพบุคคลกลางคืน"</string>
+    <string name="pref_camera_scenemode_entry_theatre">"โรงภาพยนตร์"</string>
+    <string name="pref_camera_scenemode_entry_beach">"ชายหาด"</string>
+    <string name="pref_camera_scenemode_entry_snow">"หิมะ"</string>
+    <string name="pref_camera_scenemode_entry_sunset">"ดวงอาทิตย์ตก"</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">"ภาพนิ่ง"</string>
+    <string name="pref_camera_scenemode_entry_fireworks">"พลุ"</string>
+    <string name="pref_camera_scenemode_entry_party">"งานเลี้ยง"</string>
+    <string name="pref_camera_scenemode_entry_candlelight">"แสงเทียน"</string>
+    <string name="pref_restore_title">"การตั้งค่ากล้องถ่ายรูป"</string>
+    <string name="pref_restore_detail">"คืนค่าเริ่มต้น"</string>
+    <string name="pref_exposure_title">"การรับแสง"</string>
+    <string name="details_ok">"ตกลง"</string>
+    <string name="spaceIsLow_content" product="nosdcard">"ที่เก็บข้อมูล USB ของคุณไม่มีพื้นที่เหลือ ให้เปลี่ยนการตั้งค่าคุณภาพหรือลบบางภาพหรือไฟล์อื่นๆ"</string>
+    <string name="spaceIsLow_content" product="default">"การ์ด SD ของคุณไม่มีพื้นที่เหลือ ให้เปลี่ยนการตั้งค่าคุณภาพหรือลบบางภาพหรือไฟล์อื่นๆ"</string>
+    <string name="video_reach_size_limit">"ขนาดถึงขีดจำกัดแล้ว"</string>
+    <string name="zoom_control_title">"ซูม"</string>
+    <string name="switch_to_camera_lable">"สลับเป็นกล้องถ่ายรูป"</string>
+    <string name="switch_to_video_lable">"สลับเป็นวิดีโอ"</string>
+    <string name="hisense_tv_is_running">TV บนมือถือเปิดใช้งานอยู่!</string>
+    <string name="in_video_call_is_running">วิดีโอคอลเปิดใช้งานอยู่ตอนนี้!</string>
+    <string name="canot_takepicture">ไม่สามารถถ่ายภาพได้</string>
+    <string name="camera_memory_low">ความจำในกล้องถ่ายรูปต่ำ โปรดเปลี่ยนขนาดภาพ</string>
+    <string name="memory_full">พื้นที่การจัดเก็บเต็ม</string>
+    <string name="pref_camera_antibanding_title">การป้องกันคลื่นรบกวน</string>
+    <string name="pref_camera_antibanding_default">50hz</string>
+    <string name="pref_camera_antibanding_entry_50hz">50hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60hz</string>
+</resources>

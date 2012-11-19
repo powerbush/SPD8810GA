@@ -1,0 +1,874 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gigabyteShort">جی بی</string>
+    <string name="terabyteShort">ٹی بی</string>
+    <string name="petabyteShort">روشن رخشندہ</string>
+    <string name="emptyPhoneNumber">(کوئی فون نمبر)</string>
+    <string name="unknownName">(نامَعلُوم ۔)</string>
+    <string name="defaultVoiceMailAlphaTag">وائس میل  </string>
+    <string name="mmiError">کنکشن کا مسئلہ ہے یا غلط  ایم   ایم  ائ  کوڈ.</string>
+    <string name="serviceEnabled">سروس کو فعال کیا گیا تھا.</string>
+    <string name="serviceEnabledFor">سروس کے لئے فعال کیا گیا تھا:</string>
+    <string name="serviceDisabled">اس سروس کو غیر فعال کر دیا گیا ہے.</string>
+    <string name="serviceRegistered">رجسٹریشن کامیاب تھا.</string>
+    <string name="serviceErased">منسوخی کامیاب تھا.</string>
+    <string name="passwordIncorrect">غلط پاس ورڈ.</string>
+    <string name="passwordChange" msgid="">"پاس ورڈ تبدیل کر دیا گیا"</string>
+    <string name="mmiComplete">ایم ایم آئ مکمل.</string>
+    <string name="badPin">پرانا  PIN  آپ نے لکھا درست نہیں ہے.</string>
+    <string name="badPin2">پرانا  PIN2 آپ نے لکھا درست نہیں ہے.</string>
+    <string name="badPuk">پی-یو-کے  آپ نے  درست ٹائپ نہیں  کیا ہے.</string>
+    <string name="badPuk2">پی-یو-کے 2 آپ نے  درست ٹائپ نہیں  کیا ہے.</string>
+    <string name="mismatchPin">PIN  آپ نے لکھا ھے میچ نہیں کرتا .</string>
+    <string name="mismatchPin2">PIN2 آپ نے لکھا ھے میچ نہیں کرتا .</string>
+    <string name="mismatchPuk">پی-یو-کے  آپ نے لکھا ھے میچ نہیں کرتا.</string>
+    <string name="mismatchPuk2">پی-یو-کے 2 آپ نے لکھا ھے میچ نہیں کرتا.</string>
+    <string name="invalidPin">PIN  ٹائپ کریں.یہ 4 سے 8 نمبر  ہیں ۔</string>
+    <string name="invalidPuk">پک   ٹائپ کریں.یہ 8 نمبر  ہیں </string>
+    <string name="needPuk">آپ کا سم کارڈ پک-لاک ہے۔ین لاک کرنے کیلئیے پک لاک ٹائپ کریں۔</string>
+    <string name="needPuk2"> سم کارڈ کو چلانے  لئے  پی-یو-کے2 ٹائپ کریں.</string>
+    <string name="needPinLock">لاک  پن کے لئے نئی ترتیبات کی ضرورت , پن تبدیل کریں.</string>
+    <string name="ClipMmi">آنے والا کالر کا شناختی نمبر</string>
+    <string name="ClirMmi">مرسلہ کالرائ  ڈی </string>
+    <string name="ColpMmi">مربوط لائن شناخت پریزنٹیشن</string>
+    <string name="ColrMmi">مربوط لائن شناخت پابندی</string>
+    <string name="CfMmi">آگے بھیجنے کال</string>
+    <string name="UnConditionCfMmi" msgid="">"بغیر سوچی ترسیل بلا"</string>
+    <string name="BusyCfMmi" msgid="">"جب مصروف فون کال آگے بھیجنے"</string>
+    <string name="NoReplyCfMmi" msgid="">"جب کوئی جواب نہیں آیا آگے بھیجنے"</string>
+    <string name="NotReachCfMmi" msgid="">"جب کال نہیں لگ رہا آگے بھیجنے"</string>
+    <string name="AllCfMmi" msgid="">تمام کال آگے بڑھانے والا</string>
+    <string name="ConditionCfMmi" msgid="">ترسیل کی  شرطیھ کال</string>
+    <string name="CwMmi">کال منتظر</string>
+    <string name="BaMmi">چھوڑ کال</string>
+    <string name="BaocMmi" msgid="">"تمام سبکدوش ہونے والے فون کو چھوڑ دیں"</string>
+    <string name="BaoicMmi" msgid="">"تمام سبکدوش ہونے والے بین الاقوامی کالوں کو چھوڑ دیں"</string>
+    <string name="BaoicxhMmi" msgid="">"سوائے اپنے ملک کے تمام سبکدوش ہونے والے بین الاقوامی کالوں کو چھوڑ دیں"</string>
+    <string name="BaicMmi" msgid="">"تمام آنے والی کال کے چھوڑ دیں"</string>
+    <string name="BaicrMmi" msgid="">"تمام آنے والی کال کے چھوڑ دیں جب رومنگ"</string>
+    <string name="BaallMmi" msgid="">تمام بنیادی خدمات کے لئے سب کو چھوڑ کر</string>
+    <string name="BamoMmi" msgid="">تمام بنیادی خدمات کے لیے بھیجے جانے والے</string>
+    <string name="BamtMmi" msgid="">تمام بنیادی خدمات کے لیے آنے والے</string>
+    <string name="ActiveUnconCf">کال فارورڈ غیر مشروط</string>
+    <string name="ActiveConCf">کال فارورڈ مشروط</string>
+    <string name="CallForwarded">کال فارورڈ</string>
+    <string name="CallWaiting">کال منتظر</string>
+    <string name="CugCall" msgid="">" کج کال"</string>
+    <string name="OutCallBarred" msgid="">"برآمد ہونے والے کال روک دیا"</string>
+    <string name="InCallBarred" msgid="">آنے والے کال روک دی</string>
+    <string name="ClirRejected" msgid="">" سی ایل آئ آر دمن کو مسترد کر دیا"</string>
+    <string name="ForwardedCall">آگے بھیج دیا گیا کال</string>
+    <string name="CallRetrieved" msgid=""> "کال حاصل"</string>
+    <string name="MultiCall" msgid="">"ملٹی پارٹی کال"</string>
+    <string name="HoldCallReleased" msgid="">"ہولڈ پر بلا جاری"</string>
+    <string name="ConnectingEct" msgid="">"ای سی ٹی جڑ رہا ہے"</string>
+    <string name="ConnectedEct" msgid="">"ای سی ٹی مربوط ہے "</string>
+    <string name="IncomingCallForwarded" msgid="">"اضافی موصول ہونے والی کال کو فارورڈ کردی گئی"</string>
+    <string name="PwdMmi">پاس ورڈ کی تبدیلی</string>
+    <string name="PinMmi">تبدیلی PIN</string>
+    <string name="Pin2Mmi">" PIN2 تبدیلی"</string>
+    <string name="PukMmi">" PIN کھولنے کی"</string>
+    <string name="Puk2Mmi">" PIN2 کھولنے کی"</string>
+    <string name="CnipMmi">تعداد موجود کالنگ</string>
+    <string name="CnirMmi">بلا تعداد محدود</string>
+    <string name="ThreeWCMmi">تین طریقے سے بلا نا</string>
+    <string name="RuacMmi">غیر مطلوبہ پریشان کن کالیں کی نامنظوری</string>
+    <string name="CndMmi">تعداد کی ترسیل بلا</string>
+    <string name="DndMmi">مت کرو پریشان نہ</string>
+    <string name="CLIRDefaultOnNextCallOn">کالر آی  ڈی ڈیفالٹس تک محدود ہے۔ اگلی کال: محدود ہے</string>
+    <string name="CLIRDefaultOnNextCallOff">کالر آی  ڈی ڈیفالٹس تک محدود ہے۔ دوسری کال: محدود نہیں</string>
+    <string name="CLIRDefaultOffNextCallOn">کالر آی  ڈی ڈیفالٹس محدود ہے. اگلی، دوسری کال: محدود ہے</string>
+    <string name="CLIRDefaultOffNextCallOff">کالر آی  ڈی ڈیفالٹس محدود نہیں ہے. اگلی،دوسری کال: محدود نہیں</string>
+    <string name="serviceNotProvisioned">سروس  فراہم نہیں گئی.</string>
+    <string name="CLIRPermanent">کالر کی ترتیب کو تبدیل نہیں کیا جا سکتا ہے.</string>
+    <string name="RestrictedChangedTitle">محدود رسائی کو تبدیل کر دیا گیا</string>
+    <string name="RestrictedOnData">ڈیٹا سروس بلاک ہے.</string>
+    <string name="RestrictedOnEmergency">ایمرجنسی سروس بلاک ہے.</string>
+    <string name="RestrictedOnNormal"> وائس سروسزکو بلاک کر دیا گیا ھے.</string>
+    <string name="RestrictedOnAllVoice">تمام وائس خدمات کو بلاک کر ر دیا گیا ہے.</string>
+    <string name="RestrictedOnSms">ایس ایم ایس  سروس بند ہے.</string>
+    <string name="RestrictedOnVoiceData"> وائس/ڈیٹا سروسز بلاک کر دیا گیا ھے.</string>
+    <string name="RestrictedOnVoiceSms"> وائس/ایس ایم ایس سروسز بلاک کر دیا گیا ھے.</string>
+    <string name="RestrictedOnAll">تمام وائس/ڈیٹا/ایس ایم ایس کی خدمات بلاک کردی گئی  ہیں.</string>
+    <string name="serviceClassVoice">وائس</string>
+    <string name="serviceClassData">اعداد و شمار</string>
+    <string name="serviceClassFAX">فیکس</string>
+    <string name="serviceClassSMS">SMS</string>
+    <string name="serviceClassDataAsync">غیر ہم آہنگ</string>
+    <string name="serviceClassDataSync">ہم وقت ساز کریں</string>
+    <string name="serviceClassPacket">پیکٹ</string>
+    <string name="roamingText0">رومنگ اشارے  آن  </string>
+    <string name="roamingText1">بند اشارے رومنگ</string>
+    <string name="roamingText2">اشارے فلیشنگ رومنگ</string>
+    <string name="roamingText3">ہمسایے کی باہر</string>
+    <string name="roamingText4"> عمارت کی باہر</string>
+    <string name="roamingText5">رومنگ - ترجیحی نظام</string>
+    <string name="roamingText6">رومنگ - دستیاب نظام</string>
+    <string name="roamingText7">رومنگ الائنس ساتھی</string>
+    <string name="roamingText8">رومنگ - پریمیم ساتھی</string>
+    <string name="roamingText9">رومنگ - مکمل سروس فعالیت</string>
+    <string name="roamingText10">رومنگ - جزوی سروس فعالیت</string>
+    <string name="roamingText11">میں بینر رومنگ</string>
+    <string name="roamingText12">بینر رومنگ بند</string>
+    <string name="roamingTextSearching">سروس کے لئے تلاش</string>
+    <string name="fcComplete">خصوصیت کوڈ مکمل.</string>
+    <string name="fcError">کنکشن کا مسئلہ یا جعلی خصوصیت کوڈ</string>
+    <string name="httpErrorOk">اوکے</string>
+    <string name="httpError">ویب پیج میں ایک غلطی  ہے.</string>
+    <string name="httpErrorLookup">یو آر ایل و نہیں مل سکا.</string>
+    <string name="httpErrorUnsupportedAuthScheme">سائٹ کو تصدیق سکیم کی سہولت نہیں ہے.</string>
+    <string name="httpErrorAuth">استناد ناکام تھا.</string>
+    <string name="httpErrorProxyAuth">پراکسی سرور کے ذریعے کی توثیق ناکام تھا.</string>
+    <string name="httpErrorConnect">سرور سے کنکشن ناکام تھا.</string>
+    <string name="httpErrorIO">سرور رابطہ قائم کرنے میں ناکام رہا. کچھ دیر بعد دوبارہ کوشش کریں.</string>
+    <string name="httpErrorTimeout">سرور سے کنکشن ختم ہوگیا.</string>
+    <string name="httpErrorRedirectLoop">یہ صفحہ کو بہت بہت سے سرور ری ڈائیرکٹ پر مشتمل ہے.</string>
+    <string name="httpErrorUnsupportedScheme">پروٹوکول کی سہولت نہیں ہے.</string>
+    <string name="httpErrorFailedSslHandshake">ایک محفوظ کنکشن قائم نہیں کیا جا سکتا ہے.</string>
+    <string name="httpErrorBadUrl">یو آر ایل غلط ہے,صفحہ کھولا نہیں  جا سکتا ہے.</string>
+    <string name="httpErrorFile">فائل تک رسائی حاصل نہیں ا ہے.</string>
+    <string name="httpErrorFileNotFound">درخواست کی گئ فائل   نہیں ملی .</string>
+    <string name="httpErrorTooManyRequests"> بہت سے درخواستوں پر عملدرآمد کیا جا رہا ہے. کچھ دیر بعد دوبارہ کوشش کریں.</string>
+    <string name="contentServiceSync">ہم وقت ساز کریں</string>
+    <string name="contentServiceSyncNotificationTitle">ہم وقت ساز کریں</string>
+    <string name="low_memory">فون سٹوریج مکمل ہے! کچھ فائلیں مفت خلا کو خارج کر دیں.</string>
+    <string name="me">مجھے</string>
+    <string name="power_dialog">فون کے اختیارات</string>
+    <string name="silent_mode">خاموش موڈ</string>
+    <string name="turn_on_radio"> وائرلیس  چلانا</string>
+    <string name="turn_off_radio"> وائرلیس  بند کردیں</string>
+    <string name="screen_lock">سکرین لاک</string>
+    <string name="power_off">پاور آف</string>
+    <string name="shutdown_progress">بندہو رہا ہے\u2026</string>
+    <string name="shutdown_confirm">آپ کا فون بند ہو جائے گا.</string>
+    <string name="recent_tasks_title">حال ہی میں</string>
+    <string name="no_recent_tasks">کوئی حالیہ درخواستوں نہیں.</string>
+    <string name="global_actions">فون کے اختیارات</string>
+    <string name="global_action_lock">سکرین لاک</string>
+    <string name="global_action_power_off">پاور آف</string>
+    <string name="global_action_toggle_silent_mode">خاموش موڈ</string>
+    <string name="global_action_silent_mode_on_status">آواز بند ہو گیا ہے</string>
+    <string name="global_action_silent_mode_off_status">آواز ہے</string>
+    <string name="global_actions_toggle_airplane_mode">ہوائی جہازکا موڈ</string>
+    <string name="global_actions_airplane_mode_on_status">ہوائی جہاز کا موڈ آ ن ہے</string>
+    <string name="global_actions_airplane_mode_off_status">ہوائی جہاز کا موڈ آف ہے</string>
+    <string name="safeMode">سیف موڈ</string>
+    <string name="android_system_label">ایندرائد سسٹم</string>
+    <string name="permgrouplab_costMoney">پیسہ خرچ سروسز</string>
+    <string name="permgroupdesc_costMoney">درخواستوں کو چیزیں  کرنے کی اجازت دیں جسمیں آپ کے پیسہ خرچ ھو سکتے ہیں.</string>
+    <string name="permgrouplab_messages"> آپ کا یغامات</string>
+    <string name="permgroupdesc_messages"> اپنے SMS، ای میل، اور دوسرے پیغامات کو لکھ پڑھیں.</string>
+    <string name="permgrouplab_personalInfo">آپ کی ذاتی معلومات</string>
+    <string name="permgroupdesc_personalInfo">آپ کے رابطے کے کے لئے براہ راست رسائی  کیلنڈر فون پر محفوظ ہے.      </string>
+    <string name="permgrouplab_location">آپ کی جگہ</string>
+    <string name="permgroupdesc_location">آپ کی طبعی محل وقوع کی نگرانی</string>
+    <string name="permgrouplab_network">نیٹ ورک مواصلات</string>
+    <string name="permgroupdesc_network">درخواستوں کو نیٹ ورک کے مختلف فیچرز تک رسائی حاصل کرنے کی اجازت دیں.</string>
+    <string name="permgrouplab_accounts">آپ کے اکاؤنٹ</string>
+    <string name="permgroupdesc_accounts">دستیاب اکاؤنٹس تک رسائی حاصل کر سکتے ہیں.</string>
+    <string name="permgrouplab_hardwareControls">ہارڈ ویئر کنٹرول</string>
+    <string name="permgroupdesc_hardwareControls">"ہاتھ سیٹ کا استعمال کرتے ہوئے براہ راست ہارڈ ویئر تک رسائی."</string>
+    <string name="permgrouplab_phoneCalls">فون کالز</string>
+    <string name="permgroupdesc_phoneCalls">مانیٹر، ریکارڈ، اور پراسیسنگ فون کالز. </string>
+    <string name="permgrouplab_systemTools">سسٹم مینجمنٹ ٹولز</string>
+    <string name="permgroupdesc_systemTools">نچلے درجے تک رسائی اور نظام کا کنٹرول.</string>
+    <string name="permgrouplab_developmentTools">ترقی کے اوزار</string>
+    <string name="permgroupdesc_developmentTools">خصوصیات صرف ایپلی کیشنز ڈویلپرز کے لئے ضروری ہے.</string>
+    <string name="permgrouplab_storage">محفوظ کرنے کی جگہ </string>
+    <string name="permlab_statusBar">اسٹیٹس بار کو غیر فعال یا ترمیم</string>
+    <string name="permdesc_statusBar">ایپلی کیشنز کو اجازت  ہے کہ وہ اسٹیٹس بار غیر فعال کرین یا آاکنوں  میں اضافہ یا کمی   کرین.</string>
+    <string name="permlab_expandStatusBar">اسٹیٹس بار کو بڑھانے / ختم</string>
+    <string name="permdesc_expandStatusBar">ایپلی کیشنز کو اجازت  ہے کہ وہ اسٹیٹس بار کو بڑھانے یا ختم کرے.</string>
+    <string name="permlab_processOutgoingCalls">سبکدوش ہونے والے کالوں تقطیع</string>
+    <string name="permdesc_processOutgoingCalls">ایپلی کیشنز کو اجازت  ہے کہ وہ سبکدوش ہونے والے کالز پر عملدرآمد اور ملائ جانے والی کال کی  تعداد تبدیل کرے-بدنیتی پر مبنی درخواستیں سبکدوش ہونے والے کالز کی  نگرانی، تخپریشیت، یا  روک تھام کر سکتی ہیں.</string>
+    <string name="permlab_receiveSms">SMS  موصول</string>
+    <string name="permdesc_receiveSms">ایپلی کیشنز کو اجازت  ہے کہ وہ   ایس ایم   ایس پیغامات موصول اور  ان   کی  پراسیسنگ  کرے,بدنیتی پر مبنیایپلی کیشن آپ کے پیغامات کی نگرانی یا ان کو آپ کو دکھا ے بغیر خارج کر سکتے ہیں.</string>
+    <string name="permlab_receiveSmsCB"> ایس   ایم  ایس  سیبی موصول</string>
+    <string name="permdesc_receiveSmsCB">ایپلی کیشنز کو اجازت  ہے کہ وہ   ایس ایم   ایس سی بی پیغامات موصول اور  ان   کی  پراسیسنگ  کرے,بدنیتی پر مبنیایپلی کیشن آپ کے پیغامات کی نگرانی یا ان کو آپ کو دکھا ے بغیر خارج کر سکتے ہیں.</string>
+    <string name="permlab_receiveMms">ایم   ایم  ایس  موصول</string>
+    <string name="permdesc_receiveMms">ایپلی کیشنز کو اجازت  ہے کہ وہ ایم ایم  ایس   پیغامات موصول اور  ان   کی  پراسیسنگ  کرے,بدنیتی پر مبنیایپلی کیشن آپ کے پیغامات کی نگرانی یا ان کو آپ کو دکھا ے بغیر خارج کر سکتے ہیں.</string>
+    <string name="permlab_sendSms">ایس ایم ایس پیغامات بھیجیں</string>
+    <string name="permdesc_sendSms">ایپلی کیشنز کو اجازت  ہے کہ وہ  ایس ایم ایس کے پیغامات بھیجیں,بدنیتی پر مبنی ایپلی کیشنز  تصدیق کے  بغیر پیغامات بھیج  کر آپ کا پیسہ خرچ کر سکتے ہیں.</string>
+    <string name="permlab_readSms">SMS یا   ایم   ایم  ایس پڑھیں</string>
+    <string name="permdesc_readSms">ایپلی کیشنز کو اجازت  ہے کہ وہ آپ کے فون یا سم کارڈ پر ذخیرہ ایس ایم ایس پیغامات کو پڑھے .بدنیتی پر مبنی ایپلی کیشن  آپکے خفیہ  پیغامات  کو پڑھ ر سکتے ہیں.</string>
+    <string name="permlab_writeSms">ترمیم ایم ایم  ایس  /SMS </string>
+    <string name="permdesc_writeSms">ایپلی کیشنز کو اجازت  ہے کہ وہ آپ کے فون یا سم کارڈ پر ذخیرہ ایس ایم ایس پیغامات کو لکھنے کے لئے,مضر ایپلی کیشنز تخپریشیت، یا سبکدوش ہونے والے کالز کی روک تھام  کی نگرانی  کر سکتے ہیں.</string>
+    <string name="permlab_receiveWapPush">ویپ موصول</string>
+    <string name="permdesc_receiveWapPush">ایپلی کیشنز کو اجازت  ہے کہ وہ  ویپ پیغامات موصول اور  ان   کی  پراسیسنگ  کرے,بدنیتی پر مبنیایپلی کیشن آپ کے پیغامات کی نگرانی یا ان کو آپ کو دکھا ے بغیر خارج کر سکتے ہیں.</string>
+    <string name="permlab_getTasks"> بازیافت ایپلی کیشنز</string>
+    <string name="permdesc_getTasks">ایپلی کیشنز کو اجازت  ہے کہ وہ  چلتے ھوے کاموں کو  بارے میں معلومات لے, بدنیتی پر مبنی ایپلی کیشنز دوسرے پروگراموں کے بارے میں نجی معلومات حاصل کرتی ھے.</string>
+    <string name="permlab_reorderTasks">اطلاقات چل دوبارہ ترتیب</string>
+    <string name="permdesc_reorderTasks">درخواست کو  پیش منظر اور پس منظر کے کاموں میں منتقل کرنے کی اجازت دیں-بدنیتی پر مبنی درخواستیں خود آپ کے اختیار کے بغیر سامنے آنے پر مجبور کر سکتے ہیں.</string>
+    <string name="permlab_setDebugApp">درخواستوں کی جانچ پڑتال کو چالو کر</string>
+    <string name="permdesc_setDebugApp">درخواست کو دوسری درخواست ٹھیک کر نے کے لئے اجازت  دیں, بدنیتی پر مبنی درخواستیں اس کو دوسرے پروگراموں کو قتل کرنے کے لئے استعمال کر سکتی ہیں.</string>
+    <string name="permlab_changeConfiguration">آپ  یوائ  ترتیبات تبدیل کرین </string>
+    <string name="permdesc_changeConfiguration">درخواست کو موجودہ ترتیب کو ایسے مقامی یا مجموعی طور پر فونٹ کے طور پر، تبدیل کرنے کی اجازت  دیں.</string>
+    <string name="permlab_enableCarMode">گاڑی کے موڈ کو چالو کریں</string>
+    <string name="permdesc_enableCarMode">درخواست کو گاڑی کے موڈ کو چالو  کرنے کی اجازت  دیں.</string>
+    <string name="permlab_killBackgroundProcesses">پس منظر کے عمل کو مار</string>
+    <string name="permdesc_killBackgroundProcesses">ایپلی کیشنز کو اجازت  ہے کہ وہ دوسرے پروگراموں کے پس منظر کے عمل کو قتل کرے ، یہاں تک کہ اگر میموری کم نہیں ہے.</string>
+    <string name="permlab_forceStopPackages">دیگر پروگراموں کو روکنے پر مجبور</string>
+    <string name="permdesc_forceStopPackages">ایپلی کیشنز کو اجازت دیتا  ہے کہ وہ زبردستی دوسرے پروگراموں کو بند کرے.</string>
+    <string name="permlab_forceBack">قوت کو بند کی درخواست</string>
+    <string name="permdesc_forceBack">درخواست کو پیش منظر  کسی بھی سرگرمی کو  واپس جانےاور بند کرنے  پر مجبور کے لئےاجازت  دیں- عام پروگراموں کے لئے کبھی اسکی ضرورت  نہیں.</string>
+    <string name="permlab_dump">نظام اندرونی حالت بازیافت</string>
+    <string name="permdesc_dump">ایپلی کیشنز کو اجازت  ہے کہ وہ نظام کی اندرونی ھالت  کو دیکھے ,بدنیتی پر مبنی ایپلی کیشنز  پرائیویٹ اور محفوظ معلومات کی وسیع اقسام  کو بازیافت  کر سکتی  ھے,جو ان کی   ضرورت نہیں ہیں.</string>
+    <string name="permlab_shutdown">جزوی طور پر بند</string>
+    <string name="permdesc_shutdown">ایک میں سرگرمی مینیجر بند سٹیٹ  میں  ڈالیں  ,مکمل بند نہیں کرتے ہیں.</string>
+    <string name="permlab_stopAppSwitches">اے پی پی سوئچ کی روک تھام</string>
+    <string name="permdesc_stopAppSwitches">صارف دوسری درخواستوں کے لئے سوئچنگ سے روکتا ہے.</string>
+    <string name="permlab_runSetActivityWatcher">تمام  ایپلی کیشنز شروع کرنے کی نگرانی اور کنٹرول</string>
+    <string name="permdesc_runSetActivityWatcher">ایپلی کیشنز کو اجازت دیتا  ہے کہ وہ نگرانی اور کنٹرول کا نظام کس طرح کی سرگرمیوں کا آغازکرے۔بدنیتی پر مبنی درخواستیں  نظام کو مکمل طور پر سمجھوتہ کر وا سکتی ہیں۔ .یہ اجازت صرف ترقی کے لئے ضرورت ہے عام فون کے استعمال کے لئے کبھی نہیں ہے .</string>
+    <string name="permlab_broadcastPackageRemoved">پیکج ہٹا نشر بھیج</string>
+    <string name="permdesc_broadcastPackageRemoved">درخواست کونشر کرنے کے لئے کے لئے اجازت  دیں کھ ایک درخواست پیکج  ہٹا دیا گیا ہے. مضر ایپلی کیشنز اس کو کسی دوسرے درخواست  کو مارنے کے لئے استعمال کر سکتے ہیں.</string>
+    <string name="permlab_broadcastSmsReceived">SMS موصول براڈکاسٹ بھجیں</string>
+    <string name="permdesc_broadcastSmsReceived">درخواست کونشر کرنے کے لئے کے لئے اجازت  دیں کھ ایس ایم ایس پیغام موصول ہو گیا ہے.   بدنیتی پر مبنی درخواستوں کو اس کا استعمال آنے والے ایس ایم ایس پیغامات کو قائم کرنے کے لئے کر سکتے ہیں.</string>
+    <string name="permlab_broadcastSmsCBReceived">  SMSCB موصول براڈکاسٹ بھجیں</string>
+    <string name="permdesc_broadcastSmsCBReceived">درخواست کونشر کرنے کے لئے کے لئے اجازت  دیں کھ ایس ایم ایس سی بی پیغام موصول ہو گیا ہے.   بدنیتی پر مبنی درخواستوں کو اس کا استعمال آنے والے ایس ایم ایس سی بی پیغامات کو قائم کرنے کے لئے کر سکتے ہیں.</string>
+    <string name="permlab_broadcastWapPush"> WAP-PUSH موصول براڈکاسٹ بھجیں</string>
+    <string name="permdesc_broadcastWapPush">ایک نوٹیفکیشن کہ WAP پش پیغام کو موصول ہو گیا ہے ایک درخواست نشر کرنے کی اجازت دیں .بدنیتی پر مبنی درخواستوں کو اس کو MMS پیغام رسید قائم کرنے کے لئے یا خاموشی بدنیتی پر مبنی ایڈیشن کے ساتھ کسی بھی ویب صفحے کے مواد کو تبدیل کرنے کے لئے استعمال کر سکتے ہیں.</string>
+    <string name="permlab_setProcessLimit">چلانے کے عمل کی حد نمبر</string>
+    <string name="permdesc_setProcessLimit">ایپلی کیشنز کو اجازت دیتا   ہے کہ وہ  زیادہ سے زیادہ عمل کی تعداد کو کنٹرول کریں. اسکی ضرورت معمول کی درخواستوں کے لئے کبھی نہیں ہے.</string>
+    <string name="permlab_setAlwaysFinish">تمام پس منظر ایپلی کیشنز کو کو بند کردیں</string>
+    <string name="permdesc_setAlwaysFinish">ایپلی کیشنز کو اجازت دیتا  ہے کہ وہ سرگرمیوں کو کنٹرول کرے جب وھ  ختم ھوجیسے ھی وہ پس منظر میں جاتی ہیں. اسکی ضرورت معمول کی درخواستوں کے لئے کبھی نہیں ہے.</string>
+    <string name="permlab_batteryStats">بیٹری کے اعداد و شمار پر نظر ثانی کر</string>
+    <string name="permdesc_batteryStats">\'جمع بیٹری کے اعداد و شمار کی ترمیم کی اجازت دیتا ہے. عام ایپلی کیشنز کی طرف سے استعمال کے لئے نہیں.</string>
+    <string name="permlab_backup">نظام بیک اپ پر کنٹرول اور بحال</string>
+    <string name="permdesc_backup">ایپلی کیشنز کو اجازت  ہے کہ بیک اپ  نظام کو کنٹرول کرنے کے لئے اور میکانزم کی بحالی کرنے کے لئے,عام ایپلی کیشنز استعمال کے لئے نہیں.</string>
+    <string name="permlab_internalSystemWindow">غیر مجاز کھڑکیوں کا مشاھدہ</string>
+    <string name="permdesc_internalSystemWindow">اجازت دیتا ہے ونڈوز آپریٹنگ سسٹم کی تخلیق کی جو کہ اندرونی نظام کی طرف سے استعمال کا ارادہ کر رہے ہیںعام ایپلی کیشنز کے لیے اسے استعمال نہیں کیا جانا. </string>
+    <string name="permlab_systemAlertWindow">نظام کی سطح پر الرٹ کو دکھانے</string>
+    <string name="permdesc_systemAlertWindow">ایپلی کیشنز کو اجازت  ہے کہ وہ نظام الرٹ کھڑکیوں دکھائے۔بدنیتی پر مبنی درخواستیں فون کی پوری سکرین لے سکتا ہے.</string>
+    <string name="permlab_setAnimationScale">عالمی حرکت پذیری کی رفتار پر نظر ثانی کر</string>
+    <string name="permdesc_setAnimationScale"> درخواست کو کسی بھی وقت عالمی حرکت پذیری کی رفتار (تیز یا سست متحرک تصاویر) کو تبدیل کرنے کی اجازت  دیں.</string>
+    <string name="permlab_manageAppTokens">درخواست ٹوکن کو منظم</string>
+    <string name="permdesc_manageAppTokens">ایپلی کیشنز کو اجازت  ہے کہ وہ اپنے ٹوکن کی تخلیق،  اور ان کا انتظام Z ترتیب کو بائی پاس کرتے ھوے,معمول کی ایپلی کیشنز کے استعمال کے لئے نہیں. </string>
+    <string name="permlab_injectEvents">  پریس   کیز اور کنٹرول بٹن</string>
+    <string name="permdesc_injectEvents"> درخواست کو  اس کے اپنے ان پٹ واقعات (اہم پریس، وغیرہ) دوسرے پروگراموں کے لئے  فراہم کرنے کی اجازت  دیں. بدنیتی پر مبنی درخواستیں اس کا استعمال کرتے ہوئے فون پر قابوپا سکتے ہیں.</string>
+    <string name="permlab_readInputState">کیا تم قسم کے افعال اور آپ کو لینے ریکارڈ</string>
+    <string name="permdesc_readInputState">ایپلی کیشنز کو اجازت  ہے کہ وہ دیکھے جو  بھی چابیاں آپ  دبائیں ،دوسرے ایپلی کیشنز کے ساتھ بات چیت کرتے ھوے (جیسے ایک پاس ورڈ داخل  کرتے ھوے) ,معمول کی ایپلی کیشنز کے استعمال کے لئے نہیں .</string>
+    <string name="permlab_bindInputMethod">ایک ان پٹ طریقہ کرنے کے پابند</string>
+    <string name="permdesc_bindInputMethod">ہولڈر  ایک ان پٹ طریقہ کار کی اعلی سطح کے انٹرفیس کے لئے پابند کرنے کی اجازت دیتا ہے, عام ایپلی کیشنز کے لیے اسے استعمال نہیں کیا جانا چاہئے.</string>
+    <string name="permlab_bindWallpaper">ایک وال پیپر کے لئے پابند</string>
+    <string name="permdesc_bindWallpaper"> ہولڈر کو ایک وال پیپر کے اعلی سطح کے انٹرفیس کے لئے پابند کرنے کی اجازت دیتا ہے عام ایپلی کیشنز کے لیے اسے استعمال نہیں کیا جانا چاہئے.</string>
+    <string name="permlab_bindDeviceAdmin">ایک آلہ منتظم کے ساتھ بات چیت</string>
+    <string name="permdesc_bindDeviceAdmin">ہولڈر ایک آلہ ایڈمنسٹریٹر پر مواد بھیجنے کی اجازت دیتا ہے,عام ایپلی کیشنز کے لیے اسے استعمال نہیں کیا جانا چاہئے.</string>
+    <string name="permlab_setOrientation">سکرین اورینتیشن تبدیل</string>
+    <string name="permdesc_setOrientation">درخواست کو کسی بھی وقت سکرین کی گردش کو تبدیل کرنے کی اجازت دیں. عام پروگراموں کے لئےاس کی ضرورت کبھی نہیں چاہئے.</string>
+    <string name="permlab_signalPersistentProcesses">درخواستوں کے لئے لینکس سگنل بھیجیں</string>
+    <string name="permdesc_signalPersistentProcesses">ایپلی کیشنز کو اجازت  ہے کہ وہ فراہم سگنل تمام مستقل عمل  کے لئے بھیجیے.</string>
+    <string name="permlab_persistentActivity">ایپلی کیشنز ہمیشہ چلائیں</string>
+    <string name="permdesc_persistentActivity">درخواست کو خود کے مختلف حصے مستقل بنانےکی اجازت  دیں.تاکھ اسکو  نظام دوسرے پروگراموں کے لئے استعمال کر سکے.</string>
+    <string name="permlab_deletePackages">درخواستوں کو خارج</string>
+    <string name="permdesc_deletePackages">درخواست کو اینڈروڈ پیکجوں کو خارج کرنے کی اجازت  دیں. بدنیتی پر مبنی درخواستیں  اس کواہم درخواستوں کو خارج کرنے کے لئے استعمال کر سکتے ہیں.</string>
+    <string name="permlab_clearAppUserData">دیگر درخواستوں کو خارج \ ڈیٹا \'</string>
+    <string name="permdesc_clearAppUserData">درخواست کو صارف کے ڈیٹا کو صاف کرنے کی اجازت دیں.</string>
+    <string name="permlab_deleteCacheFiles">دیگر درخواستوں کو خارج \ کیش \'</string>
+    <string name="permdesc_deleteCacheFiles">درخواست کو کیشے فائلوں کو خارج کرنے کی اجازت دیں.</string>
+    <string name="permlab_getPackageSize">پیمائش ایپلی کیشنز سٹوریج کی جگہ</string>
+    <string name="permdesc_getPackageSize">درخواست کوکوڈ، ڈیٹا، اور کیشے سائز کو دوبارہ حاصل کرنے  کے لئے اجازت  دیں</string>
+    <string name="permlab_installPackages">براہ راست درخواستوں نصب</string>
+    <string name="permdesc_installPackages">درخواست کو نئے یا اپ ڈیٹ اینڈروڈ پیکجوں کو  انسٹال کرنےکی اجازت  دیں. بدنیتی پر مبنی درخواستیں  اس کونئی درخواستوں کے  شامل کرنے کے لئے منمانے طاقتور اجازت کے ساتھ استعمال کر سکتے ہیں.</string>
+    <string name="permlab_clearAppCache">تمام درخواست کیشے ڈیٹا کو خارج کر دیں</string>
+    <string name="permdesc_clearAppCache">درخواست کو کیشے ڈائریکٹری میں فائلیں ختم کر کے فون کی اسٹوریج خالی کرنے کی  اجازت  دیں. رسائی کو عام طور پر نظام کے عمل کےلے بہت محدود  کیا جاتا ہے.</string>
+    <string name="permlab_movePackage">درخواست وسائل منتقل</string>
+    <string name="permdesc_movePackage">درخواست کو اندرونی وسائل کو  بیرونی ذرائع ابلاغ  منتقل کرنے کی اجازت دیں اور اس کےبرعکس </string>
+    <string name="permlab_readLogs">نظام لاگ ان فائلوں کو پڑھ</string>
+    <string name="permdesc_readLogs">درخواست کو  نظام کے مختلف لاگ ان فائلوں میں سے پڑھنے  کی  اجازت  دیں-یہ عام معلومات کو دریافت کرنے کی اجازت دیتا ہے کھ آپ فون کے ساتھ کیا کر رہے ہیں, لیکن وہ کسی ذاتی یا نجی معلومات پر مشتمل نہیں ہونا چاہئے.</string>
+    <string name="permlab_diagnostic"> کی طرف سے ملکیت وسائل کو لکھنے / پڑھیں</string>
+    <string name="permdesc_diagnostic">درخواست کوڈائیگ گروپ کی طرف سے کسی بھی وسائل کی ملکیت کو لکھنے پڑھنے  کی  اجازت  دیں۔  مثال کے طور پر، ڈیو میں فائلیں، یہ نظام کے استحکام اور سلامتی کو ممکنہ طور پر متاثر کر سکتا ہے.  یہ صرف  کارخانہ دار یا آپریٹر کی طرف سے ہارڈ ویئر سے مخصوص تشخیص کی  صورت میں استعمال کیا جانا چاہئے.</string>
+    <string name="permlab_changeComponentState">ایپلی کیشنز اجزاء کو چالو یا غیر فعال </string>
+    <string name="permdesc_changeComponentState">ہمیشہ درخواست کوکسی دوسری درخواست کے جزکو  تبدیل کرنے کی اجازت دیں ،چاھے وھ چالو حالت میں ہے یا نہیں ہے۔ بدنیتی پر مبنی درخواستوں یہ ضروری فون کی صلاحیتوں کو غیر فعال کرنے کے لئے استعمال کر سکتے ہیں.کیئر کی اجازت کے ساتھ استعمال کرنا ہوگا کیونکہ یہ ممکن ہے کہ درخواست کےاجزاء غیر مستحکم، متضاد یا غیر مستحکم حالت میں چلے جائں.</string>
+    <string name="permlab_setPreferredApplications">پسندیدہ     ایپلی کیشن  مقرر کریں</string>
+    <string name="permdesc_setPreferredApplications">ایپلی کیشنز کو اجازت دیتا   ہے کہ وہ اپنی پسند کی درخواستوں پر نظر ثانی کرے ، بدنیتی پر مبنی درخواستیں خاموشی سےچلتی ھوئ درخواستوں کو بند کر سکتی ھیں، آپ کی موجودہ ایپلی  کیشنزنجی اعداد و شمار جمع کرنے کے لئے سپوفنگ کر سکتی ھیں.</string>
+    <string name="permlab_writeSettings">نظر ثانی کرنے کا عالمی نظام کی ترتیبات</string>
+    <string name="permdesc_writeSettings">درخواست کو  نظام کی ترتیبات کے اعداد و شمار پر نظر ثانی کرنے کی اجازت دیں۔ بدنیتی پر مبنی درخواستیں نظام کی ترتیب کو خراب کر سکتی ہیں.</string>
+    <string name="permlab_writeSecureSettings">نظر ثانی کرنے محفوظ نظام ترتیبات</string>
+    <string name="permdesc_writeSecureSettings">درخواست کو  نظام  کا  محفوظ ترتیبات  کا ڈیٹا تبدیل کرنے کی  اجازت  دیں- عام ایپلی کیشنز کی طرف سے استعمال کے لئے نہیں ھے.</string>
+    <string name="permlab_writeGservices">گوگل کی خدمات کے نقشے پر نظر ثانی کر</string>
+    <string name="permdesc_writeGservices">درخواست کو  گوگل  کے نقشے کی خدمات کو تبدیل کرنے کی  اجازت  دیں۔ عام ایپلی کیشنز کی طرف سے استعمال کے لئے نہیں ھے.</string>
+    <string name="permlab_receiveBootCompleted">بوٹ پر خود کار طریقے سے شروع</string>
+    <string name="permdesc_receiveBootCompleted">ایپلی کیشنز کو اجازت دیتا  ہے کہ وہ خود کے طور پر جلد کے طور پر نظام بوٹ ختم ہو گیا ہے شروع کر دیا.
+        اس بنا یہ اب فون کو شروع کرنے کے لئے لے اور کی اجازت دے کر سکتے ہیں
+        نیچے ہمیشہ چلانے کی طرف سے مجموعی طور پر فون کو سست درخواست.</string>
+    <string name="permlab_broadcastSticky">چسپاں  براڈ کاسٹ بھجیں</string>
+    <string name="permdesc_broadcastSticky">درخواست کوچپچپا نشریات کے لئے اجازت  دیں, جو نشریات ختم ہو نے کے بعد بھی جاری رہے گی-بدنیتی پر مبنی درخواستیں  بہت زیادہ میموری استعمال کر کے  فون  کو سست یا غیر مستحکم کر سکتی ہیں.</string>
+    <string name="permlab_readContacts">رابطے کے ڈیٹا پڑھیں</string>
+    <string name="permdesc_readContacts">درخواست کوآپ کے فون پر اکٹھا رابطہ (ایڈریس)ڈیٹا کو پڑھنے کی  اجازت  دیں۔  ضر ایپلی کیشنز اس کا استعمال کیلنڈر وآپ کے فون کا ڈیٹا  دوسرے لوگوں کو  بھیجنے کے لئے کر سکتے ہیں.</string>
+    <string name="permlab_writeContacts">کانتیکت ڈیٹا لکھنا</string>
+    <string name="permdesc_writeContacts">درخواست کوآپ کے فون پر اکٹھا رابطہ (ایڈریس)ڈیٹا کو تبدیل کرنے کی  اجازت  دیں-  مضر ایپلی کیشنز اس کا استعمال  آپ کےرابطہ (ایڈریس) ڈیٹا کو مٹا نے یا تبدیل کرنے کے لیےکر سکتی ہیں.</string>
+    <string name="permlab_readCalendar">کیلنڈر واقعات پڑھیں</string>
+    <string name="permdesc_readCalendar">درخواست کو  آپ کے کیلنڈر پر سب واقعات پڑھنے کے لئے اجازت دیں. مضر ایپلی کیشنز اس کا استعمال کیلنڈر کے واقعات دوسرے لوگوں کو  بھیجنے کے لئے کر سکتے ہیں.</string>
+    <string name="permlab_writeCalendar">کیلنڈر کے واقعات کا اضافہ یا ترمیم کریں اور مہمانوں کو ای میل بھیجیں</string>
+    <string name="permdesc_writeCalendar">درخواست کو  آپ کے کیلنڈر پر واقعات شامل یا تبدیل کرنے کی اجازت دیں، جو مہمانوں کو ای میل بھیج سکے. مضر ایپلی کیشنز اس کا استعمال  آپ کے کیلنڈر کے واقعات کو مٹانے یا تبدیل کرنے  یا مہمانوں کو ای میل بھیجنے کے لئے کر سکتے ہیں.</string>
+    <string name="permlab_accessMockLocation">فرضی ٹیسٹنگ کے لئے محل وقوع کے ذرائع</string>
+    <string name="permdesc_accessMockLocation">فرضی ٹیسٹنگ کے لئے محل وقوع کے ذرائع بنائیں.     مضر ایپلی کیشنز اس کا استعمال کی جگہ اور / یا حیثیت ایسی GPS یا نیٹ ورک فراہم کرنے والے کے طور پر حقیقی محل وقوع کے ذرائع کی طرف سے واپس کی جگہ لے لے سکتے ہیں. </string>
+    <string name="permlab_accessLocationExtraCommands">اضافی کی جگہ فراہم کرنے والے کا حکم دیتا ہے تک رسائی حاصل کر سکتے ہیں</string>
+    <string name="permdesc_accessLocationExtraCommands">ضافی حکم کی جگہ فراہم کرنے والے ذرائع تک رسائی حاصل کریں. بدنیتی پر مبنی درخواستیں اس کا استعمال GPS یا دوسری جگہ کے ذرائع کے آپریشن کے ساتھ مداخلت کرنے کیلیے کر سکتی ہیں.</string>
+    <string name="permlab_installLocationProvider">جگہ فراہم کرنےوالے  کو نصب کرنے کی اجازت </string>
+    <string name="permdesc_installLocationProvider">رضی ٹیسٹنگ کے لئے محل وقوع کے ذرائع بنائیں.     مضر ایپلی کیشنز اس کا استعمال کی جگہ اور / یا حیثیت ایسی GPS یا نیٹ ورک فراہم کرنے والے کے طور پر حقیقی محل وقوع کے ذرائع کی طرف سے واپس کی جگہ لے لے سکتے ہیںاور یا کسی بیرونی ذرائع کے اپنے محل وقوع کی رپورٹ پر نظر رکھیں.</string>
+    <string name="permlab_accessFineLocation">ٹھیک (GPS) کی جگہ</string>
+    <string name="permdesc_accessFineLocation">اضافی حکم کی جگہ فراہم کرنے والے ذرائع جیسا کہ گلوبل پوزیشنگ سسٹم تک رسائی حاصل کریں.بدنیتی پر مبنی درخواستیں  اس کا استعمال جی پی ایس یا دوسری جگہ کے ذرائع کے آپریشن کے ساتھ مداخلت کر سکتے ہیں.</string>
+    <string name="permlab_accessCoarseLocation">بولڈ محل وقوع (نیٹ ورک کی بنیاد پر)</string>
+    <string name="permdesc_accessCoarseLocation">ایک متوقع فون کی جگہ کا تعین کرنے کے لئے، جہاں دستیاب  اس طرح کے سیلولر نیٹ ورک کے ڈیٹا بیس کے طور پر معمولی درجےوالے محل وقوع ذرائع تک رسائی حاصل کریں. مضرایپلی کیشنز اس کا استعمال کر کہ تقریبا اس بات کا تعین کر سکتے ہیں \'ایک متوقع فون کی جگہ ہے، جہاں دستیاب کا تعین کرنے کے لئے اس طرح کے سیلولر نیٹ ورک کے ڈیٹا بیس کے طور پر موٹے محل وقوع ذرائع تک رسائی حاصل کریں. مضرایپلی کیشنز اس کا استعمال کر  تقریبا اس بات کا تعین کر سکتی ہیں کہ جہاں کہاں ہیں . </string>
+    <string name="permlab_accessSurfaceFlinger">رسائی سطح فلنگر</string>
+    <string name="permdesc_accessSurfaceFlinger">ایپلی کیشنز کو اجازت  ہے کہ وہ سرفس فلنگر کم درجے کی خصوصیات کا استعمال کرے .</string>
+    <string name="permlab_readFrameBuffer">فریم بفر پڑھیں</string>
+    <string name="permdesc_readFrameBuffer">ایپلی کیشنز کو اجازت  ہے کہ وہ فریم بفر کی مواد کو پڑھے.</string>
+    <string name="permlab_modifyAudioSettings">اپنے آڈیو ترتیبات تبدیل کرین </string>
+    <string name="permdesc_modifyAudioSettings">ایپلی کیشنز کو اجازت  ہے کہ وہ عالمی آڈیو ترتیبات (حجم اور روٹنگ )میں ترمیم  کرین. </string>
+    <string name="permlab_recordAudio">ریکارڈ آڈیو</string>
+    <string name="permdesc_recordAudio">ایپلی کیشنز کو اجازت  ہے کہ وہ  آڈیو ریکارڈ راستہ.  تک رسائی</string>
+    <string name="permlab_camera">تصاویر لے</string>
+    <string name="permdesc_camera">ایپلی کیشنز کو اجازت  دین کہ وہ کیمرے سے تصاویر لے،ایپلی کیشنز کو اجازت  ہے کہ وہ کیمرے  کی دیکھی ھوئ تصاویرکو جمع کرے۔ </string>
+    <string name="permlab_brick">مستقل طور پر فون کو غیر فعال</string>
+    <string name="permdesc_brick">ایپلی کیشنز کو  پورے فون کو مستقل طور پر غیر فعال کرنے اجازت دیتا ہے.یہ بہت خطرناک ہے.</string>
+    <string name="permlab_reboot">فورس فون پھر بوٹ کریں</string>
+    <string name="permdesc_reboot">ایپلی کیشنزکو قوت کے زور پر فون کو دوبارہ شروع کرنے کی اجازت دیتا ہے.</string>
+    <string name="permlab_mount_unmount_filesystems">ماؤنٹ اور اتاریں فائل سسٹمز</string>
+    <string name="permdesc_mount_unmount_filesystems">ایپلی کیشنز کو اجازت  ہے کہ فائل نظام  کو  ہٹنے والا سٹوریج کے لئے  ماونٹ,  ان ماونٹ کرین.</string>
+    <string name="permlab_mount_format_filesystems">فارمیٹ بیرونی سٹوریج</string>
+    <string name="permdesc_mount_format_filesystems">ایپلی کیشنز کو اجازت  ہے کہ ہٹنے والا سٹوریج کے فارمیٹ  پر معلومات حاصل کریں.</string>
+    <string name="permlab_asec_access">محفوظ سٹوریج پر معلومات حاصل کریں</string>
+    <string name="permdesc_asec_access">ایپلی کیشنز کو اجازت  ہے کہ محفوظ سٹوریج کے بارے میں معلومات  حاصل کریں.</string>
+    <string name="permlab_asec_create">محفوظ سٹوریج تشکیل دے</string>
+    <string name="permdesc_asec_create">ایپلی کیشنز کو اجازت  ہے کہ  محفوظ سٹوریج کو کوتخلیق  کریں.</string>
+    <string name="permlab_asec_destroy">محفوظ سٹوریج کو خارج</string>
+    <string name="permdesc_asec_destroy">ایپلی کیشنز کو اجازت  ہے کہ  محفوظ سٹوریج کو کو تباہ  کریں.</string>
+    <string name="permlab_asec_mount_unmount">ماؤنٹ / اتاریں محفوظ سٹوریج</string>
+    <string name="permdesc_asec_mount_unmount">ایپلی کیشنز کو اجازت  ہے کہ فائل نظام  کومحفوظ سٹوریج کے لئے  ماونٹ,  ان ماونٹ کرین.</string>
+    <string name="permlab_asec_rename">محفوظ اسٹوریج کا نام تبدیل</string>
+    <string name="permdesc_asec_rename">ایپلی کیشنز کو اجازت  ہے کہ  وہ  محفوظ اسٹوریج کا نام تبدیل کرے. </string>
+    <string name="permlab_vibrate">کنٹرول تھرتھراہٹ </string>
+    <string name="permdesc_vibrate">ایپلی کیشنز کو اجازت  ہے کہ وہ  تھرتھراہٹ   کنٹرول کرے.</string>
+    <string name="permlab_flashlight">کنٹرول ٹارچ</string>
+    <string name="permdesc_flashlight">ایپلی کیشنز کو اجازت  ہے کہ وہ فلیش روشنی  کو  کنٹرول کرے.</string>
+    <string name="permlab_hardware_test">ٹیسٹ ہارڈویئر</string>
+    <string name="permdesc_hardware_test">ایپلی کیشنز کو اجازت  ہے کہ وہ ہارڈ ویئر ٹیسٹنگ کے مقصد کے لئے  مختلف بیرونی آلات کو کنٹرول کرے .</string>
+    <string name="permlab_callPhone">براہ راست فون نمبر کو کال</string>
+    <string name="permdesc_callPhone">"ایپلی کیشنز کو اجازت  ہے کہ وہ آپ کی مداخلت کے بغیر فون نمبر پر کال کریں,مبنی ایپلی کیشنز آپ کے فون بل پر غیر متوقع طور پر کالوں کا سبب بن سکتی ہے,یاد رکھیں کہ        ایپلی کیشنز  کو ہنگامی نمبروں کو فون کرنے کی اجازت نہیں. ہے. "</string>
+    <string name="permlab_callPrivileged">براہ راست کسی بھی فون نمبروں کو کال</string>
+    <string name="permdesc_callPrivileged">ایپلی کیشنز کو اجازت  ہے کہ وہ آپ کی مداخلت کے بغیر فون نمبر پر کال کریں,بدنیتی پر مبنی ایپلی کیشنز میں غیر ضروری اور غیر قانونی کالز     ایمرجنسی سروس کو  کر سکتے ہیں.</string>
+    <string name="permlab_performCdmaProvisioning">براہ راست سیڈییمی فون سیٹ اپ شروع</string>
+    <string name="permdesc_performCdmaProvisioning">سیڈییمی پراودانیکرن شروع کرنے کی ایپلی کیشنز کو اجازت دیتا ہے,بدنیتی پر مبنی ایپلی کیشنز  سیڈییمی  بیوجہ شروع کر سکتے ہیں.</string>
+    <string name="permlab_locationUpdates">کنٹرول کا محل وقوع کے اپ ڈیٹ کی اطلاعات</string>
+    <string name="permdesc_locationUpdates">ریڈیو سے  جگہ کی اپ ڈیٹ  فعال کرنے /غیر فعال کرنے کی اطلاعات کی اجازت دیتا ہے, معمول کی ایپلی کیشنز کے استعمال کے لئے نہیں. </string>
+    <string name="permlab_checkinProperties">جانچ پڑتال کی خصوصیات تک رسائی حاصل کر سکتے ہیں</string>
+    <string name="permdesc_checkinProperties">پڑھنے / لکھنے خصوصیات تک رسائی  کی اجازت  ہے,  جو کہ جانچ پڑتال سروس کی طرف سے اپ لوڈ  ہیں , معمول کی ایپلی کیشنز کے استعمال کے لئے نہیں </string>
+    <string name="permlab_bindGadget">وگیٹس کا انتخاب کریں</string>
+    <string name="permdesc_bindGadget">ایپلی کیشنز کو اجازت دیتا ہے بتانے کے لئے  کہ کونسی ایپلی کیشنز  کونسا وگیٹس استعمال  کرے  گی,اس  اجازت کے ساتھ  ایپلی کیشنز  کو  دوسرےایپلی کیشنز کی ذاتی ڈیٹا تک رسائی دی جا. سکتی ہے</string>
+    <string name="permlab_modifyPhoneState">فون کی حالت میں ترمیم کریں</string>
+    <string name="permdesc_modifyPhoneState">ایپلی کیشنز کو اجازت  ہے کہ وہ آلہ کی فون خصوصیات کو  کنٹرول کرے,اس  اجازت کے ساتھ ایک ایپلی کیشن نیٹ ورک سوئچ کر سکتی  ہیں،      آپ کی اطلاع دے  بغیر  فون ریڈیو چلا یا. بند  کر سکتی  ہیں</string>
+    <string name="permlab_readPhoneState">فون کی ریاست اور شناخت پڑھیں</string>
+    <string name="permdesc_readPhoneState">درخواست کو آلہ کی فون فیچرز تک رسائی حاصل کے لئے اجازت  دیتا ہے.تو اس  اجازت کے ساتھ ایک درخواست فون نمبر اور اس فون کے سیریل نمبر کا تعین کر سکتی ہے ، چاہے ایک کال فعال ہے،  کالکا نمبر اور طرح منسلک کیا گیا ہے. </string>
+    <string name="permlab_wakeLock">سورنے سے فون کی روک تھام</string>
+    <string name="permdesc_wakeLock">درخواست کو فون کوسونے سے روکنے کی اجازت دیں۔</string>
+    <string name="permlab_devicePower">آن یا آف پاور</string>
+    <string name="permdesc_devicePower">اجازت دیتا ہے ایپلی کیشنز کو  فون چلائیں یا بند کرے.</string>
+    <string name="permlab_factoryTest">فیکٹری ٹیسٹ کے موڈ میں چلانے</string>
+    <string name="permdesc_factoryTest">"ایک کم سطح کے ڈویلپر میں فون ہارڈویئر مکمل رسائی کی اجازت دے ٹیسٹ کے طور پر چلانے کے لئے صرف دستیاب جب ایک فون ڈویلپر ٹیسٹ کے موڈ میں چل رہا ہے."</string>
+    <string name="permlab_setWallpaper">وال پیپر سیٹ کریں</string>
+    <string name="permdesc_setWallpaper">نظام ایپلی کیشنز کو وال پیپر قائم کرنے کی اجازت دیتا ہے.</string>
+    <string name="permlab_setWallpaperHints">وال پیپر سائز کے اشارے مقرر</string>
+    <string name="permdesc_setWallpaperHints">نظام ایپلی کیشنز کو وال پیپر کے سائز  کے اشارے قائم کرنے کے لئے اجازت دیتا ہے.</string>
+    <string name="permlab_masterClear">فیکٹری کے پہلے سے مقرر کرنے کے لئے نظام ری سیٹ</string>
+    <string name="permdesc_masterClear">درخواست کو مکمل طور پر  نظام کو اس کی فیکٹری ترتیبات پر  ری سیٹ کرنے کی اجازت دیں، تاکہ تمام ڈیٹا، ترتیب، اور نصب درخواستوں صفائی هو.</string>
+    <string name="permlab_setTime">وقت مقرر</string>
+    <string name="permdesc_setTime">درخواست کو فون  کی گھڑی کا وقت تبدیل کرنے کی اجازت دیں.</string>
+    <string name="permlab_setTimeZone">ٹائم زون مقرر</string>
+    <string name="permdesc_setTimeZone">درخواست کو فون کے ٹائم زون کو تبدیل کرنے کی اجازت دیں.</string>
+    <string name="permlab_accountManagerService">سروس منیجر کے طور پر کام کرے</string>
+    <string name="permdesc_accountManagerService">ایپلی کیشنزکو اکاؤنٹ مستند سے کالیں کرنے کے لئے اجازت دیتا ہے</string>
+    <string name="permlab_getAccounts">مشہور اکاؤنٹس کے تلاش</string>
+    <string name="permdesc_getAccounts">درخواست کو فون کے ذریعے جانا جاتے اکاؤنٹس کی فہرست حاصل کرنے کی اجازت  دیں.</string>
+    <string name="permlab_authenticateAccounts">ایک اکاؤنٹ کی توثیق کرنے والے کے طور پر کام</string>
+    <string name="permdesc_authenticateAccounts">ایپلی کیشنز کو اجازت دیتا  ہے کہ وہ اکاؤنٹ کے مینیجر کی اکاؤنٹ کی منتظم صلاحیتوں کو استعمال کرے ، اکاؤنٹس کی تخلیق اور ان کے پاس ورڈ قائم کرنے سمیت.</string>
+    <string name="permlab_manageAccounts">اکاؤنٹس کی فہرست کا انتظام</string>
+    <string name="permdesc_manageAccounts">ایپلی کیشنز کو اجازت  ہے کہ وہ اکاؤنٹس کو ہٹانے اور ان کے پاس ورڈ کو خارج کرنے کی طرح کی کارروائیوں کو انجام دے .</string>
+    <string name="permlab_useCredentials">"ایک اکاؤنٹ کی تصدیق اسناد کا استعمال کرتے ہیں"</string>
+    <string name="permdesc_useCredentials">ایپلی کیشنز کو اجازت دیتا  ہے کہ وہ  تصدیق ٹوکن کی درخواست.کرے</string>
+    <string name="permlab_accessNetworkState">نیٹ ورک کی حالت دیکھیں</string>
+    <string name="permdesc_accessNetworkState">درخواست کونیٹ ورک کی حالت کے بارے میں معلومات کو دیکھنے  کے لئے اجازت  دیں.</string>
+    <string name="permlab_createNetworkSockets">بھرا ہوا انٹرنیٹ تک رسائی</string>
+    <string name="permdesc_createNetworkSockets">ایپلی کیشنز کو اجازت  ہے کہ وہ نیٹ ورک کی ساکٹ کو تشکیل دے.</string>
+    <string name="permlab_writeApnSettings">ایکسیس پوائنٹ سیتنگ  لکھیں</string>
+    <string name="permdesc_writeApnSettings">درخواست کو اے پی این کی ترتیبات  پر نظر ثانی کرنے کی  اجازت  دیں,جیسے پراکسی اوراے پی این پورٹ .</string>
+    <string name="permlab_changeNetworkState">نیٹ ورک کے رابطے میں تبدیلی</string>
+    <string name="permdesc_changeNetworkState">درخواست کو نیٹ ورک کے رابطے کی حالت کو تبدیل کرنے کی اجازت  دیں.</string>
+    <string name="permlab_changeTetherState">تار کے رابطے  تبدیل کریں</string>
+    <string name="permdesc_changeTetherState">درخواست کو نیٹ ورک کے رابطے کی حالت کو تبدیل کرنے کی اجازت  دیں.</string>
+    <string name="permlab_changeBackgroundDataSetting">پس منظر کے ڈیٹا کے استعمال کے ترتیب میں تبدیلی</string>
+    <string name="permdesc_changeBackgroundDataSetting">درخواست کو پس منظر کا ڈیٹا کے استعمال کی ترتیب کو تبدیل کرنے کی اجازت دیں.</string>
+    <string name="permlab_accessWifiState">وائی ​​فائی کی حیثیت ملاحظہ کریں</string>
+    <string name="permdesc_accessWifiState">درخواست کو وائی فائی کی حالت کے بارے میں معلومات کو دیکھنے  کے لئے اجازت  دیں.</string>
+    <string name="permlab_changeWifiState">وائی ​​فائی کی ھالت   میں تبدیلی</string>
+    <string name="permdesc_changeWifiState">درخواست کو وائی فائی رسائی پوائنٹس سے رابطہ قائم کرنے اور  منقطع، اور وائی فائی نیٹ ورک کی تشکیل کرنے کے لئے تبدیلیاں کرنے  کی اجازت  دیں.</string>
+    <string name="permlab_changeWifiMulticastState">وائی ​​فائی کے کثیر نشریات سے استقبال کرنےکی اجازت دیں</string>
+    <string name="permdesc_changeWifiMulticastState">ایپلی کیشنز کو اجازت دیتا  ہے کہ وہ  براہ راست  پیکٹ وصول نہیں کرے. قریب کی طرف سے پیش  دریافت خدمات کے لئیے  مفیدہے۔ غیر کثیر نشریات کے موڈ کے مقابلے میں یہ زیادہ سے زیادہ طاقت کا استعمال کرتا ہے.</string>
+    <string name="permlab_bluetoothAdmin">بلوٹوت انتظامیہ</string>
+    <string name="permdesc_bluetoothAdmin">درخواست کو مقامی بلوٹوت فون کےترتیب،   اور ریموٹ آلات کو دریافت اور انکے ساتھ جوڑی کرنے کی اجازت دیں.</string>
+    <string name="permlab_bluetooth">بلوٹوت کنکشن تشکیل دے</string>
+    <string name="permdesc_bluetooth">درخواست کو مقامی بلوٹوت فون کی ترتیب دیکھنے اور قبول کرنے کے لئے ، جوڑ بنانے کے آلات کے ساتھ کنکشن بنانے کے لئے اجازت  دیں.</string>
+    <string name="permlab_disableKeyguard">اہم تالا کو غیر فعال کر دیتے ہیں</string>
+    <string name="permdesc_disableKeyguard">درخواست  کو  لاک  اور کسی بھی متعلقہ پاس ورڈ کی سیکورٹی کو غیر فعال کرنے کی  اجازت  دیں،اس کی ایک جائز مثال  کی لاک کا آنے والی فون کال  پر  غیر فعال  ھونا ھے،  اور کال ختم ہونے پر دوبارہ فعال  ھونا ھے.</string>
+    <string name="permlab_readSyncSettings">مطابقت پذیری کی ترتیبات پڑھیں</string>
+    <string name="permdesc_readSyncSettings">درخواست کو مطابقت پذیری ترتیبات کو پڑھنے کے لئے اجازت  دیں, جیسےکہ کیا سنکرنائزیشن رابطوں کے لئے فعال ہے.</string>
+    <string name="permlab_writeSyncSettings">مطابقت پذیری کی ترتیبات لکھنا</string>
+    <string name="permdesc_writeSyncSettings">درخواست کو مطابقت پذیری کی ترتیبات میں ترمیم کرنے کی  اجازت  دیں,جیسےکھ سنک رابطے کے لئے فعال کیا جاتا ہے.</string>
+    <string name="permlab_readSyncStats">مطابقت پذیری کے اعداد و شمار پڑھ</string>
+    <string name="permdesc_readSyncStats">درخواست کو مطابقت پذیری  کے اعدادوشمار پڑھنے کے لئے اجازت  دیں, مثال کے طور پر، ہو چکی مطابقت پذیری کی تاریخ. </string>
+    <string name="permlab_subscribedFeedsRead">رکنیت فیڈ پڑھیں</string>
+    <string name="permdesc_subscribedFeedsRead">درخواست کو اس وقت سنکرنائزیشن فیڈ کے بارے میں تفصیلات حاصل کرنے کی اجازت دیں.</string>
+    <string name="permlab_subscribedFeedsWrite">رکنیت فیڈ لکھیں</string>
+    <string name="permdesc_subscribedFeedsWrite">درخواست کو  سنکرنائزیشن فیڈ پر نظر ثانی کرنے کی اجازت دیں۔  یہ بدنیتی پر مبنی درخواستوں کو  آپ کی سنک کے فیڈ کو تبدیل کرنے کی اجازت دے سکتا ہے.</string>
+    <string name="permlab_readDictionary">صارف کی تعریف ڈکشنری پڑھیں</string>
+    <string name="permdesc_readDictionary">درخواست کو کسی نجی الفاظ ،  نام اور جملے پڑھنے  کی  اجازت  دیں جو صارف نے  صارف لغت میں ذخیرہ کیے ہیں .</string>
+    <string name="permlab_writeDictionary">صارف کی بنائ ھوئ ڈکشنری میں لکھنا</string>
+    <string name="permdesc_writeDictionary">درخواست کو صارف کی  ڈکشنری میں نئے الفاظ لکھنے کے لئے اجازت  دیں.</string>
+    <string name="permlab_cache_filesystem">کیشے فائل نظام تک رسائی</string>
+    <string name="permdesc_cache_filesystem">درخواست کو کیشے فائل سسٹم کو پڑھنے  اور لکھنے  کی  اجازت  دیں.</string>
+    <string name="policylab_limitPassword">پاس ورڈ کو محدود</string>
+    <string name="policydesc_limitPassword">آپکو پاس ورڈ کی محدود اقسام   کو استعمال کرنے کی اجازت دی گئی ہے</string>
+    <string name="policylab_watchLogin">لاگ ان کرنے کی کوشش دیکھتے ہیں</string>
+    <string name="policydesc_watchLogin">مانیٹرکی آلہ میں  کچھ کارروائی کو انجام دینے  کیلے ،لاگ ان  کی  کوشش ناکام  ۔</string>
+    <string name="policylab_resetPassword">پاس ورڈ ری سیٹ کر دیں</string>
+    <string name="policydesc_resetPassword">اپنا پاس ورڈ تبدیل کریں، ایڈمنسٹریٹر یہ آپ کوپاس ورڈ دے  گا قبل اس کے کہ آپ لاگ ان کر سکتے ہیں.</string>
+    <string name="policylab_forceLock">زبردستی تالا</string>
+    <string name="policydesc_forceLock">قابو رکھو جب آلہ بند ہے ,  پاس ورڈ دوبارہ درج کی ضرورت ہوتی ہے</string>
+    <string name="policylab_wipeData">تمام اعداد و شمار مٹائیں</string>
+    <string name="policydesc_wipeData"> اپنے تمام اعداد و شمار کے کسی بھی توثیق کے بغیر خارج کرنے کی فیکٹری ری سیٹ انجام دیں. </string>
+    <string-array name="phoneTypes">
+        <item>ہوم</item>
+        <item>موبائل</item>
+        <item>لفظ تجاویز</item>
+        <item>ورک فیکس</item>
+        <item>ہوم فیکس</item>
+        <item>پیجر</item>
+        <item>دیگر</item>
+        <item>اپنی مرضی کے</item>
+    </string-array>
+    <string-array name="emailAddressTypes">
+        <item>ہوم</item>
+        <item>لفظ تجاویز</item>
+        <item>دیگر</item>
+        <item>اپنی مرضی کے</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>ہوم</item>
+        <item>لفظ تجاویز</item>
+        <item>دیگر</item>
+        <item>اپنی مرضی کے</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>ہوم</item>
+        <item>لفظ تجاویز</item>
+        <item>دیگر</item>
+        <item>اپنی مرضی کے</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>لفظ تجاویز</item>
+        <item>دیگر</item>
+        <item>اپنی مرضی کے</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item></item>
+        <item>ونڈو لائو</item>
+        <item>یاہو</item>
+        <item>اسکائپ</item>
+        <item></item>
+        <item>گوگل ٹاک</item>
+        <item></item>
+        <item>جیبر</item>
+    </string-array>
+    <string name="phoneTypeCustom">اپنی مرضی کے</string>
+    <string name="phoneTypeHome">ہوم</string>
+    <string name="phoneTypeMobile">موبائل</string>
+    <string name="phoneTypeWork">لفظ تجاویز</string>
+    <string name="phoneTypeFaxWork">ورک فیکس</string>
+    <string name="phoneTypeFaxHome">ہوم فیکس</string>
+    <string name="phoneTypePager">پیجر</string>
+    <string name="phoneTypeOther">دیگر</string>
+    <string name="phoneTypeCallback">واپسی کال</string>
+    <string name="phoneTypeCar">کار</string>
+    <string name="phoneTypeCompanyMain">کمپنی مرکزی</string>
+    <string name="phoneTypeMain">مرکزی</string>
+    <string name="phoneTypeOtherFax">دیگر فیکس</string>
+    <string name="phoneTypeRadio">ریڈیو</string>
+    <string name="phoneTypeTelex">ٹیلیکس</string>
+    <string name="phoneTypeWorkMobile">ورک موبائل</string>
+    <string name="phoneTypeWorkPager">ورک پیجر </string>
+    <string name="phoneTypeAssistant">اسسٹنٹ</string>
+    <string name="phoneTypeMms">ملٹی میڈیا پیغام</string>
+    <string name="eventTypeBirthday">سالگرہ</string>
+    <string name="eventTypeAnniversary">سالگرہ</string>
+    <string name="eventTypeOther">واقعہ</string>
+    <string name="emailTypeCustom">اپنی مرضی کے</string>
+    <string name="emailTypeHome">ہوم</string>
+    <string name="emailTypeWork">لفظ تجاویز</string>
+    <string name="emailTypeOther">دیگر</string>
+    <string name="emailTypeMobile">موبائل</string>
+    <string name="postalTypeCustom">اپنی مرضی کے</string>
+    <string name="postalTypeHome">ہوم</string>
+    <string name="postalTypeWork">لفظ تجاویز</string>
+    <string name="postalTypeOther">دیگر</string>
+    <string name="imTypeCustom">اپنی مرضی کے</string>
+    <string name="imTypeHome">ہوم</string>
+    <string name="imTypeWork">لفظ تجاویز</string>
+    <string name="imTypeOther">دیگر</string>
+    <string name="imProtocolCustom">اپنی مرضی کے</string>
+    <string name="imProtocolMsn">ونڈو لائو</string>
+    <string name="imProtocolYahoo">یاہو</string>
+    <string name="imProtocolSkype">اسکائپ</string>
+    <string name="imProtocolGoogleTalk">گوگل ٹاک</string>
+    <string name="imProtocolJabber">جیبر</string>
+    <string name="imProtocolNetMeeting">نیٹ میٹنگ</string>
+    <string name="orgTypeWork">لفظ تجاویز</string>
+    <string name="orgTypeOther">دیگر</string>
+    <string name="orgTypeCustom">اپنی مرضی کے</string>
+    <string name="keyguard_password_enter_pin_code">PIN کوڈ درج کریں</string>
+    <string name="keyguard_password_enter_password_code">انلاک پاس ورڈ درج کریں</string>
+    <string name="keyguard_password_wrong_pin_code">غلط PIN کوڈ!</string>
+    <string name="pinpuk_attempts">\n باقی کرنے کی کوشش کی:</string>
+    <string name="keyguard_label_text">انلاک کرنے کے لئے، مینو پھر 0 دبائیں.</string>
+    <string name="emergency_call_dialog_number_for_display">ایمرجنسی نمبر</string>
+    <string name="lockscreen_sim_network_subset_locked_message"> فون  سم  نیٹ ورک نیٹ ورک لاک  ہے</string>
+    <string name="lockscreen_sim_corporate_locked_message">  فون  سم   کارپوریٹ لاک  ہے </string>
+    <string name="lockscreen_sim_service_provider_locked_message">فون سم سروس فراہم کرنے والے بند کر دیا ہے</string>
+    <string name="lockscreen_sim_sim_locked_message"> فون  سم   کارپوریٹ لاک  ہے </string>
+    <string name="lockscreen_ruim_network1_locked_message">  فون  آر  یوائ ایم  نیٹ ورک 1  لاک </string>
+    <string name="lockscreen_ruim_network2_locked_message">  فون  آر  یوائ ایم  نیٹ ورک 2  لاک</string>
+    <string name="lockscreen_ruim_hrpd_locked_message">  فون  آر  یوائ ایم ایچ  آر  پی   ڈی    کارپوریٹ لاک  ہے </string>
+    <string name="lockscreen_ruim_corporate_locked_message">  فون  آر  یوائ ایم  کارپوریٹ لاک  ہے </string>
+    <string name="lockscreen_ruim_service_provider_locked_message">  آر  یوائ ایم سروس فراہم کرنے والے بند ہے</string>
+    <string name="lockscreen_ruim_ruim_locked_message">  فون  آر  یوائ ایم لاک </string>
+    <string name="lockscreen_sim_error_message">سم کارڈ جعلی ہے.</string>
+    <string name="lockscreen_pin_locked_message">سم / رویم کارڈ بند ہے.</string>
+    <string name="lockscreen_sim_error_message_short">ناموزوں کارڈ.</string>
+    <string name="lockscreen_sim_network_locked_message"> فون  سم  نیٹ ورک لاک  ہے </string>
+    <string name="lockscreen_ruim_puk_locked_message">  ریوم کارڈ   پی یو کے لاک.</string>
+    <string name="lockscreen_ruim_puk_locked_instructions">PIN1 بلاک.  PIN1   مسدود کرنے کے لئے\n یا\nپی-یو-کے1   ڈالے  صارف  براہ مہربانی کسٹمر سروس سینٹر سے رابطہ کریں</string>
+    <string name="lockscreen_missing_ruim_message">فون میں کوئی آر  یوائ ایم  کارڈ.نہیں</string>
+    <string name="lockscreen_missing_ruim_instructions"> ریوم  کارڈ داخل کریں.</string>
+    <string name="lockscreen_ruim_error_message">ریوم کارڈ ڈ جعلی ہے. </string>
+    <string name="lockscreen_missing_ruim_message_short">نہیں آر  یوائ ایم  کارڈ.نہیں</string>
+    <string name="lockscreen_blocked_ruim_message_short"> ریوم کارڈ بلاک کر دیا جاتا ہے.</string>
+    <string name="lockscreen_ruim_error_message_short">ناموزوں کارڈ.</string>
+    <string name="lockscreen_ruim_network_locked_message">نیٹ ورک بند کر دیا</string>
+    <string name="sim1_puk_requried">سم1   PINلاک  .پی-یو-کے درج کریں </string>
+    <string name="sim2_puk_requried">سم2   PINلاک  .پی-یو-کے 2  درج کریں </string>
+    <string name="sim_puk_requried">سم PIN  بلاک،   پی یو کے درج کریں</string>
+    <string name="keyguard_password_enter_sim1_pin_code"> سم1 PIN  درج کریں</string>
+    <string name="keyguard_password_enter_sim2_pin_code"> سم2 PIN  درج کریں</string>
+    <string name="keyguard_password_enter_sim_pin_code"> سم PIN  درج کریں</string>
+    <string name="keyguard_sim1_pin_accepted">سم1  PIN  کھولنے کی کامیابی
+</string>
+    <string name="keyguard_sim2_pin_accepted">سم2  PIN  کھولنے کی کامیابی
+</string>
+    <string name="keyguard_sim_pin_accepted">سم  کی PIN کھولنے کی کامیابی</string>
+    <string name="puk_accept"> پی یو کے   قبول ہے</string>
+    <string name="unblocking_fail">مسدود میں ناکام رہی  پک  دوبارہ درج   کریں </string>
+    <string name="keyguard_password_wrong_puk_code">غلط پی یو کے          کوڈ!</string>
+    <string name="new_pin">ایک نیا PIN درج کریں</string>
+    <string name="reenter">  PIN   دوبارہ درج</string>
+    <string name="lockscreen_carrier_default">(کوئی سروس نہیں)</string>
+    <string name="lockscreen_screen_locked">سکرین مقفل کر دیا.</string>
+    <string name="lockscreen_instructions_when_pattern_enabled">مینو یا رکھنے کے لئے ہنگامی کال انلاک دبائیں.</string>
+    <string name="lockscreen_instructions_when_pattern_disabled">مینو کے لئے کھول دبائیں.</string>
+    <string name="lockscreen_pattern_instructions">  انلاک   کیلے    پیٹرن ڈراکرے</string>
+    <string name="lockscreen_emergency_call">ہنگامی کال</string>
+    <string name="lockscreen_return_to_call">فون کرنے پر واپس جائیں</string>
+    <string name="lockscreen_pattern_correct">صیح!</string>
+    <string name="lockscreen_pattern_wrong">معاف کیجئے گا، دوبارہ کوشش کریں</string>
+    <string name="lockscreen_charged">چارج</string>
+    <string name="lockscreen_low_battery">اپنے چارجر متصل کریں.</string>
+    <string name="lockscreen_missing_sim_message_short">کوئی سم کارڈ نہی.</string>
+    <string name="lockscreen_missing_sim_message">فون میں کوئی سم کارڈ.نہیں۔</string>
+    <string name="lockscreen_missing_sim_instructions">براہ مہربانی ایک سم کارڈ داخل کریں.</string>
+    <string name="lockscreen_blocked_sim_message_short">سم کارڈ بلاک کر دیا جاتا.</string>
+    <string name="emergency_calls_only" msgid="2485604591272668370">ایمرجنسی بلاتا ہے صرف</string>
+    <string name="lockscreen_network_locked_message">نیٹ ورک بند کر دیا</string>
+    <string name="lockscreen_sim_puk_locked_message">سم کارڈ  پی یو کے   لاک.</string>
+    <string name="lockscreen_sim_puk_locked_instructions">براہ مہربانی یوزر گائیڈ یا کسٹمر سروس سے رابطہ کریں.</string>
+    <string name="lockscreen_sim_locked_message">سم کارڈ لاک ہے.</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">سم کارڈ غیر مقفل کریں\u2026</string>
+    <string name="lockscreen_forgot_pattern_button_text">پیٹرن بھول گیا؟</string>
+    <string name="lockscreen_glogin_forgot_pattern">اکاؤنٹ کھولنے کی</string>
+    <string name="lockscreen_glogin_too_many_attempts"> بہت سے پیٹرن کو کرنے کی کوشش!</string>
+    <string name="lockscreen_glogin_instructions">انلاک کرنے کے لئے، اپنے گوگل اکاؤنٹ  میں سائن ان کریں</string>
+    <string name="lockscreen_glogin_username_hint">صارف کا نام (ای میل)</string>
+    <string name="lockscreen_glogin_password_hint">لفظ شناخت</string>
+    <string name="lockscreen_glogin_submit_button">سائن ان کریں</string>
+    <string name="lockscreen_glogin_invalid_input">غلط صارف کا نام یا پاس ورڈ. </string>
+    <string name="lockscreen_glogin_checking_password">پڑتال کر رہا ہے ...</string>
+    <string name="lockscreen_unlock_label">غیر مقفل</string>
+    <string name="lockscreen_sound_on_label">آواز پر ہو</string>
+    <string name="lockscreen_sound_off_label">آواز بند ہو</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="factorytest_failed">فیکٹری ٹیسٹ ناکام</string>
+    <string name="factorytest_not_system"> فیکٹری_\'ٹیسٹ  کارروائی صرف نظام / ایپلی کیشنز میں نصب پیکجوں کے لئے  ہے</string>
+    <string name="factorytest_no_action">"کوئی پیکج نہیں پایا گیا ہے کہ فیکٹری  ٹیسٹ  فراہم کرتا ہے."          </string>
+    <string name="factorytest_reboot">پھر بوٹ کریں</string>
+    <string name="js_dialog_title_default">JavaScript</string>
+    <string name="save_password_label">تصدیق</string>
+    <string name="double_tap_toast">ترکیب:  زوم سےباہراندر کیلئے ڈبل دبائیں.</string>
+    <string name="permlab_readHistoryBookmarks">براؤزر \ \'کی تاریخ اور بک مارکس پڑھیں</string>
+    <string name="permdesc_readHistoryBookmarks">ایپلی کیشنز کو اجازت  ہے کہ  ان  تمام یو آر ایل کو پڑھے   جن  کا  براؤزر  نے  دورہ کیا , اور براؤزر کے سب  \'بک مارکس کو  بھی پڑھے.</string>
+    <string name="permlab_writeHistoryBookmarks">براؤزر ڈیٹا اور بک مارکس لکھیں</string>
+    <string name="permdesc_writeHistoryBookmarks">درخواست کو آپ کے براؤزر کی تاریخ یا  اکٹھے  بک مارکس پر نظر ثانی کرنے کی  اجازت  دیں۔  مضر ایپلی کیشنز اس کا استعمال  آپ کے براؤزر کے ڈیٹا کو مٹا نے یا تبدیل کرنے کے لیےکر سکتی ہیں.</string>
+    <string name="permlab_writeGeolocationPermissions">براؤزر جغرافیائی محل وقوع کے اجازت نامے میں ترمیم کریں</string>
+    <string name="permdesc_writeGeolocationPermissions">درخواست کو براؤزر کے جغرافیائی محل وقوع کی اجازت پر نظر ثانی کرنے کی  اجازت  دیں-بدنیتی پر مبنی درخواستیں اس کو صوابدیدی ویب سائٹوں کے لئے جگہ کی معلومات بھیجنے کی اجازت دینے کے لئے استعمال کر سکتی  ہیں.</string>
+    <string name="save_password_message">کیا آپ چاہتے ہیں   براؤزر پاس ورڈ کو یاد  رکھے؟</string>
+    <string name="save_password_notnow">ابھی نہیں</string>
+    <string name="save_password_remember">یاد رکھیں</string>
+    <string name="save_password_never">کبھی نہیں</string>
+    <string name="open_permission_deny">آپ کو اس صفحے کو کھولنے کی اجازت نہیں ہے.</string>
+    <string name="text_copied">عبارت کلپ بورڈ کے لئے کاپی.</string>
+    <string name="more_item_label">مزید </string>
+    <string name="prepend_shortcut_label">مینو+</string>
+    <string name="menu_space_shortcut_label">جگہ</string>
+    <string name="menu_enter_shortcut_label">درج کریں</string>
+    <string name="menu_delete_shortcut_label">حذف کریں</string>
+    <string name="search_go">تلاش</string>
+    <string name="oneMonthDurationPast">1 مہینے پہلے</string>
+    <string name="beforeOneMonthDurationPast">اس سے پہلے کہ 1 مہینے پہلے</string>
+    <plurals name="num_seconds_ago">
+        <item quantity="one">1 سیکنڈ پہلے</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">1 منٹ قبل</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">1 گھنٹہ پہلے</item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="last_month">گزشتہ ماہ</string>
+    <string name="older"> زیادہ پرانا</string>
+    <plurals name="num_days_ago">
+        <item quantity="one">گزشتہ کل</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="one">دوسری میں</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">1 منٹ میں</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="one">1 گھنٹے میں</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="one">کل</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="one">1 سیکنڈ پہلے</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">1 منٹ قبل</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="one">1 گھنٹہ پہلے</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="one">گزشتہ کل</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="one">دوسری میں</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">1 منٹ میں</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="one">1 گھنٹے میں</item>
+        <item quantity="other"></item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="one">کل</item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="day">یوم</string>
+    <string name="days">ایام</string>
+    <string name="hour">گھنٹے</string>
+    <string name="hours">گھنٹے</string>
+    <string name="minute"> منٹ</string>
+    <string name="minutes">منٹ</string>
+    <string name="second">دوسری</string>
+    <string name="seconds">سیکنڈ</string>
+    <string name="week">ہفتہ</string>
+    <string name="weeks">ہفتے</string>
+    <string name="year">سال</string>
+    <string name="years"> سالون</string>
+    <string name="VideoView_error_title">ویڈیو کو نہیں  چلا سکتے ہیں</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">معاف کیجئے گا، یہ ویڈیو اس آلے کے لئے  درست نہیں ہے.</string>
+    <string name="VideoView_error_text_unknown">معاف کیجئے گا، اس ویڈیو ادا نہیں کیا جا سکتا ہے.</string>
+    <string name="VideoView_error_button">اوکے</string>
+    <string name="noon">دوپہر</string>
+    <string name="Noon">دوپہر</string>
+    <string name="midnight">"آدھی رات"</string>
+    <string name="Midnight">"آدھی رات"</string>
+    <string name="selectAll">تمام منتخب </string>
+    <string name="selectText">متن کو منتخب کریں</string>
+    <string name="cut">کاٹو</string>
+    <string name="copy">نقل کریں</string>
+    <string name="paste">چسپاں</string>
+    <string name="copyUrl">کاپی یو آر ایل</string>
+    <string name="inputMethod">ان پٹ کا طریقہ</string>
+    <string name="editTextMenuTitle">متن میں ترمیم کریں</string>
+    <string name="low_internal_storage_view_title">جگہ کم</string>
+    <string name="low_internal_storage_view_text">فون سٹوریج کی جگہ کم ہو رہی ہے.</string>
+    <string name="ok">اوکے</string>
+    <string name="cancel">منسوخ</string>
+    <string name="yes">اوکے</string>
+    <string name="no">منسوخ</string>
+    <string name="dialog_alert_title">توجہ</string>
+    <string name="capital_on">آن</string>
+    <string name="capital_off">آف</string>
+    <string name="whichApplication">مکمل استعمال کرتے ہوئے کارروائی</string>
+    <string name="alwaysUse">اس کارروائی کے لئےپہلے سے طے شدہ کام  کریں.</string>
+    <string name="clearDefaultHintMsg"> ڈیفالٹ ہوم ترتیبات&gt;  ایپلی کیشنز &gt; صاف کریں</string>
+    <string name="chooseActivity">ایک ایکشن منتخب کریں</string>
+    <string name="noApplications">کوئی ایپلی کیشنز اس کارروائی کو انجام کر سکتے ہیں.</string>
+    <string name="aerr_title">معاف کیجئے گا!</string>
+    <string name="anr_title">معاف کیجئے گا!</string>
+    <string name="force_close">زبردستی  بند</string>
+    <string name="report">کی اطلاع</string>
+    <string name="wait">انتظار کریں</string>
+    <string name="sendText">متن کے لئے ایک ایکشن منتخب کریں</string>
+    <string name="volume_ringtone">رنگر حجم</string>
+    <string name="volume_music">میڈیا کا حجم</string>
+    <string name="volume_fm">ایف ایم کا حجم</string>
+    <string name="volume_music_hint_playing_through_bluetooth">بلوٹوت کے ذریعے کھیل</string>
+    <string name="volume_music_hint_silent_ringtone_selected">خاموش ٹون، منتخب</string>
+    <string name="volume_call">کال میں حجم </string>
+    <string name="volume_bluetooth_call">بلوٹوت حجم میں کال</string>
+    <string name="volume_alarm">الارم  کا حجم</string>
+    <string name="volume_notification">نوٹیفکیشن کا حجم</string>
+    <string name="volume_unknown">حجم </string>
+    <string name="ringtone_default">پہلے سے طے شدہ رنگ ٹون</string>
+    <string name="ringtone_silent">خاموش</string>
+    <string name="ringtone_picker_title">رنگ ٹونز</string>
+    <string name="ringtone_unknown">نامعلوم  رنگ ٹون</string>
+    <plurals name="wifi_available">
+        <item quantity="one">وائی ​​فائی نیٹ ورک دستیاب</item>
+        <item quantity="other">وائی ​​فائی نیٹ ورک دستیاب</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">وائی فائی دستیاب نیٹ ورک  کھولو</item>
+        <item quantity="other">وائی فائی دستیاب نیٹ ورک کھولو</item>
+    </plurals>
+    <string name="select_character">کردار ڈالیں</string>
+    <string name="sms_control_default_app_name">نامعلوم درخواست</string>
+    <string name="sms_control_title">ایس ایم ایس پیغامات بھیجنے</string>
+    <string name="sms_control_message">ایس ایم ایس پیغامات کی ایک بڑی تعداد کو بھیجا جا رہا ہے. \"او کے\" جاری رکھیں، یا \"منسوخ \" بھیجنے کو روکنے کے لئے. منتخب کریں</string>
+    <string name="sms_control_yes">اوکے</string>
+    <string name="sms_control_no">منسوخ</string>
+    <string name="date_time_set">سیٹنگز</string>
+    <string name="default_permission_group">ڈیفالٹ</string>
+    <string name="no_permissions">ضرورت کی اجازت نہیں</string>
+    <string name="usb_storage_activity_title"> یو ایس بی ماس سٹوریج</string>
+    <string name="usb_storage_title"> یو ایس بی  منسلک ھے</string>
+    <string name="usb_storage_button_mount">یو ایس بی سٹوریج چلانا</string>
+    <string name="usb_storage_notification_title"> یو ایس بی  منسلک ھے</string>
+    <string name="usb_storage_notification_message">آپ کے کمپیوٹر سے / فائلیں کاپی کرنے کے لئے منتخب کریں.</string>
+    <string name="usb_storage_stop_notification_title"> یو ایس بی سٹوریج بند کردیں</string>
+    <string name="usb_storage_stop_notification_message">یو  ایس   بی  سٹوریج تبدیل کرنے کے لئے منتخب کریں.</string>
+    <string name="usb_storage_stop_title">یو ایس بی سٹوریج استعمال میں ھے </string>
+    <string name="usb_storage_stop_button_mount"> یو ایس بی سٹوریج بند کردیں</string>
+    <string name="usb_storage_stop_error_message">یو ایس بی سٹوریج کی طرف رجوع کرنے میں مسئلہ تھا. اس بات کا یقین کر لیں کہ آپ یو ایس بی میزبان ان ماونٹ  ہے ، پھر دوبارہ کوشش کریں.</string>
+    <string name="dlg_confirm_kill_storage_users_title">یو ایس بی سٹوریج چلانا</string>
+    <string name="dlg_confirm_kill_storage_users_text">اگر یو ایس بی سٹوریج چالو ہے تو کچھ ایپلی کیشنز آپ استعمال کر رہے ہیں بند ھو جائینگی اور دستیاب نہیں ہوگی جب تک کہ آپ USB یو ایس بی سٹوریج کو بندنھ  کر دیں.</string>
+    <string name="dlg_error_title">یو ایس بی  آپریشن میں ناکام رہے</string>
+    <string name="dlg_ok">اوکے</string>
+    <string name="extmedia_format_button_format">فارمیٹ</string>
+    <string name="adb_active_notification_title"> یو ایس بی پرکھنے کے لئے  منسلک ہے</string>
+    <string name="adb_active_notification_message">   یو  ایس   بی چیک کو غیر فعال کرنے کے لئے منتخب کریں.</string>
+    <string name="select_input_method">ان پٹ طریقہ منتخب کریں</string>
+    <string name="ext_media_checking_notification_message">خرابیوں کے لئے پڑتال کر رہا ہے.</string>
+    <string name="activity_list_empty">نہیں ملاپ کے سرگرمیوں ملی.</string>
+    <string name="permlab_pkgUsageStats">کسی بھی حصے کے استعمال کے اعداد و شمار کو تازہ کریں</string>
+    <string name="permdesc_pkgUsageStats">جمع اجزاء کے اعداد و شمار کی ترمیم کی اجازت دیتا ہے. عام ایپلی کیشنز کی طرف سے استعمال کے لئے نہیں.</string>
+    <string name="permlab_copyProtectedData">ڈیفالٹ کنٹینر سروس مواد کاپی کرنے کے لئے پکارتے کی اجازت دیتا ہے. عام ایپلی کیشنز کی طرف سے استعمال کے لئے نہیں.</string>
+    <string name="permdesc_copyProtectedData">ڈیفالٹ کنٹینر سروس مواد کاپی کرنے کے لئے پکارتے کی اجازت دیتا ہے. عام ایپلی کیشنز کی طرف سے استعمال کے لئے نہیں.</string>
+    <string name="tutorial_double_tap_to_zoom_message_short"> تھپتھپاو دو بار زوم کنٹرول کے لئے</string>
+    <string name="gadget_host_error_inflating">خرابی انفلیٹنگ ویجیٹ</string>
+    <string name="ime_action_go">جاؤ</string>
+    <string name="ime_action_search">تلاش</string>
+    <string name="ime_action_send">بھیجیں</string>
+    <string name="ime_action_next">اگلا</string>
+    <string name="ime_action_done">مکمل</string>
+    <string name="ime_action_default">ایگزیکیوٹ</string>
+    <string name="accessibility_compound_button_selected">چیک کئے گئے</string>
+    <string name="accessibility_compound_button_unselected">نہیں کی جانچ پڑتال</string>
+    <string name="grant_credentials_permission_message_header">مندرجہ ذیل ایک یا ایک سے زیادہ ایپلی کیشنز سے کہ وہ آپ کے اکاؤنٹ تک رسائی حاصل کرنے کی  درخواست  ہے، اب اور مستقبل میں.</string>
+    <string name="grant_credentials_permission_message_footer">کیا آپ اس  درخواست کو اجازت دینا چاہتے ہیں؟</string>
+    <string name="grant_permissions_header_text">رسائی کی درخواست</string>
+    <string name="allow">اجازت دیں</string>
+    <string name="deny">انکار کرتے ہیں</string>
+    <string name="permission_request_notification_title">اجازت کی درخواست</string>
+    <string name="input_method_binding_label">ان پٹ کا طریقہ</string>
+    <string name="sync_binding_label">ہم وقت ساز کریں</string>
+    <string name="accessibility_binding_label">رسائی</string>
+    <string name="wallpaper_binding_label">وال پیپر</string>
+    <string name="chooser_wallpaper"> وال پیپر تبدیل</string>
+    <string name="pptp_vpn_description">پوائنٹ کے پوائنٹ  پروٹوکول</string>
+    <string name="l2tp_vpn_description">لیئر پروٹوکول سرنگ</string>
+    <string name="l2tp_ipsec_psk_vpn_description"> ایل  ٹی پی2 / آئی پی سیک وی پی این پری مشترکہ کلید</string>
+    <string name="l2tp_ipsec_crt_vpn_description"> سرٹیفکیٹ کے بنیاد پر ایل  ٹی 2  پی   /  ائ  پی   سیک   ویپیین</string>
+    <string name="upload_file">فائل منتخب کریں</string>
+    <string name="reset">پھر مقرر</string>
+    <string name="submit">ان سبسکراپشن جمع کرائیں</string>
+    <string name="description_star">پسندیدہ</string>
+    <string name="car_mode_disable_notification_title">کار موڈ فعال</string>
+    <string name="car_mode_disable_notification_message">کار موڈ سے باہر نکلنے کے لئے منتخب کریں.</string>
+    <string name="tethered_notification_title">رسی سے باندھنا یا ہاٹ سپاٹ فعال</string>
+    <string name="tethered_notification_message"> ترتیب  کے لئے  چھوئیں</string>
+    <string name="throttle_warning_notification_title">ہائی موبائل ڈیٹا کا استعمال کرتے ہیں</string>
+    <string name="throttle_warning_notification_message">موبائل ڈیٹا کی استعمال  کے بارے میں مزید جاننے کے لئے   چھوئیں</string>
+    <string name="throttled_notification_title">موبائل ڈیٹا کی حد سے تجاوز</string>
+    <string name="throttled_notification_message">موبائل ڈیٹا کی استعمال  کے بارے میں مزید جاننے کے لئے   چھوئیں</string>
+    <string name="Low_Memory_Alert">فون سٹوریج کی جگہ کم ہو رہا ہے. براہ مہربانی کچھ فون کے استحکام کو یقینی بنانے کے لئے ڈیٹا کو خارج کر کریں.</string>
+    <string name="Low_Memory_Free">آزاد</string>
+    <string name="Low_Memory_Application">ایپلی کیشنز</string>
+    <string name="Low_Memory_Mail">میل</string>
+    <string name="Low_Memory_Sms_Mms">ایس ایم ایس/ ایم ایم ایس</string>
+    <string name="Low_Memory_System">نظام</string>
+    <string name="Btn_Select_Clear">صاف کریں منتخب کریں</string>
+    <string name="myAppTip">درخواستوں کو ہینڈل کرنے کے لئے منتخب کریں</string>
+    <string name="myApp_Start_Btn">شُروع کرنا ۔ </string>
+    <string name="myApp_Move2Sd_ChkBox">SD  میں منتقل کیجئے</string>
+    <string name="myApp_ClearData_ChkBox">ڈیٹا صاف</string>
+    <string name="myApp_Uninstall_ChkBox">ہٹانا</string>
+    <string name="myAppLoading">لوڈنگ\u2026</string>
+    <string name="myAppProcessing">پراسیسنگ \u2026</string>
+    <string name="keyguard_password_enter_puk_code">  پی یو کے کوڈ درج کریں</string>
+    <string name="keyguard_password_enter_new_pin_first_code">نیا PIN کوڈ درج کریں</string>
+    <string name="keyguard_password_enter_new_pin_second_code">پھر نیا PIN کوڈ درج کریں</string>
+    <string name="ums_active_notification_message"> یو ایس بی ماس سٹوریج فعال ھے</string>
+    <string name="modem_active_notification_title">موڈیم ڈبگ موڈ کا استعمال  کریں</string>
+    <string name="modem_active_notification_message">موڈیم ڈبگ فعال موڈ</string>
+    <string name="china_mobile_numeric_values">چائنا موبائل</string>
+    <string name="china_unicom_numeric_values">چین کی یونیکام</string>
+    <string name="china_telecom_numeric_values">چین کی ٹیلی کام</string>
+    <string name="stk_refresh_sim_init_message">سم کارڈ کو اپ ڈیٹ کیا جاتا ہے</string>
+    <string name="stk_refresh_sim_reset_message">فون دوبارہ شروع ہو جائے گا</string>
+    <string name="charge_active_notification_message">صرف فعال موڈ چارج</string>
+    <string name="charge_active_notification_title">استعمال کریں چارج صرف اس وقت جب یو ایس بی  سے منسلک ہوں</string>
+    <string name="media_bad_removal">" SD  کارڈ ان ماونٹ  کیا جا نے   سے پہلے ہٹا دیا گیا تھا."</string>
+    <string name="media_removed">" SD  کارڈ کو ہٹا دیا گیا ہے ہے."</string>
+    <string name="media_unknown_state">نامعلوم ھالت میں بیرونی ذرائع ابلاغ.</string>
+    <string name="dialog_warning">!!انتباہ</string>
+    <string name="internal_memory_low">SD کارڈ سٹوریج تقریبا مکمل ہے! براہ مہربانی کچھ فائلیں  کو  حذف کریں. </string>
+    <string name="button_close">بند کریں</string>
+</resources>

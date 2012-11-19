@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="status_bar_icon_order">
+        <item><xliff:g id="id">ঘড়ি</xliff:g></item>
+        <item><xliff:g id="id">নিরাপদ্</xliff:g></item>
+        <item><xliff:g id="id">এলার্ম_ঘড়ি</xliff:g></item>
+        <item><xliff:g id="id">ব্যাটারী</xliff:g></item>
+        <item><xliff:g id="id">ফোন_সংকেত</xliff:g></item>
+        <item><xliff:g id="id">ফোন_সংকেত_সেকন্ড_সাব</xliff:g></item>
+        <item><xliff:g id="id">ফোন_এডভো_সংকেতl</xliff:g></item>
+        <item><xliff:g id="id">ডাটা_সংযোগ</xliff:g></item>
+        <item><xliff:g id="id">cdma_eri</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">ভলিউম</xliff:g></item>
+        <item><xliff:g id="id">নির্শব্দ</xliff:g></item>
+        <item><xliff:g id="id">স্পিকার ফোন</xliff:g></item>
+	    <item><xliff:g id="id">হেডসেট</xliff:g></item>
+        <item><xliff:g id="id">wifi</xliff:g></item>
+        <item><xliff:g id="id">tty</xliff:g></item>
+        <item><xliff:g id="id">ব্লুটুথ</xliff:g></item>
+        <item><xliff:g id="id">gps</xliff:g></item>
+        <item><xliff:g id="id">সিঙ্ক_সক্রিয়</xliff:g></item>
+        <item><xliff:g id="id">সিঙ্ক_অসফল</xliff:g></item>
+        <item><xliff:g id="id">ime</xliff:g></item>
+    </string-array>
+</resources>

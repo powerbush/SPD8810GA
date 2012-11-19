@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_names">
+        <item>மகிழ்ச்சி</item>                   <!-- 0: :-) -->
+        <item></item>                     <!-- 1: :-( -->
+        <item>வின்கிங்</item>                 <!-- 2: ;-) -->
+        <item>நாக்கு துருத்திக்கொண்டிக்கிறது</item>     <!-- 3: :-P -->
+        <item>ஆச்சர்யமடைந்தது</item>               <!-- 4: =-O -->
+        <item>முத்தமிடுகிறது</item>                 <!-- 5: :-* -->
+        <item>கத்துகிறது</item>                 <!-- 6: :O -->
+        <item>குளிர்ந்து போ</item>                    <!-- 7: B-) -->
+        <item>பண வாய்</item>             <!-- 8: :-$ -->
+        <item>வாயில் கால்</item>           <!-- 9: :-! -->
+        <item>தர்மசங்கடமானது</item>             <!-- 10: :-[ -->
+        <item>ஏஞ்சல்</item>                   <!-- 11: O:-) -->
+        <item>முடிவாகாதது</item>               <!-- 12: :-\\ -->
+        <item>அழுகிறது</item>                  <!-- 13: :\'( -->
+        <item>உதடுகள் உறையிடப்பட்டுள்ளன</item>         <!-- 14: :-X -->
+        <item>சிரிக்கிறது</item>                <!-- 15: :-D -->
+        <item>குழப்பமானது</item>                <!-- 16: o_O -->
+    </string-array>
+</resources>

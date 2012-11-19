@@ -1,0 +1,133 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">कैमरा त्रुटि</string>
+    <string name="cannot_connect_camera">कैमरे से कनेक्‍ट नहीं कर सकता.</string>
+    <string name="camera_label">कैमरा</string>
+    <string name="video_camera_label">कैमकॉर्डर</string>
+    <string name="gallery_camera_bucket_name">कैमरा चित्र</string>
+    <string name="gallery_camera_videos_bucket_name">कैमरा वीडियो</string>
+    <string name="wait">कृपया प्रतीक्षा करें...</string>
+    <string name="no_storage" product="nosdcard">कैमरे का उपयोग करने से पहले कृपया यूएसबी भंडारण को माउंट करें। </string>
+    <string name="no_storage" product="default">कैमरे का उपयोग करने से पहले कृपया एक एसडी कार्ड समाविष्ट करें। </string>
+    <string name="not_enough_space" product="nosdcard">आपका यूएसबी भंडारण भर गया है। </string>
+    <string name="not_enough_space" product="default">आपका एसडी कार्ड भर गया है। </string>
+    <string name="preparing_sd" product="nosdcard">यूएसबी भंडारण को तैयार किया जा रहा है \u2026</string>
+    <string name="preparing_sd" product="default">एसडी कार्ड को तैयार किया जा रहा है \u2026</string>
+    <string name="access_sd_fail" product="nosdcard">यूएसबी भंडारण का उपयोग करने में असफल। </string>
+    <string name="access_sd_fail" product="default">एसडी कार्ड का उपयोग करने में असफल। </string>
+    <string name="confirm_restore_title">डिफॉल्ट रीस्टोर करें</string>
+    <string name="confirm_restore_message">कैमरा डिफ़ॉल्‍ट सेटिंग पुनर्स्‍थापित करें.</string>
+    <string name="review_play">चलाएं</string>
+    <string name="review_cancel">"रद्द करें"</string>
+    <string name="review_ok">"ठीक"</string>
+    <string name="review_retake">रीटेक</string>
+    <string name="camera_gallery_photos_text">गैलरी </string>
+    <string name="switch_camera_id">कैमरे के लेंस को स्विच करें </string>
+    <string name="pref_camera_id_title">कैमरा चुनें</string>
+    <string name="pref_camera_id_entry_back">पीछे </string>
+    <string name="pref_camera_id_entry_front">सामने </string>
+    <string name="pref_camera_brightness_title">चमक</string>
+    <string name="pref_camera_brightness_entry_0">0</string>
+    <string name="pref_camera_brightness_entry_1">1</string>
+    <string name="pref_camera_brightness_entry_2">2</string>
+    <string name="pref_camera_brightness_entry_3">3</string>
+    <string name="pref_camera_brightness_entry_4">4</string>
+    <string name="pref_camera_brightness_entry_5">5</string>
+    <string name="pref_camera_brightness_entry_6">6</string>
+    <string name="pref_camera_contrast_title">कंट्रास्ट</string>
+    <string name="pref_camera_contrast_entry_0">0</string>
+    <string name="pref_camera_contrast_entry_1">1</string>
+    <string name="pref_camera_contrast_entry_2">2</string>
+    <string name="pref_camera_contrast_entry_3">3</string>
+    <string name="pref_camera_contrast_entry_4">4</string>
+    <string name="pref_camera_contrast_entry_5">5</string>
+    <string name="pref_camera_contrast_entry_6">6</string>
+    <string name="pref_camera_recordlocation_title">"संग्रह स्थान"</string>
+    <string name="pref_camera_recordlocation_entry_off">बंद </string>
+    <string name="pref_camera_recordlocation_entry_on">"चालू"</string>
+    <string name="pref_video_quality_title">"वीडियो गुणवत्ता"</string>
+    <string name="pref_video_quality_entry_d1">एसडी(डी1)</string>
+    <string name="pref_video_quality_entry_high">उच्च (30m)</string>
+    <string name="pref_video_quality_entry_low">निम्न (30m)</string>
+    <string name="pref_video_quality_entry_mms">MMS (न्यून, 30s)</string>
+    <string name="pref_video_quality_entry_youtube">यूट्यूब (उच्च, 10m)</string>
+    <string name="pref_camera_settings_category">कैमरा सेटिंग</string>
+    <string name="pref_camcorder_settings_category">कैमकॉर्डर सेटिंग</string>
+    <string name="pref_camera_picturesize_title">चित्र आकार</string>
+    <string name="pref_camera_previewsize_title">पूर्वदर्शन मोड</string>
+    <string name="pref_camera_previewsize_default">सामान्य</string>
+    <string name="pref_camera_previewsize_normal">सामान्य</string>
+    <string name="pref_camera_previewsize_fullscreen">पूर्ण स्क्रीन </string>
+    <string name="pref_camera_picturesize_entry_2592x1936">5M पिक्सेल</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">3M पिक्सेल</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">2M पिक्सेल</string>
+    <string name="pref_camera_picturesize_entry_1280x960">1.2M पिक्‍सेल</string>
+    <string name="pref_camera_picturesize_entry_1024x768">1M पिक्सेल</string>
+    <string name="pref_camera_jpegquality_title">चित्र गुणवत्ता</string>
+    <string name="pref_camera_jpegquality_entry_superfine">बेहतरीन</string>
+    <string name="pref_camera_jpegquality_entry_fine">अच्छा</string>
+    <string name="pref_camera_jpegquality_entry_normal">सामान्य</string>
+    <string name="pref_camera_focusmode_title">फ़ोकस मोड</string>
+    <string name="pref_camera_focusmode_entry_auto">"CDMA w/o EvDo"</string>
+    <string name="pref_camera_focusmode_entry_infinity">अनंत</string>
+    <string name="pref_camera_focusmode_entry_macro">मैक्रो</string>
+    <string name="pref_camera_focusmode_entry_multi">एकाधिक </string>
+    <string name="pref_camera_flashmode_title">फ़्लैश मोड</string>
+    <string name="pref_camera_flashmode_entry_auto">"CDMA w/o EvDo"</string>
+    <string name="pref_camera_flashmode_entry_on">"चालू"</string>
+    <string name="pref_camera_flashmode_entry_off">बंद </string>
+    <string name="pref_camera_whitebalance_title">"श्वेत संतुलन"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"CDMA w/o EvDo"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">अत्यधिक चमकीला</string>
+    <string name="pref_camera_whitebalance_entry_daylight">दिन की रोशनी</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">फ़्लोरेसेंट</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">बादल</string>
+    <string name="pref_camera_coloreffect_title">रंग प्रभाव</string>
+    <string name="pref_camera_coloreffect_entry_none">"कोई नहीं"</string>
+    <string name="pref_camera_coloreffect_entry_mono">एकल</string>
+    <string name="pref_camera_coloreffect_entry_sepia">सेपिया</string>
+    <string name="pref_camera_coloreffect_entry_negative">नेगेटिव</string>
+    <string name="pref_camera_coloreffect_entry_solarize">सोलेराइज</string>
+    <string name="pref_camera_coloreffect_entry_posterize">पोस्टराइज़</string>
+    <string name="pref_camera_coloreffect_entry_aqua">एक्वा</string>
+    <string name="pref_camera_coloreffect_entry_pastel">पैस्टल</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">मोज़ेक</string>
+    <string name="pref_camera_coloreffect_entry_redtint">लाल रंग</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">ब्लू टिंट</string>
+    <string name="pref_camera_coloreffect_entry_greentint">हरी रंगत</string>
+    <string name="pref_camera_scenemode_title">रात्रि मोड</string>
+    <string name="pref_camera_scenemode_entry_auto">"CDMA w/o EvDo"</string>
+    <string name="pref_camera_scenemode_entry_action">कार्रवाई</string>
+    <string name="pref_camera_scenemode_entry_portrait">पोर्ट्रेट</string>
+    <string name="pref_camera_scenemode_entry_landscape">लैंडस्केप</string>
+    <string name="pref_camera_scenemode_entry_night">रात्रि</string>
+    <string name="pref_camera_scenemode_entry_night_portrait">रात्रि चित्र</string>
+    <string name="pref_camera_scenemode_entry_theatre">थिएटर</string>
+    <string name="pref_camera_scenemode_entry_beach">समुद्र तट</string>
+    <string name="pref_camera_scenemode_entry_snow">हिमपात</string>
+    <string name="pref_camera_scenemode_entry_sunset">"सूर्यास्त"</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">सतत फोटो</string>
+    <string name="pref_camera_scenemode_entry_fireworks">आतिशबाजी</string>
+    <string name="pref_camera_scenemode_entry_party">पार्टी </string>
+    <string name="pref_camera_scenemode_entry_candlelight">मोमबत्ती की रोशनी</string>
+    <string name="pref_restore_title">कैमरा सेटिंग</string>
+    <string name="pref_restore_detail">डिफ़ॉल्ट पुनर्स्थापित करें</string>
+    <string name="pref_exposure_title">एक्सपोज़र</string>
+    <string name="details_ok">"ठीक"</string>
+    <string name="spaceIsLow_content" product="nosdcard">आपके यूएसबी भंडारण की जगह खत्म हो रही है। गुणवत्ता सेटिंग में परिवर्तन करें या कुछ तस्वीरों या अन्य फाइलों को मिटा दें। </string>
+    <string name="spaceIsLow_content" product="default">आपके एसडी कार्ड की जगह खत्म हो रही है। गुणवत्ता सेटिंग में परिवर्तन करें या कुछ तस्वीरों या अन्य फाइलों को मिटा दें। </string>
+    <string name="video_reach_size_limit">"आकार सीमा पहुंची."</string>
+    <string name="zoom_control_title">ज़ूम करें</string>
+    <string name="switch_to_camera_lable">कैमरा पर स्विच करें</string>
+    <string name="switch_to_video_lable">वीडियो पर स्विच करें</string>
+    <string name="hisense_tv_is_running">मोबाइल टीवी चल रहा है!</string>
+    <string name="in_video_call_is_running">वीडियो कॉल चल रहा है!</string>
+    <string name="canot_takepicture">फोटो नहीं ले सकता </string>
+    <string name="camera_memory_low">कैमरे का मेमोरी कम है, कृपया फोटो का आकार परिवर्तित करें </string>
+    <string name="memory_full">भंडारण स्थल भर गया है </string>
+    <string name="pref_camera_antibanding_title">एंटीबैंडिंग </string>
+    <string name="pref_camera_antibanding_default">50hz</string>
+    <string name="pref_camera_antibanding_entry_50hz">50hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60hz</string>
+</resources>

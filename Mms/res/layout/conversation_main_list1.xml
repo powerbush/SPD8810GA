@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/mms_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- android:colorBackgroundCacheHint="#00000000"  背景缓存色透明，避免拖动全鹿--> 
+  <LinearLayout
+  		android:id="@+id/listLinearLayout"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+  		android:layout_width="fill_parent">
+  		<!-- 我们会自己定义listview的显示方式（在另外一个布局文件里边）不用默认的方式 如果自定义listview的显示方式这里这个 
+  		android:id="@id/android:list" 必须这样写 
+  		 -->
+  		<ListView 
+  			android:id="@id/android:list" 
+  			android:layout_width="fill_parent" 
+  			android:layout_height="wrap_content" 
+  			android:drawSelectorOnTop="false"
+  			android:scrollbars="vertical"/>
+  			<!-- android:drawSelectOnTop="false"此属性用来设置listview上的背景颜色会不会挡住（覆盖）内容
+  				如果这是为false就表示不会覆盖掉 ，这个大家拿例子测试一下效果就明白了
+  			 -->
+  </LinearLayout>
+</LinearLayout>

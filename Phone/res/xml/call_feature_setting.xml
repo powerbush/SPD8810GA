@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+
+    <PreferenceScreen
+        android:key="button_fdn_key"
+        android:title="@string/fdn"
+        android:summary="@string/sum_fdn"
+        android:persistent="false">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.FdnSetting" />
+
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:key="button_voicemail_category_key"
+        android:title="@string/voicemail"
+        android:persistent="false">
+      <ListPreference
+          android:key="button_voicemail_provider_key"
+          android:title="@string/voicemail_provider"
+          android:summary="@string/sum_voicemail_choose_provider"
+          android:defaultValue=""
+          android:persistent="true"
+      />
+      <PreferenceScreen android:key="button_voicemail_setting_key"
+            android:title="@string/voicemail_settings"
+            android:persistent="false">
+
+            <!-- Note for all com.android.phone.EditPhoneNumberPreference objects
+
+           The last several attributes are for use with the EditText field
+           in the dialog.  These attributes are forwarded to that field
+           when the edittext is created.  The attributes include:
+             1. android:singleLine
+             2. android:autoText
+             3. android:background -->
+
+              <com.android.phone.EditPhoneNumberPreference
+                android:key="button_voicemail_key"
+                android:title="@string/voicemail_settings_number_label"
+                android:persistent="false"
+                android:dialogTitle="@string/voicemail"
+                phone:confirmMode="confirm"
+                android:singleLine="true"
+                android:autoText="false" />
+      </PreferenceScreen>
+  </PreferenceCategory>
+
+  <PreferenceCategory
+        android:key="button_fastdial_category_key"
+        android:title="@string/fast_dial"
+        android:persistent="false">
+      <PreferenceScreen android:key="button_fastdiall_setting_key"
+            android:title="@string/fast_dial_settings"
+            android:persistent="false">
+
+              <com.android.phone.EditPhoneNumberPreference
+                android:key="button_fastdial_key_2"
+                android:title="@string/fast_dial_2"
+                android:persistent="false"
+                android:dialogTitle="@string/fast_dial"
+                phone:confirmMode="confirm"
+                android:singleLine="true"
+                android:autoText="false" />
+              <com.android.phone.EditPhoneNumberPreference
+                android:key="button_fastdial_key_3"
+                android:title="@string/fast_dial_3"
+                android:persistent="false"
+                android:dialogTitle="@string/fast_dial"
+                phone:confirmMode="confirm"
+                android:singleLine="true"
+                android:autoText="false" />
+              <com.android.phone.EditPhoneNumberPreference
+                android:key="button_fastdial_key_4"
+                android:title="@string/fast_dial_4"
+                android:persistent="false"
+                android:dialogTitle="@string/fast_dial"
+                phone:confirmMode="confirm"
+                android:singleLine="true"
+                android:autoText="false" />
+              <com.android.phone.EditPhoneNumberPreference
+                android:key="button_fastdial_key_5"
+                android:title="@string/fast_dial_5"
+                android:persistent="false"
+                android:dialogTitle="@string/fast_dial"
+                phone:confirmMode="confirm"
+                android:singleLine="true"
+                android:autoText="false" />
+              <com.android.phone.EditPhoneNumberPreference
+                android:key="button_fastdial_key_6"
+                android:title="@string/fast_dial_6"
+                android:persistent="false"
+                android:dialogTitle="@string/fast_dial"
+                phone:confirmMode="confirm"
+                android:singleLine="true"
+                android:autoText="false" />
+              <com.android.phone.EditPhoneNumberPreference
+                android:key="button_fastdial_key_7"
+                android:title="@string/fast_dial_7"
+                android:persistent="false"
+                android:dialogTitle="@string/fast_dial"
+                phone:confirmMode="confirm"
+                android:singleLine="true"
+                android:autoText="false" />
+              <com.android.phone.EditPhoneNumberPreference
+                android:key="button_fastdial_key_8"
+                android:title="@string/fast_dial_8"
+                android:persistent="false"
+                android:dialogTitle="@string/fast_dial"
+                phone:confirmMode="confirm"
+                android:singleLine="true"
+                android:autoText="false" />
+              <com.android.phone.EditPhoneNumberPreference
+                android:key="button_fastdial_key_9"
+                android:title="@string/fast_dial_9"
+                android:persistent="false"
+                android:dialogTitle="@string/fast_dial"
+                phone:confirmMode="confirm"
+                android:singleLine="true"
+                android:autoText="false" />
+      </PreferenceScreen>
+  </PreferenceCategory>
+  <!-- add by donghw start -->
+  <PreferenceCategory
+        android:key="button_ip_dailing_category_key"
+        android:title="@string/set_ip_dailing_title"
+        android:persistent="false">
+  <CheckBoxPreference android:key="set_ip_dailing_on"
+        android:title="@string/set_ip_dailing_title"
+        android:persistent="false"
+        android:disableDependentsState="true"
+        />
+
+    <PreferenceScreen
+        android:key="set_ip_dailing_preference"
+        android:title="@string/ip_dailing"
+        android:persistent="false">
+
+          <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.IpDailingNumberList" />
+    </PreferenceScreen>
+    </PreferenceCategory>
+<!-- add by donghw end -->
+  <!-- add for call vibrate -->
+    <PreferenceCategory android:key="call_vbr_setting"
+        android:title="@string/call_vibrate_title"
+        android:persistent="false">
+      <CheckBoxPreference
+        android:key="gsm_button_call_vibrate_key"
+        android:title="@string/call_vibrate_title"
+        android:persistent="false"
+        android:defaultValue="true"
+        android:summary="@string/call_vibrate_summary"/>
+    </PreferenceCategory>
+    <!--yeezone:jinwei add message reply when hangup configure to preference-->
+    <PreferenceCategory android:title="@string/hangup_reply_message_title">
+        <CheckBoxPreference
+            android:key="key_preferences_reply_message_hangup"
+            android:defaultValue="false" 
+            android:title="@string/hangup_reply_message"
+            android:summary="@string/hangup_reply_message_tip"/>
+            
+        <CheckBoxPreference
+            android:key="key_preferences_auto_send_message"
+            android:defaultValue="false" 
+            android:title="@string/auto_send_message"
+            android:summary="@string/auto_send_message_tip"
+            android:dependency="key_preferences_reply_message_hangup"/>
+                
+        <PreferenceScreen
+	        android:key="key_preferences_message_info"
+	        android:title="@string/edit_message_content_for_hangup"
+	        android:summary="@string/edit_message_content_introdution"
+	        android:persistent="false"
+	        android:dependency="key_preferences_reply_message_hangup">
+	
+	       	<intent android:action="android.intent.action.MAIN"
+	           android:targetPackage="com.android.phone"
+	           android:targetClass="com.android.phone.MessagePhoneSettings" />
+
+  		</PreferenceScreen>
+    </PreferenceCategory>
+    <!--end yeezone:jinwei add message reply when hangup display-->
+	
+  <PreferenceCategory android:key="videophone_category_key"
+        android:title="@string/videophone_setting"
+        android:persistent="false" />
+
+    <PreferenceScreen
+	    android:key="videophone_general_setting"
+        android:title="@string/videophone_setting_title"
+        android:summary="@string/videophone_setting_summary">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.VideoPhoneSetting" />
+    </PreferenceScreen>
+    
+    <PreferenceScreen
+	    android:key="videophone_callforward_setting"
+        android:title="@string/videophone_callforward_setting_title">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.VideoPhoneCallForwardOptions" />
+    </PreferenceScreen>
+    
+    <PreferenceScreen
+	    android:key="videophone_callbarring_setting"
+        android:title="@string/videophone_callbarring_setting_title">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.VideoPhoneCallBarringOptions" />
+    </PreferenceScreen>
+  
+  <PreferenceCategory android:key="button_misc_category_key"
+        android:title="@string/other_settings"
+        android:persistent="false" />
+
+    <CheckBoxPreference
+        android:key="button_auto_retry_key"
+        android:title="@string/auto_retry_mode_title"
+        android:persistent="false"
+        android:summary="@string/auto_retry_mode_summary"/>
+
+    <ListPreference
+        android:key="button_tty_mode_key"
+        android:title="@string/tty_mode_option_title"
+        android:summary="@string/tty_mode_option_summary"
+        android:persistent="false"
+        android:entries="@array/tty_mode_entries"
+        android:entryValues="@array/tty_mode_values"/>
+
+     <CheckBoxPreference
+        android:key="button_hac_key"
+        android:title="@string/hac_mode_title"
+        android:persistent="true"
+        android:summary="@string/hac_mode_summary"/>
+
+    <ListPreference
+        android:key="button_dtmf_settings"
+        android:title="@string/dtmf_tones_title"
+        android:summary="@string/dtmf_tones_summary"
+        android:entries="@array/dtmf_tone_entries"
+        android:entryValues="@array/dtmf_tone_values"/>
+
+    <PreferenceScreen
+        android:key="button_gsm_more_expand_key"
+        android:title="@string/labelGSMMore"
+        android:summary="@string/sum_gsm_call_settings"
+        android:persistent="false">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.GsmUmtsCallOptions"/>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="button_cdma_more_expand_key"
+        android:title="@string/labelCDMAMore"
+        android:summary="@string/sum_cdma_call_settings"
+        android:persistent="false">
+
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.phone"
+            android:targetClass="com.android.phone.CdmaCallOptions"/>
+    </PreferenceScreen>
+</PreferenceScreen>

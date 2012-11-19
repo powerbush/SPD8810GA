@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:id="@+id/grp_incoming">
+<item android:title="@string/video_falldown" android:id="@+id/video_falldown"></item>
+</group>
+
+<group android:id="@+id/grp_incall">
+<item android:title="@string/video_camera_switch" android:id="@+id/video_camera_switch"></item>
+<item android:title="@string/video_view_switch" android:id="@+id/video_view_switch"></item>
+<item android:title="@string/video_camera_close" android:id="@+id/video_camera"></item>
+<item android:title="@string/video_speaker_open" android:id="@+id/video_speaker"></item>
+<item android:title="@string/video_bluetooth_close" android:id="@+id/video_bluetooth"></item>
+<item android:title="@string/video_mute" android:id="@+id/video_mute"></item>
+<item android:title="@string/brightness" android:id="@+id/brightness"></item>
+<item android:title="@string/camera_brightness" android:id="@+id/camera_brightness"></item>
+<item android:title="@string/camera_contrast" android:id="@+id/camera_contrast"></item>
+<item android:title="@string/video_record" android:id="@+id/video_record">
+<menu>
+<item android:title="@string/video_start_record_both" android:id="@+id/video_start_record_both"></item>
+<item android:title="@string/video_start_record_audio" android:id="@+id/video_start_record_audio"></item>
+</menu>
+</item>
+<item android:title="@string/video_stop_record" android:id="@+id/video_stop_record"></item>
+</group>
+
+</menu>
+
+

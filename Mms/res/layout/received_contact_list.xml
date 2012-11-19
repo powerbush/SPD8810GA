@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView
+		android:id="@+id/tip"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="@string/received_a_contact"
+	  	android:layout_marginTop="10px"
+	  	android:layout_marginLeft="10px"
+	  	android:layout_alignParentTop="true"
+  	/>
+  	
+  	<LinearLayout
+		android:id="@+id/layoutSaveCancel"
+		android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:layout_alignParentBottom="true">
+		<Button
+		  	android:id="@+id/save_a_new_contact"
+		  	android:layout_width="fill_parent"
+		  	android:layout_height="wrap_content"
+		  	android:layout_weight="1"
+		  	android:layout_gravity="center"
+		  	android:layout_marginLeft="10px"
+		  	android:text="@string/save_a_new_contact"
+		/>
+		<Button
+	  		android:id="@+id/cancel_new_contact"
+		  	android:layout_width="fill_parent"
+		  	android:layout_height="wrap_content"
+		  	android:layout_weight="1"
+		  	android:layout_gravity="center"
+		  	android:layout_marginRight="10px"
+		  	android:text="@string/cancle_a_new_contact"
+		/>
+	</LinearLayout>
+	
+	<ListView
+	  	android:id="@id/android:list"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:layout_marginTop="7px"
+	  	android:fastScrollEnabled="true"
+	  	android:layout_below="@+id/tip" 
+	  	android:layout_above="@+id/layoutSaveCancel"
+  	/>
+</RelativeLayout>

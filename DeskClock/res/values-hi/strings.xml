@@ -1,0 +1,120 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">घड़ी</string>
+    <string name="alarm_list_title">"अलार्म"</string>
+    <string name="add_alarm">अलार्म जोड़ें</string>
+    <string name="menu_desk_clock">मेज घड़ी</string>
+    <string name="menu_edit_alarm">अलार्म संपादित करें</string>
+    <string name="delete_alarm">अलार्म हटाएं</string>
+    <string name="enable_alarm">"अलार्म चालू करें"</string>
+    <string name="disable_alarm">"अलार्म बंद करें"</string>
+    <string name="delete_alarm_confirm">यह अलार्म हट जाएगा.</string>
+    <string name="show_clock">घड़ी दिखाएं</string>
+    <string name="hide_clock">घड़ी छुपाएं</string>
+    <string name="label">लेबल</string>
+    <string name="default_label">अलार्म</string>
+    <string name="set_alarm">अलार्म सेट करें</string>
+    <string name="alarm_vibrate">कंपन</string>
+    <string name="alarm_repeat">दोहराएं</string>
+    <string name="alert">रिंगटोन</string>
+    <string name="time">"समय"</string>
+    <string name="alarm_alert_dismiss_text">अस्वीकार करें</string>
+    <string name="alarm_alert_alert_silenced">"अलार्म <xliff:g id="MINUTES">%d</xliff:g> मिनट बाद मौन हो जाएगा"</string>
+    <string name="alarm_alert_snooze_text">विलंब अलार्म</string>
+    <string name="alarm_alert_snooze_set">"<xliff:g id="MINUTES">%d</xliff:g> मिनट के लिए स्नूज़ कर रहा है."</string>
+    <string name="alarm_alert_power_off">"पॉवर बंद करें"</string>
+    <string-array name="alarm_set">
+        <item>इस अलार्म को वर्तमान समय के 1 एक मिनट बाद सेट किया जाता है.</item>
+        <item>"अलार्म अब से <xliff:g id="DAYS">%1$s</xliff:g> के लिए सेट."</item>
+        <item>"अलार्म अब से <xliff:g id="HOURS">%2$s</xliff:g> के लिए सेट."</item>
+        <item>"अलार्म अब से <xliff:g id="DAYS">%1$s</xliff:g> और <xliff:g id="HOURS">%2$s</xliff:g> के लिए सेट."</item>
+        <item>"अलार्म अब से <xliff:g id="MINUTES">%3$s</xliff:g> के लिए सेट."</item>
+        <item>"अलार्म अब से <xliff:g id="DAYS">%1$s</xliff:g> और <xliff:g id="MINUTES">%3$s</xliff:g> के लिए सेट."</item>
+        <item>"अलार्म अब से <xliff:g id="HOURS">%2$s</xliff:g> और <xliff:g id="MINUTES">%3$s</xliff:g> के लिए सेट."</item>
+        <item>"अलार्म अब से <xliff:g id="DAYS">%1$s</xliff:g>, <xliff:g id="HOURS">%2$s</xliff:g>, और <xliff:g id="MINUTES">%3$s</xliff:g> के लिए सेट हो गया है."</item>
+    </string-array>
+    <string name="day">"1 दिन"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> दिन"</string>
+    <string name="hour">1 घंटे</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g> घंटे"</string>
+    <string name="minute">"1 मिनट"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> मिनट"</string>
+    <string name="every_day">प्रत्येक दिन</string>
+    <string name="never">कभी नहीं</string>
+    <string name="day_concat">", "</string>
+    <string name="clock_instructions">प्रदर्शन के लिए घड़ी का चयन करें.</string>
+    <string name="analog_gadget">अनुरूप घड़ी</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="alarm_in_silent_mode_title">मौन मोड में अलार्म</string>
+    <string name="alarm_in_silent_mode_summary">फोन मौन मोड में होने पर भी अलार्म चलाएं</string>
+    <string name="snooze_duration_title">स्नूज की अवधि</string>
+    <string-array name="snooze_duration_entries">
+      <item>‎5 मिनट‎</item>
+      <item>10 मिनट</item>
+      <item>"15 मिनट"</item>
+      <item>"20 मिनट"</item>
+      <item>"25 मिनट"</item>
+      <item>30 मिनट</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+      <item>"5"</item>
+      <item>"10"</item>
+      <item>"15"</item>
+      <item>"20"</item>
+      <item>"25"</item>
+      <item>"30"</item>
+    </string-array>
+    <string name="done">"पूर्ण"</string>
+    <string name="revert">वापस करें</string>
+    <string name="delete">"हटाएं"</string>
+    <string name="alarm_volume_title">अलार्म वॉल्यूम</string>
+    <string name="alarm_volume_summary">अलार्म की वॉल्यूम सेट करें</string>
+    <string name="silent_alarm_summary">मौन</string>
+    <string name="alarm_notify_text">स्नूज का चयन करें या इस अलार्म को छोड़ दें.</string>
+    <string name="alarm_notify_snooze_label">"<xliff:g id="LABEL">%s</xliff:g> (स्नूज़ किया गया)"</string>
+    <string name="alarm_notify_snooze_text">"अलार्म <xliff:g id="TIME">%s</xliff:g> के लिए सेट. रद्द करने के लिए स्‍पर्श करें."</string>
+    <string name="volume_button_setting_title">"वॉल्यूम बटन"</string>
+    <string name="volume_button_dialog_title">बटन प्रभाव</string>
+    <string name="volume_button_setting_summary">अलार्म के दौरान दबाए जाने पर ये बटन क्या कार्य करें, यह सेट करें</string>
+    <string-array name="volume_button_setting_entries">
+      <item>"कोई नहीं"</item>
+      <item>विलंब अलार्म</item>
+      <item>अस्वीकार करें</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+      <item>"0"</item>
+      <item>"1"</item>
+      <item>"2"</item>
+    </string-array>
+    <string name="alarm_button_description">"अलार्म"</string>
+    <string name="gallery_button_description">गैलरी </string>
+    <string name="music_button_description">संगीत</string>
+    <string name="nightmode_button_description">मद्धिम करें</string>
+    <string name="home_button_description">लॉन्चर</string>
+    <string name="desk_clock_button_description">घड़ी का प्रदर्शन</string>
+    <string name="battery_charging_level">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="weather_fetch_failure">"मौसम की जानकारी अभी उपलब्ध नहीं है."</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">"डॉक सेटिंग"</string>
+    <string name="alarm_alread_exist">अलार्म <xliff:g id="time">%s</xliff:g> पहले से मौजूद है, कृपया कोई दूसरा समय निर्धारित करें </string>
+    <string name="duration_title">अवधि</string>
+    <string-array name="duration_entries">
+      <item>1 मिनट </item>
+      <item>2 मिनट </item>
+      <item>4 मिनट </item>
+      <item>6 मिनट </item>
+      <item>8 मिनट </item>
+      <item>10 मिनट</item>
+    </string-array>
+    <string-array name="duration_values">
+      <item>1</item>
+      <item>2</item>
+      <item>4</item>
+      <item>6</item>
+      <item>8</item>
+      <item>10</item>
+    </string-array>
+    <string name="alarm_klaxon_service_desc">डेस्कक्लॉक में अलार्मों के लिए ध्वनि प्लेबैक सेवा सेट की गई है। </string>
+    <string name="del_all">सबको मिटाएँ </string>
+    <string name="delete_all_alarm">क्या आप सभी अलार्म हटाना चाहते हैं?</string>
+</resources>

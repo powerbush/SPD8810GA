@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string-array name="select_sex_entryvalues">
+		<item>01</item>
+		<item>02</item>
+	</string-array>
+	<string-array name="select_sex_entrynames">
+		<item>男</item>
+		<item>女</item>
+	</string-array>
+	
+	<string-array name="certificate_entryvalues">
+		<item>01</item>
+		<item>02</item>
+		<item>03</item>
+		<item>04</item>
+		<item>05</item>
+	</string-array>	
+	<string-array name="certificate_entryname">
+		<item>身份证</item>
+		<item>护照</item>
+		<item>军官证</item>
+		<item>驾驶证</item>
+		<item>其他</item>
+	</string-array>
+	
+	<string-array name="province_entryvalues">
+		<item>01</item>
+		<item>02</item>
+		<item>03</item>
+		<item>04</item>
+		<item>05</item>
+		<item>06</item>
+		<item>07</item>
+		<item>08</item>
+		<item>09</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+	</string-array>	
+	<string-array name="province_entryname">
+		<item>广东</item>
+		<item>上海</item>
+		<item>北京</item>
+		<item>天津</item>
+		<item>河北</item>
+		<item>山西</item>
+		<item>内蒙古</item>
+		<item>辽宁</item>
+		<item>吉林</item>
+		<item>黑龙江</item>
+		<item>江苏</item>
+		<item>浙江</item>
+		<item>安徽</item>
+		<item>福建</item>
+		<item>江西</item>
+		<item>山东</item>
+		<item>河南</item>
+		<item>湖北</item>
+		<item>湖南</item>
+		<item>广西</item>
+		<item>四川</item>
+		<item>贵州</item>
+		<item>云南</item>
+		<item>西藏</item>
+		<item>陕西</item>
+		<item>甘肃</item>
+		<item>青海</item>
+		<item>宁夏</item>
+		<item>新疆</item>
+		<item>重庆</item>
+		<item>海南</item>
+	</string-array>
+	
+	<string-array name="dataType_entryvalues">
+		<item>01</item>
+		<item>02</item>
+		<item>03</item>
+		<item>04</item>
+	</string-array>	
+	<string-array name="dataType_entryname">
+		<item>新单</item>
+		<item>数据更新</item>
+		<item>增人</item>
+		<item>减人</item>
+	</string-array>
+		<string-array name="constitution_entryvalues">
+	<item>1平和质（A型）</item>
+	<item>2气虚质（B型）</item>
+	<item>3阳虚质（C型）</item>
+	<item>4阴虚质（D型）</item>
+	<item>5痰湿质（E型）</item>
+	<item>6湿热质（F型）</item>
+	<item>7血瘀质（G型）</item>
+	<item>8气郁质（H型）</item>
+	<item>9特禀质（I型）</item>
+	</string-array>
+</resources>

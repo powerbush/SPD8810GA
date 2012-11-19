@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="lrc_file_not_found">Please add lyrics file</string>
+    <string name="lrc_file_io_error">Can\'t access lyrics file</string>
+    <string name="lrc_file_invalid_encoding">Unsupported file encoding</string>
+    <string name="lrc_file_invalid_format">Unrecognized file format</string>
+    <string name="lrc_unknown_info_tag">unknown</string>
+</resources>

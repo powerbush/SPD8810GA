@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_names">
+        <item>హ్యాపీ  </item>                   <!-- 0: :-) -->
+        <item>బాధగా ఉన్న</item>                     <!-- 1: :-( -->
+        <item>కదలుట</item>                 <!-- 2: ;-) -->
+        <item>నాలుక బయటకు అంటుకుని ఉంది</item>     <!-- 3: :-P -->
+        <item>ఆశ్చర్యపోయారు</item>               <!-- 4: =-O -->
+        <item>ముద్దు    </item>                 <!-- 5: :-* -->
+        <item>యెల్లింగ్</item>                 <!-- 6: :O -->
+        <item>చల్లని</item>                    <!-- 7: B-) -->
+        <item>మనీ మౌత్ </item>             <!-- 8: :-$ -->
+        <item>నోరు లో ఫుట్</item>           <!-- 9: :-! -->
+        <item>తడమాడే</item>             <!-- 10: :-[ -->
+        <item>దేవదూత</item>                   <!-- 11: O:-) -->
+        <item>నిర్థారించబడని</item>               <!-- 12: :-\\ -->
+        <item>ఏడుస్తోంది</item>                  <!-- 13: :\'( -->
+        <item>లిప్స్ సీల్ చేయబడ్డాయి</item>         <!-- 14: :-X -->
+        <item>లాఫింగ్  </item>                <!-- 15: :-D -->
+        <item>గందరగోళం అయింది</item>                <!-- 16: o_O -->
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Agogo</string>
+    <string name="alarm_list_title">Su kararrawa</string>
+    <string name="add_alarm">Kara kararrawa</string>
+    <string name="menu_desk_clock">Agogon Teburi</string>
+    <string name="menu_edit_alarm">Gyara kararrawa</string>
+    <string name="delete_alarm">Soke kararrawa</string>
+    <string name="enable_alarm">Kunna kararrawa</string>
+    <string name="disable_alarm">Kashe kararrawa</string>
+    <string name="delete_alarm_confirm">Za a share wannan kararrawa.</string>
+    <string name="show_clock">Nuna agogo</string>
+    <string name="hide_clock">Boye Agogo</string>
+    <string name="label">Mataki</string>
+    <string name="default_label">Kararrawa</string>
+    <string name="set_alarm">Saita kararrawa</string>
+    <string name="alarm_vibrate">Jijjiga</string>
+    <string name="alarm_repeat">Maimaita</string>
+    <string name="alert">Sautin kira</string>
+    <string name="time">Lokaci</string>
+    <string name="alarm_alert_dismiss_text">Sallama</string>
+    <string name="alarm_alert_snooze_text">Maimaita kararrwa</string>
+    <string name="alarm_alert_power_off">Kashe wuta</string>
+    <string-array name="alarm_set">
+        <item>An saita wannan kararrawa zuwa kasa da minti daya daga yanzu.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string name="day">Rana 1</string>
+    <string name="hour">Awa 1</string>
+    <string name="minute">"minti 1"</string>
+    <string name="every_day">kowace rana</string>
+    <string name="never">Har abada</string>
+    <string name="clock_instructions">Zabi agogo ka bijiro da shi.</string>
+    <string name="analog_gadget">Agogo tsohon yayi</string>
+    <string name="settings">Saituna</string>
+    <string name="alarm_in_silent_mode_title">Kararawa na cikin shiru</string>
+    <string name="alarm_in_silent_mode_summary">Kunna alarm koda waya tana silent</string>
+    <string name="snooze_duration_title">Tsawon lokacin shirun kararrawa</string>
+    <string-array name="snooze_duration_entries">
+      <item>Minti 5</item>
+      <item>Minti 10</item>
+      <item>Minti 15</item>
+      <item>Minti 20</item>
+      <item>Minti 25</item>
+      <item>Minti 30</item>
+    </string-array>
+    <string name="done">An gama</string>
+    <string name="revert">Koma</string>
+    <string name="delete">Goge</string>
+    <string name="alarm_volume_title">Karfin muryar kararawa</string>
+    <string name="alarm_volume_summary">Saita karar sautin sakonnin farkarwa</string>
+    <string name="silent_alarm_summary">Shiru</string>
+    <string name="alarm_notify_text">Zabi ka rufe sauti ko ka kashe alam.</string>
+    <string name="volume_button_setting_title">Masarrafin sauti da Kyamara</string>
+    <string name="volume_button_dialog_title">Aikin botin</string>
+    <string name="volume_button_setting_summary">Saita abin da wadannan madannai suke yi yayin da aka danna su lokacin kararrawar ankararwa</string>
+    <string-array name="volume_button_setting_entries">
+      <item>Ko daya</item>
+      <item>Maimaita kararrwa</item>
+      <item>Sallama</item>
+    </string-array>
+    <string name="alarm_button_description">Su kararrawa</string>
+    <string name="gallery_button_description">Gallery</string>
+    <string name="music_button_description">Waka</string>
+    <string name="nightmode_button_description">Yi dim</string>
+    <string name="home_button_description">Mabudin-shiri</string>
+    <string name="desk_clock_button_description">Nuna agogo</string>
+    <string name="weather_fetch_failure">Babu bayanan yanayi yanzu.</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">Saitunan bakin ruwa</string>
+</resources>

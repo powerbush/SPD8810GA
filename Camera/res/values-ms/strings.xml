@@ -1,0 +1,133 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">"Ralat kamera"</string>
+    <string name="cannot_connect_camera">"Tidak boleh menyambung kepada kamera."</string>
+    <string name="camera_label">Kamera</string>
+    <string name="video_camera_label">"Kamkorder"</string>
+    <string name="gallery_camera_bucket_name">"Gambar kamera"</string>
+    <string name="gallery_camera_videos_bucket_name">"Kamera video"</string>
+    <string name="wait">"Sila tunggu..."</string>
+    <string name="no_storage" product="nosdcard">Sila lekapkan storan USB sebelum menggunakan kamera.</string>
+    <string name="no_storage" product="default">Sila sisipkan kad SD sebelum menggunakan kamera.</string>
+    <string name="not_enough_space" product="nosdcard">Storan USB anda penuh.</string>
+    <string name="not_enough_space" product="default">Kad SD anda penuh.</string>
+    <string name="preparing_sd" product="nosdcard">Menyediakan storan USB\u2026</string>
+    <string name="preparing_sd" product="default">Menyediakan kad SD\u2026</string>
+    <string name="access_sd_fail" product="nosdcard">Gagal mengakses storan USB.</string>
+    <string name="access_sd_fail" product="default">Gagal mengakses kad SD.</string>
+    <string name="confirm_restore_title">Pulihkan lalai</string>
+    <string name="confirm_restore_message">"Pulihkan tetapan lalai Kamera?"</string>
+    <string name="review_play">"Main"</string>
+    <string name="review_cancel">Batal</string>
+    <string name="review_ok">"OK"</string>
+    <string name="review_retake">"AMBIL SEMULA"</string>
+    <string name="camera_gallery_photos_text">Galeri</string>
+    <string name="switch_camera_id">Tukar lensa kamera</string>
+    <string name="pref_camera_id_title">Pilih kamera</string>
+    <string name="pref_camera_id_entry_back">Belakang</string>
+    <string name="pref_camera_id_entry_front">Depan</string>
+    <string name="pref_camera_brightness_title">Kecerahan</string>
+    <string name="pref_camera_brightness_entry_0">0</string>
+    <string name="pref_camera_brightness_entry_1">1</string>
+    <string name="pref_camera_brightness_entry_2">2</string>
+    <string name="pref_camera_brightness_entry_3">3</string>
+    <string name="pref_camera_brightness_entry_4">4</string>
+    <string name="pref_camera_brightness_entry_5">5</string>
+    <string name="pref_camera_brightness_entry_6">6</string>
+    <string name="pref_camera_contrast_title">Kontras</string>
+    <string name="pref_camera_contrast_entry_0">0</string>
+    <string name="pref_camera_contrast_entry_1">1</string>
+    <string name="pref_camera_contrast_entry_2">2</string>
+    <string name="pref_camera_contrast_entry_3">3</string>
+    <string name="pref_camera_contrast_entry_4">4</string>
+    <string name="pref_camera_contrast_entry_5">5</string>
+    <string name="pref_camera_contrast_entry_6">6</string>
+    <string name="pref_camera_recordlocation_title">"Lokasi stor"</string>
+    <string name="pref_camera_recordlocation_entry_off">Mati</string>
+    <string name="pref_camera_recordlocation_entry_on">"Hidup"</string>
+    <string name="pref_video_quality_title">"Kualiti video"</string>
+    <string name="pref_video_quality_entry_d1">SD(D1)</string>
+    <string name="pref_video_quality_entry_high">Tinggi (30 m)</string>
+    <string name="pref_video_quality_entry_low">Rendah (30m)</string>
+    <string name="pref_video_quality_entry_mms">MMS (Rendah, 30s)</string>
+    <string name="pref_video_quality_entry_youtube">YouTube (Tinggi, 10m)</string>
+    <string name="pref_camera_settings_category">"Tetapan kamera"</string>
+    <string name="pref_camcorder_settings_category">"Tetapan kamkorder"</string>
+    <string name="pref_camera_picturesize_title">"Saiz gambar"</string>
+    <string name="pref_camera_previewsize_title">Mod pratonton</string>
+    <string name="pref_camera_previewsize_default">normal</string>
+    <string name="pref_camera_previewsize_normal">normal</string>
+    <string name="pref_camera_previewsize_fullscreen">Skrin penuh</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">"5M piksel"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"3M piksel"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"2M piksel"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">"1.3M piksel"</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"1M piksel"</string>
+    <string name="pref_camera_jpegquality_title">Mutu gambar</string>
+    <string name="pref_camera_jpegquality_entry_superfine">Sangat halus</string>
+    <string name="pref_camera_jpegquality_entry_fine">Halus</string>
+    <string name="pref_camera_jpegquality_entry_normal">Normal</string>
+    <string name="pref_camera_focusmode_title">"Mod fokus"</string>
+    <string name="pref_camera_focusmode_entry_auto">"CDMA tanpa EvDo"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"Infiniti"</string>
+    <string name="pref_camera_focusmode_entry_macro">"Makro"</string>
+    <string name="pref_camera_focusmode_entry_multi">Berbilang</string>
+    <string name="pref_camera_flashmode_title">"Mod denyar"</string>
+    <string name="pref_camera_flashmode_entry_auto">"CDMA tanpa EvDo"</string>
+    <string name="pref_camera_flashmode_entry_on">"Hidup"</string>
+    <string name="pref_camera_flashmode_entry_off">Mati</string>
+    <string name="pref_camera_whitebalance_title">"Imbangan putih"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"CDMA tanpa EvDo"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"Berpijar"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">Siang</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">Berpendafluor</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">Mendung</string>
+    <string name="pref_camera_coloreffect_title">Kesan warna</string>
+    <string name="pref_camera_coloreffect_entry_none">"Tiada"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negatif</string>
+    <string name="pref_camera_coloreffect_entry_solarize">Suria</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Diposterkan</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mozek</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Seri warna merah</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Seri warna biru</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Seri warna hijau</string>
+    <string name="pref_camera_scenemode_title">Mod malam</string>
+    <string name="pref_camera_scenemode_entry_auto">"CDMA tanpa EvDo"</string>
+    <string name="pref_camera_scenemode_entry_action">Tindakan</string>
+    <string name="pref_camera_scenemode_entry_portrait">Potret</string>
+    <string name="pref_camera_scenemode_entry_landscape">Landskap</string>
+    <string name="pref_camera_scenemode_entry_night">Malam</string>
+    <string name="pref_camera_scenemode_entry_night_portrait">Potret malam</string>
+    <string name="pref_camera_scenemode_entry_theatre">Panggung</string>
+    <string name="pref_camera_scenemode_entry_beach">Pantai</string>
+    <string name="pref_camera_scenemode_entry_snow">Salji</string>
+    <string name="pref_camera_scenemode_entry_sunset">"Matahari Terbenam"</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">Gambar mantap</string>
+    <string name="pref_camera_scenemode_entry_fireworks">Bunga api</string>
+    <string name="pref_camera_scenemode_entry_party">Parti</string>
+    <string name="pref_camera_scenemode_entry_candlelight">Cahaya lilin</string>
+    <string name="pref_restore_title">"Tetapan kamera"</string>
+    <string name="pref_restore_detail">"Pulihkan lalai"</string>
+    <string name="pref_exposure_title">Pendedahan</string>
+    <string name="details_ok">OK</string>
+    <string name="spaceIsLow_content" product="nosdcard">Ruang storan USB anda semakin berkurangan. Tukar tetapan mutu atau hapuskan beberapa imej atau lain-lain fail.</string>
+    <string name="spaceIsLow_content" product="default">Ruang kad SD anda semakin berkurangan. Tukar tetapan mutu atau hapuskan beberapa imej atau lain-lain fail.</string>
+    <string name="video_reach_size_limit">"Had saiz dicapai."</string>
+    <string name="zoom_control_title">Zum</string>
+    <string name="switch_to_camera_lable">Tukar ke kamera</string>
+    <string name="switch_to_video_lable">Tukar ke video</string>
+    <string name="hisense_tv_is_running">TV mudah alih terpasang!</string>
+    <string name="in_video_call_is_running">Panggilan video sedang dijalankan!</string>
+    <string name="canot_takepicture">Tidak dapat mengambil gambar</string>
+    <string name="camera_memory_low">Memori kamera rendah, sila tukar saiz gambar</string>
+    <string name="memory_full">Ruang storan penuh</string>
+    <string name="pref_camera_antibanding_title">antimenjalur</string>
+    <string name="pref_camera_antibanding_default">50hz</string>
+    <string name="pref_camera_antibanding_entry_50hz">50hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60hz</string>
+</resources>

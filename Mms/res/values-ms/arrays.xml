@@ -1,0 +1,154 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_texts">
+      <item>":-)"</item>   <!-- 0: Happy -->
+      <item>":-("</item>   <!-- 1: Sad -->
+      <item>";-)"</item>   <!-- 2: Winking -->
+      <item>":-P"</item>   <!-- 3: Tongue sticking out -->
+      <item>"=-O"</item>   <!-- 4: Surprised -->
+      <item>":-*"</item>   <!-- 5: Kissing -->
+      <item>":O"</item>    <!-- 6: Yelling -->
+      <item>"B-)"</item>   <!-- 7: Cool -->
+      <item>":-$"</item>   <!-- 8: Money mouth -->
+      <item>":-!"</item>   <!-- 9: Foot in mouth -->
+      <item>":-["</item>   <!-- 10: Embarrassed -->
+      <item>"O:-)"</item>  <!-- 11: Angel -->
+      <item>":-\\"</item>  <!-- 12: Undecided -->
+      <item>":\'("</item>  <!-- 13: Crying -->
+      <item>":-X"</item>   <!-- 14: Lips are sealed -->
+      <item>":-D"</item>   <!-- 15: Laughing -->
+      <item>"o_O"</item>   <!-- 16: Confused -->
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Gembira</item>                   <!-- 0: :-) -->
+        <item>Sedih</item>                     <!-- 1: :-( -->
+        <item>Berkelip</item>                 <!-- 2: ;-) -->
+        <item>Lidah terjelir</item>     <!-- 3: :-P -->
+        <item>Terperanjat</item>               <!-- 4: =-O -->
+        <item>Bercium</item>                 <!-- 5: :-* -->
+        <item>Menjerit</item>                 <!-- 6: :O -->
+        <item>Dingin</item>                    <!-- 7: B-) -->
+        <item>Mulut duit</item>             <!-- 8: :-$ -->
+        <item>Kaki di dalam mulut</item>           <!-- 9: :-! -->
+        <item>Dimalukan</item>             <!-- 10: :-[ -->
+        <item>Bidadari</item>                   <!-- 11: O:-) -->
+        <item>Tidak diputuskan</item>               <!-- 12: :-\\ -->
+        <item>Menangis</item>                  <!-- 13: :\'( -->
+        <item>Dirahsiakan</item>         <!-- 14: :-X -->
+        <item>Ketawa</item>                <!-- 15: :-D -->
+        <item>Keliru</item>                <!-- 16: o_O -->
+    </string-array>
+    <string-array name="entries_set_sms_text_size">
+        <item>Saiz teks: 17</item>
+        <item>Saiz teks: 18</item>
+        <item>Saiz teks: 19</item>
+        <item>Saiz teks: 20</item>
+        <item>Saiz teks: 21</item>
+        <item>Saiz teks: 22</item>
+        <item>Saiz teks: 23</item>
+        <item>Saiz teks: 24</item>
+        <item>Saiz teks: 25</item>
+        <item>Saiz teks: 26</item>
+        <item>Saiz teks: 27</item>
+        <item>Saiz teks: 28</item>
+        <item>Saiz teks: 29</item>
+        <item>Saiz teks: 30</item>
+        <item>Saiz teks: 31</item>
+        <item>Saiz teks: 32</item>
+        <item>Saiz teks: 33</item>
+        <item>Saiz teks: 34</item>
+        <item>Saiz teks: 35</item>
+        <item>Saiz teks: 36</item>
+        <item>Saiz teks: 37</item>
+        <item>Saiz teks: 38</item>
+        <item>Saiz teks: 39</item>
+        <item>Saiz teks: 40</item>
+        <item>Saiz teks: 41</item>
+        <item>Saiz teks: 42</item>
+        <item>Saiz teks: 43</item>
+        <item>Saiz teks: 44</item>
+        <item>Saiz teks: 45</item>
+        <item>Saiz teks: 46</item>
+        <item>Saiz teks: 47</item>
+        <item>Saiz teks: 48</item>
+        <item>Saiz teks: 49</item>
+        <item>Saiz teks: 50</item>
+        <item>Saiz teks: 51</item>
+        <item>Saiz teks: 52</item>
+        <item>Saiz teks: 53</item>
+        <item>Saiz teks: 54</item>
+        <item>Saiz teks: 55</item>
+        <item>Saiz teks: 56</item>
+        <item>Saiz teks: 57</item>
+        <item>Saiz teks: 58</item>
+        <item>Saiz teks: 59</item>
+        <item>Saiz teks: 60</item>
+        <item>Saiz teks: 61</item>
+        <item>Saiz teks: 62</item>
+        <item>Saiz teks: 63</item>
+        <item>Saiz teks: 64</item>
+        <item>Saiz teks: 65</item>
+        <item>Saiz teks: 66</item>
+        <item>Saiz teks: 67</item>
+        <item>Saiz teks: 68</item>
+        <item>Saiz teks: 69</item>
+        <item>Saiz teks: 70</item>
+    </string-array>
+    <string-array name="entryvalues_set_sms_text_size">
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+    </string-array>
+</resources>

@@ -1,0 +1,333 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">پیغام رسانی</string>
+    <string name="new_message">نیا پیغام</string>
+    <string name="cdma_cell_broadcast_sms">سیل نشر ایس ایم ایس</string>
+    <string name="cell_broadcast_sms">سیل نشر ایس ایم ایس</string>
+    <string name="enable_disable_cell_bc_sms">سیل نشر ایس ایم ایس</string>
+    <string name="cell_bc_sms_enable">سیل نشریات کے ایس ایم ایس  فعال  ھے </string>
+    <string name="cell_bc_sms_disable">سیل نشریات کے ایس ایم ایس غیر فعال  ھے </string>
+    <string name="cb_sms_settings">سیل نشریات  ایس ایم ایس کے ترتیبات</string>
+    <string name="channel_name">چینل کا نام</string>
+    <string name="channel_number">چینل نمبر</string>
+    <string name="no_cell_broadcast">نہیں سیل نشر پیغام</string>
+    <string name="broadcast">سیل نشر ایس ایم ایس</string>
+    <string name="menu_cellbroadcastsms">سیل کی نشریات</string>
+    <string name="list_language_title">زبان کی سیٹنگ</string>
+    <string name="list_language_summary">خبریں زبان منتخب کریں</string>
+    <string name="broadcast_message">پیغامات</string>
+    <string name="language_eng">انگریزی زبان میں</string>
+    <string name="language_fren">فرانسیسی زبان میں</string>
+    <string name="language_spanish">ہسپانوی زبان</string>
+    <string name="language_japanese">جاپانی زبان</string>
+    <string name="language_korean">کورین زبان</string>
+    <string name="language_chinese">چینی زبان</string>
+    <string name="language_hebrew">عبرانی زبان</string>
+    <string name="language_type">زبان کی قسم:</string>
+    <string-array name="list_language_entries">
+        <item>انگریزی</item>
+        <item>فرانسیسی</item>
+        <item>ہسپانوی</item>
+        <item>جاپانی</item>
+        <item>کوریا کے</item>
+        <item> چینی</item>
+        <item>عبرانی</item>
+    </string-array>
+    <string name="list_language_dtitle">زبانیں</string>
+    <string name="create_new_message">نیا پیغام لکھیں</string>
+    <string name="menu_compose_new">تحریر کریں</string>
+    <string name="menu_preferences">سیٹنگز</string>
+    <string name="menu_call">کال کریں</string>
+    <string name="menu_videocall">  ویڈیو کال</string>
+    <string name="menu_delete_all">موضوعات کو خارج کر دیں</string>
+    <string name="menu_delete">دھاگے کو خارج کر دیں</string>
+    <string name="menu_undelivered_messages">پیغام موصول نہیں ہوا</string>
+    <string name="menu_view">تھریڈ دیکھیں</string>
+    <string name="refreshing">کی تازہ کاری کر\u2026</string>
+    <string name="has_draft">مسودہ</string>
+    <string name="anonymous_recipient">گمنام</string>
+    <string name="no_subject_view">(کوئی عنوان نہیں)</string>
+    <string name="messagelist_sender_self">مجھے</string>
+    <string name="view_picture">تصویر دیکھیں</string>
+    <string name="view_slideshow">سلائڈ شو دیکھیں</string>
+    <string name="view_message_details">پیغام کی تفصیلات دیکھیں</string>
+    <string name="view_delivery_report">رپورٹ دیکھیں</string>
+    <string name="delete_message">پیغام خارج</string>
+    <string name="undelivered_msg_dialog_title">پیغامات موصول نہیں ہوا</string>
+    <string name="undelivered_sms_dialog_body">اس پیغام کو کو بھیجنے کے قابل نہیں.</string>
+    <string name="delete_thread">دھاگے کو خارج کر دیں</string>
+    <string name="menu_forward">آگے بھیجیں</string>
+    <string name="download">ڈاؤن لوڈ</string>
+    <string name="downloading">ڈاؤن لوڈنگ</string>
+    <string name="drm_protected_text">"* ڈی  آر   ایم   محفوظ متن *" </string>
+    <string name="insufficient_drm_rights">ناکافیڈی  آر   ایم   حقوق </string>
+    <string name="copy_message_text">پیغام کے متن کو کاپی کریں</string>
+    <string name="message_options">پیغام کے اختیارات</string>
+    <string name="done">مکمل</string>
+    <string name="move_up">اوپر کریں</string>
+    <string name="move_down">نیچے لائیں</string>
+    <string name="remove_slide">سلائڈ ہٹا دیں</string>
+    <string name="add_slide">سلائڈ کا اضافہ کریں</string>
+    <string name="add_slide_hint">نئی سلائڈ بنانے کے لئے منتخب کریں.</string>
+    <string name="discard_slideshow">سلائڈ شو ضائع کر دیں</string>
+    <string name="remove_text">متن کو ہٹا دیں</string>
+    <string name="add_picture">تصویر کا اضافہ کریں</string>
+    <string name="remove_picture">تصویر کو ہٹا دیں</string>
+    <string name="add_music">گانوں میں اضافہ کرنا</string>
+    <string name="remove_music">موسیقی کو ہٹا دیں</string>
+    <string name="add_video">ویڈیو اضافہ کیجئے</string>
+    <string name="remove_video">ویڈیو ہٹا دیں</string>
+    <string name="compose_title">تحریر کریں</string>
+    <string name="to_hint">طرف</string>
+    <string name="subject_hint">موضوع</string>
+    <string name="add_attachment">منسلک</string>
+    <string name="add_subject">موضوع شامل کریں</string>
+    <string name="discard">ضائع کر دیں</string>
+    <string name="view">منظر</string>
+    <string name="replace">بدلیں</string>
+    <string name="remove">حذف کریں</string>
+    <string name="send">بھیجیں</string>
+    <string name="mms">ملٹی میڈیا پیغام</string>
+    <string name="all_threads">تمام موضوعات</string>
+    <string name="type_to_compose_text_enter_to_send">کچھ بھی تحریر کرنے کے لئے,ٹائپ کریں</string>
+    <string name="open_keyboard_to_compose_message">پیغام تحریر کرنے کے لئے کی بورڈ کھول</string>
+    <string name="image_too_large">بہت بڑی تصویر</string>
+    <string name="ask_for_automatically_resize">بھیجنے سے پہلے خود بخود تصویر کا سائز تبدیل کریں؟</string>
+    <string name="compressing">بہت بڑی تصاویر . سکیڑنا\u2026</string>
+    <string name="exceed_message_size_limitation">پیغام کا سائز  حد تک پہنچ گئی.</string>
+    <string name="message_too_big_for_video">پیغام ویڈیو سے منسلک ھونے  کے لئے  بہت بڑا ہے.</string>
+    <string name="failed_to_resize_image">تصویر نہیں نیا سائز.</string>
+    <string name="resize_image_error_information">معاف کیجئے گا، اس وقت بھی جب  اس تصویر بھیجنے کے لئے بہت بڑی ہے.سائز تبدیل کرنا</string>
+    <string name="forward_prefix">آگے:\u0020</string>
+    <string name="discard_message">ضائع کر دیں</string>
+    <string name="discard_message_reason">آپ کا پیغام ضائع کیا جائے گا  کیونکہ اس کا کوئی درست وصول کنندگان نہیں ہے.</string>
+    <string name="invalid_destination">آپ نے غلط ایڈریس درج کیا ہے.</string>
+    <string name="invalid_recipient_message">براہ مہربانی وصول کنندہ (ے) کو درست کریں یا وہ پیغام کو وصول نہیں کرے گا.</string>
+    <string name="cannot_send_message">یہ پیغام نہیں بھیج سکتے ہیں</string>
+    <string name="cannot_send_message_reason">آپ کے پیغام  کا کوئی درست وصول کنندگان نہیں ہے.</string>
+    <string name="cannot_forward_drm_obj">پیغام میں شامل DRM چیز کو فارورڈ نہیں کیا جا سکتا ہے.</string>
+    <string name="converting_to_picture_message">ملٹی میڈیا پیغام کے لئے تبدیل \u2026</string>
+    <string name="converting_to_text_message">متن کے پیغام کے لئے تبدیل \u2026</string>
+    <string name="cannot_add_slide_anymore">زیادہ سلائیڈوں کو شامل نہیں کر سکتے.</string>
+    <string name="cannot_add_picture_and_video">ویڈیو اور تصویر کو ایک سلائڈ میں شامل نہیں کر سکتے.</string>
+    <string name="cannot_save_message">پیغام محفوظ نہیں ھو سکتا ہے.</string>
+    <string name="cannot_load_message">پیغام لوڈ نہیں کر  سکتے.</string>
+    <string name="message_saved_as_draft">پیغام ڈرافٹ کے طور پر محفوظ کر لیا.</string>
+    <string name="locked_message_cannot_be_deleted">مقفل پیغام کو خارج نہیں کیا جا سکتا ہے.</string>
+    <string name="adding_attachments_title">اٹیچمنٹ شامل کی جا رھی هین</string>
+    <string name="adding_attachments">براہ مہربانی جبکہ اشیاء سلائڈ شو میں شامل انتظار کریں.</string>
+    <string name="adding_attachments_vcard">براہ مہربانی جبکہ اشیاء اٹیچمنٹ میں شامل انتظار کریں.</string>
+    <string name="cannot_play_audio">آڈیو کو چلا نہیں سکتے ہیں.</string>
+    <string name="preview">پری ویو</string>
+    <string name="preview_slideshow">پری ویو</string>
+    <string name="replace_image">تصویر تبدیل کریں</string>
+    <string name="duration_selector_title">"سلائڈ کے لئے دورانیہر"</string>
+    <string name="layout_selector_title">"سلائڈ شو ترتیب"</string>
+    <string name="layout_top">لے آؤٹ (اوپر)</string>
+    <string name="layout_bottom">ترتیب (نیچے)</string>
+    <string name="type_to_compose_text_or_leave_blank">متن تحریر کرنے کے لئے کے لئے ٹائپ کریں، یا خالی چھوڑ دیں</string>
+    <string name="duration_not_a_number"> دورانیہ کا ایک نمبر ہونا لازمی ہے</string>
+    <string name="duration_zero">وقت دورانیہ صفر سیکنڈ کے مقابلے میں زیادہ ہونا ضروری ہے</string>
+    <string name="secs">سیکنڈ</string>
+    <string-array name="select_dialog_items">
+         <item>1 سیکنڈ</item>
+         <item>2 سیکنڈ</item>
+         <item>3 سیکنڈ</item>
+         <item>4 سیکنڈ</item>
+         <item>5 سیکنڈ</item>
+         <item>6 سیکنڈ</item>
+         <item>7 سیکنڈ</item>
+         <item>8 سیکنڈ</item>
+         <item>9 سیکنڈ</item>
+         <item>10 سیکنڈ</item>
+         <item>دیگر\u2026</item>
+    </string-array>
+    <string name="menu_view_contact">رابطے دیکھیں</string>
+    <string name="menu_add_to_contacts">رابطوں میں شامل کریں</string>
+    <string name="hidden_sender_address">پوشیدہ مرسل پتہ</string>
+    <string name="yes">اوکے</string>
+    <string name="no">منسوخ</string>
+    <string name="set">سیٹنگز</string>
+    <string name="play">چلایں</string>
+    <string name="edit">بدلیں</string>
+    <string name="resize">نیا سائز کریں</string>
+    <string name="try_to_send">بھیجنے کی کوشش</string>
+    <string name="preferences_title">سیٹنگز</string>
+    <string name="restore_default">بنیادی ترتیبات پھر مقرر کریں</string>
+    <string name="pref_notification_settings_title">اطلاع کی ترتیب</string>
+    <string name="pref_mms_settings_title">"ملٹی میڈیا پیغام کی ترتیبات (MMS)"</string>
+    <string name="pref_sms_settings_title">"متن پیغام (SMS)  ترتیبات"</string>
+    <string name="pref_sms_storage_title">سٹوریج سیٹنگز</string>
+    <string name="pref_summary_mms_delivery_reports">ہر پیغام کے لیے آپ کے بھیجے گئے ایک ڈیلیوری رپورٹ کی درخواست</string>
+    <string name="pref_summary_mms_read_reports">آپ کے بھیجے گئے ہر پیغام کے لئے ایک پڑھا رپورٹ کی درخواست</string>
+    <string name="pref_summary_sms_delivery_reports">ہر پیغام کے لیے آپ کے بھیجے گئے ایک ڈیلیوری رپورٹ کی درخواست</string>
+    <string name="pref_summary_auto_delete">پرانے پیغامات کو حذف کریں طور پر ختم ہونے کی حدود تک پہنچ رہے ہیں</string>
+    <string name="pref_title_mms_delivery_reports">ڈلیوری کی رپورٹیں</string>
+    <string name="pref_title_mms_read_reports">رپورٹ پڑھی</string>
+    <string name="pref_title_sms_delivery_reports">ڈلیوری کی رپورٹیں</string>
+    <string name="pref_title_auto_delete">پرانے پیغامات کو خارج کر دیں</string>
+    <string name="pref_title_sms_delete">ٹیکسٹ پیغام کی حد</string>
+    <string name="pref_title_mms_delete">ملٹی میڈیا پیغام کی حد</string>
+    <string name="pref_title_notification_enabled">نوٹیفیکیشن</string>
+    <string name="pref_summary_notification_enabled">اسٹیٹس بار میں پیغام کی اطلاعات کا مشاھدہ</string>
+    <string name="pref_title_notification_vibrateWhen">تھرتھراہٹ</string>
+    <string name="pref_summary_notification_vibrateWhen">اس کے علاوہ کمپن جب بارے میں مطلع کر</string>
+    <string name="pref_title_notification_ringtone">رنگ ٹون منتخب کریں</string>
+    <string-array name="prefEntries_vibrateWhen">
+        <!-- Always -->
+        <item>ہمیشہ </item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>صرف اس وقت جب خاموش</item>
+        <!-- Never -->
+        <item>کبھی نہیں</item>
+    </string-array>
+    <string name="prefDialogTitle_vibrateWhen">تھرتھراہٹ</string>
+    <string name="pref_title_mms_auto_retrieval">آٹو بازیافت</string>
+    <string name="pref_summary_mms_auto_retrieval">خود بخود پیغامات بازیافت</string>
+    <string name="pref_title_mms_retrieval_during_roaming">رومنگ آٹو بازیافت</string>
+    <string name="pref_summary_mms_retrieval_during_roaming">خود بخود پیغامات بازیافت جبکہ گھوم</string>
+    <string name="to_label">طرف</string>
+    <string name="confirm_dialog_title">حذف کریں</string>
+    <string name="confirm_dialog_locked_title">تالا لگا پیغام کو خارج کر دیں؟</string>
+    <string name="confirm_delete_conversation">پورا سلسلہ کو خارج کر دیا جائے گا.
+</string>
+    <string name="confirm_delete_all_conversations">تمام موضوعات کو خارج کر دیا جائے گا.</string>
+    <string name="confirm_delete_message">پیغام کو کو خارج کر دیا جائے گا.</string>
+    <string name="confirm_delete_locked_message">آپ اس بات کا یقین کر لیں کہ آپ لاک پیغام کو ختم کرنا چاہتے ہیں؟</string>
+    <string name="confirm_delete_all_messages">پورا سلسلہ کو خارج کر دیا جائے گا.
+</string>
+    <string name="confirm_delete_all_SIM_messages">سم پر تمام پیغامات کو خارج کر دیا جائے گا.</string>
+    <string name="confirm_delete_SIM_message">سم پر اس پیغام کو کو خارج کر دیا جائے گا.</string>
+    <string name="delete_unlocked">تالا لگا پیغامات کو خارج کر دیں</string>
+    <string name="delete">حذف کریں</string>
+    <string name="cannot_get_details">تفصیلات حاصل نہیں کر سکتے</string>
+    <string name="message_details_title">پیغام کی تفصیلات</string>
+    <string name="message_type_label">قسم:</string>
+    <string name="text_message">ٹیکسٹ پیغام</string>
+    <string name="multimedia_message">ملٹی میڈیا پیغام</string>
+    <string name="multimedia_notification">ملٹی میڈیا پیغام نوٹیفکیشن</string>
+    <string name="from_label">سے:\u0020</string>
+    <string name="to_address_label">طرف:\u0020</string>
+    <string name="bcc_label">Bcc:\u0020</string>
+    <string name="sent_label">بیج دینا:\u0020</string>
+    <string name="received_label">موصول ھو گیا ھے:\u0020</string>
+    <string name="saved_label">محفوظ:</string>
+    <string name="subject_label">موضوعt:\u0020</string>
+    <string name="message_size_label">پیغام سائز: u0020\</string>
+    <string name="priority_label">اولیت:</string>
+    <string name="priority_high">اونچا</string>
+    <string name="priority_normal">نارمل</string>
+    <string name="priority_low">کم</string>
+    <string name="message_class_label">پیغام کلاس:\u0020 </string>
+    <string name="error_code_label">خرابی کا کوڈ: \u0020</string>
+    <string name="menu_edit">بدلیں</string>
+    <string name="menu_retry_sending">بھیجنے دوبارہ کوشش کریں</string>
+    <string name="menu_retry_sending_all">تمام بھیجنے دوبارہ کوشش کریں</string>
+    <string name="menu_delete_messages">پیغامات کو خارج کر دیں</string>
+    <string name="menu_lock">پیغام مقفل کریں</string>
+    <string name="menu_unlock"> پیغام کوغیر مقفل کریں</string>
+    <string name="sim_copy_to_phone_memory">فون میموری  میں منتقل کرنے کے لئے</string>
+    <string name="sim_delete">حذف کریں</string>
+    <string name="sim_manage_messages_title">ٹیکسٹ پیغامات  سم1کارڈ   </string>
+    <string name="sim_view">منظر</string>
+    <string name="sim_empty">سم1 کارڈ پر کوئی پیغام نہیں.</string>
+    <string name="delivery_header_title">کی اطلاع</string>
+    <string name="status_none">(کوئی نہیں)</string>
+    <string name="status_pending">زیر غور</string>
+    <string name="status_read">پڑھیں</string>
+    <string name="status_received">موصول ھو گیا ھے</string>
+    <string name="status_failed">ناکام</string>
+    <string name="status_unread">　بغیر پڑھے ہوئے</string>
+    <string name="status_rejected">مسترد کیا ہوا۔</string>
+    <string name="recipient_label">وصول کنندگان:u0020\</string>
+    <string name="status_label">اسٹیٹس:</string>
+    <string name="attach_image">تصاویر</string>
+    <string name="attach_take_photo">تصویر پر قبضہ</string>
+    <string name="attach_video">ویڈیوز</string>
+    <string name="attach_record_video">ویڈیو کو پکڑنے</string>
+    <string name="attach_sound">آڈیو</string>
+    <string name="attach_record_sound">ریکارڈ آڈیو</string>
+    <string name="attach_slideshow">سلائڈ شو</string>
+    <string name="select_bottom_text">نیچے دیے ٹیکسٹ</string>
+    <string name="select_top_text">سب سے اوپر  ٹیکسٹ</string>
+    <string name="delivery_toast_body">s% پیغام موصول</string>
+    <string name="notification_multiple_title">نئے پیغامات</string>
+    <string name="notification_failed_multiple_title">پیغام نہیں بھیجا</string>
+    <string name="sim_full_title">سم کارڈ مکمل</string>
+    <string name="sim_full_body">کچھ پیغامات  جگہ بنانے کے لئے خارج کر دیں.</string>
+    <string name="sms_full_title">ٹیکسٹ پیغام کو کی میموری ختم  </string>
+    <string name="sms_full_body">موصولہ پیغام بھرا ہوا میموری کی وجہ سے مسترد کر دیا. براہ مہربانی پرانے پیغامات کو حذف کریں.</string>
+    <string name="sms_rejected_title">ٹیکسٹ پیغام کو کو مسترد کر دیا</string>
+    <string name="sms_rejected_body">موصولہ پیغام نامعلوم وجہ سے مسترد کر دیا.</string>
+    <string name="type_audio">آڈیو</string>
+    <string name="type_picture">تصویر</string>
+    <string name="type_video">ویڈیو</string>
+    <string name="type_vcard">وی کارڈ</string>
+    <string name="confirm">تصدیق</string>
+    <string name="message_send_read_report">ایک پڑھا رپورٹ بھیجا جائے گا.</string>
+    <string name="message_queued">فی الحال آپ کا پیغام بھیجنے کے قابل نہیں ہے. یہ جب کی خدمت دستیاب ہو بھیج دیا جائے گا.</string>
+    <string name="fdn_check_failure">آپ پیغامات کو صرف اپنی فکسڈ  ڈائلنگ والے نمبروں  پر بھیج سکتے ہیں.</string>
+    <string name="no_subject">(کوئی عنوان نہیں)</string>
+    <string name="unknown_sender">نامعلوم مرسل</string>
+    <string name="dl_expired_notification">اس پیغام کی میعاد ختم ہے اسے خارج کر دیا جائے گا.</string>
+    <string name="rate_limit_surpassed">تصدیق</string>
+    <string name="confirm_rate_limit">ملٹی میڈیا پیغامات کی ایک بڑی تعداد کو بھیجا جا رہا ہے. یہ ٹھیک ہے؟</string>
+    <string name="message_download_failed_title">پیغام ڈاؤن لوڈ نہیں</string>
+    <string name="message_send_failed_title">پیغام نہیں بھیجا</string>
+    <string name="message_failed_body">پیغام کا جائزہ لینے کے لئے منتخب کریں اور دوبارہ کوشش کریں.</string>
+    <string name="download_later">ڈاؤن لوڈ، اتارنا کرنے کے لئے اس وقت کے قابل نہیں ہے. براہ مہربانی کچھ دیر بعد دوبارہ کوشش کریں.</string>
+    <string name="select_audio">آڈیو منتخب کریں</string>
+    <string name="copy_to_sdcard">کاپی  منسلک اSD  کارڈ سے</string>
+    <string name="copy_to_sdcard_success">کے انسلاک کی SD کارڈ کی کاپی</string>
+    <string name="copy_to_sdcard_fail"> ایس    SDکے لئے  منتقل میں ناکام رہے</string>
+    <string name="save_ringtone">رنگ ٹون کے طور پر محفوظ کریں</string>
+    <string name="saved_ringtone">رنگ ٹونزمحفوظ‌</string>
+    <string name="saved_ringtone_fail">رنگ ٹون  محفوظ میں ناکام رہے</string>
+    <string name="menu_insert_smiley">سمائلی ڈالیں </string>
+    <string name="select_link_title">ایکشن منتخب کریں</string>
+    <string name="delivery_report_activity">ڈیلیوری رپورٹ</string>
+    <string name="storage_limits_activity">سٹوریج کی حد</string>
+    <string name="add_attachment_activity">　منسلک کااضافہ کیجئے:</string>
+    <string name="select_layout_activity">ترتیب منتخب کریں</string>
+    <string name="change_duration_activity">دورانیہ تبدیل کریں</string>
+    <string name="edit_slideshow_activity">سلائڈ شو میں ترمیم کریں</string>
+    <string name="edit_slide_activity">سلائڈ میں ترمیم کریں</string>
+    <string name="pick_numbers_activity">نمبر اٹھاو</string>
+    <string name="slideshow_activity">سلائڈ شو</string>
+    <string name="class_0_message_activity">کلاس 0 پیغام</string>
+    <string name="send_using_mms_activity">ملٹی میڈیا پیغام کے طور پر  ارسال کریں\u2026</string>
+    <string name="select_contact_method_activity">کانٹیکٹ کا طریقہ منتخب کریں</string>
+    <string name="search_label">پیغام رسانی</string>
+    <string name="search_hint">تلاش پیغام</string>
+    <string name="search">پیغام رسانی</string>
+    <string name="search_setting_description">ٹیکسٹ آپ کے پیغامات میں</string>
+    <string name="search_empty">کوئی مماثلت نہیں</string>
+    <string name="confirm_clear_search_title">صاف</string>
+    <string name="confirm_clear_search_text">تلاش کی تاریخ ختم.</string>
+    <string name="pref_mms_clear_search_history_title">تلاش کی تاریخ کو صاف کریں</string>
+    <string name="pref_mms_clear_search_history_summary">پچھلے پیغام  تلاش کے باکس میں دکھائے جانے سے صاف  کریں</string>
+    <string name="save">محفوظ</string>
+    <string name="storage_limits_title">حد پیغامات</string>
+    <string name="storage_limits_message">کیا آپ کو بات چیت کے کے پیغامات کی تعداد کو محدود کرنا چاہتے ہیں؟</string>
+    <string name="storage_limits_setting">حد مقرر کریں</string>
+    <string name="storage_limits_setting_dismiss">کوئی حد نہیں ہوتی</string>
+    <string name="too_many_unsent_mms">پیغام ابھی نہیں بھیج سکتے ہیں. بہت سے غیر مرسلہ ملٹی میڈیا پیغامات ہیں.</string>
+    <string name="me">مجھے</string>
+    <string name="sending_message">بھیج رہا\u2026</string>
+    <string name="received_a_contact">ایک وی سی ایف حاصل کریں</string>
+    <string name="save_a_new_contact">محفوظ</string>
+    <string name="cancle_a_new_contact">منسوخ</string>
+    <string name="prefix_send">بھیجیں</string>
+    <string name="ConversationList_menu_item_Delete_some">کچھ کو خارج کر دیں</string>
+    <string name="ConversationList_menu_item_Cancel">  حذف کو منسوخ کریں </string>
+    <string name="ConversationList_menu_item_CONFIRM_delete">حذف تصدیق کریں</string>
+    <string name="Conversation_check_type_selected_all">تمام منتخب</string>
+    <string name="Conversation_menu_type_selected_all">تمام منتخب</string>
+    <string name="Conversation_menu_type_cancel_selected_all">تمام غیرمنتخب کریں</string>
+    <string name="menu_resend">دوبارہ بھیجیں</string>
+    <string name="slide_fomat_error">" سلائیڈ فارمیٹ کی خرابی، معلومات ناکام بوجھ کا حصہ ہے. "</string>
+    <string name="share_not_support_contentType">"نہیں منسلک فائل کی حمایت نہیں کرتا!"</string>
+    <string name="WAPPush_Message_title">"ویپ ا پیغام"</string>
+    <string name="open_website">"کھول ویب سائٹ"</string>
+</resources>

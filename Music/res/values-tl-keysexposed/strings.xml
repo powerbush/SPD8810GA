@@ -1,0 +1,7 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="create_playlist_create_text_prompt">"Pangalan ng playlist"</string>
+    <string name="rename_playlist_same_prompt">"Palitan ang pangalan ng \"<xliff:g id="PLAYLIST">%s</xliff:g>\" sa"</string>
+    <string name="rename_playlist_diff_prompt">"Palitan ang pangalan ng \"<xliff:g id="PLAYLIST">%s</xliff:g>\" sa"</string>
+</resources>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong">1 bài hát</string>
+    <plurals name="Nsongs">
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> bài hát</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other"><xliff:g id="COUNT_FOR_ARTIST">%2$d</xliff:g> trong số <xliff:g id="TOTAL_COUNT">%1$d</xliff:g> bài hát</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one">1 album</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> album</item>
+    </plurals>
+    <string name="goto_start">Thư viện</string>
+    <string name="goto_playback">Phát lại</string>
+    <string name="party_shuffle">Phát ng.nhiên từng nhóm</string>
+    <string name="party_shuffle_off">Phát ng.nhiên từng nhóm tắt</string>
+    <string name="delete_item">Xóa</string>
+    <string name="shuffle_all">Phát ng.nhiên tất cả</string>
+    <string name="play_all">Phát tất cả</string>
+    <string name="delete_artist_desc">Mọi bài hát của <xliff:g id="ARTIST">%s</xliff:g> sẽ bị xóa vĩnh viễn khỏi thẻ SD. </string>
+    <string name="delete_artist_desc_nosdcard" msgid="1565010405469696133">"Tất cả bài hát của <xliff:g id="ARTIST">%s</xliff:g> sẽ bị xóa vĩnh viễn khỏi bộ nhớ USB."</string>
+    <string name="delete_album_desc">"Toàn bộ album của \"<xliff:g id="ALBUM">%s</xliff:g>\" sẽ bị xóa vĩnh viễn khỏi thẻ SD."</string>
+    <string name="delete_album_desc_nosdcard" msgid="2739690641188691896">"Toàn bộ anbom \"<xliff:g id="ALBUM">%s</xliff:g>\" sẽ bị xóa vĩnh viễn khỏi bộ nhớ USB."</string>
+    <string name="delete_song_desc">"\"<xliff:g id="SONG">%s</xliff:g>\" sẽ bị xóa vĩnh viễn khỏi thẻ SD."</string>
+    <string name="delete_song_desc_nosdcard" msgid="2722621774200478721">"\"<xliff:g id="SONG">%s</xliff:g>\" sẽ bị xóa vĩnh viễn khỏi bộ nhớ USB."</string>
+    <string name="delete_confirm_button_text">OK</string>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one">Đã xóa 1 bài hát.</item>
+        <item quantity="other">Đã xóa <xliff:g id="SONGS_TO_DELETE">%d</xliff:g> bài hát.</item>
+    </plurals>
+    
+    <string name="delete_progress_title">"Xóa bài hát"</string>
+		<string name="delete_progress_message">"Hãy đợi trong khi xóa các bài hát..."</string>
+    
+    <string name="scanning">Đang duyệt thẻ SD...</string>
+    <string name="scanning_nosdcard" msgid="8105284774487360148">"Đang quét bộ nhớ USB…"</string>
+    <string name="nowplaying_title">Đang phát</string>
+    <string name="partyshuffle_title">Phát ng.nhiên từng nhóm</string>
+    <string name="artists_title">Ca sĩ</string>
+    <string name="albums_menu">Album</string>
+    <string name="albums_title">Album</string>
+    <string name="tracks_menu">Bài hát</string>
+    <string name="tracks_title">Bài hát</string>
+    <string name="playlists_menu">D.sách nhạc</string>
+    <string name="playlists_title">D.sách nhạc</string>
+    <string name="videos_title">Video</string>
+    <string name="all_title">Mọi media</string>
+    <string name="browse_menu">Ca sĩ</string>
+    <string name="search_title">Tìm kiếm</string>
+    <string name="no_tracks_title">K.có bài hát</string>
+    <string name="no_videos_title">K.có video</string>
+    <string name="no_playlists_title">K.có d.sách nhạc</string>
+    <string name="delete_playlist_menu">Xóa</string>
+    <string name="edit_playlist_menu">Sửa</string>
+    <string name="rename_playlist_menu">Đổi tên</string>
+    <string name="playlist_deleted_message">Đã xóa d.sách nhạc.</string>
+    <string name="playlist_renamed_message">Đã đổi tên d.sách nhạc.</string>
+    <string name="recentlyadded">Đã thêm gần đây</string>
+    <string name="recentlyadded_title">Đã thêm gần đây</string>
+    <string name="podcasts_listitem">Podcast</string>
+    <string name="podcasts_title">Podcast</string>
+    <string name="sdcard_missing_title">K.có thẻ SD</string>
+    <string name="sdcard_missing_title_nosdcard" msgid="7984839174824243958">"Không có bộ nhớ USB"</string>
+    <string name="sdcard_missing_message">ĐT của bạn chưa lắp thẻ SD.</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="4894107850080476295">"Điện thoại của bạn chưa có bộ nhớ USB."</string>
+    <string name="sdcard_busy_title">Thẻ SD không có sẵn</string>
+    <string name="sdcard_busy_title_nosdcard" msgid="3319125156566499501">"Bộ nhớ USB không khả dụng"</string>
+    <string name="sdcard_busy_message">Rất tiếc, thẻ SD của bạn đang bận.</string>
+    <string name="sdcard_busy_message_nosdcard" msgid="1644924834752791507">"Rất tiếc, bộ nhớ USB của bạn đang bận."</string>
+    <string name="sdcard_error_title">Lỗi thẻ SD</string>
+    <string name="sdcard_error_title_nosdcard" msgid="7564338137076303931">"Lỗi bộ nhớ USB"</string>
+    <string name="sdcard_error_message">Đã xảy ra lỗi trên thẻ SD của bạn.</string>
+    <string name="sdcard_error_message_nosdcard" msgid="4983430848526821234">"Đã xảy ra lỗi trên bộ nhớ USB của bạn."</string>
+    <string name="unknown_artist_name">Ca sĩ k.xác định</string>
+    <string name="unknown_album_name">Album k.xác định</string>
+    <string name="shuffle_on_notif">Phát ng.nhiên bật.</string>
+    <string name="shuffle_off_notif">Phát ng.nhiên tắt.</string>
+    <string name="repeat_off_notif">Lặp lại tắt.</string>
+    <string name="repeat_current_notif">Đang lặp lại bài hát h.hành.</string>
+    <string name="repeat_all_notif">Đang lặp lại mọi bài hát.</string>
+    <string name="ringtone_menu">Dùng làm n.chuông ĐT</string>
+    <string name="ringtone_menu_short">Dùng làm n.chuông</string>
+    <string name="ringtone_set">"Đã cài \"<xliff:g id="NAME">%s</xliff:g>\" làm n.chuông ĐT."</string>
+    <string name="play_selection">Phát</string>
+    <string name="add_to_playlist">Thêm vào d.sách nhạc</string>
+    <string name="queue">D.sách hiện hành</string>
+    <string name="new_playlist">Mới</string>
+    <string name="new_playlist_name_template">D.sách nhạc mới <xliff:g id="NUMBER">%d</xliff:g></string>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="one">Đã thêm 1 bài hát vào d.sách nhạc.</item>
+        <item quantity="other">Đã thêm <xliff:g id="NUMBER">%d</xliff:g> bài hát vào d.sách nhạc.</item>
+    </plurals>
+    <string name="emptyplaylist">D.sách nhạc đã chọn còn trống.</string>
+    <string name="create_playlist_create_text">Lưu</string>
+    <string name="create_playlist_overwrite_text">Lưu đè</string>
+    <string name="service_start_error_title">Sự cố phát lại</string>
+    <string name="service_start_error_msg">Rất tiếc, không thể phát bài hát.</string>
+    <string name="service_start_error_button">OK</string>
+    <string-array name="weeklist">
+        <item>1 tuần</item>
+        <item>2 tuần</item>
+        <item>3 tuần</item>
+        <item>4 tuần</item>
+        <item>5 tuần</item>
+        <item>6 tuần</item>
+        <item>7 tuần</item>
+        <item>8 tuần</item>
+        <item>9 tuần</item>
+        <item>10 tuần</item>
+        <item>11 tuần</item>
+        <item>12 tuần</item>
+    </string-array>
+    <string name="weekpicker_set">Hoàn tất</string>
+    <string name="weekpicker_title">Cài giờ</string>
+    <string name="save_as_playlist">"Lưu dạng d.sách nhạc"</string>
+    <string name="clear_playlist">Xóa d.sách nhạc</string>
+    <string name="musicbrowserlabel">Nhạc</string>
+    <string name="musicshortcutlabel">D.sách nhạc</string>
+    <string name="mediaplaybacklabel">Nhạc</string>
+    <string name="videobrowserlabel">Video</string>
+    <string name="mediapickerlabel">Nhạc</string>
+    <string name="playback_failed">Rất tiếc, trình phát không hỗ trợ loại file âm thanh này.</string>
+    <string name="cancel">Hủy</string>
+    <string name="remove_from_playlist">Xóa khỏi d.sách nhạc</string>
+    <string name="streamloadingtext">Đang k.nối với <xliff:g id="HOST">%s</xliff:g></string>
+    <string name="mediasearch">Tìm kiếm <xliff:g id="TERM">%s</xliff:g> qua:</string>
+    <string name="working_artists">Ca sĩ\u2026</string>
+    <string name="working_albums">Album\u2026</string>
+    <string name="working_songs">Bài hát\u2026</string>
+    <string name="working_playlists">D.sách nhạc\u2026</string>
+    <string name="loading">Đang tải</string>
+    <string name="sort_by_track">Bài hát</string>
+    <string name="sort_by_album">Album</string>
+    <string name="sort_by_artist">Ca sĩ</string>
+    <string name="music_picker_title">Chọn bài hát</string>
+    <string name="gadget_track">Bài hát <xliff:g id="TRACK_NUMBER">%d</xliff:g></string>
+    <string name="fail_to_start_stream">Không thể phát lưu lượng yêu cầu. </string>
+    <string name="search_settings_description">Ca sĩ, album và bài hát</string>
+    <string name="search_hint">Tìm nhạc</string>
+    <string name="fast_scroll_alphabet">"ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="widget_initial_text">Chạm để chọn nhạc.</string>
+    <string name="effectspanel" msgid="8804547581593509614">"H.ứng âm thanh"</string>
+    <string name="music_settings">Cài đặt</string>
+    <string name="music_fm_transmiter">Máy phát đài FM</string>
+
+    <string name="effects_panel_window_title">"Chọn hiệu ứng âm thanh"</string>
+    <string name="enable_effects">"Bật hiệu ứng âm thanh"</string>
+    <string name="effects_list_title">"Hiệu ứng âm thanh"</string>
+    <string name="bassboost_name">"Mạch tăng âm trầm"</string>
+    <string name="virtualizer_name">"Trình hiển thị"</string>
+    <string name="presetreverb_name">"Buồng vang cài sẵn"</string>
+    <string name="equalizer_name">"Bộ điều chỉnh"</string>
+    <string name="bassboost_strength">"Cường độ âm trầm"</string>
+    <string name="virtualizer_strength">"Cường độ trình hiển thị"</string>
+    <string name="progress_min">"tối thiểu"</string>
+    <string name="progress_max">"tối đa"</string>
+    <string name="reverb_preset_title">"Cài sẵn buồng vang"</string>
+    <string name="equalizer_preset_title">"Cài sẵn bộ điều chỉnh"</string>
+    <string name="eq_preset_normal">"Chuẩn"</string>
+    <string name="eq_preset_classical">"Cổ điển"</string>
+    <string name="eq_preset_dance">"Khiêu vũ"</string>
+    <string name="eq_preset_flat">"Theo dấu giáng"</string>
+    <string name="eq_preset_folk">"Dân gian"</string>
+    <string name="eq_preset_heavymetal">"Kim loại nặng"</string>
+    <string name="eq_preset_hiphop">"Hip Hop"</string>
+    <string name="eq_preset_jazz">"Jazz"</string>
+    <string name="eq_preset_pop">"Pop"</string>
+    <string name="eq_preset_rock">"Rock"</string>
+    <string-array name="reverb_preset_list">
+        <item>"Phòng nhỏ"</item>
+        <item>"Phòng vừa"</item>
+        <item>"Phòng lớn"</item>
+        <item>"Sảnh vừa"</item>
+        <item>"Sảnh lớn"</item>
+        <item>"Buồng vang cực âm"</item>
+    </string-array>
+
+</resources>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#505050"
+  >
+    <TextView 
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:text="@string/contact_phone_contact_people"
+      android:textSize="28dip"
+    />
+    <EditText
+      android:id="@+id/phone_name_contact_edit"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:text="@string/hello"
+      android:textSize="28dip"
+    />
+    <TextView 
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:text="@string/contact_phone_contact_phone"
+      android:textSize="28dip"
+      />
+    <EditText
+      android:id="@+id/phone_number_contact_edit"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:text="@string/contact_phone_numbler"
+      android:textSize="28dip"
+      android:phoneNumber="true"
+      />
+    
+    <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="30dip"
+      >
+    
+    <Button 
+      android:id="@+id/phone_contact_edit_btn_ok"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:text="@string/contact_phone_contact_btn_ok"
+      android:textSize="28dip"
+      android:layout_weight="1"
+      android:background="@drawable/btn_confirm_bg"
+      android:layout_marginLeft="3dip"
+      android:layout_marginRight="3dip"
+      android:textColor="#FFFFFF"
+      />
+    
+    <Button 
+      android:id="@+id/phone_contact_edit_btn_canel"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:text="@string/contact_phone_contact_btn_canel"
+      android:textSize="28dip"
+      android:layout_weight="1"
+      android:background="@drawable/btn_cancel_bg"
+      android:layout_marginLeft="3dip"
+      android:layout_marginRight="3dip"
+      android:textColor="#FFFFFF"
+      />
+    </LinearLayout>
+   
+    
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="select_one">至少選擇一個通話記錄!</string>
+	<string name="delete_selected_calls">確定要刪除選中的通話記錄碼?</string>
+	<string name="selected_deleted_ok">選中的通話記錄已刪除</string>
+	<string name="all_select">全選</string>
+	<string name="all_select_cancel">取消</string>
+	<string name="select_all">全選</string>
+	<string name="delete_calls">刪除通話記錄</string>
+
+	<!-- calls tab  -->
+	<string name="recentCallsAllIconLabel">全選</string>
+	<string name="recentCallsMissedIconLabel">未接</string>
+	<string name="recentCallsOutgoingIconLabel">已撥</string>
+	<string name="recentCallsReceivedIconLabel">已接</string>
+	<string name="call_log_delete">刪除通話記錄</string>
+	<string name="call_log_display_option">顯示選項</string>
+	<!-- Menu item used to display options about sim -->
+    <string name="recentCalls_diplayOptions">顯示選項</string>
+	<string name="recentCalls_delete">刪除</string>
+	<string name="callLogDisplayOptionsAll">全部通話記錄</string>
+	<string name="callLogDisplayOptionsPhone">Phone通話記錄</string>
+	<string name="callLogDisplayOptionsSIM1">SIM1通話記錄</string>
+	<string name="callLogDisplayOptionsSIM2">SIM2通話記錄</string>
+</resources>

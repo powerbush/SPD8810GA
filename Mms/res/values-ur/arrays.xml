@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_names">
+        <item>خوشی</item>                   <!-- 0: :-) -->
+        <item> اداس</item>                     <!-- 1: :-( -->
+        <item>آنکھ مارتی</item>                 <!-- 2: ;-) -->
+        <item>زبان باہر چپکنا</item>     <!-- 3: :-P -->
+        <item>حیران</item>               <!-- 4: =-O -->
+        <item>چومنا</item>                 <!-- 5: :-* -->
+        <item>چللا رہے</item>                 <!-- 6: :O -->
+        <item>ٹھنڈا</item>                    <!-- 7: B-) -->
+        <item>پیسے کے منہ</item>             <!-- 8: :-$ -->
+        <item> منہ میں پاؤں</item>           <!-- 9: :-! -->
+        <item>شرمندا</item>             <!-- 10: :-[ -->
+        <item>فرشتہ</item>                   <!-- 11: O:-) -->
+        <item>تذبذب</item>               <!-- 12: :-\\ -->
+        <item>رونا</item>                  <!-- 13: :\'( -->
+        <item>ہونٹوں پر مہر لگا ہے</item>         <!-- 14: :-X -->
+        <item>ہںس</item>                <!-- 15: :-D -->
+        <item>متذبذب</item>                <!-- 16: o_O -->
+    </string-array>
+</resources>

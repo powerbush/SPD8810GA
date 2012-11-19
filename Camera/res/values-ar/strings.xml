@@ -1,0 +1,133 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="camera_error_title">"خطأ في الكاميرا"</string>
+    <string name="cannot_connect_camera">"لا يمكن الاتصال بالكاميرا."</string>
+    <string name="camera_label">"الكاميرا"</string>
+    <string name="video_camera_label">"كاميرا فيديو"</string>
+    <string name="gallery_camera_bucket_name">"صور الكاميرا"</string>
+    <string name="gallery_camera_videos_bucket_name">"مقاطع فيديو الكاميرا"</string>
+    <string name="wait">"يرجى الانتظار…"</string>
+    <string name="no_storage" product="nosdcard">"الرجاء تركيب وحدة تخزين USB قبل استخدام الكاميرا."</string>
+    <string name="no_storage" product="default">"الرجاء إدراج بطاقة SD قبل استخدام الكاميرا."</string>
+    <string name="not_enough_space" product="nosdcard">"وحدة تخزين USB ممتلئة."</string>
+    <string name="not_enough_space" product="default">"بطاقة SD ممتلئة."</string>
+    <string name="preparing_sd" product="nosdcard">"جارٍ تحضير وحدة تخزين USB…"</string>
+    <string name="preparing_sd" product="default">"جارٍ تحضير بطاقة SD…"</string>
+    <string name="access_sd_fail" product="nosdcard">"أخفق الدخول إلى وحدة تخزين USB."</string>
+    <string name="access_sd_fail" product="default">"أخفق الدخول إلى بطاقة SD."</string>
+    <string name="confirm_restore_title">"استعادة الإعدادات الافتراضية"</string>
+    <string name="confirm_restore_message">"ستتم استعادة إعدادات الكاميرا إلى الإعدادات الافتراضية."</string>
+    <string name="review_play">"تشغيل"</string>
+    <string name="review_cancel">"إلغاء"</string>
+    <string name="review_ok">"موافق"</string>
+    <string name="review_retake">"سحب"</string>
+    <string name="camera_gallery_photos_text">"المعرض"</string>
+    <string name="switch_camera_id">"تبديل الكاميرا"</string>
+    <string name="pref_camera_id_title">"تحديد كاميرا"</string>
+    <string name="pref_camera_id_entry_back">"رجوع"</string>
+    <string name="pref_camera_id_entry_front">"الأمام"</string>
+    <string name="pref_camera_brightness_title">السطوع</string>
+    <string name="pref_camera_brightness_entry_0">0</string>
+    <string name="pref_camera_brightness_entry_1">1</string>
+    <string name="pref_camera_brightness_entry_2">2</string>
+    <string name="pref_camera_brightness_entry_3">3</string>
+    <string name="pref_camera_brightness_entry_4">4</string>
+    <string name="pref_camera_brightness_entry_5">5</string>
+    <string name="pref_camera_brightness_entry_6">6</string>
+    <string name="pref_camera_contrast_title">جهات الاتصال</string>
+    <string name="pref_camera_contrast_entry_0">0</string>
+    <string name="pref_camera_contrast_entry_1">1</string>
+    <string name="pref_camera_contrast_entry_2">2</string>
+    <string name="pref_camera_contrast_entry_3">3</string>
+    <string name="pref_camera_contrast_entry_4">4</string>
+    <string name="pref_camera_contrast_entry_5">5</string>
+    <string name="pref_camera_contrast_entry_6">6</string>
+    <string name="pref_camera_recordlocation_title">"تخزين الموقع"</string>
+    <string name="pref_camera_recordlocation_entry_off">"إيقاف"</string>
+    <string name="pref_camera_recordlocation_entry_on">"تشغيل"</string>
+    <string name="pref_video_quality_title">"جودة الفيديو"</string>
+    <string name="pref_video_quality_entry_d1">SD(D1)</string>
+    <string name="pref_video_quality_entry_high">"مرتفعة (30 د)"</string>
+    <string name="pref_video_quality_entry_low">"منخفضة (30 د)"</string>
+    <string name="pref_video_quality_entry_mms">"رسالة وسائط متعددة (منخفضة، 30 ث)"</string>
+    <string name="pref_video_quality_entry_youtube">"YouTube (مرتفعة، 10 د)"</string>
+    <string name="pref_camera_settings_category">"إعدادات الكاميرا"</string>
+    <string name="pref_camcorder_settings_category">"إعدادات كاميرا الفيديو"</string>
+    <string name="pref_camera_picturesize_title">"حجم الصورة"</string>
+    <string name="pref_camera_previewsize_title">وضع الاستعراض</string>
+    <string name="pref_camera_previewsize_default">طبيعي</string>
+    <string name="pref_camera_previewsize_normal">طبيعي</string>
+    <string name="pref_camera_previewsize_fullscreen">ملئ الشاشه</string>
+    <string name="pref_camera_picturesize_entry_2592x1936">"5 ميغا بكسل"</string>
+    <string name="pref_camera_picturesize_entry_2048x1536">"3 ميغا بكسل"</string>
+    <string name="pref_camera_picturesize_entry_1600x1200">"2 ميغا بكسل"</string>
+    <string name="pref_camera_picturesize_entry_1280x960">"ميغا بكسل1.2 '"</string>
+    <string name="pref_camera_picturesize_entry_1024x768">"1 ميغا بكسل"</string>
+    <string name="pref_camera_jpegquality_title">"جودة الصورة"</string>
+    <string name="pref_camera_jpegquality_entry_superfine">"جيدة جدًا"</string>
+    <string name="pref_camera_jpegquality_entry_fine">"جيدة"</string>
+    <string name="pref_camera_jpegquality_entry_normal">"عادي"</string>
+    <string name="pref_camera_focusmode_title">"وضع التركيز"</string>
+    <string name="pref_camera_focusmode_entry_auto">"تلقائي"</string>
+    <string name="pref_camera_focusmode_entry_infinity">"بلا نهاية"</string>
+    <string name="pref_camera_focusmode_entry_macro">"ماكرو"</string>
+    <string name="pref_camera_focusmode_entry_multi">متعدد</string>
+    <string name="pref_camera_flashmode_title">"وضع الفلاش"</string>
+    <string name="pref_camera_flashmode_entry_auto">"تلقائي"</string>
+    <string name="pref_camera_flashmode_entry_on">"تشغيل"</string>
+    <string name="pref_camera_flashmode_entry_off">"إيقاف"</string>
+    <string name="pref_camera_whitebalance_title">"موازنة اللون الأبيض"</string>
+    <string name="pref_camera_whitebalance_entry_auto">"تلقائي"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">"براق"</string>
+    <string name="pref_camera_whitebalance_entry_daylight">"نهاري"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">"فلورسنت"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">"غائم"</string>
+    <string name="pref_camera_coloreffect_title">"تأثير لون"</string>
+    <string name="pref_camera_coloreffect_entry_none">"لا شيء"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"أحادي"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"بني داكن"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"سلبي"</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"مشمس"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"تتالي"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"أزرق مائي"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"تصوير ملون"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"فسيفساء"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"أحمر خفيف"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"أزرق خفيف"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"أخضر خفيف"</string>
+    <string name="pref_camera_scenemode_title">"وضع المشهد"</string>
+    <string name="pref_camera_scenemode_entry_auto">"تلقائي"</string>
+    <string name="pref_camera_scenemode_entry_action">"الإجراء"</string>
+    <string name="pref_camera_scenemode_entry_portrait">"عمودي"</string>
+    <string name="pref_camera_scenemode_entry_landscape">"أفقي"</string>
+    <string name="pref_camera_scenemode_entry_night">"ليلي"</string>
+    <string name="pref_camera_scenemode_entry_night_portrait">"عمودي ليلي"</string>
+    <string name="pref_camera_scenemode_entry_theatre">"مسرح"</string>
+    <string name="pref_camera_scenemode_entry_beach">"شاطئ"</string>
+    <string name="pref_camera_scenemode_entry_snow">"ثلج"</string>
+    <string name="pref_camera_scenemode_entry_sunset">"الغروب"</string>
+    <string name="pref_camera_scenemode_entry_steadyphoto">"صورة ثابتة"</string>
+    <string name="pref_camera_scenemode_entry_fireworks">"الألعاب النارية"</string>
+    <string name="pref_camera_scenemode_entry_party">"مجموعة"</string>
+    <string name="pref_camera_scenemode_entry_candlelight">"ضوء الشموع"</string>
+    <string name="pref_restore_title">"إعدادات الكاميرا"</string>
+    <string name="pref_restore_detail">"استعادة الإعدادات الافتراضية"</string>
+    <string name="pref_exposure_title">"التعرض"</string>
+    <string name="details_ok">"موافق"</string>
+    <string name="spaceIsLow_content" product="nosdcard">"مساحة وحدة تخزين USB منخفضة. غيّر إعداد الجودة أو احذف بعض الصور أو الملفات الأخرى."</string>
+    <string name="spaceIsLow_content" product="default">"مساحة بطاقة SD منخفضة. غيّر إعداد الجودة أو احذف بعض الصور أو الملفات الأخرى."</string>
+    <string name="video_reach_size_limit">"تم بلوغ الحد الأقصى للحجم."</string>
+    <string name="zoom_control_title">"تكبير/تصغير"</string>
+    <string name="switch_to_camera_lable">"تبديل إلى الكاميرا"</string>
+    <string name="switch_to_video_lable">"تبديل إلى الفيديو"</string>
+    <string name="hisense_tv_is_running">تلفزيون الهاتف يعمل الان!</string>
+    <string name="in_video_call_is_running">مكالمة فيديو تعمل الان!</string>
+    <string name="canot_takepicture">لايمكن التقاط صوره</string>
+    <string name="camera_memory_low">ذاكرة الكاميرا صغيره،قم بتحديد حجم الصوره</string>
+    <string name="memory_full">مساحة التخزين غير كافية</string>
+    <string name="pref_camera_antibanding_title">ضد النطاقات</string>
+    <string name="pref_camera_antibanding_default">50 هرتز</string>
+    <string name="pref_camera_antibanding_entry_50hz">50 هرتز</string>
+    <string name="pref_camera_antibanding_entry_60hz">60 هرتز</string>
+</resources>

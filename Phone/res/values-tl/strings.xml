@@ -1,0 +1,1001 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="contactsIconLabel">"Mga Contact"</string>
+    <string name="contactsFavoritesLabel">"Mga Paborito"</string>
+    <string name="dialerIconLabel">"Dialer"</string>
+    <string name="emergencyDialerIconLabel">"Pang-emergency na Dialer"</string>
+    <string name="phoneIconLabel">"Telepono"</string>
+    <string name="recentCallsIconLabel">"Log ng tawag"</string>
+    <string name="fdnListLabel">"Listahan ng FDN"</string>
+    <string name="unknown">"Hindi Kilala"</string>
+    <string name="private_num">"Pribadong numero"</string>
+    <string name="payphone">"Pay phone"</string>
+    <string name="onHold">"Naka-hold"</string>
+    <string name="ongoing">"Kasalukuyang tawag"</string>
+    <string name="callFailed_userBusy">"Abala ang linya"</string>
+    <string name="callFailed_congestion">"Abala ang network"</string>
+    <string name="callFailed_timedOut">"Walang pagtugon, na-time out"</string>
+    <string name="callFailed_server_unreachable">"Hindi maabot ang server"</string>
+    <string name="callFailed_number_unreachable">"Hindi maabot ang numero"</string>
+    <string name="callFailed_invalid_credentials">"Maling username o password"</string>
+    <string name="callFailed_out_of_network">"Tumawag mula sa labas ng network"</string>
+    <string name="callFailed_server_error">"Error sa server. Pakisubukang muli sa ibang pagkakataon."</string>
+    <string name="callFailed_noSignal">"Walang signal"</string>
+    <string name="callFailed_limitExceeded">"Lumagpas na sa limitasyon ng ACM"</string>
+    <string name="callFailed_powerOff">"Naka-off ang radyo"</string>
+    <string name="callFailed_simError">"Walang SIM, o error sa SIM"</string>
+    <string name="callFailed_outOfService">"Lugar na Hindi Nagseserbisyo"</string>
+    <string name="callFailed_fdn_only">"Pinaghihigpitan ng FDN ang mga papalabas na tawag."</string>
+    <string name="callFailed_cb_enabled">"Hindi ka makakagawa ng mga papalabas na tawag habang naka-on ang pag-bar ng tawag."</string>
+    <string name="callFailed_dsac_restricted">"Pinaghihigpitan ang lahat ng mga tawag ng kontrol sa access."</string>
+    <string name="callFailed_dsac_restricted_emergency">"Pinaghihigpitan ang mga pang-emergency na tawag ng kontrol sa access."</string>
+    <string name="callFailed_dsac_restricted_normal">"Pinaghihigpitan ang mga normal na tawag ng kontrol sa access."</string>
+    <string name="callFailed_cdma_lockedUntilPowerCycle">"CDMA: Naka-lock ang telepono hanggang sa power cycle."</string>
+    <string name="callFailed_cdma_drop">"CDMA: Ibinaba ang tawag."</string>
+    <string name="callFailed_cdma_intercept">"CDMA: Nasagap ang tawag."</string>
+    <string name="callFailed_cdma_reorder">"CDMA: muling pagsunud-sunurin."</string>
+    <string name="callFailed_cdma_SO_reject">"CDMA: Hindi Tinanggap na Pagpipiliian sa Serbisyo."</string>
+    <string name="callFailed_cdma_retryOrder">"CDMA: subukang muli ang pagkakasunud-sunod."</string>
+    <string name="callFailed_cdma_accessFailure">"CDMA: Pagkabigo sa access."</string>
+    <string name="callFailed_cdma_preempted">"CDMA: Napigilan."</string>
+    <string name="callFailed_cdma_notEmergency">"Tanging mga Pang-emergency na tawag ang posible."</string>
+    <string name="callFailed_unobtainable_number">"Di-wastong numero"</string>
+    <string name="confCall">"Conference na tawag"</string>
+    <string name="call_lost">"Nawala ang tawag."</string>
+    <string name="retry">"Muling subukan"</string>
+    <string name="call_lost_title">"Nawala ang Tawag"</string>
+    <string name="mmiStarted">"Sinimulan ang MMI code"</string>
+    <string name="ussdRunning">"Tumatakbo ang USSD code..."</string>
+    <string name="mmiCancelled">"Kinansela ang MMI code"</string>
+    <string name="cancel">"Kanselahin"</string>
+    <string name="menu_speaker">"Speaker"</string>
+    <string name="menu_bluetooth">"Bluetooth"</string>
+    <string name="menu_mute">Walang Tunog</string>
+    <string name="menu_hold">"I-hold"</string>
+    <string name="menu_endCall">"Wakasan ang tawag"</string>
+    <string name="menu_swapCalls">"Pagpalitin ang mga tawag"</string>
+    <string name="menu_mergeCalls">"Pagsamahin ang mga tawag"</string>
+    <string name="menu_phoneRecorder">Rekord</string>
+    <string name="menu_addCall">"Magdagdag ng tawag"</string>
+    <string name="menu_manageConference">"Pamahalaan ang conference na tawag"</string>
+    <string name="menu_showDialpad">"Ipakita ang dialpad"</string>
+    <string name="menu_hideDialpad">"Itago ang dialpad"</string>
+    <string name="menu_answerAndHold">"I-hold ang kasalukuyang tawag"\n"at sagutin"</string>
+    <string name="menu_answerAndEnd">"Wakasan ang kasalukuyang tawag"\n"at sagutin"</string>
+    <string name="ok">OK</string>
+    <string name="menuButtonHint">"Pindutin ang Menu para sa mga pagpipilian sa pagtawag."</string>
+    <string name="menuButtonKeyboardDialHint">"Pindutin ang Menu para sa mga pagpipiliian ng tawag  •  Gamitin ang keyboard upang mag-dial"</string>
+    <string name="menu_answer">"Sagutin"</string>
+    <string name="menu_ignore">"Huwag Pansinin"</string>
+    <string name="wait_prompt_str">"Ipadala ang mga sumusunod na tone?"\n</string>
+    <string name="pause_prompt_str">"Nagpapadala ng Mga Tone"\n</string>
+    <string name="send_button">"Ipadala"</string>
+    <string name="pause_prompt_yes">"Oo"</string>
+    <string name="pause_prompt_no">"Hindi"</string>
+    <string name="wild_prompt_str">"Palitan ang wild character ng"</string>
+    <string name="no_vm_number">"Nawawala ang numero ng voicemail"</string>
+    <string name="no_vm_number_msg">"Walang nakaimbak na numero ng voicemail sa SIM card."</string>
+    <string name="add_vm_number_str">"Magdagdag ng numero"</string>
+    <string name="dialer_emptyListWorking">Naglo-load\u2026</string>
+    <string name="enterPin">"I-type ang PIN code upang i-unlock ang SIM card."</string>
+    <string name="pinUnlocked">"Na-unlock ang SIM"</string>
+    <string name="enterNewPin">"Bagong PIN code ng SIM"</string>
+    <string name="verifyNewPin">"Mag-type muli ng bagong PIN code ng SIM upang kumpirmahin"</string>
+    <string name="verifyFailed">"Hindi nagtugma ang mga PIN ng SIM na iyong na-type. Pakisubukang muli."</string>
+    <string name="enterPuk">"I-type ang PUK code upang i-unlock ang SIM card"</string>
+    <string name="badPuk">Maling PUK code!</string>
+    <string name="buttonTxtContinue">"Magpatuloy"</string>
+    <string name="puk_unlocked">"Naalis sa pagkaka-block ang iyong SIM card. Nag-a-unlock ang iyong telepono..."</string>
+    <string name="label_ndp">"PIN na pang-unlock ng SIM network"</string>
+    <string name="sim_ndp_unlock_text">"I-unlock"</string>
+    <string name="sim_ndp_dismiss_text">"Balewalain"</string>
+    <string name="requesting_unlock">"Humihiling ng pag-unlock sa network..."</string>
+    <string name="unlock_failed">"Hindi matagumpay ang kahilingan na i-unlock ang network."</string>
+    <string name="unlock_success">"Matagumpay ang pag-unlock ng network."</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="labelGSMMore">"Mga setting ng tawag ng GSM"</string>
+    <string name="labelCDMAMore">"Mga setting ng CDMA na tawag"</string>
+    <string name="apn_settings">"Mga Pangalan ng Lugar ng Access"</string>
+    <string name="settings_label">"Mga Setting ng Network"</string>
+    <string name="voicemail">"Voicemail"</string>
+    <string name="voicemail_abbreviated">"VM:"</string>
+    <string name="networks">"Mga network operator"</string>
+    <string name="call_settings">"Mga setting ng tawag"</string>
+    <string name="additional_gsm_call_settings">"Mga karagdagang setting"</string>
+    <string name="sum_gsm_call_settings">"Mga karagdagang setting ng tawag na GSM lang"</string>
+    <string name="additional_cdma_call_settings">"Mga karagdagang setting ng pagtawag sa CDMA"</string>
+    <string name="sum_cdma_call_settings">"Mga karagdagang setting ng tawag na CDMA lang"</string>
+    <string name="labelNwService">"Mga setting ng serbisyo ng network"</string>
+    <string name="labelCallerId">"Caller ID"</string>
+    <string name="sum_hide_caller_id">"Nakatago ang numero sa mga papalabas na tawag"</string>
+    <string name="sum_show_caller_id">"Ipinapakitang numero sa mga papalabas na tawag"</string>
+    <string name="sum_default_caller_id">"Gamitin ang mga default na setting ng operator upang ipakita ang aking numero sa mga papalabas na tawag"</string>
+    <string name="labelCW">"Call waiting"</string>
+    <string name="sum_cw_enabled">"Habang nasa isang tawag, i-notify ako ng mga papasok na tawag"</string>
+    <string name="sum_cw_disabled">"Habang nasa isang tawag, i-notify ako ng mga papasok na tawag"</string>
+    <string name="call_forwarding_settings">"Mga setting ng pagpapasa ng tawag"</string>
+    <string name="call_barring_settings">Mga setting ng pagharang sa tawag</string>
+    <string name="labelCF">"Pagpapasa ng tawag"</string>
+    <string name="labelCB">Mga setting ng pagharang sa tawag</string>
+    <string name="labelCFU">"Palaging ipasa"</string>
+    <string name="messageCFU">"Palaging gamitin ang numerong ito"</string>
+    <string name="sum_cfu_enabled_indicator">Ipasa lahat ng mga tawag</string>
+    <string name="sum_cfu_enabled">"Pinapasa ang lahat ng mga tawag sa <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfu_enabled_no_number">"Hindi available ang numero"</string>
+    <string name="sum_cfu_disabled">"Hindi pinagana"</string>
+    <string name="labelCFB">"Ipasa kapag abala"</string>
+    <string name="messageCFB">"Numero kapag abala"</string>
+    <string name="sum_cfb_enabled">"Pinapasa sa <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfb_disabled">"Hindi pinagana"</string>
+    <string name="disable_cfb_forbidden">"Hindi sinusuportahan ng iyong carrier ang hindi pagpapagana sa pagpasa ng tawag kapag abala ang iyong telepono."</string>
+    <string name="labelCFNRy">"Ipasa kapag hindi nasagot"</string>
+    <string name="messageCFNRy">"Numero kapag hindi nasagot"</string>
+    <string name="sum_cfnry_enabled">"Pinapasa sa <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnry_disabled">"Hindi pinagana"</string>
+    <string name="disable_cfnry_forbidden">"Hindi sinusuportahan ng iyong carrier ang hindi pagpapagana sa pagpasa ng tawag kapag hindi sumasagot ang iyong telepono."</string>
+    <string name="labelCFNRc">"Ipasa kapag hindi maabot"</string>
+    <string name="messageCFNRc">"Numero kapag hindi maabot"</string>
+    <string name="sum_cfnrc_enabled">"Pinapasa sa <xliff:g id="PHONENUMBER">{0}</xliff:g>"</string>
+    <string name="sum_cfnrc_disabled">"Hindi pinagana"</string>
+    <string name="disable_cfnrc_forbidden">"Hindi sinusuportahan ng iyong carrier ang hindi pagpapagana ng pagpasa ng tawag kapag hindi maabot ang iyong telepono."</string>
+    <string name="network_wrong" msgid="">"Hindi inaasahang sagot mula sa network"</string>
+    <string name="number_empty" msgid="">"Walang laman ang numero"</string>
+    <string name="cb_pw_error" msgid="">"Mali ang password"</string>
+    <string name="cb_pw_correct" msgid="">"Ang password ay binago"</string>
+    <string name="cb_pw_no_match" msgid="">"Hindi magkatugma ang password"</string>
+    <string name="labelAO">Lahat ng palabas</string>
+    <string name="messageAO">Ilagay ang password na humaharang sa tawag.</string>
+    <string name="sum_ao_enabled_indicator">Ipasa lahat ng mga tawag</string>
+    <string name="sum_ao_enabled">"Pinagana"</string>
+    <string name="sum_ao_disabled">"Hindi pinagana"</string>
+    <string name="enable_ao_forbidden">Hindi sinusuportahan ng carrier mo pagpagana ng barring sa lahat ng papalabas na tawag.</string>
+    <string name="disable_ao_forbidden">Hindi sinusuportahan ng carrier mo ang pag-aktiba sa lahat.Hindi sinusuportahan ng carrier mo hindi pagpagana sa barring ng lahat ng mga papalabas na tawag.</string>
+    <string name="labelOI">Papalabas na tawag internasyunal</string>
+    <string name="messageOI">Ilagay ang password na humaharang sa tawag.</string>
+    <string name="sum_oi_enabled">"Pinagana"</string>
+    <string name="sum_oi_disabled">"Hindi pinagana"</string>
+    <string name="enable_oi_forbidden">Hindi sinusuportahan ng carrier mo pagpagana ng barring sa mga  papalabas na internasyunal na tawag kapag naka-roaming na tawag.</string>
+    <string name="disable_oi_forbidden">Hindi sinusuportahan ng carrier mo hindi pagpagana papalabas na internasyunal na tawag.</string>
+    <string name="labelOX">Papalabas na tawag sa roaming internasyunal</string>
+    <string name="messageOX">Ilagay ang password na humaharang sa tawag.</string>
+    <string name="sum_ox_enabled">"Pinagana"</string>
+    <string name="sum_ox_disabled">"Hindi pinagana"</string>
+    <string name="enable_ox_forbidden">Hindi sinusuportahan ng carrier mo pagpagana ng barring sa  papalabas na internasyunal na tawag kapag naka-roaming na tawag.</string>
+    <string name="disable_ox_forbidden">Hindi sinusuportahan ng carrier mo hindi pagpagana sa paghadlang sa papalabas na internasyunal na roaming na tawag.</string>
+    <string name="labelAI">Lahat ng papasok</string>
+    <string name="messageAI">Ilagay ang password na humaharang sa tawag.</string>
+    <string name="sum_ai_enabled">"Pinagana"</string>
+    <string name="sum_ai_disabled">"Hindi pinagana"</string>
+    <string name="enable_ai_forbidden">Hindi sinusuportahan ng carrier mo pagpagana ng barring sa lahat ng papasok na tawag.</string>
+    <string name="disable_ai_forbidden">Hindi sinusuportahan ng carrier mo hindi pagpagana sa barring ng lahat ng mga papasok na tawag.</string>
+    <string name="labelIR">Mga tawag kapag nag-roaming</string>
+    <string name="messageIR">Ilagay ang password na humaharang sa tawag.</string>
+    <string name="sum_ir_enabled">"Pinagana"</string>
+    <string name="sum_ir_disabled">"Hindi pinagana"</string>
+    <string name="enable_ir_forbidden">Hindi sinusuportahan ng carrier mo pagpagana ng barring sa mga  papasok na tawag kapag naka-roaming na tawag.</string>
+    <string name="disable_ir_forbidden">Hindi sinusuportahan ng carrier mo hindi pagpagana sa barring ng mga papasok na tawag kapag may tawag na naka-roaming.</string>
+    <string name="labelAB">Deaktibahin lahat</string>
+    <string name="messageAB">Ilagay ang password na humaharang sa tawag.</string>
+    <string name="sum_ab_enabled">"Pinagana"</string>
+    <string name="sum_ab_disabled">"Hindi pinagana"</string>
+    <string name="enable_ab_forbidden">Hindi sinusuportahan ng carrier mo ang pag-deaktiba sa lahat.</string>
+    <string name="disable_ab_forbidden">Hindi sinusuportahan ng carrier mo ang pag-aktiba sa lahat.</string>
+    <string name="labelChgPwd">"Palitan ang password"</string>
+    <string name="DlgChgPwd_oldpwd">Ilagay ang password na humaharang sa tawag.</string>
+    <string name="DlgChgPwd_newpwd_first">Ilagay ang bagong password</string>
+    <string name="DlgChgPwd_newpwd_last">"Kumpirmahin ang bagong password:"</string>
+    <string name="updating_title">"Mga setting ng tawag"</string>
+    <string name="error_updating_title">"Error sa mga setting ng tawag"</string>
+    <string name="reading_settings">"Binabasa ang mga setting..."</string>
+    <string name="updating_settings">"Ina-update ang mga setting..."</string>
+    <string name="reverting_settings">"Ibinabalik ang mga setting..."</string>
+    <string name="response_error">"Hindi inaasahang tugon mula sa network."</string>
+    <string name="exception_error">"Error sa Network o SIM card."</string>
+    <string name="fdn_only_error">"Pinapayagan lang ang mga pagpapatakbo sa mga nakapirming numero sa pag-dial."</string>
+    <string name="radio_off_error">"Paki-on ang radyo bago tingnan ang mga setting na ito."</string>
+    <string name="close_dialog">OK</string>
+    <string name="enable">"Paganahin"</string>
+    <string name="disable">"Huwag Paganahin"</string>
+    <string name="change_num">"I-update"</string>
+    <string-array name="clir_display_values">
+        <!-- Phone settings "Caller ID" preference option: use the default value -->
+        <item>"Default ng network"</item>
+        <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
+        <item>"Itago ang numero"</item>
+        <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
+        <item>"Ipakita ang numero"</item>
+    </string-array>
+    <string-array name="clir_values">
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>DEFAULT</xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>NAKATAGO</xliff:g></item>
+        <!-- Phone settings: Internal key used for Caller ID preference values.  DO NOT TRANSLATE. -->
+        <item><xliff:g>IPAKITA</xliff:g></item>
+    </string-array>
+    <string name="vm_save_number">"I-save ang numero ng voicemail"</string>
+    <string name="vm_changed">"Binago ang numero ng voicemail."</string>
+    <string name="vm_change_failed">"Hindi tagumpay ang pagbago ng numero ng voicemail."\n"Mangyaring makipag-ugnay sa iyong carrier kung nagpatuloy ang problemang ito."</string>
+    <string name="fw_change_failed">"Hindi matagumpay ang numero sa pagpapasa."\n"Mangyaring makipag-ugnay sa iyong carrier kapag nagpatuloy ang problemang ito."</string>
+    <string name="fw_get_in_vm_failed">"Nabigong maibalik at ma-save ang mga kasalukuyang setting ng numero sa pagpasa."\n"Gusto mo pa rin bang lumipat sa bagong provider?"</string>
+    <string name="no_change">"Walang ginawang mga pagbabago."</string>
+    <string name="sum_voicemail_choose_provider">"Piliin ang serbisyo ng voicemail"</string>
+    <string name="voicemail_default">"Aking carrier"</string>
+    <string name="mobile_networks">"Mga setting ng mobile network"</string>
+    <string name="mobile_networks_sim1">SIM1</string>
+    <string name="mobile_networks_sim2">SIM2</string>
+    <string name="mobile_networks_other">"Iba pa"</string>
+    <string name="label_available">"Mga available na network"</string>
+    <string name="label_available_sim1">Mga magagamit na network sa SIM1</string>
+    <string name="label_available_sim2">Mga magagamit na network sa SIM2</string>
+    <string name="load_networks_progress">"Naghahanap..."</string>
+    <string name="empty_networks_list">"Walang nakitang mga network."</string>
+    <string name="search_networks">"Maghanap ng mga network"</string>
+    <string name="network_query_error">"Error habang naghahanap ng mga network."</string>
+    <string name="register_on_network">"Nirerehistro sa <xliff:g id="NETWORK">%s</xliff:g>…"</string>
+    <string name="not_allowed">"Hindi pinapayagan ng iyong SIM card ang koneksyon sa network na ito."</string>
+    <string name="connect_later">"Hindi nagawang kumonekta ngayon sa iyong network. Pakisubukang muli sa ibang pagkakataon."</string>
+    <string name="registration_done">"Nakarehistro sa network."</string>
+    <string name="sum_carrier_select">"Pumili ng network operator"</string>
+    <string name="sum_search_networks">"Hanapin ang lahat ng mga available na network"</string>
+    <string name="select_automatically">"Awtomatikong pumili"</string>
+    <string name="sum_select_automatically">"Awtomatikong pumili ng ninanais na network"</string>
+    <string name="register_automatically">"Awtomatikong pagpaparehistro..."</string>
+    <string name="preferred_network_mode_title">"Network Mode"</string>
+    <string name="preferred_network_mode_summary">"Baguhin ang network operating mode"</string>
+    <string name="preferred_network_mode_dialogtitle">"Ninanais na network mode"</string>
+    <string-array name="preferred_network_mode_choices">
+        <!-- <item>Global</item> -->
+        <!-- <item>EvDo only</item> -->
+        <!-- <item>CDMA w/o EvDo</item> -->
+        <!-- <item>CDMA / EvDo auto</item> -->
+        <!-- <item>GSM / WCDMA auto</item> -->
+        <!-- <item>WCDMA only</item> -->
+        <!-- <item>GSM only</item> -->
+        <!-- <item>GSM / WCDMA preferred</item> -->
+        <item>"Pandaigdigan"</item>
+        <item>"GSM lang"</item>
+        <item>"Auto"</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <!-- <item>"7"</item> -->
+        <!-- <item>"6"</item> -->
+        <!-- <item>"5"</item> -->
+        <!-- <item>"4"</item> -->
+        <!-- <item>"3"</item> -->
+        <item>"15"</item>
+        <item>"6"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="data_enabled">"Pinagana ang data"</string>
+    <string name="data_enable_summary">"Paganahin ang access sa data sa Mobile network"</string>
+    <string name="roaming">"Roaming ng data"</string>
+    <string name="roaming_enable">"Kumonekta sa mga serbisyo ng data kapag nagro-roam"</string>
+    <string name="roaming_disable">"Kumonekta sa mga serbisyo ng data kapag nagro-roam"</string>
+    <string name="roaming_reenable_message">"Nawala ang koneksyon ng data dahil iniwan mo ang iyong home network na naka-off ang roaming ng data."</string>
+    <string name="roaming_warning">"Payagan ang roaming ng data? Maaari kang makakuha ng malaking pagsingil sa roaming!"</string>
+    <string name="gsm_umts_options">"Mga pagpipilian sa GSM/UMTS"</string>
+    <string name="cdma_options">"Mga pagpipiliian sa CDMA"</string>
+    <string name="throttle_data_usage">"Paggamit ng data"</string>
+    <string name="throttle_settings_title">"Patakaran sa data ng carrier"</string>
+    <string name="throttle_current_usage">"Ginamit na data sa kasalukuyang panahon"</string>
+    <string name="throttle_time_frame">"Panahon ng paggamit ng data"</string>
+    <string name="throttle_rate">"Patakaran ng rate ng data"</string>
+    <string name="throttle_help">"Matuto nang higit pa"</string>
+    <string name="throttle_status_subtext" msgid="1657318943142085170">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) ng <xliff:g id="USED_2">%3$s</xliff:g> maximum na tagal ng panahon"\n"Magsisimula ang susunod na tagal ng panahon sa loob ng <xliff:g id="USED_3">%4$d</xliff:g> (na) araw (<xliff:g id="USED_4">%5$s</xliff:g>)"</string>
+    <string name="throttle_data_usage_subtext">"<xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) ng <xliff:g id="USED_2">%3$s</xliff:g> maximum na period"</string>
+    <string name="throttle_data_rate_reduced_subtext">"Ang <xliff:g id="USED_0">%1$s</xliff:g> na maximum ay lumagpas sa"\n"Binabaan ang rate ng data sa <xliff:g id="USED_1">%2$d</xliff:g> Kb/s"</string>
+    <string name="throttle_time_frame_subtext">"<xliff:g id="USED_0">%1$d</xliff:g>٪ ng cycle ay lumagpas sa"\n"Magsisimula ang susunod na tagal ng panahon sa loob ng <xliff:g id="USED_1">%2$d</xliff:g> (na) araw (<xliff:g id="USED_2">%3$s</xliff:g>)"</string>
+    <string name="throttle_rate_subtext">"Ibinaba ang rate ng data sa <xliff:g id="USED">%1$d</xliff:g> Kb/s kung nalagpasan ang limitasyon sa paggamit ng data"</string>
+    <string name="throttle_help_subtext">"Higit pang impormasyon tungkol sa patakaran sa paggamit ng data sa mobile network ng iyong carrier"</string>
+    <string name="cdma_cell_broadcast_sms">Cell broadcast SMS</string>
+    <string name="cell_broadcast_sms">Cell broadcast SMS</string>
+    <string name="enable_disable_cell_bc_sms">Cell broadcast SMS</string>
+    <string name="cell_bc_sms_enable">Cell broadcast SMS pinagana</string>
+    <string name="cell_bc_sms_disable">Cell broadcast SMS di pinagana</string>
+    <string name="cb_sms_settings">Mga setting ng Cell broadcast SMS</string>
+    <string name="channel_list">Talaan ng istasyon</string>
+    <string name="refreshing">Nagre-refresh ...</string>
+    <string name="channel_name">Pangalan ng istasyon</string>
+    <string name="channel_number">Numero ng istasyon</string>
+    <string name="info_input_channel_number">Pakilagay ang numero ng channel</string>
+    <string name="info_input_channel_number_num">Pakilagay lamang ang numero</string>
+    <string name="menu_add_channel">Idagdag ang istasyon</string>
+    <string name="text_mode">Text mode</string>
+    <string name="pdu_mode">Pdu mode </string>
+    <string name="get_cb_config">Kumuha ng kumpig ng CB</string>
+    <string name="menu_add_address_to_contacts">"Idagdag si <xliff:g id="NAME">%s</xliff:g> sa Mga Contact"</string>
+    <string name="edit">I-edit</string>
+    <string name="menu_delete_channel">Burahin lahat</string>
+    <string name="menu_delete_sigle_channel">"Tanggalin"</string>
+    <string name="no">"Kanselahin"</string>
+    <string name="confirm_dialog_title">"Tanggalin"</string>
+    <string name="confirm_delete_message">"Tatanggalin ang mensahe."</string>
+    <string name="enable_disable_emergency_broadcast">"Pang-emergency na Broadcast"</string>
+    <string name="emergency_broadcast_enable">"Pinagana ang Pang-emergency na Broadcast"</string>
+    <string name="emergency_broadcast_disable">"Hindi pinagana ang Pang-emergency na Broadcast"</string>
+    <string name="enable_disable_administrative">"Administratibo"</string>
+    <string name="administrative_enable">"Pinagana ang pang-administratibo"</string>
+    <string name="administrative_disable">"Hindi pinagana ang Pang-administratibo"</string>
+    <string name="enable_disable_maintenance">"Maintenance"</string>
+    <string name="maintenance_enable">"Pinagana ang maintenance"</string>
+    <string name="maintenance_disable">"Hindi pinagana ang maintenance"</string>
+    <string name="general_news_settings">"Pangkalahatang Balita"</string>
+    <string name="bf_news_settings">"Balitang Negosyo at Pampinansya"</string>
+    <string name="sports_news_settings">"Mga Balitang Pampalakasan"</string>
+    <string name="entertainment_news_settings">"Balitang Entertainment"</string>
+    <string name="enable_disable_local">"Lokal"</string>
+    <string name="local_enable">"Pinagana ang lokal na balita"</string>
+    <string name="local_disable">"Hindi pinagana ang lokal na balita"</string>
+    <string name="enable_disable_regional">"Pangrehiyon"</string>
+    <string name="regional_enable">"Pinagana ang pangrehiyong balita"</string>
+    <string name="regional_disable">"Hindi pinagana ang pangrehiyong balita"</string>
+    <string name="enable_disable_national">"Pambansa"</string>
+    <string name="national_enable">"Pinagana ang pambansang balita"</string>
+    <string name="national_disable">"Hindi pinagana ang pambansang balita"</string>
+    <string name="enable_disable_international">"International"</string>
+    <string name="international_enable">"Pinagana ang mga international na balita"</string>
+    <string name="international_disable">"Hindi pinagana ang international na balita"</string>
+    <string name="list_language_title">"Mga setting ng wika"</string>
+    <string name="list_language_summary">Piliin ang wika ng balita</string>
+    <string name="broadcast">Cell broadcast SMS</string>
+    <string name="menu_cellbroadcastsms">Cell broadcast</string>
+    <string name="language_eng">Ingles</string>
+    <string name="language_fren">Pranses</string>
+    <string name="language_spanish">"Espanyol"</string>
+    <string name="language_japanese">Japanese</string>
+    <string name="language_korean">Korean</string>
+    <string name="language_chinese">Chinese </string>
+    <string name="language_hebrew">Hebrew</string>
+    <string name="same_setting">Paki reset ang channel ID, ito ay pareho ng pangalan ng channel</string>
+    <string-array name="list_language_entries">
+        <item>Ingles</item>
+        <item>Pranses</item>
+        <item>"Espanyol"</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Chinese </item>
+        <item>Hebrew</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">Mga wika</string>
+    <string name="enable_disable_local_weather">"Lokal na Panahon"</string>
+    <string name="local_weather_enable">"Pinagana ang Lokal na Panahon"</string>
+    <string name="local_weather_disable">"Hindi pinagana ang Lokal na Panahon"</string>
+    <string name="enable_disable_atr">"Mga Ulat ng Trapiko sa Lugar"</string>
+    <string name="atr_enable">"Pinagana ang Mga Ulat ng Trapiko sa Lugar"</string>
+    <string name="atr_disable">"Hindi pinagana ang Mga Ulat ng Trapiko sa Lugar"</string>
+    <string name="enable_disable_lafs">"Mga Iskedyul ng Flight ng Lokal na Airport"</string>
+    <string name="lafs_enable">"Pinagana ang Mga Iskedyul ng Flight ng Lokal na Airport"</string>
+    <string name="lafs_disable">"Hindi pinagana ang Mga Iskedyul ng Flight ng Lokal na Airport"</string>
+    <string name="enable_disable_restaurants">"Mga Restaurant"</string>
+    <string name="restaurants_enable">"Pinagana ang mga restaurant"</string>
+    <string name="restaurants_disable">"Hindi pinagana ang mga restaurant"</string>
+    <string name="enable_disable_lodgings">"Mga Lodging"</string>
+    <string name="lodgings_enable">"Pinagana ang mga lodging"</string>
+    <string name="lodgings_disable">"Hindi pinagana ang mga lodging"</string>
+    <string name="enable_disable_retail_directory">"Retail na Direktoryo"</string>
+    <string name="retail_directory_enable">"Pinagana ang Retail na Direktoryo"</string>
+    <string name="retail_directory_disable">"Hindi pinagana ang Retail na Direktoryo"</string>
+    <string name="enable_disable_advertisements">"Mga Advertisement"</string>
+    <string name="advertisements_enable">"Pinagana ang mga advertisement"</string>
+    <string name="advertisements_disable">"Hindi pinagana ang mga advertisement"</string>
+    <string name="enable_disable_stock_quotes">"Mga Quote ng Stock"</string>
+    <string name="stock_quotes_enable">"Pinagana ang Mga Quote ng Stock"</string>
+    <string name="stock_quotes_disable">"Hindi pinagana ang Mga Quote ng Stock"</string>
+    <string name="enable_disable_eo">"Mga Pagkakataon sa Pagtatrabaho"</string>
+    <string name="eo_enable">"Pinagana ang Mga Pagkakataon sa Pagtatrabaho"</string>
+    <string name="eo_disable">"Hindi pinagana ang Mga Pagkakataon sa Pagtatrabaho"</string>
+    <string name="enable_disable_mhh">"Medikal, Kalusugan at Ospital"</string>
+    <string name="mhh_enable">"Pinagana ang Medikal, Kalusugan at Ospital"</string>
+    <string name="mhh_disable">"Hindi pinagana ang Medikal, Kalusugan at Ospital"</string>
+    <string name="enable_disable_technology_news">"Balita sa Teknolohiya"</string>
+    <string name="technology_news_enable">"Pinagana ang Balita sa Teknolohiya"</string>
+    <string name="technology_news_disable">"Hindi pinagana ang Balita sa Teknolohiya"</string>
+    <string name="enable_disable_multi_category">"Multi-category"</string>
+    <string name="multi_category_enable">"Pinagana ang multi-category"</string>
+    <string name="multi_category_disable">"Hindi pinagana ang multi-category"</string>
+    <string name="cell_broadcast_empty">Walang impormasyon ng channel !</string>
+    <string name="gsm_umts_network_preferences_title">"Mga Kagustuhan ng GSM/UMTS Network"</string>
+    <string name="gsm_umts_network_preferneces_summary">"Hindi pa ipinatupad!"</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">"Mga kagustuhan ng mga GSM/UMTS network"</string>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>"GSM/WCDMA (auto mode)"</item>
+        <item>"WCDMA lang"</item>
+        <item>"GSM lang"</item>
+        <item>"GSM/WCDA (Ninanais ang WCDMA)"</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+    </string-array>
+    <string name="prefer_2g">"Gumamit lang ng mga 2G network"</string>
+    <string name="prefer_2g_summary">"Nakakatipid ng baterya"</string>
+    <string name="cdma_system_select_title">"Pagpili ng system"</string>
+    <string name="cdma_system_select_summary">"Baguhin ang cdma roaming mode"</string>
+    <string name="cdma_system_select_dialogtitle">"Pagpili ng system"</string>
+    <string-array name="cdma_system_select_choices">
+        <!-- System select dialog screen, setting option name -->
+        <item>"Home lang"</item>
+        <!-- Remove the following option "Affiliated Networks" from the option list -->
+        <!-- <item>Affiliated Networks</item> -->
+        <!-- System select dialog screen, setting option name -->
+        <item>"Awtomatiko"</item>
+    </string-array>
+    <string name="cdma_roaming_mode_title">"CDMA Roaming Mode"</string>
+    <string name="cdma_roaming_mode_summary">"Baguhin ang cdma roaming mode"</string>
+    <string name="cdma_roaming_mode_dialogtitle">"CDMA roaming mode"</string>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>"Mga Home Network lang"</item>
+        <item>"Mga Naka-affiliate na Network"</item>
+        <item>"Anumang Network"</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_network_preferences_title">"Mga Kagustuhan ng CDMA Network"</string>
+    <string name="cdma_network_preferneces_summary">"Hindi pa ipinatupad!"</string>
+    <string name="cdma_network_preferences_dialogtitle">"Mga kagustuhan ng CDMA network"</string>
+    <string-array name="cdma_network_preferences_choices">
+        <item>"CDMA/EvDo"</item>
+        <item>"CDMA lang"</item>
+        <item>"EvDo lang"</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    <string name="cdma_subscription_title">"CDMA Subscription"</string>
+    <string name="cdma_subscription_summary">"Palitan sa pagitan ng RUIM/SIM at NV"</string>
+    <string name="cdma_subscription_dialogtitle">"subscription"</string>
+    <string-array name="cdma_subscription_choices">
+        <item>"RUIM/SIM"</item>
+        <item>"NV"</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    <string name="fdn">"Mga Fixed Dialing Number"</string>
+    <string name="manage_fdn_list">"Listahan ng FDN"</string>
+    <string name="fdn_activation">"Pag-activate ng FDN"</string>
+    <string name="fdn_enabled">"Pinagana ang Mga Fixed Dialing Number"</string>
+    <string name="fdn_disabled">"Hindi pinagana ang Mga Fixed Dialing Number"</string>
+    <string name="enable_fdn">"Paganahin ang FDN"</string>
+    <string name="disable_fdn">"Huwag paganahin ang FDN"</string>
+    <string name="change_pin2">"Baguhin ang PIN2"</string>
+    <string name="enable_fdn_ok">"Huwag paganahin ang FDN"</string>
+    <string name="disable_fdn_ok">"Paganahin ang FDN"</string>
+    <string name="sum_fdn">"Pamahalaan ang Mga Fixed Dialing Number"</string>
+    <string name="sum_fdn_change_pin">"Palitan ang PIN para sa access sa FDN"</string>
+    <string name="sum_fdn_manage_list">"Pamahalaan ang listahan ng numero ng telepono"</string>
+    <string name="voice_privacy">"Privacy ng Voice"</string>
+    <string name="voice_privacy_summary">"Paganahin ang pinahusay na privacy mode"</string>
+    <string name="tty_mode_title">"TTY mode"</string>
+    <string name="tty_mode_summary">"Paganahin ang TTY mode"</string>
+    <string name="tty_mode_option_title">"TTY mode"</string>
+    <string name="tty_mode_option_summary">"Itakda ang TTY mode"</string>
+    <string name="auto_retry_mode_title">"Awtomatikong Muling Pagsubok"</string>
+    <string name="auto_retry_mode_summary">"Paganahin ang Auto Retry mode"</string>
+    <string name="menu_add">"Magdagdag ng contact"</string>
+    <string name="menu_edit">"I-edit ang contact"</string>
+    <string name="menu_delete">"Tanggalin ang contact"</string>
+    <string name="get_pin2">"Ipasok ang PIN2"</string>
+    <string name="name">"Pangalan"</string>
+    <string name="number">"Numero"</string>
+    <string name="save">"I-save"</string>
+    <string name="add_fdn_contact">"Magdagdag ng fixed dialing number"</string>
+    <string name="adding_fdn_contact">"Nagdaragdag ng fixed dialing number..."</string>
+    <string name="fdn_contact_added">"Idinagdag ang fixed dialing number."</string>
+    <string name="edit_fdn_contact">"I-edit ang fixed dialing number"</string>
+    <string name="updating_fdn_contact">"Ina-update ang fixed dialing number..."</string>
+    <string name="fdn_contact_updated">"Na-update ang Fixed dialing number."</string>
+    <string name="delete_fdn_contact">"Tanggalin ang fixed dialing number"</string>
+    <string name="deleting_fdn_contact">"Tinatanggal ang fixed dialing number..."</string>
+    <string name="fdn_contact_deleted">"Tinanggal ang fixed dialing number."</string>
+    <string name="pin2_invalid">"Hindi pa na-update ang FDN: maling PIN ang iyong ipinasok."</string>
+    <string name="fdn_invalid_number">"Hindi na-update ang FDN: hindi maaaring lumagpas sa 20 digit ang numero."</string>
+    <string name="simContacts_emptyLoading">"Nagbabasa mula sa SIM card..."</string>
+    <string name="simContacts_empty">"Walang mga contact sa iyong SIM card."</string>
+    <string name="simContacts_title">"Piliin ang mga contact upang i-import"</string>
+    <string name="enable_pin">"Paganahin/huwag paganahin ang PIN ng SIM"</string>
+    <string name="change_pin">Palitan ang SIM PIN</string>
+    <string name="enter_pin_text">"PIN ng SIM:"</string>
+    <string name="oldPinLabel">"Lumang PIN"</string>
+    <string name="newPinLabel">"Bagong PIN"</string>
+    <string name="confirmPinLabel">"Kumpirmahin ang bagong PIN"</string>
+    <string name="badPin">"Mali ang na-type mong lumang PIN. Pakisubukang muli."</string>
+    <string name="mismatchPin">"Hindi nagtugma ang mga PIN na iyong ipinasok. Pakisubukang muli."</string>
+    <string name="invalidPin">"Mag-type ng PIN na 4 hanggang 8 numero."</string>
+    <string name="disable_sim_pin">"Huwag paganahin ang PIN ng SIM"</string>
+    <string name="enable_sim_pin">"Paganahin ang PIN ng SIM"</string>
+    <string name="enable_in_progress">"Pakihintay..."</string>
+    <string name="enable_pin_ok">"Pinagana ang PIN ng SIM"</string>
+    <string name="disable_pin_ok">"Hindi pinagana ang PIN ng SIM"</string>
+    <string name="pin_failed">"Mali ang na-type mong PIN"</string>
+    <string name="pin_changed">"Matagumpay na binago ang PIN ng SIM"</string>
+    <string name="puk_requested">"Mali ang password, na-lock ang SIM! hinihiling ang PUK2."</string>
+    <string name="enter_pin2_text">"PIN2"</string>
+    <string name="oldPin2Label">"Lumang PIN2"</string>
+    <string name="newPin2Label">"Bagong PIN2"</string>
+    <string name="confirmPin2Label">"Kumpirmahin ang bagong PIN2"</string>
+    <string name="badPuk2">"Mali ang na-type mong PUK2. Pakisubukang muli."</string>
+    <string name="badPin2">"Mali ang na-type mong lumang PIN2. Pakisubukang muli."</string>
+    <string name="mismatchPin2">"Hindi nagtugma ang mga PIN2 na ipinasok mo. Pakisubukang muli."</string>
+    <string name="invalidPin2">"Mag-type ng PIN2 na 4 hanggang 8 numero."</string>
+    <string name="promptWordOne">Manatili </string>
+    <string name="promptWordTwo"> (mga) oras</string>
+    <string name="invalidPuk2">"Mag-type ng PUK2 na 8 numero."</string>
+    <string name="pin2_changed">"Matagumpay na napalitan ang PIN2"</string>
+    <string name="label_puk2_code">"I-type ang PUK2 code"</string>
+    <string name="fdn_enable_puk2_requested">"Mali ang password, pakibago ang PIN2 at subukang muli!"</string>
+    <string name="puk2_requested">"Mali ang password, na-lock ang SIM! hinihiling ang PUK2."</string>
+    <string name="doneButton">Tapos</string>
+    <string name="caller_manage_header">"Conference na tawag <xliff:g id="CONF_CALL_TIME">%s</xliff:g>"</string>
+    <string name="caller_manage_manage_done_text">"Bumalik sa tawag"</string>
+    <string name="fake_phone_activity_phoneNumber_text">(650) 555-1234</string>
+    <string name="fake_phone_activity_infoText_text">Papasok na numero ng telepono</string>
+    <string name="fake_phone_activity_placeCall_text">Huwad na Papasok na Tawag</string>
+    <string name="sim_missing_continueView_text">"Magpatuloy nang walang SIM card"</string>
+    <string name="sim_missing_msg_text">"Walang nakitang SIM card. Mangyaring magpasok ng SIM card sa telepono."</string>
+    <string name="sim_unlock_dismiss_text">"Balewalain"</string>
+    <string name="sim_unlock_unlock_text">"I-unlock"</string>
+    <string name="sim_unlock_status_text">"Pinapatotohanan ang PIN..."</string>
+    <string name="voicemail_settings_number_label">"Numero ng voicemail"</string>
+    <string name="card_title_dialing">"Dina-dial"</string>
+    <string name="card_title_dialing_video">Dina-dial ang video</string>
+    <string name="card_title_alerting_video">Nag-aalerto sa user</string>
+    <string name="card_title_redialing">"Sinusubukang muli"</string>
+    <string name="card_title_in_progress">"Kasalukuyang tawag"</string>
+    <string name="card_title_conf_call">"Conference na tawag"</string>
+    <string name="card_title_incoming_call">"Papasok na tawag"</string>
+    <string name="card_title_incoming_video_call">Papasok na video call</string>
+    <string name="card_title_cdma_call_waiting">"Cdma callwaiting"</string>
+    <string name="card_title_call_ended">"Winakasan ang Tawag"</string>
+    <string name="card_title_on_hold">"Naka-hold"</string>
+    <string name="card_title_hanging_up">"Binababa"</string>
+    <string name="card_title_in_call">"Nasa tawag"</string>
+    <string name="card_title_my_phone_number">"Ang aking numero ay <xliff:g id="MY_PHONE_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_missedCallTitle">"Hindi nasagot na tawag"</string>
+    <string name="notification_missedCallsTitle">"Mga hindi nasagot na tawag"</string>
+    <string name="notification_missedCallsMsg">"<xliff:g id="NUM_MISSED_CALLS">%s</xliff:g> (na) hindi nasagot na tawag"</string>
+    <string name="notification_missedCallTicker">"Hindi nasagot na tawag mula kay <xliff:g id="MISSED_CALL_FROM">%s</xliff:g>"</string>
+    <string name="notification_ongoing_call_format">"Kasalukuhang tawag (<xliff:g id="DURATION">%s</xliff:g>)"</string>
+    <string name="notification_on_hold">"Naka-hold"</string>
+    <string name="notification_incoming_call">"Papasok na tawag"</string>
+    <string name="notification_voicemail_title">"Bagong voicemail"</string>
+    <string name="notification_voicemail_title_count">"Bagong voicemail (<xliff:g id="COUNT">%d</xliff:g>)"</string>
+    <string name="notification_voicemail_text_format">"I-dial ang <xliff:g id="VOICEMAIL_NUMBER">%s</xliff:g>"</string>
+    <string name="notification_voicemail_no_vm_number">"Hindi kilala ang numero ng voicemail"</string>
+    <string name="notification_network_selection_title">"Walang serbisyo"</string>
+    <string name="notification_network_selection_text">"Hindi available ang mga piniling network (<xliff:g id="OPERATOR_NAME">%s</xliff:g>)"</string>
+    <string name="incall_error_power_off">"Upang tumawag, paki-off ang Airplane mode."</string>
+    <string name="incall_error_emergency_only">"Hindi nakarehistro sa network."</string>
+    <string name="incall_error_out_of_service">"Hindi available ang mobile network."</string>
+    <string name="incall_error_no_phone_number_supplied">"Hindi naipadala ang tawag, walang ipinasok na wastong numero."</string>
+    <string name="incall_error_call_failed">"Hindi naipadala ang tawag."</string>
+    <string name="incall_status_dialed_mmi">"Sinisimulan ang pagkakasunud-sunod ng MMI..."</string>
+    <string name="incall_status_dialed_fc">"Sinisimulan ang pagkakasunud-sunod ng tampok na code..."</string>
+    <string name="incall_error_supp_service_unknown">"Hindi suportadong serbisyo."</string>
+    <string name="incall_error_supp_service_switch">"Hindi nagawang maglipat ng mga tawag."</string>
+    <string name="incall_error_supp_service_separate">"Hindi nagawang ihiwalay ang tawag."</string>
+    <string name="incall_error_supp_service_transfer">"Hindi nagawang ilipat ang tawag."</string>
+    <string name="incall_error_supp_service_conference">"Hindi nagawang i-conference ang mga tawag."</string>
+    <string name="incall_error_supp_service_reject">"Hindi nagawang tanggihan ang tawag."</string>
+    <string name="incall_error_supp_service_hangup">"Hindi nagawang mapalabas ang (mga) tawag."</string>
+    <string name="incall_error_dialvt_in_2gcall">Gumagana na ang videocall, hindi ka na makakapag-bukas ng videocall!</string>
+    <string name="incall_error_dialvt_in_3gcall">Gumagana na ang videocall, hindi ka na makakapag-bukas ng videocall!</string>
+    <string name="incall_error_dial_in_3gcall">Gumagana na ang videocall, hindi ka na makakapag-bukas ng videocall!</string>
+    <string name="incall_error_aireplane_mode_on">"Upang tumawag, paki-off ang Airplane mode."</string>
+    <string name="emergency_enable_radio_dialog_title">"Emergency na tawag"</string>
+    <string name="emergency_enable_radio_dialog_message">"Ino-on ang radyo..."</string>
+    <string name="emergency_enable_radio_dialog_retry">"Lugar na hindi nagseserbisyo, sinusubukang muli..."</string>
+    <string name="dial_emergency_error">"Hindi naipadala ang tawag, hindi pang-emergency na numero ang <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g>!"</string>
+    <string name="dial_emergency_empty_error">"Hindi naipadala ang tawag, mangyaring mag-dial ng pang-emergency na numero!"</string>
+    <string name="dialerKeyboardHintText">"Gamitin ang keyboard upang mag-dial"</string>
+    <string name="dtmfDialpadHintText">"Touch tone na keypad"</string>
+    <string name="dtmfDialpadHandleLabel">"Dialpad"</string>
+    <string name="touchLockText">"I-double-tap ang"\n"upang i-unlock"</string>
+    <string name="onscreenAnswerText">"I-double-tap"\n"upang sagutin"</string>
+    <string name="onscreenRejectText">"I-double-tap"\n"upang huwag tanggapin"</string>
+    <string name="onscreenHoldText">"I-hold"</string>
+    <string name="onscreenUnholdText">"I-unhold"</string>
+    <string name="onscreenEndCallText">"Wakasan"</string>
+    <string name="onscreenShowDialpadText">"Dialpad"</string>
+    <string name="onscreenHideDialpadText">"Itago"</string>
+    <string name="onscreenSpeakerText">"Speaker"</string>
+    <string name="onscreenMuteText">Walang Tunog</string>
+    <string name="onscreenBluetoothText">"Bluetooth"</string>
+    <string name="onscreenAddCallText">"Magdagdag ng tawag"</string>
+    <string name="onscreenMergeCallsText">"Pagsamahin ang mga tawag"</string>
+    <string name="onscreenSwapCallsText">"Pagpalitin"</string>
+    <string name="onscreenManageCallsText">"Pamahalaan ang mga tawag"</string>
+    <string name="onscreenManageConferenceText">"Pamahalaan"</string>
+    <string name="importSimEntry">"I-import"</string>
+    <string name="importAllSimEntries">"I-import lahat"</string>
+    <string name="importingSimContacts">"Ini-import ang mga contact sa SIM"</string>
+    <string name="importToFDNfromContacts">"I-import mula sa mga contact"</string>
+    <string name="hac_mode_title">"Mga hearing aid"</string>
+    <string name="hac_mode_summary">"I-on ang compatibility ng hearing aid"</string>
+    <string-array name="tty_mode_entries">
+        <item>"I-off ang TTY"</item>
+        <item>"Puno ang TTY"</item>
+        <item>"TTY HCO"</item>
+        <item>"TTY VCO"</item>
+    </string-array>
+    <string name="eri_text_label">"ERI na teksto"</string>
+    <string name="dtmf_tones_title">"Mga DTMF Tone"</string>
+    <string name="dtmf_tones_summary">"Itakda ang haba ng mga DTMF tone"</string>
+    <string-array name="dtmf_tone_entries">
+      <item>"Normal"</item>
+      <item>"Mahaba"</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+       <item>0</item>
+       <item></item>
+    </string-array>
+    <string name="network_message">"Mensahe ng Network"</string>
+    <string name="ota_title_activate">"I-activate ang iyong telepono"</string>
+    <string name="ota_touch_activate">"Kailangang maisagawa ang isang espesyal na tawag upang i-activate ang iyong serbisyo ng telepono. "\n\n"Pagkatapos pindutin ang “I-activate”, makinig sa mga ibinigay na tagubilin upang i-activate ang iyong telepono."</string>
+    <string name="ota_touch_activate_new">"Galawin ang “I-activate” upang gumawa ng espesyal na tawag na nag-a-activate sa iyong telepono sa mobile network ng iyong telepono, upang magsagawa ka ng mga tawag at makakonekta sa mga mobile data network."</string>
+    <string name="ota_skip_activation_dialog_title">"Laktawan ang pag-activate?"</string>
+    <string name="ota_skip_activation_dialog_message">"Kung lalaktawan mo ang pag-activate, hindi ka makakagawa ng mga tawag o makakakonekta sa mga mobile data network (ngunit makakakonekta ka sa mga Wi-Fi network). Hanggang sa i-activate mo ang iyong telepono, hihilingin sa iyong i-activate ito sa bawat pag</string>
+    <string name="ota_skip_activation_dialog_skip_label">"Laktawan"</string>
+    <string name="ota_skip_activation_dialog_continue_label">"I-activate"</string>
+    <string name="ota_activate">"I-activate"</string>
+    <string name="ota_title_activate_success">"Na-activate ang telepono!"</string>
+    <string name="ota_title_problem_with_activation">"Problema sa pag-activate"</string>
+    <string name="ota_listen">"Sundin ang mga isinalitang tagubilin hanggang sa marinig mo na kumpleto na ang pag-activate."</string>
+    <string name="ota_dialpad">"Keypad"</string>
+    <string name="ota_speaker">"Speaker"</string>
+    <string name="ota_progress">"Pakihintay habang pino-program ang iyong telepono."</string>
+    <string name="ota_failure">"Hindi matagumpay ang programming"</string>
+    <string name="ota_successful">"Na-activate na ang iyong telepono. Maaaring tumagal nang hanggang 15 minuto upang magsimula ang serbisyo."</string>
+    <string name="ota_unsuccessful">"Hindi na-activate ang iyong telepono. "\n"Maaaring kailanganin mong maghanap ng lugar na may mas mahusay na sakop (malapit sa bintana, o sa labas). "\n\n"Subukang muli o tumawag sa serbisyo sa customer para sa higit pang pagpipilian."</string>
+    <string name="ota_spc_failure">"MGA SOBRANG PAGKABIGO NG SPC"</string>
+    <string name="ota_call_end">"Bumalik"</string>
+    <string name="ota_try_again">"Subukang muli"</string>
+    <string name="ota_next">"Susunod"</string>
+    <string name="ota_back">"Bumalik"</string>
+    <string name="ecm_exit_dialog">"EcmExitDialog"</string>
+    <string name="phone_entered_ecm_text">"Ipinasok na Emergency Callback Mode"</string>
+    <string name="phone_in_ecm_notification_title">"Emergency Callback Mode"</string>
+    <string name="phone_in_ecm_call_notification_text">"Hindi pinagana ang koneksyon ng data"</string>
+    <plurals name="phone_in_ecm_notification_time">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Walang koneksyon ng data sa loob ng <xliff:g id="COUNT">%s</xliff:g> (na) minuto"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Walang koneksyon ng data sa loob ng <xliff:g id="COUNT">%s</xliff:g> (na) minuto"</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Mapupunta sa emergency callback mode ang teleponong ito sa loob ng <xliff:g id="COUNT">%s</xliff:g> (na) minuto. Habang nasa mode na ito walang mga application na gumagamit ng koneksyon ng data ang magagamit. Gusto mo bang lumabas ngayon?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Mapupunta sa emergency callback mode ang telepono sa loob ng <xliff:g id="COUNT">%s</xliff:g> (na) minuto. Habang walang magagamit na application na gumagamit ng koneksyon ng data sa mode na ito. Gusto mo bang lumabas ngayon?"</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <!-- number of minutes is one -->
+        <item quantity="one">"Hindi available ang napiling pagkilos habang nasa emergency callback mode. Mananatili sa mode na ito ang telepono sa loob ng <xliff:g id="COUNT">%s</xliff:g> (na) minuto. Gusto mo bang lumabas na ngayon?"</item>
+        <!-- number of minutes is not equal to one -->
+        <item quantity="other">"Hindi available ang piniling pagkilos habang nasa emergency callback mode. Mapupunta sa mode na ito ang telepono sa loob ng <xliff:g id="COUNT">%s</xliff:g> (na) minuto. Gusto mo bang lumabas ngayon?"</item>
+    </plurals>
+    <string name="alert_dialog_in_ecm_call">"Hindi available ang piniling pagkilos habang nasa pang-emergency na tawag"</string>
+    <string name="progress_dialog_exiting_ecm">"Lumalabas sa Emergency Callback Mode"</string>
+    <string name="alert_dialog_yes">"Oo"</string>
+    <string name="alert_dialog_no">"Hindi"</string>
+    <string name="alert_dialog_dismiss">"Balewalain"</string>
+    <string name="absent_num">WALANG NUMERO</string>
+    <string name="voicemail_settings">"Mga setting ng voicemail"</string>
+    <string name="voicemail_number_not_set">"&lt;Hindi nakatakda&gt;"</string>
+    <string name="voicemail_provider">"Serbisyong Voicemail"</string>
+    <string name="voicemail_settings_for">"Mga setting para sa <xliff:g id="PROVIDER_NAME">%s</xliff:g>"</string>
+    <string name="other_settings">"Iba pang mga setting ng tawag"</string>
+    <string name="dial_button_label">"I-dial"</string>
+    <string name="calling_via_template">"Tumatawag sa pamamagitan ng ^1"\n<b>"^2"</b></string>
+    <string name="slide_to_answer">"I-drag pakanan upang sagutin"</string>
+    <string name="slide_to_silence">"I-drag pakaliwa upang patahimikin ang ringer"</string>
+    <string name="slide_to_decline">"I-drag pakaliwa upang tanggihan"</string>
+    <string name="slide_to_answer_and_hold">"I-drag pakanan upang sagutin at"\n"i-hold ang aktibong tawag"</string>
+    <string name="slide_to_answer_and_end_active">"I-drag pakanan upang sagutin at"\n"wakasan ang aktibong tawag"</string>
+    <string name="slide_to_answer_and_end_onhold">"I-drag pakanan upang sagutin at"\n"wakasan ang naka-hold na tawag"</string>
+    <string name="slide_to_answer_hint">"Sagutin"</string>
+    <string name="slide_to_decline_hint">"Tanggihan"</string>
+    <string name="sim_state_not_changes">Katayuan sa pagpagana o hindi pinagana na Sim card walang pagbabago.</string>
+    <string name="sim_state_set_timeout">Na-timeout Mga setting ng Katayuan ng Sim card.</string>
+    <string name="data_enable_set">Pinagana setting ng koneksiyon sa data</string>
+    <string name="data_enable_set_timeout">Pinagana setting ng Timeout sa koneksiyon ng data.</string>
+    <string name="selectsim_settings_label">Mga setting ng Sim card ng Standby</string>
+    <string name="cb_error">Tinanggihan ang pagharang sa tawag</string>
+    <string name="video_camera_switch">Magpalit ng Kamera</string>
+    <string name="video_view_switch">Magpalit ng View</string>
+    <string name="video_camera_close">Isara ang Kamera</string>
+    <string name="video_camera_open">Buksan ang Kamera</string>
+    <string name="video_speaker_close">Isara ang Speaker</string>
+    <string name="video_speaker_open">Buksan ang speaker</string>
+    <string name="video_bluetooth_close">Isara Ang Bluetooth</string>
+    <string name="video_bluetooth_open">Buksan ang bluetooth</string>
+    <string name="video_mute">Walang Tunog</string>
+    <string name="video_unmute">I-unmute</string>
+    <string name="video_decline">"Tanggihan"</string>
+    <string name="video_falldown">Bumagsak</string>
+    <string name="video_record">Rekord...</string>
+    <string name="video_start_record_both">Simulang Irekord Pareho</string>
+    <string name="video_start_record_audio">Simulan Pagrekord ng Audio</string>
+    <string name="video_stop_record">Ihinto Pag-rekord</string>
+    <string name="insert_sd_card">Pakilagay ang SD card</string>
+    <string name="storage_is_full">"Puno na ang imbakan"</string>
+    <string name="video_btn_dialer">Keypad</string>
+    <string name="video_btn_hangup">Ibaba</string>
+    <string name="video_btn_answer">Sagutin</string>
+    <string name="video_btn_decline">"Tanggihan"</string>
+    <string name="video_label_name">Pangalan:</string>
+    <string name="video_label_time">Oras:</string>
+    <string name="video_label_status">\'"Katayuan</string>
+    <string name="video_label_begintime">Oras ng Simula:</string>
+    <string name="video_dialog_incoming">Papasok na tawag, tanggapin o hindi?</string>
+    <string name="video_dialog_incoming_accept">"Tanggapin"</string>
+    <string name="video_dialog_incoming_tovoice">"Lumipat sa video"</string>
+    <string name="video_dialog_incoming_hangup">Hangup</string>
+    <string name="videophonesetting_label">Mga settin ng VideoPhone</string>
+    <string name="videophone_setting">VideoPhone</string>
+    <string name="videophone_setting_title">VideoPhone Mga setting na Pangkalahatan</string>
+    <string name="videophone_setting_summary">Itakda mga opsyon para sa pag-display ng videophone, layout, atbp.</string>
+    <string name="videophone_callforward_setting_title">VideoPhone Mga setting sa pagpasa</string>
+    <string name="videophone_callbarring_setting_title">Mga setting sa pag-bar ng VideoPhone</string>
+    <string name="videophone_setting_title_static_image">I-display ang Static na Imahe</string>
+    <string name="videophone_setting_title_static_image_set">Itakda Static na Imahe</string>
+    <string name="videophone_setting_title_remote_static_image_set">Remote_Static Image Set</string>
+    <string name="videophone_setting_title_delete_photo">Tanggalin Static na Imahe</string>
+    <string name="videophone_setting_title_take_photo">"Kumuha ng larawan"</string>
+    <string name="videophone_setting_title_pick_photo">"Pumili ng larawan mula sa Gallery"</string>
+    <string name="videophone_setting_photoPickerNotFoundText">"Walang mga larawan ang available sa telepono."</string>
+    <string name="videophone_setting_summary_static_image">I-display ang static image kung nakasara ang kamera</string>
+    <string name="videophone_setting_title_layout">Mga preprensiya ng video screen</string>
+    <string name="videophone_layout_my_small">Ang aking maliit na video</string>
+    <string name="videophone_layout_my_large">Ang aking malaking video</string>
+    <string name="videophone_setting_default_image">Tanggalin Static na Imahe</string>
+    <string name="videophone_setting_picture_oversize">"Sukat ng litrato ay hindi lalampas ng 640 * 480"</string>
+    <string name="videophone_setting_picture_widthtoosmall">"Lapat ng litrato ay hindi bababa sa 64"</string>
+    <string name="videophone_setting_picture_heightoosmall">"Taas ng litrato ay hindi bababa sa 64"</string>
+    <string name="videophone_setting_picture_notjpg">"Iyong suportadong jpg format lamang na litrato"</string>
+    <string name="videophone_setting_title_fallback">Hiling sa pagtawag ng voie call</string>
+    <string name="videophone_fallback_always_ask">Tanungin ako palagi</string>
+    <string name="videophone_fallback_always_callback">Laging ibalik ang tawag</string>
+    <string name="videophone_fallback_never_callback">Huwag ng tatawag</string>
+    <string name="videophone_setting_dialog_title_layout">Mga preprensiya ng video</string>
+    <string name="videophone_setting_dialog_title_fallback">Hiling sa pagtawag ng voie call</string>
+    <string name="videophone_setting_title_remote_static_image_defaultvalue">3</string>
+    <string name="videophone_setting_title_local_static_image_defaultvalue">3</string>
+    <string name="videophone_fallback_title">VideoPhone FallBack</string>
+    <string name="videophone_never_fallback">Ang tumatanggap ay humihiling ng voice call. Ihinto at awtomatikong mag-redial.</string>
+    <string name="videophone_always_fallback">Ang tumatanggap ay humihiling ng voice call. awtomatikong \'i-redial ang voice call.</string>
+    <string name="videophone_notin3g_never_fallback">"Hindi suportado ng kasalukuyang network ang video call. Awtomatikong hindi na magredial."</string>
+    <string name="videophone_notin3g_always_fallback">"Hindi suportado ng kasalukuyang network ang video call. Awtomatikong i-redial ang voice call."</string>
+    <string name="videophone_fallback_menu_videocall">Tawag sa video</string>
+    <string name="videophone_fallback_menu_voicecall">Tawag sa video</string>
+    <string name="videophone_fallback_menu_cancel">"Kanselahin"</string>
+    <string name="videophone_fallback_question">Ano ang gusto mong gawin?</string>
+    <string name="videophone_failcause_1000">"Hindi normal na natapos ang huling video call, subukan muli pagkatapos ng ilang sandali"</string>
+    <string name="videophone_failcause_1">Hindi natalagang numero</string>
+    <string name="videophone_failcause_3">Di-makonekta ang user</string>
+    <string name="videophone_failcause_8">Hinarangan na tawag</string>
+    <string name="videophone_failcause_17">Abala ang user</string>
+    <string name="videophone_failcause_19">"Hindi sumasagot ang tinawagan mong user" </string>
+    <string name="videophone_failcause_27">Naka-off ang user</string>
+    <string name="videophone_failcause_34">Naputol ang koneksiyon</string>
+    <string name="videophone_failcause_63">Hinarangan ang roaming </string>
+    <string name="videophone_failcause_79">Di-suportado ang video call</string>
+    <string name="videophone_failcause_default">Di-makonekta ang user</string>
+    <string name="videophone_failcause_47">Paumanhin, walang video call </string>
+    <string name="videophone_failcause_57">"Ang serbisyo ng VT ay hindi mo pa nasimulan"</string>
+    <string name="videophone_failcause_58">Di-suportado ang video call</string>
+    <string name="videophone_failcause_88">Pinili ng user ang voice call</string>
+    <string name="videophone_failcause_minus_1">Di-suportado ang 3G service</string>
+    <string name="videophone_incoming_prompt">Papasok na video call</string>
+    <string name="brightness">Pagkalinaw ng screen</string>
+    <string name="camera_brightness">Linaw ng Kamera</string>
+    <string name="camera_contrast">Kontrast ng Kamera</string>
+    <string name="prompt_remotecamera_close">Nakasara ang remote na kamera</string>
+    <string name="prompt_remotecamera_open">Nakabukas ang remote na kamera</string>
+    <string name="sutstitute_not_exist">Wala ang panghaliling litrato</string>
+    <string name="prompt_picture_format_error">"Ang litratong pinalit ay hindi jpeg, ibalik sa default na litrato"</string>
+    <string name="prompt_wait_voicecall">Pakihintay ang voice call</string>
+    <string name="prompt_record_finish">Nai-save ang Recorder file sa </string>
+    <string name="prompt_camera_fail">Nabigo ang pagbukas sa camera</string>
+    <string name="prompt_no_freespace">Ang natitirang espasyo ngayon ay hindi na hihigit sa 500kb, hihinto na ang pag-rekord.</string>
+    <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
+    <string name="audio_db_artist_name">Mga rekording mo</string>
+    <string name="audio_db_album_name">"Mga pag-record ng audio"</string>
+    <string name="audio_db_playlist_name">"Aking mga pag-record"</string>
+    <string name="app_name">Phone App</string>
+    <string name="error_mediadb_new_record">"Hindi ma-save ang na-record na audio"</string>
+    <string name="hangup_reply_message_title">Tinangihang Mensahe</string>
+    <string name="hangup_reply_message">Sagot na mensahe           Hangup</string>
+    <string name="hangup_reply_message_tip">kapag nag-klik ka sa papasok na UI, awtomatik na magpapadala ng mensahe sa kung sinong tumawag sa iyo.</string>
+    <string name="edit_message_content_for_hangup">I-edit ang nilalaman ng mensahe</string>
+    <string name="edit_message_content_introdution">I-edit ang nilalaman ng mensahe at ituro ang espesyal na tao</string>
+    <string name="label_message_reject">Nilalaman ng mensahe para ibaba</string>
+    <string name="tip_input_content">Wala kang nakatakdang nilalaman ng mensahe</string>
+    <string name="label_button_edit">I-edit</string>
+    <string name="label_button_ok">OK</string>
+    <string name="label_button_add_special_reply">Idagdag ang espesyal na numero para sagutin</string>
+    <string name="reply_message_default">Abala ako, tawagan kita mamaya!</string>
+    <string name="title_message_reply_for_hangup">I-edit ang nilalaman ng mensahe</string>
+    <string name="contactPhoto">"larawan ng contact"</string>
+    <string name="goPrivate">"maging pribado"</string>
+    <string name="selectContact">"pumili ng contact"</string>
+    <string name="standby_select">Naka-standby na pagpipilian sa power</string>
+    <string name="sip_settings">"Mga setting ng tawag sa Internet"</string>
+    <string name="sip_accounts">"Mga account sa pagtawag sa Internet (SIP)"</string>
+    <string name="sip_accounts_title">"Mga Account"</string>
+    <string name="sip_accounts_summary">"Pamahalaan ang mga Internet calling (SIP) account at katayuan"</string>
+    <string name="sip_receive_calls">"Tumanggap ng mga papasok na tawag"</string>
+    <string name="sip_receive_calls_summary">"Binabawasan ang buhay ng baterya"</string>
+    <string name="sip_call_options">"I-configure ang mga pagpipilian sa tawag"</string>
+    <string name="sip_call_options_title">"Gumamit ng pagtawag sa Internet"</string>
+    <string name="sip_call_options_wifi_only_title">"Gumamit ng pagtawag sa Internet (Wi-Fi lang)"</string>
+    <string name="sip_call_options_entry_1">"Para sa lahat ng mga tawag kapag available ang data network"</string>
+    <string name="sip_call_options_entry_2">"Para sa mga tawag sa Internet lang"</string>
+    <string name="sip_call_options_entry_3">"Hingin ang bawat tawag"</string>
+    <string name="sip_call_options_wifi_only_entry_1">"Para sa lahat ng mga tawag"</string>
+    <string name="auto_reg">"Awtomatikong pagpaparehistro"</string>
+    <string name="call_priority">"Papalabas na tawag sa pamamagitan ng SIP"</string>
+    <string name="pick_outgoing_call_phone_type">"Tumawag"</string>
+    <string name="pick_outgoing_sip_phone">"Gumamit ng account sa pagtawag sa Internet:"</string>
+    <string name="remember_my_choice">"Palaging gamitin upang gumawa ng mga tawag sa Internet"</string>
+    <string name="reset_my_choice_hint">"Magagamit mo ang Mga Setting ng Tawag upang baguhin bilang default ang Internet calling account na gagamitin sa pamamagitan ng pagpili ng ibang account sa ilalim ng mga setting ng tawag sa Internet"</string>
+    <string name="pstn_phone">"Tawag sa cell phone"</string>
+    <string name="internet_phone">"Tawag sa internet"</string>
+    <string name="no_sip_account_found_title">"Walang account sa pagtawag sa Internet"</string>
+    <string name="no_sip_account_found">"Walang mga account sa pagtawag sa Internet sa teleponong ito. Magdagdag ng isa ngayon?"</string>
+    <string name="sip_menu_add">Dagdagan</string>
+    <string name="add_sip_account">Idagdag ang account</string>
+    <string name="remove_sip_account">Alisin ang account</string>
+    <string name="sip_account_list">"Mga SIP account"</string>
+    <string name="saving_account">"Sine-save ang account..."</string>
+    <string name="removing_account">"Inaalis ang account..."</string>
+    <string name="sip_menu_save">"I-save"</string>
+    <string name="sip_menu_discard">"Itapon"</string>
+    <string name="alert_dialog_close">"Isara ang profile"</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="close_profile">Isara</string>
+    <string name="primary_account">"Pangunahin"</string>
+    <string name="primary_account_title">"Gawin itong aking pangunahing account"</string>
+    <string name="primary_account_summary">"Ginagamit para sa mga papalabas na tawag"</string>
+    <string name="advanced_settings_title">"Mga advanced na setting"</string>
+    <string name="primary_account_summary_with">"Pangunahing account. <xliff:g id="REGISTRATION_STATUS">%s</xliff:g>"</string>
+    <string name="registration_status_checking_status">"Tinitingnan ang katayuan..."</string>
+    <string name="registration_status_registering">"Nagrerehistro..."</string>
+    <string name="registration_status_still_trying">"Sinusubukan pa rin..."</string>
+    <string name="registration_status_not_receiving">"Hindi tumatanggap ng mga tawag"</string>
+    <string name="registration_status_no_data">"Ihininto ang pagpaparehistro ng account dahil walang koneksyon sa Internet"</string>
+    <string name="registration_status_no_wifi_data">"Ihininto ang pagpaparehistro ng account dahil walang koneksyon sa Wi-Fi"</string>
+    <string name="registration_status_not_running">"Nabigo ang pagpaparehistro ng account"</string>
+    <string name="registration_status_done">"Tumatanggap ng mga tawag"</string>
+    <string name="registration_status_failed_try_later">"Nabigo ang pagpaparehistro ng account: (<xliff:g id="REGISTRATION_ERROR_MESSAGE">%s</xliff:g>); susubukan sa ibang pagkakataon"</string>
+    <string name="registration_status_invalid_credentials">"Nabigo ang pagpaparehistro ng account: maling username o password"</string>
+    <string name="registration_status_server_unreachable">"Nabigo ang pagpaparehistro ng account: pakitingnan ang pangalan ng server"</string>
+    <string name="third_party_account_summary">"Kasalukuyang ginagamit ang account na ito ng <xliff:g id="ACCOUNT_OWNER">%s</xliff:g> application"</string>
+    <string name="sip_edit_title">"Mga detalye ng SIP account"</string>
+    <string name="sip_edit_new_title">"Mga detalye ng SIP account"</string>
+    <string name="domain_address_title">"Server"</string>
+    <string name="username_title">"Username"</string>
+    <string name="password_title">"Password"</string>
+    <string name="display_name_title">"Display name"</string>
+    <string name="proxy_address_title">"Address ng papalabas na proxy"</string>
+    <string name="port_title">"Numero ng port"</string>
+    <string name="transport_title">"Uri ng paglilipat"</string>
+    <string name="send_keepalive_title">"Magpadala ng keep-alive"</string>
+    <string name="send_keepalive_summary">"Magpadala ng mga keep-alive na mensahe"</string>
+    <string name="auto_registration_title">"Awtomatikong pagpaparehistro"</string>
+    <string name="auto_registration_summary">"Awtomatikong irehistro ang profile"</string>
+    <string name="set_primary_title">"Itakda bilang pangunahing account"</string>
+    <string name="set_primary_summary">"Ginagamit para sa mga papalabas na tawag"</string>
+    <string name="advanced_settings">"Mga opsyonal na setting"</string>
+    <string name="auth_username_title">"Username sa pagpapatunay"</string>
+    <string name="auth_username_summary">"Ginamit ang username para sa pagpapatunay"</string>
+    <string name="default_preference_summary">"&lt;Hindi nakatakda&gt;"</string>
+    <string name="display_name_summary">"&lt;Katulad ng username&gt;"</string>
+    <string name="optional_summary">"&lt;Opsyonal&gt;"</string>
+    <string name="advanced_settings_show">"▷ Pindutin upang ipakita lahat"</string>
+    <string name="advanced_settings_hide">"▽ Pindutin upang itago ang lahat"</string>
+    <string name="empty_alert">"Kinakailangan ang <xliff:g id="INPUT_FIELD_NAME">%s</xliff:g>, hindi maaaring iwanang blangko"</string>
+    <string name="not_a_valid_port">"Dapat na nasa pagitan ng 1000 at 65534 ang numero ng port"</string>
+    <string name="no_internet_available_title">"Walang koneksyon sa Internet"</string>
+    <string name="no_wifi_available_title">"Walang koneksyon sa Wi-Fi"</string>
+    <string name="no_internet_available">"Upang gumawa ng tawag sa Internet, suriin muna ang iyong koneksyon sa Internet"</string>
+    <string name="no_wifi_available">"Dapat na konektado ka sa isang Wi-Fi network para sa mga tawag sa Internet (gamitin ang mga setting ng Wireless &amp; Network)"</string>
+    <string name="no_voip">"Hindi suportado ang pagtawag sa Internet"</string>
+    <string name="send_message">Tanggihan ang tawag na may mensahe</string>
+    <string name="menu_endbgcall">tapusin lahat ng background na tawag</string>
+    <string name="menu_endallcalls">tapusin lahat ng mga tawag</string>
+    <string name="adn_full">Puno na ang ADN</string>
+    <string name="china_mobile_provider">China Mobile</string>
+    <string name="network_inhibit">Ipinagbabawal</string>
+    <string name="network_unknown">"Hindi Kilala"</string>
+    <string name="disk_full">"Puno na ang disk. Hindi na makakapag-dagdag ng mga log ng tawag"</string>
+    <string name="add_calllog_error">"Hindi maidagdag ang mga Call log!Pangloob na error o Puno na ang Disk."</string>
+    <string name="fast_dial">fast call</string>
+    <string name="fast_dial_settings">setting ng fast call</string>
+    <string name="fast_dial_changed">#ang numero ng telepono ng fast call ay nagbago</string>
+    <string name="fast_dial_no_changed">hindi nabago ang numero ng fast call phone.</string>
+    <string name="fast_dial_change_failed">nabigo ang pagset ng numero ng fast call.</string>
+    <string name="fast_dial_2">2#fast call</string>
+    <string name="fast_dial_3">3#fast call</string>
+    <string name="fast_dial_4">4#fast call</string>
+    <string name="fast_dial_5">5#fast call</string>
+    <string name="fast_dial_6">6#fast call</string>
+    <string name="fast_dial_7">7#fast call</string>
+    <string name="fast_dial_8">"802.1x EAP"</string>
+    <string name="fast_dial_9">9#fast call</string>
+    <string name="no_fast_dial">hindi nakaset ang numero ng telepono ng fast call sa kasalukuyang SIM</string>
+    <string name="not_set">Hindi nakatakda</string>
+    <string name="call_number">"Para kay:"</string>
+    <string name="place_a_call1">Subscription 1</string>
+    <string name="place_a_call2">Subscription 2</string>
+    <string name="cancel_call">"Kanselahin"</string>
+    <string name="sub_1">SIM1</string>
+    <string name="sub_2">SIM2</string>
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="other_setting">"Iba pang mga setting ng tawag"</string>
+    <string name="sim1_call_settings">Mga setting sa Pagtawag sa SIM1</string>
+    <string name="sim2_call_settings">Mga setting sa Pagtawag sa SIM2</string>
+    <string name="updating_dualsim_title">Settings ng Dual SIM</string>
+    <string name="toast_message_name_too_long">Napakahaba ng pangalan, pakibago ito.</string>
+    <string name="toast_message_name_number_null">Hindi maaring parehong walang laman ang pangalan at numero, pakibago ito.</string>
+    <string name="toast_message_data_business_on">Bukas na ang Data connection,pakipatay ito kung pipili ka ng network.</string>
+    <string name="set_ip_dailing_title">IP dialing</string>
+    <string name="ip_dailing">IP numbers list</string>
+    <string name="ip_dailing_setting_title">I-set ang IP dialing </string>
+    <string name="ip_dailing_one_title">IP number 1 </string>
+    <string name="ip_dailing_two_title">IP number 2</string>
+    <string name="ip_dailing_three_title">IP number 3</string>
+    <string name="ip_dailing_four_title">IP number 4</string>
+    <string name="ip_dailing_five_title">IP number 5</string>
+    <string name="ip_dailing_save_button_text">"I-save"</string>
+    <string name="dialing_selector">Dina-Diali ang Selector</string>
+    <string name="directly_call">Direktang  pag-dial</string>
+    <string name="ip_call">IP Dialing:</string>
+    <string name="emergency_call">"Emergency na tawag"</string>
+    <string name="reply_message_cannot_be_empty">Hindi maaring walang laman ang content</string>
+    <string name="auto_send_message">Mensahe na Awtomatikong Sagot</string>
+    <string name="auto_send_message_tip">piliin na sumagot ng awtomatiko sa nakahandang mensahe.</string>
+    <string name="UPLMN_setting">"UPLMN setting"</string>
+    <string name="open_cb">Binubuksan ang Cell Broadcast SMS</string>
+    <string name="close_cb">Isinasara ang Cell Broadcast SMS</string>
+    <string name="init_setting">Mga setting ng Initialization </string>
+    <string name="record_flag">"Nagre-record"</string>
+    <string name="call_vibrate_title">Vibration</string>
+    <string name="call_vibrate_summary">Nagbi-vibrate kapag may tumatawag/pag iha-hang up</string>
+    <string name="title_dial_from_cotacts">Hindi naipadala ang tawag</string>
+    <string name="error_airplane_mode_on">"Upang tumawag, paki-off ang Airplane mode."</string>
+    <string name="error_no_active_sim">"Walang aktibong sim card. Para tumawag, gawing aktibo muna ang sim card."</string>
+    <string name="error_radio_off">"Nakapatay ang Radyo. Paki dial ang numero ng emergency."</string>
+    <string name="error_no_active_sim_cb">"Walang naka-aktibong sim card."</string>
+    <string name="sim_card_unlock">"I-unlock ang sim card"</string>
+    <string name="sim_card_lock">"I-lock ang sim card"</string>
+    <string name="sim_lock_or_unlock">"I-lock o i-unlock ang sim card"</string>
+    <string name="sim_card_lock_title">"I-lock ang sim card"</string>
+    <string name="sim_card_lock_summary">"I-lock ang sim card"</string>
+    <string name="sim_card_unlock_title">"I-unlock ang sim card"</string>
+    <string name="sim_card_unlock_summary">"I-unlock ang sim card"</string>
+    <string name="sim_lock_state_is_new">"Hindi na kailangang baguhin ang estado ng lock ng sim."</string>
+    <string name="sim_lock_process_success">tagumpay,paki-reboot ang DUT</string>
+    <string name="sim_lock_process_failed">"Nabigo"</string>
+</resources>

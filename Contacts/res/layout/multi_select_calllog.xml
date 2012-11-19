@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+  <RelativeLayout 
+     android:id="@+id/CheckboxLinearLayout" 
+ 	 android:orientation="horizontal" 
+	 android:layout_width="fill_parent"     
+	 android:layout_height="wrap_content"
+	 android:background="#ff202020">
+
+   <TextView android:id="@+id/CheckBoxTilte"
+        android:text="@string/recent_Call_log_checkbox_selecte_all"
+        android:layout_marginRight="10dip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+	    android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/checkbox_selected_all"/>
+        
+   <CheckBox 
+	    android:id="@+id/checkbox_selected_all"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:layout_centerVertical="true"
+        android:focusable="false"
+        android:paddingRight="10dip"
+      	android:layout_alignParentRight="true"/>
+ </RelativeLayout>
+        
+    <ListView android:id="@android:id/list"
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_below="@+id/CheckboxLinearLayout"
+        android:layout_above ="@+id/ButtonLinearLayout"
+    />
+    
+   <LinearLayout 
+     android:id="@+id/ButtonLinearLayout" 
+ 	 android:orientation="horizontal" 
+	 android:layout_width="fill_parent"     
+	 android:layout_height="wrap_content"
+	 android:background="#ff202020"
+	 android:layout_alignParentBottom ="true">
+	
+    <Button
+		android:id="@+id/DeleteButton"
+		android:layout_width="fill_parent"
+	        android:layout_weight="1"   
+		android:layout_height="wrap_content"
+	    android:text="@string/recentCalls_button_Confirm_delete" 
+	/>
+	
+   <Button
+		android:id="@+id/CancelButton"
+		android:layout_width="fill_parent"
+                android:layout_weight="1"   
+		android:layout_height="wrap_content"
+	    android:text="@string/recentCalls_button_Cancel" 
+	/>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,1037 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="address_length">Alamat mencecah panjang maksimum</string>
+    <string name="byteShort">B</string>
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">GB</string>
+    <string name="terabyteShort">"TB"</string>
+    <string name="petabyteShort">Jelas dan terang.</string>
+    <string name="fileSizeSuffix">"<xliff:g id="NUMBER">%1$s</xliff:g><xliff:g id="UNIT">%2$s</xliff:g>"</string>
+    <string name="untitled">"&lt;tidak bertajuk&gt;"</string>
+    <string name="ellipsis">"..."</string>
+    <string name="emptyPhoneNumber">"(Tiada nombor telefon)"</string>
+    <string name="unknownName">"(Tidak diketahui)"</string>
+    <string name="defaultVoiceMailAlphaTag">Mel suara</string>
+    <string name="defaultMsisdnAlphaTag">"MSISDN1"</string>
+    <string name="mmiError">"Masalah sambungan atau kod MMI tidak sah"</string>
+    <string name="mmiFdnError">Operasi dihadkan kepada nombor dailan tetap sahaja.</string>
+    <string name="serviceEnabled">Perkhidmatan telah didayakan.</string>
+    <string name="serviceEnabledFor">Perkhidmatan didayakan untuk:</string>
+    <string name="serviceDisabled">"Perkhidmatan telah dilumpuhkan."</string>
+    <string name="serviceRegistered">"Pendaftaran berjaya."</string>
+    <string name="serviceErased">"Pemadaman berjaya."</string>
+    <string name="passwordIncorrect">"Kata laluan salah"</string>
+    <string name="passwordChange" msgid="">"Kata laluan ditukar"</string>
+    <string name="mmiComplete">"MMI selesai."</string>
+    <string name="badPin">"PIN lama yang anda taipkan tidak betul."</string>
+    <string name="badPin2">"PIN2 lama yang anda taipkan tidak betul."</string>
+    <string name="badPuk">"Kod PUK yang anda taipkan tidak betul."</string>
+    <string name="badPuk2">"Kod PUK2 yang anda taipkan tidak betul."</string>
+    <string name="mismatchPin">"PIN yang anda masukkan tidak sepadan."</string>
+    <string name="mismatchPin2">"PIN2 yang anda masukkan tidak sepadan."</string>
+    <string name="mismatchPuk">PUK yang anda masukkan tidak sama.</string>
+    <string name="mismatchPuk2">PUK2 yang anda masukkan tidak sama.</string>
+    <string name="invalidPin">"Taipkan PIN yang mengandungi 4 hingga 8 nombor."</string>
+    <string name="invalidPuk">"Taipkan PUK yang mempunyai 8 nombor atau lebih panjang."</string>
+    <string name="needPuk">"Kad SIM anda dikunci PUK. Taipkan kod PUK untuk membuka kuncinya."</string>
+    <string name="needPuk2">"Taipkan PUK2 untuk menyahsekat kad SIM."</string>
+    <string name="needPinLock">Menukar PIN memerlukan tetapan PIN dikunci.</string>
+    <string name="ClipMmi">"ID Pemanggil Masuk"</string>
+    <string name="ClirMmi">"ID Pemanggil Keluar"</string>
+    <string name="ColpMmi">Penyerahan pengenalpastian talian bersambung</string>
+    <string name="ColrMmi">Sekatan pengenalpastian talian bersamabung</string>
+    <string name="CfMmi">"Pemajuan panggilan"</string>
+    <string name="UnConditionCfMmi" msgid="">"Pemajuan panggilan tidak bersyarat"</string>
+    <string name="BusyCfMmi" msgid="">"Majukan panggilan bila sibuk"</string>
+    <string name="NoReplyCfMmi" msgid="">"Majukan panggilan bila tiada jawapan"</string>
+    <string name="NotReachCfMmi" msgid="">"Majukan panggilan bila tidak boleh dihubungi"</string>
+    <string name="AllCfMmi" msgid="">"Semua pemajuan panggilan"</string>
+    <string name="ConditionCfMmi" msgid="">"Pemajuan panggilan bersyarat"</string>
+    <string name="CwMmi">"Panggilan menunggu"</string>
+    <string name="BaMmi">"Sekatan panggilan"</string>
+    <string name="BaocMmi" msgid="">" Sekatan Semua panggilan keluar"</string>
+    <string name="BaoicMmi" msgid="">" Sekatan Semua panggilan keluar antarabangsa"</string>
+    <string name="BaoicxhMmi" msgid="">" Sekatan semua panggilan keluar antarabangsa kecuali tanah air"</string>
+    <string name="BaicMmi" msgid="">" Sekatan semua panggilan masuk"</string>
+    <string name="BaicrMmi" msgid="">" Sekatan semua panggilan masuk semasa perayauan"</string>
+    <string name="BaallMmi" msgid="">"Semua sekatan untuk Semua Khidmat Asas"</string>
+    <string name="BamoMmi" msgid="">"Semua keluaran untuk Semua Khidmat Asas"</string>
+    <string name="BamtMmi" msgid="">"Semua kemasukan untuk Semua Khidmat Asas"</string>
+    <string name="ActiveUnconCf">Panggilan dimajukan tanpa syarat</string>
+    <string name="ActiveConCf">Panggilan dimajukan dengan syarat</string>
+    <string name="CallForwarded">Panggilan dimajukan</string>
+    <string name="CallWaiting">"Panggilan menunggu"</string>
+    <string name="CugCall" msgid="">"Panggilan CUG"</string>
+    <string name="OutCallBarred" msgid="">"Panggilan keluar disekat"</string>
+    <string name="InCallBarred" msgid="">"Panggilan masuk disekat"</string>
+    <string name="ClirRejected" msgid="">"Penyekatan CLIR ditolak"</string>
+    <string name="ForwardedCall">Panggilan dimajukan</string>
+    <string name="CallRetrieved" msgid="">"Panggilan diambil"</string>
+    <string name="MultiCall" msgid="">"Panggilan pelbagai pihak"</string>
+    <string name="HoldCallReleased" msgid="">"Panggilan dipegang dilepaskan"</string>
+    <string name="ConnectingEct" msgid="">"ECT sedang disambungkan"</string>
+    <string name="ConnectedEct" msgid="">"ECT disambungkan"</string>
+    <string name="IncomingCallForwarded" msgid="">"Panggilan masuk tambahan dimajukan"</string>
+    <string name="PwdMmi">"Tukar kata laluan"</string>
+    <string name="PinMmi">"Penukaran PIN"</string>
+    <string name="Pin2Mmi">"Penukaran PIN2"</string>
+    <string name="PukMmi">"Buka PIN"</string>
+    <string name="Puk2Mmi">"Buka PIN2"</string>
+    <string name="CnipMmi">"Nombor panggilan ada"</string>
+    <string name="CnirMmi">"Nombor panggilan terhad"</string>
+    <string name="ThreeWCMmi">"Panggilan tiga hala"</string>
+    <string name="RuacMmi">"Penolakan panggilan mengganggu yang tidak diingini"</string>
+    <string name="CndMmi">"Penghantaran nombor panggilan"</string>
+    <string name="DndMmi">"Jangan ganggu"</string>
+    <string name="CLIRDefaultOnNextCallOn">"ID pemanggil secara lalainya ditetapkan kepada terhad. Panggilan seterusnya: Terhad"</string>
+    <string name="CLIRDefaultOnNextCallOff">"ID pemanggil secara lalainya ditetapkan kepada terhad. Panggilan seterusnya: Tidak terhad"</string>
+    <string name="CLIRDefaultOffNextCallOn">"ID pemanggil secara lalainya ditetapkan kepada tidak terhad. Panggilan seterusnya: Terhad"</string>
+    <string name="CLIRDefaultOffNextCallOff">"ID pemanggil secara lalainya ditetapkan kepada tidak dihadkan. Panggilan seterusnya: Tidak terhad"</string>
+    <string name="serviceNotProvisioned">"Perkhidmatan yang tidak diuntukkan."</string>
+    <string name="CLIRPermanent">"Tetapan ID pemanggil tidak boleh diubah."</string>
+    <string name="RestrictedChangedTitle">"Akses terhad diubah"</string>
+    <string name="RestrictedOnData">"Perkhidmatan data disekat."</string>
+    <string name="RestrictedOnEmergency">"Perkhidmatan kecemasan disekat."</string>
+    <string name="RestrictedOnNormal">"Perkhidmatan suara disekat."</string>
+    <string name="RestrictedOnAllVoice">"Semua perkhidmatan Suara disekat."</string>
+    <string name="RestrictedOnSms">"Perkhidmatan SMS disekat."</string>
+    <string name="RestrictedOnVoiceData">"Perkhidmatan suara/data disekat."</string>
+    <string name="RestrictedOnVoiceSms">"Perkhidmatan suara/SMS disekat."</string>
+    <string name="RestrictedOnAll">"Semua perkhidmatan Suara/Data/SMS disekat."</string>
+    <string name="serviceClassVoice">Suara</string>
+    <string name="serviceClassData">Data</string>
+    <string name="serviceClassFAX">FAKS</string>
+    <string name="serviceClassSMS">"SMS"</string>
+    <string name="serviceClassDataAsync">"Tak segerak"</string>
+    <string name="serviceClassDataSync">"Penyegerakan"</string>
+    <string name="serviceClassPacket">"Bingkisan"</string>
+    <string name="serviceClassPAD">"PAD"</string>
+    <string name="roamingText0">"Penunjuk Perayauan Dihidupkan"</string>
+    <string name="roamingText1">"Penunjuk Perayauan Dimatikan"</string>
+    <string name="roamingText2">"Penunjuk Perayauan Berkelip"</string>
+    <string name="roamingText3">"Di luar kawasan kejiranan"</string>
+    <string name="roamingText4">"Di luar Bangunan"</string>
+    <string name="roamingText5">"Perayauan - Sistem Diutamakan"</string>
+    <string name="roamingText6">"Perayauan - Sistem Tersedia"</string>
+    <string name="roamingText7">"Perayauan - Rakan Kongsi Gabungan"</string>
+    <string name="roamingText8">"Perayauan - Rakan Kongsi Premium"</string>
+    <string name="roamingText9">"Perayauan - Kefungsian Perkhidmatan Penuh"</string>
+    <string name="roamingText10">"Perayauan - Kefungsian Perkhidmatan Separa"</string>
+    <string name="roamingText11">"Sepanduk Perayauan Dihidupkan"</string>
+    <string name="roamingText12">"Sepanduk Perayauan Dimatikan"</string>
+    <string name="roamingTextSearching">"Mencari Perkhidmatan"</string>
+    <string name="cfTemplateNotForwarded">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: Tidak dimajukan"</string>
+    <string name="cfTemplateForwarded">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
+    <string name="cfTemplateForwardedTime">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g> selepas <xliff:g id="TIME_DELAY">{2}</xliff:g> saat"</string>
+    <string name="cfTemplateRegistered">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: Tidak dimajukan"</string>
+    <string name="cfTemplateRegisteredTime">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: Tidak dimajukan"</string>
+    <string name="fcComplete">"Kod ciri selesai."</string>
+    <string name="fcError">"Masalah sambungan atau kod ciri tidak sah."</string>
+    <string name="httpErrorOk">OK</string>
+    <string name="httpError">"Ralat rangkaian berlaku."</string>
+    <string name="httpErrorLookup">"URL tidak ditemui."</string>
+    <string name="httpErrorUnsupportedAuthScheme">"Skema pengesahan tapak tidak disokong."</string>
+    <string name="httpErrorAuth">"Pengesahan tidak berjaya."</string>
+    <string name="httpErrorProxyAuth">"Pengesahan melalui pelayan proksi tidak berjaya."</string>
+    <string name="httpErrorConnect">"Sambungan ke pelayan tidak berjaya."</string>
+    <string name="httpErrorIO">"Pelayan tidak dapat berkomunikasi. Cuba sebentar lagi."</string>
+    <string name="httpErrorTimeout">"Sambungan ke pelayan tamat masa."</string>
+    <string name="httpErrorRedirectLoop">"Halaman ini mengandungi terlalu banyak pengubahhalaan pelayan."</string>
+    <string name="httpErrorUnsupportedScheme">"Protokol tidak disokong."</string>
+    <string name="httpErrorFailedSslHandshake">"Sambungan selamat tidak boleh diwujudkan."</string>
+    <string name="httpErrorBadUrl">"Halaman tidak dapat dibuka kerana URL tidak sah."</string>
+    <string name="httpErrorFile">"Fail tidak boleh diakses."</string>
+    <string name="httpErrorFileNotFound">"Fail yang diminta tidak ditemui."</string>
+    <string name="httpErrorTooManyRequests">"Terlalu banyak permintaan sedang diproses. Cuba sebentar lagi."</string>
+    <string name="notification_title">"Ralat log masuk untuk <xliff:g id="ACCOUNT">%1$s</xliff:g>"</string>
+    <string name="contentServiceSync">"Penyegerakan"</string>
+    <string name="contentServiceSyncNotificationTitle">"Penyegerakan"</string>
+    <string name="contentServiceTooManyDeletesNotificationDesc">"Terlalu banyak pemadaman <xliff:g id="CONTENT_TYPE">%s</xliff:g>."</string>
+    <string name="low_memory">Storan telefon penuh! Hapuskan beberapa fail untuk kosongkan ruang.</string>
+    <string name="me">"Saya"</string>
+    <string name="power_dialog">Pilihan telefon</string>
+    <string name="silent_mode">Mod senyap</string>
+    <string name="turn_on_radio">"Hidupkan wayarles"</string>
+    <string name="turn_off_radio">"Matikan wayarles"</string>
+    <string name="screen_lock">Kunci skrin</string>
+    <string name="power_off">Matikan kuasa</string>
+    <string name="shutdown_progress">"Mematikan..."</string>
+    <string name="shutdown_confirm">Telefon anda akan ditutup.</string>
+    <string name="recent_tasks_title">"Baru-baru ini"</string>
+    <string name="no_recent_tasks">"Tiada aplikasi terbaru."</string>
+    <string name="global_actions">Pilihan telefon</string>
+    <string name="global_action_lock">Kunci skrin</string>
+    <string name="global_action_power_off">Matikan kuasa</string>
+    <string name="global_action_toggle_silent_mode">Mod senyap</string>
+    <string name="global_action_silent_mode_on_status">"Bunyi DIMATIKAN"</string>
+    <string name="global_action_silent_mode_off_status">"Bunyi DIHIDUPKAN"</string>
+    <string name="global_actions_toggle_airplane_mode">Mod pesawat</string>
+    <string name="global_actions_airplane_mode_on_status">"Mod Pesawat DIHIDUPKAN"</string>
+    <string name="global_actions_airplane_mode_off_status">"Mod Pesawat DIMATIKAN"</string>
+    <string name="safeMode">Mod selamat</string>
+    <string name="android_system_label">"Sistem Android"</string>
+    <string name="permgrouplab_costMoney">Perkhidmatan yang anda perlu bayar</string>
+    <string name="permgroupdesc_costMoney">"Membenarkan aplikasi melakukan perkara yang boleh mengenakan bayaran kepada anda."</string>
+    <string name="permgrouplab_messages">"Mesej anda"</string>
+    <string name="permgroupdesc_messages">"Membaca dan menulis SMS, e-mel dan mesej lain."</string>
+    <string name="permgrouplab_personalInfo">"Maklumat peribadi anda"</string>
+    <string name="permgroupdesc_personalInfo">Akses langsung kepada kenalan dan kalendar anda yang disimpan di dalam telefon.</string>
+    <string name="permgrouplab_location">"Lokasi anda"</string>
+    <string name="permgroupdesc_location">"Pantau lokasi fizikal anda"</string>
+    <string name="permgrouplab_network">"Komunikasi rangkaian"</string>
+    <string name="permgroupdesc_network">"Membenarkan aplikasi mengakses pelbagai ciri rangkaian"</string>
+    <string name="permgrouplab_accounts">"Akaun anda"</string>
+    <string name="permgroupdesc_accounts">"Akses akaun yang tersedia."</string>
+    <string name="permgrouplab_hardwareControls">"Kawalan perkakasan"</string>
+    <string name="permgroupdesc_hardwareControls">"Akses langsung kepada perkakasan pada set tangan."</string>
+    <string name="permgrouplab_phoneCalls">"Panggilan telefon"</string>
+    <string name="permgroupdesc_phoneCalls">"Memantau, merekodkan dan memproses panggilan telefon."</string>
+    <string name="permgrouplab_systemTools">"Alatan sistem"</string>
+    <string name="permgroupdesc_systemTools">"Akses dan kawalan peringkat lebih rendah bagi sistem."</string>
+    <string name="permgrouplab_developmentTools">"Alatan pembangunan"</string>
+    <string name="permgroupdesc_developmentTools">"Ciri hanya diperlukan untuk pembangun aplikasi."</string>
+    <string name="permgrouplab_storage">Penstoran</string>
+    <string name="permgroupdesc_storage" product="nosdcard">Akses storan USB.</string>
+    <string name="permgroupdesc_storage" product="default">Akses kad SD.</string>
+    <string name="permlab_statusBar">"lumpuhkan atau ubah suai bar status"</string>
+    <string name="permdesc_statusBar">"Membenarkan aplikasi melumpuhkan bar status atau menambah dan mengalih keluar ikon sistem."</string>
+    <string name="permlab_statusBarService">bar status</string>
+    <string name="permdesc_statusBarService">Benarkan aplikasi menjadi bar status.</string>
+    <string name="permlab_expandStatusBar">"kembangkan/runtuhkan bar status"</string>
+    <string name="permdesc_expandStatusBar">"Membenarkan aplikasi mengembangkan atau meruntuhkan bar status."</string>
+    <string name="permlab_processOutgoingCalls">"sekat panggilan keluar"</string>
+    <string name="permdesc_processOutgoingCalls">"Membenarkan aplikasi memproses panggilan keluar dan menukar nombor yang hendak didail. Aplikasi berniat jahat boleh memantau, mengubah hala atau menghalang panggilan keluar."</string>
+    <string name="permlab_receiveSms">"menerima SMS"</string>
+    <string name="permdesc_receiveSms">"Membolehkan aplikasi untuk menerima dan memproses mesej SMS. aplikasi berbahaya boleh memantau mesej atau memadamkannya tanpa menunjukkan kepada anda."</string>
+    <string name="permlab_receiveSmsCB">terima SMSCB</string>
+    <string name="permdesc_receiveSmsCB">Membenarkan aplikasi menerima dan memproses mesej SMSCB. Aplikasi berniat jahat boleh memantau mesej anda atau menghapuskannya tanpa menujukkan mesej kepada anda.</string>
+    <string name="permlab_receiveMms">"terima MMS"</string>
+    <string name="permdesc_receiveMms">"Membenarkan aplikasi menerima dan memproses mesej MMS. Aplikasi berniat jahat mungkin memantau mesej anda atau memadamkannya tanpa menunjukkan kepada anda."</string>
+    <string name="permlab_receiveEmergencyBroadcast">terima siaran kecemasan</string>
+    <string name="permdesc_receiveEmergencyBroadcast">Benarkan aplikasi menerima dan memproses pesanan siaran kecemasan. Kebenaran ini hanya tersedia untuk aplikasi sistem.</string>
+    <string name="permlab_sendSms">"hantar mesej SMS"</string>
+    <string name="permdesc_sendSms">"Membolehkan aplikasi menghantar mesej SMS. Aplikasi berniat jahat boleh merugikan wang anda dengan menghantar mesej tanpa pengesahan anda."</string>
+    <string name="permlab_readSms">"baca SMS atau MMS"</string>
+    <string name="permdesc_readSms">Membenarkan aplikasi membaca mesej SMS yang disimpan di dalam telefon atau kad SIM anda. Aplikasi berniat jahat boleh membaca mesej sulit anda.</string>
+    <string name="permlab_writeSms">"edit SMS atau MMS"</string>
+    <string name="permdesc_writeSms">Membenarkan aplikasi menulis kepada mesej SMS yang disimpan di dalam telefon anda atau kad SIM. Aplikasi berniat jahat boleh menghapuskan mesej anda.</string>
+    <string name="permlab_receiveWapPush">"terima WAP"</string>
+    <string name="permdesc_receiveWapPush">"Membenarkan aplikasi menerima dan memproses mesej WAP. Aplikasi berniat jahat mungkin memantau mesej anda atau memadamnya tanpa menunjukkan kepada anda."</string>
+    <string name="permlab_getTasks">"dapatkan semula aplikasi yang sedang dijalankan"</string>
+    <string name="permdesc_getTasks">"Membenarkan aplikasi mengambil semula maklumat mengenai tugasan terbaru dan tugasan semasa yang dijalankan. Boleh membenarkan aplikasi berniat jahat menemui maklumat peribadi mengenai aplikasi lain."</string>
+    <string name="permlab_reorderTasks">"susun semula tertib aplikasi yang dijalankan"</string>
+    <string name="permdesc_reorderTasks">"Membenarkan aplikasi mengalih tugas ke latar depan dan latar belakang. Aplikasi berniat jahat boleh memaksa dirinya ke depan tanpa kawalan anda."</string>
+    <string name="permlab_setDebugApp">"dayakan penyahpepijatan aplikasi"</string>
+    <string name="permdesc_setDebugApp">"Membenarkan aplikasi menghidupkan penyahpepijatan untuk aplikasi lain. Aplikasi berniat jahat boleh menggunakannya untuk membunuh aplikasi lain."</string>
+    <string name="permlab_changeConfiguration">"tukar tetapan UI anda"</string>
+    <string name="permdesc_changeConfiguration">"Membenarkan aplikasi mengubah konfigurasi semasa seperti tempat peristiwa atau saiz fon keseluruhan."</string>
+    <string name="permlab_enableCarMode">"dayakan mod kereta"</string>
+    <string name="permdesc_enableCarMode">"Membenarkan aplikasi mendayakan mod kereta."</string>
+    <string name="permlab_killBackgroundProcesses">"bunuh proses latar belakang"</string>
+    <string name="permdesc_killBackgroundProcesses">"Membenarkan aplikasi membunuh proses latar belakang aplikasi lain, walaupun jika memori tidak rendah."</string>
+    <string name="permlab_forceStopPackages">"henti paksa aplikasi lain"</string>
+    <string name="permdesc_forceStopPackages">"Membenarkan aplikasi menghentikan aplikasi lain secara paksa."</string>
+    <string name="permlab_forceBack">"memaksa aplikasi untuk menutup"</string>
+    <string name="permdesc_forceBack">"Membenarkan aplikasi memaksa sebarang aktiviti dalam latar depan untuk ditutup dan pergi ke belakang. Seharusnya tidak diperlukan untuk aplikasi nomal."</string>
+    <string name="permlab_dump">"mendapatkan semula keadaan dalaman sistem"</string>
+    <string name="permdesc_dump">"Membenarkan aplikasi mendapatkan semula keadaan dalaman sistem. Aplikasi berniat jahat boleh mendapatkan semula pelbagai maklumat sulit dan dilindungi yang ia tidak seharusnya memerlukannya."</string>
+    <string name="permlab_shutdown">"penutupan separa"</string>
+    <string name="permdesc_shutdown">"Meletakkan pengurus aktiviti dalam keadaan tutup. Tidak melaksanakan penutupan lengkap."</string>
+    <string name="permlab_stopAppSwitches">"cegah pertukaran apl"</string>
+    <string name="permdesc_stopAppSwitches">"Mencegah pengguna daripada bertukar kepada aplikasi lain."</string>
+    <string name="permlab_runSetActivityWatcher">"pantau dan kawal semua pelancaran aplikasi"</string>
+    <string name="permdesc_runSetActivityWatcher">"Membenarkan aplikasi memantau dan mengawal cara sistem melancarkan aktiviti. Aplikasi berniat jahat boleh menjejaskan sistem keseluruhannya. Kebenaran ini diperlukan untuk pembangunan sahaja, tidak sekali-kali untuk kegunaan biasa."</string>
+    <string name="permlab_broadcastPackageRemoved">"hantar siaran bahawa pakej telah dialih keluar"</string>
+    <string name="permdesc_broadcastPackageRemoved">"Membenarkan aplikasi menyiarkan pemberitahuan bahawa pakej aplikasi telah dialih keluar. Aplikasi berniat jahat boleh menggunakannya untuk membunuh sebarang aplikasi lain yang sedang dijalankan."</string>
+    <string name="permlab_broadcastSmsReceived">"hantar siaran SMS diterima"</string>
+    <string name="permdesc_broadcastSmsReceived">"Membenarkan aplikasi menyiarkan pemberitahuan bahawa mesej SMS sudah pun diterima. Aplikasi berniat jahat boleh menggunakannya untuk memalsukan mesej SMS sedang masuk."</string>
+    <string name="permlab_broadcastSmsCBReceived">hantar siaran SMSCB diterima</string>
+    <string name="permdesc_broadcastSmsCBReceived">Membenarkan aplikasi menyiarkan pemberitahuan yang mesej SMSCB telah diterima. Aplikasi berniat jahat boleh menggunakannya untuk memalsukan mesej SMSCB yang masuk.</string>
+    <string name="permlab_broadcastWapPush">"hantar siaran WAP-TOLAK-diterima"</string>
+    <string name="permdesc_broadcastWapPush">"Membenarkan aplikasi menyiarkan pemberitahuan bahawa mesej WAP TOLAK sudah diterima. Aplikasi berniat jahat mungkin menggunakannya untuk memalsukan penerimaan mesej MMS atau untuk menggantikan kandungan sebarang halaman web secara senyap dengan varian be</string>
+    <string name="permlab_setProcessLimit">"hadkan bilangan proses yang dijalankan"</string>
+    <string name="permdesc_setProcessLimit">"Membenarkan aplikasi mengawal bilangan maksimum proses yang akan dijalankan. Tidak sekali-kali diperlukan untuk aplikasi biasa."</string>
+    <string name="permlab_setAlwaysFinish">"buatkan semua aplikasi latar belakang ditutup"</string>
+    <string name="permdesc_setAlwaysFinish">"Membenarkan aplikasi mengawal sama ada aktiviti sentiasa diselesaikan sebaik sahaja ia pergi ke latar belakang. Tidak sekali-kali diperlukan untuk aplikasi biasa."</string>
+    <string name="permlab_batteryStats">"ubah suai statistik bateri"</string>
+    <string name="permdesc_batteryStats">"Membenarkan pengubahsuaian statistik bateri yang dikumpulkan. Bukan untuk kegunaan biasa aplikasi."</string>
+    <string name="permlab_backup">"sandaran dan pemulihan sistem kawalan"</string>
+    <string name="permdesc_backup">"Membenarkan aplikasi mengawal mekanisme sandaran dan pemulihan sistem. Bukan untuk kegunaan aplikasi biasa."</string>
+    <string name="permlab_internalSystemWindow">"memapaparkan tetingkap yang tiada kebenaran"</string>
+    <string name="permdesc_internalSystemWindow">"Membenarkan pewujudan tetingkap yang dimaksudkan untuk digunakan oleh antara muka pengguna sistem dalaman. Bukan untuk kegunaan oleh aplikasi biasa."</string>
+    <string name="permlab_systemAlertWindow">"paparkan amaran peringkat sistem"</string>
+    <string name="permdesc_systemAlertWindow">"Membenarkan aplikasi menunjukkan tetingkap amaran sistem. Aplikasi berniat jahat boleh mengambil alih keseluruhan skrin."</string>
+    <string name="permlab_setAnimationScale">"mengubah suai kelajuan animasi global"</string>
+    <string name="permdesc_setAnimationScale">"Membenarkan aplikasi menukar kelajuan animasi global (animasi yang lebih laju atau lebih perlahan) pada bila-bila masa sahaja."</string>
+    <string name="permlab_manageAppTokens">"urus token aplikasi"</string>
+    <string name="permdesc_manageAppTokens">"Membenarkan aplikasi membuat dan mengurus tokennya sendiri, memintas tertib-Z yang biasa. Seharusnya tidak sekali-kali diperlukan untuk aplikasi biasa."</string>
+    <string name="permlab_injectEvents">"menekan kekunci dan butang kawalan"</string>
+    <string name="permdesc_injectEvents">Membenarkan aplikasi menyampaikan acara inputnya sendiri (tekan kekunci, dll.) kepada lain-lain aplikasi. Aplikasi berniat jahat boleh menggunakannya untuk mengambil alih telefon.</string>
+    <string name="permlab_readInputState">"rakam apa yang anda taipkan dan tindakan yang anda ambil"</string>
+    <string name="permdesc_readInputState">"Membenarkan aplikasi melihat kekunci yang anda tekan walaupun semasa berinteraksi dengan aplikasi lain (seperti memasukkan kata laluan). Seharusnya tidak sekali-kali diperlukan untuk aplikasi biasa."</string>
+    <string name="permlab_bindInputMethod">"terikat kepada kaedah input"</string>
+    <string name="permdesc_bindInputMethod">"Membenarkan pemegang terikat dengan antara muka peringkat tertinggi bagi kaedah input itu. Tidak sekali-kali diperlukan untuk aplikasi biasa."</string>
+    <string name="permlab_bindWallpaper">"terikat pada kertas dinding"</string>
+    <string name="permdesc_bindWallpaper">"Membenarkan pemegang terikat dengan antara muka peringkat tertinggi bagi kertas dinding. Tidak sekali-kali diperlukan untuk aplikasi biasa."</string>
+    <string name="permlab_bindDeviceAdmin">"berinteraksi dengan pentadbir peranti"</string>
+    <string name="permdesc_bindDeviceAdmin">"Membenarkan pemegang menghantar tujuan kepada pentadbir peranti. Tidak sekali-kali diperlukan untuk aplikasi biasa."</string>
+    <string name="permlab_setOrientation">"tukar orientasi skrin"</string>
+    <string name="permdesc_setOrientation">"Membolehkan aplikasi untuk menukar putaran skrin pada bila-bila masa. Tidak seharusnya diperlukan untuk aplikasi biasa."</string>
+    <string name="permlab_signalPersistentProcesses">"hantar isyarat Linux kepada aplikasi"</string>
+    <string name="permdesc_signalPersistentProcesses">"Membenarkan aplikasi meminta isyarat yang dibekalkan dihantar kepada semua proses gigih."</string>
+    <string name="permlab_persistentActivity">"buatkan aplikasi sentiasa berjalan"</string>
+    <string name="permdesc_persistentActivity">"Membenarkan aplikasi menjadikan sebahagian dirinya gigih supaya sistem tidak boleh menggunakannya untuk aplikasi lain."</string>
+    <string name="permlab_deletePackages">"hapuskan aplikasi"</string>
+    <string name="permdesc_deletePackages">"Membenarkan aplikasi memadamkan pakej Android. Aplikasi berniat jahat boleh menggunakannya untuk memadamkan aplikasi penting."</string>
+    <string name="permlab_clearAppUserData">"menghapuskan data aplikasi lain"</string>
+    <string name="permdesc_clearAppUserData">"Membenarkan aplikasi memadam bersih data pengguna."</string>
+    <string name="permlab_deleteCacheFiles">"menghapuskan cache aplikasi lain"</string>
+    <string name="permdesc_deleteCacheFiles">"Membenarkan aplikasi memadamkan fail cache."</string>
+    <string name="permlab_getPackageSize">"ukur ruang storan aplikasi"</string>
+    <string name="permdesc_getPackageSize">"Membenarkan aplikasi mendapatkan semula kodnya, datanya dan saiz cachenya"</string>
+    <string name="permlab_installPackages">"pasang aplikasi secara langsung"</string>
+    <string name="permdesc_installPackages">"Membenarkan aplikasi memasang pakej Android yang baru atau yang dikemas kini. Aplikasi berniat jahat boleh menggunakannya untuk menambah aplikasi dengan sewenang-wenangnya."</string>
+    <string name="permlab_clearAppCache">"hapuskan semua data cache aplikasi"</string>
+    <string name="permdesc_clearAppCache">Membenarkan aplikasi mengosongkan storan telefon dengan memadamkan fail di dalam direktori cache aplikasi. Akses sangat terhad, biasanya untuk proses sistem.</string>
+    <string name="permlab_movePackage">"Alihkan sumber aplikasi"</string>
+    <string name="permdesc_movePackage">"Membenarkan aplikasi untuk mengalihkan sumber aplikasi dari media dalaman ke media luaran dan sebaliknya."</string>
+    <string name="permlab_readLogs">"baca data log sensitif"</string>
+    <string name="permdesc_readLogs">Membenarkan aplikasi membaca daripada pelbagai fail log sistem. Langkah ini membenarkannya mendapatkan maklumat am tentang apa yang anda lakukan dengan telefon, tetapi ia tidak sepatutnya mengandungi sebarang maklumat sulit atau peribadi.</string>
+    <string name="permlab_diagnostic">"baca/tulis ke sumber yang dimiliki oleh diag"</string>
+    <string name="permdesc_diagnostic">"Membenarkan aplikasi membaca dan menulis ke sebarang sumber yang dimiliki oleh kumpulan diag; contohnya, fail dalam /dev. Hal ini berpotensi untuk menjejaskan kestabilan dan keselamatan sistem. Perkara ini harus hanya digunakan untuk diagnosis khusus per</string>
+    <string name="permlab_changeComponentState">"dayakan atau lumpuhkan komponen aplikasi"</string>
+    <string name="permdesc_changeComponentState">Benarkan aplikasi mengubah sama ada komponen aplikasi lain dibolehkan atau tidak. Aplikasi berniat jahat boleh menggunakan kebenaran ini untuk melumpuhkan kebolehan penting telefon. Kebenaran mesti digunakan dengan berhati-hati, kerana komponen aplikasi boleh menjadi tidak boleh digunakan, tidak konsisten, atau tidak stabil.</string>
+    <string name="permlab_setPreferredApplications">"tetapkan aplikasi keutamaan"</string>
+    <string name="permdesc_setPreferredApplications">"Membenarkan aplikasi mengubah aplikasi keutamaan anda. Hal ini boleh membenarkan aplikasi berniat jahat mengubah aplikasi yang sedang dijalankan secara senyap-senyap, menipu aplikasi sedia ada bagi mengumpul data peribadi daripada anda."</string>
+    <string name="permlab_writeSettings">"mengubah suai tetapan sistem global"</string>
+    <string name="permdesc_writeSettings">"Membolehkan aplikasi mengubah suai data tetapan sistem. Aplikasi berniat jahat boleh merosakkan konfigurasi sistem anda."</string>
+    <string name="permlab_writeSecureSettings">"ubah suai tetapan sistem selamat"</string>
+    <string name="permdesc_writeSecureSettings">"Membenarkan aplikasi mengubah suai data tetapan selamat sistem. Bukan untuk kegunaan aplikasi biasa."</string>
+    <string name="permlab_writeGservices">"mengubah suai peta perkhidmatan Google"</string>
+    <string name="permdesc_writeGservices">"Membolehkan aplikasi untuk mengubah suai peta perkhidmatan Google. Bukan untuk digunakan oleh aplikasi biasa."</string>
+    <string name="permlab_receiveBootCompleted">"mulakan secara automatik semasa but"</string>
+    <string name="permdesc_receiveBootCompleted">Membenarkan aplikasi memulakan dirinya sebaik sahaja sistem selesai membut. Langkah ini boleh menyebabkan telefon lambat hidup dan membenarkan aplikasi memperlahankan keseluruhan telefon dengan sentiasa beroperasi.</string>
+    <string name="permlab_broadcastSticky">"hantar siaran lekit"</string>
+    <string name="permdesc_broadcastSticky">Membenarkan aplikasi menghantar siaran melekit, yang akan kekal selepas siaran tamat. Aplikasi berniat jahat boleh menyebabkan telefon menggunakan terlalu banyak memori, lalu menjadikannya perlahan atau tidak stabil.</string>
+    <string name="permlab_readContacts">"baca data kenalan"</string>
+    <string name="permdesc_readContacts">Membenarkan aplikasi membaca semua data kenalan (alamat) yang disimpan di dalam telefon anda. Aplikasi berniat jahat boleh menggunakannya untuk menghantar data anda kepada orang lain.</string>
+    <string name="permlab_writeContacts">"tulis data kenalan"</string>
+    <string name="permdesc_writeContacts">Membenarkan aplikasi mengubah suai data kenalan (alamat) yang disimpan di dalam telefon anda. Aplikasi berniat jahat boleh menggunakannya untuk memadamkan atau mengubah suai data kenalan anda.</string>
+    <string name="permlab_readCalendar">"baca acara kalendar serta maklumat sulit"</string>
+    <string name="permdesc_readCalendar">Membenarkan aplikasi membaca semua acara kalendar yang disimpan di dalam telefon anda. Aplikasi berniat jahat boleh menggunakannya untuk menghantar acara kalendar anda kepada orang lain.</string>
+    <string name="permlab_writeCalendar">"tambah atau ubah suai acara kalendar dan hantar e-mel kepada tetamu tanpa pengetahuan pemilik"</string>
+    <string name="permdesc_writeCalendar">"Membenarkan aplikasi menghantar jemputan acara sebagai pemilik kalendar dan menambah, mengalih keluar serta menukar acara yang anda boleh ubah suai pada peranti anda, termasuk acara rakan atau rakan sekerja anda. Aplikasi berniat jahat dengan kebenaran ini boleh menghantar e-mel spam yang kelihatan seperti dihantar oleh pemilik kalendar, mengubah suai acara tanpa pengetahuan pemilik atau menambah acara palsu."</string>
+    <string name="permlab_accessMockLocation">"gunakan sumber lokasi olok-olok untuk pengujian"</string>
+    <string name="permdesc_accessMockLocation">"Membuat sumber lokasi olok-olok untuk pengujian. Aplikasi berniat jahat boleh menggunakannya untuk menolak lokasi dan/atau status yang dikembalikan oleh sumber lokasi sebenar seperti pembekal GPS atau Rangkaian."</string>
+    <string name="permlab_accessLocationExtraCommands">"akses perintah tambahan pembekal lokasi"</string>
+    <string name="permdesc_accessLocationExtraCommands">"Mengakses perintah tambahan pembekal lokasi. Aplikasi berniat jahat boleh menggunakannya untuk mengganggu pengendalian GPS atau sumber lokasi lain."</string>
+    <string name="permlab_installLocationProvider">"kebenaran untuk memasang pembekal lokasi"</string>
+    <string name="permdesc_installLocationProvider">"Wujudkan sumber lokasi olokan untuk ujian. Aplikasi berniat jahat boleh menggunakannya untuk mengatasi lokasi dan/atau status yang dikembalikan oleh sumber lokasi sebenar seperti GPS atau pembekal Rangkaian atau memantau dan melaporkan lokasi anda kepada</string>
+    <string name="permlab_accessFineLocation">"perhalusi lokasi (GPS)"</string>
+    <string name="permdesc_accessFineLocation">Mengakses sumber lokasi terperinci seperti Sistem Kedudukan Sejagat di dalam telefon, di mana boleh. Aplikasi berniat jahat boleh menggunakannya untuk menentukan di mana anda berada dan boleh menggunakan kuasa bateri tambahan.</string>
+    <string name="permlab_accessCoarseLocation">"lokasi kasar (berasaskan rangkaian)"</string>
+    <string name="permdesc_accessCoarseLocation">Mengakses sumber lokasi kasar seperti pangkalan data rangkaian mudah alih untuk menentukan anggaran lokasi telefon, di mana boleh. Aplikasi berniat jahat boleh menggunakannya untuk menentukan di mana anda berada secara kasar.</string>
+    <string name="permlab_accessSurfaceFlinger">"akses SurfaceFlinger"</string>
+    <string name="permdesc_accessSurfaceFlinger">"Membenarkan aplikasi menggunakan ciri peringkat rendah SurfaceFlinger."</string>
+    <string name="permlab_readFrameBuffer">"baca penimbal bingkai"</string>
+    <string name="permdesc_readFrameBuffer">"Membenarkan aplikasi membaca kandungan penimbal bingkai."</string>
+    <string name="permlab_modifyAudioSettings">"tukar tetapan audio anda"</string>
+    <string name="permdesc_modifyAudioSettings">"Membenarkan aplikasi mengubah suai tetapan audio global seperti kelantangan dan penghalaan."</string>
+    <string name="permlab_recordAudio">"rakam audio"</string>
+    <string name="permdesc_recordAudio">"Membenarkan aplikasi mengakses laluan rakaman audio"</string>
+    <string name="permlab_camera">"ambil gambar dan video"</string>
+    <string name="permdesc_camera">"Membenarkan aplikasi mengambil gambar dan video dengan kamera. Hal ini membenarkan aplikasi mengumpul imej yang dilihat kamera pada bila-bila masa sahaja."</string>
+    <string name="permlab_brick">lumpuhkan telefon selama-lamanya</string>
+    <string name="permdesc_brick">Membenarkan aplikasi melumpuhkan keseluruhan telefon buat selama-lamanya. Ini sangat berbahaya.</string>
+    <string name="permlab_reboot">paksa but semula telefon</string>
+    <string name="permdesc_reboot">Membenarkan aplikasi memaksa telefon untuk but semula.</string>
+    <string name="permlab_mount_unmount_filesystems">"melekapkan dan menyahlekapkan sistem fail"</string>
+    <string name="permdesc_mount_unmount_filesystems">"Membenarkan aplikasi melekapkan dan menyahlekapkan sistem fail untuk storan boleh tanggal."</string>
+    <string name="permlab_mount_format_filesystems">"format storan luaran"</string>
+    <string name="permdesc_mount_format_filesystems">"Membenarkan aplikasi memformat storan boleh tanggal."</string>
+    <string name="permlab_asec_access">"dapatkan maklumat tentang storan dalaman"</string>
+    <string name="permdesc_asec_access">"Membenarkan aplikasi mendapatkan maklumat pada storan dalaman."</string>
+    <string name="permlab_asec_create">"buat storan dalaman"</string>
+    <string name="permdesc_asec_create">"Membenarkan aplikasi membuat storan dalaman."</string>
+    <string name="permlab_asec_destroy">"memusnahkan storan dalaman"</string>
+    <string name="permdesc_asec_destroy">"Membenarkan aplikasi memusnahkan storan dalaman."</string>
+    <string name="permlab_asec_mount_unmount">"lekap / nyahlekap storan dalaman"</string>
+    <string name="permdesc_asec_mount_unmount">"Membenarkan aplikasi melekapkan / menyahlekapkan storan dalaman."</string>
+    <string name="permlab_asec_rename">"namakan semula storan dalaman"</string>
+    <string name="permdesc_asec_rename">"Membenarkan aplikasi menamakan semula storan dalaman."</string>
+    <string name="permlab_vibrate">"kawal penggetar"</string>
+    <string name="permdesc_vibrate">"Membenarkan aplikasi mengawal penggetar."</string>
+    <string name="permlab_flashlight">"mengawal lampu suluh"</string>
+    <string name="permdesc_flashlight">"Membenarkan aplikasi mengawal lampu suluh."</string>
+    <string name="permlab_manageUsb">uruskan pilihan dan kebenaran untuk peranti USB</string>
+    <string name="permdesc_manageUsb">Benarkan aplikasi menguruskan pilihan dan kebenaran untuk peranti USB.</string>
+    <string name="permlab_hardware_test">"uji perkakasan"</string>
+    <string name="permdesc_hardware_test">"Membenarkan aplikasi mengawal pelbagai persisian untuk tujuan pengujian perkakasan."</string>
+    <string name="permlab_callPhone">"panggil terus nombor telefon"</string>
+    <string name="permdesc_callPhone">"Membenarkan aplikasi memanggil nombor telefon tanpa campur tangan anda. Aplikasi berniat jahat boleh menyebabkan panggilan yang tidak dijangka tersenarai dalam bil telefon anda. Ambil perhatian bahawa hal ini tidak membenarkan aplikasi memanggil nombor kecemasan."</string>
+    <string name="permlab_callPrivileged">"panggil terus sebarang nombor telefon"</string>
+    <string name="permdesc_callPrivileged">"Membenarkan aplikasi memanggil sebarang nombor telefon, termasuk nombor kecemasan, tanpa campur tangan anda. Aplikasi berniat jahat boleh membuat panggilan yang tidak perlu serta tanpa izin ke perkhidmatan kecemasan."</string>
+    <string name="permlab_performCdmaProvisioning">mulakan penyediaan telefon CDMA secara langsung</string>
+    <string name="permdesc_performCdmaProvisioning">"Membenarkan aplikasi memulakan peruntukan CDMA. Aplikasi berniat jahat boleh memulakan peruntukan CDMA yang tidak perlu"</string>
+    <string name="permlab_locationUpdates">"kawal pemberitahuan kemas kini lokasi"</string>
+    <string name="permdesc_locationUpdates">"Membenarkan pemberitahuan kemas kini lokasi didayakan/dilumpuhkan dari radio. Bukan untuk digunakan oleh aplikasi biasa."</string>
+    <string name="permlab_checkinProperties">"akses sifat daftar masuk"</string>
+    <string name="permdesc_checkinProperties">"Membenarkan akses baca/tulis kepada sifat yang dimuat naik oleh perkhidmatan daftar masuk. Bukan untuk kegunaan aplikasi biasa."</string>
+    <string name="permlab_bindGadget">"pilih widget"</string>
+    <string name="permdesc_bindGadget">"Membenarkan aplikasi memberitahu sistem widget yang mana boleh digunakan oleh aplikasi yang mana. Dengan kebenaran ini, aplikasi boleh memberikan akses kepada data peribadi kepada aplikasi lain. Bukan untuk digunakan oleh aplikasi biasa."</string>
+    <string name="permlab_modifyPhoneState">"ubah suai keadaan telefon"</string>
+    <string name="permdesc_modifyPhoneState">"Membenarkan aplikasi mengawal ciri telefon peranti. Aplikasi dengan kebenaran ini boleh bertukar rangkaian, menghidupkan dan mematikan radio telefon serta perkara-perkara sepertinya tanpa sekali-kali memberitahu anda."</string>
+    <string name="permlab_readPhoneState">"baca keadaan dan identiti telefon"</string>
+    <string name="permdesc_readPhoneState">"Membenarkan aplikasi mengakses ciri telefon peranti. Aplikasi dengan kebenaran ini boleh menentukan nombor telefon dan nombor siri telefon ini, sama ada panggilan aktif ataupun tidak, nombor yang disambungkan dan yang seumpamanya."</string>
+    <string name="permlab_wakeLock">cegah telefon daripada tidur</string>
+    <string name="permdesc_wakeLock">Membenarkan aplikasi mencegah telefon daripada tidur.</string>
+    <string name="permlab_devicePower">hidupkan atau matikan telefon</string>
+    <string name="permdesc_devicePower">Membenarkan aplikasi menghidupkan atau mematikan telefon.</string>
+    <string name="permlab_factoryTest">"jalankan dalam mod ujian kilang"</string>
+    <string name="permdesc_factoryTest">Beroperasi sebagai ujian pengeluar tahap rendah, membenarkan akses penuh ke perkakasan telefon. Hanya boleh didapati apabila telefon beroperasi dalam mod ujian pengeluar.</string>
+    <string name="permlab_setWallpaper">"tetapkan kertas dinding"</string>
+    <string name="permdesc_setWallpaper">"Membenarkan aplikasi menetapkan kertas dinding sistem"</string>
+    <string name="permlab_setWallpaperHints">"tetapkan pembayang saiz kertas dinding"</string>
+    <string name="permdesc_setWallpaperHints">"Membenarkan aplikasi menetapkan saiz kertas dinding sistem kepada saiz pembayang."</string>
+    <string name="permlab_masterClear">"menetapkan semula sistem kepada lalai kilang"</string>
+    <string name="permdesc_masterClear">"Membenarkan aplikasi menetapkan semula sistem sepenuhnya kepada tetapan kilang, memadam semua data, konfigurasi dan aplikasi yang dipasang."</string>
+    <string name="permlab_setTime">"tetapkan masa"</string>
+    <string name="permdesc_setTime">Membenarkan aplikasi menukar masa jam telefon.</string>
+    <string name="permlab_setTimeZone">"tetapkan zon waktu"</string>
+    <string name="permdesc_setTimeZone">Membenarkan aplikasi menukar zon masa telefon.</string>
+    <string name="permlab_accountManagerService">"bertindak sebagai PerkhidmatanPengurusAkaun"</string>
+    <string name="permdesc_accountManagerService">"Membenarkan aplikasi membuat panggilan ke PengesahAkaun"</string>
+    <string name="permlab_getAccounts">"menemui akaun yang diketahui"</string>
+    <string name="permdesc_getAccounts">Membenarkan aplikasi mendapatkan senarai akaun yang diketahui melalui telefon.</string>
+    <string name="permlab_authenticateAccounts">"sebagai pengesah akaun"</string>
+    <string name="permdesc_authenticateAccounts">"Membenarkan aplikasi menggunakan kebolehan pengesah akaun Pengurus Akaun, termasuk membuat akaun dan mendapatkan serta menetapkan kata laluannya."</string>
+    <string name="permlab_manageAccounts">"urus senarai akaun"</string>
+    <string name="permdesc_manageAccounts">"Membenarkan aplikasi melaksanakan pengendalian seperti menambah dan mengalih keluar akaun dan memadamkan kata laluannya."</string>
+    <string name="permlab_useCredentials">"menggunakan bukti kelayakan pengesahan akaun"</string>
+    <string name="permdesc_useCredentials">"Membenarkan aplikasi meminta token pengesahan."</string>
+    <string name="permlab_accessNetworkState">"lihat keadaan rangkaian"</string>
+    <string name="permdesc_accessNetworkState">"Membenarkan aplikasi melihat keadaan semua rangkaian."</string>
+    <string name="permlab_createNetworkSockets">"akses penuh Internet"</string>
+    <string name="permdesc_createNetworkSockets">"Membenarkan aplikasi membuat soket rangkaian."</string>
+    <string name="permlab_writeApnSettings">tetapan tulis Nama Titik Akses</string>
+    <string name="permdesc_writeApnSettings">"Membenarkan sesuatu aplikasi menukar tetapan rangkaian dan untuk memintas dan memeriksa semua lalu lintas rangkaian, contohnya untuk menukar proksi dan port mana-mana APN. Aplikasi berniat jahat boleh mengawasi, mengubah hala atau mengubah suai paket rangkaian tanpa pengetahuan anda."</string>
+    <string name="permlab_changeNetworkState">"tukar kesambungan rangkaian"</string>
+    <string name="permdesc_changeNetworkState">"Membenarkan aplikasi menukar keadaan kesambungan rangkaian."</string>
+    <string name="permlab_changeTetherState">"Tukar kesambungan bertambat"</string>
+    <string name="permdesc_changeTetherState">"Membenarkan aplikasi menukar keadaan kesambungan rangkaian tambatan."</string>
+    <string name="permlab_changeBackgroundDataSetting">"tukar tetapan penggunaan data latar belakang"</string>
+    <string name="permdesc_changeBackgroundDataSetting">"Membenarkan aplikasi menukar tetapan penggunaan data latar belakang."</string>
+    <string name="permlab_accessWifiState">"lihat keadaan Wi-Fi"</string>
+    <string name="permdesc_accessWifiState">"Membolehkan aplikasi melihat maklumat mengenai keadaan Wi-Fi."</string>
+    <string name="permlab_changeWifiState">"ubah keadaan Wi-Fi"</string>
+    <string name="permdesc_changeWifiState">"Membenarkan aplikasi menyambung ke dan memutuskan sambungan dari titik capaian Wi-Fi dan membuat perubahan pada rangkaian Wi-Fi yang telah dikonfigurasikan."</string>
+    <string name="permlab_changeWifiMulticastState">"benarkan penerimaan Wi-Fi Multisiar"</string>
+    <string name="permdesc_changeWifiMulticastState">"Membenarkan aplikasi menerima bingkisan yang tidak ditujukan secara langsung ke peranti anda. Hal ini boleh menjadi berguna apabila menemui perkhidmatan yang ditawarkan di kawasan berdekatan. Ia menggunakan lebih banyak kuasa daripada mod bukan multisiar."</string>
+    <string name="permlab_accessWimaxState">lihat keadaan WiMAX</string>
+    <string name="permdesc_accessWimaxState">Benarkan aplikasi melihat maklumat tentang keadaan WiMAX.</string>
+    <string name="permlab_changeWimaxState">tukar keadaan WiMAX</string>
+    <string name="permdesc_changeWimaxState">Benarkan aplikasi menyambung dan memutuskan sambungan rangkaian WiMAX.</string>
+    <string name="permlab_bluetoothAdmin">"pentadbiran bluetooth"</string>
+    <string name="permdesc_bluetoothAdmin">Benarkan aplikasi mengkonfigurasi telefon Bluetooth setempat, dan untuk mencari dan berpasang dengan peranti jauh.</string>
+    <string name="permlab_bluetooth">"buat sambungan Bluetooth"</string>
+    <string name="permdesc_bluetooth">Membenarkan aplikasi melihat konfigurasi telefon Bluetooth setempat dan membuat serta menerima sambungan dengan peranti berpasangan.</string>
+    <string name="permlab_nfc">kawal Komunikasi Lapangan Hampir</string>
+    <string name="permdesc_nfc">Benarkan aplikasi berkomunikasi dengan teg, kad dan pembaca Komunikasi Lapangan Hampir (NFC).</string>
+    <string name="permlab_disableKeyguard">"lumpuhkan kunci kekunci"</string>
+    <string name="permdesc_disableKeyguard">"Membenarkan aplikasi melumpuhkan kunci kekunci anda dan sebarang keselamatan kata laluan yang berkaitan. Contoh yang berkaitan adalah telefon melumpuhkan kunci kekunci apabila menerima panggilan telefon masuk kemudian mendayakan semula kunci kekunci apab</string>
+    <string name="permlab_readSyncSettings">"membaca tetapan penyegerakan"</string>
+    <string name="permdesc_readSyncSettings">"Membenarkan aplikasi membaca tetapan penyegerakan seperti sama ada penyegerakan didayakan untuk Kenalan."</string>
+    <string name="permlab_writeSyncSettings">"tulis tetapan penyegerakan"</string>
+    <string name="permdesc_writeSyncSettings">"Membenarkan aplikasi mengubah suai tetapan penyegerakan, seperti sama ada penyegerakan didayakan untuk Kenalan ataupun tidak."</string>
+    <string name="permlab_readSyncStats">"baca statistik penyegerakan"</string>
+    <string name="permdesc_readSyncStats">"Membenarkan aplikasi membaca statistik penyegerakan; mis., sejarah penyegerakan yang telah berlaku."</string>
+    <string name="permlab_subscribedFeedsRead">"baca suapan langganan"</string>
+    <string name="permdesc_subscribedFeedsRead">"Membenarkan aplikasi mendapatkan butiran mengenai suapan yang disegerakkan pada masa ini."</string>
+    <string name="permlab_subscribedFeedsWrite">"tulis suapan yang dilanggan"</string>
+    <string name="permdesc_subscribedFeedsWrite">"Membenarkan aplikasi mengubah suai suapan tersegerak semasa anda. Hal ini membenarkan aplikasi berniat jahat mengubah suapan tersegerak anda."</string>
+    <string name="permlab_readDictionary">"baca kamus ditakrifkan pengguna"</string>
+    <string name="permdesc_readDictionary">"Membenarkan aplikasi membaca sebarang kata-kata peribadi, nama dan frasa yang mungkin telah disimpan oleh pengguna dalam kamus pengguna."</string>
+    <string name="permlab_writeDictionary">"tulis ke kamus yang ditakrifkan pengguna"</string>
+    <string name="permdesc_writeDictionary">"Membenarkan aplikasi menulis perkataan baru ke dalam kamus pengguna."</string>
+    <string name="permlab_sdcardWrite" product="nosdcard">ubah suai/hapuskan kandungan storan USB</string>
+    <string name="permlab_sdcardWrite" product="default">ubah suai/hapuskan kandungan kad SD</string>
+    <string name="permdesc_sdcardWrite" product="nosdcard">Benarkan aplikasi menulis ke storan USB.</string>
+    <string name="permdesc_sdcardWrite" product="default">Benarkan aplikasi menulis ke kad SD.</string>
+    <string name="permlab_cache_filesystem">"akses sistem fail cache"</string>
+    <string name="permdesc_cache_filesystem">"Membenarkan aplikasi membaca dan menulis cache sistem fail."</string>
+    <string name="permlab_use_sip">membuat/menerima panggilan Internet</string>
+    <string name="permdesc_use_sip">Benarkan aplikasi menggunakan perkhidmatan SIP untuk membuat/menerima panggilan Internet.</string>
+    <string name="policylab_limitPassword">"Tetapkan peraturan kata laluan"</string>
+    <string name="policydesc_limitPassword">"Mengawal panjang dan aksara yang dibenarkan dalam kata laluan buka kunci skrin"</string>
+    <string name="policylab_watchLogin">"Memantau percubaan buka kunci skrin"</string>
+    <string name="policydesc_watchLogin">Pantau percubaan log masuk ke peranti yang gagal, untuk melakukan tindakan.</string>
+    <string name="policylab_resetPassword">Set semula kata laluan</string>
+    <string name="policydesc_resetPassword">Untuk memaksa kata laluan anda ke nilai baru memerlukan pentadbir memberikannya kepada anda sebelum anda boleh log masuk.</string>
+    <string name="policylab_forceLock">"Paksa kunci"</string>
+    <string name="policydesc_forceLock">"Mengawal bagaimana dan bila skrin dikunci"</string>
+    <string name="policylab_wipeData">"Padamkan semua data"</string>
+    <string name="policydesc_wipeData">Laksanakan set semula kilang, menghapuskan semua data anda tanpa sebarang pengesahan.</string>
+    <string-array name="phoneTypes">
+        <item>Rumah</item>
+        <item>"Mudah Alih"</item>
+        <item>"Kerja"</item>
+        <item>"Faks Kerja"</item>
+        <item>"Faks Rumah"</item>
+        <item>"Alat kelui"</item>
+        <item>"Lain-lain"</item>
+        <item>Peribadi</item>
+    </string-array>
+    <string-array name="emailAddressTypes">
+        <item>Rumah</item>
+        <item>"Kerja"</item>
+        <item>"Lain-lain"</item>
+        <item>Peribadi</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Rumah</item>
+        <item>"Kerja"</item>
+        <item>"Lain-lain"</item>
+        <item>Peribadi</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Rumah</item>
+        <item>"Kerja"</item>
+        <item>"Lain-lain"</item>
+        <item>Peribadi</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>"Kerja"</item>
+        <item>"Lain-lain"</item>
+        <item>Peribadi</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>"AIM"</item>
+        <item>"Windows Live"</item>
+        <item>Yahoo</item>
+        <item>"Skype"</item>
+        <item>"QQ"</item>
+        <item>"Bual Google"</item>
+        <item>"ICQ"</item>
+        <item>"Jabber"</item>
+    </string-array>
+    <string name="phoneTypeCustom">Peribadi</string>
+    <string name="phoneTypeHome">Rumah</string>
+    <string name="phoneTypeMobile">"Mudah Alih"</string>
+    <string name="phoneTypeWork">"Kerja"</string>
+    <string name="phoneTypeFaxWork">"Faks Kerja"</string>
+    <string name="phoneTypeFaxHome">"Faks Rumah"</string>
+    <string name="phoneTypePager">"Alat kelui"</string>
+    <string name="phoneTypeOther">"Lain-lain"</string>
+    <string name="phoneTypeCallback">"Panggil balik"</string>
+    <string name="phoneTypeCar">"Kereta"</string>
+    <string name="phoneTypeCompanyMain">"Nombor Utama Syarikat"</string>
+    <string name="phoneTypeIsdn">"ISDN"</string>
+    <string name="phoneTypeMain">"Utama"</string>
+    <string name="phoneTypeOtherFax">"Faks Lain"</string>
+    <string name="phoneTypeRadio">"Radio"</string>
+    <string name="phoneTypeTelex">"Teleks"</string>
+    <string name="phoneTypeTtyTdd">"TTY TDD"</string>
+    <string name="phoneTypeWorkMobile">"Telefon Mudah Alih Kerja"</string>
+    <string name="phoneTypeWorkPager">"Alat Kelui Kerja"</string>
+    <string name="phoneTypeAssistant">"Pembantu"</string>
+    <string name="phoneTypeMms">"MMS"</string>
+    <string name="eventTypeBirthday">"Hari Lahir"</string>
+    <string name="eventTypeAnniversary">Ulang tahun</string>
+    <string name="eventTypeOther">Peristiwa</string>
+    <string name="emailTypeCustom">Peribadi</string>
+    <string name="emailTypeHome">Rumah</string>
+    <string name="emailTypeWork">"Kerja"</string>
+    <string name="emailTypeOther">"Lain-lain"</string>
+    <string name="emailTypeMobile">"Mudah Alih"</string>
+    <string name="postalTypeCustom">Peribadi</string>
+    <string name="postalTypeHome">Rumah</string>
+    <string name="postalTypeWork">"Kerja"</string>
+    <string name="postalTypeOther">"Lain-lain"</string>
+    <string name="imTypeCustom">Peribadi</string>
+    <string name="imTypeHome">Rumah</string>
+    <string name="imTypeWork">"Kerja"</string>
+    <string name="imTypeOther">"Lain-lain"</string>
+    <string name="imProtocolCustom">Peribadi</string>
+    <string name="imProtocolAim">"AIM"</string>
+    <string name="imProtocolMsn">"Windows Live"</string>
+    <string name="imProtocolYahoo">Yahoo</string>
+    <string name="imProtocolSkype">"Skype"</string>
+    <string name="imProtocolQq">"QQ"</string>
+    <string name="imProtocolGoogleTalk">"Bual Google"</string>
+    <string name="imProtocolIcq">"ICQ"</string>
+    <string name="imProtocolJabber">"Jabber"</string>
+    <string name="imProtocolNetMeeting">"NetMeeting"</string>
+    <string name="orgTypeWork">"Kerja"</string>
+    <string name="orgTypeOther">"Lain-lain"</string>
+    <string name="orgTypeCustom">Peribadi</string>
+    <string name="sipAddressTypeCustom">Diperibadikan</string>
+    <string name="sipAddressTypeHome">Laman Utama</string>
+    <string name="sipAddressTypeWork">Kerja</string>
+    <string name="sipAddressTypeOther">Lain-lain</string>
+    <string name="contact_status_update_attribution">melalui <xliff:g id="source" example="Google Talk">%1$s</xliff:g></string>
+    <string name="contact_status_update_attribution_with_date"><xliff:g id="date" example="3 hours ago">%1$s</xliff:g> melalui <xliff:g id="source" example="Google Talk">%2$s</xliff:g></string>
+    <string name="keyguard_password_enter_pin_code">"Masukkan kod PIN"</string>
+    <string name="keyguard_password_enter_password_code">"Masukkan kata laluan untuk membuka kunci"</string>
+    <string name="keyguard_password_wrong_pin_code">"Kod PIN salah!"</string>
+    <string name="pinpuk_attempts">\n Baki Bilangan Percubaan:</string>
+    <string name="keyguard_label_text">"Untuk membuka kunci, tekan Menu, kemudian 0."</string>
+    <string name="emergency_call_dialog_number_for_display">"Nombor kecemasan"</string>
+    <string name="lockscreen_sim_network_subset_locked_message">Telefon dikunci Subset Rangkaian SIM</string>
+    <string name="lockscreen_sim_corporate_locked_message">Telefon dikunci Korporat SIM</string>
+    <string name="lockscreen_sim_service_provider_locked_message">Telefon dikunci Pembekal Khidmat SIM</string>
+    <string name="lockscreen_sim_sim_locked_message">Telefon dikunci SIM</string>
+    <string name="lockscreen_ruim_network1_locked_message">Telefon dikunci Rangkaian1 RUIM</string>
+    <string name="lockscreen_ruim_network2_locked_message">Telefon dikunci Rangkaian2 RUIM</string>
+    <string name="lockscreen_ruim_hrpd_locked_message">Telefon dikunci hrpd RUIM</string>
+    <string name="lockscreen_ruim_corporate_locked_message">Telefon dikunci Korporat RUIM</string>
+    <string name="lockscreen_ruim_service_provider_locked_message">Telefon dikunci Pembekal Khidmat RUIM</string>
+    <string name="lockscreen_ruim_ruim_locked_message">Telefon dikunci RUIM</string>
+    <string name="lockscreen_sim_error_message">Kad SIM tidak sah.</string>
+    <string name="lockscreen_pin_locked_message">Kad SIM/RUIM dikunci.</string>
+    <string name="lockscreen_sim_error_message_short">Kad Tidak Sah.</string>
+    <string name="lockscreen_sim_network_locked_message">Telefon dikunci Rangkaian SIM</string>
+    <string name="lockscreen_ruim_puk_locked_message">Kad RUIM dikunci PUK.</string>
+    <string name="lockscreen_ruim_puk_locked_instructions">PIN1 Disekat. Masukkan PUK1 untuk nyahsekat PIN1.\nATAU\nSila lihat Panduan Pengguna\hubungi Khidmat Pelanggan.</string>
+    <string name="lockscreen_missing_ruim_message">Tiada kad RUIM di dalam telefon.</string>
+    <string name="lockscreen_missing_ruim_instructions">Sila masukkan kad RUIM.</string>
+    <string name="lockscreen_ruim_error_message">Kad RUIM Tidak Sah.</string>
+    <string name="lockscreen_missing_ruim_message_short">Tiada kad RUIM.</string>
+    <string name="lockscreen_blocked_ruim_message_short">Kad RUIM disekat.</string>
+    <string name="lockscreen_ruim_error_message_short">Kad Tidak Sah.</string>
+    <string name="lockscreen_ruim_network_locked_message">Network dikunci</string>
+    <string name="sim1_puk_requried">PIN SIM1 disekat, Masukkan PUK untuk buka</string>
+    <string name="sim2_puk_requried">PIN SIM2 disekat, Masukkan PUK untuk buka</string>
+    <string name="sim_puk_requried">PIN SIM disekat, masukkan PUK untuk nyahsekat</string>
+    <string name="keyguard_password_enter_sim1_pin_code">Masukkan kod PIN SIM1</string>
+    <string name="keyguard_password_enter_sim2_pin_code">Masukkan kod PIN SIM2</string>
+    <string name="keyguard_password_enter_sim_pin_code">Masukkan kod PIN SIM</string>
+    <string name="keyguard_sim1_pin_accepted">Buka kunci Pin Sim1 Berjaya</string>
+    <string name="keyguard_sim2_pin_accepted">Buka kunci Pin Sim2 Berjaya</string>
+    <string name="keyguard_sim_pin_accepted">PIN SIM berjaya dibuka</string>
+    <string name="puk_accept">PUK diterima</string>
+    <string name="unblocking_fail">Buka sekatan gagal, masukkan semula PUK</string>
+    <string name="keyguard_password_wrong_puk_code">Kod PUK salah!</string>
+    <string name="new_pin">Masukkan PIN baru</string>
+    <string name="reenter">Masukkan semula PIN</string>
+    <string name="lockscreen_carrier_default">"Tiada perkhidmatan."</string>
+    <string name="lockscreen_screen_locked">"Skrin dikunci."</string>
+    <string name="lockscreen_instructions_when_pattern_enabled">"Tekan Menu untuk menyahsekat atau membuat panggilan kecemasan."</string>
+    <string name="lockscreen_instructions_when_pattern_disabled">"Tekan Menu untuk membuka kunci."</string>
+    <string name="lockscreen_pattern_instructions">"Lukiskan corak untuk membuka kunci"</string>
+    <string name="lockscreen_emergency_call">Panggilan kecemasan</string>
+    <string name="lockscreen_return_to_call">"Kembali ke panggilan"</string>
+    <string name="lockscreen_pattern_correct">"Betul!"</string>
+    <string name="lockscreen_pattern_wrong">"Maaf, cuba lagi"</string>
+    <string name="lockscreen_plugged_in">"Mengecas, (<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>)"</string>
+    <string name="lockscreen_charged">"Sudah dicas."</string>
+    <string name="lockscreen_battery_short">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="lockscreen_low_battery">"Sambungkan pengecas anda."</string>
+    <string name="lockscreen_missing_sim_message_short">"Tiada kad SIM."</string>
+    <string name="lockscreen_missing_sim_message">Tiada kad SIM di dalam telefon.</string>
+    <string name="lockscreen_missing_sim_instructions">"Sila masukkan kad SIM."</string>
+    <string name="lockscreen_blocked_sim_message_short">Kad SIM disekat.</string>
+    <string name="emergency_calls_only" msgid="2485604591272668370">Panggilan kecemasan sahaja</string>
+    <string name="lockscreen_network_locked_message">Network dikunci</string>
+    <string name="lockscreen_sim_puk_locked_message">"Kad SIM dikunci dengan PUK."</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Sila lihat Panduan Pengguna atau hubungi Penjagaan Pelanggan."</string>
+    <string name="lockscreen_sim_locked_message">"Kad SIM dikunci."</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">"Membuka kunci kad SIM..."</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">"Anda telah melukis corak buka kunci anda dengan salah sebanyak <xliff:g id="NUMBER_0">%d</xliff:g> kali. "\n\n"Sila cuba lagi dalam <xliff:g id="NUMBER_1">%d</xliff:g> saat."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">
+        Anda telah silap melukis corak buka kunci anda <xliff:g id="number">%d</xliff:g> kali.
+       Selepas <xliff:g id="number">%d</xliff:g> kali percubaan tidak berjaya lagi,
+       anda akan diminta membuka kunci telefon anda menggunakan daftar masuk Google anda.\n\n
+       Sila cuba lagi dalam <xliff:g id="number">%d</xliff:g> saat.
+    </string>
+    <string name="lockscreen_too_many_failed_attempts_countdown">"Cuba lagi dalam <xliff:g id="NUMBER">%d</xliff:g> saat."</string>
+    <string name="lockscreen_forgot_pattern_button_text">"Lupa corak?"</string>
+    <string name="lockscreen_glogin_forgot_pattern">"Buka akaun"</string>
+    <string name="lockscreen_glogin_too_many_attempts">"Terlalu banyak percubaan melukis corak!"</string>
+    <string name="lockscreen_glogin_instructions">"Untuk membuka kunci, log masuk dengan akaun Google anda"</string>
+    <string name="lockscreen_glogin_username_hint">"Nama Pengguna (E-mel)"</string>
+    <string name="lockscreen_glogin_password_hint">"Kata laluan"</string>
+    <string name="lockscreen_glogin_submit_button">Daftar masuk</string>
+    <string name="lockscreen_glogin_invalid_input">"Nama pengguna atau kata laluan tidak sah."</string>
+    <string name="lockscreen_glogin_checking_password">"Menyemak..."</string>
+    <string name="lockscreen_unlock_label">Nyahkunci</string>
+    <string name="lockscreen_sound_on_label">Pasang bunyi</string>
+    <string name="lockscreen_sound_off_label">Tutup bunyi</string>
+    <string name="password_keyboard_label_symbol_key">"?123"</string>
+    <string name="password_keyboard_label_alpha_key">"ABC"</string>
+    <string name="password_keyboard_label_alt_key">"ALT"</string>
+    <string name="hour_ampm">"<xliff:g id="HOUR">%-l</xliff:g><xliff:g id="AMPM">%P</xliff:g>"</string>
+    <string name="hour_cap_ampm">"<xliff:g id="HOUR">%-l</xliff:g><xliff:g id="AMPM">%p</xliff:g>"</string>
+    <string name="factorytest_failed">"Ujian kilang gagal"</string>
+    <string name="factorytest_not_system">"Tindakan FACTORY_TEST hanya disokong untuk pakej yang dipasangkan dalam /system/app."</string>
+    <string name="factorytest_no_action">"Tiada pakej yang menyediakan tindakan FACTORY_TEST ditemui."</string>
+    <string name="factorytest_reboot">"But semula"</string>
+    <string name="js_dialog_title">"Halaman di \'<xliff:g id="TITLE">%s</xliff:g>\' berkata:"</string>
+    <string name="js_dialog_title_default">JavaScript</string>
+    <string name="js_dialog_before_unload">"Navigasi keluar dari halaman ini?"\n\n"<xliff:g id="MESSAGE">%s</xliff:g>"\n\n"Pilih OK untuk meneruskan atau Batal untuk terus berada di halaman semasa."</string>
+    <string name="save_password_label">Sahkan</string>
+    <string name="double_tap_toast">"Petua: ketik dua kali untuk mengezum masuk dan keluar."</string>
+    <string name="permlab_readHistoryBookmarks">"baca sejarah dan penanda halaman Penyemak imbas"</string>
+    <string name="permdesc_readHistoryBookmarks">"Membenarkan aplikasi membaca semua URL yang telah dilawati oleh Penyemak Imbas dan semua penanda halaman Penyemak Imbas."</string>
+    <string name="permlab_writeHistoryBookmarks">"tulis sejarah dan penanda halaman Penyemak Imbas"</string>
+    <string name="permdesc_writeHistoryBookmarks">Membenarkan aplikasi mengubah suai sejarah atau penanda buku Penyemak Imbas yang disimpan di dalam telefon anda. Aplikasi berniat jahat boleh menggunakannya untuk memadamkan atau mengubah suai data Penyemak Imbas anda.</string>
+    <string name="permlab_setAlarm">Tetapkan penggera di dalam jam loceng</string>
+    <string name="permdesc_setAlarm">Benarkan aplikasi menetapkan penggera di dalam aplikasi jam loceng yang dipasang. Beberapa aplikasi jam loceng mungkin tidak melaksanakan ciri ini.</string>
+    <string name="permlab_writeGeolocationPermissions">"Ubah suai kebenaran geolokasi Penyemak Imbas"</string>
+    <string name="permdesc_writeGeolocationPermissions">"Membenarkan aplikasi mengubah suai kebenaran geolokasi Penyemak Imbas. Aplikasi berniat jahat boleh menggunakannya untuk membenarkan penghantaran maklumat lokasi ke sembarangan tapak web."</string>
+    <string name="save_password_message">"Adakah anda mahu penyemak imbas mengingati kata laluan ini?"</string>
+    <string name="save_password_notnow">"Bukan sekarang"</string>
+    <string name="save_password_remember">"Ingat"</string>
+    <string name="save_password_never">Tidak sama sekali</string>
+    <string name="open_permission_deny">"Anda tidak mempunyai kebenaran untuk membuka laman ini."</string>
+    <string name="text_copied">"Teks disalin ke papan keratan"</string>
+    <string name="more_item_label">Banyak lagi</string>
+    <string name="prepend_shortcut_label">"Menu+"</string>
+    <string name="menu_space_shortcut_label">"ruang"</string>
+    <string name="menu_enter_shortcut_label">"masuk"</string>
+    <string name="menu_delete_shortcut_label">"padam"</string>
+    <string name="search_go">Cari</string>
+    <string name="oneMonthDurationPast">"1 bulan yang lalu"</string>
+    <string name="beforeOneMonthDurationPast">"Sebelum 1 bulan yang lalu"</string>
+    <plurals name="num_seconds_ago">
+        <item quantity="one">"1 saat yang lalu"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> saat yang lalu"</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">"1 minit yang lalu"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> minit yang lalu"</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">"1 jam yang lalu"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> jam yang lalu"</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> hari terakhir"</item>
+    </plurals>
+    <string name="last_month">"Bulan lepas"</string>
+    <string name="older">Lebih lama</string>
+    <plurals name="num_days_ago">
+        <item quantity="one">"semalam"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> hari yang lalu"</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="one">"dalam 1 saat"</item>
+        <item quantity="other">"dalam <xliff:g id="COUNT">%d</xliff:g> saat"</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">"dalam 1 minit"</item>
+        <item quantity="other">"dalam <xliff:g id="COUNT">%d</xliff:g> minit"</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="one">"dalam 1 jam"</item>
+        <item quantity="other">"dalam <xliff:g id="COUNT">%d</xliff:g> jam"</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="one">"esok"</item>
+        <item quantity="other">"dalam <xliff:g id="COUNT">%d</xliff:g> hari"</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="one">"1 saat yang lalu"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> saat yang lalu"</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">"1 minit yang lalu"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> minit yang lalu"</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="one">"1 jam yang lalu"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> jam yang lalu"</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="one">"semalam"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> hari yang lalu"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="one">"dalam 1 saat"</item>
+        <item quantity="other">"dalam <xliff:g id="COUNT">%d</xliff:g> saat"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">"dalam 1 minit"</item>
+        <item quantity="other">"dalam <xliff:g id="COUNT">%d</xliff:g> minit"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="one">"dalam 1 jam"</item>
+        <item quantity="other">"dalam <xliff:g id="COUNT">%d</xliff:g> jam"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="one">"esok"</item>
+        <item quantity="other">"dalam <xliff:g id="COUNT">%d</xliff:g> hari"</item>
+    </plurals>
+    <string name="preposition_for_date">"pada <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="preposition_for_time">"pada <xliff:g id="TIME">%s</xliff:g>"</string>
+    <string name="preposition_for_year">"dalam <xliff:g id="YEAR">%s</xliff:g>"</string>
+    <string name="day">"hari"</string>
+    <string name="days">"hari"</string>
+    <string name="hour">"jam"</string>
+    <string name="hours">"jam"</string>
+    <string name="minute">"min"</string>
+    <string name="minutes">Minit</string>
+    <string name="second">"saat"</string>
+    <string name="seconds">"saat"</string>
+    <string name="week">"minggu"</string>
+    <string name="weeks">"minggu"</string>
+    <string name="year">"tahun"</string>
+    <string name="years">"tahun"</string>
+    <string name="VideoView_error_title">"Tidak boleh memainkan video"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"Maaf, video ini tidak sah untuk penstriman ke peranti ini."</string>
+    <string name="VideoView_error_text_unknown">"Maaf, video ini tidak boleh dimainkan."</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="relative_time">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="noon">"tengah hari"</string>
+    <string name="Noon">"Tengah hari"</string>
+    <string name="midnight">"tengah malam"</string>
+    <string name="Midnight">"Tengah malam"</string>
+    <string name="elapsed_time_short_format_mm_ss">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string name="elapsed_time_short_format_h_mm_ss">"<xliff:g id="HOURS">%1$d</xliff:g>:<xliff:g id="MINUTES">%2$02d</xliff:g>:<xliff:g id="SECONDS">%3$02d</xliff:g>"</string>
+    <string name="selectAll">"Pilih semua"</string>
+    <string name="selectText">Pilih teks</string>
+    <string name="cut">"Potong"</string>
+    <string name="copy">"Salin"</string>
+    <string name="paste">Tampal</string>
+    <string name="copyUrl">"Salin URL"</string>
+    <string name="inputMethod">"Kaedah input"</string>
+    <string name="addToDictionary">"tambahkan pada kamus"</string>
+    <string name="editTextMenuTitle">"Tindakan teks"</string>
+    <string name="low_internal_storage_view_title">"Kekurangan ruang"</string>
+    <string name="low_internal_storage_view_text">Ruang storan telefon semakin sedikit.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Batalkan</string>
+    <string name="yes">"OK"</string>
+    <string name="no">Batalkan</string>
+    <string name="dialog_alert_title">"Perhatian"</string>
+    <string name="capital_on">Hidup</string>
+    <string name="capital_off">"MATIKAN"</string>
+    <string name="whichApplication">"Selesaikan tindakan menggunakan"</string>
+    <string name="alwaysUse">"Gunakannya secara lalai untuk tindakan ini."</string>
+    <string name="clearDefaultHintMsg">"Padam bersih lalai dalam Tetapan Halaman Utama &gt; Aplikasi &gt; Urus aplikasi."</string>
+    <string name="chooseActivity">"Pilih tindakan"</string>
+    <string name="chooseUsbActivity">Pilih aplikasi untuk peranti USB</string>
+    <string name="noApplications">"Tiada aplikasi yang boleh menjalankan tindakan ini."</string>
+    <string name="aerr_title">Maaf!</string>
+    <string name="aerr_application">"Malangnya, <xliff:g id="APPLICATION">%1$s</xliff:g> telah berhenti."</string>
+    <string name="aerr_process">"Malangnya, proses <xliff:g id="PROCESS">%1$s</xliff:g> telah berhenti."</string>
+    <string name="anr_title">Maaf!</string>
+    <string name="anr_activity_application">"anr_activity_application" msgid="8339738283149696827">"Tiada sambutan dari <xliff:g id="APPLICATION">%2$s</xliff:g>."\n\n"Adakah anda mahu menutupnya?"</string>
+    <string name="anr_activity_process">"Tiada sambutan dari aktiviti <xliff:g id="ACTIVITY">%1$s</xliff:g>."\n\n"Adakah anda mahu menutupnya?"</string>
+    <string name="anr_application_process">"Tiada sambutan dari aktiviti <xliff:g id="APPLICATION">%1$s</xliff:g>. Adakah anda mahu menutupnya?"</string>
+    <string name="anr_process">"Proses <xliff:g id="PROCESS">%1$s</xliff:g> tiada sambutan."\n\n"Adakah anda mahu menutupnya?"</string>
+    <string name="force_close">"Paksa tutup"</string>
+    <string name="report">"Laporkan"</string>
+    <string name="wait">Tunggu</string>
+    <string name="launch_warning_title">Aplikasi diubah haluan</string>
+    <string name="launch_warning_replace"><xliff:g id="app_name">%1$s</xliff:g> beroperasi sekarang.</string>
+    <string name="launch_warning_original"><xliff:g id="app_name">%1$s</xliff:g> dilancarkan pada asalnya.</string>
+    <string name="smv_application">Aplikasi <xliff:g id="application">%1$s</xliff:g>
+        (proses <xliff:g id="process">%2$s</xliff:g>) telah melanggar polisi Mod Tegasnya yang dikuat kuasa sendiri.</string>
+    <string name="smv_process">Proses <xliff:g id="process">%1$s</xliff:g> telah melanggar polisi Mod Tegasnya yang dikuat kuasa sendiri.</string>
+    <string name="heavy_weight_notification"><xliff:g id="app">%1$s</xliff:g> beroperasi</string>
+    <string name="heavy_weight_notification_detail">Pilih untuk bertukar ke aplikasi</string>
+    <string name="heavy_weight_switcher_title">Tukar aplikasi?</string>
+    <string name="heavy_weight_switcher_text">Aplikasi lain telah beroperasi yang mesti dihentikan sebelum anda boleh memulakan aplikasi baru.</string>
+    <string name="old_app_action">Kembali ke <xliff:g id="old_app">%1$s</xliff:g></string>
+    <string name="old_app_description">Jangan mulakan aplikasi baru.</string>
+    <string name="new_app_action">Mulakan <xliff:g id="old_app">%1$s</xliff:g></string>
+    <string name="new_app_description">Hentikan aplikasi lama tanpa menyimpan.</string>
+    <string name="sendText">"Pilih tindakan untuk teks"</string>
+    <string name="volume_ringtone">Kenyaringan deringan</string>
+    <string name="volume_music">"Kelantangan media"</string>
+    <string name="volume_fm">Kenyaringan FM</string>
+    <string name="volume_music_hint_playing_through_bluetooth">"Bermain melalui Bluetooth"</string>
+    <string name="volume_music_hint_silent_ringtone_selected">"Nada dering senyap dipilih"</string>
+    <string name="volume_call">"Kelantangan semasa panggilan"</string>
+    <string name="volume_bluetooth_call">"Kelantangan semasa dalam panggilan menggunakan Bluetooth"</string>
+    <string name="volume_alarm">"Kelantangan penggera"</string>
+    <string name="volume_notification">"Kelantangan pemberitahuan"</string>
+    <string name="volume_unknown">Kelantangan</string>
+    <string name="ringtone_default">"Nada dering lalai"</string>
+    <string name="ringtone_default_with_actual">"Nada dering lalai (<xliff:g id="ACTUAL_RINGTONE">%1$s</xliff:g>)"</string>
+    <string name="ringtone_silent">Senyap</string>
+    <string name="ringtone_picker_title">"Nada dering"</string>
+    <string name="ringtone_unknown">"Nada dering tidak diketahui"</string>
+    <plurals name="wifi_available">
+        <item quantity="one">"Rangkaian Wi-Fi tersedia"</item>
+        <item quantity="other">"Rangkaian Wi-Fi tersedia"</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">"Rangkaian Wi-Fi terbuka tersedia"</item>
+        <item quantity="other">"Rangkaian Wi-Fi terbuka tersedia"</item>
+    </plurals>
+    <string name="select_character">"Masukkan aksara"</string>
+    <string name="sms_control_default_app_name">"Aplikasi tidak dikenali"</string>
+    <string name="sms_control_title">"Menghantar mesej SMS"</string>
+    <string name="sms_control_message">"Sejumlah besar mesej SMS sedang dihantar. Pilih \"OK\" untuk meneruskan atau \"Batal\" untuk menghentikan penghantaran."</string>
+    <string name="sms_control_yes">OK</string>
+    <string name="sms_control_no">Batalkan</string>
+    <string name="date_time_set">Tetapkan</string>
+    <string name="default_permission_group">"Lalai"</string>
+    <string name="permissions_format"><xliff:g id="perm_line1">%1$s</xliff:g>, <xliff:g id="perm_line2">%2$s</xliff:g></string>
+    <string name="no_permissions">"Tiada kebenaran diperlukan"</string>
+    <string name="perms_hide"><b>"Sembunyikan"</b></string>
+    <string name="perms_show_all"><b>"Tunjukkan semua"</b></string>
+    <string name="usb_storage_activity_title">"Storan Massa USB"</string>
+    <string name="usb_storage_title">"sambungan USB"</string>
+    <string name="usb_storage_message" product="nosdcard">Anda telah menyambung telefon anda ke komputer anda melalui USB. Pilih butang di bawah jika anda mahu menyalin fail di antara komputer anda dengan storan USB Android anda.</string>
+    <string name="usb_storage_message" product="default">Anda telah menyambung telefon anda ke komputer anda melalui USB. Pilih butang di bawah jika anda mahu menyalin fail di antara komputer anda dengan kad SD Android anda.</string>
+    <string name="usb_storage_button_mount">"Hidupkan storan USB"</string>
+    <string name="usb_storage_error_message" product="nosdcard">Terdapat masalah menggunakan storan USB anda sebagai storan massa USB.</string>
+    <string name="usb_storage_error_message" product="default">Terdapat masalah menggunakan kad SD anda sebagai storan massa USB.</string>
+    <string name="usb_storage_notification_title">"sambungan USB"</string>
+    <string name="usb_storage_notification_message">"Pilih untuk menyalin fail ke/dari komputer anda."</string>
+    <string name="usb_storage_stop_notification_title">"Matikan storan USB"</string>
+    <string name="usb_storage_stop_notification_message">"Pilih untuk mematikan storan USB."</string>
+    <string name="usb_storage_stop_title">"Storan USB sedang digunakan"</string>
+    <string name="usb_storage_stop_message" product="nosdcard">Sebelum mematikan storan USB, pastikan anda telah menyahlekap (\u201cmemecat\u201d) storan USB Android anda daripada komputer anda.</string>
+    <string name="usb_storage_stop_message" product="default">Sebelum mematikan storan USB, pastikan anda telah menyahlekap (\u201cmemecat\u201d) kad SD Android anda daripada komputer anda.</string>
+    <string name="usb_storage_stop_button_mount">"Matikan storan USB"</string>
+    <string name="usb_storage_stop_error_message">"Terdapat masalah mematikan storan USB. Semak untuk memastikan anda sudah menyahlekap hos USB, kemudian cuba lagi."</string>
+    <string name="dlg_confirm_kill_storage_users_title">"Hidupkan storan USB"</string>
+    <string name="dlg_confirm_kill_storage_users_text">"Jika anda menghidupkan storan USB, sesetengah aplikasi yang anda sedang gunakan akan terhenti dan mungkin tidak akan tersedia sehingga anda memadamkan storan USB."</string>
+    <string name="dlg_error_title">"Operasi USB tidak berjaya"</string>
+    <string name="dlg_ok">OK</string>
+    <string name="extmedia_format_title" product="nosdcard">Format storan USB</string>
+    <string name="extmedia_format_title" product="default">Format kad SD</string>
+    <string name="extmedia_format_message" product="nosdcard">Format storan USB, memadamkan semua fail yang disimpan? Tindakan ini tidak boleh disongsangkan!</string>
+    <string name="extmedia_format_message" product="default">Mahu format kad SD? Semua data pada kad anda akan hilang.</string>
+    <string name="extmedia_format_button_format">Format</string>
+    <string name="adb_active_notification_title">"Penyahpepijatan USB disambungkan"</string>
+    <string name="adb_active_notification_message">"Pilih untuk melumpuhkan penyahpepijatan USB."</string>
+    <string name="locale_replacement">""</string>
+    <string name="select_input_method">"Pilih kaedah input"</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="candidates_style"><u>"calon"</u></string>
+    <string name="ext_media_checking_notification_title" product="nosdcard">Menyediakan storan USB</string>
+    <string name="ext_media_checking_notification_title" product="default">Menyediakan kad SD</string>
+    <string name="ext_media_checking_notification_message">"Menyemak untuk mengesan ralat."</string>
+    <string name="ext_media_nofs_notification_title" product="nosdcard">Storan USB kosong</string>
+    <string name="ext_media_nofs_notification_title" product="default">Kad SD kosong</string>
+    <string name="ext_media_nofs_notification_message" product="nosdcard">Storan USB kosong atau mempunyai sistem fail tidak disokong.</string>
+    <string name="ext_media_nofs_notification_message" product="default">Kad SD kosong atau mempunyai sistem fail tidak disokong.</string>
+    <string name="ext_media_unmountable_notification_title" product="nosdcard">Storan USB rosak</string>
+    <string name="ext_media_unmountable_notification_title" product="default">Kad SD rosak</string>
+    <string name="ext_media_unmountable_notification_message" product="nosdcard">Storan USB rosak. Anda mungkin kena formatnya semula.</string>
+    <string name="ext_media_unmountable_notification_message" product="default">Kad SD rosak. Anda mungkin kena formatnya semula.</string>
+    <string name="ext_media_badremoval_notification_title" product="nosdcard">Storan USB ditanggalkan dengan tiba-tiba</string>
+    <string name="ext_media_badremoval_notification_title" product="default">Kad SD ditanggalkan dengan tiba-tiba</string>
+    <string name="ext_media_badremoval_notification_message" product="nosdcard">Nyahlekap storan USB sebelum menanggalkannya untuk mengelakkan kehilangan data.</string>
+    <string name="ext_media_badremoval_notification_message" product="default">Nyahlekap kad SD sebelum menanggalkannya untuk mengelakkan kehilangan data.</string>
+    <string name="ext_media_safe_unmount_notification_title" product="nosdcard">Storan USB selamat untuk ditanggalkan</string>
+    <string name="ext_media_safe_unmount_notification_title" product="default">Kad SD selamat untuk ditanggalkan</string>
+    <string name="ext_media_safe_unmount_notification_message" product="nosdcard">Anda boleh menanggalkan storan USB dengan selamat.</string>
+    <string name="ext_media_safe_unmount_notification_message" product="default">Anda boleh menanggalkan kad SD dengan selamat.</string>
+    <string name="ext_media_nomedia_notification_title" product="nosdcard">Storan USB ditanggalkan</string>
+    <string name="ext_media_nomedia_notification_title" product="default">Kad SD ditanggalkan</string>
+    <string name="ext_media_nomedia_notification_message" product="nosdcard">Storan USB ditanggalkan. Sisipkan media baru.</string>
+    <string name="ext_media_nomedia_notification_message" product="default">Kad SD ditanggalkan. Sisipkan kad baru.</string>
+    <string name="activity_list_empty">"Tiada aktiviti yang sepadan ditemui"</string>
+    <string name="permlab_pkgUsageStats">"kemas kini statistik penggunaan komponen"</string>
+    <string name="permdesc_pkgUsageStats">"Membenarkan pengubahsuaian statistik penggunaan komponen yang dikumpulkan. Bukan untuk kegunaan aplikasi biasa."</string>
+    <string name="permlab_copyProtectedData">"Membenarkan aplikasi menggunakan perkhidmatan bekas lalai untuk menyalin kandungan. Bukan untuk kegunaan aplikasi biasa."</string>
+    <string name="permdesc_copyProtectedData">"Membenarkan aplikasi menggunakan perkhidmatan bekas lalai untuk menyalin kandungan. Bukan untuk kegunaan aplikasi biasa."</string>
+    <string name="tutorial_double_tap_to_zoom_message_short">"Ketik dua kali untuk mendapatkan kawalan zum"</string>
+    <string name="gadget_host_error_inflating">"Ralat mengembungkan widget"</string>
+    <string name="ime_action_go">"Pergi"</string>
+    <string name="ime_action_search">Cari</string>
+    <string name="ime_action_send">Hantar</string>
+    <string name="ime_action_next">"Seterusnya"</string>
+    <string name="ime_action_done">"Selesai"</string>
+    <string name="ime_action_default">"Laksanakan"</string>
+    <string name="dial_number_using">"Dail nombor"\n"menggunakan <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="create_contact_using">"Wujudkan kenalan"\n"menggunakan <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="accessibility_compound_button_selected">disemak</string>
+    <string name="accessibility_compound_button_unselected">tidak diperiksa</string>
+    <string name="grant_credentials_permission_message_header">"Satu atau lebih aplikasi berikut meminta kebenaran untuk mengakses akaun anda, sekarang dan pada masa hadapan."</string>
+    <string name="grant_credentials_permission_message_footer">"Adakah anda mahu membenarkan permintaan ini?"</string>
+    <string name="grant_permissions_header_text">"Permintaan Akses"</string>
+    <string name="allow">"Benarkan"</string>
+    <string name="deny">Nafi</string>
+    <string name="permission_request_notification_title">"Kebenaran Diminta"</string>
+    <string name="permission_request_notification_with_subtitle">"Kebenaran Diminta"\n"untuk akaun <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+    <string name="input_method_binding_label">"Kaedah input"</string>
+    <string name="sync_binding_label">"Penyegerakan"</string>
+    <string name="accessibility_binding_label">Pengaksesan</string>
+    <string name="wallpaper_binding_label">Kertas hias dinding</string>
+    <string name="chooser_wallpaper">Tukar kertas dinding</string>
+    <string name="alternate_eri_file">/data/eri.xml</string>
+    <string name="pptp_vpn_description">Protokol Penorowongan Titik-ke-Titik</string>
+    <string name="l2tp_vpn_description">Protokol Penorowongan Lapisan 2</string>
+    <string name="l2tp_ipsec_psk_vpn_description">VPN L2TP/IPSec berasaskan kunci pra-kongsi</string>
+    <string name="l2tp_ipsec_crt_vpn_description">L2TP/IPSec VPN asas sijil</string>
+    <string name="upload_file">"Pilih fail"</string>
+    <string name="reset">"Tetapkan semula"</string>
+    <string name="submit">Hantar</string>
+    <string name="description_star">kegemaran</string>
+    <string name="car_mode_disable_notification_title">"Mod kereta didayakan"</string>
+    <string name="car_mode_disable_notification_message">"Pilih untuk keluar daripada mod kereta."</string>
+    <string name="tethered_notification_title">"Penambatan atau kawasan khas aktif"</string>
+    <string name="cta_tethered_notification_title">Penambatan</string>
+    <string name="tethered_notification_message">"Sentuh untuk mengkonfigurasikan"</string>
+    <string name="throttle_warning_notification_title">"Penggunaan tinggi data mudah alih"</string>
+    <string name="throttle_warning_notification_message">"Sentuh untuk mengetahui lebih lanjut mengenai penggunaan data"</string>
+    <string name="throttled_notification_title">"Melebihi had data mudah alih"</string>
+    <string name="throttled_notification_message">"Sentuh untuk mengetahui lebih lanjut mengenai penggunaan data"</string>
+    <string name="Low_Memory_Alert">Ruang storan telefon semakin sedikit. Sila buang beberapa data bagi memastikan kestabilan telefon.</string>
+    <string name="Low_Memory_Free">Percuma</string>
+    <string name="Low_Memory_Application">Aplikasi</string>
+    <string name="Low_Memory_Mail">Mel</string>
+    <string name="Low_Memory_Sms_Mms">SMS/MMS</string>
+    <string name="Low_Memory_System">Sistem</string>
+    <string name="Btn_Select_Clear">Pilih / Bersihkan</string>
+    <string name="myAppTip">Pilih aplikasi untuk dikendalikan</string>
+    <string name="myApp_Start_Btn">Mula</string>
+    <string name="myApp_Move2Sd_ChkBox">PindahKeSD</string>
+    <string name="myApp_ClearData_ChkBox">Padam bersih data</string>
+    <string name="myApp_Uninstall_ChkBox">Nyahpasang</string>
+    <string name="myAppLoading">memuat\u2026</string>
+    <string name="myAppProcessing">memproses\u2026</string>
+    <string name="keyguard_password_enter_puk_code">"Masukkan PUK dan kod PIN baru"</string>
+    <string name="keyguard_password_enter_new_pin_first_code">Masukkan Kod PIN Baru</string>
+    <string name="keyguard_password_enter_new_pin_second_code">Masukkan Kod PIN Baru Sekali Lagi</string>
+    <string name="ums_active_notification_message">storan massa usb didayakan</string>
+    <string name="modem_active_notification_title">gunakan mod nyahpepijat modem</string>
+    <string name="modem_active_notification_message">mod nyahpepijat modem didayakan</string>
+    <string name="china_mobile_numeric_values">China Mobile</string>
+    <string name="china_unicom_numeric_values">China Unicom</string>
+    <string name="china_telecom_numeric_values">China Telecom</string>
+    <string name="stk_refresh_sim_init_message">Kad SIM dikemas kini</string>
+    <string name="stk_refresh_sim_reset_message">Telefon akan but semula</string>
+    <string name="custom_china_mobile">China Mobile</string>
+    <string name="custom_china_unicom">China Unicom</string>
+    <string name="charge_active_notification_message">Mod mengecas sahaja didayakan</string>
+    <string name="charge_active_notification_title">Guna Mengecas sahaja apabila usb disambung</string>
+    <string name="shutdown_after_seconds">Telefon akan ditutup selepas <xliff:g id="NUMBER">%d</xliff:g> saat</string>
+    <string name="lockscreen_password_error">Kata laluan salah, cuba lagi!</string>
+    <string name="lockscreen_too_many_password_failed_attempts_dialog_message">
+		Anda telah masukkan kata laluan buka kunci yang salah <xliff:g id="number">%d</xliff:g> kali.
+        \n\nSila cuba lagi dalam <xliff:g id="number">%d</xliff:g> saat.</string>
+    <string name="progress_unmounting" product="nosdcard">Menyahlekap storan USB...</string>
+    <string name="progress_unmounting" product="default">Menyahlekap kad SD...</string>
+    <string name="progress_erasing" product="nosdcard">Memadamkan storan USB...</string>
+    <string name="progress_erasing" product="default">Memadamkan kad SD...</string>
+    <string name="format_error" product="nosdcard">Gagal memadamkan storan USB.</string>
+    <string name="format_error" product="default">Gagal memadamkan kad SD.</string>
+    <string name="media_bad_removal">Kad SD ditanggalkan sebelum dinyahlekapkan.</string>
+    <string name="media_checking" product="nosdcard">Storan USB sedang diperiksa.</string>
+    <string name="media_checking" product="default">Kad SD sedang diperiksa.</string>
+    <string name="media_removed">Kad SD telah ditanggalkan.</string>
+    <string name="media_shared" product="nosdcard">Storan USB sedang digunakan oleh komputer.</string>
+    <string name="media_shared" product="default">Kad SD sedang digunakan oleh komputer.</string>
+    <string name="media_unknown_state">Media luaran dalam keadaan yang tidak diketahui.</string>
+    <string name="audio_play_failed">Maaf, audio ini tidak boleh dimainkan, guna nada dering lalai</string>
+    <string name="sms_full_title">Memori pesanan teks penuh</string>
+    <string name="sms_full_body">Pesanan masuk ditolak kerana memori penuh. Sila hapuskan pesanan lama.</string>
+    <string name="dialog_warning">Amaran</string>
+    <string name="internal_memory_low">Storan kad SD hampir penuh! Sila hapuskan beberapa fail untuk kosongkan ruang.</string>
+    <string name="button_close">Tutup</string>
+    <string name="unlock_screen_pin_error">PIN salah!</string>
+    <string name="ap_disconnected">diputuskan</string>
+    <string name="sim_chooser_title">Pilih SIM</string>
+    <string name="lockscreen_miss_phone">telefon terlepas</string>
+    <string name="lockscreen_miss_mms">SMS terlepas</string>
+</resources>

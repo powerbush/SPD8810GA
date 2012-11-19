@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:paddingRight="1dip"
+    android:paddingLeft="1dip"
+    android:paddingTop="1dip"
+    android:paddingBottom="1dip"
+    android:background="@drawable/shw_list_item_bg"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        >
+
+	<ImageView android:id="@+id/app_icon"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginRight="11dip"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitCenter"
+        android:textColor="#000000"
+        />
+
+        <TextView android:id="@+id/app_name"
+        android:layout_gravity="center_vertical"
+        android:layout_width="180dip"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+	android:textColor="#000000"
+        />
+
+        <TextView android:id="@+id/app_size"
+        android:layout_gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginRight="5dip"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:singleLine="true"
+	android:textColor="#ff0000"
+        />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	>
+
+    	<CheckBox
+    	android:text="@string/myApp_Move2Sd_ChkBox"
+	android:id="@+id/Move2Sd_ChkBox_Id"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#000000"
+	android:textSize="14dip"
+	android:layout_weight="1"
+    	></CheckBox>
+
+    	<CheckBox
+    	android:text="@string/myApp_ClearData_ChkBox"
+    	android:id="@+id/ClearData_ChkBox_Id"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#000000"
+    	android:textSize="14dip"
+    	android:layout_weight="1"
+    	></CheckBox>
+
+    	<CheckBox
+    	android:text="@string/myApp_Uninstall_ChkBox"
+    	android:id="@+id/Uninstall_ChkBox_Id"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textColor="#000000"
+    	android:textSize="14dip"
+    	android:layout_weight="1"
+    	></CheckBox>
+
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, EmergencycallActivity!</string>
+    <string name="app_name">紧急电话</string>
+    <string name="strindctass">条紧急救援短信</string>
+    <string name="strindctabg">第</string>
+    <string name="alert_title">提示</string>
+    <string name="alert_msg">请先上传个人档案!</string>
+    <string name="confirm">确定</string>
+</resources>

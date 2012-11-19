@@ -1,0 +1,42 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="default_smiley_texts">
+      <item>":-)"</item>   <!-- 0: Happy -->
+      <item>":-("</item>   <!-- 1: Sad -->
+      <item>";-)"</item>   <!-- 2: Winking -->
+      <item>":-P"</item>   <!-- 3: Tongue sticking out -->
+      <item>"=-O"</item>   <!-- 4: Surprised -->
+      <item>":-*"</item>   <!-- 5: Kissing -->
+      <item>":O"</item>    <!-- 6: Yelling -->
+      <item>"B-)"</item>   <!-- 7: Cool -->
+      <item>":-$"</item>   <!-- 8: Money mouth -->
+      <item>":-!"</item>   <!-- 9: Foot in mouth -->
+      <item>":-["</item>   <!-- 10: Embarrassed -->
+      <item>"O:-)"</item>  <!-- 11: Angel -->
+      <item>":-\\"</item>  <!-- 12: Undecided -->
+      <item>":\'("</item>  <!-- 13: Crying -->
+      <item>":-X"</item>   <!-- 14: Lips are sealed -->
+      <item>":-D"</item>   <!-- 15: Laughing -->
+      <item>"o_O"</item>   <!-- 16: Confused -->
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>"خوشحال"</item>                   <!-- 0: :-) -->
+        <item>"ناراحت"</item>                     <!-- 1: :-( -->
+        <item>"چشمک زدن"</item>                 <!-- 2: ;-) -->
+        <item>"زبان درازی"</item>     <!-- 3: :-P -->
+        <item>"شگفت زده"</item>               <!-- 4: =-O -->
+        <item>"بوسیدن"</item>                 <!-- 5: :-* -->
+        <item>"فریاد زدن"</item>                 <!-- 6: :O -->
+        <item>"باحال"</item>                    <!-- 7: B-) -->
+        <item>"دهان پر از پول"</item>             <!-- 8: :-$ -->
+        <item>"پا در دهان"</item>           <!-- 9: :-! -->
+        <item>"شرمنده"</item>             <!-- 10: :-[ -->
+        <item>"فرشته"</item>                   <!-- 11: O:-) -->
+        <item>"تصمیم گیری نشده"</item>               <!-- 12: :-\\ -->
+        <item>"گریان"</item>                  <!-- 13: :\'( -->
+        <item>"زیپ دهان کشیده شده"</item>         <!-- 14: :-X -->
+        <item>"خندیدن"</item>                <!-- 15: :-D -->
+        <item>"سردرگم"</item>                <!-- 16: o_O -->
+    </string-array>
+</resources>

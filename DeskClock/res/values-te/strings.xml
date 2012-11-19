@@ -1,0 +1,77 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">గడియారం</string>
+    <string name="alarm_list_title">అలారమ్ లు</string>
+    <string name="add_alarm">అలారం జోడించండి</string>
+    <string name="menu_desk_clock">డెస్క్ గడియారం</string>
+    <string name="menu_edit_alarm">అలారం సవరించు</string>
+    <string name="delete_alarm">అలారం తొలగించు</string>
+    <string name="enable_alarm">అలారంను ఆన్ చేయండి</string>
+    <string name="disable_alarm">అలారం ఆఫ్ చెయ్యి</string>
+    <string name="delete_alarm_confirm">ఈ అలారం తొలగించబడుతుంది.</string>
+    <string name="show_clock">గడియారం చూపించు</string>
+    <string name="hide_clock">గడియారం దాచు</string>
+    <string name="label">లేబుల్</string>
+    <string name="default_label">అలారం</string>
+    <string name="set_alarm">అలారం సెట్ చెయ్యి</string>
+    <string name="alarm_vibrate">వైబ్రేట్</string>
+    <string name="alarm_repeat">మళ్లీ చేయి</string>
+    <string name="alert">రింగ్ టోన్</string>
+    <string name="time">సమయం</string>
+    <string name="alarm_alert_dismiss_text">పంపివేయు</string>
+    <string name="alarm_alert_snooze_text">అలారం ఆలస్యం</string>
+    <string name="alarm_alert_power_off">పవర్ ఆఫ్</string>
+    <string-array name="alarm_set">
+        <item>ఈ అలారం ఇప్పుడు నుండి 1 నిమిషం కోసం ఏర్పాటు చేస్తారు.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string name="day">1 రోజు</string>
+    <string name="hour">1 గంట</string>
+    <string name="minute">1 నిమిషం</string>
+    <string name="every_day">ప్రతి రోజు</string>
+    <string name="never">ఎన్నడూ లేదు</string>
+    <string name="clock_instructions">ప్రదర్శించడానికి ఒక గడియారం ఎంచుకోండి.</string>
+    <string name="analog_gadget">అనలాగ్ గడియారం</string>
+    <string name="settings">సెట్టింగులు</string>
+    <string name="alarm_in_silent_mode_title">నిశ్శబ్ద రీతిలో అలారం</string>
+    <string name="alarm_in_silent_mode_summary">ఫోను సైలెంట్ మోడ్ లో వున్నా గాని గడియారం మోగుతుంది </string>
+    <string name="snooze_duration_title">ఆగే వ్యవధి</string>
+    <string-array name="snooze_duration_entries">
+      <item>5 నిమిషాలు</item>
+      <item>10 నిమిషాలు</item>
+      <item>15 నిమిషాలు</item>
+      <item>20 నిమిషాలు</item>
+      <item>25 నిమిషాలు</item>
+      <item>30 నిమిషాలు</item>
+    </string-array>
+    <string name="done">జరిగినది</string>
+    <string name="revert">తిరిగి పొందు</string>
+    <string name="delete">తొలగించాలా</string>
+    <string name="alarm_volume_title">అలారం వాల్యూమ్</string>
+    <string name="alarm_volume_summary">అలారం వాల్యూమ్ ని సెట్ చెయ్యి</string>
+    <string name="silent_alarm_summary">సైలెంట్</string>
+    <string name="alarm_notify_text">ఈ అలారం ఆగే లేదా రద్దుచేసేందుకు ఎంచుకోండి.</string>
+    <string name="volume_button_setting_title">వాల్యూమ్ మరియు కెమెరా</string>
+    <string name="volume_button_dialog_title">బటన్ ప్రభావం</string>
+    <string name="volume_button_setting_summary">ఒక అలారం సమయంలో నొక్కిన ఈ బటన్లు ఏమి చేయాలో సెట్ చేయి</string>
+    <string-array name="volume_button_setting_entries">
+      <item>ఏదీ కాదు</item>
+      <item>అలారం ఆలస్యం</item>
+      <item>పంపివేయు</item>
+    </string-array>
+    <string name="alarm_button_description">అలారమ్ లు</string>
+    <string name="gallery_button_description">గాలరీ</string>
+    <string name="music_button_description">మ్యూజిక్</string>
+    <string name="nightmode_button_description">అనుకూలంగాలేని</string>
+    <string name="home_button_description">ప్రారంభం   </string>
+    <string name="desk_clock_button_description">అలారం చూపించు</string>
+    <string name="weather_fetch_failure">వాతావరణ సమాచారం ప్రస్తుతం అందుబాటులో లేదు.</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">డాక్ సెట్టింగులు</string>
+</resources>

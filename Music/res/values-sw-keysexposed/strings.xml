@@ -1,0 +1,7 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="create_playlist_create_text_prompt">Jina la Orodha ya kucheza</string>
+    <string name="rename_playlist_same_prompt">Ipe jina tena \"<xliff:g id="playlist">%s</xliff:g>\" kwa</string>
+    <string name="rename_playlist_diff_prompt">Ipe jina tena \"<xliff:g id="playlist">%s</xliff:g>\" kwa</string>
+</resources>

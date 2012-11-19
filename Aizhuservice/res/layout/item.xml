@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="1dip"
+    android:paddingBottom="1dip"
+	>
+<TextView
+    android:id="@+id/itemTempId"
+    android:layout_width="wrap_content"
+    android:layout_height="40dip"
+    android:textSize="10pt"
+    android:layout_centerHorizontal="true"
+    />
+</RelativeLayout>

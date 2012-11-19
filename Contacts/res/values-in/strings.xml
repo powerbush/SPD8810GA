@@ -1,0 +1,648 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="edit_group_info">Ubah grup</string>
+    <string name="rename_contact_group_name">Ubah nama</string>
+    <string name="no_contacts_group_name">Tidak ada nama grup</string>
+    <string name="contacts_group_name_exist">Nama grup yang ada</string>
+    <string name="sure">Yakin</string>
+    <string name="contacts_group">Grup</string>
+    <string name="divided_group_to">Dibagi</string>
+    <string name="add_group">Tambahkan grup</string>
+    <string name="please_add_group">Silahkan tambahkan grup</string>
+    <string name="delete">Hapus</string>
+    <string name="deleted">dihapus</string>
+    <string name="group_name_empty">Grup kosong</string>
+    <string name="all_selected">Semua dipilih</string>
+    <string name="group_new">Grup baru</string>
+    <string name="save">Simpan</string>
+    <string name="menu_contacts_group_add">Tambahkan</string>
+    <string name="menu_memory_query">Pertanyaan memori</string>
+    <string name="contactor_will_be"><xliff:g id="COUNT">%1$d</xliff:g> kontak akan <xliff:g id="OPTERATOR">%2$s</xliff:g></string>
+    <string name="imported">diimpor</string>
+    <string name="exported">diekspor</string>
+    <string name="selected">dipilih</string>
+    <string name="sharedUserLabel">"Aplikasi Inti Android"</string>
+    <string name="contactsList">"Kenalan"</string>
+    <string name="launcherDialer">"Telepon"</string>
+    <string name="shortcutContact">"Kenalan"</string>
+    <string name="shortcutDialContact">"Panggilan langsung"</string>
+    <string name="shortcutMessageContact">"Pesan langsung"</string>
+    <string name="shortcutActivityTitle">"Pilih pintasan kenalan"</string>
+    <string name="callShortcutActivityTitle">"Pilih nomor untuk dipanggil"</string>
+    <string name="messageShortcutActivityTitle">"Pilih nomor untuk dikirimi pesan"</string>
+    <string name="starredList">"Yang berkilau bintangnya"</string>
+    <string name="frequentList">"Sering"</string>
+    <string name="strequentList">"Favorit"</string>
+    <string name="viewContactTitle">"Detail kenalan"</string>
+    <string name="viewContactDesription">"Lihat kenalan"</string>
+    <string name="editContactDescription">"Edit data kenalan"</string>
+    <string name="insertContactDescription">"Buat kenalan"</string>
+    <string name="searchHint">"Telusuri kenalan"</string>
+    <string name="menu_search">"Telusuri"</string>
+    <string name="menu_newContact">"Kenalan baru"</string>
+    <string name="menu_viewContact">"Lihat kenalan"</string>
+    <string name="menu_callNumber">"Panggil <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="menu_addStar">"Tambahkan ke favorit"</string>
+    <string name="menu_removeStar">"Hapus dari favorit"</string>
+    <string name="menu_showBarcode">Tampilkan barcode</string>
+    <string name="menu_editContact">"Edit data kenalan"</string>
+    <string name="menu_deleteContact">"Hapus kenalan"</string>
+    <string name="menu_call">"Hubungi kenalan"</string>
+    <string name="menu_video_call">Panggilan Video</string>
+    <string name="menu_sendSMS">"SMS kenalan"</string>
+    <string name="menu_sendEmail">"Kirim email"</string>
+    <string name="menu_viewAddress">"Alamat pada peta"</string>
+    <string name="menu_makeDefaultNumber">"Jadikan nomor bawaan"</string>
+    <string name="menu_makeDefaultEmail">"Jadikan email bawaan"</string>
+    <string name="menu_splitAggregate">"Pisahkan"</string>
+    <string name="contactsSplitMessage">"Kenalan telah berpisah"</string>
+    <string name="splitConfirmation_title">"Pisahkan Kenalan"</string>
+    <string name="splitConfirmation">"Apakah Anda yakin ingin memisahkan satu kenalan ini menjadi beberapa kenalan: satu untuk setiap kumpulan informasi kenalan yang telah digabungkan ke dalamnya?"</string>
+    <string name="menu_joinAggregate">"Gabung"</string>
+    <string name="menu_showSources">Tampilkan sumber</string>
+    <string name="menu_hideSources">Sembunyikan sumber</string>
+    <string name="titleJoinAggregate">Gabung kontak</string>
+    <string name="titleJoinContactDataWith">"Gabungkan kenalan"</string>
+    <string name="blurbJoinContactDataWith">"Pilih kenalan yang ingin Anda gabungkan dengan <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="showAllContactsJoinItem">"Tampilkan semua kenalan"</string>
+    <string name="separatorJoinAggregateSuggestions">"Kenalan yang disarankan"</string>
+    <string name="separatorJoinAggregateAll">"Semua kenalan"</string>
+    <string name="contactsJoinedMessage">"Kenalan telah bergabung"</string>
+    <string name="menu_contactOptions">"Opsi"</string>
+    <string name="contactOptionsTitle">"Opsi"</string>
+    <string name="deleteConfirmation_title">"Hapus"</string>
+    <string name="readOnlyContactWarning">"Anda tidak dapat menghapus kenalan dari akun baca-saja, tetapi dapat menyembunyikannya dalam daftar kenalan Anda."</string>
+    <string name="readOnlyContactDeleteConfirmation">"Kenalan ini berisi informasi dari beberapa akun. Informasi dari akun hanya-baca akan disembunyikan dalam daftar kenalan Anda, tidak dihapus."</string>
+    <string name="multipleContactDeleteConfirmation">"Menghapus kenalan ini akan menghapus informasi dari beberapa akun."</string>
+    <string name="deleteConfirmation">"Kenalan ini akan dihapus."</string>
+    <string name="menu_done">"Selesai"</string>
+    <string name="menu_doNotSave">"Kembalikan"</string>
+    <string name="editContact_title_edit">"Edit data kenalan"</string>
+    <string name="editContact_title_insert">"Kenalan baru"</string>
+    <string name="menu_addItem">Informasi lainnya</string>
+    <string name="label_phonetic_name">"Fonetik"</string>
+    <string name="label_notes">"Catatan"</string>
+    <string name="label_sip_address">"Panggilan internet"</string>
+    <string name="label_ringtone">"Nada dering"</string>
+    <string name="label_groups">Grup</string>
+    <string name="group_list">, <xliff:g id="groupName">%s</xliff:g></string>
+    <string name="menu_viewGroup">Ubah grup</string>
+    <string name="ghostData_name">"Pertama dan Terakhir"</string>
+    <string name="ghostData_phonetic_name">"Nama fonetik"</string>
+    <string name="ghostData_company">"Perusahaan"</string>
+    <string name="ghostData_title">"Judul"</string>
+    <string name="ghostData_im">Nama IM</string>
+    <string name="ghostData_notes">Catatan saya</string>
+    <string name="ghostData_phone">Nomor telepon</string>
+    <string name="ghostData_email">Alamat email</string>
+    <string name="ghostData_postal">Alamat pos</string>
+    <string name="ghostData_group">Tampilkan grup</string>
+    <string name="invalidContactMessage">"Kenalan tidak ada."</string>
+    <string name="pickerNewContactHeader">"Buat kenalan baru"</string>
+    <string name="selectLabel">"Pilih label"</string>
+    <string name="phoneLabelsGroup">"Telepon"</string>
+    <string name="emailLabelsGroup">"Email"</string>
+    <string name="imLabelsGroup">"IM"</string>
+    <string name="postalLabelsGroup">"Alamat pos"</string>
+    <string name="otherLabelsGroup">Lainnya</string>
+    <string-array name="otherLabels">
+        <!-- An organization associated with a contact -->
+        <item>"Organisasi"</item>
+        <!-- A note associated with a contact -->
+        <item>"Catatan"</item>
+    </string-array>
+    <string name="errorDialogTitle">Tidak ada gambar</string>
+    <string name="photoPickerNotFoundText">"Tidak ada gambar pada ponsel."</string>
+    <string name="attachToContact">"Ikon kenalan"</string>
+    <string name="customLabelPickerTitle">"Nama label ubahsuaian"</string>
+    <string name="menu_displayGroup">"Tampilkan opsi"</string>
+    <string name="displayGroups">"Tampilkan opsi"</string>
+    <string name="syncGroupPreference">Ubah sinkron grup</string>
+    <string name="importFromSim">Impor kontak</string>
+    <string name="send_to_voicemail_checkbox">"Kirim panggilan ke kotak pesan secara langsung"</string>
+    <string name="send_to_voicemail_view">Panggilan dikirim langsung ke pesan suara.</string>
+    <string name="default_ringtone">"Bawaan"</string>
+    <string name="addPicture">Tambahkan ikon</string>
+    <string name="changePicture">"Ubah ikon"</string>
+    <string name="removePicture">"Hapus ikon"</string>
+    <string name="noContacts">"Tidak ada kenalan."</string>
+    <string name="noMatchingContacts">"Tidak ditemukan kenalan yang cocok."</string>
+    <string name="noContactsWithPhoneNumbers">"Tidak ada kenalan dengan nomor telepon."</string>
+    <string name="noFavorites">Tidak ada favorit.</string>
+    <string name="select_group_title">Grup</string>
+    <string name="groupEmpty">Grup \"<xliff:g id="groupName">%s</xliff:g>\" Anda kosong.</string>
+    <string name="showAllGroups">Semua kontak</string>
+    <string name="showFilterPhones">"Hanya kenalan dengan telepon"</string>
+    <string name="showFilterPhonesDescrip">"Hanya tampilkan kenalan yang memiliki nomor telepon"</string>
+    <string name="headerContactGroups">"Pilih kenalan untuk ditampilkan"</string>
+    <plurals name="groupDescrip">
+        <item quantity="other">"<xliff:g id="COUNT">%0$d</xliff:g> kenalan"</item>
+    </plurals>
+    <plurals name="groupDescripPhones">
+        <item quantity="other">"<xliff:g id="COUNT_0">%1$d</xliff:g> kenalan, <xliff:g id="COUNTWITHPHONES">%2$d</xliff:g> dengan nomor telepon"</item>
+    </plurals>
+    <string name="syncAllGroups">Sinkron semua kontak</string>
+    <string name="groupNameMyContacts">Kontak saya</string>
+    <string name="groupNameWithPhones">Kontak dengan nomor telepon</string>
+    <string name="starredInAndroid">Bintang dalam Android</string>
+    <string name="savingContact">"Menyimpan kenalan..."</string>
+    <string name="savingDisplayGroups">"Menyimpan opsi tampilan..."</string>
+    <string name="contactCreatedToast">Kontak dibuat.</string>
+    <string name="contactSavedToast">"Kenalan disimpan."</string>
+    <string name="contactDeletedToast">"Kontak dihapus."</string>
+    <string name="contactSavedErrorToast">"Galat, tidak dapat menyimpan perubahan kenalan."</string>
+    <string name="listSeparatorCallNumber">Nomor panggilan keluar</string>
+    <string name="listSeparatorCallNumber_edit">Nomor telepon</string>
+    <string name="number_empty">"nomor telepon kosong, tidak dapat memasukan"</string>
+    <string name="listSeparatorSendSmsMms">Kirim teks</string>
+    <string name="listSeparatorSendEmail">Kirim email</string>
+    <string name="listSeparatorSendEmail_edit">Alamat email</string>
+    <string name="listSeparatorSendIm">Kirim pesan instan</string>
+    <string name="listSeparatorSendIm_edit">Alamat obrolan</string>
+    <string name="listSeparatorMapAddress">Alamat map</string>
+    <string name="listSeparatorMapAddress_edit">Alamat pos</string>
+    <string name="listSeparatorOrganizations">Organisasi</string>
+    <string name="listSeparatorGroups">Grup</string>
+    <string name="listSeparatorOtherInformation">Informasi lainnya</string>
+    <string name="listSeparatorOtherInformation_edit">Pilihan lainnya</string>
+    <string name="listSeparatorMore_edit">Lebih</string>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="one">"Menampilkan 1 kenalan dengan nomor telepon"</item>
+        <item quantity="other">"Menampilkan <xliff:g id="COUNT">%d</xliff:g> kenalan dengan nomor telepon"</item>
+    </plurals>
+    <string name="listTotalPhoneContactsZero">"Tidak ada kenalan dengan nomor telepon"</string>
+    <plurals name="listTotalAllContacts">
+        <item quantity="one">"Menampilkan 1 kenalan"</item>
+        <item quantity="other">"Menampilkan <xliff:g id="COUNT">%d</xliff:g> kenalan"</item>
+    </plurals>
+    <string name="listTotalAllContactsZero">"Tidak ada kenalan yang terlihat"</string>
+    <plurals name="listFoundAllContacts">
+        <item quantity="one">"Menemukan 1 kenalan"</item>
+        <item quantity="other">"Menemukan <xliff:g id="COUNT">%d</xliff:g> kenalan"</item>
+    </plurals>
+    <string name="listFoundAllContactsZero">"Kenalan tidak ditemukan"</string>
+    <plurals name="searchFoundContacts">
+        <item quantity="one">"1 kenalan"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> kenalan"</item>
+    </plurals>
+    <string name="socialStreamIconLabel">Sosial</string>
+    <string name="contactsIconLabel">"Kenalan"</string>
+    <string name="contactsFavoritesLabel">"Favorit"</string>
+    <string name="dialerIconLabel">"Telepon"</string>
+    <string name="recentCallsIconLabel">"Log panggilan"</string>
+    <string name="liveFolderAll">"Semua kenalan"</string>
+    <string name="liveFolderFavorites">"Kenalan yang berkilau bintangnya"</string>
+    <string name="liveFolderPhone">"Kenalan dengan nomor telepon"</string>
+    <string name="menu_sendTextMessage">"Kirim SMS"</string>
+    <string name="recentCalls_callNumber">"Panggil <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="recentCalls_editNumberBeforeCall">"Edit nomor sebelum memanggil"</string>
+    <string name="recentCalls_addToContact">"Tambahkan ke kenalan"</string>
+    <string name="recentCalls_removeFromRecentList">"Hapus dari log panggilan"</string>
+    <string name="recentCalls_deleteAll">"Hapus log panggilan"</string>
+    <string name="recentCalls_deleteSome">"Hapus beberapa daftar panggilan"</string>
+    <string name="recentCalls_Answered">"INCOMING_TYPE"</string>
+    <string name="recentCalls_NOT_Answered">"MISSED_TYPE"</string>
+    <string name="recentCalls_Connected">"OUTGOING_TYPE"</string>
+    <string name="recentCalls_Alltypes">"ALL_TYPES"</string>
+    <string name="intent_to_firewall">Firewall</string>
+    <string name="recentCalls_Confirm_delete">"Konfirmasi untuk hapus"</string>
+    <string name="recentCalls_Cancel_delete">"Batalkan hapus"</string>
+    <string name="recentCalls_button_Confirm_delete">"Konfirmasi untuk hapus"</string>
+    <string name="recentCalls_button_Cancel">"Batal"</string>
+    <string name="recent_Call_log_checkbox_selecte_all">"Pilih semua"</string>
+    <string name="recentCalls_empty">"Log panggilan kosong."</string>
+    <string name="clearCallLogConfirmation_title">"Hapus log panggilan"</string>
+    <string name="clearCallLogConfirmation">"Apakah Anda yakin ingin menghapus log panggilan?"</string>
+    <string name="imei">"IMEI"</string>
+    <string name="meid">"MEID"</string>
+    <string name="voicemail">"Kotak Pesan"</string>
+    <string name="unknown">"Tidak diketahui"</string>
+    <string name="private_num">"Nomor pribadi"</string>
+    <string name="payphone">"Telepon berbayar"</string>
+    <string name="dialerKeyboardHintText">"Gunakan keyboard untuk memanggil"</string>
+    <string name="dialerDialpadHintText">"Panggil untuk menambahkan panggilan"</string>
+    <string name="simContacts_emptyLoading">"Memuat dari kartu SIM..."</string>
+    <string name="simContacts_title">"Kenalan pada kartu SIM"</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut">"Anda tidak memiliki kenalan untuk ditampilkan. (Jika Anda baru saja menambahkan akun, diperlukan waktu beberapa menit untuk menyinkronkan kenalan.)"</string>
+    <string name="noContactsHelpTextForCreateShortcut">"Anda tak memiliki kenalan untuk ditampilkan."</string>
+    <string name="contactsSyncPlug"><font fgcolor="#ffffffff">Sinkron kontak Google Anda!</font>
+    \nSetelah sinkronisasi ke telepon Anda, kontak Anda akan tersedia untuk Anda di manapun Anda pergi.</string>
+    <string name="noContactsHelpText">"Anda tidak memiliki kenalan untuk ditampilkan."\n\n"Untuk menambahkan kenalan, tekan "<font fgcolor="#ffffffff"><b>"Menu"</b></font>" dan sentuh:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Akun"</b></font>" untuk menambahkan atau mengonfigurasi akun tertentu dengan kenalan yang dapat Anda sinkronkan ke ponsel"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Kenalan baru"</b></font>" untuk membuat kenalan baru dari awal"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Impor/Ekspor"</b></font>\n</li></string>
+    <string name="noContactsHelpTextWithSync">"Anda tidak memiliki kenalan untuk ditampilkan. (Jika Anda baru saja menambahkan akun, diperlukan waktu beberapa menit untuk menyinkronkan kenalan.)"\n\n"Untuk menambahkan kenalan, tekan "<font fgcolor="#ffffffff"><b>"Menu"</b></font>" dan sentuh:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Akun"</b></font>" untuk menambahkan atau mengonfigurasi akun tertentu dengan kenalan yang dapat Anda sinkronkan ke ponsel"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Opsi tampilan"</b></font>" untuk mengubah kenalan mana yang terlihat"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Kenalan baru"</b></font>" untuk membuat kenalan baru dari awal"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Impor/Ekspor"</b></font>\n</li></string>
+    <string name="noContactsNoSimHelpText">"Anda tidak memiliki kenalan untuk ditampilkan."\n\n"Untuk menambahkan kenalan, tekan "<font fgcolor="#ffffffff"><b>"Menu"</b></font>" dan sentuh:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Akun"</b></font>" untuk menambahkan atau mengonfigurasi akun tertentu dengan kenalan yang dapat Anda sinkronkan ke ponsel"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Kenalan baru"</b></font>" untuk membuat kenalan baru dari awal"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Impor/Ekspor"</b></font>\n</li></string>
+    <string name="noContactsNoSimHelpTextWithSync">"Anda tidak memiliki kenalan untuk ditampilkan. (Jika Anda baru saja menambahkan akun, diperlukan waktu beberapa menit untuk menyinkronkan kenalan.)"\n\n"Untuk menambahkan kenalan, tekan "<font fgcolor="#ffffffff"><b>"Menu"</b></font>" dan sentuh:"\n" "\n<li><font fgcolor="#ffffffff"><b>"Akun"</b></font>" untuk menambahkan atau mengonfigurasi akun tertentu dengan kenalan yang dapat Anda sinkronkan ke ponsel"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Opsi tampilan"</b></font>" untuk mengubah kenalan mana yang terlihat"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Kenalan baru"</b></font>" untuk membuat kenalan baru dari awal"\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Impor/Ekspor"</b></font>\n</li></string>
+    <string name="noFavoritesHelpText">"Anda tidak memiliki favorit."\n\n"Untuk menambahkan kenalan ke daftar favorit:"\n\n"        "<li>"Sentuh tab "<b>"Kenalan"</b>\n</li>" "\n<li>"Sentuh kenalan yang ingin Anda tambahkan ke favorit"\n</li>" "\n<li>"Sentuh bintang di samping nama kenalan"\n</li></string>
+    <string name="seclectSyncGroups_title">Pilih grup untuk sinkronasi</string>
+    <string name="liveFolder_all_label">"Semua kenalan"</string>
+    <string name="liveFolder_favorites_label">"Yang berkilau bintangnya"</string>
+    <string name="liveFolder_phones_label">"Telepon"</string>
+    <string name="dialer_useDtmfDialpad">"Gunakan keypad nada sentuh"</string>
+    <string name="dialer_returnToInCallScreen">"Kembali ke panggilan sedang berlangsung"</string>
+    <string name="dialer_addAnotherCall">"Tambahkan panggilan"</string>
+    <string name="callDetailTitle">"Detail panggilan"</string>
+    <string name="toast_call_detail_error">"Tidak dapat membaca detail untuk panggilan yang diminta."</string>
+    <string name="call_type">Tipe</string>
+    <string name="type_incoming">"Panggilan masuk"</string>
+    <string name="type_outgoing">"Panggilan keluar"</string>
+    <string name="type_missed">"Panggilan tak terjawab"</string>
+    <string name="call_time">Waktu</string>
+    <string name="datetime_relative">"<xliff:g id="datetime" example="Dec 31, 2007, 11:00 am">%1$s</xliff:g> (<xliff:g id="relative" example="4 hours ago">%2$s</xliff:g>)"</string>
+    <string name="call_duration">Durasi</string>
+    <string name="header_actions">Tindakan</string>
+    <string name="ringtone_spinner">"Nada dering: <xliff:g id="ringtone" example="Caribbean Ice">%1$s</xliff:g>"</string>
+    <string name="add_more_items">Tambahkan barang lebih</string>
+    <string name="actionCall">Panggil <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionEmail">Email <xliff:g id="type" example="home">%s</xliff:g></string>
+    <string name="actionText">Teks <xliff:g id="type" example="mobile">%s</xliff:g></string>
+    <string name="actionChat">Ngobrol menggunakan <xliff:g id="type" example="Google Talk">%s</xliff:g></string>
+    <string name="actionMap">Tampilkan <xliff:g id="type" example="home">%s</xliff:g> alamat</string>
+    <string name="actionIncomingCall">"Panggilan masuk"</string>
+    <string name="detailIncomingCallsGoToVoicemail">Akan dikirim langsung ke panggilan suata</string>
+    <string name="detailsRingtone">Terkirim ke <xliff:g id="ringtone_name" example="Flutey Phone">%s</xliff:g></string>
+    <string name="callBack">"Hubungi kembali"</string>
+    <string name="callAgain">"Hubungi sekali lagi"</string>
+    <string name="returnCall">"Panggilan kembali"</string>
+    <string name="callDetailsDurationFormat">"<xliff:g id="MINUTES">%1$s</xliff:g> menit <xliff:g id="SECONDS">%2$s</xliff:g> detik"</string>
+    <string name="favoritesFrquentSeparator">"Paling sering dihubungi"</string>
+    <string name="add_contact_dlg_title">"Tambahkan kenalan"</string>
+    <string name="add_contact_dlg_message_fmt">"Tambahkan \"<xliff:g id="EMAIL">%s</xliff:g>\" ke kenalan?"</string>
+    <string name="all_tab_label">"Semua"</string>
+    <string name="description_image_button_one">"satu"</string>
+    <string name="description_image_button_two">"dua"</string>
+    <string name="description_image_button_three">"tiga"</string>
+    <string name="description_image_button_four">"empat"</string>
+    <string name="description_image_button_five">"lima"</string>
+    <string name="description_image_button_six">"enam"</string>
+    <string name="description_image_button_seven">"tujuh"</string>
+    <string name="description_image_button_eight">"delapan"</string>
+    <string name="description_image_button_nine">"sembilan"</string>
+    <string name="description_image_button_star">"kilaukan bintang"</string>
+    <string name="description_image_button_zero">"nol"</string>
+    <string name="description_image_button_pound">"pound"</string>
+    <string name="description_voicemail_button">"kotak pesan"</string>
+    <string name="description_dial_button">"panggil"</string>
+    <string name="description_delete_button">"backspace"</string>
+    <string name="description_digits_edittext">"nomor untuk dipanggil"</string>
+    <string name="description_contact_photo">"foto kenalan"</string>
+    <string name="description_minus_button">"minus"</string>
+    <string name="description_plus_button">"plus"</string>
+    <string name="no_sdcard_title" product="nosdcard">"Penyimpanan USB tidak tersedia"</string>
+    <string name="no_sdcard_title" product="default">"Tidak ada kartu SD"</string>
+    <string name="no_sdcard_message" product="nosdcard">"Tidak ada penyimpanan USB yang terdeteksi"</string>
+    <string name="no_sdcard_message" product="default">"Tidak ada kartu SD yang terdeteksi"</string>
+    <string name="searching_vcard_title">"Menelusuri vCard"</string>
+    <string name="select_import_type_title">Di mana Anda ingin mengimpor kontak dari?</string>
+    <string name="import_from_sim">"Impor dari kartu SIM"</string>
+    <string name="import_from_sim1">"Impor dari SIM1"</string>
+    <string name="import_from_sim2">"Impor dari SIM2"</string>
+    <string name="import_from_sdcard" product="nosdcard">"Mengimpor dari penyimpanan USB"</string>
+    <string name="import_from_sdcard" product="default">"Impor dari kartu SD"</string>
+    <string name="export_to_sdcard" product="nosdcard">"Ekspor ke penyimpanan USB"</string>
+    <string name="export_to_sdcard" product="default">"Ekspor ke kartu SD"</string>
+    <string name="share_visible_contacts">"Bagikan kenalan yang terlihat"</string>
+    <string name="import_one_vcard_string">"Impor satu berkas vCard"</string>
+    <string name="import_multiple_vcard_string">"Impor beberapa berkas vCard"</string>
+    <string name="import_all_vcard_string">"Impor semua berkas vCard"</string>
+    <string name="searching_vcard_message" product="nosdcard">"Menelusuri data vCard dalam penyimpanan USB"</string>
+    <string name="searching_vcard_message" product="default">"Menelusuri data vCard pada kartu SD."</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard">"Memindai penyimpanan USB gagal"</string>
+    <string name="scanning_sdcard_failed_title" product="default">"Kartu SD gagal dipindai"</string>
+    <string name="scanning_sdcard_failed_message" product="nosdcard">"Memindai penyimpanan USB gagal (Alasan: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\")"</string>
+    <string name="scanning_sdcard_failed_message" product="default">"Kartu SD gagal dipindai (Alasan: \"<xliff:g id="FAIL_REASON">%s</xliff:g>\")"</string>
+    <string name="fail_reason_io_error">"Galat I/O"</string>
+    <string name="fail_reason_vcard_parse_error">"Gagal melakukan parse pada vCard karena alasan yang tidak diharapkan"</string>
+    <string name="fail_reason_vcard_not_supported_error">"Gagal melakukan parse pada vCard meskipun dalam format yang valid, karena implementasi saat ini tidak mendukungnya"</string>
+    <string name="fail_reason_no_vcard_file" product="nosdcard">"Tidak ada berkas vCard dalam penyimpanan USB"</string>
+    <string name="fail_reason_no_vcard_file" product="default">"Tidak ada berkas vCard yang ditemukan pada kartu SD"</string>
+    <string name="fail_reason_no_vcard_entry">Tidak ada masukan kartuV yang valid ditemukan untuk pilihan Anda</string>
+    <string name="fail_reason_failed_to_read_files">"Satu berkas atau lebih gagal diimpor (%s)"</string>
+    <string name="fail_reason_unknown">"Galat tidak dikenal"</string>
+    <string name="select_vcard_title">"Pilih berkas vCard"</string>
+    <string name="select_vcard_message">Silahkan pilih berkas kartuV untuk diimpor</string>
+    <string name="progress_shower_message">"<xliff:g id="ACTION">%1$s</xliff:g>"\n"<xliff:g id="FILENAME">%2$s</xliff:g>"</string>
+    <string name="reading_vcard_title">"Membaca vCard"</string>
+    <string name="reading_vcard_message">"Membaca berkas vCard"</string>
+    <string name="importing_vcard_message">Mengimpor data kartuV</string>
+    <string name="reading_vcard_failed_title">"Gagal membaca data vCard"</string>
+    <string name="reading_vcard_failed_message">Tidak dapat membaca kartuV.\nAlasan gagal: \"<xliff:g id="fail_reason">%s</xliff:g>\"</string>
+    <string name="reading_vcard_contacts">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> dari <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> kenalan"</string>
+    <string name="reading_vcard_files">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> dari <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> berkas"</string>
+    <string name="export_all_contacts">Semua kontak</string>
+    <string name="export_phone_local_only">Kontak yang disimpan secara lokal</string>
+    <string name="export_contact_list">Ekspor kontak</string>
+    <string name="confirm_export_title">"Konfirmasi ekspor"</string>
+    <string name="confirm_export_message">"Apakah Anda yakin ingin mengekspor daftar kenalan ke \"<xliff:g id="VCARD_FILENAME">%s</xliff:g>\"?"</string>
+    <string name="exporting_contact_failed_title">"Gagal mengekspor data kenalan"</string>
+    <string name="exporting_contact_failed_message">"Gagal mengekspor data kenalan."\n"Alasan kegagalan: \"<xliff:g id="FAIL_REASON">%s</xliff:g>:"</string>
+    <string name="fail_reason_no_exportable_contact">"Tidak ada kenalan yang dapat diekspor"</string>
+    <string name="fail_reason_too_many_vcard" product="nosdcard">"Terlalu banyak berkas vCard dalam penyimpanan USB"</string>
+    <string name="fail_reason_too_many_vcard" product="default">"Terlalu banyak berkas vCard pada kartu SD"</string>
+    <string name="fail_reason_too_long_filename">"Nama berkas yang diperlukan terlalu panjang (\"<xliff:g id="FILENAME">%s</xliff:g>\")"</string>
+    <string name="fail_reason_cannot_open_destination_dir">Tidak bisa membuka atau membuat direktori tujuan\"<xliff:g id="dir_name">%s</xliff:g>\"</string>
+    <string name="exporting_contact_list_title">"Mengekspor data kenalan"</string>
+    <string name="exporting_contact_list_message">"Mengekspor data kenalan ke \"<xliff:g id="FILE_NAME">%s</xliff:g>\""</string>
+    <string name="fail_reason_could_not_initialize_exporter">"Tidak dapat menginisiasi pengeskpor: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="fail_reason_error_occurred_during_export">"Terjadi galat selama ekspor: \"<xliff:g id="EXACT_REASON">%s</xliff:g>\""</string>
+    <string name="composer_failed_to_get_database_infomation">"Gagal mendapatkan informasi database"</string>
+    <string name="composer_has_no_exportable_contact">"Tidak ada kenalan yang dapat diekspor. Jika Anda sudah memiliki kenalan pada ponsel, semua kenalan mungkin dilarang untuk diekspor keluar ponsel oleh sebagian penyedia data."</string>
+    <string name="composer_not_initialized">"Penyusun vCard tidak dimulai dengan benar"</string>
+    <string name="fail_reason_could_not_open_file">"Tidak dapat membuka \"<xliff:g id="FILE_NAME">%1$s</xliff:g>\": <xliff:g id="EXACT_REASON">%2$s</xliff:g>"</string>
+    <string name="exporting_contact_list_progress">"<xliff:g id="CURRENT_NUMBER">%1$s</xliff:g> dari <xliff:g id="TOTAL_NUMBER">%2$s</xliff:g> kenalan"</string>
+    <string name="search_settings_description">"Nama kenalan Anda"</string>
+    <string name="add_2sec_pause">"Tambahkan jeda 2-det"</string>
+    <string name="add_wait">"Tambahkan tunggu"</string>
+    <string name="dial_button_label">Panggil</string>
+    <string name="call_disambig_title">"Panggil menggunakan"</string>
+    <string name="sms_disambig_title">"SMS menggunakan"</string>
+    <string name="make_primary">"Ingat pilihan ini"</string>
+    <string name="quickcontact_missing_app">"Tidak ada aplikasi yang ditemukan untuk menangani tindakan ini"</string>
+    <string name="quickcontact_remember_choice">"Ingat pilihan ini"</string>
+    <string name="quickcontact_missing_name">"Tidak diketahui"</string>
+    <string name="menu_accounts">"Akun"</string>
+    <string name="menu_import_export">"Impor/Ekspor"</string>
+    <string name="dialog_import_export">"Impor/Ekspor kenalan"</string>
+    <string name="menu_share">"Bagikan"</string>
+    <string name="share_via">"Bagikan kenalan melalui"</string>
+    <string name="share_error">"Kenalan ini tidak dapat dibagikan"</string>
+    <string name="nameLabelsGroup">"Nama"</string>
+    <string name="nicknameLabelsGroup">"Nama julukan"</string>
+    <string name="organizationLabelsGroup">"Organisasi"</string>
+    <string name="websiteLabelsGroup">"Situs web"</string>
+    <string name="eventLabelsGroup">"Acara"</string>
+    <string name="type_short_home">"R"</string>
+    <string name="type_short_mobile">"S"</string>
+    <string name="type_short_work">"K"</string>
+    <string name="type_short_pager">"P"</string>
+    <string name="type_short_other">"O"</string>
+    <string name="edit_read_only">"Kenalan ini hanya-baca"</string>
+    <string name="edit_secondary_collapse">"Lainnya"</string>
+    <string name="dialog_primary_name">"Nama utama"</string>
+    <string name="dialog_new_contact_account">"Buat kenalan di bawah akun"</string>
+    <string name="menu_sync_remove">"Hapus grup sinkronisasi"</string>
+    <string name="dialog_sync_add">"Tambahkan grup sinkronisasi"</string>
+    <string name="display_more_groups">"Grup lainnya..."</string>
+    <string name="display_ungrouped">"Semua Kenalan Lainnya"</string>
+    <string name="display_all_contacts">"Semua Kenalan"</string>
+    <string name="display_warn_remove_ungrouped">"Menghapus \'<xliff:g id="GROUP">%s</xliff:g>\' dari sinkronisasi juga akan menghapus kenalan yang tidak dikelompokkan dari sinkronisasi."</string>
+    <string name="label_email_display_name">Tampilan nama</string>
+    <string name="account_phone">"Ponsel saja, tidak disinkronkan"</string>
+    <string name="call_custom">"Panggil <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="call_home">"Panggil nomor telepon rumah"</string>
+    <string name="call_mobile">"Panggil nomor seluler"</string>
+    <string name="call_work">"Panggil nomor kantor"</string>
+    <string name="call_fax_work">"Panggil faks kantor"</string>
+    <string name="call_fax_home">"Panggil nomor faks rumah"</string>
+    <string name="call_pager">"Panggil pager"</string>
+    <string name="call_other">"Telepon"</string>
+    <string name="call_callback">"Hubungi panggilan balik"</string>
+    <string name="call_car">"Hubungi nomor telepon mobil"</string>
+    <string name="call_company_main">"Hubungi nomor telepon utama perusahaan"</string>
+    <string name="call_isdn">"Panggil ISDN"</string>
+    <string name="call_main">"Panggil nomor utama"</string>
+    <string name="call_other_fax">"Panggil faks"</string>
+    <string name="call_radio">"Panggil radio"</string>
+    <string name="call_telex">"Panggil teleks"</string>
+    <string name="call_tty_tdd">"Panggil TTY/TDD"</string>
+    <string name="call_work_mobile">"Panggil nomor seluler kantor"</string>
+    <string name="call_work_pager">"Panggil pager kantor"</string>
+    <string name="call_assistant">"Panggil <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="call_mms">"Panggil MMS"</string>
+    <string name="sms_custom">"SMS <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="sms_home">"SMS rumah"</string>
+    <string name="sms_mobile">"SMS seluler"</string>
+    <string name="sms_work">"SMS kantor"</string>
+    <string name="sms_fax_work">"SMS faks kantor"</string>
+    <string name="sms_fax_home">"SMS faks rumah"</string>
+    <string name="sms_pager">"SMS pager"</string>
+    <string name="sms_other">"SMS"</string>
+    <string name="sms_callback">"SMS panggilan balik"</string>
+    <string name="sms_car">"SMS mobil"</string>
+    <string name="sms_company_main">"SMS nomor utama perusahaan"</string>
+    <string name="sms_isdn">"SMS ISDN"</string>
+    <string name="sms_main">"SMS utama"</string>
+    <string name="sms_other_fax">"SMS faks"</string>
+    <string name="sms_radio">"SMS radio"</string>
+    <string name="sms_telex">"SMS teleks"</string>
+    <string name="sms_tty_tdd">"SMS TTY/TDD"</string>
+    <string name="sms_work_mobile">"SMS seluler kantor"</string>
+    <string name="sms_work_pager">"Teks pager kantor"</string>
+    <string name="sms_assistant">"SMS <xliff:g id="ASSISTANT">%s</xliff:g>"</string>
+    <string name="sms_mms">"SMS MMS"</string>
+    <string name="email_home">"Email ke rumah"</string>
+    <string name="email_mobile">"Email ke seluler"</string>
+    <string name="email_work">"Email ke kantor"</string>
+    <string name="email_other">"Email"</string>
+    <string name="email_custom">"Email <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="email">"Email"</string>
+    <string name="map_home">"Tampilkan alamat rumah"</string>
+    <string name="map_work">"Tampilkan alamat kantor"</string>
+    <string name="map_other">"Lihat alamat"</string>
+    <string name="map_custom">"Tampilkan alamat <xliff:g id="CUSTOM">%s</xliff:g>"</string>
+    <string name="chat_aim">"Ngobrol menggunakan AIM"</string>
+    <string name="chat_msn">"Ngobrol menggunakan Windows Live"</string>
+    <string name="chat_yahoo">"Ngobrol menggunakan Yahoo"</string>
+    <string name="chat_skype">"Ngobrol menggunakan Skype"</string>
+    <string name="chat_qq">"Ngobrol menggunakan QQ"</string>
+    <string name="chat_gtalk">"Ngobrol menggunakan Google Talk"</string>
+    <string name="chat_icq">"Ngobrol menggunakan ICQ"</string>
+    <string name="chat_jabber">"Ngobrol menggunakan Jabber"</string>
+    <string name="chat_other">"ngobrol menggunakan peralatan lain"</string>
+    <string name="chat">"Ngobrol"</string>
+    <string name="postal_street">"Jalan"</string>
+    <string name="postal_pobox">"Kotak pos"</string>
+    <string name="postal_neighborhood">"Lingkungan"</string>
+    <string name="postal_city">"Kota"</string>
+    <string name="postal_region">"Neg. Bagian/Prov"</string>
+    <string name="postal_postcode">"Kode pos"</string>
+    <string name="postal_country">"Negara"</string>
+    <string name="name_given">"Nama depan"</string>
+    <string name="name_family">"Nama keluarga"</string>
+    <string name="name_prefix">"Awalan nama"</string>
+    <string name="name_middle">"Nama tengah"</string>
+    <string name="name_suffix">"Akhiran nama"</string>
+    <string name="name_phonetic_given">"Nama depan fonetik"</string>
+    <string name="name_phonetic_middle">"Nama tengah fonetik"</string>
+    <string name="name_phonetic_family">"Nama keluarga fonetik"</string>
+    <string name="split_label">Bagi</string>
+    <string name="split_explanation">Buat data ini kontak sendiri.</string>
+    <string name="account_name_format">Dari <xliff:g id="source" example="Gmail">%1$s</xliff:g> akun: <xliff:g id="account" example="user@gmail.com">%2$s</xliff:g></string>
+    <string name="account_type_format">"<xliff:g id="SOURCE">%1$s</xliff:g> kenalan"</string>
+    <string name="from_account_format">"dari <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="use_photo_as_primary">"Gunakan foto ini"</string>
+    <string name="contact_read_only">"Informasi kenalan <xliff:g id="SOURCE">%1$s</xliff:g> tidak dapat diedit pada perangkat ini."</string>
+    <string name="no_contact_details">"Tidak ada informasi tambahan untuk kenalan ini"</string>
+    <string name="display_options_sort_list_by">"Sortir daftar menurut"</string>
+    <string name="display_options_sort_by_given_name">"Nama depan"</string>
+    <string name="display_options_sort_by_family_name">"Nama keluarga"</string>
+    <string name="display_options_view_names_as">"Tampilkan nama kenalan sebagai"</string>
+    <string name="display_options_view_given_name_first">"Nama depan pertama"</string>
+    <string name="display_options_view_family_name_first">"Nama keluarga pertama"</string>
+    <string name="search_bar_hint">"Telusuri kenalan"</string>
+    <string name="search_for_all_contacts">"Telusuri semua kenalan"</string>
+    <string name="take_photo">"Ambil foto"</string>
+    <string name="pick_photo">"Pilih foto dari galeri"</string>
+    <string name="locale_change_in_progress">"Daftar kenalan sedang diperbarui untuk mencerminkan perubahan bahasa."\n\n"Harap tunggu..."</string>
+    <string name="upgrade_in_progress">"Daftar kenalan sedang diperbarui."\n\n"Harap tunggu..."</string>
+    <string name="upgrade_out_of_memory">"Kenalan sedang dalam proses peningkatan versi. "\n\n"Proses peningkatan versi memerlukan sekitar <xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>Mb dari penyimpanan ponsel internal."\n\n"Pilih salah satu opsi berikut:"</string>
+    <string name="upgrade_out_of_memory_uninstall">"Copot pemasangan beberapa aplikasi"</string>
+    <string name="upgrade_out_of_memory_retry">"Coba peningkatan versi sekali lagi"</string>
+    <string name="search_results_for">"Hasil penelusuran untuk: <xliff:g id="QUERY">%s</xliff:g>"</string>
+    <string name="search_results_searching">"Menelusuri..."</string>
+    <string name="dialer_call_switch">Panggilan suara/panggilan video</string>
+    <string name="menu_voicecall">Panggilan suara</string>
+    <string name="menu_videocall">Panggilan video</string>
+    <string name="select_all">pilih semua</string>
+    <string name="select_contacts">pilih kontak</string>
+    <string name="delete_contacts">hapus kontak</string>
+    <string name="export_contacts">ekspor kontak</string>
+    <string name="import_contacts">impor kontak</string>
+    <string name="add_contacts_to_group">tambahlan kontak ke grup</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">"Batal"</string>
+    <string name="contact_tag">Nama</string>
+    <string name="inputting__name_sim_contacts">Catatan: panjang maksimum 14 karakter (jika berisi karakter atau string karakter memungkinkan panjang maksimal untuk enam karakter), di luar panjang akan dihadang.</string>
+    <string name="inputting_number_sim_contacts">Catatan: panjang maksimum untuk 20 karakter (hanya mengizinkan 0-9 +, * karakter).</string>
+    <string name="setting_digits">1234567890+*#,;</string>
+    <string name="menu_contacts_group">Grup kontak</string>
+    <string name="menu_delete">Hapus kontak</string>
+    <string name="on_progress">Dalam proses...silahkan tunggu.</string>
+    <string name="deleting_contacts">Menghapus kontak, silahkan tunggu.</string>
+    <string name="importing_contacts">Mengimpor kontak, silahkan tunggu.</string>
+    <string name="exporting_contacts">Mengekspor kontak, silahkan tunggu.</string>
+    <string name="adding_contacts_to_group">Menambahkan kontak ke grup, silahkan tunggu.</string>
+    <string name="confirm">konfirmasi?</string>
+    <string name="export_to_sim">"Ekspor ke kartu SIM"</string>
+    <string name="export_to_sim1">"Ekspor ke kartu SIM1"</string>
+    <string name="export_to_sim2">"Ekspor ke kartu SIM2"</string>
+    <string name="group_all">Semua kontak</string>
+    <string name="group_phone">Kontak telepon</string>
+    <string name="group_sim">Kontak kartu sim</string>
+    <string name="group_sim1">"Kontak kartu sim1"</string>
+    <string name="group_sim2">"Kontak kartu sim2"</string>
+    <string name="view_simContact">Tampilkan kontak Sim</string>
+    <string name="edit_simContact">Ubah kontak Sim</string>
+    <string name="insert_simContact">Tambahkan kontak Sim</string>
+    <string name="select_contacts_group">Pilih grup kontak</string>
+    <string name="select_contacts_group_to_add">Pilih grup untuk menambahkan kontak baru</string>
+    <string name="sim_card">Kartu sim</string>
+    <string name="sim_card1">"Kartu sim1"</string>
+    <string name="sim_card2">"Kartu sim2"</string>
+    <string name="phone">Telepon</string>
+    <string name="toast_simcontact_no_name">Tidak ada nama</string>
+    <string name="toast_simcontact_no_phone_number">Tidak ada nomor telepon</string>
+    <string name="dial_number">Panggil</string>
+    <string name="send_message">Pesan</string>
+    <string name="account_sim">Hanya-SIM</string>
+    <string name="account_sim1">"Hanya-SIM1"</string>
+    <string name="account_sim2">"Hanya-SIM2"</string>
+    <string name="sim1_no_ready">"Kartu sim1 tidak siap"</string>
+    <string name="sim2_no_ready">"Kartu sim2 tidak siap"</string>
+    <string name="sim_no_ready">"Kartu sim tidak siap"</string>
+    <string name="noContactsWithSimNumbers">"Tidak ada kontak pada kartu SIM"</string>
+    <string name="no_match_people">Tidak ada kontak yang cocok ditemukan.</string>
+    <string name="dialpad_colon">:</string>
+    <string name="progress_dialog_title">Mengimpor kontak Sim.</string>
+    <string name="sim_is_initializing">Menginisialisasi kartu Sim.</string>
+    <string name="toast_sim_overflow">Kartu sim penuh</string>
+    <string name="toast_simcontact_input_overflow">Masukan informasi kontak melimpah</string>
+    <string name="toast_no_map_apk">Tidak ada aplikasi map</string>
+    <string name="toast_name_number_both_empty">Nama dan nomor telepon tidak dapat kosong dua-duanya</string>
+    <string name="import_to_phone">Diimpor ke telepon</string>
+    <string name="recentCalls_addToCallFireWall">Menambahkan ke FireWall panggilan</string>
+    <string name="contactslist_menu_addto_firewall">Menambahkan ke FireWall panggilan</string>
+    <string name="contactslist_menu_addto_firewall_null">Nomor kontak kosong, silahkan kembali memilih untuk menambahkan kontak lainnya</string>
+    <string name="videocall_string">Video</string>
+    <string name="export_contacts_to_sdcard">"Ekspor kontak ke kartu SD"</string>
+    <string name="recentCalls_delete_toest">"Silahkan pilih hapus barang"</string>
+    <string name="sendType_MMS">"Informasi ini akan mengirim MMS"</string>
+    <string name="sendType_SMS">"Informasi ini akan mengirim SMS"</string>
+    <string name="service_is_busy">"Layanan sinkronisasi sibuk, beberapa fungsi dinonaktifkan"</string>
+    <string name="label_success">"Berhasil"</string>
+    <string name="label_fail">"Gagal"</string>
+    <string name="group_manager">"Grup kontak"</string>
+    <string name="group_manager_delete">"Penghimpun kontak - Hapus"</string>
+    <string name="empty">"Grup Kosong, silahkan masuk ke menu untuk menambahkan"</string>
+    <string name="noGroupInfo">"tidak ada grup untuk dioperasikan"</string>
+    <string name="conatcts_name">"nama"</string>
+    <string name="phone_number">"telepon"</string>
+    <string name="phone1">"telepon1"</string>
+    <string name="phone2">"telepon2"</string>
+    <string name="phone3">"telepon3"</string>
+    <string name="phone4">"telepon4"</string>
+    <string name="nickname">"nama panggilan"</string>
+    <string name="concacts_email">"email"</string>
+    <string name="ghostData_phone1">"Nomor telepon1"</string>
+    <string name="ghostData_phone2">"Nomor telepon2"</string>
+    <string name="ghostData_phone3">"Nomor telepon3"</string>
+    <string name="ghostData_phone4">"Nomor telepon4"</string>
+    <string name="ghostData_nickname">"Nama panggilan"</string>
+    <string name="ghostData_concatct_email">"Email"</string>
+    <string name="contacts_is_null">"Masukan informasi kontak"</string>
+    <string name="export_sim_success">"Mengekspor SIM Berhasil"</string>
+    <string name="export_sim_fail">"Mengekspor SIM Gagal"</string>
+    <string name="export_sim1_success">"Mengekspor SIM1 Berhasil"</string>
+    <string name="export_sim1_fail">"Mengekspor SIM1 Gagal"</string>
+    <string name="export_sim2_success">"Mengekspor SIM2 Berhasil"</string>
+    <string name="export_sim2_fail">"Mengekspor SIM2 Gagal"</string>
+    <string name="add_to_group_success">"Menambahkan Grup Berhasil"</string>
+    <string name="add_to_group_fail">"Menambahkan Grup Gagal"</string>
+    <string name="import_to_phone_success">"Mengimpor Telepon Berhasil"</string>
+    <string name="import_to_phone_fail">"Mengimpor Telepon Gagal"</string>
+    <string name="delete_phone_success">"Menghapus Berhasil"</string>
+    <string name="delete_phone_fail">"Menghapus Gagal"</string>
+    <string name="delete_sim_success">"Menghapus Berhasil"</string>
+    <string name="delete_sim_fail">"Menghapus Gagal"</string>
+    <string name="recentCallsAllIconLabel">Semua</string>
+    <string name="recentCallsMissedIconLabel">Terlewatkan</string>
+    <string name="recentCallsOutgoingIconLabel">Keluar</string>
+    <string name="recentCallsReceivedIconLabel">Diterima</string>
+    <string name="select_one">Setidaknya pilih satu barang!</string>
+    <string name="remove_contacts_from_group">Hapus kontak ini dari grup</string>
+    <string name="sim_card_name_too_long">Nama kartu Sim terlalu panjang</string>
+    <string name="group_name_cannot_empty">Nama grup tidak dapat kosong</string>
+    <string name="assistantLabelPickerTitle">Nama label asisten</string>
+    <string name="share_by_sms">Kirim kontak dengan SMS</string>
+    <string name="share_by_mms">Kirim kontak dengan MMS</string>
+    <string name="share_by_bluetooth">Kirim kontak dengan Bluetooth</string>
+    <string name="share_by_email">Kirim kontak dengan Email</string>
+    <string name="chat_custom">"Ngobrol menggunakan <xliff:g id="NAME">%s</xliff:g>"</string>
+    <string name="deleting">"Menghapus, Silahkan coba lagi"</string>
+    <string name="import_aborted">"mengimpor dibatalkan"</string>
+    <string name="exprot_fail">"Mengekspor gagal, tidak ada ruang tersisa pada perangakat"</string>
+    <string name="exprot_fail_only_email">"Kontak hanya Email, tidak dapat mengekspor ke SIM"</string>
+    <string name="contacts_information_is_replace">"Informasi kontak digantikan"</string>
+    <string name="import_sim_too_many">"Pengguna mengimpor lebih dari sisa kapasitas kartu sim"</string>
+    <string name="whether_import_from_SD">"Impor dari kartu SD jika kontak ini?"</string>
+    <string name="blacklist_add">Tambah ke blacklist</string>
+    <string name="blacklist">Daftar hitam</string>
+    <string name="blacklist_no_number">Tidak ada nomor, Anda tidak dapat menambahkan.</string>
+    <string name="no_fast_dial">nomor telepon panggilan cepat tidak diatur</string>
+    <string name="fast_dial_choose">silahkan pilih tipe panggilan cepat</string>
+    <string name="fast_call">panggilan suara</string>
+    <string name="fast_vt_call">panggilan_video</string>
+    <string name="save_contact_faliue">Menyimpan gagal</string>
+    <string name="add_contact_success">menambahkan kontak berhasil</string>
+    <string name="group_name">nama grup</string>
+    <string name="contactsSIMIconLabel">SIM</string>
+    <string name="contactsPhoneIconLabel">Telepon</string>
+    <string name="sim_notready_cant_not_save">"Kartu SIM tidak siap, tidak dapat menyimpan kontak dari kartu SIM"</string>
+    <string name="cant_not_save_email">"Kartu SIM ini tidak dapat menyimpan email."</string>
+    <string name="fdn_enable_nosetting">"Tindakan yang dipilih tidak tersedia saat FDN diaktifkan."</string>
+    <string name="menu_removeFrequent">"Hapus dari frekuensi"</string>
+    <string name="group_name_student">"Pelajar"</string>
+    <string name="group_name_friend">"Teman"</string>
+    <string name="group_name_family">"Keluarga"</string>
+    <string name="group_name_colleague">"Rekan"</string>
+    <string name="default_ban_operate">"Grup standar melarang operasi"</string>
+    <string name="delete_group">Hapus Grup</string>
+    <string name="remove_frequent_contacts">"Menghapus kontak yang sering"</string>
+    <string name="removing_frequent_contacts">"Menghapus kontak yang sering, silahkan tunggu."</string>
+    <string name="remove_collection_contacts">"Menghapus koleksi kontak"</string>
+    <string name="removing_collection_contacts">"Menghapus koleksi kontak, silahkan tunggu."</string>
+    <string name="get_sim_count_fail">kartu sim tidak siap atau tidak terpasang</string>
+    <string name="emergency_call">Panggilan darurat</string>
+    <string name="dial_emergency_error">"Panggilan tidak terkirim, <xliff:g id="NON_EMERGENCY_NUMBER">%s</xliff:g> bukan nomor darurat!"</string>
+    <string name="dial_emergency_empty_error">"Panggilan tidak terkirim, silahkan tekan nomor darurat!"</string>
+    <string name="label_birthday">ulang tahun</string>
+</resources>

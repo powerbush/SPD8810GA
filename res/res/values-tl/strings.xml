@@ -1,0 +1,1037 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources
+xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="address_length">Naabot na ng address ang pinakasagad na haba</string>
+    <string name="byteShort">"B"</string>
+    <string name="kilobyteShort">"KB"</string>
+    <string name="megabyteShort">"MB"</string>
+    <string name="gigabyteShort">"GB"</string>
+    <string name="terabyteShort">"TB"</string>
+    <string name="petabyteShort">"PB"</string>
+    <string name="fileSizeSuffix">"<xliff:g id="NUMBER">%1$s</xliff:g><xliff:g id="UNIT">%2$s</xliff:g>"</string>
+    <string name="untitled">"&lt;walang pamagat&gt;"</string>
+    <string name="ellipsis">"..."</string>
+    <string name="emptyPhoneNumber">"(Walang numero ng telepono)"</string>
+    <string name="unknownName">"(Hindi kilala)"</string>
+    <string name="defaultVoiceMailAlphaTag">"Voicemail"</string>
+    <string name="defaultMsisdnAlphaTag">"MSISDN1"</string>
+    <string name="mmiError">"Problema sa koneksyon o di-wastong MMI code."</string>
+    <string name="mmiFdnError">"Pinaghihigpitan ang pagpapatakbo sa mga fixed dialing number lang."</string>
+    <string name="serviceEnabled">"Pinagana ang serbisyo."</string>
+    <string name="serviceEnabledFor">"Pinagana ang serbisyo para sa:"</string>
+    <string name="serviceDisabled">"Hindi pinagana ang serbisyo."</string>
+    <string name="serviceRegistered">"Matagumpay ang pagpaparehistro."</string>
+    <string name="serviceErased">"Matagumpay ang pagbura."</string>
+    <string name="passwordIncorrect">"Maling password."</string>
+    <string name="passwordChange" msgid="">"Binago ang password"</string>
+    <string name="mmiComplete">"kumpleto ang MMI."</string>
+    <string name="badPin">"Mali ang lumang PIN na iyong na-type."</string>
+    <string name="badPin2">Hindi tama ang lumang PIN2 na na-type mo.</string>
+    <string name="badPuk">"Mali ang na-type mong PUK."</string>
+    <string name="badPuk2">Hindi tugma ang PUK2 na na-type mo.</string>
+    <string name="mismatchPin">"Hindi nagtugma ang ipinasok mong mga PIN."</string>
+    <string name="mismatchPin2">Hindi tugma ang PIN2 na inilagay mo.</string>
+    <string name="mismatchPuk">Hindi tugma ang PUK na inilagay mo.</string>
+    <string name="mismatchPuk2">Hindi tugma ang PUK2 na inilagay mo.</string>
+    <string name="invalidPin">"Mag-type ng PIN na 4 hanggang 8 numero."</string>
+    <string name="invalidPuk">I-type ang PUK na 8 numero.</string>
+    <string name="needPuk">"Na-PUK-lock ang iyong SIM card. I-type ang PUK code upang i-unlock ito."</string>
+    <string name="needPuk2">"I-type ang PUK2 upang i-unblock ang SIM card."</string>
+    <string name="needPinLock">Palitan ang setting ng PIN need sa PIN-locked.</string>
+    <string name="ClipMmi">"Papasok na Caller ID"</string>
+    <string name="ClirMmi">"Papalabas na Caller ID"</string>
+    <string name="ColpMmi">Pagpapakilala ng linyang nakakonekta </string>
+    <string name="ColrMmi">Paghihigpit sa linyang nakakonekta</string>
+    <string name="CfMmi">"Pagpapasa ng tawag"</string>
+    <string name="UnConditionCfMmi" msgid="">"Walang kondisyon na ipapasang tawag"</string>
+    <string name="BusyCfMmi" msgid="">"Kapag abala ipasa ang tawag"</string>
+    <string name="NoReplyCfMmi" msgid="">Kapag walang sagot ipasa ang tawag"</string>
+    <string name="NotReachCfMmi" msgid="">"Kapag hindi maabot ng tawag ipasa ang tawag"</string>
+    <string name="AllCfMmi" msgid="">"Lahat ng pagpasa ng tawag"</string>
+    <string name="ConditionCfMmi" msgid="">"Ipapasa ang conditional na tawag"</string>
+    <string name="CwMmi">"Call waiting"</string>
+    <string name="BaMmi">"Pag-bar ng tawag"</string>
+    <string name="BaocMmi" msgid="">"Harangin ang Lahat ng papalabas ng tawag"</string>
+    <string name="BaoicMmi" msgid="">"Harangin ang Lahat ng papalabas na internasyunal na tawag"</string>
+    <string name="BaoicxhMmi" msgid="">"Harangin ang Lahat ng papalabas na internasyunal na tawag maliban sa sariling bansa"</string>
+    <string name="BaicMmi" msgid="">"Harangin ang Lahat ng papasok na tawag"</string>
+    <string name="BaicrMmi" msgid="">"Harangin ang Lahat ng papasok na tawag kapag naka-roaming"</string>
+    <string name="BaallMmi" msgid="">"Hinarangan ang Lahat ng Pangunahing Serbisyo"</string>
+    <string name="BamoMmi" msgid="">"Lahat ng papalabas para sa Lahat ng Pangunahing Serbisyo"</string>
+    <string name="BamtMmi" msgid="">"Lahat ng papasok para sa Lahat ng Pangunahing Serbisyo"</string>
+    <string name="ActiveUnconCf">Walang kondisyon na pagpasa ng tawag</string>
+    <string name="ActiveConCf">Kondisyonal na pagpasa ng tawag</string>
+    <string name="CallForwarded">Naipasa na tawag</string>
+    <string name="CallWaiting">Call waiting</string>
+    <string name="CugCall" msgid="">"CUG Call"</string>
+    <string name="OutCallBarred" msgid="">"Hinarangan ang papalabas na tawag"</string>
+    <string name="InCallBarred" msgid="">"Hinarangan ang papasok na tawag"</string>
+    <string name="ClirRejected" msgid="">"CLIR suppression hindi tinanggap"</string>
+    <string name="ForwardedCall">Naipasa na tawag</string>
+    <string name="CallRetrieved" msgid="">"Nabawi ang tawag"</string>
+    <string name="MultiCall" msgid="">"Tawag na pang maramihan"</string>
+    <string name="HoldCallReleased" msgid="">"Binitawan ang mga naka-hold na tawag"</string>
+    <string name="ConnectingEct" msgid="">"Kumukunekta sa ECT"</string>
+    <string name="ConnectedEct" msgid="">"Naka-konekta sa ECT"</string>
+    <string name="IncomingCallForwarded" msgid="">"Karagdagang papasok na tawag ipinadala"</string>
+    <string name="PwdMmi">"Pagbago ng password"</string>
+    <string name="PinMmi">"Pagbabago ng PIN"</string>
+    <string name="Pin2Mmi">"Binago ang PIN2"</string>
+    <string name="PukMmi">"I-unlock ang PIN"</string>
+    <string name="Puk2Mmi">"I-unlock ang PIN2"</string>
+    <string name="CnipMmi">"Mayroong numero ng pagtawag"</string>
+    <string name="CnirMmi">"Pinaghigpitan ang numero ng pagtawag"</string>
+    <string name="ThreeWCMmi">"Three way na pagtawag"</string>
+    <string name="RuacMmi">"Pagtanggi sa mga hindi ninanais na nakakaistorbong tawag"</string>
+    <string name="CndMmi">"Pagpapadala ng numero sa pagtawag"</string>
+    <string name="DndMmi">"Huwag istorbohin"</string>
+    <string name="CLIRDefaultOnNextCallOn">"Pinaghihigpitan ang mga default ng Caller ID. Susunod na tawag: Pinaghihigpitan"</string>
+    <string name="CLIRDefaultOnNextCallOff">"Nade-default sa pinaghihigpitan ang Caller ID. Susunod na tawag: hindi pinaghihigpitan"</string>
+    <string name="CLIRDefaultOffNextCallOn">"Naka-default sa hindi pinaghihigpitan ang Caller ID. Susunod na tawag: Pinaghihigpitan"</string>
+    <string name="CLIRDefaultOffNextCallOff">"Naka-default na hindi pinaghihigpitan ang Caller ID. Susunod na tawag: Hindi pinaghihigpitan"</string>
+    <string name="serviceNotProvisioned">"Hindi naprobisyon ang serbisyo."</string>
+    <string name="CLIRPermanent">"Hindi mababago ang setting ng caller ID."</string>
+    <string name="RestrictedChangedTitle">"Nabago ang pinaghihigpitang access"</string>
+    <string name="RestrictedOnData">"Naka-block ang serbisyo ng data."</string>
+    <string name="RestrictedOnEmergency">"Naka-block ang pang-emergency na serbisyo."</string>
+    <string name="RestrictedOnNormal">"Naka-block ang serbisyo ng voice."</string>
+    <string name="RestrictedOnAllVoice">"Naka-block ang lahat ng mga serbisyo ng voice."</string>
+    <string name="RestrictedOnSms">"Naka-block ang SMS service."</string>
+    <string name="RestrictedOnVoiceData">"Naka-block ang mga serbisyo ng Voice/Data."</string>
+    <string name="RestrictedOnVoiceSms">"Naka-block ang mga serbisyo ng Voice/SMS."</string>
+    <string name="RestrictedOnAll">"Naka-block ang lahat ng mga serbisyo ng Voice/Data/SMS."</string>
+    <string name="serviceClassVoice">"Voice"</string>
+    <string name="serviceClassData">"Data"</string>
+    <string name="serviceClassFAX">"FAX"</string>
+    <string name="serviceClassSMS">"SMS"</string>
+    <string name="serviceClassDataAsync">"Async"</string>
+    <string name="serviceClassDataSync">"I-sync"</string>
+    <string name="serviceClassPacket">"Packet"</string>
+    <string name="serviceClassPAD">"PAD"</string>
+    <string name="roamingText0">"Naka-on ang Tagasaad ng Roaming"</string>
+    <string name="roamingText1">"Naka-off ang Tagasaad ng Roaming"</string>
+    <string name="roamingText2">"Pag-flash ng Tagasaad ng Roaming"</string>
+    <string name="roamingText3">"Wala sa Kapitbahayan"</string>
+    <string name="roamingText4">"Wala sa Gusali"</string>
+    <string name="roamingText5">"Roaming - Ninanais na System"</string>
+    <string name="roamingText6">"Roaming - Available na System"</string>
+    <string name="roamingText7">"Roaming - Kasosyo sa Pagsasama"</string>
+    <string name="roamingText8">"Roaming - Premium na Kasosyo"</string>
+    <string name="roamingText9">"Roaming - Ganap na Pagpapaandar ng Serbisyo"</string>
+    <string name="roamingText10">"Roaming - Bahagyang Pagpapaandar ng Serbisyo"</string>
+    <string name="roamingText11">"Naka-on ang Banner ng Roaming"</string>
+    <string name="roamingText12">"Naka-off ang Banner ng Roaming"</string>
+    <string name="roamingTextSearching">"Naghahanap ng Serbisyo"</string>
+    <string name="cfTemplateNotForwarded">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: Hindi ipinasa"</string>
+    <string name="cfTemplateForwarded">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
+    <string name="cfTemplateForwardedTime">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g> pagkatapos ng <xliff:g id="TIME_DELAY">{2}</xliff:g> (na) segundo"</string>
+    <string name="cfTemplateRegistered">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: Hindi ipinasa"</string>
+    <string name="cfTemplateRegisteredTime">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: Hindi ipinasa"</string>
+    <string name="fcComplete">"Kumpleto na ang code ng tampok."</string>
+    <string name="fcError">"Problema sa koneksyon o di-wastong code ng tampok."</string>
+    <string name="httpErrorOk">"OK"</string>
+    <string name="httpError">"Naglalaman ng error ang web page."</string>
+    <string name="httpErrorLookup">"Hindi makita ang URL."</string>
+    <string name="httpErrorUnsupportedAuthScheme">"Hindi suportado ang scheme na pagpapatotoo ng site."</string>
+    <string name="httpErrorAuth">"Hindi tagumpay ang pagpapatotoo."</string>
+    <string name="httpErrorProxyAuth">"Hindi matagumpay ang pagpapatotoo sa pamamagitan ng proxy server."</string>
+    <string name="httpErrorConnect">"Hindi matagumpay ang koneksyon sa server."</string>
+    <string name="httpErrorIO">"Nabigong makipag-ugnay ang server. Subukang muli sa ibang pagkakataon."</string>
+    <string name="httpErrorTimeout">"Na-time out ang koneksyon sa server."</string>
+    <string name="httpErrorRedirectLoop">"Naglalaman ang pahinang ito ng masyadong maraming pag-redirect ng server."</string>
+    <string name="httpErrorUnsupportedScheme">"Hindi suportado ang protocol."</string>
+    <string name="httpErrorFailedSslHandshake">"Hindi maitatag ang isang secure na koneksyon."</string>
+    <string name="httpErrorBadUrl">"Hindi mabuksan ang pahinang ito dahil di-wasto ang URL."</string>
+    <string name="httpErrorFile">"Hindi ma-access ang file na ito."</string>
+    <string name="httpErrorFileNotFound">"Hindi nakita ang hiniling na file."</string>
+    <string name="httpErrorTooManyRequests">"Masyadong maraming kahilingan ang pinoproseso. Subukang muli sa ibang pagkakataon."</string>
+    <string name="notification_title">"Error sa pag-sign in para sa <xliff:g id="ACCOUNT">%1$s</xliff:g>"</string>
+    <string name="contentServiceSync">"I-sync"</string>
+    <string name="contentServiceSyncNotificationTitle">"I-sync"</string>
+    <string name="contentServiceTooManyDeletesNotificationDesc">"Masyadong maraming pagtanggal ng <xliff:g id="CONTENT_TYPE">%s</xliff:g>."</string>
+    <string name="low_memory">"Puno na ang imbakan ng telepono! Magtanggal ng ilang file upang magbakante ng espasyo."</string>
+    <string name="me">"Ako"</string>
+    <string name="power_dialog">"Mga pagpipilian sa telepono"</string>
+    <string name="silent_mode">"Silent mode"</string>
+    <string name="turn_on_radio">"I-on ang wireless"</string>
+    <string name="turn_off_radio">"I-off ang wireless"</string>
+    <string name="screen_lock">"Pag-lock sa screen"</string>
+    <string name="power_off">"I-off"</string>
+    <string name="shutdown_progress">"Nagsa-shut down..."</string>
+    <string name="shutdown_confirm">"Magsa-shut down ang iyong telepono."</string>
+    <string name="recent_tasks_title">"Kamakailan"</string>
+    <string name="no_recent_tasks">"Walang mga kamakailang application."</string>
+    <string name="global_actions">"Mga pagpipilian sa telepono"</string>
+    <string name="global_action_lock">"Pag-lock sa screen"</string>
+    <string name="global_action_power_off">"I-off"</string>
+    <string name="global_action_toggle_silent_mode">"Silent mode"</string>
+    <string name="global_action_silent_mode_on_status">"Naka-OFF ang tunog"</string>
+    <string name="global_action_silent_mode_off_status">"Naka-ON ang sound"</string>
+    <string name="global_actions_toggle_airplane_mode">"Airplane mode"</string>
+    <string name="global_actions_airplane_mode_on_status">"Naka-ON ang airplane mode"</string>
+    <string name="global_actions_airplane_mode_off_status">"Naka-OFF ang airplane mode"</string>
+    <string name="safeMode">"Safe mode"</string>
+    <string name="android_system_label">"Android System"</string>
+    <string name="permgrouplab_costMoney">"Mga serbisyong ginagastusan mo"</string>
+    <string name="permgroupdesc_costMoney">"Pinapayagan ang mga application na gumawa ng mga bagay na mapapagastos ka."</string>
+    <string name="permgrouplab_messages">"Iyong mga mensahe"</string>
+    <string name="permgroupdesc_messages">"Basahin o isulat ang iyong SMS, e-mail, at iba pang mga mensahe."</string>
+    <string name="permgrouplab_personalInfo">"Iyong personal na impormasyon"</string>
+    <string name="permgroupdesc_personalInfo">"Direktang access sa iyong mga contact at kalendaryong nakaimbak sa telepono."</string>
+    <string name="permgrouplab_location">"Iyong lokasyon"</string>
+    <string name="permgroupdesc_location">"Subaybayan ang iyong aktwal na lokasyon"</string>
+    <string name="permgrouplab_network">"Pakikipag-ugnay sa network"</string>
+    <string name="permgroupdesc_network">"Payagan ang mga application na i-access ang iba\'t ibang tampok ng network."</string>
+    <string name="permgrouplab_accounts">"Iyong mga account"</string>
+    <string name="permgroupdesc_accounts">"I-access ang mga available na account."</string>
+    <string name="permgrouplab_hardwareControls">"Mga kontrol ng hardware"</string>
+    <string name="permgroupdesc_hardwareControls">"Direktang access sa hardware sa handset."</string>
+    <string name="permgrouplab_phoneCalls">"Mga tawag sa telepono"</string>
+    <string name="permgroupdesc_phoneCalls">"Subaybayan, itala, at iproseso ang mga tawag sa telepono."</string>
+    <string name="permgrouplab_systemTools">"Mga tool ng system"</string>
+    <string name="permgroupdesc_systemTools">"Mas mababang antas na access at kontrol ng system."</string>
+    <string name="permgrouplab_developmentTools">"Mga tool na pang-develop"</string>
+    <string name="permgroupdesc_developmentTools">"Kailangan lang ang mga tampok para sa mga nag-develop ng application."</string>
+    <string name="permgrouplab_storage">"Imbakan"</string>
+    <string name="permgroupdesc_storage" product="nosdcard">"I-access ang imbakan na USB."</string>
+    <string name="permgroupdesc_storage" product="default">"I-access ang SD card."</string>
+    <string name="permlab_statusBar">"huwag paganahin o baguhin ang status bar"</string>
+    <string name="permdesc_statusBar">"Pinapayagan ang application na huwag paganahin ang status bar o magdagdag at mag-alis ng mga icon ng system."</string>
+    <string name="permlab_statusBarService">"status bar"</string>
+    <string name="permdesc_statusBarService">"Pinapayagan ang application na maging status bar."</string>
+    <string name="permlab_expandStatusBar">"palawakin/tiklupin ang status bar"</string>
+    <string name="permdesc_expandStatusBar">"Pinapayagan ang application na palawakin o tiklupin ang status bar."</string>
+    <string name="permlab_processOutgoingCalls">"sumagap ng mga papalabas na tawag"</string>
+    <string name="permdesc_processOutgoingCalls">"Pinapayagan ang application na iproseso ang mga papalabas na tawag at baguhin ang ida-dial na numero. Maaaring subaybayan, i-redirect, o pigilan ng mga nakakahamak na application ang mga papalabas na tawag."</string>
+    <string name="permlab_receiveSms">"tumanggap ng SMS"</string>
+    <string name="permdesc_receiveSms">"Pinapayagan ang application na tumanggap at magproseso ng mga SMS na mensahe. Maaaring subaybayan ng mga nakakahamak na application ang iyong mga mensahe o tanggalin ang mga ito nang hindi ipinapakita sa iyo."</string>
+    <string name="permlab_receiveSmsCB">tumanggap ng SMSCB</string>
+    <string name="permdesc_receiveSmsCB">Pahintulutan ang application na tumanggap at magproseso ng mensahe ng mga SMSCB.Maaaaring ma-monitor ng malisyosong application ang iyong mga mensahe o tanggalin ito ng hindi mo nakikita.</string>
+    <string name="permlab_receiveMms">"tumanggap ng MMS"</string>
+    <string name="permdesc_receiveMms">"Pinapayagan ang application na tumanggap at magproseso ng mga MMS na mensahe. Maaaring subaybayan ng mga nakakahamak na application ang iyong mga mensahe o tanggalin ang mga ito nang hindi ipinapakita ang mga ito sa iyo."</string>
+    <string name="permlab_receiveEmergencyBroadcast">matanggap ang broadcast ng emergency</string>
+    <string name="permdesc_receiveEmergencyBroadcast">Payagan makatanggap ang application at maiproseso ang mga mensahe ng emergency broadcast. Ang permisong ito ay magagamit lamang sa sistema ng mga application.</string>
+    <string name="permlab_sendSms">"magpadala ng mga SMS na mensahe"</string>
+    <string name="permdesc_sendSms">"Pinapayagan ang application na magpadala ng mga SMS na mensahe. Maaaring mapagastos ka ng mga nakakahamak na application sa pamamagitan ng pagpapadala ng mga mensahe nang wala ng iyong kumpirmasyon."</string>
+    <string name="permlab_readSms">"magbasa ng SMS o MMS"</string>
+    <string name="permdesc_readSms">"Pinapayagan ang application na basahin ang mga SMS na mensaheng nakaimbak sa iyong telepono o SIM card. Maaaring basahin ng mga nakakahamak na application ang iyong mga kumpidensyal na mensahe."</string>
+    <string name="permlab_writeSms">"i-edit ang SMS o MMS"</string>
+    <string name="permdesc_writeSms">"Pinapayagan ang application na magsulat sa mga SMS na mensahe na nakaimbak sa iyong telepono o SIM card. Maaaring tanggalin ng mga nakakahamak na application ang iyong mga mensahe."</string>
+    <string name="permlab_receiveWapPush">"tumanggap ng WAP"</string>
+    <string name="permdesc_receiveWapPush">"Pinapayagan ang application na tumanggap at magproseso ng mga WAP na mensahe. Maaaring subaybayan ng mga nakakahamak na application ang iyong mensahe o tanggalin ang mga ito nang hindi ipinapakita sa iyo."</string>
+    <string name="permlab_getTasks">"ibalik ang mga tumatakbong application"</string>
+    <string name="permdesc_getTasks">"Pinapayagan ang application na ibalik ang impormasyon tungkol sa mga kasalukuyan at kamakailang tumatakbong gawain. Maaaring payagan ang mga nakakahamak na application na tuklasin ang pribadong impormasyon tungkol sa ibang mga application."</string>
+    <string name="permlab_reorderTasks">"muling pagsunud-sunurin ang mga tumatakbong application"</string>
+    <string name="permdesc_reorderTasks">"Pinapayagan ang isang application na ilipat ang mga gawain sa foreground at background. Mapupuwersa ng mga nakakahamak na application ang mga sarili nito sa harapan nang wala ng iyong kontrol."</string>
+    <string name="permlab_setDebugApp">"paganahin ang debugging ng application"</string>
+    <string name="permdesc_setDebugApp">"Pinapayagan ang isang application na i-on ang debugging para sa isa pang application. Magagamit ito ng mga nakakahamak na application upang alisin ang ibang mga application."</string>
+    <string name="permlab_changeConfiguration">"baguhin ang iyong mga setting ng UI"</string>
+    <string name="permdesc_changeConfiguration">"Pinapayagan ang application na baguhin ang kasalukuyang configuration, gaya ng lokal o kabuuang sukat ng font."</string>
+    <string name="permlab_enableCarMode">"paganahin ang car mode"</string>
+    <string name="permdesc_enableCarMode">"Pinapayagan ang isang application na paganahin ang car mode."</string>
+    <string name="permlab_killBackgroundProcesses">"isara ang mga proseso ng background"</string>
+    <string name="permdesc_killBackgroundProcesses">"Pinapayagan ang isang application na alisin ang mga background na proseso ng ibang mga application, kahit na mababa ang memorya."</string>
+    <string name="permlab_forceStopPackages">"puwersahang itigil ang ibang mga application"</string>
+    <string name="permdesc_forceStopPackages">"Pinapayagan ang isang application na puwersahang itigil ang ibang mga application."</string>
+    <string name="permlab_forceBack">"puwersahing magsara ang application"</string>
+    <string name="permdesc_forceBack">"Pinapayagan ang isang application na puwersahin ang anumang aktibidad na nasa unahan upang isara at bumalik. Hindi kailanman dapat kailanganin para sa mga normal na application."</string>
+    <string name="permlab_dump">"ibalik ang panloob na katayuan ng system"</string>
+    <string name="permdesc_dump">"Pinapayagan ang application na magbalik ng panloob na katayuan ng system. Maaaring magbalik ang mga nakakahamak na application ng maraming uri ng pribado at secure na impormasyon na hindi nila kailanman normal na kailangan."</string>
+    <string name="permlab_shutdown">"bahagyang pag-shutdown"</string>
+    <string name="permdesc_shutdown">"Inilalagay ang tagapamahala ng aktibidad sa katayuan ng pag-shutdown. Hindi nagsasagawa ng kumpletong pag-shutdown."</string>
+    <string name="permlab_stopAppSwitches">"pigilan ang mga paglipat ng app"</string>
+    <string name="permdesc_stopAppSwitches">"Pinipigilan ang user mula sa paglipat sa isa pang application."</string>
+    <string name="permlab_runSetActivityWatcher">"subaybayan at kontrolin ang lahat ng paglulunsad ng application"</string>
+    <string name="permdesc_runSetActivityWatcher">"Pinapayagan ang isang application na subaybayan at kontrolin kung paano naglulunsad ng mga aktibidad ang system. Maaaring ganap na malagay sa panganib ng mga nakakahamak na application ang system. Kailangan lang ang pahintulot na ito para sa pagpapaunlad</string>
+    <string name="permlab_broadcastPackageRemoved">"magpadala ng package inalis ang broadcast"</string>
+    <string name="permdesc_broadcastPackageRemoved">"Pinapayagan ang isang application na mag-broadcast ng notification na naalis ang package ng application. Maaari itong gamitin ng mga nakakahamak na application upang isara ang anumang ibang tumatakbong application."</string>
+    <string name="permlab_broadcastSmsReceived">"magpadala ng broadcast na natatanggap sa SMS"</string>
+    <string name="permdesc_broadcastSmsReceived">"Pinapayagan ang isang application na mag-broadcast ng notification na may natanggap na SMS na mensahe. Maaari itong gamitin ng mga nakakahamak na application upang kopyahin ang mga papasok na SMS na mensahe."</string>
+    <string name="permlab_broadcastSmsCBReceived">ipadala SMSCB-natanggap broadcast</string>
+    <string name="permdesc_broadcastSmsCBReceived">Pahintulutan ang application na i-broadcast na natanggap ang abiso na natanggap ang mensahe ng SMSCB . Maaaring magamit ito ng malisyosong application para mapeke ang papasok  na mga mensahe ng SMSCB.</string>
+    <string name="permlab_broadcastWapPush">"ipadala ang WAP-PUSH-natanggap na pag-broadcast"</string>
+    <string name="permdesc_broadcastWapPush">"Pinapayagan ang isang application na mag-broadcast ng notification na natanggap ang isang WAP PUSH na mensahe. Maaari itong gamitin ng mga nakakahamak na application upang kopyahin ang resibo ng MMS na mensahe o tahimik na palitan ang nilalaman ng anuman</string>
+    <string name="permlab_setProcessLimit">"limitahan ang numero ng mga tumatakbong proseso"</string>
+    <string name="permdesc_setProcessLimit">"Pinapayagan ang isang application na kontrolin ang maximum na bilang ng mga tatakbong proseso. Hindi kailanman kailangan para sa mga normal na application."</string>
+    <string name="permlab_setAlwaysFinish">"isara ang lahat ng mga background na application"</string>
+    <string name="permdesc_setAlwaysFinish">"Pinapayagan ang isang application na kontrolin kung palaging natatapos ang mga aktibidad sa sandaling mapunta ang mga ito sa background. Hindi kailanman kailangan para sa mga normal na application."</string>
+    <string name="permlab_batteryStats">"baguhin ang mga istatistika ng baterya"</string>
+    <string name="permdesc_batteryStats">"Pinapayagan ang pagbabago ng mga nakolektang istatistika ng baterya. Hindi para sa paggamit ng mga normal na application."</string>
+    <string name="permlab_backup">"kontrolin ang system backup at pagbawi"</string>
+    <string name="permdesc_backup">"Pinapayagan ang application na kontrolin ang mekanismo sa pag-backup at pagbalik ng system. Hindi para sa paggamit ng mga normal na application."</string>
+    <string name="permlab_internalSystemWindow">"ipakita ang mga hindi pinahintulutang window"</string>
+    <string name="permdesc_internalSystemWindow">"Pinapayagan ang paglikha ng mga window na nilayon para sa paggamit ng user interface ng pangloob na system. Hindi para sa paggamit ng mga normal na application."</string>
+    <string name="permlab_systemAlertWindow">"ipakita ang mga alerto sa antas ng system"</string>
+    <string name="permdesc_systemAlertWindow">"Pinapayagan ang isang application na ipakita ang system alert windows. Masasakop ng mga nakakahamak na application ang buong screen ng telepono."</string>
+    <string name="permlab_setAnimationScale">"baguhin ang bilis ng global animation"</string>
+    <string name="permdesc_setAnimationScale">"Pinapayagan ang application na baguhin ang bilis ng global animation (mas mabibilis o mas mababagal na animation) anumang oras."</string>
+    <string name="permlab_manageAppTokens">"pamahalaana ng mga token ng application"</string>
+    <string name="permdesc_manageAppTokens">"Pinapayagan ang mga application na likhain at pamahalaan ang sariling mga token nito, at nilalampasan ang kanilang normal na Z-pagkasunud-sunod. Hindi kailanman dapat kailanganin para sa mga normal na application."</string>
+    <string name="permlab_injectEvents">"pindutin ang mga key at kontrolin ang mga pindutan"</string>
+    <string name="permdesc_injectEvents">"Pinapayagan ang isang application na ihatid ang sarili nitong mga input na kaganapan (mga pagpindot sa key, atbp.) sa ibang mga application. Magagamit ito ng mga nakakahamak na application upang sakupin ang telepono."</string>
+    <string name="permlab_readInputState">"itala kung ano ang iyong tina-type at mga pagkilos na iyong ginagawa"</string>
+    <string name="permdesc_readInputState">"Pinapayagan ang mga application na panoorin ang mga pinipindot mong key maging kapag nakikipag-ugnay sa isa pang application (gaya ng pagpasok ng password). Hindi dapat na kailanganin kailanman para sa mga normal na application."</string>
+    <string name="permlab_bindInputMethod">"sumailalim sa isang pamamaraan ng pag-input"</string>
+    <string name="permdesc_bindInputMethod">"Pinapayagan ang holder na sumailalim sa nangungunang antas na interface ng pamamaraan ng pag-input. Hindi dapat kailanmang kailanganin para sa mga normal na application."</string>
+    <string name="permlab_bindWallpaper">"sumailalim sa wallpaper"</string>
+    <string name="permdesc_bindWallpaper">"Pinapayagan ang holder na sumailalim sa interface na nasa nangungunang antas ng wallpaper. Hindi kailanman dapat na kailanganin para sa mga normal na application."</string>
+    <string name="permlab_bindDeviceAdmin">"makipag-ugnay sa tagapangasiwa ng device"</string>
+    <string name="permdesc_bindDeviceAdmin">"Pinapayagan ang holder na magpadala ng mga intensyon sa administrator ng device. Hindi kailanman dapat kailanganin para sa mga normal na application."</string>
+    <string name="permlab_setOrientation">"baguhin ang orientation ng screen"</string>
+    <string name="permdesc_setOrientation">"Pinapayagan ang isang application na baguhin ang pag-rotate ng screen anumang oras. Hindi kailanman dapat kailanganin para sa mga normal na application."</string>
+    <string name="permlab_signalPersistentProcesses">"magpadala ng mga Linux signal sa mga application"</string>
+    <string name="permdesc_signalPersistentProcesses">"Pinapayagan ang application na hilinging ipadala ang na-supply na signal sa lahat ng mga paulit-ulit na proseso."</string>
+    <string name="permlab_persistentActivity">"palaging patakbuhin ang mga application"</string>
+    <string name="permdesc_persistentActivity">"Pinapayagan ang isang application na gawing nagpapatuloy ang mga bahagi nito, upang magamit ito ng system para sa ibang mga application."</string>
+    <string name="permlab_deletePackages">"tanggalin ang mga application"</string>
+    <string name="permdesc_deletePackages">"Pinapayagan ang isang application na tanggalin ang mga Android package. Magagamit ito ng mga nakakahamak na application upang tanggalin ang mahahalagang application."</string>
+    <string name="permlab_clearAppUserData">"tanggalin ang ibang data ng mga application"</string>
+    <string name="permdesc_clearAppUserData">"Pinapayagan ang isang application na i-clear ang data ng user."</string>
+    <string name="permlab_deleteCacheFiles">"tanggalin ang mga cache ng ibang application"</string>
+    <string name="permdesc_deleteCacheFiles">"Pinapayagan ang isang application na tanggalin ang mga cache file."</string>
+    <string name="permlab_getPackageSize">"sukatin ang espasyo ng imbakan ng application"</string>
+    <string name="permdesc_getPackageSize">"Pinapayagan ang isang application na maibalik ang code, data, at mga laki ng cache nito"</string>
+    <string name="permlab_installPackages">"direktang i-install ang mga application"</string>
+    <string name="permdesc_installPackages">"Pinapayagan ang isang application na mag-install ng mga bago o na-update na Android package. Magagamit ito ng mga nakakahamak na application upang magdagdag ng mga bagong application nang may mga pabigla-biglang makapangyarihang pahintulot."</string>
+    <string name="permlab_clearAppCache">"tanggalin ang lahat ng data sa cache ng application"</string>
+    <string name="permdesc_clearAppCache">"Pinapayagan ang isang application na magbakante ng imbakan ng telepono sa pamamagitan ng pagtanggal ng mga file sa direktoryo ng cache ng application. Kadalasang napakahigpit ng access sa proseso ng system."</string>
+    <string name="permlab_movePackage">"Ilipat ang mga mapagkukunan ng application"</string>
+    <string name="permdesc_movePackage">"Pinapayagan ang isang application na ilipat ang mga mapagkukunan ng application mula sa panloob patungo sa panlabas na media at kabaligtaran."</string>
+    <string name="permlab_readLogs">"magbasa ng sensitibong data ng tala"</string>
+    <string name="permdesc_readLogs">"Pinapayagan ang application na magbasa mula sa iba\'t ibang file ng tala ng system. Pinapayagan ito nito na tumuklas ng pangkalahatang impormasyon tungkol sa kung ano ang iyong ginagawa sa telepono, potensyal na kabilang ang personal o pribadong impormas</string>
+    <string name="permlab_diagnostic">"magbasa/magsulat sa mga mapagkukunang pag-aari ng diag"</string>
+    <string name="permdesc_diagnostic">"Pinapayagan ang isang application na magbasa at magsulat ng anumang mapagkukunang pag-aari ng pangkat ng diag; halimbawa, mga file sa /dev. Posibleng maapektuhan nito ang katatagan at seguridad ng system. Dapat LANG itong gamitin sa mga tukoy sa hardware</string>
+    <string name="permlab_changeComponentState">"paganahin o huwag paganahin ang mga nilalaman ng application"</string>
+    <string name="permdesc_changeComponentState">"Pinapayagan ang isang application na baguhin kung pinagana o hindi ang isang nilalaman ng isa pang application. Magagamit ito ng mga nakakahamak na application upang huwag paganahin ang mahahalagang kakayahan ng telepono. Ang pangangalaga ay dapat gamiti</string>
+    <string name="permlab_setPreferredApplications">"itakda ang mga ninanais na application"</string>
+    <string name="permdesc_setPreferredApplications">"Pinapayagan ang isang application na baguhin ang mga ninanais mong application. Mapapayagan nito ang mga nakakahamak na application na tahimik na baguhin ang mga application na pinapatakbo, na gumagaya sa iyong mga umiiral na application upang kumolekta </string>
+    <string name="permlab_writeSettings">"baguhin ang mga setting ng global system"</string>
+    <string name="permdesc_writeSettings">"Pinapayagan ang isang application na baguhin ang data ng mga setting ng system. Masisira ng mga nakakahamak na application ang configuration ng iyong system."</string>
+    <string name="permlab_writeSecureSettings">"baguhin ang mga setting ng secure na system"</string>
+    <string name="permdesc_writeSecureSettings">"Pinapayagan ang isang application na baguhin ang secure na data ng mga setting ng system. Hindi para sa paggamit ng mga normal na application."</string>
+    <string name="permlab_writeGservices">"baguhin ang mapa ng mga serbisyo ng Google"</string>
+    <string name="permdesc_writeGservices">"Pinapayagan ang isang application na baguhin ang mapa ng mga serbisyo ng Google. Hindi para sa paggamit ng mga normal na application."</string>
+    <string name="permlab_receiveBootCompleted">"awtomatikong magsimula sa boot"</string>
+    <string name="permdesc_receiveBootCompleted">"Pinapayagan ang isang application na makapagsimula sa sandaling matapos mag-boot ang system. Magagawa nitong mapatagal ang pagsisimula ng telepono at pinapayagan ang application na pabagalin ang kabuuan ng telepono sa pamamagitan ng palagiang pagtakbo."</string>
+    <string name="permlab_broadcastSticky">"magpadala ng sticky na pag-broadcast"</string>
+    <string name="permdesc_broadcastSticky">"Pinapayagan ang isang application na magpadala ng mga sticky na broadcast, na nananatili pagkatapos ng broadcast. Magagawa ng mga nakakahamak na application na pabagalin o hindi maayos ang telepono sa pamamagitan ng paggamit ng masyadong maraming memorya</string>
+    <string name="permlab_readContacts">"basahin ang data ng contact"</string>
+    <string name="permdesc_readContacts">"Pinapayagan ang isang application na basahin ang lahat ng mga data ng pakikipag-ugnay (address) na nakaimbak sa iyong telepono. Magagamit ito ng mga nakakahamak na application upang ipadala ang iyong data sa ibang tao."</string>
+    <string name="permlab_writeContacts">"sumulat ng data ng pakikipag-ugnay"</string>
+    <string name="permdesc_writeContacts">"Pinapayagan ang isang application na baguhin ang data ng pakikipag-ugny (address) na nakaimbak sa iyong telepono. Magagamit ito ng mga nakakahamak na application upang burahin o baguhin ang iyong data ng pakikipag-ugnay."</string>
+    <string name="permlab_readCalendar">"basahin ang mga kaganapan sa kalendaryo"</string>
+    <string name="permdesc_readCalendar">"Pinapayagan ang isang application na basahin ang lahat ng mga kaganapan sa kalendaryong nakaimbak sa iyong telepono. Magagamit ito ng mga nakakahamak na application upang ipadala ang iyong mga kaganapan sa kalendaryo sa ibang tao."</string>
+    <string name="permlab_writeCalendar">"magdagdag o baguhin ang mga kaganapan sa kalendaryo at magpadala ng email sa mga bisita"</string>
+    <string name="permdesc_writeCalendar">"Pinapayagan ang isang application na magdagdag o magbago ng mga kaganapan sa iyong kalendaryo, na maaaring magpadala ng email sa mga bisita. Magagamit ito ng mga nakakahamak na application upang burahin o baguhin ang iyong mga kaganapan sa kalendaryo o m</string>
+    <string name="permlab_accessMockLocation">"gayahin ang mga pinagmumulan ng lokasyon para sa pagsusuri"</string>
+    <string name="permdesc_accessMockLocation">"Lumikha ng mga kunwaring pinagmumulan ng lokasyon para sa pagsubok. Magagamit ito ng mga nakakahamak na application upang i-override ang lokasyon at/o katayuang ibinalik ng mga tunay na pinagmumulan ng lokasyon gaya ng GPS o mga Network provider."</string>
+    <string name="permlab_accessLocationExtraCommands">"i-access ang mga dagdag na command ng provider ng lokasyon"</string>
+    <string name="permdesc_accessLocationExtraCommands">"I-access ang mga dagdag na command ng provider ng lokasyon. Magagamit ito ng mga nakakahamak na application upang makialam sa pagpapatakbo ng GPS o iba pang mga pinagmumulan ng lokasyon."</string>
+    <string name="permlab_installLocationProvider">"pahintulot na mag-install ng provider ng lokasyon"</string>
+    <string name="permdesc_installLocationProvider">"Lumikha ng mga kunwaring pinagmumulan ng lokasyon para sa pagsubok. Magagamit ito ng mga nakakahamak na application upang i-override ang lokasyon at/o katayuang ibinalik ng mga tunay na pinagmumulan ng lokasyon gaya ng GPS o mga Network provider o subayb</string>
+    <string name="permlab_accessFineLocation">"mahusay na (GPS) lokasyon"</string>
+    <string name="permdesc_accessFineLocation">"I-access ang mahuhusay na pinagmumulan ng lokasyon gaya ng Global Positioning System sa telepono, kung saan available. Magagamit ito ng mga nakakahamak na application upang tukuyin kung nasaan ka, at maaaring gumamit ng karagdagang lakas ng baterya."</string>
+    <string name="permlab_accessCoarseLocation">"hindi tumpak na (batay sa network) lokasyon"</string>
+    <string name="permdesc_accessCoarseLocation">"I-access ang mga hindi tumpak na pinagmumulan ng lokasyon gaya ng database ng cellular network upang tumukoy ng malapit na lokasyon ng telepono, kung saan available. Magagamit ito ng mga nakakahamak na application upang tukuyin ang pinakamalapit na kinar</string>
+    <string name="permlab_accessSurfaceFlinger">"i-access ang SurfaceFlinger"</string>
+    <string name="permdesc_accessSurfaceFlinger">"Pinapayagan ang application na gumamit ng mababang antas na mga tampok ng SurfaceFlinger."</string>
+    <string name="permlab_readFrameBuffer">"basahin ang buffer ng frame"</string>
+    <string name="permdesc_readFrameBuffer">"Pinapayagan ang application na basahin ang nilalaman ng buffer ng frame."</string>
+    <string name="permlab_modifyAudioSettings">"baguhin ang mga setting ng iyong audio"</string>
+    <string name="permdesc_modifyAudioSettings">"Pinapayagan ang application na baguhin ang mga setting ng global audio gaya ng lakas ng tunog at pag-route."</string>
+    <string name="permlab_recordAudio">"mag-record ng audio"</string>
+    <string name="permdesc_recordAudio">"Pinapayagan ang application na i-access ang path ng audio record."</string>
+    <string name="permlab_camera">"kumuha ng mga larawan at video"</string>
+    <string name="permdesc_camera">"Pinapayagan ang application na kumuha ng mga larawan at video gamit ang camera. Pinapayagan nito ang application sa anumang oras na mangolekta ng mga larawan na nakikita ng camera."</string>
+    <string name="permlab_brick">"permanenteng huwag paganahin ang telepono"</string>
+    <string name="permdesc_brick">"Pinapayagan ang application na permanenteng huwag paganahin ang buong telepono. Napaka-mapanganib nito."</string>
+    <string name="permlab_reboot">"puwersahin ang pag-reboot ng telepono"</string>
+    <string name="permdesc_reboot">"Pinapayagan ang application na puwersahing i-reboot ang telepono."</string>
+    <string name="permlab_mount_unmount_filesystems">"i-mount at huwag i-mount ang mga filesystem"</string>
+    <string name="permdesc_mount_unmount_filesystems">"Pinapayagan ang application na i-mount at i-unmount ang mga filesystem para sa naaalis na imbakan."</string>
+    <string name="permlab_mount_format_filesystems">"i-format ang panlabas na imbakan"</string>
+    <string name="permdesc_mount_format_filesystems">"Pinapayagan ang application na i-format ang naaalis na imbakan."</string>
+    <string name="permlab_asec_access">"kumuha ng impormasyon sa panloob na imbakan"</string>
+    <string name="permdesc_asec_access">"Pinapayagan ang application na kumuha ng impormasyon sa panloob na imbakan."</string>
+    <string name="permlab_asec_create">"lumikha ng panloob na imbakan"</string>
+    <string name="permdesc_asec_create">"Pinapayagan ang application na likhain ang panloob na imbakan."</string>
+    <string name="permlab_asec_destroy">"sirain ang panloob na imbakan"</string>
+    <string name="permdesc_asec_destroy">"Pinapayagan ang application na sirain ang panloob na imbakan."</string>
+    <string name="permlab_asec_mount_unmount">"i-mount / i-unmount ang panloob na imbakan"</string>
+    <string name="permdesc_asec_mount_unmount">"Pinapayagan ang application na i-mount / i-unmount ang panloob na imbakan."</string>
+    <string name="permlab_asec_rename">"palitan ang pangalan ng panloob na imbakan"</string>
+    <string name="permdesc_asec_rename">"Pinapayagan ang application na palitan ang pangalan ng panloob na imbakan."</string>
+    <string name="permlab_vibrate">"kontrolin ang vibrator"</string>
+    <string name="permdesc_vibrate">"Pinapayagan ang application na kontrolin ang vibrator."</string>
+    <string name="permlab_flashlight">"kontrolin ang flashlight"</string>
+    <string name="permdesc_flashlight">"Pinapayagan ang application na kontrolin ang flashlight."</string>
+    <string name="permlab_manageUsb">"pamahalaan ang mga kagustuhan at pahintulot para sa mga USB device"</string>
+    <string name="permdesc_manageUsb">"Pinapayagan ang application na pamahalaan ang mga kagustuhan at pahintulot para sa mga USB device."</string>
+    <string name="permlab_hardware_test">"subukan ang hardware"</string>
+    <string name="permdesc_hardware_test">"Pinapayagan ang application na kontrolin ang iba\'t ibang peripheral para sa layunin ng pagsubok ng hardware."</string>
+    <string name="permlab_callPhone">"direktang tawagan ang mga numero ng telepono"</string>
+    <string name="permdesc_callPhone">"Pinapayagan ang application na tumawag sa mga numero ng telepono nang wala ng iyong panghihimasok. Maaarig magdulot ang mga nakakahamak na application ng mga hindi inaasahang tawag sa iyong singilin sa telepono. Tandaan na hindi nito pinapayagan ang appl</string>
+    <string name="permlab_callPrivileged">"direktang tawagan ang anumang numero ng telepono"</string>
+    <string name="permdesc_callPrivileged">"Pinapayagan ang application na tumawag sa anumang numero ng telepono, kabilang ang mga pang-emergency na numero, nang wala ng iyong panghihimasok. Maaaring gumawa ang mga nakakahawak na application ng hindi kailangan at ilegal na tawag sa mga pang-emerge</string>
+    <string name="permlab_performCdmaProvisioning">"direktang simulan ang pag-set up ng CDMA na telepono"</string>
+    <string name="permdesc_performCdmaProvisioning">"Pinapayagan ang application na simulan ang pagprobisyon ng CDMA. Maaaring simulan ng mga nakakahamak na application ang pagprobisyon ng CDMA"</string>
+    <string name="permlab_locationUpdates">"kotrolin ang mga notification ng pag-update ng lokasyon"</string>
+    <string name="permdesc_locationUpdates">"Pinapayagan ang pagpapagana/hindi pagpapagana ng mga notification sa pag-update ng lokasyon mula sa radyo. Hindi para sa paggamit ng mga normal na application."</string>
+    <string name="permlab_checkinProperties">"i-access ang mga katangian ng checkin"</string>
+    <string name="permdesc_checkinProperties">"Pinapayagan ang access sa pagbasa/pagsulat sa mga katangian na na-upload ng serbisyo ng checkin. Hindi para sa paggamit ng mga normal na application."</string>
+    <string name="permlab_bindGadget">"pumili ng mga widget"</string>
+    <string name="permdesc_bindGadget">"Pinapayagan ang application na ipaalam sa system kung anong mga widget ang magagamit ng aling application. Sa pahintulot na ito, makakapagbigay ng access ang mga application sa personal na data sa iba pang application. Hindi para sa paggamit ng mga norma</string>
+    <string name="permlab_modifyPhoneState">"baguhin ang katayuan ng telepono"</string>
+    <string name="permdesc_modifyPhoneState">"Pinapayagan ang application na kontrolin ang mga tampok sa telepono ng device. Makakapagpalit ng mga network ang application na may ganitong pahintulot, i-on at i-off ang radyo at mga katulad nito nang hindi ka nino-notify."</string>
+    <string name="permlab_readPhoneState">"basahin ang katayuan ng telepono at pagkakakilanlan"</string>
+    <string name="permdesc_readPhoneState">"Pinapayagan ang application na i-access ang mga tampok sa telepono ng device. Matutukoy ng application na may ganitong pahintulot ang numero ng telepono at serial number ng teleponong ito, kung aktibo man ang tawag, ang numerong kung saan konektado ang t</string>
+    <string name="permlab_wakeLock">"pigilan ang telepono mula sa paghinto"</string>
+    <string name="permdesc_wakeLock">"Pinapayagan ang isang application na pigilan ang telepono na huminto."</string>
+    <string name="permlab_devicePower">"i-on o i-off ang telepono"</string>
+    <string name="permdesc_devicePower">"Pinapayagan ang application na i-on o i-off ang telepono."</string>
+    <string name="permlab_factoryTest">"tumakbo sa factory test mode"</string>
+    <string name="permdesc_factoryTest">"Patakbuhin bilang mababang antas na pagsubok ng gumawa, na nagpapahintulot ng kumpletong access sa hardware ng telepono. Available lang kapag tumatakbo ang telepono sa test mode ng gumawa."</string>
+    <string name="permlab_setWallpaper">"itakda ang wallpaper"</string>
+    <string name="permdesc_setWallpaper">"Pinapayagan ang application na itakda ang wallpaper ng system."</string>
+    <string name="permlab_setWallpaperHints">"itakda ang mga pahiwatig ng laki ng wallpaper"</string>
+    <string name="permdesc_setWallpaperHints">"Pinapayagan ang application na itakda ang mga pahiwatig ng laki ng wallpaper ng system."</string>
+    <string name="permlab_masterClear">"i-reset ang system sa mga factory default"</string>
+    <string name="permdesc_masterClear">"Pinapayagan ang isang application na ganap na i-reset ang system sa mga setting ng factory nito, binubura ang lahat ng data, configuration, at mga naka-install na application."</string>
+    <string name="permlab_setTime">"itakda ang oras"</string>
+    <string name="permdesc_setTime">"Pinapayagan ang isang application na baguhin ang oras sa orasan ng telepono."</string>
+    <string name="permlab_setTimeZone">"itakda ang time zone"</string>
+    <string name="permdesc_setTimeZone">"Pinapayagan ang isang application na baguhin ang time zone ng telepono."</string>
+    <string name="permlab_accountManagerService">"gumanap bilang AccountManagerService"</string>
+    <string name="permdesc_accountManagerService">"Pinapayagan ang isang application na tumawag sa AccountAuthenticators"</string>
+    <string name="permlab_getAccounts">"tuklasin ang mga kilalang account"</string>
+    <string name="permdesc_getAccounts">"Pinapayagan ang isang application na makuha ang listahan ng mga account na kilala ng telepono."</string>
+    <string name="permlab_authenticateAccounts">"gumaganap bilang tagapagpatotoo ng account"</string>
+    <string name="permdesc_authenticateAccounts">"Pinapayagan ang isang application na gamitin ang mga kakayanang makapagpatotoo ng account ng AccountManager, kabilang ang paglikha ng mga account at pagkuha at pagtakda ng kanilang mga password."</string>
+    <string name="permlab_manageAccounts">"pamahalaan ang listahan ng mga account"</string>
+    <string name="permdesc_manageAccounts">"Pinapayagan ang isang application na magsagawa ng mga pagpapatakbo tulad ng pagdagdag, at pag-alis ng mga account at pagtanggal ng kanilang mga password."</string>
+    <string name="permlab_useCredentials">"gamitin ang mga kredensyal sa pagpapatotoo ng account"</string>
+    <string name="permdesc_useCredentials">"Pinapayagan ang isang application na humiling ng mga token ng pagpapatotoo."</string>
+    <string name="permlab_accessNetworkState">"tingnan ang katayuan ng network"</string>
+    <string name="permdesc_accessNetworkState">"Pinapayagan ang isang application na tingnan ang katayuan ng lahat ng mga network."</string>
+    <string name="permlab_createNetworkSockets">"ganap na access sa Internet"</string>
+    <string name="permdesc_createNetworkSockets">"Pinapayagan ang isang application na lumikha ng mga socket ng network."</string>
+    <string name="permlab_writeApnSettings">"isulat ang mga setting ng Pangalan ng Lugar ng Access"</string>
+    <string name="permdesc_writeApnSettings">"Pinapayagan ang isang application na baguhin ang mga setting ng APN, gaya ng Proxy at Port ng anumang APN."</string>
+    <string name="permlab_changeNetworkState">"baguhin ang pagkakakonekta ng network"</string>
+    <string name="permdesc_changeNetworkState">"Pinapayagan ang isang application na baguhin ang katayuan ng pagkakakonekta ng network."</string>
+    <string name="permlab_changeTetherState">"Baguhin ang pinagsamang pagkakakonekta"</string>
+    <string name="permdesc_changeTetherState">"Pinapayagan ang isang application na baguhin ang katayuan ng pinagsamang pagkakakonekta ng network."</string>
+    <string name="permlab_changeBackgroundDataSetting">"baguhin ang setting ng paggamit ng data ng background"</string>
+    <string name="permdesc_changeBackgroundDataSetting">"Pinapayagan ang isang application na baguhin ang setting ng paggamit ng data ng background."</string>
+    <string name="permlab_accessWifiState">tingnan ang katayuan ng WLAN</string>
+    <string name="permdesc_accessWifiState">"Pinapayagan ang isang application na tingnan ang impormasyon tungkol sa katayuan ng Wi-Fi."</string>
+    <string name="permlab_changeWifiState">"baguhin ang katayuan ng Wi-Fi"</string>
+    <string name="permdesc_changeWifiState">"Pinapayagan ang isang application na kumonekta sa at i-disconnect mula sa mga Wi-Fi access point, at magsagawa ng mga pagbabago sa mga na-configure na Wi-Fi network."</string>
+    <string name="permlab_changeWifiMulticastState">"payagan ang pagtanggap ng Wi-Fi Multicast"</string>
+    <string name="permdesc_changeWifiMulticastState">"Pinapayagan ang isang application na tumanggap ng mga packet na hindi direktang nakatugon sa iyong device. Magiging kapaki-pakinabang ito kapag tumutuklas ng mga serbisyong inaalok sa malapit. Gumagamit ito ng higit pang baterya kaysa sa non-multicast mo</string>
+    <string name="permlab_accessWimaxState">"tingnan ang katayuan ng WiMAX"</string>
+    <string name="permdesc_accessWimaxState">"Pinapayagan ang application na tingnan ang impormasyon tungkol sa katayuan ng WiMAX."</string>
+    <string name="permlab_changeWimaxState">"baguhin ang katayuan ng WiMAX"</string>
+    <string name="permdesc_changeWimaxState">"Pinapayagan ang isang application na makakonekta sa at maalis sa pagkakakonekta mula sa network ng WiMAX."</string>
+    <string name="permlab_bluetoothAdmin">"pangangasiwa ng bluetooth"</string>
+    <string name="permdesc_bluetoothAdmin">"Pinapayagan ang isang application na i-configure ang lokal na Bluetooth na telepono, at upang tumuklas at mapareha sa mga remote na device."</string>
+    <string name="permlab_bluetooth">"lumikha ng mga koneksyon ng Bluetooth"</string>
+    <string name="permdesc_bluetooth">"Pinapayagan ang isang application na tingnan ang configuration ng lokal na Bluetooth na telepono, at upang gumawa at tumanggap ng mga koneksyon sa mga nakapares na device."</string>
+    <string name="permlab_nfc">"kontrolin ang Near Field Communication"</string>
+    <string name="permdesc_nfc">"Pinapayagan ang application na makipagkomunika sa mga Near Field Communication (NFC) na tag, card, at reader."</string>
+    <string name="permlab_disableKeyguard">"huwag paganahin ang keylock"</string>
+    <string name="permdesc_disableKeyguard">"Pinapayagan ang isang application na huwag paganahin ang keylock at ang anumang nauugnay na seguridad sa password. Ang isang lehitimong halimbawa nito ay ang hindi pagpapagana ng telepono sa keylock kapag nakakatanggap ng papasok na tawag sa telepono, pa</string>
+    <string name="permlab_readSyncSettings">"basahin ang mga setting ng sync"</string>
+    <string name="permdesc_readSyncSettings">"Pinapayagan ang isang application na basahin ang mga setting ng sync, gaya ng kung pinagana ang sync para sa Mga Contact."</string>
+    <string name="permlab_writeSyncSettings">"isulat ang mga setting ng sync"</string>
+    <string name="permdesc_writeSyncSettings">"Pinapayagan ang isang application na baguhin ang mga setting ng sync, gaya ng kung pinagana ang sync para sa Mga Contact."</string>
+    <string name="permlab_readSyncStats">"basahin ang mga istatistika ng sync"</string>
+    <string name="permdesc_readSyncStats">"Pinapayagan ang isang application na basahin ang mga istatistika ng sync; hal., ang kasaysayan ng mga sync na naganap."</string>
+    <string name="permlab_subscribedFeedsRead">"magbasa ng mga na-subscribe na feed"</string>
+    <string name="permdesc_subscribedFeedsRead">"Pinapayagan ang isang application na kumuha ng mga detalye tungkol sa mga kasalukuyang naka-sync na feed."</string>
+    <string name="permlab_subscribedFeedsWrite">"sumulat ng mga naka-subscribe na feed"</string>
+    <string name="permdesc_subscribedFeedsWrite">"Pinapayagan ang isang application na baguhin ang iyong mga kasalukuyang naka-sync na feed. Maaaring nitong payagan ang isang nakakahamak na application na baguhin ang mga naka-sync na feed."</string>
+    <string name="permlab_readDictionary">"basahin ang diksyunaryong tinukoy ng user"</string>
+    <string name="permdesc_readDictionary">"Pinapayagan ang isang application na magbasa ng anumang mga pribadong salita, pangalan, at parirala na maaaring naimbak ng user sa diksyunaryo ng user."</string>
+    <string name="permlab_writeDictionary">"isulat sa diksyunaryong tinukoy ng user"</string>
+    <string name="permdesc_writeDictionary">"Pinapayagan ang isang application na magsulat ng mga bagong salita sa diksyunaryo ng user."</string>
+    <string name="permlab_sdcardWrite" product="nosdcard">"baguhin/tanggalin laman ng USB"</string>
+    <string name="permlab_sdcardWrite" product="default">"baguhin/tanggalin ang mga nilalaman ng SD card"</string>
+    <string name="permdesc_sdcardWrite" product="nosdcard">"Pinapayagan application na sumulat sa imbakan na USB."</string>
+    <string name="permdesc_sdcardWrite" product="default">"Pinapayagan ang isang application na magsulat sa SD card."</string>
+    <string name="permlab_cache_filesystem">"i-access ang cache filesystem"</string>
+    <string name="permdesc_cache_filesystem">"Pinapayagan ang isang application na basahin at isulat ang cache filesystem."</string>
+    <string name="permlab_use_sip">"gumawa/tumanggap ng mga tawag sa Internet"</string>
+    <string name="permdesc_use_sip">"Pinapayagan ang application upang gamitin ang serbisyong SIP upang gumawa/tumanggap ng mga tawag sa Internet."</string>
+    <string name="policylab_limitPassword">"Magtakda ng mga panuntunan sa password"</string>
+    <string name="policydesc_limitPassword">"Kontrolin ang haba at mga character na pinapayagan sa mga password sa pag-unlock ng screen"</string>
+    <string name="policylab_watchLogin">"Subaybayan ang mga pagsubok sa pag-unlock ng screen"</string>
+    <string name="policydesc_watchLogin">"Subaybayan ang bilang ng hindi tamang password na ipinasok kapag ina-unlock ang screen, at i-lock ang telepono o burahin ang lahat ng data ng telepono kung masyadong maraming hindi tamang password ang ipinasok"</string>
+    <string name="policylab_resetPassword">"Palitan ang password sa pag-unlock ng screen"</string>
+    <string name="policydesc_resetPassword">"Palitan ang password sa pag-unlock ng screen"</string>
+    <string name="policylab_forceLock">"I-lock ang screen"</string>
+    <string name="policydesc_forceLock">"Kontrolin kung paano at kailan magla-lock ang screen"</string>
+    <string name="policylab_wipeData">"Burahin ang lahat ng data"</string>
+    <string name="policydesc_wipeData">"Burahin ang data ng telepono nang walang babala, sa pamamagitan ng pagsasagawa ng pag-reset sa data ng factory"</string>
+    <string-array name="phoneTypes">
+        <item>"Home"</item>
+        <item>"Mobile"</item>
+        <item>"Trabaho"</item>
+        <item>"Fax sa Trabaho"</item>
+        <item>"Fax sa Tahanan"</item>
+        <item>"Pager"</item>
+        <item>"Iba pa"</item>
+        <item>"Custom"</item>
+    </string-array>
+    <string-array name="emailAddressTypes">
+        <item>"Home"</item>
+        <item>"Trabaho"</item>
+        <item>"Iba pa"</item>
+        <item>"Custom"</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>"Home"</item>
+        <item>"Trabaho"</item>
+        <item>"Iba pa"</item>
+        <item>"Custom"</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>"Home"</item>
+        <item>"Trabaho"</item>
+        <item>"Iba pa"</item>
+        <item>"Custom"</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>"Trabaho"</item>
+        <item>"Iba pa"</item>
+        <item>"Custom"</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>"AIM"</item>
+        <item>"Windows Live"</item>
+        <item>"Yahoo"</item>
+        <item>"Skype"</item>
+        <item>"QQ"</item>
+        <item>"Google Talk"</item>
+        <item>"ICQ"</item>
+        <item>"Jabber"</item>
+    </string-array>
+    <string name="phoneTypeCustom">"Custom"</string>
+    <string name="phoneTypeHome">"Home"</string>
+    <string name="phoneTypeMobile">"Mobile"</string>
+    <string name="phoneTypeWork">"Trabaho"</string>
+    <string name="phoneTypeFaxWork">"Fax sa Trabaho"</string>
+    <string name="phoneTypeFaxHome">"Fax sa Tahanan"</string>
+    <string name="phoneTypePager">"Pager"</string>
+    <string name="phoneTypeOther">"Iba pa"</string>
+    <string name="phoneTypeCallback">"Tawagan Pabalik"</string>
+    <string name="phoneTypeCar">"Kotse"</string>
+    <string name="phoneTypeCompanyMain">"Pangunahin ng Kumpanya"</string>
+    <string name="phoneTypeIsdn">"ISDN"</string>
+    <string name="phoneTypeMain">"Pangunahin"</string>
+    <string name="phoneTypeOtherFax">"Iba Pang Fax"</string>
+    <string name="phoneTypeRadio">"Radyo"</string>
+    <string name="phoneTypeTelex">"Telex"</string>
+    <string name="phoneTypeTtyTdd">"TTY TDD"</string>
+    <string name="phoneTypeWorkMobile">"Mobile sa Trabaho"</string>
+    <string name="phoneTypeWorkPager">"Pager sa Trabaho"</string>
+    <string name="phoneTypeAssistant">"Katuwang"</string>
+    <string name="phoneTypeMms">"MMS"</string>
+    <string name="eventTypeBirthday">"Kaarawan"</string>
+    <string name="eventTypeAnniversary">"Anibersaryo"</string>
+    <string name="eventTypeOther">"Kaganapan"</string>
+    <string name="emailTypeCustom">"Custom"</string>
+    <string name="emailTypeHome">"Home"</string>
+    <string name="emailTypeWork">"Trabaho"</string>
+    <string name="emailTypeOther">"Iba pa"</string>
+    <string name="emailTypeMobile">"Mobile"</string>
+    <string name="postalTypeCustom">"Custom"</string>
+    <string name="postalTypeHome">"Home"</string>
+    <string name="postalTypeWork">"Trabaho"</string>
+    <string name="postalTypeOther">"Iba pa"</string>
+    <string name="imTypeCustom">"Custom"</string>
+    <string name="imTypeHome">"Home"</string>
+    <string name="imTypeWork">"Trabaho"</string>
+    <string name="imTypeOther">"Iba pa"</string>
+    <string name="imProtocolCustom">"Custom"</string>
+    <string name="imProtocolAim">"AIM"</string>
+    <string name="imProtocolMsn">"Windows Live"</string>
+    <string name="imProtocolYahoo">"Yahoo"</string>
+    <string name="imProtocolSkype">"Skype"</string>
+    <string name="imProtocolQq">"QQ"</string>
+    <string name="imProtocolGoogleTalk">"Google Talk"</string>
+    <string name="imProtocolIcq">"ICQ"</string>
+    <string name="imProtocolJabber">"Jabber"</string>
+    <string name="imProtocolNetMeeting">"NetMeeting"</string>
+    <string name="orgTypeWork">"Trabaho"</string>
+    <string name="orgTypeOther">"Iba pa"</string>
+    <string name="orgTypeCustom">"Custom"</string>
+    <string name="sipAddressTypeCustom">"Custom"</string>
+    <string name="sipAddressTypeHome">"Home"</string>
+    <string name="sipAddressTypeWork">"Trabaho"</string>
+    <string name="sipAddressTypeOther">"Iba pa"</string>
+    <string name="contact_status_update_attribution">"sa pamamagitan ng <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
+    <string name="contact_status_update_attribution_with_date">"<xliff:g id="DATE">%1$s</xliff:g> sa pamamagitan ng <xliff:g id="SOURCE">%2$s</xliff:g>"</string>
+    <string name="keyguard_password_enter_pin_code">"Ipasok ang PIN code"</string>
+    <string name="keyguard_password_enter_password_code">"Ipasok ang password upang i-unlock"</string>
+    <string name="keyguard_password_wrong_pin_code">"Maling PIN code!"</string>
+    <string name="pinpuk_attempts">\nNalalabing Tangka :</string>
+    <string name="keyguard_label_text">"Upang i-unlock, pindutin ang Menu pagkatapos ay 0."</string>
+    <string name="emergency_call_dialog_number_for_display">"Pang-emergency na numero"</string>
+    <string name="lockscreen_sim_network_subset_locked_message">Ang telepono ay naka-lock ang SIM Network subset</string>
+    <string name="lockscreen_sim_corporate_locked_message">Ang telepono ay naka-lock ang SIM</string>
+    <string name="lockscreen_sim_service_provider_locked_message">Ang telepono ay naka-lock ang SIM sa Tagapagbigay ng Serbisyo</string>
+    <string name="lockscreen_sim_sim_locked_message">Naka-SIM lock ang telepono</string>
+    <string name="lockscreen_ruim_network1_locked_message">Ang telepono ay naka-lock sa RUIM Network1</string>
+    <string name="lockscreen_ruim_network2_locked_message">Ang telepono ay naka-lock sa RUIM Network2</string>
+    <string name="lockscreen_ruim_hrpd_locked_message">Ang telepono ay naka-lock sa RUIM hrpd</string>
+    <string name="lockscreen_ruim_corporate_locked_message">Ang telepono ay naka-lock sa RUIM Corporate</string>
+    <string name="lockscreen_ruim_service_provider_locked_message">Ang telepono ay naka-lock sa RUIM na Tagabigay ng Serbisyo</string>
+    <string name="lockscreen_ruim_ruim_locked_message">Ang telepono ay naka-lock sa RUIM</string>
+    <string name="lockscreen_sim_error_message">Hindi tama ang SIM card.</string>
+    <string name="lockscreen_pin_locked_message">Naka-lock SIM/Ruim card.</string>
+    <string name="lockscreen_sim_error_message_short">Hindi tamang Card.</string>
+    <string name="lockscreen_sim_network_locked_message">Ang telepono ay naka-lock ang SIM Network</string>
+    <string name="lockscreen_ruim_puk_locked_message">Naka-PUK lock ang RUIM.</string>
+    <string name="lockscreen_ruim_puk_locked_instructions">Na-block ang PIN1. Ilagay ang PUK1 para ma-unblock ang PIN1.\nO\nPakitingin ang gabay ng gumagamit\tumawag sa Customer Care.</string>
+    <string name="lockscreen_missing_ruim_message">Walang RUIM card sa telepono.</string>
+    <string name="lockscreen_missing_ruim_instructions">Pakilagay ang RUIM card.</string>
+    <string name="lockscreen_ruim_error_message">Hindi tama ang RUIM card.</string>
+    <string name="lockscreen_missing_ruim_message_short">Walang RUIM card.</string>
+    <string name="lockscreen_blocked_ruim_message_short">Naka-block ang RUIM card .</string>
+    <string name="lockscreen_ruim_error_message_short">Hindi tamang Card.</string>
+    <string name="lockscreen_ruim_network_locked_message">Naka-lock ang network</string>
+    <string name="sim1_puk_requried">Naka-block PIN ng SIM1, Ilagay PUK upang i-unblock</string>
+    <string name="sim2_puk_requried">Naka-block PIN ng SIM2, Ilagay PUK upang i-unblock</string>
+    <string name="sim_puk_requried">Naka-block PIN ng SIM, ilagay PUK upang i-unblock</string>
+    <string name="keyguard_password_enter_sim1_pin_code">Ilagay ang Sim1 PIN code</string>
+    <string name="keyguard_password_enter_sim2_pin_code">Ilagay ang Sim2 PIN code</string>
+    <string name="keyguard_password_enter_sim_pin_code">Ilagay ang Sim PIN code</string>
+    <string name="keyguard_sim1_pin_accepted">Tagumpay pag-unlock ng Sim1 Pin</string>
+    <string name="keyguard_sim2_pin_accepted">Tagumpay pag-unlock ng Sim2 Pin</string>
+    <string name="keyguard_sim_pin_accepted">Matagumpay pag-unlok ng Pin ng Sim</string>
+    <string name="puk_accept">PUK ay tinatanggap</string>
+    <string name="unblocking_fail">Nabigo ang pag-unblock, ilagay muli ang PUK</string>
+    <string name="keyguard_password_wrong_puk_code">Maling PUK code!</string>
+    <string name="new_pin">Ilagay ang bagong PIN</string>
+    <string name="reenter">Ilagay muli ang PIN</string>
+    <string name="lockscreen_carrier_default">"(Walang serbisyo)"</string>
+    <string name="lockscreen_screen_locked">"Naka-lock ang screen."</string>
+    <string name="lockscreen_instructions_when_pattern_enabled">"Pindutin ang Menu upang i-unlock o magsagawa ng pang-emergency na tawag."</string>
+    <string name="lockscreen_instructions_when_pattern_disabled">"Pindutin ang Menu upang i-unlock."</string>
+    <string name="lockscreen_pattern_instructions">"Iguhit ang pattern upang i-unlock"</string>
+    <string name="lockscreen_emergency_call">"Emergency na tawag"</string>
+    <string name="lockscreen_return_to_call">"Bumalik sa tawag"</string>
+    <string name="lockscreen_pattern_correct">"Tama!"</string>
+    <string name="lockscreen_pattern_wrong">"Paumanhin, subukang muli"</string>
+    <string name="lockscreen_plugged_in">"Nagcha-charge (<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>)"</string>
+    <string name="lockscreen_charged">"Naka-charge."</string>
+    <string name="lockscreen_battery_short">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
+    <string name="lockscreen_low_battery">"Ikonekta ang iyong charger."</string>
+    <string name="lockscreen_missing_sim_message_short">"Walang SIM card."</string>
+    <string name="lockscreen_missing_sim_message">"Walang SIM card sa telepono."</string>
+    <string name="lockscreen_missing_sim_instructions">"Mangyaring magpasok ng SIM card."</string>
+    <string name="lockscreen_blocked_sim_message_short">Naka-block ang SIM card.</string>
+    <string name="emergency_calls_only" msgid="2485604591272668370">"Mga pang-emergency na tawag lang"</string>
+    <string name="lockscreen_network_locked_message">"Naka-lock ang network"</string>
+    <string name="lockscreen_sim_puk_locked_message">"Naka-PUK-lock ang SIM card."</string>
+    <string name="lockscreen_sim_puk_locked_instructions">"Pakitingnan ang Gabay ng User o makipag-ugnay sa Customer Care."</string>
+    <string name="lockscreen_sim_locked_message">"Naka-lock ang SIM card."</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">"Ina-unlock ang SIM card..."</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">"Mali mong naguhit ang iyong pattern na pang-unlock nang <xliff:g id="NUMBER_0">%d</xliff:g> (na) beses. "\n\n"Pakisubukang muli sa loob ng <xliff:g id="NUMBER_1">%d</xliff:g> (na) segundo."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">"Naguhit mo nang mali ang iyong pattern sa pag-unlock nang <xliff:g id="NUMBER_0">%d</xliff:g> (na) beses. Pagkatapos ng <xliff:g id="NUMBER_1">%d</xliff:g> higit pang hindi matagumpay na pagtatangka, hihingin sa iyong i-unlock ang iyong telepono gamit an</string>
+    <string name="lockscreen_too_many_failed_attempts_countdown">"Subukang muli sa loob ng <xliff:g id="NUMBER">%d</xliff:g> (na) segundo."</string>
+    <string name="lockscreen_forgot_pattern_button_text">"Nakalimutan ang pattern?"</string>
+    <string name="lockscreen_glogin_forgot_pattern">"Pag-unlock sa account"</string>
+    <string name="lockscreen_glogin_too_many_attempts">"Masyadong maraming pagtatangka sa pattern!"</string>
+    <string name="lockscreen_glogin_instructions">"Upang i-unlock, mag-sign in sa iyong Google account"</string>
+    <string name="lockscreen_glogin_username_hint">"Username (email)"</string>
+    <string name="lockscreen_glogin_password_hint">"Password"</string>
+    <string name="lockscreen_glogin_submit_button">"Mag-sign in"</string>
+    <string name="lockscreen_glogin_invalid_input">"Di-wastong username o password."</string>
+    <string name="lockscreen_glogin_checking_password">"Sinusuri..."</string>
+    <string name="lockscreen_unlock_label">"I-unlock"</string>
+    <string name="lockscreen_sound_on_label">"I-on ang tunog"</string>
+    <string name="lockscreen_sound_off_label">"I-off ang tunog"</string>
+    <string name="password_keyboard_label_symbol_key">"?123"</string>
+    <string name="password_keyboard_label_alpha_key">"ABC"</string>
+    <string name="password_keyboard_label_alt_key">"ALT"</string>
+    <string name="hour_ampm">"<xliff:g id="HOUR">%-l</xliff:g><xliff:g id="AMPM">%P</xliff:g>"</string>
+    <string name="hour_cap_ampm">"<xliff:g id="HOUR">%-l</xliff:g><xliff:g id="AMPM">%p</xliff:g>"</string>
+    <string name="factorytest_failed">"Nabigo ang factory na pagsubok"</string>
+    <string name="factorytest_not_system">"Suportado lang ang pagkilos na FACTORY_TEST para sa mga package na naka-install sa /system/app."</string>
+    <string name="factorytest_no_action">"Walang nakitang package na nagbibigay ng pagkilos na FACTORY_TEST."</string>
+    <string name="factorytest_reboot">"I-reboot"</string>
+    <string name="js_dialog_title">"Sinasabi ng pahina sa \'<xliff:g id="TITLE">%s</xliff:g>\' na:"</string>
+    <string name="js_dialog_title_default">"JavaScript"</string>
+    <string name="js_dialog_before_unload">"Mag-navigate palayo mula sa pahinang ito?"\n\n"<xliff:g id="MESSAGE">%s</xliff:g>"\n\n"Piliin ang OK upang magpatuloy, o Kanselahin upang manatili sa kasalukuyang pahina."</string>
+    <string name="save_password_label">"Kumpirmahin"</string>
+    <string name="double_tap_toast">"Tip: mag-double-tap upang mag-zoom in at out."</string>
+    <string name="permlab_readHistoryBookmarks">"basahin ang kasaysayan at mga bookmark ng Browser"</string>
+    <string name="permdesc_readHistoryBookmarks">"Pinapayagan ang application na basahin ang lahat ng URL na binisita ng Browser, at lahat ng bookmark ng Browser."</string>
+    <string name="permlab_writeHistoryBookmarks">"isulat ang kasaysayan ng Browser at mga bookmark"</string>
+    <string name="permdesc_writeHistoryBookmarks">"Pinapayagan ang isang application na baguhin ang kasaysayan o mga bookmark ng Browser na nakaimbak sa iyong telepono. Magagamit ito ng mga nakakahamak na application upang burahin o baguhin ang iyong data ng Browser."</string>
+    <string name="permlab_setAlarm">"itakda ang alarm sa alarm clock"</string>
+    <string name="permdesc_setAlarm">"Pinapayagan ang application na magtakda ng alarm sa isang naka-install na application ng alarm clock. Maaaring hindi ipatupad ng ilang application ng alarm clock ang tampok na ito."</string>
+    <string name="permlab_writeGeolocationPermissions">"Baguhin ang mga pahintulot ng Browser geolocation"</string>
+    <string name="permdesc_writeGeolocationPermissions">"Pinapayagan ang isang application na baguhin ang mga pahintulot sa geolocation ng Browser. Magagamit ito ng mga nakakahamak na application upang payagan ang pagpapadala ng impormasyon ng lokasyon sa mga hindi saklaw na web site."</string>
+    <string name="save_password_message">"Gusto mo bang tandaan ng browser ang password na ito?"</string>
+    <string name="save_password_notnow">"Hindi ngayon"</string>
+    <string name="save_password_remember">"Tandaan"</string>
+    <string name="save_password_never">"Hindi Kailanman"</string>
+    <string name="open_permission_deny">"Wala kang pahintulot na buksan ang pahinang ito."</string>
+    <string name="text_copied">"Nakopya ang teksto sa clipboard."</string>
+    <string name="more_item_label">"Higit pa"</string>
+    <string name="prepend_shortcut_label">"Menu+"</string>
+    <string name="menu_space_shortcut_label">"espasyo"</string>
+    <string name="menu_enter_shortcut_label">"ipasok"</string>
+    <string name="menu_delete_shortcut_label">Burahin</string>
+    <string name="search_go">"Paghahanap"</string>
+    <string name="oneMonthDurationPast">"1 buwan ang nakalipas"</string>
+    <string name="beforeOneMonthDurationPast">"Bago ang nakalipas na 1 buwan"</string>
+    <plurals name="num_seconds_ago">
+        <item quantity="one">"1 segundo ang nakakalipas"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (na) segundo ang nakalipas"</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="one">"1 minuto ang nakalipas"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (na) minuto ang nakalipas"</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="one">"1 oras ang nakalipas"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (na) oras ang nakalipas"</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">"Huling <xliff:g id="COUNT">%d</xliff:g> (na) araw"</item>
+    </plurals>
+    <string name="last_month">"Nakaraang buwan"</string>
+    <string name="older">"Mas luma"</string>
+    <plurals name="num_days_ago">
+        <item quantity="one">"kahapon"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (na) araw ang nakalipas"</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="one">"sa 1 segundo"</item>
+        <item quantity="other">"sa <xliff:g id="COUNT">%d</xliff:g> (na) segundo"</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="one">"sa 1 minuto"</item>
+        <item quantity="other">"sa <xliff:g id="COUNT">%d</xliff:g> (na) minuto"</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="one">"sa 1 oras"</item>
+        <item quantity="other">"sa <xliff:g id="COUNT">%d</xliff:g> (na) oras"</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="one">"bukas"</item>
+        <item quantity="other">"sa <xliff:g id="COUNT">%d</xliff:g> (na) araw"</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="one">"1 segundo ang nakalipas"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (na) segundo ang nakalipas"</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">"1 minuto ang nakalipas"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (na) minuto ang nakalipas"</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="one">"1 oras ang nakalipas"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (na) oras ang nakalipas"</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="one">"kahapon"</item>
+        <item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> (na) araw ang nakalipas"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="one">"sa 1 seg"</item>
+        <item quantity="other">"sa <xliff:g id="COUNT">%d</xliff:g> (na) segundo"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">"sa 1 min"</item>
+        <item quantity="other">"sa <xliff:g id="COUNT">%d</xliff:g> (na) minuto"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="one">"sa 1 oras"</item>
+        <item quantity="other">"sa <xliff:g id="COUNT">%d</xliff:g> (na) oras"</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="one">"bukas"</item>
+        <item quantity="other">"sa <xliff:g id="COUNT">%d</xliff:g> (na) araw"</item>
+    </plurals>
+    <string name="preposition_for_date">"sa <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="preposition_for_time">"nang <xliff:g id="TIME">%s</xliff:g>"</string>
+    <string name="preposition_for_year">"sa <xliff:g id="YEAR">%s</xliff:g>"</string>
+    <string name="day">"araw"</string>
+    <string name="days">"mga araw"</string>
+    <string name="hour">"oras"</string>
+    <string name="hours">"mga oras"</string>
+    <string name="minute">"min"</string>
+    <string name="minutes">"mga min"</string>
+    <string name="second">"seg"</string>
+    <string name="seconds">"mga seg"</string>
+    <string name="week">"linggo"</string>
+    <string name="weeks">"mga linggo"</string>
+    <string name="year">"taon"</string>
+    <string name="years">"mga taon"</string>
+    <string name="VideoView_error_title">"Hindi ma-play ang video"</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">"Paumanhin, hindi wasto para sa streaming sa device na ito ang video na ito."</string>
+    <string name="VideoView_error_text_unknown">"Paumanhin, hindi mape-play ang video na ito."</string>
+    <string name="VideoView_error_button">"OK"</string>
+    <string name="relative_time">"<xliff:g id="DATE">%1$s</xliff:g>, <xliff:g id="TIME">%2$s</xliff:g>"</string>
+    <string name="noon">"tanghali"</string>
+    <string name="Noon">"Tanghali"</string>
+    <string name="midnight">"hatinggabi"</string>
+    <string name="Midnight">"Hatinggabi"</string>
+    <string name="elapsed_time_short_format_mm_ss">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
+    <string name="elapsed_time_short_format_h_mm_ss">"<xliff:g id="HOURS">%1$d</xliff:g>:<xliff:g id="MINUTES">%2$02d</xliff:g>:<xliff:g id="SECONDS">%3$02d</xliff:g>"</string>
+    <string name="selectAll">"Piliin lahat"</string>
+    <string name="selectText">"Pumili ng salita"</string>
+    <string name="cut">"I-cut"</string>
+    <string name="copy">"Kopyahin"</string>
+    <string name="paste">"I-paste"</string>
+    <string name="copyUrl">"Kopyahin ang URL"</string>
+    <string name="inputMethod">"Pamamaraan ng pag-input"</string>
+    <string name="addToDictionary">"Idagdag ang \"<xliff:g id="WORD">%s</xliff:g>\" sa diksyunaryo"</string>
+    <string name="editTextMenuTitle">"I-edit ang teksto"</string>
+    <string name="low_internal_storage_view_title">"Mababa sa espasyo"</string>
+    <string name="low_internal_storage_view_text">"Lumiliit ang espasyo ng imbakan ng telepono."</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Kanselahin"</string>
+    <string name="yes">"OK"</string>
+    <string name="no">"Kanselahin"</string>
+    <string name="dialog_alert_title">"Bigyang pansin"</string>
+    <string name="capital_on">"I-ON"</string>
+    <string name="capital_off">"I-OFF"</string>
+    <string name="whichApplication">"Kumpletuhin ang pagkilos gamit ang"</string>
+    <string name="alwaysUse">"Gamitin bilang default para sa pagkilos na ito."</string>
+    <string name="clearDefaultHintMsg">"I-clear ang default sa Mga Setting ng Home &gt; Mga Application &gt; Pamahalaan ang mga application."</string>
+    <string name="chooseActivity">"Pumili ng pagkilos"</string>
+    <string name="chooseUsbActivity">"Pumili ng application para sa USB device"</string>
+    <string name="noApplications">"Walang mga application ang makakapagsagawa ng pagkilos na ito."</string>
+    <string name="aerr_title">"Paumanhin!"</string>
+    <string name="aerr_application">"Hindi inaasahang humito ang <xliff:g id="APPLICATION">%1$s</xliff:g> (proseso <xliff:g id="PROCESS">%2$s</xliff:g>) ng application. Pakisubukang muli."</string>
+    <string name="aerr_process">"Hindi inaasahang tumigil ang prosesong <xliff:g id="PROCESS">%1$s</xliff:g>. Pakisubukang muli."</string>
+    <string name="anr_title">"Paumanhin!"</string>
+    <string name="anr_activity_application">"Hindi tumutugon ang aktibidad na <xliff:g id="ACTIVITY">%1$s</xliff:g> (sa application na <xliff:g id="APPLICATION">%2$s</xliff:g>)."</string>
+    <string name="anr_activity_process">"Hindi tumutugon ang aktibidad na <xliff:g id="ACTIVITY">%1$s</xliff:g> (pinoproseso <xliff:g id="PROCESS">%2$s</xliff:g>)."</string>
+    <string name="anr_application_process">"Hindi tumutugon ang aktibidad na <xliff:g id="APPLICATION">%1$s</xliff:g> (nasa proseso <xliff:g id="PROCESS">%2$s</xliff:g>)."</string>
+    <string name="anr_process">"Hindi tumutugon ang prosesong <xliff:g id="PROCESS">%1$s</xliff:g>."</string>
+    <string name="force_close">"Puwersahang pagsara"</string>
+    <string name="report">"Ulat"</string>
+    <string name="wait">"Maghintay"</string>
+    <string name="launch_warning_title">"Ni-redirect application"</string>
+    <string name="launch_warning_replace">"Tumatakbo na ngayon ang <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
+    <string name="launch_warning_original">"Orihinal na nalunsad ang <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
+    <string name="smv_application">"Hindi inaasahang humito ang <xliff:g id="APPLICATION">%1$s</xliff:g> (proseso <xliff:g id="PROCESS">%2$s</xliff:g>) ng application. Pakisubukang muli."</string>
+    <string name="smv_process">"Ang prosesong <xliff:g id="PROCESS">%1$s</xliff:g> ay lumabag sa sarili nitong ipinapatupad na patakarang StrictMode."</string>
+    <string name="heavy_weight_notification">"Tumatakbo ang <xliff:g id="APP">%1$s</xliff:g>"</string>
+    <string name="heavy_weight_notification_detail">"Piliin upang lumipat ng application"</string>
+    <string name="heavy_weight_switcher_title">"Maglipat ng mga application?"</string>
+    <string name="heavy_weight_switcher_text">"May tumatakbo nang isa pang application na dapat na ihinto bago ka maaaring magsimula ng isang bago."</string>
+    <string name="old_app_action">"Bumalik sa <xliff:g id="OLD_APP">%1$s</xliff:g>"</string>
+    <string name="old_app_description">"Huwag simulan ang bagong application."</string>
+    <string name="new_app_action">"Simulan ang <xliff:g id="OLD_APP">%1$s</xliff:g>"</string>
+    <string name="new_app_description">"Itigil ang lumang application nang hindi nagse-save."</string>
+    <string name="sendText">"Pumili ng pagkilos para sa teksto"</string>
+    <string name="volume_ringtone">"Volume ng ringer"</string>
+    <string name="volume_music">"Lakas ng tunog ng media"</string>
+    <string name="volume_fm">Lakas ng tunog ng FM</string>
+    <string name="volume_music_hint_playing_through_bluetooth">"Nagpe-play sa pamamagitan ng Bluetooth"</string>
+    <string name="volume_music_hint_silent_ringtone_selected">"Pinili ang tahimik na ringtone"</string>
+    <string name="volume_call">"Lakas ng tunog ng papasok na tawag"</string>
+    <string name="volume_bluetooth_call">"Lakas ng tunog ng bluetooth in-call"</string>
+    <string name="volume_alarm">"Lakas ng tunog ng alarm"</string>
+    <string name="volume_notification">"Lakas ng tunog ng notification"</string>
+    <string name="volume_unknown">"Lakas ng Tunog"</string>
+    <string name="ringtone_default">"Default na ringtone"</string>
+    <string name="ringtone_default_with_actual">"Default na ringtone (<xliff:g id="ACTUAL_RINGTONE">%1$s</xliff:g>)"</string>
+    <string name="ringtone_silent">"Tahimik"</string>
+    <string name="ringtone_picker_title">"Mga Ringtone"</string>
+    <string name="ringtone_unknown">"Hindi kilalang ringtone"</string>
+    <plurals name="wifi_available">
+        <item quantity="one">"Available ang Wi-Fi network"</item>
+        <item quantity="other">"Available ang mga Wi-Fi network"</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">"Available ang bukas na Wi-Fi network"</item>
+        <item quantity="other">"Buksan ang mga available na Wi-Fi network"</item>
+    </plurals>
+    <string name="select_character">"Magpasok ng character"</string>
+    <string name="sms_control_default_app_name">"Hindi kilalang application"</string>
+    <string name="sms_control_title">"Nagpapadala ng mga SMS na mensahe"</string>
+    <string name="sms_control_message">"Pinapadala ang malaking bilang ng mga SMS na mensahe. Piliin ang \"OK\" upang magpatuloy, o \"Kanselahin\" upang itigil ang pagpapadala."</string>
+    <string name="sms_control_yes">"OK"</string>
+    <string name="sms_control_no">"Kanselahin"</string>
+    <string name="date_time_set">"Itakda"</string>
+    <string name="default_permission_group">"Default"</string>
+    <string name="permissions_format"><xliff:g id="perm_line1">%1$s</xliff:g>, <xliff:g id="perm_line2">%2$s</xliff:g></string>
+    <string name="no_permissions">"Walang mga kinakailangang pahintulot"</string>
+    <string name="perms_hide">
+    <b>"Itago"</b>
+  </string>
+    <string name="perms_show_all">
+    <b>"Ipakita lahat"</b>
+  </string>
+    <string name="usb_storage_activity_title">"USB Mass Storage"</string>
+    <string name="usb_storage_title">"Nakakonekta ang USB"</string>
+    <string name="usb_storage_message" product="nosdcard">"Ikinonekta mo ang iyong telepono sa iyong computer sa pamamagitan ng USB. Piliin ang pindutan sa ibaba kung gusto mong kumopya ng mga file sa pagitan ng iyong computer at imbakan na USB ng iyong Android."</string>
+    <string name="usb_storage_message" product="default">"Kinonekta mo ang iyong telepono sa iyong computer sa pamamagitan ng USB. Piliin ang pindutan sa ibaba kung gusto mong kumopya ng mga file sa pagitan ng iyong computer at SD card ng iyong Android."</string>
+    <string name="usb_storage_button_mount">"I-on ang USB storage"</string>
+    <string name="usb_storage_error_message" product="nosdcard">"May problema sa paggamit ng iyong imbakan na USB para sa maramihang imbakan na USB."</string>
+    <string name="usb_storage_error_message" product="default">"Nagkaproblema sa paggamit ng iyong SD card para sa maramihang imbakan na USB."</string>
+    <string name="usb_storage_notification_title">"Nakakonekta ang USB"</string>
+    <string name="usb_storage_notification_message">"Piliin upang kopyahin ang mga file sa/mula sa iyong computer."</string>
+    <string name="usb_storage_stop_notification_title">"I-off ang USB storage"</string>
+    <string name="usb_storage_stop_notification_message">"Piliin upang i-off ang USB storage."</string>
+    <string name="usb_storage_stop_title">"Ginagamit ang USB storage"</string>
+    <string name="usb_storage_stop_message" product="nosdcard">"Bago i-off ang imbakan na USB, tiyaking na-unmount (“na-eject”) ang imbakan na USB ng Android mula sa iyong computer."</string>
+    <string name="usb_storage_stop_message" product="default">"Bago i-off ang USB storage, tiyaking na-unmount (“inalis”) mo ang SD card ng iyong Android mula sa iyong computer."</string>
+    <string name="usb_storage_stop_button_mount">"I-off ang USB storage"</string>
+    <string name="usb_storage_stop_error_message">"Nagkaproblema sa pag-off ng USB storage. Tingnan upang matiyak na na-unmount mo ang host ng USB, pagkatapos ay subukan muli."</string>
+    <string name="dlg_confirm_kill_storage_users_title">"I-on ang USB storage"</string>
+    <string name="dlg_confirm_kill_storage_users_text">"Kung io-on mo ang USB storage, titigil ang ilang application na ginagamit mo at maaaring maging hindi available hanggang sa i-off mo ang USB storage."</string>
+    <string name="dlg_error_title">"Nabigo ang pagpapatakbo ng USB"</string>
+    <string name="dlg_ok">"OK"</string>
+    <string name="extmedia_format_title" product="nosdcard">"I-format USB storage"</string>
+    <string name="extmedia_format_title" product="default">"I-format ang SD card"</string>
+    <string name="extmedia_format_message" product="nosdcard">"I-format ang imbakan na USB, na binubura ang lahat ng mga file na nakaimbak doon? Hindi maaaring maibalik ang pagkilos!"</string>
+    <string name="extmedia_format_message" product="default">"Sigurado ka bang gusto mong i-format ang SD card? Mawawala ang lahat ng data sa iyong card."</string>
+    <string name="extmedia_format_button_format">"Format"</string>
+    <string name="adb_active_notification_title">"Konektado ang debugging ng USB"</string>
+    <string name="adb_active_notification_message">"Piliin upang huwag paganahin ang debugging ng USB."</string>
+    <string name="select_input_method">"Pumili ng pamamaraan ng pag-input"</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+    <string name="candidates_style">
+    <u>"mga kandidato"</u>
+  </string>
+    <string name="ext_media_checking_notification_title" product="nosdcard">"Ihinahanda ang imbakan na USB"</string>
+    <string name="ext_media_checking_notification_title" product="default">"Hinahanda ang SD card"</string>
+    <string name="ext_media_checking_notification_message">"Sinusuri para sa mga error."</string>
+    <string name="ext_media_nofs_notification_title" product="nosdcard">"Blangkong imbakan na USB"</string>
+    <string name="ext_media_nofs_notification_title" product="default">"Blangkong SD card"</string>
+    <string name="ext_media_nofs_notification_message" product="nosdcard">"Blangko ang imbakan na USB o may hindi sinusuportahang filesystem."</string>
+    <string name="ext_media_nofs_notification_message" product="default">"blangko ang SD card o may hindi suportadong filesystem."</string>
+    <string name="ext_media_unmountable_notification_title" product="nosdcard">"Nasirang imbakan na USB"</string>
+    <string name="ext_media_unmountable_notification_title" product="default">"Sirang SD card"</string>
+    <string name="ext_media_unmountable_notification_message" product="nosdcard">"Nasira ang imbakan na USB. Maaaring kailangan mo itong i-reformat."</string>
+    <string name="ext_media_unmountable_notification_message" product="default">"Nasira ang SD card. Maaaring kailanganin mo itong i-reformat."</string>
+    <string name="ext_media_badremoval_notification_title" product="nosdcard">"Di inasahan naalis USB storage"</string>
+    <string name="ext_media_badremoval_notification_title" product="default">"Hindi inaasahang inalis ang SD card"</string>
+    <string name="ext_media_badremoval_notification_message" product="nosdcard">"I-unmount ang imbakan na USB bago alisin upang maiwasan ang pagkawala ng data."</string>
+    <string name="ext_media_badremoval_notification_message" product="default">"I-unmount ang SD card bago alisin upang maiwasan ang pagkawala ng data."</string>
+    <string name="ext_media_safe_unmount_notification_title" product="nosdcard">"Ligtas na alisin imbakan na USB"</string>
+    <string name="ext_media_safe_unmount_notification_title" product="default">"ligtas na alisin ang SD card"</string>
+    <string name="ext_media_safe_unmount_notification_message" product="nosdcard">"Maaari mong ligtas na alisin ang imbakan na USB."</string>
+    <string name="ext_media_safe_unmount_notification_message" product="default">"Ligtas mo nang maaalis ang SD card."</string>
+    <string name="ext_media_nomedia_notification_title" product="nosdcard">"Inalis na imbakan na USB"</string>
+    <string name="ext_media_nomedia_notification_title" product="default">"Naalis na SD card"</string>
+    <string name="ext_media_nomedia_notification_message" product="nosdcard">"Inalis ang imbakan na USB. Magpasok ng bagong media."</string>
+    <string name="ext_media_nomedia_notification_message" product="default">"Inalis ang SD card. Magpasok ng bago."</string>
+    <string name="activity_list_empty">"Walang nakitang magkakatugmang mga contact."</string>
+    <string name="permlab_pkgUsageStats">"i-update ang mga istatistika ng paggamit ng nilalaman"</string>
+    <string name="permdesc_pkgUsageStats">"Pinapayagan ang pagbabago ng mga istatistika ng paggamit ng kinolektang nilalaman. Hindi para sa paggamit ng mga normal na application."</string>
+    <string name="permlab_copyProtectedData">"Pinapayagang hingin sa default na serbisyo ng container na kopyahin ang nilalaman. Hindi para sa paggamit ng mga normal na application."</string>
+    <string name="permdesc_copyProtectedData">"Pinapayagang hingin sa default na serbisyo ng container na kopyahin ang nilalaman. Hindi para sa paggamit ng mga normal na application."</string>
+    <string name="tutorial_double_tap_to_zoom_message_short">"Tapikin ng dalawang beses para sa pagkontrol ng zoom"</string>
+    <string name="gadget_host_error_inflating">"Error sa pagpapalaki ng widget"</string>
+    <string name="ime_action_go">"Pumunta"</string>
+    <string name="ime_action_search">"Paghahanap"</string>
+    <string name="ime_action_send">"Ipadala"</string>
+    <string name="ime_action_next">"Susunod"</string>
+    <string name="ime_action_done">Tapos</string>
+    <string name="ime_action_default">"Isakatuparan"</string>
+    <string name="dial_number_using">"Mag-dial ng numero"\n"gamit ang <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="create_contact_using">"Lumikha ng contact"\n"gamit ang <xliff:g id="NUMBER">%s</xliff:g>"</string>
+    <string name="accessibility_compound_button_selected">"nasuri"</string>
+    <string name="accessibility_compound_button_unselected">"hindi sinuri"</string>
+    <string name="grant_credentials_permission_message_header">"Ang sumusunod na isa o higit pang mga application ay humihilingng pahintulot na ma-access ang iyong account, ngayon at sa hinaharap."</string>
+    <string name="grant_credentials_permission_message_footer">"Gusto mo bang payagan ang kahilingang ito?"</string>
+    <string name="grant_permissions_header_text">"Kahilingan sa Access"</string>
+    <string name="allow">"Payagan"</string>
+    <string name="deny">"Tanggihan"</string>
+    <string name="permission_request_notification_title">"Hiniling ang Pahintulot"</string>
+    <string name="permission_request_notification_with_subtitle">"Hiniling ang pahintulot"\n"para sa account na <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+    <string name="input_method_binding_label">"Pamamaraan ng pag-input"</string>
+    <string name="sync_binding_label">"I-sync"</string>
+    <string name="accessibility_binding_label">"Kakayahang Ma-access"</string>
+    <string name="wallpaper_binding_label">"Wallpaper"</string>
+    <string name="chooser_wallpaper">"Baguhin ang wallpaper"</string>
+    <string name="alternate_eri_file">/data/eri.xml</string>
+    <string name="pptp_vpn_description">"Point-to-Point Tunneling Protocol"</string>
+    <string name="l2tp_vpn_description">"Layer 2 Tunneling Protocol"</string>
+    <string name="l2tp_ipsec_psk_vpn_description">"Unang ibinahaging key na batay sa L2TP/IPSec VPN"</string>
+    <string name="l2tp_ipsec_crt_vpn_description">"Batay sa certificate na L2TP/IPSec VPN"</string>
+    <string name="upload_file">"Pumili ng file"</string>
+    <string name="reset">"I-reset"</string>
+    <string name="submit">"Isumite"</string>
+    <string name="description_star">"paborito"</string>
+    <string name="car_mode_disable_notification_title">"Pinagana ang car mode"</string>
+    <string name="car_mode_disable_notification_message">"Piliin upang lumabas sa car mode."</string>
+    <string name="tethered_notification_title">"Pagsasama o aktibong hotspot"</string>
+    <string name="cta_tethered_notification_title">"Pag-tether"</string>
+    <string name="tethered_notification_message">"Galawin upang i-configure"</string>
+    <string name="throttle_warning_notification_title">"Mataas na paggamit ng data ng mobile"</string>
+    <string name="throttle_warning_notification_message">"Galawin upang matuto nang higit pa tungkol sa paggamit ng data ng mobile"</string>
+    <string name="throttled_notification_title">"Lumagpas na sa limitasyon ng data ng mobile"</string>
+    <string name="throttled_notification_message">"Galawin upang matuto nang higit pa tungkol sa paggamit ng data ng mobile"</string>
+    <string name="Low_Memory_Alert">Bumababa na ang espasyo ng imbakan ng telepono. Paki tanggal ang ibang mga data para masiguro ang kakayahan ng telepono.</string>
+    <string name="Low_Memory_Free">Libre</string>
+    <string name="Low_Memory_Application">Mga application</string>
+    <string name="Low_Memory_Mail">Mail</string>
+    <string name="Low_Memory_Sms_Mms">SMS/MMS</string>
+    <string name="Low_Memory_System">System</string>
+    <string name="Btn_Select_Clear">Piliin/I-clear</string>
+    <string name="myAppTip">Pumili ng mga application na gagamitin</string>
+    <string name="myApp_Start_Btn">Magsimula</string>
+    <string name="myApp_Move2Sd_ChkBox">Ilipat saSD</string>
+    <string name="myApp_ClearData_ChkBox">I-clear ang Data</string>
+    <string name="myApp_Uninstall_ChkBox">"I-uninstall"</string>
+    <string name="myAppLoading">Naglo-load\u2026</string>
+    <string name="myAppProcessing">pinoproseso\u2026</string>
+    <string name="keyguard_password_enter_puk_code">Ilagay ang PUK Code</string>
+    <string name="keyguard_password_enter_new_pin_first_code">Ilagay ang Bagong PIN Code</string>
+    <string name="keyguard_password_enter_new_pin_second_code">Ilagay Muli ang Bagong PIN Code</string>
+    <string name="ums_active_notification_message">pinagana pangmalakihang imbakan na usb</string>
+    <string name="modem_active_notification_title">gamitin debug mode ng modem</string>
+    <string name="modem_active_notification_message">pinagana ang modem debug mode</string>
+    <string name="china_mobile_numeric_values">China Mobile</string>
+    <string name="china_unicom_numeric_values">China Unicorn</string>
+    <string name="china_telecom_numeric_values">China Telecom</string>
+    <string name="stk_refresh_sim_init_message">Nag-a-update ang SIM card</string>
+    <string name="stk_refresh_sim_reset_message">Magre-reboot ang telepono</string>
+    <string name="custom_china_mobile">China Mobile</string>
+    <string name="custom_china_unicom">China Unicorn</string>
+    <string name="charge_active_notification_message">Pinapagana ang charge only mode</string>
+    <string name="charge_active_notification_title">Gamitin ang Charge lang kapag konektado ang usb</string>
+    <string name="shutdown_after_seconds">Magsasara ang telepono matapos ang <xliff:g id="NUMBER">%d</xliff:g> mga segundo</string>
+    <string name="lockscreen_password_error">Mali ang password ,subukan muli!</string>
+    <string name="lockscreen_too_many_password_failed_attempts_dialog_message">
+		Mali ang nailagay mong password <xliff:g id="number">%d</xliff:g> beses.
+        \n\nSubukang muli sa <xliff:g id="number">%d</xliff:g> mga segundo.</string>
+    <string name="progress_unmounting" product="nosdcard">"Ina-unmount ang imbakan na USB..."</string>
+    <string name="progress_unmounting" product="default">"Ina-unmount ang SD card..."</string>
+    <string name="progress_erasing" product="nosdcard">"Binubura ang imbakan na USB..."</string>
+    <string name="progress_erasing" product="default">"Binubura ang SD card..."</string>
+    <string name="format_error" product="nosdcard">"Nabigong burahin ang imbakan na USB."</string>
+    <string name="format_error" product="default">"Nabigong burahin ang SD card."</string>
+    <string name="media_bad_removal">"Inalis ang SD card bago na-unmount."</string>
+    <string name="media_checking" product="nosdcard">"Kasalukuyang sinusuri ang imbakan na USB."</string>
+    <string name="media_checking" product="default">"Kasalukuyang sinusuri ang SD card."</string>
+    <string name="media_removed">"Inalis ang SD card."</string>
+    <string name="media_shared" product="nosdcard">"Kasalukuyang ginagamit ang imbakan na USB ng isang computer."</string>
+    <string name="media_shared" product="default">"Kasalukuyang ginagamit ang SD card ng isang computer."</string>
+    <string name="media_unknown_state">"Panlabas na media sa hindi kilalang katayuan."</string>
+    <string name="audio_play_failed">Pasensya,ang audio ay hindi mapapagana, gamit ang default na ringtone</string>
+    <string name="sms_full_title">"Puno na ang memorya ng text message"</string>
+    <string name="sms_full_body">Papasok na mga mensahe ay tinanggihan sa dahilang puno na ang memorya. Pakitanggal ang mga lumang mensahe.</string>
+    <string name="dialog_warning">Babala</string>
+    <string name="internal_memory_low">Halos puno na ang imbakan na SD card! Pakitanggal ang ilang file upang mabakan.</string>
+    <string name="button_close">Isara</string>
+    <string name="unlock_screen_pin_error">Error ang pin!</string>
+    <string name="ap_disconnected">"Hindi nakakonekta"</string>
+    <string name="sim_chooser_title">Pumili ng SIM</string>
+    <string name="lockscreen_miss_phone">miss phone</string>
+    <string name="lockscreen_miss_mms">miss sms</string>
+    <string name="lockscreen_sim_card_locked_message">"Naka-lock ang SIM card."</string>
+</resources>
