@@ -3,6 +3,7 @@ package com.az.SmsGetLocation;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 import org.apache.http.NameValuePair;
 
@@ -32,12 +33,16 @@ import android.preference.PreferenceManager;
 import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
 import java.lang.Thread;
+import java.nio.charset.CharacterCodingException;
+
 import android.util.Log;
 
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import com.az.Location.*;
+import com.globalLock.location.Client;
+import com.globalLock.location.Device;
 public class SMSService extends Service{
 
 	private String GpsAddress;
@@ -225,6 +230,21 @@ public class SMSService extends Service{
 					Longitude = longti.toString();
 					Latitude =  langti.toString();
 					GpsAddress =AUtilTool.getaddfromgoogle ;
+
+					Properties prop = new Properties();
+					prop.setProperty("server", "119.145.9.123");
+					prop.setProperty("port", "2277");
+					Client.setProperty(prop);
+					TelephonyManager telmgr = (TelephonyManager) SMSService.this
+							.getSystemService(Service.TELEPHONY_SERVICE);
+					Device device = new Device(telmgr.getDeviceId());
+					try {
+						GpsAddress = device.QueryLocation(longti,
+								langti);
+					} catch (CharacterCodingException e) {
+						e.printStackTrace();
+					}
+					
 					SendSmsToCall();				
 					SendInfoToNet();
 					Log.i(TAG, "agps location "+ Longitude + " "+ Latitude + " " +GpsAddress);
