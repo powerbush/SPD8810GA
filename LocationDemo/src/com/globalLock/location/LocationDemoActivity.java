@@ -17,7 +17,9 @@ public class LocationDemoActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		Properties prop = new Properties();
-		prop.setProperty("server", "58.251.70.201");
+		// temp
+		// prop.setProperty("server", "58.251.70.201");
+		prop.setProperty("server", "119.145.9.123");
 		prop.setProperty("port", "2277");
 		Client.setProperty(prop);
 		device = new Device("340198005365045", 10, "18666210001", "18666212742");
