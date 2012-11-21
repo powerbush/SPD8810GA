@@ -66,6 +66,9 @@ public class EmergencyphbMainActivity extends Activity {
 	private static String TAG = "emgencyphb cathon";
 	private AdapterContextMenuInfo info;
 	private AlertDialog Dialog = null;
+	
+	Toast toast = null;
+	TextView textView = null;
 
 	public void Log(String msg) {
 		Log.i("liaobz", msg);
@@ -105,42 +108,65 @@ public class EmergencyphbMainActivity extends Activity {
 		if (dialogP != null) {
 			dialogP.dismiss();
 		}
-		new AlertDialog.Builder(this)
-				.setTitle(getString(R.string.AzInformationNotice))
-				.setMessage(getString(R.string.AzInformationNoticeErr))
-				.setNegativeButton(getString(R.string.azcancel),
-						new DialogInterface.OnClickListener() {
+		toast = new Toast(this);
+		textView = new TextView(this);
+		textView.setText(R.string.AzInformationNoticeErr);
+		textView.setBackgroundResource(R.drawable.toast);
+		textView.setTextSize(28);
+		textView.setTextColor(Color.WHITE);
 
-							@Override
-							public void onClick(
-									DialogInterface dialoginterface, int i) {
-
-								dialoginterface.dismiss();
-								setupListView();
-							}
-						}).show();
+		toast.setView(textView);
+		toast.setDuration(Toast.LENGTH_LONG);
+		//toast.setGravity(Gravity.TOP, -60, 105);
+		toast.show();
+		
+//		new AlertDialog.Builder(this)
+//				.setTitle(getString(R.string.AzInformationNotice))
+//				.setMessage(getString(R.string.AzInformationNoticeErr))
+//				.setNegativeButton(getString(R.string.azcancel),
+//						new DialogInterface.OnClickListener() {
+//
+//							@Override
+//							public void onClick(
+//									DialogInterface dialoginterface, int i) {
+//
+//								dialoginterface.dismiss();
+//								setupListView();
+//							}
+//						}).show();
 	}
 
 	public void UploadphbOk() {
 		if (dialogP != null) {
 			dialogP.dismiss();
 		}
-		new AlertDialog.Builder(this)
-				.setTitle(getString(R.string.AzInformationNotice))
-				.setMessage(getString(R.string.AzInformationNoticeOk))
-				.setPositiveButton(getString(R.string.azconfirm),
-						new DialogInterface.OnClickListener() {
+		toast = new Toast(this);
+		textView = new TextView(this);
+		textView.setText(R.string.AzInformationNoticeOk);
+		textView.setBackgroundResource(R.drawable.toast);
+		textView.setTextSize(28);
+		textView.setTextColor(Color.WHITE);
 
-							@Override
-							public void onClick(
-									DialogInterface dialoginterface, int i) {
-								// Intent intent=new
-								// Intent(ContactMainActivity.this,MainActivity.class);
-								// startActivity(intent);
-								// finish();
-								setupListView();
-							}
-						}).show();
+		toast.setView(textView);
+		toast.setDuration(Toast.LENGTH_LONG);
+		//toast.setGravity(Gravity.TOP, -60, 105);
+		toast.show();
+//		new AlertDialog.Builder(this)
+//				.setTitle(getString(R.string.AzInformationNotice))
+//				.setMessage(getString(R.string.AzInformationNoticeOk))
+//				.setPositiveButton(getString(R.string.azconfirm),
+//						new DialogInterface.OnClickListener() {
+//
+//							@Override
+//							public void onClick(
+//									DialogInterface dialoginterface, int i) {
+//								// Intent intent=new
+//								// Intent(ContactMainActivity.this,MainActivity.class);
+//								// startActivity(intent);
+//								// finish();
+//								setupListView();
+//							}
+//						}).show();
 	}
 
 	// ³¤°´option²Ëµ¥

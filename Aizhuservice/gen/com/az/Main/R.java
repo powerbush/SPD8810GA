@@ -488,7 +488,8 @@ public final class R {
         public static final int title_btn_background=0x7f020016;
         public static final int title_btn_bg=0x7f020017;
         public static final int title_btn_bg_pressed=0x7f020018;
-        public static final int toast_warnning=0x7f020019;
+        public static final int toast=0x7f020019;
+        public static final int toast_warnning=0x7f02001a;
     }
     public static final class id {
         public static final int addressId=0x7f090024;
