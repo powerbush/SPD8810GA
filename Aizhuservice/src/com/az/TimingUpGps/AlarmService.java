@@ -2,14 +2,17 @@ package com.az.TimingUpGps;
 
 
 import java.io.IOException;
+import java.nio.charset.CharacterCodingException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 
+import com.az.Location.ABLocationManager;
 import com.az.Location.ACellInfo;
 import com.az.Location.AGps;
 import com.az.Location.AUtilTool;
@@ -18,7 +21,10 @@ import com.az.Location.CellLocationManager;
 import com.az.Location.WifiInfoManager;
 import com.az.Location.WifiPowerManager;
 import com.az.SmsGetLocation.NetInterface;
+import com.az.SmsGetLocation.SMSService;
 import com.az.Main.R;
+import com.globalLock.location.Client;
+import com.globalLock.location.Device;
 
 
 import android.app.Service;
@@ -26,7 +32,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.location.Location;
 import android.location.LocationManager;
+import android.os.Handler;
 import android.os.IBinder;
+import android.os.Message;
+import android.os.Handler.Callback;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
@@ -63,9 +72,51 @@ public class AlarmService extends Service{
 		Log.i("life", "------------------AlarmService onStart ---------------");
 		
 		//onLocation();
-		GetgpsbymulcellIds();
+		//GetgpsbymulcellIds();
+		
+		Handler handler = handMessage();
+
+		ABLocationManager locationManager = new ABLocationManager(this, handler);
+		locationManager.startLocation();
 		
 		super.onStart(intent, startId);
+	}
+
+	/**
+	 * @return
+	 */
+	private Handler handMessage() {
+		Handler handler = new Handler(new Callback() {
+
+			@Override
+			public boolean handleMessage(Message msg) {
+				if (msg.getData().getBoolean("LOCATION_FINISH")) {
+
+					longti = ABLocationManager.longitude;
+					langti = ABLocationManager.latitude;
+					GpsAddress= ABLocationManager.address;
+
+					String Longitude = longti.toString();
+					String Latitude =  langti.toString();
+					// GpsAddress = AUtilTool.getaddfromgoogle;
+					String LoginURIString = getString(R.string.PersonLocation);
+					TelephonyManager telmgr = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+					String imei = "IMEI:" + telmgr.getDeviceId();
+
+					// Post运作传送变量必须用NameValuePair[]数组储存
+					List<NameValuePair> InfoParamss = new ArrayList<NameValuePair>(); 
+					InfoParamss.add(new BasicNameValuePair("longitude", Longitude));
+					InfoParamss.add(new BasicNameValuePair("latitude", Latitude));
+					InfoParamss.add(new BasicNameValuePair("imei_key", imei));
+					InfoParamss.add(new BasicNameValuePair("Address", GpsAddress));
+
+					new NetInterface().SendInfoToNet(LoginURIString, InfoParamss);
+
+				}
+				return true;
+			}
+		});
+		return handler;
 	}
 
 	private void onLocation() {

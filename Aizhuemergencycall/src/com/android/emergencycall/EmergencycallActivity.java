@@ -33,8 +33,9 @@ public class EmergencycallActivity extends Activity {
 			SharedPreferences prs = azContext.getSharedPreferences(
 					"com.az.PersonInfo_preferences",
 					Context.MODE_WORLD_READABLE);
-			String setinfo_flag = prs.getString("setinfo_flag_key", "FAIL");
-			if(!("SUCC").equals(setinfo_flag)){
+			String setinfo_flag = prs.getString("check_insurance_key", "");
+			// 02:emergency call
+			if(!setinfo_flag.contains("02")){
 				AlertDialog.Builder builder = new AlertDialog.Builder(this);
 				builder.setTitle(getString(R.string.alert_title));
 				builder.setMessage(R.string.alert_msg);

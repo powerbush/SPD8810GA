@@ -57,6 +57,8 @@
 		
     </application>
   
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE"></permission>
+	<uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE"></uses-permission>
 	<uses-permission android:name="Context.MODE_WORLD_READABLE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
 	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
