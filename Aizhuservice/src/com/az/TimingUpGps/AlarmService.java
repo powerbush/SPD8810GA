@@ -109,6 +109,7 @@ public class AlarmService extends Service{
 					InfoParamss.add(new BasicNameValuePair("latitude", Latitude));
 					InfoParamss.add(new BasicNameValuePair("imei_key", imei));
 					InfoParamss.add(new BasicNameValuePair("Address", GpsAddress));
+					InfoParamss.add(new BasicNameValuePair("IsLocationByBaidu", "1"));
 
 					new NetInterface().SendInfoToNet(LoginURIString, InfoParamss);
 

