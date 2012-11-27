@@ -13,10 +13,12 @@
            2. android:autoText
            3. android:background -->
 
+    <!-- Jackie -->
     <com.android.phone.CallForwardEditPreference
         android:key="button_cfu_key"
         android:title="@string/labelCFU"
         android:persistent="false"
+		android:layout="@layout/preference_layout"
         android:summaryOn="@string/sum_cfu_enabled"
         android:summaryOff="@string/sum_cfu_disabled"
         android:dialogTitle="@string/labelCFU"
@@ -28,9 +30,11 @@
         android:autoText="false"/>
 
     <!-- See note on com.android.phone.EditPreference above -->
+	<!-- Jackie -->
     <com.android.phone.CallForwardEditPreference
         android:key="button_cfb_key"
         android:title="@string/labelCFB"
+		android:layout="@layout/preference_layout"
         android:persistent="false"
         android:summaryOn="@string/sum_cfb_enabled"
         android:summaryOff="@string/sum_cfb_disabled"
@@ -44,10 +48,12 @@
         android:autoText="false"/>
 
     <!-- See note on com.android.phone.EditPreference above -->
+	<!-- Jackie -->
     <com.android.phone.CallForwardEditPreference
         android:key="button_cfnry_key"
         android:title="@string/labelCFNRy"
         android:persistent="false"
+		android:layout="@layout/preference_layout"
         android:summaryOn="@string/sum_cfnry_enabled"
         android:summaryOff="@string/sum_cfnry_disabled"
         android:dialogTitle="@string/labelCFNRy"
@@ -60,9 +66,11 @@
         android:autoText="false"/>
 
     <!-- See note on com.android.phone.EditPreference above -->
+	<!-- Jackie -->
     <com.android.phone.CallForwardEditPreference
         android:key="button_cfnrc_key"
         android:title="@string/labelCFNRc"
+		android:layout="@layout/preference_layout"
         android:persistent="false"
         android:summaryOn="@string/sum_cfnrc_enabled"
         android:summaryOff="@string/sum_cfnrc_disabled"

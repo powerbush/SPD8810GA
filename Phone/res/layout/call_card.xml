@@ -69,7 +69,6 @@
             />
     </LinearLayout>
 
-    <!-- 放在右上角 -->
     <TextView android:id="@+id/upperTopSimTitle"
               android:gravity="center_horizontal"
               android:textAppearance="?android:attr/textAppearanceLarge"

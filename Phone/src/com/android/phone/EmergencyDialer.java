@@ -23,6 +23,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.ActivityInfo;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
@@ -40,6 +41,7 @@ import android.text.method.DialerKeyListener;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 
@@ -100,6 +102,9 @@ public class EmergencyDialer extends Activity
 
     // Haptic feedback (vibration) for dialer key presses.
     private HapticFeedback mHaptic = new HapticFeedback();
+    
+    //add by xhy 2012-10-26
+    private static final String FIXED_EMERGENCY_PHONE_NUMBER = "10086";
 
     // close activity when screen turns off
     private BroadcastReceiver mBroadcastReceiver = new BroadcastReceiver() {
@@ -148,6 +153,9 @@ public class EmergencyDialer extends Activity
 
     @Override
     protected void onCreate(Bundle icicle) {
+    	setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+
         super.onCreate(icicle);
 
         // set this flag so this activity will stay in front of the keyguard
@@ -175,6 +183,8 @@ public class EmergencyDialer extends Activity
         }
 
 		mEmergencyButton = findViewById(R.id.emergency_button);
+		//add by xhy 2012-10-25
+		mEmergencyButton.setEnabled(true);
 		mEmergencyButton.setOnClickListener(this);
 
 		mDelete = findViewById(R.id.deleteButton);
@@ -475,6 +485,15 @@ public class EmergencyDialer extends Activity
      */
     void placeCall() {
         mLastNumber = mDigits.getText().toString();
+        if( mLastNumber.isEmpty() || mLastNumber.equals(FIXED_EMERGENCY_PHONE_NUMBER)){
+        	mLastNumber = FIXED_EMERGENCY_PHONE_NUMBER;
+        	Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + mLastNumber));
+			intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
+				| Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
+			startActivity(intent); 
+			finish();
+			return;
+        }
         if (PhoneNumberUtils.isEmergencyNumber(mLastNumber)) {
             if (DBG) Log.d(LOG_TAG, "placing call to " + mLastNumber);
 
@@ -576,7 +595,8 @@ public class EmergencyDialer extends Activity
      */
 	private void updateDialAndDeleteButtonStateEnabledAttr() {
 		final boolean notEmpty = mDigits.length() != 0;
-		mEmergencyButton.setEnabled(notEmpty);
+             // delete by xhy 2012-10-25
+		mEmergencyButton.setEnabled(true);
 		mDelete.setEnabled(notEmpty);
 	}
 }

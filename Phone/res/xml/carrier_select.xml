@@ -16,13 +16,17 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:key="list_networks_key" 
         android:title="@string/label_available">
+	<!-- Jackie -->
     <Preference 
         android:key="button_srch_netwrks_key" 
+		android:layout="@layout/preference_layout"
         android:title="@string/search_networks"
         android:summary="@string/sum_search_networks"
         android:persistent="false"/>
+	<!-- Jackie -->
     <Preference 
         android:key="button_auto_select_key" 
+		android:layout="@layout/preference_layout"
         android:title="@string/select_automatically"
         android:summary="@string/sum_select_automatically"
         android:persistent="false"/>

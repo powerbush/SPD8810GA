@@ -2,8 +2,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
      xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
      android:title="@string/call_settings">
+	<!-- Jackie -->
     <PreferenceScreen
         android:key="sim1_key"
+		android:layout="@layout/preference_layout"
         android:title="@string/sim1"
         android:persistent="false">
         <intent android:action="android.intent.action.MAIN"
@@ -11,8 +13,10 @@
             android:targetClass="com.android.phone.CallFeaturesSetting" />
     </PreferenceScreen>
 
+	<!-- Jakcie -->
     <PreferenceScreen
         android:key="sim2_key"
+		android:layout="@layout/preference_layout"
         android:title="@string/sim2"
         android:persistent="false">
         <intent android:action="android.intent.action.MAIN"
@@ -24,14 +28,18 @@
         android:key="button_ip_dailing_category_key"
         android:title="@string/set_ip_dailing_title"
         android:persistent="false">
+  <!-- Jakcie -->
   <CheckBoxPreference android:key="set_ip_dailing_on"
+		android:layout="@layout/preference_layout"
         android:title="@string/set_ip_dailing_title"
         android:persistent="false"
         android:disableDependentsState="true"
         />
 
+	<!-- Jackie -->
     <PreferenceScreen
         android:key="set_ip_dailing_preference"
+		android:layout="@layout/preference_layout"
         android:title="@string/ip_dailing"
         android:persistent="false">
 
@@ -45,9 +53,11 @@
       <PreferenceCategory android:key="call_vbr_setting"
         android:title="@string/call_vibrate_title"
         android:persistent="false">
+	  <!-- Jakcie -->
       <CheckBoxPreference
         android:key="gsm_button_call_vibrate_key"
         android:title="@string/call_vibrate_title"
+		android:layout="@layout/preference_layout"
         android:persistent="false"
         android:defaultValue="true"
         android:summary="@string/call_vibrate_summary"/>

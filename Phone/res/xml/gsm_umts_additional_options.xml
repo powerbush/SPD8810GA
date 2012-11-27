@@ -3,20 +3,24 @@
      xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
      android:title="@string/additional_gsm_call_settings">
 
+	<!-- Jackie -->
     <com.android.phone.CLIRListPreference
         android:key="button_clir_key"
         android:title="@string/labelCallerId"
         android:persistent="false"
         android:defaultValue="DEFAULT"
+		android:layout="@layout/preference_layout"
         android:entries="@array/clir_display_values"
         android:entryValues="@array/clir_values"
         android:enabled="false"
         android:dialogTitle="@string/labelCallerId"/>
 
+	<!-- Jackie -->
     <com.android.phone.CallWaitingCheckBoxPreference
         android:key="button_cw_key"
         android:title="@string/labelCW"
         android:persistent="false"
+		android:layout="@layout/preference_layout"
         android:summaryOn="@string/sum_cw_enabled"
         android:summaryOff="@string/sum_cw_disabled"/>
 </PreferenceScreen>

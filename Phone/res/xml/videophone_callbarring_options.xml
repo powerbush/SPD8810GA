@@ -12,11 +12,12 @@
            1. android:singleLine
            2. android:autoText
            3. android:background -->
-
+	<!-- Jackie -->
     <com.android.phone.CallBarringEditPreference
         android:key="button_ao_key"
         android:title="@string/labelAO"
         android:persistent="false"
+		android:layout="@layout/preference_layout"
         android:summaryOn="@string/sum_ao_enabled"
         android:summaryOff="@string/sum_ao_disabled"
         android:dialogTitle="@string/labelAO"
@@ -28,10 +29,12 @@
         android:autoText="false"/>
 
     <!-- See note on com.android.phone.EditPreference above -->
+	<!-- Jackie -->
     <com.android.phone.CallBarringEditPreference
         android:key="button_oi_key"
         android:title="@string/labelOI"
         android:persistent="false"
+		android:layout="@layout/preference_layout"
         android:summaryOn="@string/sum_oi_enabled"
         android:summaryOff="@string/sum_oi_disabled"
         android:dialogTitle="@string/labelOI"
@@ -43,10 +46,12 @@
         android:autoText="false"/>
 
     <!-- See note on com.android.phone.EditPreference above -->
+	<!-- Jakcie -->
     <com.android.phone.CallBarringEditPreference
         android:key="button_ox_key"
         android:title="@string/labelOX"
         android:persistent="false"
+		android:layout="@layout/preference_layout"
         android:summaryOn="@string/sum_ox_enabled"
         android:summaryOff="@string/sum_ox_disabled"
         android:dialogTitle="@string/labelOX"
@@ -58,10 +63,12 @@
         android:autoText="false"/>
 
     <!-- See note on com.android.phone.EditPreference above -->
+	<!-- Jackie -->
     <com.android.phone.CallBarringEditPreference
         android:key="button_ai_key"
         android:title="@string/labelAI"
         android:persistent="false"
+		android:layout="@layout/preference_layout"
         android:summaryOn="@string/sum_ai_enabled"
         android:summaryOff="@string/sum_ai_disabled"
         android:dialogTitle="@string/labelAI"
@@ -73,10 +80,12 @@
         android:autoText="false"/>
         
     <!-- See note on com.android.phone.EditPreference above -->
+	<!-- Jakcie -->
     <com.android.phone.CallBarringEditPreference
         android:key="button_ir_key"
         android:title="@string/labelIR"
         android:persistent="false"
+		android:layout="@layout/preference_layout"
         android:summaryOn="@string/sum_ir_enabled"
         android:summaryOff="@string/sum_ir_disabled"
         android:dialogTitle="@string/labelIR"
@@ -88,10 +97,12 @@
         android:autoText="false"/>
         
     <!-- See note on com.android.phone.EditPreference above -->
+	<!-- Jackie -->
     <com.android.phone.CallBarringEditPreference
         android:key="button_ab_key"
         android:title="@string/labelAB"
         android:persistent="false"
+		android:layout="@layout/preference_layout"
         android:dialogTitle="@string/labelAB"
         android:dialogMessage="@string/messageAB"
         phone:aconfirmMode="activation"
@@ -101,9 +112,11 @@
         android:autoText="false"/>
         
     <!-- See note on com.android.phone.EditPreference above -->
+	<!-- Jackie -->
     <com.android.phone.CallBarringChgPwdPreference
         android:key="button_chgpwd_key"
         android:title="@string/labelChgPwd"
+		android:layout="@layout/preference_layout"
         android:persistent="false"
         android:dialogTitle="@string/DlgChgPwd_oldpwd"
         phone:aconfirmMode="activation"

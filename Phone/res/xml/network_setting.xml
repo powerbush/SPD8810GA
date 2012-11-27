@@ -16,22 +16,27 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
         android:title="@string/mobile_networks">
-
+	<!-- Jackie -->
     <CheckBoxPreference
         android:key="button_data_enabled_key"
         android:title="@string/data_enabled"
+		android:layout="@layout/preference_layout"
         android:persistent="false"
         android:summary="@string/data_enable_summary"/>
 
+	<!-- Jackie -->
     <CheckBoxPreference
         android:key="button_roaming_key"
         android:title="@string/roaming"
         android:persistent="false"
+		android:layout="@layout/preference_layout"
         android:summaryOn="@string/roaming_enable"
         android:summaryOff="@string/roaming_disable"/>
 
+	<!-- Jackie -->
     <PreferenceScreen
         android:key="button_data_usage_key"
+		android:layout="@layout/preference_layout"
         android:title="@string/throttle_data_usage"
         android:persistent="false">
 
@@ -40,12 +45,15 @@
             android:targetClass="com.android.phone.DataUsage" />
     </PreferenceScreen>
 
-     <Preference android:key="uplmn_value" android:title="@string/UPLMN_setting">
+	<!-- Jackie -->
+     <Preference android:key="uplmn_value" android:layout="@layout/preference_layout" android:title="@string/UPLMN_setting">
      </Preference>
 
+	<!-- Jackie -->
     <ListPreference
         android:key="preferred_network_mode_key"
         android:title="@string/preferred_network_mode_title"
+		android:layout="@layout/preference_layout"
         android:summary="@string/preferred_network_mode_summary"
         android:entries="@array/preferred_network_mode_choices"
         android:entryValues="@array/preferred_network_mode_values"

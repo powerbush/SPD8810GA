@@ -39,6 +39,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
 import com.android.internal.telephony.Call;
 import com.android.internal.telephony.CallerInfo;
 import com.android.internal.telephony.CallerInfoAsyncQuery;
@@ -93,7 +94,7 @@ public class CallCard extends FrameLayout
     // including photo / name / phone number / etc.
     private ImageView mPhoto;
     private Button mManageConferencePhotoButton;  // Possibly shown in place of mPhoto
-    private TextView mName;
+    private TextView mName;    
     private TextView mPhoneNumber;
     private TextView mLabel;
     private TextView mRecordFlag;
@@ -1440,29 +1441,40 @@ public class CallCard extends FrameLayout
                 }
 
                 //via liaobz start
+                Log.i(LOG_TAG,"start:"+ci);
+                Log.i(LOG_TAG,"start:"+(ci!=null));
                 byte[] imageBytes=null;
                 if (ci != null) {
-                    //1.根据联系人号码phoneNumber查紧急联系人数据库,返回id或null
-                    //2.若id不为空.从紧急联系人头像数据表中取得头像
-                    //3.若id为空.则根据号码在系统表中取得contact_id..(person_id不知为何物)
-                    //4.若id不为空.从联系人头像数据表中取得头像
+                    //1.according phoneNumber,find id or null from emergencyphb
+                    //2.if id not null.find avatar from emergencyphb
+                    //3.if id is null.according num find contact_id from sys db(dont know what is person_id)
+                    //4.if id not null.get avatar from sys db
                     long contactId = -1;
+                    SQLiteDatabase db = null;
+                    Cursor cursor = null;
                     String databaseFilename = "/data/data/com.az.Main/databases/emergencyphb.db";
                     try{
                         //step 1
-                        SQLiteDatabase db = getContext().openOrCreateDatabase(databaseFilename,Context.MODE_WORLD_WRITEABLE + Context.MODE_WORLD_READABLE,null);
-                        Cursor cursor=db.query("emerphb", new String[]{"_id"}, " phonenum = '" + ci.phoneNumber + "' ", null, null, null, null);
-                        if(cursor!=null){
-                            if(cursor.moveToFirst()){
-                                contactId = cursor.getInt(cursor.getColumnIndex("_id"));
+                        try{
+                            db = getContext().openOrCreateDatabase(databaseFilename,Context.MODE_WORLD_WRITEABLE + Context.MODE_WORLD_READABLE,null);
+                            Log.i(LOG_TAG,"step 1:" + db);
+                            cursor=db.query("emerphb", new String[]{"_id"}, " phonenum = '" + ci.phoneNumber + "' ", null, null, null, null);
+                            Log.i(LOG_TAG,"step 1:" + cursor);
+                            if(cursor!=null){
+                                if(cursor.moveToFirst()){
+                                    contactId = cursor.getInt(cursor.getColumnIndex("_id"));
+                                }
+                                cursor.close();
                             }
-                            cursor.close();
-                        }
+                        } catch (Exception excp) {}
+                        Log.i(LOG_TAG,"step 1:" + contactId);
                         //step 2
                         if(contactId > 0){
+                            Log.i(LOG_TAG,"step 2:" + contactId);
                             databaseFilename = "/data/data/com.android.contacts/databases/contactphoto.db";
                             db = getContext().openOrCreateDatabase(databaseFilename,Context.MODE_WORLD_WRITEABLE + Context.MODE_WORLD_READABLE,null);
                             cursor=db.rawQuery("select image from emergencyinfo where contact_id=" + contactId, null);
+                            Log.i(LOG_TAG,"step 2:" + cursor);
                             if(cursor!=null){
                                 if(cursor.moveToFirst()){
                                     imageBytes=cursor.getBlob(cursor.getColumnIndex("image"));
@@ -1472,6 +1484,7 @@ public class CallCard extends FrameLayout
                         }
                         else{
                             //step 3
+                            Log.i(LOG_TAG,"step 3:" + contactId);
                             cursor=getContext().getContentResolver().query(Contacts.CONTENT_URI, new String[]{"_id"}, null, null, null);
                             if(cursor!=null){
                                 if(cursor.moveToFirst()){
@@ -1479,22 +1492,27 @@ public class CallCard extends FrameLayout
                                 }
                                 cursor.close();
                             }
+                            Log.i(LOG_TAG,"step 3:" + contactId);
                             if(contactId > 0){
                                 //step 4
                                 databaseFilename = "/data/data/com.android.contacts/databases/contactphoto.db";
                                 db = getContext().openOrCreateDatabase(databaseFilename,Context.MODE_WORLD_WRITEABLE + Context.MODE_WORLD_READABLE,null);
                                 cursor=db.rawQuery("select image from contacttbl where contact_id=" + ci.person_id, null);
+                                Log.i(LOG_TAG,"step 4:" + cursor);
                                 if(cursor!=null){
                                     if(cursor.moveToFirst()){
                                         imageBytes=cursor.getBlob(cursor.getColumnIndex("image"));
+                                        Log.i(LOG_TAG,"step 4:" + imageBytes);
                                     }
                                 }
                                 cursor.close();
                             }
                         }
-                        db.close();
+                    } catch(Exception e) {
+                        e.printStackTrace();
+                    } finally {
+                        try{db.close();}catch(Exception ex){}
                     }
-                    catch(Exception e){}
                     //photoImageResource = ci.photoResource;
                     //via liaobz end
                 }

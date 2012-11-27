@@ -2,40 +2,51 @@
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android">
         
-        <CheckBoxPreference
+        <!-- Jackie -->
+				android:layout="@layout/preference_layout"
+		<CheckBoxPreference
                 android:key="static_image_enable_key"
             	android:defaultValue="true"
+				android:layout="@layout/preference_layout"
                 android:title="@string/videophone_setting_title_static_image"
                 android:summary="@string/videophone_setting_summary_static_image" />
 
+        <!-- Jackie -->
         <ListPreference
                 android:key="static_remote_image_set_key"
+				android:layout="@layout/preference_layout"
             	android:defaultValue="null"
                 android:title="@string/videophone_setting_title_remote_static_image_set"
                 android:entries="@array/videophone_setting_static_image_set_entries"
                 android:entryValues="@array/videophone_setting_static_image_set_entryvalues"
                 android:dialogTitle="@string/videophone_setting_title_remote_static_image_set" />
                 
+        <!-- Jackie -->
    		<ListPreference
                 android:key="static_local_image_set_key"
             	android:defaultValue="null"
+				android:layout="@layout/preference_layout"
                 android:title="@string/videophone_setting_title_local_static_image_set"
                 android:entries="@array/videophone_setting_static_image_set_entries"
                 android:entryValues="@array/videophone_setting_static_image_set_entryvalues"
                 android:dialogTitle="@string/videophone_setting_title_local_static_image_set" />
                 
+        <!-- Jackie -->
         <ListPreference
                 android:key="layout_key"
+				android:layout="@layout/preference_layout"
             	android:defaultValue="@string/videophone_setting_layout_defaultvalue"
                 android:title="@string/videophone_setting_title_layout"
                 android:entries="@array/videophone_setting_layout_entries"
                 android:entryValues="@array/videophone_setting_layout_entryvalues"
                 android:dialogTitle="@string/videophone_setting_dialog_title_layout" />
                 
+        <!-- Jackie -->
         <ListPreference
                 android:key="fallback_key"
             	android:defaultValue="@string/videophone_setting_fallback_defaultvalue"
                 android:title="@string/videophone_setting_title_fallback"
+				android:layout="@layout/preference_layout"
                 android:entries="@array/videophone_setting_fallback_entries"
                 android:entryValues="@array/videophone_setting_fallback_entryvalues"
                 android:dialogTitle="@string/videophone_setting_dialog_title_fallback" />                
