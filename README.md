@@ -26,4 +26,5 @@ android 编译完成之后会生生一个 system.img，要想解压system.img需
 	:~/ext4$ ./make_ext4fs -s -l 512M -a system system_new.img ./sys_dir/
 	:~/ext4$  file ./system_new.img 
 	./system_new.img: data
+##4、
 [原博客](http://blog.chinaunix.net/uid-26009923-id-3454597.html)中ext4_utils链接地址有误,且貌似是同时登陆两台电脑写教程(sun@ubuntu/root@yanfa3-desktop)。
