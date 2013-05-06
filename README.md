@@ -1,14 +1,13 @@
 SPD8810GA
 =========
 ##1、
-android 编译完成之后会生生一个 system.img，要想解压system.img需要知道system.img是如何打包生成的，这个好像没有工具可以查看system.img的格式，只能一个个的试。
-我试了一下unyaffs与unyaffs2都不能解压，最后才发现这个system.img是ext4打包的，用simg2img就ok了！
-下载[ext4_utils](https://github.com/YuLaw/ext4-utils)
-应该有源码的，但这个是编译好的二进制文件，直接拿来用就行。
-##2、解压
+android 编译完成之后会生生一个 system.img，要想解压system.img需要知道system.img是如何打包生成的，这个好像没有工具可以查看system.img的格式，只能看到是data，所以只能一个个的试。
 
 	:~/ext4$ file system.img
 	system.img: data
+试了一下unyaffs与unyaffs2都不能解压，最后才发现这个system.img是ext4打包的，用simg2img就ok了！
+下载[ext4_utils](https://github.com/YuLaw/ext4-utils)源码，编译好之后会有两个文件simg2img、make_ext4fs。
+##2、解压
 
 //生成 ext4格式的img文件
 	
